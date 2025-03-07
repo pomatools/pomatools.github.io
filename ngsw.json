@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1741330505903,
+  "timestamp": 1741330925804,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -4230,9 +4230,9 @@
     "/assets/img/ui/champ_6.png": "8870ee4f727b8bf7c5ded765eee706f2c8929735",
     "/assets/img/ui/champ_7.png": "5ceb58155f80714d69e54ae81b89d64c607aa0f3",
     "/assets/img/ui/champ_8.png": "7e633156a69ef634528d33a3c51ec5617b1996a5",
-    "/assets/svg/categories.svg": "104a2f9591f1f4e6d03a3fdcb6f6bdf94956819e",
-    "/assets/svg/iconset.svg": "70b59c212d6f4d0644d01e63db00f4576edb400f",
-    "/assets/svg/themes.svg": "bdfcd9d92a5057abc1f8c17807a11895d77b3eaf",
+    "/assets/svg/categories.svg": "330a6cc4780fd29123e04f70e884924db8bb755a",
+    "/assets/svg/iconset.svg": "36da0fcf9e44e1f95aef9afbcc264a6d1e8fb2c2",
+    "/assets/svg/themes.svg": "371f21121006f1b1157455db36e9ffc009612c47",
     "/fa-brands-400.7fa789ab57acb632.ttf": "acc07d5e1ab5b96b23fabb53b1f4e416c7c0a46d",
     "/fa-brands-400.859fc3887485de84.woff2": "a280ecdddd14695fad22599301ab03adfe5224c0",
     "/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
