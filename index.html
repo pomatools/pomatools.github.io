@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <meta property="og:site_name" content="PoMaTools">
+  <meta property="og:title" content="PoMaTools - Pokémon Masters EX Grid Simulator">
+  <meta property="og:url" content="https://ng-pomatools.web.app">
+  <meta property="og:description" content="PoMaTools is a Pokémon Masters EX tool that helps users to plan their sync grids while simulating the possible damage outputs.">
+  <meta name="description" content="PoMaTools is a Pokémon Masters EX tool that helps users to plan their sync grids while simulating the possible damage outputs.">
+  <meta name="author" content="StDk">
+  <meta name="keywords" content="pokemon masters,pokemon masters ex,pokemas,pokemas_game,ポケマスEX,ポケマス,sync grid,sync pair">
+  <title>PoMaTools</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style type="text/css">
+    body,
+    html {
+      height: 100%;
+    }
+
+    .app-loading {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .app-loading .spinner {
+      height: 200px;
+      width: 200px;
+      animation: rotate 2s linear infinite;
+      transform-origin: center center;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    .app-loading .spinner .path {
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+      animation: dash 1.5s ease-in-out infinite;
+      stroke-linecap: round;
+      stroke: #ddd;
+    }
+
+    @keyframes rotate {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes dash {
+      0% {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+      }
+
+      50% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35px;
+      }
+
+      100% {
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124px;
+      }
+    }
+  </style>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#ff4855">
+<style>@charset "UTF-8";:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#343a40;--bs-gray-900:#212529;--bs-primary:#0d6efd;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-tile-stat:#568dd0;--bs-tile-stat-dark:#18529c;--bs-tile-powerup:#4ab797;--bs-tile-powerup-dark:#056e50;--bs-tile-sync:#8974c3;--bs-tile-sync-dark:#432d7f;--bs-tile-dmax:#e17db9;--bs-tile-dmax-dark:#a6186c;--bs-tile-arc:#fff4bc;--bs-tile-arc-dark:#7d765a;--bs-tile-passive:#e5ce5e;--bs-tile-passive-dark:#907500;--bs-tile-modifier:#e1768a;--bs-tile-modifier-dark:#a7364a;--bs-master-color:#c775fe;--bs-master-color-dark:#9a50e5;--bs-arc-color:#fce315;--bs-arc-color-dark:#eba730;--bs-awakening-color:#2176d1;--bs-awakening-color-dark:#16487b;--bs-skill-color:#27d5ee;--bs-skill-color-dark:#30b8ea;--bs-dmax-color:#333333;--bs-dmax-color-2:#f24377;--bs-ex-role:#948cff;--bs-ex-role-dark:#573ed7;--bs-type-0:#66b2a5;--bs-type-1:#b0aeac;--bs-type-2:#ee6060;--bs-type-3:#5fc3eb;--bs-type-4:#ffda3d;--bs-type-5:#4fca5c;--bs-type-6:#78c8d2;--bs-type-7:#f8925a;--bs-type-8:#c873dc;--bs-type-9:#d28246;--bs-type-10:#82a0f0;--bs-type-11:#f582af;--bs-type-12:#aad23c;--bs-type-13:#be9678;--bs-type-14:#c89bc3;--bs-type-15:#32aacd;--bs-type-16:#9696b4;--bs-type-17:#96aad7;--bs-type-18:#fa9dac;--bs-type-19:#66b2a5;--bs-type-0-dark:#316571;--bs-type-1-dark:#747474;--bs-type-2-dark:#a24244;--bs-type-3-dark:#488daa;--bs-type-4-dark:#a99437;--bs-type-5-dark:#4e9956;--bs-type-6-dark:#538c90;--bs-type-7-dark:#9e6848;--bs-type-8-dark:#755785;--bs-type-9-dark:#7d5744;--bs-type-10-dark:#4a63a8;--bs-type-11-dark:#ab5977;--bs-type-12-dark:#7e9246;--bs-type-13-dark:#7b6f65;--bs-type-14-dark:#875f83;--bs-type-15-dark:#2a7b90;--bs-type-16-dark:#5f5d69;--bs-type-17-dark:#6a7181;--bs-type-18-dark:#ab6e83;--bs-type-19-dark:#316571;--bs-primary-rgb:13, 110, 253;--bs-secondary-rgb:108, 117, 125;--bs-success-rgb:25, 135, 84;--bs-info-rgb:13, 202, 240;--bs-warning-rgb:255, 193, 7;--bs-danger-rgb:220, 53, 69;--bs-light-rgb:248, 249, 250;--bs-dark-rgb:33, 37, 41;--bs-white-rgb:255, 255, 255;--bs-black-rgb:0, 0, 0;--bs-body-color-rgb:33, 37, 41;--bs-body-bg-rgb:255, 255, 255;--bs-font-sans-serif:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--bs-font-monospace:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));--bs-body-font-family:var(--bs-font-sans-serif);--bs-body-font-size:1rem;--bs-body-font-weight:400;--bs-body-line-height:1.5;--bs-body-color:#212529;--bs-body-bg:#fff}*,*:before,*:after{box-sizing:border-box}@media (prefers-reduced-motion: no-preference){:root{scroll-behavior:smooth}}body{margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}svg{vertical-align:middle}:root{--fa-font-solid:normal 900 1em/1 "Font Awesome 6 Free"}@font-face{font-family:"Font Awesome 6 Free";font-style:normal;font-weight:900;font-display:block;src:url(fa-solid-900.40ddefd79fe7af45.woff2) format("woff2"),url(fa-solid-900.3a463ec33b4fe9f7.ttf) format("truetype")}:root{--fa-font-brands:normal 400 1em/1 "Font Awesome 6 Brands"}@font-face{font-family:"Font Awesome 6 Brands";font-style:normal;font-weight:400;font-display:block;src:url(fa-brands-400.859fc3887485de84.woff2) format("woff2"),url(fa-brands-400.7fa789ab57acb632.ttf) format("truetype")}:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-gray-100:#f8f9fa;--bs-gray-200:#e9ecef;--bs-gray-300:#dee2e6;--bs-gray-400:#ced4da;--bs-gray-500:#adb5bd;--bs-gray-600:#6c757d;--bs-gray-700:#495057;--bs-gray-800:#343a40;--bs-gray-900:#212529;--bs-primary:#0d6efd;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-tile-stat:#568dd0;--bs-tile-stat-dark:#18529c;--bs-tile-powerup:#4ab797;--bs-tile-powerup-dark:#056e50;--bs-tile-sync:#8974c3;--bs-tile-sync-dark:#432d7f;--bs-tile-dmax:#e17db9;--bs-tile-dmax-dark:#a6186c;--bs-tile-arc:#fff4bc;--bs-tile-arc-dark:#7d765a;--bs-tile-passive:#e5ce5e;--bs-tile-passive-dark:#907500;--bs-tile-modifier:#e1768a;--bs-tile-modifier-dark:#a7364a;--bs-master-color:#c775fe;--bs-master-color-dark:#9a50e5;--bs-arc-color:#fce315;--bs-arc-color-dark:#eba730;--bs-awakening-color:#2176d1;--bs-awakening-color-dark:#16487b;--bs-skill-color:#27d5ee;--bs-skill-color-dark:#30b8ea;--bs-dmax-color:#333333;--bs-dmax-color-2:#f24377;--bs-ex-role:#948cff;--bs-ex-role-dark:#573ed7;--bs-type-0:#66b2a5;--bs-type-1:#b0aeac;--bs-type-2:#ee6060;--bs-type-3:#5fc3eb;--bs-type-4:#ffda3d;--bs-type-5:#4fca5c;--bs-type-6:#78c8d2;--bs-type-7:#f8925a;--bs-type-8:#c873dc;--bs-type-9:#d28246;--bs-type-10:#82a0f0;--bs-type-11:#f582af;--bs-type-12:#aad23c;--bs-type-13:#be9678;--bs-type-14:#c89bc3;--bs-type-15:#32aacd;--bs-type-16:#9696b4;--bs-type-17:#96aad7;--bs-type-18:#fa9dac;--bs-type-19:#66b2a5;--bs-type-0-dark:#316571;--bs-type-1-dark:#747474;--bs-type-2-dark:#a24244;--bs-type-3-dark:#488daa;--bs-type-4-dark:#a99437;--bs-type-5-dark:#4e9956;--bs-type-6-dark:#538c90;--bs-type-7-dark:#9e6848;--bs-type-8-dark:#755785;--bs-type-9-dark:#7d5744;--bs-type-10-dark:#4a63a8;--bs-type-11-dark:#ab5977;--bs-type-12-dark:#7e9246;--bs-type-13-dark:#7b6f65;--bs-type-14-dark:#875f83;--bs-type-15-dark:#2a7b90;--bs-type-16-dark:#5f5d69;--bs-type-17-dark:#6a7181;--bs-type-18-dark:#ab6e83;--bs-type-19-dark:#316571;--bs-primary-rgb:13, 110, 253;--bs-secondary-rgb:108, 117, 125;--bs-success-rgb:25, 135, 84;--bs-info-rgb:13, 202, 240;--bs-warning-rgb:255, 193, 7;--bs-danger-rgb:220, 53, 69;--bs-light-rgb:248, 249, 250;--bs-dark-rgb:33, 37, 41;--bs-white-rgb:255, 255, 255;--bs-black-rgb:0, 0, 0;--bs-body-color-rgb:33, 37, 41;--bs-body-bg-rgb:255, 255, 255;--bs-font-sans-serif:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--bs-font-monospace:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));--bs-body-font-family:var(--bs-font-sans-serif);--bs-body-font-size:1rem;--bs-body-font-weight:400;--bs-body-line-height:1.5;--bs-body-color:#212529;--bs-body-bg:#fff}*,*:before,*:after{box-sizing:border-box}@media (prefers-reduced-motion: no-preference){:root{scroll-behavior:smooth}}body{margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}svg{vertical-align:middle}body{font-family:Roboto,Tahoma,apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";background-image:url(/assets/img/theme.png);background-size:300px 300px}@media (prefers-color-scheme: dark){body{background-color:#202020;color:#feffff}}</style><link rel="stylesheet" href="styles.63dd96353b8c82cd.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.63dd96353b8c82cd.css"></noscript></head>
+
+<body>
+  <app-root>
+    <div class="app-loading">
+      <div class="logo"></div>
+      <svg class="spinner" viewBox="25 25 50 50">
+        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"></circle>
+      </svg>
+    </div>
+  </app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime.e307941ffcf91ce1.js" type="module"></script><script src="polyfills.a402040b2e0938e4.js" type="module"></script><script src="main.bebc0ba23c7c770a.js" type="module"></script>
+
+</body></html>
