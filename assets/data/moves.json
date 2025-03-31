@@ -4999,6 +4999,20 @@
         "powerup": [],
         "tags": ""
     },
+    "840": {
+        "type": "TYPE_011",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "MV",
+        "gauge": 3,
+        "points": 0,
+        "times": "1_1",
+        "power": 64,
+        "accuracy": 100,
+        "target": "TARG_004",
+        "powerup": [],
+        "tags": ""
+    },
     "841": {
         "type": "TYPE_014",
         "category": "CATE_002",
@@ -5025,6 +5039,25 @@
         "accuracy": 100,
         "target": "TARG_004",
         "powerup": [],
+        "tags": ""
+    },
+    "844": {
+        "type": "TYPE_014",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "MV",
+        "gauge": 4,
+        "points": 0,
+        "times": "1_1",
+        "power": 90,
+        "accuracy": 100,
+        "target": "TARG_004",
+        "powerup": [
+            [
+                "TARG_004",
+                "SCPM_063"
+            ]
+        ],
         "tags": ""
     },
     "845": {
@@ -6982,6 +7015,81 @@
         "powerup": [],
         "tags": ""
     },
+    "6115": {
+        "type": "TYPE_018",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "MV",
+        "gauge": 2,
+        "points": 1,
+        "times": "1_1",
+        "power": 250,
+        "accuracy": 101,
+        "target": "TARG_036",
+        "powerup": [],
+        "tags": "NO_AOE"
+    },
+    "6116": {
+        "type": "TYPE_011",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "MV",
+        "gauge": 3,
+        "points": 0,
+        "times": "1_1",
+        "power": 200,
+        "accuracy": 101,
+        "target": "TARG_036",
+        "powerup": [],
+        "tags": ""
+    },
+    "6117": {
+        "type": "TYPE_015",
+        "category": "CATE_001",
+        "defense": "PH",
+        "kind": "MV",
+        "gauge": 4,
+        "points": 0,
+        "times": "1_1",
+        "power": 50,
+        "accuracy": -1,
+        "target": "TARG_004",
+        "powerup": [],
+        "tags": ""
+    },
+    "6118": {
+        "type": "TYPE_014",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "MV",
+        "gauge": 4,
+        "points": 0,
+        "times": "1_1",
+        "power": 200,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [
+            [
+                "TARG_004",
+                "SCPM_063"
+            ]
+        ],
+        "tags": ""
+    },
+    "6120": {
+        "type": "TYPE_014",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "MV",
+        "gauge": 2,
+        "points": 108,
+        "times": "1_1",
+        "power": 90,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [],
+        "tags": ""
+    },
     "7000": {
         "type": "TYPE_001",
         "category": "CATE_001",
@@ -7795,7 +7903,7 @@
         "tags": ""
     },
     "8202": {
-        "type": "TYPE_000",
+        "type": "TYPE_019",
         "category": "CATE_004",
         "defense": "NO",
         "kind": "MV",
@@ -7822,8 +7930,22 @@
         "powerup": [],
         "tags": ""
     },
+    "8204": {
+        "type": "TYPE_019",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "MV",
+        "gauge": 2,
+        "points": 2,
+        "times": "1_1",
+        "power": 0,
+        "accuracy": 0,
+        "target": "TARG_018",
+        "powerup": [],
+        "tags": ""
+    },
     "8205": {
-        "type": "TYPE_000",
+        "type": "TYPE_019",
         "category": "CATE_004",
         "defense": "NO",
         "kind": "MV",
@@ -7837,7 +7959,7 @@
         "tags": ""
     },
     "8206": {
-        "type": "TYPE_000",
+        "type": "TYPE_019",
         "category": "CATE_004",
         "defense": "NO",
         "kind": "MV",
@@ -7865,7 +7987,7 @@
         "tags": ""
     },
     "8208": {
-        "type": "TYPE_000",
+        "type": "TYPE_019",
         "category": "CATE_004",
         "defense": "NO",
         "kind": "MV",
@@ -7879,7 +8001,7 @@
         "tags": ""
     },
     "8210": {
-        "type": "TYPE_000",
+        "type": "TYPE_019",
         "category": "CATE_004",
         "defense": "NO",
         "kind": "MV",
@@ -7963,7 +8085,7 @@
         "tags": ""
     },
     "8221": {
-        "type": "TYPE_000",
+        "type": "TYPE_019",
         "category": "CATE_004",
         "defense": "NO",
         "kind": "MV",
@@ -7991,7 +8113,7 @@
         "tags": ""
     },
     "8223": {
-        "type": "TYPE_000",
+        "type": "TYPE_019",
         "category": "CATE_004",
         "defense": "NO",
         "kind": "MV",
@@ -8019,7 +8141,7 @@
         "tags": ""
     },
     "8225": {
-        "type": "TYPE_000",
+        "type": "TYPE_019",
         "category": "CATE_004",
         "defense": "NO",
         "kind": "MV",
@@ -8033,7 +8155,7 @@
         "tags": ""
     },
     "8226": {
-        "type": "TYPE_000",
+        "type": "TYPE_019",
         "category": "CATE_004",
         "defense": "NO",
         "kind": "MV",
@@ -10468,6 +10590,20 @@
         "powerup": [],
         "tags": ""
     },
+    "10916": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 1,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_034",
+        "powerup": [],
+        "tags": ""
+    },
     "10917": {
         "type": "TYPE_000",
         "category": "CATE_004",
@@ -10853,6 +10989,20 @@
         "kind": "TM",
         "gauge": 0,
         "points": 2,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_001",
+        "powerup": [],
+        "tags": ""
+    },
+    "11028": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 1,
         "times": "0",
         "power": 0,
         "accuracy": -1,
@@ -12568,6 +12718,20 @@
         "powerup": [],
         "tags": ""
     },
+    "11487": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 1,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_001",
+        "powerup": [],
+        "tags": ""
+    },
     "11488": {
         "type": "TYPE_000",
         "category": "CATE_004",
@@ -13097,6 +13261,20 @@
         "power": 0,
         "accuracy": -1,
         "target": "TARG_034",
+        "powerup": [],
+        "tags": ""
+    },
+    "11829": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 1,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_002",
         "powerup": [],
         "tags": ""
     },
@@ -13681,6 +13859,20 @@
         "kind": "TM",
         "gauge": 0,
         "points": 2,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_001",
+        "powerup": [],
+        "tags": ""
+    },
+    "12452": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 1,
         "times": "0",
         "power": 0,
         "accuracy": -1,
@@ -14472,6 +14664,20 @@
         "powerup": [],
         "tags": ""
     },
+    "12904": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 1,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_001",
+        "powerup": [],
+        "tags": ""
+    },
     "12910": {
         "type": "TYPE_000",
         "category": "CATE_004",
@@ -14878,6 +15084,34 @@
         "powerup": [],
         "tags": ""
     },
+    "13520": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 1,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_002",
+        "powerup": [],
+        "tags": ""
+    },
+    "13529": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 2,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_034",
+        "powerup": [],
+        "tags": ""
+    },
     "14999": {
         "type": "TYPE_000",
         "category": "CATE_004",
@@ -15201,6 +15435,62 @@
         "tags": ""
     },
     "17107": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 2,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_034",
+        "powerup": [],
+        "tags": ""
+    },
+    "17500": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 2,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_001",
+        "powerup": [],
+        "tags": ""
+    },
+    "17501": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 2,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_001",
+        "powerup": [],
+        "tags": ""
+    },
+    "17502": {
+        "type": "TYPE_000",
+        "category": "CATE_004",
+        "defense": "NO",
+        "kind": "TM",
+        "gauge": 0,
+        "points": 2,
+        "times": "0",
+        "power": 0,
+        "accuracy": -1,
+        "target": "TARG_001",
+        "powerup": [],
+        "tags": ""
+    },
+    "17503": {
         "type": "TYPE_000",
         "category": "CATE_004",
         "defense": "NO",
@@ -16609,6 +16899,20 @@
         "points": 0,
         "times": "1_1",
         "power": 200,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [],
+        "tags": ""
+    },
+    "50101": {
+        "type": "TYPE_001",
+        "category": "CATE_001",
+        "defense": "PH",
+        "kind": "SN",
+        "gauge": 0,
+        "points": 0,
+        "times": "1_1",
+        "power": 300,
         "accuracy": 101,
         "target": "TARG_004",
         "powerup": [],
@@ -24349,6 +24653,20 @@
         ],
         "tags": ""
     },
+    "113100": {
+        "type": "TYPE_018",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "SN",
+        "gauge": 0,
+        "points": 0,
+        "times": "1_1",
+        "power": 250,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [],
+        "tags": ""
+    },
     "113300": {
         "type": "TYPE_018",
         "category": "CATE_002",
@@ -24802,6 +25120,151 @@
         "type": "TYPE_017",
         "category": "CATE_001",
         "defense": "PH",
+        "kind": "SN",
+        "gauge": 0,
+        "points": 0,
+        "times": "1_1",
+        "power": 250,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [],
+        "tags": ""
+    },
+    "117300": {
+        "type": "TYPE_011",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "SN",
+        "gauge": 0,
+        "points": 0,
+        "times": "1_1",
+        "power": 200,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [
+            [
+                "TARG_001",
+                "STAT_008",
+                "RAISE_STAT"
+            ]
+        ],
+        "tags": ""
+    },
+    "117400": {
+        "type": "TYPE_015",
+        "category": "CATE_001",
+        "defense": "PH",
+        "kind": "SN",
+        "gauge": 0,
+        "points": 0,
+        "times": "1_1",
+        "power": 200,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [
+            [
+                "TARG_001",
+                "STAT_002",
+                "RAISE_STAT"
+            ]
+        ],
+        "tags": ""
+    },
+    "117500": {
+        "type": "TYPE_014",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "SN",
+        "gauge": 0,
+        "points": 0,
+        "times": "1_1",
+        "power": 200,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [
+            [
+                "TARG_004",
+                "SCPM_004"
+            ]
+        ],
+        "tags": ""
+    },
+    "117700": {
+        "type": "TYPE_014",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "SN",
+        "gauge": 0,
+        "points": 0,
+        "times": "1_1",
+        "power": 200,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [
+            [
+                "TARG_004",
+                "SCPM_063"
+            ]
+        ],
+        "tags": ""
+    },
+    "117900": {
+        "type": "TYPE_018",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "SN",
+        "gauge": 0,
+        "points": 0,
+        "times": "1_1",
+        "power": 200,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [
+            [
+                "TARG_004",
+                "STAT_016",
+                "LOWER_STAT"
+            ]
+        ],
+        "tags": ""
+    },
+    "118000": {
+        "type": "TYPE_002",
+        "category": "CATE_002",
+        "defense": "SP",
+        "kind": "SN",
+        "gauge": 0,
+        "points": 0,
+        "times": "1_1",
+        "power": 200,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [
+            [
+                "TARG_004",
+                "SCTP_004"
+            ]
+        ],
+        "tags": ""
+    },
+    "119200": {
+        "type": "TYPE_001",
+        "category": "CATE_001",
+        "defense": "PH",
+        "kind": "SN",
+        "gauge": 0,
+        "points": 0,
+        "times": "1_1",
+        "power": 300,
+        "accuracy": 101,
+        "target": "TARG_004",
+        "powerup": [],
+        "tags": ""
+    },
+    "119300": {
+        "type": "TYPE_005",
+        "category": "CATE_002",
+        "defense": "SP",
         "kind": "SN",
         "gauge": 0,
         "points": 0,

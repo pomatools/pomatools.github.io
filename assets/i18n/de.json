@@ -283,7 +283,8 @@
       "SYNC": "GA",
       "POWER": "Stärke +{{value}}",
       "ACCURACY": "Genauigkeit +{{value}}",
-      "TRAINER": "Trainer Attacke"
+      "TRAINER": "Trainer Attacke",
+      "LEARN": "Attacke erlernen: {{value}}"
     },
     "WEATHER": {
       "WTHR_000": "Klar",
@@ -1339,6 +1340,7 @@
       "062600": "Bisofank",
       "062700": "Geronimatz",
       "062800": "Washakwil",
+      "062801": "Washakwil Hisui-Form",
       "062900": "Skallyk",
       "063000": "Grypheldis",
       "063100": "Furnifraß",
@@ -1661,6 +1663,76 @@
       "086700": "Oghnatoll",
       "086800": "Hokumil",
       "086900": "Pokusan",
+      "086901": "Pokusan (Vanille-Creme Zucker-Erdbeere)",
+      "086902": "Pokusan (Ruby-Creme Zucker-Erdbeere)",
+      "086903": "Pokusan (Matcha-Creme Zucker-Erdbeere)",
+      "086904": "Pokusan (Minz-Creme Zucker-Erdbeere)",
+      "086905": "Pokusan (Zitronen-Creme Zucker-Erdbeere)",
+      "086906": "Pokusan (Salz-Creme Zucker-Erdbeere)",
+      "086907": "Pokusan (Ruby-Mix Zucker-Erdbeere)",
+      "086908": "Pokusan (Karamell-Mix Zucker-Erdbeere)",
+      "086909": "Pokusan (Trio-Mix Zucker-Erdbeere)",
+      "086910": "Pokusan ★ (Zucker-Erdbeere)",
+      "086911": "Pokusan (Vanille-Creme Zucker-Beere)",
+      "086912": "Pokusan (Ruby-Creme Zucker-Beere)",
+      "086913": "Pokusan (Matcha-Creme Zucker-Beere)",
+      "086914": "Pokusan (Minz-Creme Zucker-Beere)",
+      "086915": "Pokusan (Zitronen-Creme Zucker-Beere)",
+      "086916": "Pokusan (Salz-Creme Zucker-Beere)",
+      "086917": "Pokusan (Ruby-Mix Zucker-Beere)",
+      "086918": "Pokusan (Karamell-Mix Zucker-Beere)",
+      "086919": "Pokusan (Trio-Mix Zucker-Beere)",
+      "086920": "Pokusan ★ (Zucker-Beere)",
+      "086921": "Pokusan (Vanille-Creme Zucker-Herz)",
+      "086922": "Pokusan (Ruby-Creme Zucker-Herz)",
+      "086923": "Pokusan (Matcha-Creme Zucker-Herz)",
+      "086924": "Pokusan (Minz-Creme Zucker-Herz)",
+      "086925": "Pokusan (Zitronen-Creme Zucker-Herz)",
+      "086926": "Pokusan (Salz-Creme Zucker-Herz)",
+      "086927": "Pokusan (Ruby-Mix Zucker-Herz)",
+      "086928": "Pokusan (Karamell-Mix Zucker-Herz)",
+      "086929": "Pokusan (Trio-Mix Zucker-Herz)",
+      "086930": "Pokusan ★ (Zucker-Herz)",
+      "086931": "Pokusan (Vanille-Creme Zucker-Stern)",
+      "086932": "Pokusan (Ruby-Creme Zucker-Stern)",
+      "086933": "Pokusan (Matcha-Creme Zucker-Stern)",
+      "086934": "Pokusan (Minz-Creme Zucker-Stern)",
+      "086935": "Pokusan (Zitronen-Creme Zucker-Stern)",
+      "086936": "Pokusan (Salz-Creme Zucker-Stern)",
+      "086937": "Pokusan (Ruby-Mix Zucker-Stern)",
+      "086938": "Pokusan (Karamell-Mix Zucker-Stern)",
+      "086939": "Pokusan (Trio-Mix Zucker-Stern)",
+      "086940": "Pokusan ★ (Zucker-Stern)",
+      "086941": "Pokusan (Vanille-Creme Zucker-Kleeblatt)",
+      "086942": "Pokusan (Ruby-Creme Zucker-Kleeblatt)",
+      "086943": "Pokusan (Matcha-Creme Zucker-Kleeblatt)",
+      "086944": "Pokusan (Minz-Creme Zucker-Kleeblatt)",
+      "086945": "Pokusan (Zitronen-Creme Zucker-Kleeblatt)",
+      "086946": "Pokusan (Salz-Creme Zucker-Kleeblatt)",
+      "086947": "Pokusan (Ruby-Mix Zucker-Kleeblatt)",
+      "086948": "Pokusan (Karamell-Mix Zucker-Kleeblatt)",
+      "086949": "Pokusan (Trio-Mix Zucker-Kleeblatt)",
+      "086950": "Pokusan ★ (Zucker-Kleeblatt)",
+      "086951": "Pokusan (Vanille-Creme Zucker-Blume)",
+      "086952": "Pokusan (Ruby-Creme Zucker-Blume)",
+      "086953": "Pokusan (Matcha-Creme Zucker-Blume)",
+      "086954": "Pokusan (Minz-Creme Zucker-Blume)",
+      "086955": "Pokusan (Zitronen-Creme Zucker-Blume)",
+      "086956": "Pokusan (Salz-Creme Zucker-Blume)",
+      "086957": "Pokusan (Ruby-Mix Zucker-Blume)",
+      "086958": "Pokusan (Karamell-Mix Zucker-Blume)",
+      "086959": "Pokusan (Trio-Mix Zucker-Blume)",
+      "086960": "Pokusan ★ (Zucker-Blume)",
+      "086961": "Pokusan (Vanille-Creme Zucker-Schleife)",
+      "086962": "Pokusan (Ruby-Creme Zucker-Schleife)",
+      "086963": "Pokusan (Matcha-Creme Zucker-Schleife)",
+      "086964": "Pokusan (Minz-Creme Zucker-Schleife)",
+      "086965": "Pokusan (Zitronen-Creme Zucker-Schleife)",
+      "086966": "Pokusan (Salz-Creme Zucker-Schleife)",
+      "086967": "Pokusan (Ruby-Mix Zucker-Schleife)",
+      "086968": "Pokusan (Karamell-Mix Zucker-Schleife)",
+      "086969": "Pokusan (Trio-Mix Zucker-Schleife)",
+      "086970": "Pokusan ★ (Zucker-Schleife)",
       "087000": "Legios",
       "087100": "Britzigel",
       "087200": "Snomnom",
@@ -1709,6 +1781,7 @@
       "090900": "Krokel",
       "091200": "Kwaks",
       "091400": "Bailonda",
+      "091500": "Ferkuli",
       "092300": "Pamomamo",
       "092700": "Backel",
       "093200": "Geosali",
@@ -1719,6 +1792,7 @@
       "094300": "Mastifioso",
       "095900": "Granforgita",
       "096600": "Knattatox",
+      "096700": "Mopex",
       "097000": "Lumiflora",
       "097500": "Kolowal",
       "097900": "Epitaff",
@@ -1906,6 +1980,7 @@
       "010110": "Rosy (Saison 2019)",
       "010101": "Rosy (Kostüm)",
       "010102": "Rosy (Neo-Champ)",
+      "010103": "Rosy (Akademie)",
       "010200": "Bell",
       "010201": "Bell (Neo-Champ)",
       "010300": "Trixi",
@@ -2007,6 +2082,7 @@
       "014800": "Jens",
       "014801": "Jens (Saison 2021)",
       "014802": "MaMo-Jens",
+      "014803": "Jens (Akademie)",
       "014900": "Kiawe",
       "015000": "Falk",
       "015100": "Lamina",
@@ -2034,6 +2110,7 @@
       "017800": "Anabel",
       "018000": "Tierno",
       "018100": "Trovato",
+      "018200": "Elima",
       "018300": "Marlon",
       "018400": "Fabian",
       "018700": "Sina",
@@ -2085,6 +2162,7 @@
       "024501": "Mary (Saison 2021)",
       "024502": "Mary (Saison 2022)",
       "024503": "Mary (Neo-Champ)",
+      "024504": "Mary (Akademie)",
       "024600": "Betys",
       "024601": "Betys (Neo-Champ)",
       "024700": "Delion",
@@ -2126,6 +2204,7 @@
       "028900": "Nemila",
       "028901": "MaMo-Nemila",
       "029000": "Lumius",
+      "029001": "Lumius (Akademie)",
       "029100": "Lumia",
       "029300": "Cosima",
       "029400": "Grusha",
@@ -2149,6 +2228,7 @@
       "032900": "Otis",
       "033000": "Rioba",
       "035100": "Ganoe (Kimono-Trägerin)",
+      "035200": "Tara",
       "050200": "Aqua Rüpel",
       "050300": "Aqua Rüpel",
       "051600": "Æther Foundation",
@@ -3381,7 +3461,7 @@
       "506": {
         "NAME": "Bürde",
         "ABBR": "Bürde",
-        "DESC": "Wenn das Ziel an einem Statusproblem leidet, verdoppelt sich die Stärke dieses Angriffs."
+        "DESC": "Die Stärke dieses Angriffs wird verdoppelt, wenn das Ziel an einem Statusproblem leidet."
       },
       "517": {
         "NAME": "Inferno",
@@ -10491,6 +10571,156 @@
       "116700": {
         "NAME": "Stahlstoß des eisenharten Panzers",
         "ABBR": "Stahlstoß des eisenharten Panzers",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
+      "840": {
+        "NAME": "Auraschwingen",
+        "ABBR": "Auraschwingen",
+        "DESC": "Hat eine hohe Volltrefferquote. Erhöht die Initiative des Anwenders um 1."
+      },
+      "844": {
+        "NAME": "Phantomparade",
+        "ABBR": "Phantomparade",
+        "DESC": "Die Stärke dieses Angriffs wird verdoppelt, wenn das Ziel an einem Statusproblem leidet. Hat eine 30 %-Chance dem Ziel Verbrennungen zuzufügen."
+      },
+      "6115": {
+        "NAME": "Zauberschein der Lieblichkeit",
+        "ABBR": "Zaubersch. S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn der Effekt Attackenleiste↑ auf der Anwender-Seite verursacht wird.\nDeaktivierungsvoraussetzung: Wenn der Effekt Attackenleiste↑ nicht mehr auf der Anwender-Seite aktiv ist.\n\nTrifft garantiert. Die Stärke dieser Attacke wird nicht gesenkt, selbst wenn mehrere Ziele vorhanden sind. Löst den folgenden Effekt 6-mal aus: Senkt zufällig einen der folgenden Statuswerte des Zieles um 1: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert. Erzeugt einen Feen-Fokus EX. (Ein Feen-Fokus EX verstärkt Angriffe vom Typ Fee.) Erhöht den Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1."
+      },
+      "6116": {
+        "NAME": "Auraschwingen der Bergluft",
+        "ABBR": "Auraschwingen S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn der Spezial-Angriff des Anwenders erhöht ist.\nDeaktivierungsvoraussetzung: Wenn der Spezial-Angriff des Anwenders nicht erhöht ist.\n\nTrifft garantiert. Außer unter besonderen Umständen werden Angriffe garantiert Volltreffer, sofern sie treffen. Erhöht die Initiative aller verbündeten Gefährten um 2. Wenn die verbleibenden Attackeneinsatzpunkte (AEP) für Noch schneller! des Anwenders 1 oder mehr betragen und mit dieser Attacke angegriffen wird, wird der Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1 erhöht."
+      },
+      "6117": {
+        "NAME": "Schuppenschuss der Frühlingsluft",
+        "ABBR": "Schuppens. S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn der Angriff des Anwenders erhöht ist.\nDeaktivierungsvoraussetzung: Wenn der Angriff des Anwenders nicht erhöht ist.\n\nTrifft garantiert. Erhöht die Initiative des Anwenders um 1. Greift das Ziel 2 bis 5-mal hintereinander an. Erhöht zufällig einen der folgenden Statuswerte des Anwenders um 1, wenn mindestens 3-mal hintereinander angegriffen wird: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert. Verursacht beim Anwender den Effekt Folge-Leistenverbr. 0, wenn mindestens 4-mal hintereinander angegriffen wird. Erhöht den Effekt Folge-Phys.-Attacke↑ des Anwenders um 3, wenn 5-mal hintereinander angegriffen wird. Wenn die verbleibenden Attackeneinsatzpunkte (AEP) für Tsitrubeere des Anwenders 1 oder mehr betragen und mit dieser Attacke angegriffen wird, werden diese AEP um 1 reduziert und alle folgenden Effekte ausgelöst: Maximiert die Anzahl der Angriffe. Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 1."
+      },
+      "6118": {
+        "NAME": "Phantomparade der Dämmerstunde",
+        "ABBR": "Phantomparade S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn die Gefährten deines Teams eine Gefährtenattacke 1-mal einsetzen.\nDeaktivierungsvoraussetzung: Wenn diese Attacke eingesetzt wird.\n\nTrifft garantiert. Die Stärke dieses Angriffs wird verdoppelt, wenn das Ziel an einem Statusproblem leidet. Senkt die Spezial-Verteidigung und die Initiative des Zieles um 3. Fügt dem Ziel Verbrennungen zu."
+      },
+      "6120": {
+        "NAME": "Spukball der bösen Geister",
+        "ABBR": "Spukball S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn der Anwender eine beliebige Attacke einmal einsetzt.\nDeaktivierungsvoraussetzung: Kann nicht deaktiviert werden.\n\nTrifft garantiert. Reduziert alle Attackeneinsatzpunkte (AEP) für diese Attacke. Je mehr die Attackeneinsatzpunkte (AEP) reduziert wurden, desto mehr wird die Stärke dieses Angriffs erhöht. Hat eine 20 %-Chance die Spezial-Verteidigung des Zieles um 1 zu senken. Lässt das Ziel zurückschrecken, verwirrt und fängt es in einer Umschlingung, wenn die verbleibenden Attackeneinsatzpunkte (AEP) durch einen einzigen Angriff um 108 reduziert werden."
+      },
+      "8204": {
+        "NAME": "Johto-Analyse",
+        "ABBR": "Johto-Analyse",
+        "DESC": "Erhöht den Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1. Verursacht auf der Anwender-Seite Johtos Freundeskreis (Spezial). Johtos Freundeskreis (Spezial) löst alle folgenden Effekte aus: Erhöht die Stärke der Spezial-Attacken und Spezial-Gefährtenattacken aller verbündeten Gefährten um 10 %. Verringert den durch Spezial-Attacken und Spezial-Gefährtenattacken erlittenen Schaden aller verbündeten Gefährten um 5 %. Je mehr Gefährten auf der Anwender-Seite das Johto-Attribut haben, desto mehr steigt die Effektivität. (Jedes zusätzliche Gefährtengespann steigert die Stärke der Attacken und Gefährtenattacken um 10 % und verringert den erlittenen Schaden um 3 %. Die Stärke der Attacken und Gefährtenattacken kann um maximal 40 % erhöht und der Schaden um maximal 14 % verringert werden.)"
+      },
+      "10916": {
+        "NAME": "Es ist noch nicht vorbei!",
+        "ABBR": "Es ist noch nicht vorbei!",
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 2. Erhöht den Spezial-Angriff des Anwenders um 4. Verursacht den Effekt Folge-Effektiv.-Stärke↑ bei allen verbündeten Gefährten."
+      },
+      "11028": {
+        "NAME": "Hey, hallo!",
+        "ABBR": "Hey, hallo!",
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 1. Erhöht den Spezial-Angriff des Anwenders um 4. Erhöht die Genauigkeit des Anwenders um 2."
+      },
+      "11487": {
+        "NAME": "Lehren mit Leidenschaft!",
+        "ABBR": "Lehren mit Leidenschaft!",
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 1. Erhöht den Spezial-Angriff des Anwenders um 4. Erhöht die Volltrefferquote des Anwenders um 3."
+      },
+      "11829": {
+        "NAME": "Herzlich willkommen!",
+        "ABBR": "Herzlich willkommen!",
+        "DESC": "Verursacht auf der Anwender-Seite den Effekt Attackenleiste↑. Erhöht den Angriff eines Verbündeten um 4. Erhöht die Volltrefferquote eines Verbündeten um 3."
+      },
+      "12452": {
+        "NAME": "Geben wir Vollgas!",
+        "ABBR": "Geben wir Vollgas!",
+        "DESC": "Erhöht den Angriff des Anwenders um 4. Erhöht die Initiative des Anwenders um 2. Erhöht die Volltrefferquote des Anwenders um 3."
+      },
+      "12904": {
+        "NAME": "Noch schneller!",
+        "ABBR": "Noch schneller!",
+        "DESC": "Verursacht beim Anwender den Effekt Folge-Effektiv.-Stärke↑. Verursacht beim Anwender den Effekt Folge-Leistenverbr. 0. Je stärker die Initiative des Anwenders erhöht wurde, desto mehr wird der Wert seines Gefährtenattacken- Countdowns reduziert (kann um bis zu maximal 3 reduziert werden). Je stärker die Initiative des Anwenders erhöht wurde, desto mehr wird sein Effekt Folge-Sp.-Attacke↑ erhöht (kann um bis zu maximal 3 erhöht werden)."
+      },
+      "13520": {
+        "NAME": "Geballte Ladung Niedlichkeit!",
+        "ABBR": "Geballte Ladung Niedlichkeit!",
+        "DESC": "Verursacht auf der Anwender-Seite den Effekt Attackenleiste↑. Erhöht den Spezial-Angriff eines Verbündeten um 4. Erhöht die Volltrefferquote eines Verbündeten um 3."
+      },
+      "13529": {
+        "NAME": "Das klingt toll!",
+        "ABBR": "Das klingt toll!",
+        "DESC": "Erhöht die Volltrefferquote des Anwenders um 2. Erhöht die Initiative aller verbündeten Gefährten um 2."
+      },
+      "17500": {
+        "NAME": "Grundkurs: Angriff",
+        "ABBR": "Grundkurs: Angriff",
+        "DESC": "Erhöht den Angriff des Anwenders um 2. Erhöht die Volltrefferquote des Anwenders um 1."
+      },
+      "17501": {
+        "NAME": "Grundkurs: Spezial-Angriff",
+        "ABBR": "Grundkurs: Spezial-Angriff",
+        "DESC": "Erhöht den Spezial-Angriff des Anwenders um 2. Erhöht die Volltrefferquote des Anwenders um 1."
+      },
+      "17502": {
+        "NAME": "Grundkurs: Verteidigung",
+        "ABBR": "Grundkurs: Verteidigung",
+        "DESC": "Erhöht die Verteidigung und Spezial-Verteidigung des Anwenders um 2."
+      },
+      "17503": {
+        "NAME": "Grundkurs: Helfer",
+        "ABBR": "Grundkurs: Helfer",
+        "DESC": "Erhöht die Verteidigung aller verbündeten Gefährten um 2. Erhöht die Initiative aller verbündeten Gefährten um 1."
+      },
+      "50101": {
+        "NAME": "Hyper-Sprintangriff der Versessenheit",
+        "ABBR": "Hyper-Sprintangriff der Versessenheit",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
+      "113100": {
+        "NAME": "Zauberschein der gewaltigen Niedlichkeit",
+        "ABBR": "Zauberschein der gewaltigen Niedlichkeit",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
+      "117300": {
+        "NAME": "Psycho-Strahl des fliegenden Lerneifers",
+        "ABBR": "Psycho-Strahl des fliegenden Lerneifers",
+        "DESC": "Je stärker der Spezial-Angriff des Anwenders erhöht wurde, desto mehr wird die Stärke dieses Angriffs erhöht."
+      },
+      "117400": {
+        "NAME": "Drachenstoß der Phantomfahrerin",
+        "ABBR": "Drachenstoß der Phantomfahrerin",
+        "DESC": "Je stärker der Angriff des Anwenders erhöht wurde, desto mehr wird die Stärke dieses Angriffs erhöht."
+      },
+      "117500": {
+        "NAME": "Geisterstrahl der Johto-Legenden",
+        "ABBR": "Geisterstrahl der Johto-Legenden",
+        "DESC": "Die Stärke dieses Angriffs steigt, wenn das Ziel an Verbrennungen leidet."
+      },
+      "117700": {
+        "NAME": "Geisterstrahl der 108 boshaften Geister",
+        "ABBR": "Geisterstrahl der 108 boshaften Geister",
+        "DESC": "Die Stärke dieses Angriffs steigt, wenn das Ziel an Statusproblemen leidet."
+      },
+      "117900": {
+        "NAME": "Feenstrahl der vielen niedlichen Dinge",
+        "ABBR": "Feenstrahl der vielen niedlichen Dinge",
+        "DESC": "Je stärker die Spezial-Verteidigung des Zieles gesenkt wurde, desto mehr wird die Stärke dieses Angriffs erhöht."
+      },
+      "118000": {
+        "NAME": "Feuerstrahl der hilfreichen Erklärung",
+        "ABBR": "Feuerstrahl der hilfreichen Erklärung",
+        "DESC": "Die Stärke dieses Angriffs steigt, wenn das Ziel in einer Umschlingung gefangen ist."
+      },
+      "119200": {
+        "NAME": "Normalstoß der Mysterien Passios",
+        "ABBR": "Normalstoß der Mysterien Passios",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
+      "119300": {
+        "NAME": "Pflanzenstrahl des Saisonwechsels",
+        "ABBR": "Pflanzenstrahl des Saisonwechsels",
         "DESC": "Hat keinen Zusatzeffekt."
       }
     },
@@ -19534,6 +19764,266 @@
         "NAME": "Der über das Feuer läuft",
         "ABBR": "Der über das Feuer läuft",
         "DESC": "Erhöht den Angriff des Anwenders um 6, wenn er den Kampf antritt. Erhöht die Volltrefferquote des Anwenders um 3, wenn er den Kampf antritt."
+      },
+      "1302400": {
+        "NAME": "Attackenleiste↑-P-Attacke+GA↓ T {{value}}",
+        "ABBR": "Attackenleiste↑ P Attacke+GA↓ T {{value}}",
+        "DESC": "Verringert den erlittenen Schaden, wenn ein Verbündeter von einem Angriff mit einer Attacke oder Gefährtenattacke getroffen wird, während der Effekt Attackenleiste↑ auf der Anwender-Seite aktiv ist."
+      },
+      "1302410": {
+        "NAME": "Effekt.-Gegentr.-P-Att.+GA-Schad.↓ {{value}}",
+        "ABBR": "Effekt. Gegentr. P Att.+GA Schad.↓ {{value}}",
+        "DESC": "Verringert den durch sehr effektive Attacken und sehr effektive Gefährtenattacken erlittenen Schaden des Anwenders."
+      },
+      "1302440": {
+        "NAME": "Attackenleiste↑-Schaden↓ {{value}}",
+        "ABBR": "Attackenleiste↑ Schaden↓ {{value}}",
+        "DESC": "Verringert den erlittenen Schaden, wenn der Anwender von einem Angriff mit einer Attacke getroffen wird, während der Effekt Attackenleiste↑ auf der Anwender-Seite aktiv ist."
+      },
+      "1306240": {
+        "NAME": "Bürde-Sync-AEP-Füllung (32)",
+        "ABBR": "Bürde Sync AEP Füllung (32)",
+        "DESC": "Füllt 32 Attackeneinsatzpunkte (AEP) der Sync-Attacke des Anwenders auf, wenn seine Bürde Erfolg hat."
+      },
+      "1306250": {
+        "NAME": "GA-Sync-AEP-Füllung (50) {{value}}",
+        "ABBR": "GA Sync AEP Füllung (50) {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance 50 Attackeneinsatzpunkte (AEP) der Sync-Attacke des Anwenders aufzufüllen, nachdem er seine Gefährtenattacke eingesetzt hat."
+      },
+      "1306260": {
+        "NAME": "Angriff-Sync-AEP-Füllung (32) {{value}}",
+        "ABBR": "Angriff Sync AEP Füllung (32) {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance 32 Attackeneinsatzpunkte (AEP) der Sync-Attacke des Anwenders aufzufüllen, wenn sein Angriff mit einer Attacke Erfolg hat."
+      },
+      "1308330": {
+        "NAME": "Gegner-Problem-Bürde-Stärke ×2",
+        "ABBR": "Gegner Problem Bürde Stärke ×2",
+        "DESC": "Die Stärke der Bürde des Anwenders wird verdoppelt, wenn das Ziel an einem Statusproblem leidet."
+      },
+      "1601980": {
+        "NAME": "Normal-Fokus-GA-Stärke↑ T {{value}}",
+        "ABBR": "Normal Fokus GA Stärke↑ T {{value}}",
+        "DESC": "Erhöht die Stärke der Gefährtenattacken aller verbündeten Gefährten, wenn ein Normal-Fokus aktiv ist."
+      },
+      "1603020": {
+        "NAME": "Attackenleiste↑-GA-Stärke↑ T {{value}}",
+        "ABBR": "Attackenleiste↑ GA Stärke↑ T {{value}}",
+        "DESC": "Erhöht die Stärke der Gefährtenattacken aller verbündeten Gefährten, wenn der Effekt Attackenleiste↑ auf der Anwender-Seite aktiv ist."
+      },
+      "1603030": {
+        "NAME": "Attackenleiste↑-GA-Stärke↑ {{value}}",
+        "ABBR": "Attackenleiste↑ GA Stärke↑ {{value}}",
+        "DESC": "Erhöht die Stärke der Gefährtenattacke des Anwenders, wenn der Effekt Attackenleiste↑ auf der Anwender-Seite aktiv ist."
+      },
+      "1701480": {
+        "NAME": "Attackenleiste↑-Probl.+Stör.-Schutz T",
+        "ABBR": "Attackenleiste↑ Probl.+Stör. Schutz T",
+        "DESC": "Schützt alle verbündeten Gefährten vor Statusproblemen, Zurückschrecken, Verwirrung oder Umschlingung, wenn der Effekt Attackenleiste↑ auf der Anwender-Seite aktiv ist."
+      },
+      "1708050": {
+        "NAME": "T-Att.-AEP-Null-Ang.-F.-Leistenv. 0 {{value}}",
+        "ABBR": "T Att. AEP Null Ang. F. Leistenv. 0 {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance beim Anwender den Effekt Folge-Leistenverbr. 0 zu verursachen, wenn sein Angriff mit einer Attacke Erfolg hat, während die verbleibenden Attackeneinsatzpunkte (AEP) der Attacken seines Trainers 0 betragen."
+      },
+      "1708060": {
+        "NAME": "T-Att.-AEP-Null-Ang.-2×-Spez.-Boost {{value}}",
+        "ABBR": "T Att. AEP Null Ang. 2× Spez. Boost {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Sp.-Attacke↑ des Anwenders um 2 zu erhöhen, wenn sein Angriff mit einer Attacke Erfolg hat, während die verbleibenden Attackeneinsatzpunkte (AEP) der Attacken seines Trainers 0 betragen."
+      },
+      "1708070": {
+        "NAME": "Brand-Geg.-Mitstr.-Ang.-1×-Spez.-Boost {{value}}",
+        "ABBR": "Brand Geg. Mitstr. Ang. 1× Spez. Boost {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Sp.-Attacke↑ eines Verbündeten um 1 zu erhöhen, wenn sein Angriff mit einer Attacke auf einen Gegner, der an Verbrennungen leidet, Erfolg hat."
+      },
+      "1708080": {
+        "NAME": "Erst-Beere-AEP-Null-Phys.-Boost T {{value}}",
+        "ABBR": "Erst Beere AEP Null Phys. Boost T {{value}}",
+        "DESC": "Erhöht ein Mal pro Kampf den Effekt Folge-Phys.-Attacke↑ aller verbündeten Gefährten um {{value}}, wenn die verbleibenden Attackeneinsatzpunkte (AEP) der Attacken des Anwenders, die über den Zusatzeffekt Beere verfügen, erstmals 0 betragen."
+      },
+      "1708090": {
+        "NAME": "Brand-Geg.-Ang.-Folge-Leistenverbr. 0 {{value}}",
+        "ABBR": "Brand Geg. Ang. Folge Leistenverbr. 0 {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance beim Anwender den Effekt Folge-Leistenverbr. 0 zu verursachen, wenn sein Angriff mit einer Attacke auf einen Gegner, der an Verbrennungen leidet, Erfolg hat."
+      },
+      "1708210": {
+        "NAME": "Erstantritt-Selbst-Schlaf",
+        "ABBR": "Erstantritt Selbst Schlaf",
+        "DESC": ""
+      },
+      "1708260": {
+        "NAME": "GA-2×-Spez.-Boost T {{value}}",
+        "ABBR": "GA 2× Spez. Boost T {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 2 zu erhöhen, nachdem der Anwender seine Gefährtenattacke eingesetzt hat."
+      },
+      "1708270": {
+        "NAME": "Attacke-Folge-Leistenverbr. 0 T {{value}}",
+        "ABBR": "Attacke Folge Leistenverbr. 0 T {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Leistenverbr. 0 bei allen verbündeten Gefährten zu verursachen, wenn die Attacke des Anwenders Erfolg hat."
+      },
+      "1708280": {
+        "NAME": "Erst-Attacke-Spez.-Boost T {{value}}",
+        "ABBR": "Erst Attacke Spez. Boost T {{value}}",
+        "DESC": "Erhöht ein Mal pro Kampf den Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um {{value}}, wenn der Anwender erstmals seine Attacke einsetzt."
+      },
+      "1708290": {
+        "NAME": "Erst-Angriff-Normalwiderstand↓",
+        "ABBR": "Erst Angriff Normalwiderstand↓",
+        "DESC": "Senkt ein Mal pro Kampf den Normalwiderstand des Zieles um 1, wenn der Angriff des Anwenders mit einer Attacke erstmals Erfolg hat."
+      },
+      "1708300": {
+        "NAME": "Attacke-2×-Phys.+Spez.-Boost {{value}}",
+        "ABBR": "Attacke 2× Phys.+Spez. Boost {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ des Anwenders um 2 zu erhöhen, wenn seine Attacke Erfolg hat."
+      },
+      "1812070": {
+        "NAME": "Feen-Fokus-Ang.-Wert↓ 2× {{value}}",
+        "ABBR": "Feen Fokus Ang. Wert↓ 2× {{value}}",
+        "DESC": "Löst den folgenden Effekt 2-mal aus, wenn der Angriff des Anwenders mit einer Attacke Erfolg hat, während ein Feen-Fokus aktiv ist: Hat eine {{chance}} %-Chance zufällig einen der folgenden Statuswerte des Zieles um 1 zu senken: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert."
+      },
+      "1812080": {
+        "NAME": "Brand-Geg.-Ang.-Wert 2↓ {{value}}",
+        "ABBR": "Brand Geg. Ang. Wert 2↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance zufällig einen der folgenden Statuswerte des Zieles um 2 zu senken, wenn der Angriff des Anwenders mit einer Attacke auf einen Gegner, der an Verbrennungen leidet, Erfolg hat: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert."
+      },
+      "1812110": {
+        "NAME": "T-Att.-AEP-mind.-1-Ang.-Sp.-Vert.↓ {{value}}",
+        "ABBR": "T Att. AEP mind. 1 Ang. Sp. Vert.↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die Spezial-Verteidigung des Zieles um 1 zu senken, wenn der Angriff des Anwenders mit einer Attacke gegen es Erfolg hat, während die verbleibenden Attackeneinsatzpunkte (AEP) der Attacken seines Trainers 1 oder mehr betragen."
+      },
+      "1812120": {
+        "NAME": "T-Att.-AEP-Null-Angriff-Wert 2↓ {{value}}",
+        "ABBR": "T Att. AEP Null Angriff Wert 2↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance zufällig einen der folgenden Statuswerte des Zieles um 2 zu senken, wenn der Angriff des Anwenders mit einer Attacke Erfolg hat, während die verbleibenden Attackeneinsatzpunkte (AEP) der Attacken seines Trainers 0 betragen: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert."
+      },
+      "1812130": {
+        "NAME": "Geg.-Verw.-Angriff-Genauigkeit↓ {{value}}",
+        "ABBR": "Geg. Verw. Angriff Genauigkeit↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die Genauigkeit des Zieles um 1 zu senken, wenn der Angriff des Anwenders mit einer Attacke auf einen verwirrten Gegner Erfolg hat."
+      },
+      "1812140": {
+        "NAME": "Angriff-Wert 2↓ {{value}}",
+        "ABBR": "Angriff Wert 2↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance zufällig einen der folgenden Statuswerte des Zieles um 2 zu senken, wenn der Angriff des Anwenders mit einer Attacke gegen es Erfolg hat: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert."
+      },
+      "1812150": {
+        "NAME": "Brand-Geg.-Angriff-Ang.+Sp.-Ang.↓ {{value}}",
+        "ABBR": "Brand Geg. Angriff Ang.+Sp. Ang.↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Angriff und den Spezial-Angriff des Zieles um 1 zu senken, wenn der Angriff des Anwenders mit einer Attacke auf einen Gegner, der an Verbrennungen leidet, Erfolg hat."
+      },
+      "1812160": {
+        "NAME": "Angriff-Angriff 2↓ {{value}}",
+        "ABBR": "Angriff Angriff 2↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Angriff des Zieles um 2 zu senken, wenn der Angriff des Anwenders mit einer Attacke gegen es Erfolg hat."
+      },
+      "1812170": {
+        "NAME": "Treffer-Initiative↑ {{value}}",
+        "ABBR": "Treffer Initiative↑ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die Initiative des Anwenders um 1 zu erhöhen, wenn sein Angriff mit einer Attacke trifft. Verfügt die Attacke über den Zusatzeffekt Angriffsserie, besteht eine {{chance}} %-Chance die Initiative des Anwenders um 1 pro Treffer zu erhöhen."
+      },
+      "1905540": {
+        "NAME": "Attackenleiste↑-Dauer↑ {{value}}",
+        "ABBR": "Attackenleiste↑ Dauer↑ {{value}}",
+        "DESC": "Verlängert die Dauer vom Effekt Attackenleiste↑, wenn der Effekt Attackenleiste↑ auf der Anwender-Seite verursacht wird."
+      },
+      "1905590": {
+        "NAME": "Johtos Freundeskreis (Spezial): Dauer↑ {{value}}",
+        "ABBR": "Johtos Freundeskreis (Spezial): Dauer↑ {{value}}",
+        "DESC": "Verlängert die Dauer vom Johtos Freundeskreis (Spezial), wenn Johtos Freundeskreis (Spezial) auf der Anwender-Seite verursacht wird."
+      },
+      "1905600": {
+        "NAME": "Erstantritt: Johtos Freundeskr. (Spez.)",
+        "ABBR": "Erstantritt: Johtos Freundeskr. (Spez.)",
+        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Johtos Freundeskreis (Spezial), wenn der Anwender erstmals den Kampf antritt."
+      },
+      "1905610": {
+        "NAME": "Erst-T-Att.: Paldeas Freundeskr. (Vert.)",
+        "ABBR": "Erst T Att.: Paldeas Freundeskr. (Vert.)",
+        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Paldeas Freundeskreis (Verteidigung), wenn der Trainer des Anwenders erstmals eine Attacke einsetzt."
+      },
+      "1905620": {
+        "NAME": "Erstantritt: Einalls Freundeskr. (Vert.)",
+        "ABBR": "Erstantritt: Einalls Freundeskr. (Vert.)",
+        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Einalls Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt."
+      },
+      "1905630": {
+        "NAME": "Erst-GA: Einalls Freundeskreis (Vert.)",
+        "ABBR": "Erst GA: Einalls Freundeskreis (Vert.)",
+        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Einalls Freundeskreis (Verteidigung), wenn der Anwender erstmals seine Gefährtenattacke einsetzt."
+      },
+      "1905780": {
+        "NAME": "Erstantritt: Paldeas Freundeskr. (Vert.)",
+        "ABBR": "Erstantritt: Paldeas Freundeskr. (Vert.)",
+        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Paldeas Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt."
+      },
+      "2101090": {
+        "NAME": "Attackenleiste↑-Volltrefferschutz T",
+        "ABBR": "Attackenleiste↑ Volltrefferschutz T",
+        "DESC": "Schützt alle verbündeten Gefährten vor gegnerischen Volltreffern, wenn der Effekt Attackenleiste↑ auf der Anwender-Seite aktiv ist."
+      },
+      "3201960": {
+        "NAME": "Die Tochter des Minenkönigs",
+        "ABBR": "Die Tochter des Minenkönigs",
+        "DESC": "Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns des Anwenders um 1, wenn er erstmals den Kampf antritt. Erhöht die Stärke der Gefährtenattacke des Anwenders, wenn der Effekt Attackenleiste↑ auf der Anwender-Seite aktiv ist. Verlängert die Dauer vom Feen-Fokus, wenn ein Feen-Fokus erzeugt wird, während der Anwender auf dem Feld ist."
+      },
+      "9902390": {
+        "NAME": "Flüstern der Musterschülerin",
+        "ABBR": "Flüstern der Musterschülerin",
+        "DESC": "Verringert den erlittenen Schaden, wenn ein Verbündeter von einem Angriff mit einer Attacke oder Gefährtenattacke getroffen wird, während der Effekt Attackenleiste↑ auf der Anwender-Seite aktiv ist. Schützt alle verbündeten Gefährten vor gegnerischen Volltreffern, wenn der Effekt Attackenleiste↑ auf der Anwender-Seite aktiv ist. Verlängert die Dauer vom Effekt Attackenleiste↑, wenn der Effekt Attackenleiste↑ auf der Anwender-Seite verursacht wird."
+      },
+      "9902400": {
+        "NAME": "Eins mit Sternchen",
+        "ABBR": "Eins mit Sternchen",
+        "DESC": "Erhöht den Spezial-Angriff des Anwenders um 4, wenn er den Kampf antritt. Erhöht die Volltrefferquote des Anwenders um 3, wenn er den Kampf antritt. Erhöht den Effekt Folge-GA-Stärke↑ des Anwenders um 4, wenn er den Kampf antritt."
+      },
+      "9902410": {
+        "NAME": "Verbündeter Vielfraß",
+        "ABBR": "Verbündeter Vielfraß",
+        "DESC": "Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns des Anwenders um 1, wenn die verbleibenden Attackeneinsatzpunkte (AEP) seiner Attacken, die über den Zusatzeffekt Beere verfügen, erstmals 0 betragen. Erhöht ein Mal pro Kampf den Effekt Folge-Phys.-Attacke↑ aller verbündeten Gefährten um 1, wenn die verbleibenden Attackeneinsatzpunkte (AEP) der Attacken des Anwenders, die über den Zusatzeffekt Beere verfügen, erstmals 0 betragen."
+      },
+      "9902420": {
+        "NAME": "Marys Motorradkenntnisse",
+        "ABBR": "Marys Motorradkenntnisse",
+        "DESC": "Hat eine 30 %-Chance die KP des Anwenders wiederherzustellen, wenn sein Angriff mit einer Attacke trifft. Verfügt die Attacke über den Zusatzeffekt Angriffsserie, besteht eine 30 %-Chance die KP des Anwenders pro Treffer wiederherzustellen. Hat eine 30 %-Chance die Attackenleiste deines Teams um 1 Segment aufzufüllen, wenn der Angriff des Anwenders mit einer Attacke trifft. Verfügt die Attacke über den Zusatzeffekt Angriffsserie, besteht eine 30 %-Chance die Attackenleiste deines Teams um 1 Segment pro Treffer aufzufüllen."
+      },
+      "9902430": {
+        "NAME": "Flackernde Seelen im Dunkel",
+        "ABBR": "Flackernde Seelen im Dunkel",
+        "DESC": "Erhöht die Wahrscheinlichkeit, dass Zusatzeffekte der Attacken des Anwenders Statusprobleme auslösen. Wenn die Zusatzeffekte einer Attacke des Anwenders beim Gegner ein Statusproblem ausgelöst haben, wird bei allen gegnerischen Gefährten dasselbe Statusproblem ausgelöst."
+      },
+      "9902440": {
+        "NAME": "Schauermär des bescheidenen Hellsehers",
+        "ABBR": "Schauermär des bescheidenen Hellsehers",
+        "DESC": "Senkt zufällig einen der folgenden Statuswerte des Zieles um 2, wenn der Angriff des Anwenders mit einer Attacke auf einen Gegner, der an Verbrennungen leidet, Erfolg hat: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert. Verursacht beim Anwender den Effekt Folge-Leistenverbr. 0, wenn sein Angriff mit einer Attacke auf einen Gegner, der an Verbrennungen leidet, Erfolg hat."
+      },
+      "9902470": {
+        "NAME": "Gebannte Gedanken der Bosheit",
+        "ABBR": "Gebannte Gedanken der Bosheit",
+        "DESC": "Verringert den durch sehr effektive Attacken und sehr effektive Gefährtenattacken erlittenen Schaden des Anwenders. Wenn das Pokémon des Anwenders erfolgreich eine Attacke einsetzt, die auf es selbst oder einen Verbündeten zielt, werden alle verbündeten Gefährten zum Ziel. Wenn das Pokémon des Anwenders erfolgreich eine Attacke einsetzt, die auf einen Gegner zielt, werden alle gegnerischen Gefährten zum Ziel. Wenn der Anwender einen Gegner mit einer Gefährtenattacke angreift, werden alle gegnerischen Gefährten zum Ziel. Die Stärke und die Chance auf Anwendung zusätzlicher Effekte der Attacken und Gefährtenattacken, die von dieser Passivfähigkeit betroffen sind, werden nicht gesenkt, selbst wenn mehrere Ziele vorhanden sind. Außer unter besonderen Umständen werden die folgenden Angriffe des Anwenders garantiert Volltreffer, sofern sie treffen: Pokémon-Attacken oder Gefährtenattacke."
+      },
+      "9902480": {
+        "NAME": "Erschwerende Bürde",
+        "ABBR": "Erschwerende Bürde",
+        "DESC": "Die Stärke der Bürde des Anwenders wird verdoppelt, wenn das Ziel an einem Statusproblem leidet. Füllt 32 Attackeneinsatzpunkte (AEP) der Sync-Attacke des Anwenders auf, wenn seine Bürde Erfolg hat."
+      },
+      "9902490": {
+        "NAME": "Versammelte Seelen",
+        "ABBR": "Versammelte Seelen",
+        "DESC": "Füllt die Attackenleiste deines Teams um 6 Segmente auf, nachdem der Anwender seine Gefährtenattacke eingesetzt hat. Füllt 50 Attackeneinsatzpunkte (AEP) der Sync-Attacke des Anwenders auf, nachdem er seine Gefährtenattacke eingesetzt hat."
+      },
+      "9902640": {
+        "NAME": "Auftritt mit Tanz und Gesang",
+        "ABBR": "Auftritt mit Tanz und Gesang",
+        "DESC": "Erzeugt ein Mal pro Kampf ein Psychofeld, wenn der Trainer des Anwenders erstmals eine Attacke einsetzt und der Anwender in der Gesangsform ist. Erzeugt ein Mal pro Kampf einen Kampf-Fokus, wenn der Trainer des Anwenders erstmals eine Attacke einsetzt und der Anwender in der Tanzform ist. (Ein Kampf-Fokus verstärkt Angriffe vom Typ Kampf.)"
+      },
+      "9902900": {
+        "NAME": "Zeit des Erblühens",
+        "ABBR": "Zeit des Erblühens",
+        "DESC": "Erzeugt ein Mal pro Kampf ein Grasfeld, wenn der Anwender erstmals den Kampf antritt. Verlängert die Dauer vom Grasfeld, wenn ein Grasfeld erzeugt wird, während der Anwender auf dem Feld ist."
+      },
+      "9902910": {
+        "NAME": "Vorsitzender des Clubs für Paranormales",
+        "ABBR": "Vorsitzender des Clubs für Paranormales",
+        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Paldeas Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt. Verlängert die Dauer vom Paldeas Freundeskreis (Verteidigung), wenn Paldeas Freundeskreis (Verteidigung) auf der Anwender-Seite verursacht wird."
       }
     },
     "THEMES": {
@@ -20056,7 +20546,11 @@
       "20000398": "Glanz",
       "20000399": "Jugend",
       "20000400": "Roter Edelstein",
-      "20000401": "Wurzelheim"
+      "20000401": "Wurzelheim",
+      "20000402": "Feen-Pokémon",
+      "20000403": "Jo",
+      "20000404": "Terakristall-Orbs",
+      "20000406": "Strickjacken"
     },
     "TOPIC_GROUP": {
       "1": "Pokémon",

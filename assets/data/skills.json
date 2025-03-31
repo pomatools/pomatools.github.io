@@ -3113,6 +3113,28 @@
         "attribute": "",
         "spec": ""
     },
+    "1302400": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1302410": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
     "1302420": {
         "trigger": "",
         "times": "",
@@ -3125,6 +3147,17 @@
         "spec": ""
     },
     "1302430": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1302440": {
         "trigger": "",
         "times": "",
         "conditions": [],
@@ -3686,6 +3719,44 @@
         "attribute": "",
         "spec": ""
     },
+    "1306240": {
+        "trigger": "MOVE",
+        "times": "",
+        "conditions": [
+            [
+                "MOVE_16",
+                "506"
+            ]
+        ],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1306250": {
+        "trigger": "SYNC",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "SYNC",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1306260": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
     "1307010": {
         "trigger": "MOVE",
         "times": "ALWAYS",
@@ -4213,6 +4284,22 @@
         "affects": "",
         "attribute": "",
         "spec": "SIMPLE"
+    },
+    "1308330": {
+        "trigger": "CALCULATION",
+        "times": "LAWAYS",
+        "conditions": [
+            [
+                "MOVE_16",
+                "506"
+            ]
+        ],
+        "type": "POWERUP",
+        "applies": "MOVE",
+        "effect": "TARG_001",
+        "affects": "",
+        "attribute": "",
+        "spec": "MULTIPLY"
     },
     "1401010": {
         "trigger": "FAINTS",
@@ -6154,6 +6241,22 @@
         "attribute": "",
         "spec": "SIMPLE"
     },
+    "1601980": {
+        "trigger": "CALCULATION",
+        "times": "ALWAYS",
+        "conditions": [
+            [
+                "TARG_016",
+                "ZONE_1"
+            ]
+        ],
+        "type": "POWERUP",
+        "applies": "SYNC",
+        "effect": "TARG_34",
+        "affects": "",
+        "attribute": "",
+        "spec": "SIMPLE"
+    },
     "1601990": {
         "trigger": "CALCULATION",
         "times": "ALWAYS",
@@ -6268,6 +6371,38 @@
         "affects": "",
         "attribute": "",
         "spec": ""
+    },
+    "1603020": {
+        "trigger": "CALCULATION",
+        "times": "ALWAYS",
+        "conditions": [
+            [
+                "TARG_018",
+                "FILD_001"
+            ]
+        ],
+        "type": "POWERUP",
+        "applies": "SYNC",
+        "effect": "",
+        "affects": "TARG_034",
+        "attribute": "",
+        "spec": "SIMPLE"
+    },
+    "1603030": {
+        "trigger": "CALCULATION",
+        "times": "ALWAYS",
+        "conditions": [
+            [
+                "TARG_018",
+                "FILD_001"
+            ]
+        ],
+        "type": "POWERUP",
+        "applies": "SYNC",
+        "effect": "",
+        "affects": "TARG_001",
+        "attribute": "",
+        "spec": "SIMPLE"
     },
     "1701010": {
         "trigger": "GAIN_STATUS",
@@ -6856,6 +6991,17 @@
         "spec": ""
     },
     "1701470": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1701480": {
         "trigger": "",
         "times": "",
         "conditions": [],
@@ -10755,6 +10901,61 @@
         "attribute": "",
         "spec": ""
     },
+    "1708050": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1708060": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1708070": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1708080": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1708090": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
     "1708120": {
         "trigger": "",
         "times": "",
@@ -10805,6 +11006,72 @@
         "conditions": [],
         "type": "",
         "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1708210": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1708260": {
+        "trigger": "SYNC",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "SYNC",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1708270": {
+        "trigger": "MOVE",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1708280": {
+        "trigger": "MOVE",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1708290": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1708300": {
+        "trigger": "MOVE",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
         "effect": "",
         "affects": "",
         "attribute": "",
@@ -16244,8 +16511,107 @@
         "attribute": "",
         "spec": ""
     },
+    "1812070": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1812080": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
     "1812090": {
         "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1812110": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1812120": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1812130": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1812140": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1812150": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1812160": {
+        "trigger": "ATTACK",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1812170": {
+        "trigger": "ATTACKS",
         "times": "",
         "conditions": [],
         "type": "",
@@ -18156,6 +18522,17 @@
         "attribute": "",
         "spec": ""
     },
+    "1905540": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
     "1905550": {
         "trigger": "",
         "times": "",
@@ -18189,6 +18566,72 @@
         ],
         "type": "",
         "applies": "MOVE",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1905590": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1905600": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1905610": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1905620": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1905630": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "1905780": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
         "effect": "",
         "affects": "",
         "attribute": "",
@@ -18293,6 +18736,17 @@
         "spec": ""
     },
     "2101080": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": ""
+    },
+    "2101090": {
         "trigger": "",
         "times": "",
         "conditions": [],
@@ -18572,14 +19026,19 @@
         "spec": ""
     },
     "2301150": {
-        "trigger": "",
+        "trigger": "CHANGE_FIELD",
         "times": "ALWAYS",
-        "conditions": [],
-        "type": "",
+        "conditions": [
+            [
+                "TARG_018",
+                "FILD_2047"
+            ]
+        ],
+        "type": "BOOST",
         "applies": "PKMN",
         "effect": "",
-        "affects": "",
-        "attribute": "",
+        "affects": "TARG_001",
+        "attribute": "STAT_062",
         "spec": ""
     },
     "2301160": {
@@ -20550,6 +21009,17 @@
         "attribute": "",
         "spec": "15014402,19055701,17081509"
     },
+    "3201960": {
+        "trigger": "WKNG",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "15010101,16030305,19023103"
+    },
     "5170401": {
         "trigger": "KNOCKS",
         "times": "ALWAYS",
@@ -21441,14 +21911,19 @@
         "spec": ""
     },
     "9901670": {
-        "trigger": "",
-        "times": "",
-        "conditions": [],
-        "type": "",
+        "trigger": "CHANGE_FIELD",
+        "times": "ALWAYS",
+        "conditions": [
+            [
+                "TARG_018",
+                "FILD_2047"
+            ]
+        ],
+        "type": "BOOST",
         "applies": "PKMN",
         "effect": "",
-        "affects": "",
-        "attribute": "",
+        "affects": "TARG_001",
+        "attribute": "STAT_020",
         "spec": ""
     },
     "9901680": {
@@ -22240,6 +22715,105 @@
         "attribute": "",
         "spec": "13030101,23012101,18051501"
     },
+    "9902390": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "13024002,21010901,19055405"
+    },
+    "9902400": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "18045104,18041903,17074104"
+    },
+    "9902410": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "15013301,17080801"
+    },
+    "9902420": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "11012202,12021902"
+    },
+    "9902430": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "22010103,17045709"
+    },
+    "9902440": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "17080909,18120809"
+    },
+    "9902470": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "13024105,23012101,18051501"
+    },
+    "9902480": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "13083301,13062401"
+    },
+    "9902490": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "12020206,13062509"
+    },
     "9902500": {
         "trigger": "",
         "times": "",
@@ -22255,11 +22829,44 @@
         "trigger": "",
         "times": "",
         "conditions": [],
-        "type": "",
+        "type": "MULTI",
         "applies": "PKMN",
         "effect": "",
         "affects": "",
         "attribute": "",
         "spec": "18045906,18041903"
+    },
+    "9902640": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "18045106,18041903"
+    },
+    "9902900": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "18045906,18041903"
+    },
+    "9902910": {
+        "trigger": "",
+        "times": "",
+        "conditions": [],
+        "type": "MULTI",
+        "applies": "PKMN",
+        "effect": "",
+        "affects": "",
+        "attribute": "",
+        "spec": "19057801,19051105"
     }
 }

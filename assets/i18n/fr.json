@@ -283,7 +283,8 @@
       "SYNC": "Capacité Duo",
       "POWER": "Pui. +{{value}}",
       "ACCURACY": "Précision +{{value}}",
-      "TRAINER": "Capa. Dress."
+      "TRAINER": "Capa. Dress.",
+      "LEARN": "Apprendre capa: {{value}}"
     },
     "WEATHER": {
       "WTHR_000": "Aucun",
@@ -1339,6 +1340,7 @@
       "062600": "Frison",
       "062700": "Furaiglon",
       "062800": "Gueriaigle",
+      "062801": "Gueriaigle de Hisui",
       "062900": "Vostourno",
       "063000": "Vaututrice",
       "063100": "Aflamanoir",
@@ -1661,6 +1663,76 @@
       "086700": "Tutétékri",
       "086800": "Crèmy",
       "086900": "Charmilly",
+      "086901": "Charmilly (Lait Vanille Fraise en Sucre)",
+      "086902": "Charmilly (Lait Ruby Fraise en Sucre)",
+      "086903": "Charmilly (Lait Matcha Fraise en Sucre)",
+      "086904": "Charmilly (Lait Menthe Fraise en Sucre)",
+      "086905": "Charmilly (Lait Citron Fraise en Sucre)",
+      "086906": "Charmilly (Lait Salé Fraise en Sucre)",
+      "086907": "Charmilly (Mélange Ruby Fraise en Sucre)",
+      "086908": "Charmilly (Mélange Caramel Fraise en Sucre)",
+      "086909": "Charmilly (Mélange Tricolore Fraise en Sucre)",
+      "086910": "Charmilly ★ (Fraise en Sucre)",
+      "086911": "Charmilly (Lait Vanille Baie en Sucre)",
+      "086912": "Charmilly (Lait Ruby Baie en Sucre)",
+      "086913": "Charmilly (Lait Matcha Baie en Sucre)",
+      "086914": "Charmilly (Lait Menthe Baie en Sucre)",
+      "086915": "Charmilly (Lait Citron Baie en Sucre)",
+      "086916": "Charmilly (Lait Salé Baie en Sucre)",
+      "086917": "Charmilly (Mélange Ruby Baie en Sucre)",
+      "086918": "Charmilly (Mélange Caramel Baie en Sucre)",
+      "086919": "Charmilly (Mélange Tricolore Baie en Sucre)",
+      "086920": "Charmilly ★ (Baie en Sucre)",
+      "086921": "Charmilly (Lait Vanille Cœur en Sucre)",
+      "086922": "Charmilly (Lait Ruby Cœur en Sucre)",
+      "086923": "Charmilly (Lait Matcha Cœur en Sucre)",
+      "086924": "Charmilly (Lait Menthe Cœur en Sucre)",
+      "086925": "Charmilly (Lait Citron Cœur en Sucre)",
+      "086926": "Charmilly (Lait Salé Cœur en Sucre)",
+      "086927": "Charmilly (Mélange Ruby Cœur en Sucre)",
+      "086928": "Charmilly (Mélange Caramel Cœur en Sucre)",
+      "086929": "Charmilly (Mélange Tricolore Cœur en Sucre)",
+      "086930": "Charmilly ★ (Cœur en Sucre)",
+      "086931": "Charmilly (Lait Vanille Étoile en Sucre)",
+      "086932": "Charmilly (Lait Ruby Étoile en Sucre)",
+      "086933": "Charmilly (Lait Matcha Étoile en Sucre)",
+      "086934": "Charmilly (Lait Menthe Étoile en Sucre)",
+      "086935": "Charmilly (Lait Citron Étoile en Sucre)",
+      "086936": "Charmilly (Lait Salé Étoile en Sucre)",
+      "086937": "Charmilly (Mélange Ruby Étoile en Sucre)",
+      "086938": "Charmilly (Mélange Caramel Étoile en Sucre)",
+      "086939": "Charmilly (Mélange Tricolore Étoile en Sucre)",
+      "086940": "Charmilly ★ (Étoile en Sucre)",
+      "086941": "Charmilly (Lait Vanille Trèfle en Sucre)",
+      "086942": "Charmilly (Lait Ruby Trèfle en Sucre)",
+      "086943": "Charmilly (Lait Matcha Trèfle en Sucre)",
+      "086944": "Charmilly (Lait Menthe Trèfle en Sucre)",
+      "086945": "Charmilly (Lait Citron Trèfle en Sucre)",
+      "086946": "Charmilly (Lait Salé Trèfle en Sucre)",
+      "086947": "Charmilly (Mélange Ruby Trèfle en Sucre)",
+      "086948": "Charmilly (Mélange Caramel Trèfle en Sucre)",
+      "086949": "Charmilly (Mélange Tricolore Trèfle en Sucre)",
+      "086950": "Charmilly ★ (Trèfle en Sucre)",
+      "086951": "Charmilly (Lait Vanille Fleur en Sucre)",
+      "086952": "Charmilly (Lait Ruby Fleur en Sucre)",
+      "086953": "Charmilly (Lait Matcha Fleur en Sucre)",
+      "086954": "Charmilly (Lait Menthe Fleur en Sucre)",
+      "086955": "Charmilly (Lait Citron Fleur en Sucre)",
+      "086956": "Charmilly (Lait Salé Fleur en Sucre)",
+      "086957": "Charmilly (Mélange Ruby Fleur en Sucre)",
+      "086958": "Charmilly (Mélange Caramel Fleur en Sucre)",
+      "086959": "Charmilly (Mélange Tricolore Fleur en Sucre)",
+      "086960": "Charmilly ★ (Fleur en Sucre)",
+      "086961": "Charmilly (Lait Vanille Ruban en Sucre)",
+      "086962": "Charmilly (Lait Ruby Ruban en Sucre)",
+      "086963": "Charmilly (Lait Matcha Ruban en Sucre)",
+      "086964": "Charmilly (Lait Menthe Ruban en Sucre)",
+      "086965": "Charmilly (Lait Citron Ruban en Sucre)",
+      "086966": "Charmilly (Lait Salé Ruban en Sucre)",
+      "086967": "Charmilly (Mélange Ruby Ruban en Sucre)",
+      "086968": "Charmilly (Mélange Caramel Ruban en Sucre)",
+      "086969": "Charmilly (Mélange Tricolore Ruban en Sucre)",
+      "086970": "Charmilly ★ (Ruban en Sucre)",
       "087000": "Hexadron",
       "087100": "Wattapik",
       "087200": "Frissonille",
@@ -1709,6 +1781,7 @@
       "090900": "Chochodile",
       "091200": "Coiffeton",
       "091400": "Palmaval",
+      "091500": "Gourmelet",
       "092300": "Pohmarmotte",
       "092700": "Briochien",
       "093200": "Selutin",
@@ -1719,6 +1792,7 @@
       "094300": "Dogrino",
       "095900": "Forgelina",
       "096600": "Vrombotor",
+      "096700": "Motorizard",
       "097000": "Floréclat",
       "097500": "Balbalèze",
       "097900": "Courrousinge",
@@ -1906,6 +1980,7 @@
       "010110": "Écho (Saison 2019)",
       "010101": "Écho (Spécial)",
       "010102": "Écho (Néo-Maître)",
+      "010103": "Écho (Académie)",
       "010200": "Bianca",
       "010201": "Bianca (Néo-Maître)",
       "010300": "Aglaé",
@@ -2007,6 +2082,7 @@
       "014800": "Mortimer",
       "014801": "Mortimer (Saison 2021)",
       "014802": "Mortimer (Ultime)",
+      "014803": "Mortimer (Académie)",
       "014900": "Kiawe",
       "015000": "Albert",
       "015100": "Kiméra",
@@ -2034,6 +2110,7 @@
       "017800": "Cathy",
       "018000": "Tierno",
       "018100": "Trovato",
+      "018200": "Althéo",
       "018300": "Molène",
       "018400": "Saubohne",
       "018700": "Sina",
@@ -2085,6 +2162,7 @@
       "024501": "Rosemary (Saison 2021)",
       "024502": "Rosemary (Saison 2022)",
       "024503": "Rosemary (Néo-Maître)",
+      "024504": "Rosemary (Académie)",
       "024600": "Travis",
       "024601": "Travis (Néo-Maître)",
       "024700": "Tarak",
@@ -2126,6 +2204,7 @@
       "028900": "Menzi",
       "028901": "Menzi (Ultime)",
       "029000": "Aurel",
+      "029001": "Aurel (Académie)",
       "029100": "Lucia",
       "029300": "Pania",
       "029400": "Grusha",
@@ -2149,6 +2228,7 @@
       "032900": "Ortiga",
       "033000": "Nèflie",
       "035100": "Lizzy (Fille en Kimono)",
+      "035200": "Taro",
       "050200": "Sbire Team Aqua",
       "050300": "Sbire Team Aqua",
       "051600": "Fondation Æther",
@@ -10491,6 +10571,156 @@
       "116700": {
         "NAME": "Une armure en acier trempé ! Impact Acier !",
         "ABBR": "Une armure en acier trempé ! Impact Acier !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "840": {
+        "NAME": "Ailes Psycho",
+        "ABBR": "Ailes Psycho",
+        "DESC": "Taux de critiques élevé. Augmente la Vitesse du lanceur de 1 rang."
+      },
+      "844": {
+        "NAME": "Cortège Funèbre",
+        "ABBR": "Cortège Funèbre",
+        "DESC": "Double la puissance de cette attaque si la cible souffre d'une altération de statut. 30 % de chances de brûler la cible."
+      },
+      "6115": {
+        "NAME": "Éclat Magique rempli d'amour",
+        "ABBR": "Éclat Magique S",
+        "DESC": "Condition d'activation : Quand l'effet Accélération Jauge Capacité est appliqué au côté allié.\nCondition de désactivation : Quand l'effet Accélération Jauge Capacité ne s'applique plus au côté allié.\n\nN'échoue jamais. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. L'effet suivant s'applique 6 fois : Baisse aléatoirement une des stats suivantes de la cible de 1 rang : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive. Transforme la zone en une Zone Fée EX. (Une Zone Fée EX renforce les attaques de type Fée.) Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang."
+      },
+      "6116": {
+        "NAME": "Ailes Psycho du vent des montagnes",
+        "ABBR": "Ailes Psycho S",
+        "DESC": "Condition d'activation : Quand l'Atq. Spé. du lanceur a été augmenté(e).\nCondition de désactivation : Quand l'Atq. Spé. du lanceur n'est pas augmenté(e).\n\nN'échoue jamais. Inflige un coup critique si l'attaque atteint sa cible (sauf dans certains cas). Augmente la Vitesse de tous les Duos alliés de 2 rangs. Si les PPC restants de Toujours plus rapide ! du lanceur sont de 1 ou plus quand il attaque avec cette capacité, augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang."
+      },
+      "6117": {
+        "NAME": "Rafale Écailles de la brise printanière",
+        "ABBR": "Rafale Écailles S",
+        "DESC": "Condition d'activation : Quand l'Attaque du lanceur est augmentée.\nCondition de désactivation : Quand l'Attaque du lanceur n'est pas augmentée.\n\nN'échoue jamais. Augmente la Vitesse du lanceur de 1 rang. Attaque la cible 2 à 5 fois d'affilée. Augmente aléatoirement une des stats suivantes du lanceur de 1 rang quand il attaque au moins 3 fois d'affilée : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive. Applique l'effet Conso. 0 assurée au lanceur quand il attaque au moins 4 fois d'affilée. Augmente l'effet Prochain boost capacité physique du lanceur de 3 rangs quand il attaque 5 fois d'affilée. Si les PPC restants de Baie Sitrus du lanceur sont de 1 ou plus quand il attaque avec cette capacité, réduit la quantité de ces PPC de 1 et tous les effets suivants s'appliquent : Maximise le nombre d'attaques. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur."
+      },
+      "6118": {
+        "NAME": "Cortège Funèbre du sinistre crépuscule",
+        "ABBR": "Cortège Funèbre S",
+        "DESC": "Condition d'activation : Quand le Duo de votre équipe utilise une capacité Duo 1 fois.\nCondition de désactivation : Quand cette capacité est utilisée.\n\nN'échoue jamais. Double la puissance de cette attaque si la cible souffre d'une altération de statut. Baisse la Déf. Spé. et la Vitesse de la cible de 3 rangs. Brûle l'ennemi."
+      },
+      "6120": {
+        "NAME": "Ball'Ombre des âmes maléfiques",
+        "ABBR": "Ball'Ombre S",
+        "DESC": "Condition d'activation : Quand le lanceur utilise une fois n'importe quelle capacité.\nCondition de désactivation : Impossible de désactiver.\n\nN'échoue jamais. Réduit tous les PPC de cette capacité. Plus les PPC sont réduits, plus cette attaque est puissante. 20 % de chances de baisser la Déf. Spé. de la cible de 1 rang. Applique l'effet Peur, Confusion et Ligotage à la cible quand les PPC restants sont réduits de 108 par une seule attaque."
+      },
+      "8204": {
+        "NAME": "Analyse de Johto",
+        "ABBR": "Analyse de Johto",
+        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle de Johto spécial au côté allié. Cercle de Johto spécial applique tous les effets suivants : Augmente de 10 % la puissance des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Johto du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
+      },
+      "10916": {
+        "NAME": "Ce n'est pas encore fini !",
+        "ABBR": "Ce n'est pas encore fini !",
+        "DESC": "Réduit de 2 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Atq. Spé. du lanceur de 4 rangs. Applique l'effet Prochain super efficace ↑ à tous les Duos alliés."
+      },
+      "11028": {
+        "NAME": "Oh hé !",
+        "ABBR": "Oh hé !",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente la Précision du lanceur de 2 rangs."
+      },
+      "11487": {
+        "NAME": "Enseigner corps et âme",
+        "ABBR": "Enseigner corps et âme",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente le taux de critiques du lanceur de 3 rangs."
+      },
+      "11829": {
+        "NAME": "Bienvenue !",
+        "ABBR": "Bienvenue !",
+        "DESC": "Applique l'effet Accélération Jauge Capacité au côté allié. Augmente l'Attaque d'un allié de 4 rangs. Augmente le taux de critiques d'un allié de 3 rangs."
+      },
+      "12452": {
+        "NAME": "J'mets les gaz !",
+        "ABBR": "J'mets les gaz !",
+        "DESC": "Augmente l'Attaque du lanceur de 4 rangs. Augmente la Vitesse du lanceur de 2 rangs. Augmente le taux de critiques du lanceur de 3 rangs."
+      },
+      "12904": {
+        "NAME": "Toujours plus rapide !",
+        "ABBR": "Toujours plus rapide !",
+        "DESC": "Applique l'effet Prochain super efficace ↑ au lanceur. Applique l'effet Conso. 0 assurée au lanceur. Plus la Vitesse du lanceur a été augmentée, plus le nombre d'actions nécessaires pour lancer sa capacité Duo diminue (jusqu'à 3 rangs). Plus la Vitesse du lanceur a été augmentée, plus son effet Prochain boost capacité spéciale est augmenté (jusqu'à 3 rangs)."
+      },
+      "13520": {
+        "NAME": "Un adorable moment à partager !",
+        "ABBR": "Un adorable moment à partager !",
+        "DESC": "Applique l'effet Accélération Jauge Capacité au côté allié. Augmente l'Atq. Spé. d'un allié de 4 rangs. Augmente le taux de critiques d'un allié de 3 rangs."
+      },
+      "13529": {
+        "NAME": "J'approuve totalement !",
+        "ABBR": "J'approuve totalement !",
+        "DESC": "Augmente le taux de critiques du lanceur de 2 rangs. Augmente la Vitesse de tous les Duos alliés de 2 rangs."
+      },
+      "17500": {
+        "NAME": "Révisions sur l'Attaque",
+        "ABBR": "Révisions sur l'Attaque",
+        "DESC": "Augmente l'Attaque du lanceur de 2 rangs. Augmente le taux de critiques du lanceur de 1 rang."
+      },
+      "17501": {
+        "NAME": "Révisions sur l'Attaque Spéciale",
+        "ABBR": "Révisions sur l'Attaque Spéciale",
+        "DESC": "Augmente l'Atq. Spé. du lanceur de 2 rangs. Augmente le taux de critiques du lanceur de 1 rang."
+      },
+      "17502": {
+        "NAME": "Révisions sur les défenses",
+        "ABBR": "Révisions sur les défenses",
+        "DESC": "Augmente la Défense et la Déf. Spé. du lanceur de 2 rangs."
+      },
+      "17503": {
+        "NAME": "Révisions sur le soutien",
+        "ABBR": "Révisions sur le soutien",
+        "DESC": "Augmente la Défense de tous les Duos alliés de 2 rangs. Augmente la Vitesse de tous les Duos alliés de 1 rang."
+      },
+      "50101": {
+        "NAME": "Pugnacité stylée ! Turbo-Charge Bulldozer !",
+        "ABBR": "Pugnacité stylée ! Turbo-Charge Bulldozer !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "113100": {
+        "NAME": "Mignons mais redoutables ! Éclat Magique !",
+        "ABBR": "Mignons mais redoutables ! Éclat Magique !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "117300": {
+        "NAME": "Envol direction l'école ! Laser Psy !",
+        "ABBR": "Envol direction l'école ! Laser Psy !",
+        "DESC": "Plus l'Atq. Spé. du lanceur a été augmentée, plus cette attaque est puissante."
+      },
+      "117400": {
+        "NAME": "En virée dans la cour de récré ! Impact Dragon !",
+        "ABBR": "En virée dans la cour de récré ! Impact Dragon !",
+        "DESC": "Plus l'Attaque du lanceur a été augmentée, plus cette attaque est puissante."
+      },
+      "117500": {
+        "NAME": "Transmettons les légendes de Johto ! Laser Spectre !",
+        "ABBR": "Transmettons les légendes de Johto ! Laser Spectre !",
+        "DESC": "Augmente la puissance de l'attaque quand la cible est brûlée."
+      },
+      "117700": {
+        "NAME": "Par la fusion des 108 âmes ! Laser Spectre !",
+        "ABBR": "Par la fusion des 108 âmes ! Laser Spectre !",
+        "DESC": "Augmente la puissance de l'attaque quand la cible souffre d'une altération de statut."
+      },
+      "117900": {
+        "NAME": "Nous allons vous combler de mignonneries ! Laser Fée !",
+        "ABBR": "Nous allons vous combler de mignonneries ! Laser Fée !",
+        "DESC": "Plus la Déf. Spé. de la cible a été baissée, plus cette attaque est puissante."
+      },
+      "118000": {
+        "NAME": "Commençons par une petite démonstration ! Laser Feu !",
+        "ABBR": "Commençons par une petite démonstration ! Laser Feu !",
+        "DESC": "Augmente la puissance de l'attaque quand la cible est ligotée."
+      },
+      "119200": {
+        "NAME": "À la recherche des mystères de Passio ! Impact Normal !",
+        "ABBR": "À la recherche des mystères de Passio ! Impact Normal !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "119300": {
+        "NAME": "C'est une nouvelle saison qui s'annonce ! Laser Plante !",
+        "ABBR": "C'est une nouvelle saison qui s'annonce ! Laser Plante !",
         "DESC": "Aucun effet additionnel."
       }
     },
@@ -19534,6 +19764,266 @@
         "NAME": "Celui qui marche sur la lave",
         "ABBR": "Celui qui marche sur la lave",
         "DESC": "Augmente l'Attaque du lanceur de 6 rangs quand il arrive au combat. Augmente le taux de critiques du lanceur de 3 rangs quand il arrive au combat."
+      },
+      "1302400": {
+        "NAME": "Équipe Turbo Coach Stoï. Action Capa. Duo {{value}}",
+        "ABBR": "Équipe Turbo Coach Stoï. Action Capa. Duo {{value}}",
+        "DESC": "Réduit les dégâts quand un allié subit une capacité offensive ou une capacité Duo et que l'effet Accélération Jauge Capacité s'applique au côté allié."
+      },
+      "1302410": {
+        "NAME": "Super Eff. Réflexe Stoï. Action Capa. Duo {{value}}",
+        "ABBR": "Super Eff. Réflexe Stoï. Action Capa. Duo {{value}}",
+        "DESC": "Réduit les dégâts des capacités super efficaces et des capacités Duo super efficaces subies par le lanceur."
+      },
+      "1302440": {
+        "NAME": "Équipe Turbo Stoïcisme Capacité Offensive {{value}}",
+        "ABBR": "Équipe Turbo Stoïcisme Capacité Offensive {{value}}",
+        "DESC": "Réduit les dégâts quand le lanceur subit une capacité offensive et que l'effet Accélération Jauge Capacité s'applique au côté allié."
+      },
+      "1306240": {
+        "NAME": "Châtiment Récup'32 PPC Capa. Synchro",
+        "ABBR": "Châtiment Récup'32 PPC Capa. Synchro",
+        "DESC": "La capacité Synchro du lanceur regagne 32 PPC quand il utilise Châtiment avec succès."
+      },
+      "1306250": {
+        "NAME": "Capa. Duo Récup'50 PPC Capa. Synchro {{value}}",
+        "ABBR": "Capa. Duo Récup'50 PPC Capa. Synchro {{value}}",
+        "DESC": "{{chance}} % de chances que la capacité Synchro du lanceur regagne 50 PPC après l'utilisation de sa capacité Duo."
+      },
+      "1306260": {
+        "NAME": "Capa. Off. Récup'32 PPC Capa. Synchro {{value}}",
+        "ABBR": "Capa. Off. Récup'32 PPC Capa. Synchro {{value}}",
+        "DESC": "{{chance}} % de chances que la capacité Synchro du lanceur regagne 32 PPC quand il utilise avec succès sa capacité offensive."
+      },
+      "1308330": {
+        "NAME": "Ennemi Altér. Puissance Châtiment × 2",
+        "ABBR": "Ennemi Altér. Puissance Châtiment × 2",
+        "DESC": "Double la puissance de Châtiment du lanceur quand la cible souffre d'une altération de statut."
+      },
+      "1601980": {
+        "NAME": "Zone Normal Coach Capacité Duo {{value}}",
+        "ABBR": "Zone Normal Coach Capacité Duo {{value}}",
+        "DESC": "Augmente la puissance des capacités Duo de tous les Duos alliés quand la zone est une Zone Normal."
+      },
+      "1603020": {
+        "NAME": "Équipe Turbo Coach Capacité Duo {{value}}",
+        "ABBR": "Équipe Turbo Coach Capacité Duo {{value}}",
+        "DESC": "Augmente la puissance des capacités Duo de tous les Duos alliés quand l'effet Accélération Jauge Capacité s'applique au côté allié."
+      },
+      "1603030": {
+        "NAME": "Équipe Turbo Capacité Duo ↑ {{value}}",
+        "ABBR": "Équipe Turbo Capacité Duo ↑ {{value}}",
+        "DESC": "Augmente la puissance de la capacité Duo du lanceur quand l'effet Accélération Jauge Capacité s'applique au côté allié."
+      },
+      "1701480": {
+        "NAME": "Équipe Turbo Coach Immu. Alt. Tour.",
+        "ABBR": "Équipe Turbo Coach Immu. Alt. Tour.",
+        "DESC": "Protège tous les Duos alliés des altérations de statut, de la peur, de la confusion ou du ligotage quand l'effet Accélération Jauge Capacité s'applique au côté allié."
+      },
+      "1708050": {
+        "NAME": "Capa. Dresseur Épuisée Capa. Off. Conso. 0 {{value}}",
+        "ABBR": "Capa. Dresseur Épuisée Capa. Off. Conso. 0 {{value}}",
+        "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand il utilise avec succès sa capacité offensive alors que les PPC restants des capacités de son Dresseur sont de 0."
+      },
+      "1708060": {
+        "NAME": "Capa. Dresseur Épuisée Capa. Off. Boost Spé. +2 {{value}}",
+        "ABBR": "Capa. Dresseur Épuisée Capa. Off. Boost Spé. +2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale du lanceur de 2 rangs quand il utilise avec succès sa capacité offensive alors que les PPC restants des capacités de son Dresseur sont de 0."
+      },
+      "1708070": {
+        "NAME": "Ennemi Brûlé Allié Capa. Off. Boost Spé. +1 {{value}}",
+        "ABBR": "Ennemi Brûlé Allié Capa. Off. Boost Spé. +1 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale d'un allié de 1 rang quand il utilise avec succès sa capacité offensive contre un ennemi brûlé."
+      },
+      "1708080": {
+        "NAME": "Première Pénurie Coach Boost Physique {{value}}",
+        "ABBR": "Première Pénurie Coach Boost Physique {{value}}",
+        "DESC": "Augmente l'effet Prochain boost capacité physique de tous les Duos alliés de {{value}} rang la première fois que les PPC restants des capacités du lanceur qui ont l'effet Baie sont de 0 à chaque combat."
+      },
+      "1708090": {
+        "NAME": "Ennemi Brûlé Capa. Off. Conso. 0 {{value}}",
+        "ABBR": "Ennemi Brûlé Capa. Off. Conso. 0 {{value}}",
+        "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand il utilise avec succès sa capacité offensive contre un ennemi brûlé."
+      },
+      "1708210": {
+        "NAME": "Intro Auto-Sommeil",
+        "ABBR": "Intro Auto-Sommeil",
+        "DESC": ""
+      },
+      "1708260": {
+        "NAME": "Capacité Duo Coach Boost Spécial +2 {{value}}",
+        "ABBR": "Capacité Duo Coach Boost Spécial +2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale de tous les Duos alliés de 2 rangs après l'utilisation d'une capacité Duo par le lanceur."
+      },
+      "1708270": {
+        "NAME": "Capacité Coach Consommation 0 {{value}}",
+        "ABBR": "Capacité Coach Consommation 0 {{value}}",
+        "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée à tous les Duos alliés quand le lanceur utilise avec succès une capacité."
+      },
+      "1708280": {
+        "NAME": "Prem. Capacité Util. Coach Boost Spécial {{value}}",
+        "ABBR": "Prem. Capacité Util. Coach Boost Spécial {{value}}",
+        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de {{value}} rang la première fois que le lanceur utilise une capacité à chaque combat."
+      },
+      "1708290": {
+        "NAME": "Prem. Capa. Off. Résilience Normal ↓",
+        "ABBR": "Prem. Capa. Off. Résilience Normal ↓",
+        "DESC": "Baisse la Résilience Normal de la cible de 1 rang la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat."
+      },
+      "1708300": {
+        "NAME": "Capacité Boost Physique Spécial +2 {{value}}",
+        "ABBR": "Capacité Boost Physique Spécial +2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de 2 rangs quand il utilise avec succès une capacité."
+      },
+      "1812070": {
+        "NAME": "Zone Fée Capacité Offensive Stat ↓ × 2 {{value}}",
+        "ABBR": "Zone Fée Capacité Offensive Stat ↓ × 2 {{value}}",
+        "DESC": "L'effet suivant s'applique 2 fois quand le lanceur utilise avec succès une capacité offensive et que la zone est une Zone Fée : {{chance}} % de chances de baisser aléatoirement une des stats suivantes de la cible de 1 rang : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
+      },
+      "1812080": {
+        "NAME": "Ennemi Brûlé Capa. Off. Stat 2↓ {{value}}",
+        "ABBR": "Ennemi Brûlé Capa. Off. Stat 2↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser aléatoirement une des stats suivantes de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive contre un ennemi brûlé : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
+      },
+      "1812110": {
+        "NAME": "Capa. Dr. Sup. ou Égal 1 Capa. Off. Déf. Spé. ↓ {{value}}",
+        "ABBR": "Capa. Dr. Sup. ou Égal 1 Capa. Off. Déf. Spé. ↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser la Déf. Spé. de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive contre elle alors que les PPC restants des capacités de son Dresseur sont de 1 ou plus."
+      },
+      "1812120": {
+        "NAME": "Capa. Dresseur Épuisée Capa. Off. Stat 2↓ {{value}}",
+        "ABBR": "Capa. Dresseur Épuisée Capa. Off. Stat 2↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser aléatoirement une des stats suivantes de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive alors que les PPC restants des capacités de son Dresseur sont de 0 : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
+      },
+      "1812130": {
+        "NAME": "Ennemi Confus Capa. Off. Précision ↓ {{value}}",
+        "ABBR": "Ennemi Confus Capa. Off. Précision ↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser la Précision de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive contre un ennemi confus."
+      },
+      "1812140": {
+        "NAME": "Capacité Offensive Stat 2↓ {{value}}",
+        "ABBR": "Capacité Offensive Stat 2↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser aléatoirement une des stats suivantes de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive contre elle : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
+      },
+      "1812150": {
+        "NAME": "Ennemi Brûlé Capa. Off. Atq. Atq. Spé. ↓ {{value}}",
+        "ABBR": "Ennemi Brûlé Capa. Off. Atq. Atq. Spé. ↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser l'Attaque et l'Atq. Spé. de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive contre un ennemi brûlé."
+      },
+      "1812160": {
+        "NAME": "Capacité Offensive Attaque 2↓ {{value}}",
+        "ABBR": "Capacité Offensive Attaque 2↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser l'Attaque de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive contre elle."
+      },
+      "1812170": {
+        "NAME": "Capacité Offensive Touche Vitesse ↑ {{value}}",
+        "ABBR": "Capacité Offensive Touche Vitesse ↑ {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter la Vitesse du lanceur de 1 rang quand sa capacité offensive atteint sa cible. Si la capacité possède l'effet Enchaînement, {{chance}} % de chances d'augmenter la Vitesse du lanceur de 1 rang à chaque coup."
+      },
+      "1905540": {
+        "NAME": "Turbo Prolongé {{value}}",
+        "ABBR": "Turbo Prolongé {{value}}",
+        "DESC": "L'effet Accélération Jauge Capacité dure plus longtemps quand l'effet Accélération Jauge Capacité est appliqué au côté allié."
+      },
+      "1905590": {
+        "NAME": "Cercle de Johto Spécial Prolongé {{value}}",
+        "ABBR": "Cercle de Johto Spécial Prolongé {{value}}",
+        "DESC": "Cercle de Johto spécial dure plus longtemps quand Cercle de Johto spécial est appliqué au côté allié."
+      },
+      "1905600": {
+        "NAME": "Intro Cercle de Johto Spécial Équipe",
+        "ABBR": "Intro Cercle de Johto Spécial Équipe",
+        "DESC": "Applique Cercle de Johto spécial au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1905610": {
+        "NAME": "Prem. Capa. Dr. Cercle de Paldea Déf. Équipe",
+        "ABBR": "Prem. Capa. Dr. Cercle de Paldea Déf. Équipe",
+        "DESC": "Applique Cercle de Paldea Défensif au côté allié la première fois que le Dresseur du lanceur utilise une capacité à chaque combat."
+      },
+      "1905620": {
+        "NAME": "Intro Cercle d'Unys Défensif Équipe",
+        "ABBR": "Intro Cercle d'Unys Défensif Équipe",
+        "DESC": "Applique Cercle d'Unys Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1905630": {
+        "NAME": "Prem. Capa. Duo Cercle d'Unys Déf. Équipe",
+        "ABBR": "Prem. Capa. Duo Cercle d'Unys Déf. Équipe",
+        "DESC": "Applique Cercle d'Unys Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
+      },
+      "1905780": {
+        "NAME": "Intro Cercle de Paldea Défensif Équipe",
+        "ABBR": "Intro Cercle de Paldea Défensif Équipe",
+        "DESC": "Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "2101090": {
+        "NAME": "Équipe Turbo Coach Immunité Critiques",
+        "ABBR": "Équipe Turbo Coach Immunité Critiques",
+        "DESC": "Protège tous les Duos alliés des coups critiques quand l'effet Accélération Jauge Capacité s'applique au côté allié."
+      },
+      "3201960": {
+        "NAME": "La fille distinguée du Roi de la Mine",
+        "ABBR": "La fille distinguée du Roi de la Mine",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Augmente la puissance de la capacité Duo du lanceur quand l'effet Accélération Jauge Capacité s'applique au côté allié. La Zone Fée dure plus longtemps quand la zone devient une Zone Fée et que le lanceur est sur le terrain."
+      },
+      "9902390": {
+        "NAME": "Chuchotements d'élève modèle",
+        "ABBR": "Chuchotements d'élève modèle",
+        "DESC": "Réduit les dégâts quand un allié subit une capacité offensive ou une capacité Duo et que l'effet Accélération Jauge Capacité s'applique au côté allié. Protège tous les Duos alliés des coups critiques quand l'effet Accélération Jauge Capacité s'applique au côté allié. L'effet Accélération Jauge Capacité dure plus longtemps quand l'effet Accélération Jauge Capacité est appliqué au côté allié."
+      },
+      "9902400": {
+        "NAME": "Résultats « Stellaires »",
+        "ABBR": "Résultats « Stellaires »",
+        "DESC": "Augmente l'Atq. Spé. du lanceur de 4 rangs quand il arrive au combat. Augmente le taux de critiques du lanceur de 3 rangs quand il arrive au combat. Augmente l'effet Prochain boost capacité Duo du lanceur de 4 rangs quand il arrive au combat."
+      },
+      "9902410": {
+        "NAME": "Partenaire glouton",
+        "ABBR": "Partenaire glouton",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois que les PPC restants de ses capacités qui ont l'effet Baie sont de 0 à chaque combat. Augmente l'effet Prochain boost capacité physique de tous les Duos alliés de 1 rang la première fois que les PPC restants des capacités du lanceur qui ont l'effet Baie sont de 0 à chaque combat."
+      },
+      "9902420": {
+        "NAME": "As de la chevauchée",
+        "ABBR": "As de la chevauchée",
+        "DESC": "30 % de chances de restaurer les PV du lanceur quand sa capacité offensive atteint sa cible. Si la capacité possède l'effet Enchaînement, 30 % de chances de restaurer les PV du lanceur à chaque coup. 30 % de chances de remplir la Jauge Capacité du lanceur de 1 segment quand sa capacité offensive atteint sa cible. Si la capacité possède l'effet Enchaînement, 30 % de chances de remplir la Jauge Capacité du lanceur de 1 segment à chaque coup."
+      },
+      "9902430": {
+        "NAME": "Âmes flottant dans l'obscurité",
+        "ABBR": "Âmes flottant dans l'obscurité",
+        "DESC": "Augmente les chances d'infliger des altérations de statut avec les effets additionnels des capacités du lanceur. Quand le lanceur inflige une altération de statut à un ennemi avec les effets additionnels d'une capacité, applique la même altération de statut à tous les Duos ennemis."
+      },
+      "9902440": {
+        "NAME": "Récits d'épouvante du mystérieux enseignant",
+        "ABBR": "Récits d'épouvante du mystérieux enseignant",
+        "DESC": "Baisse aléatoirement une des stats suivantes de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive contre un ennemi brûlé : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive. Applique l'effet Conso. 0 assurée au lanceur quand il utilise avec succès sa capacité offensive contre un ennemi brûlé."
+      },
+      "9902470": {
+        "NAME": "Pensées maléfiques scellées",
+        "ABBR": "Pensées maléfiques scellées",
+        "DESC": "Réduit les dégâts des capacités super efficaces et des capacités Duo super efficaces subies par le lanceur. Quand le Pokémon du lanceur utilise avec succès une capacité qui le cible lui ou un allié, la cible devient tous les Duos alliés. Quand le Pokémon du lanceur utilise avec succès une capacité qui cible un ennemi, la cible devient tous les Duos ennemis. Quand la capacité Duo du lanceur attaque un ennemi, la cible devient tous les Duos ennemis. La puissance et les chances d'appliquer les effets supplémentaires des capacités et capacités Duo concernées par ce talent passif ne sont pas baissées même s'il y a plusieurs cibles. Inflige un coup critique si les attaques suivantes du lanceur atteignent leur cible (sauf dans certains cas) : capacités du Pokémon ou capacité Duo."
+      },
+      "9902480": {
+        "NAME": "Châtiment exemplaire",
+        "ABBR": "Châtiment exemplaire",
+        "DESC": "Double la puissance de Châtiment du lanceur quand la cible souffre d'une altération de statut. La capacité Synchro du lanceur regagne 32 PPC quand il utilise Châtiment avec succès."
+      },
+      "9902490": {
+        "NAME": "Fusion des âmes",
+        "ABBR": "Fusion des âmes",
+        "DESC": "Remplit la Jauge Capacité du lanceur de 6 segments après l'utilisation de sa capacité Duo. La capacité Synchro du lanceur regagne 50 PPC après l'utilisation de sa capacité Duo."
+      },
+      "9902640": {
+        "NAME": "Chant et danse sur scène",
+        "ABBR": "Chant et danse sur scène",
+        "DESC": "Transforme le champ en un Champ Psychique la première fois que le Dresseur du lanceur utilise une capacité à chaque combat quand le lanceur est en Forme Chant. Transforme la zone en une Zone Combat la première fois que le Dresseur du lanceur utilise une capacité à chaque combat quand le lanceur est en Forme Danse. (Une Zone Combat renforce les attaques de type Combat.)"
+      },
+      "9902900": {
+        "NAME": "Début d'une saison d'épanouissement",
+        "ABBR": "Début d'une saison d'épanouissement",
+        "DESC": "Transforme le champ en un Champ Herbu la première fois que le lanceur arrive au combat à chaque combat. Le Champ Herbu dure plus longtemps quand le champ devient un Champ Herbu et que le lanceur est sur le terrain."
+      },
+      "9902910": {
+        "NAME": "Président du club de recherches sur le paranormal",
+        "ABBR": "Président du club de recherches sur le paranormal",
+        "DESC": "Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat. Cercle de Paldea Défensif dure plus longtemps quand Cercle de Paldea Défensif est appliqué au côté allié."
       }
     },
     "THEMES": {
@@ -20056,7 +20546,11 @@
       "20000398": "Brilliance",
       "20000399": "Jeunesse",
       "20000400": "Gemme Rouge",
-      "20000401": "Bourg-en-Vol"
+      "20000401": "Bourg-en-Vol",
+      "20000402": "Type Fée",
+      "20000403": "Kassis",
+      "20000404": "Orbe Téracristal",
+      "20000406": "Gilets"
     },
     "TOPIC_GROUP": {
       "1": "Pokémon",
