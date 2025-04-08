@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1743883558154,
+  "timestamp": 1744086596400,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -32,7 +32,7 @@
         "/939.95bc531595fe49f0.js",
         "/favicon.ico",
         "/index.html",
-        "/main.7ef2cc9121f636c8.js",
+        "/main.475627cfbf846666.js",
         "/manifest.webmanifest",
         "/polyfills.a402040b2e0938e4.js",
         "/runtime.5497cee473938069.js",
@@ -205,6 +205,7 @@
         "/assets/img/battle/WTHR_002.png",
         "/assets/img/battle/WTHR_004.png",
         "/assets/img/battle/WTHR_008.png",
+        "/assets/img/battle/academy.png",
         "/assets/img/battle/arc.png",
         "/assets/img/battle/ballground.png",
         "/assets/img/battle/bmove.png",
@@ -2362,6 +2363,7 @@
     "/assets/img/battle/WTHR_002.png": "d7d920765dabf338f532a841958ea8cffcfc77a5",
     "/assets/img/battle/WTHR_004.png": "094649b0edd4aa5ab959f8699c86ce6b45ae0c40",
     "/assets/img/battle/WTHR_008.png": "10daabf0a68308ef1902032bfa8a39649e856a46",
+    "/assets/img/battle/academy.png": "4d6a2cf9ecf9d709536a92791e551032fd42a319",
     "/assets/img/battle/arc.png": "f422ed5a593c23fd01ea9c2453090144ba74c75a",
     "/assets/img/battle/ballground.png": "3f8a134ea4b7062e2fa5f54cff29c0fdcc07e498",
     "/assets/img/battle/bmove.png": "aba6bb1e78816808966d1bf6deb28cd4e4579ed3",
@@ -4338,8 +4340,8 @@
     "/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
     "/fa-solid-900.40ddefd79fe7af45.woff2": "2717f3f58271f2f2e6120d9937c7227002656d34",
     "/favicon.ico": "bde24ab5ee5a7b66902f6b8aadac944671cea10a",
-    "/index.html": "a57ad7281bf1355bcebb61a7297950df7ee92532",
-    "/main.7ef2cc9121f636c8.js": "5b0e061ab8b65dadd3a7168591cfdb7c8e2578b0",
+    "/index.html": "9d61f8729988f72b18e28f114504bff333b5f70c",
+    "/main.475627cfbf846666.js": "085008d58ccb0f349f0207d0ec1eaf84f1ef10ca",
     "/manifest.webmanifest": "feeb74972c76d307fa17102d69de773d03f2e2be",
     "/polyfills.a402040b2e0938e4.js": "9b26c1d105f9ffe8cc6b64216eb7657ac83b7292",
     "/runtime.5497cee473938069.js": "a7102771d6444dd2352386d1b33b80669b9d45a8",
