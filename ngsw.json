@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1745638547916,
+  "timestamp": 1745643130842,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -768,6 +768,7 @@
         "/assets/img/pokemon/064000_128.png",
         "/assets/img/pokemon/064100_128.png",
         "/assets/img/pokemon/064101_128.png",
+        "/assets/img/pokemon/064200_128.png",
         "/assets/img/pokemon/064201_128.png",
         "/assets/img/pokemon/064300_128.png",
         "/assets/img/pokemon/064400_128.png",
@@ -2950,7 +2951,8 @@
     "/assets/img/pokemon/064000_128.png": "58990bf15caed3c1ff7960f4b6c4ea9a13ed0708",
     "/assets/img/pokemon/064100_128.png": "721a67f069293d65ade0c70637ef8551fd55aa76",
     "/assets/img/pokemon/064101_128.png": "409d550b896c500a183d847779d6a979655dc0fc",
-    "/assets/img/pokemon/064201_128.png": "b5a5f5cc774f6827d2ef6b55faa2511b44a7d49e",
+    "/assets/img/pokemon/064200_128.png": "b5a5f5cc774f6827d2ef6b55faa2511b44a7d49e",
+    "/assets/img/pokemon/064201_128.png": "de32298b47d535d155342605209e77220ba49e3b",
     "/assets/img/pokemon/064300_128.png": "b4a6eace287d929cfc3850972bf4f73802cb9184",
     "/assets/img/pokemon/064400_128.png": "78422d71d3ea6726998f4556ea0b825d18bd72b0",
     "/assets/img/pokemon/064500_128.png": "cd488a93a25bd591018348258bd6e03887d47fd0",
