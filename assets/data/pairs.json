@@ -57526,7 +57526,7 @@
     "date": 1606716000,
     "dateGrid": 1606716000,
     "date6ex": 1606716000,
-    "dateExRole": 1747029600,
+    "dateExRole": 1746252000,
     "dateAwakening": 1735711200,
     "exMode": 1,
     "role": "ROLE_001",
@@ -59456,7 +59456,7 @@
     "date": 1614319200,
     "dateGrid": 1614319200,
     "date6ex": 1614319200,
-    "dateExRole": 1747029600,
+    "dateExRole": 1746252000,
     "dateAwakening": 1733032800,
     "exMode": 1,
     "role": "ROLE_004",
@@ -70840,7 +70840,7 @@
       20030003,
       29990032
     ],
-    "acquisition": 50,
+    "acquisition": 82,
     "pokemon": [
       {
         "id": "021000",

@@ -6759,7 +6759,8 @@
                 "TARG_001",
                 "STAT_004",
                 "LOWER_STAT",
-                "250"
+                "167",
+                "1000"
             ]
         ],
         "tags": "NO_AOE"
@@ -23143,7 +23144,7 @@
         "tags": ""
     },
     "100400": {
-        "type": "TYPE_011",
+        "type": "TYPE_001",
         "category": "CATE_002",
         "defense": "SP",
         "kind": "SN",

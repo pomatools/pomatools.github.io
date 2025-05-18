@@ -12337,7 +12337,7 @@
       },
       "1306230": {
         "NAME": "Unimossa sincromaggio {{value}}",
-        "ABBR": "Unimossa sincromaggio {{value}}",
+        "ABBR": "Unimossa sincrom. {{value}}",
         "DESC": "Ripristina {{value}} utilizzo della sincromossa di chi la usa dopo aver sferrato la sua Unimossa."
       },
       "1306240": {
@@ -12537,7 +12537,7 @@
       },
       "1308350": {
         "NAME": "Frangiprotezione potenziatecniche {{value}}",
-        "ABBR": "Frangiprotezione potenziatecniche {{value}}",
+        "ABBR": "Frangiprot. potenziat. {{value}}",
         "DESC": "Aumenta la potenza delle mosse e dell'Unimossa di chi la usa quando la protezione dal tipo del bersaglio viene ridotta."
       },
       "1401010": {
@@ -13327,7 +13327,7 @@
       },
       "1603010": {
         "NAME": "Pioggia UniDynapotente {{value}}",
-        "ABBR": "Pioggia UniDynapotente {{value}}",
+        "ABBR": "Pioggia UniDynapot. {{value}}",
         "DESC": "Aumenta la potenza della mossa UniDynamax di chi la usa quando piove."
       },
       "1603020": {
@@ -15252,12 +15252,12 @@
       },
       "1708100": {
         "NAME": "Unimossa iperspeciale singola-G {{value}}",
-        "ABBR": "Unimossa iperspeciale singola-G {{value}}",
+        "ABBR": "Unimossa ipersp. singola-G {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado dopo aver sferrato l'Unimossa di chi la usa."
       },
       "1708110": {
         "NAME": "Uso Volontà Acciaio iperspeciale doppia {{value}}",
-        "ABBR": "Uso Volontà Acciaio iperspeciale doppia {{value}}",
+        "ABBR": "Uso Volontà Acciaio ipersp. doppia {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 2 gradi quando utilizza Volontà Acciaio."
       },
       "1708120": {
@@ -15287,7 +15287,7 @@
       },
       "1708170": {
         "NAME": "Alleambiente iperspeciale singolo-G {{value}}",
-        "ABBR": "Alleambiente iperspeciale singolo-G {{value}}",
+        "ABBR": "Alleamb. ipersp. singolo-G {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado quando un alleato attiva cambiamenti atmosferici o trasformazioni del campo di lotta o della zona."
       },
       "1708180": {
@@ -15312,17 +15312,17 @@
       },
       "1708220": {
         "NAME": "Centrabersaglio iper singolo {{value}}",
-        "ABBR": "Centrabersaglio iper singolo {{value}}",
+        "ABBR": "Centrabers. iper singolo {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando il suo attacco semplice colpisce. Se la mossa è definita \"multicolpo\" alla voce \"Effetti\", ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado per ogni colpo."
       },
       "1708230": {
         "NAME": "Primo iperspeciale seipiù iperspeciale {{value}}",
-        "ABBR": "Primo iperspeciale seipiù iperspeciale {{value}}",
+        "ABBR": "Primo ipersp. seipiù ipersp. {{value}}",
         "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di {{value}} gradi la prima volta che il suo effetto \"Prossima mossa speciale ↑\" è di grado 6 o superiore in ogni lotta."
       },
       "1708250": {
         "NAME": "Alleazona Coleottero iperspeciale singola {{value}}",
-        "ABBR": "Alleazona Coleottero iperspeciale singola {{value}}",
+        "ABBR": "Alleazona Coleottero ipersp. singola {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando un alleato trasforma la zona in una Zona Coleottero."
       },
       "1708260": {
@@ -17642,7 +17642,7 @@
       },
       "1812100": {
         "NAME": "Alleambiente bonus pentarandom doppiogrado-G {{value}}",
-        "ABBR": "Alleambiente bonus pentarandom doppiogrado-G {{value}}",
+        "ABBR": "Alleamb. bonus pentar. doppiogr.-G {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare a caso di 2 gradi una delle seguenti statistiche di tutte le Unità alleate quando un alleato attiva cambiamenti atmosferici o trasformazioni del campo di lotta o della zona: Attacco, Difesa, Attacco Speciale, Difesa Speciale o Velocità."
       },
       "1812110": {
@@ -17682,7 +17682,7 @@
       },
       "1812180": {
         "NAME": "Attacco frastornante quadruplogrado {{value}}",
-        "ABBR": "Attacco frastornante quadruplogrado {{value}}",
+        "ABBR": "Attacco frastorn. quadr. {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre l'Attacco Speciale del bersaglio di 4 gradi quando l'attacco semplice di chi la usa va a segno contro di esso."
       },
       "1901010": {

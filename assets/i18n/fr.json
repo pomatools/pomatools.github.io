@@ -12337,7 +12337,7 @@
       },
       "1306230": {
         "NAME": "Capacité Duo Récup'PPC Capacité Synchro {{value}}",
-        "ABBR": "Capacité Duo Récup'PPC Capacité Synchro {{value}}",
+        "ABBR": "C.Duo Récup'PPC C.Synchro {{value}}",
         "DESC": "La capacité Synchro du lanceur regagne {{value}} PPC après l'utilisation de sa capacité Duo."
       },
       "1306240": {
@@ -12537,7 +12537,7 @@
       },
       "1308350": {
         "NAME": "Enn. Résilience ↓ Action Capacité Duo ↑ {{value}}",
-        "ABBR": "Enn. Résilience ↓ Action Capacité Duo ↑ {{value}}",
+        "ABBR": "Enn. Résil. ↓ Action C.Duo ↑ {{value}}",
         "DESC": "Augmente la puissance des capacités et de la capacité Duo du lanceur quand la Résilience au type de la cible est baissée."
       },
       "1401010": {
@@ -12772,7 +12772,7 @@
       },
       "1501430": {
         "NAME": "Souhait Acier Util. Compteur ↓ {{value}}",
-        "ABBR": "Souhait Acier Util. Compteur ↓ {{value}}",
+        "ABBR": "S.Acier Util. Compteur ↓ {{value}}",
         "DESC": "{{chance}} % de chances de réduire de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur quand il utilise Souhait Acier."
       },
       "1501440": {
@@ -12787,7 +12787,7 @@
       },
       "1501460": {
         "NAME": "Prem. Boost Phy. Sup. ou Égal 6 Compteur ↓ {{value}}",
-        "ABBR": "Prem. Boost Phy. Sup. ou Égal 6 Compteur ↓ {{value}}",
+        "ABBR": "Prem. Boost Phy. ≥ 6 Compt. ↓ {{value}}",
         "DESC": "Réduit de {{value}} le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois que son effet Prochain boost capacité physique est de rang 6 ou plus à chaque combat."
       },
       "1502010": {
@@ -13327,7 +13327,7 @@
       },
       "1603010": {
         "NAME": "Pluie Puissance Capacité Duo Dynamax ↑ {{value}}",
-        "ABBR": "Pluie Puissance Capacité Duo Dynamax ↑ {{value}}",
+        "ABBR": "Pluie Pui. C.Duo Dynamax ↑ {{value}}",
         "DESC": "Augmente la puissance de la capacité Duo Dynamax du lanceur quand il pleut."
       },
       "1603020": {
@@ -13342,7 +13342,7 @@
       },
       "1603040": {
         "NAME": "Zone Insecte Coach Capacité Duo {{value}}",
-        "ABBR": "Zone Insecte Coach Capacité Duo {{value}}",
+        "ABBR": "Z.Insecte Coach Capa. Duo {{value}}",
         "DESC": "Augmente la puissance des capacités Duo de tous les Duos alliés quand la zone est une Zone Insecte."
       },
       "1701010": {
@@ -13587,7 +13587,7 @@
       },
       "1701490": {
         "NAME": "Zone Insecte Immunité Altérations",
-        "ABBR": "Zone Insecte Immunité Altérations",
+        "ABBR": "Z.Insecte Immunité Altérations",
         "DESC": "Les altérations de statut ne peuvent pas être appliquées au lanceur quand la zone est une Zone Insecte."
       },
       "1702010": {
@@ -15252,12 +15252,12 @@
       },
       "1708100": {
         "NAME": "Capacité Duo Coach Boost Spécial +1 {{value}}",
-        "ABBR": "Capacité Duo Coach Boost Spécial +1 {{value}}",
+        "ABBR": "Capa. Duo Coach Boost Spé. +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang après l'utilisation d'une capacité Duo par le lanceur."
       },
       "1708110": {
         "NAME": "Souhait Acier Util. Boost Spécial +2 {{value}}",
-        "ABBR": "Souhait Acier Util. Boost Spécial +2 {{value}}",
+        "ABBR": "S.Acier Util. Boost Spé. +2 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale du lanceur de 2 rangs quand il utilise Souhait Acier."
       },
       "1708120": {
@@ -15287,7 +15287,7 @@
       },
       "1708170": {
         "NAME": "Allié Décl. MZC Coach Boost Spécial +1 {{value}}",
-        "ABBR": "Allié Décl. MZC Coach Boost Spécial +1 {{value}}",
+        "ABBR": "Allié Décl. MZC Coa. B.Spé. +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang quand un allié active un effet de météo, de champ ou de zone."
       },
       "1708180": {
@@ -15312,17 +15312,17 @@
       },
       "1708220": {
         "NAME": "Capa. Offensive Touche Boost Phy. Spé. +1 {{value}}",
-        "ABBR": "Capa. Offensive Touche Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "C.Off. Touche B.Phy. Spé. +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de 1 rang quand sa capacité offensive atteint sa cible. Si la capacité possède l'effet Enchaînement, {{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de 1 rang à chaque coup."
       },
       "1708230": {
         "NAME": "Prem. Boost Spé. Sup. ou Égal 6 Boost Spé. {{value}}",
-        "ABBR": "Prem. Boost Spé. Sup. ou Égal 6 Boost Spé. {{value}}",
+        "ABBR": "Prem. B.Spé. ≥ 6 B.Spé. {{value}}",
         "DESC": "Augmente l'effet Prochain boost capacité spéciale du lanceur de {{value}} rang la première fois que son effet Prochain boost capacité spéciale est de rang 6 ou plus à chaque combat."
       },
       "1708250": {
         "NAME": "Allié Décl. Zone Insecte Boost Spécial +1 {{value}}",
-        "ABBR": "Allié Décl. Zone Insecte Boost Spécial +1 {{value}}",
+        "ABBR": "Allié Décl. Z.Insecte B.Spé. +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale du lanceur de 1 rang quand un allié transforme la zone en une Zone Insecte."
       },
       "1708260": {
@@ -15352,22 +15352,22 @@
       },
       "1708380": {
         "NAME": "Prem. Action Statut Util. Prochain Garde",
-        "ABBR": "Prem. Action Statut Util. Prochain Garde",
+        "ABBR": "Prem. Act. Sta. Util. Prochain Garde",
         "DESC": "Applique l'effet Prochain Garde au lanceur la première fois que son Pokémon utilise une capacité de statut à chaque combat."
       },
       "1708390": {
         "NAME": "1 Ennemi Capacité Offensive Boost Phy. Spé. +1 {{value}}",
-        "ABBR": "1 Ennemi Capacité Offensive Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "1 Enn. C.Off. B.Phy. Spé. +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de 1 rang quand il utilise avec succès une capacité offensive alors que 1 seul Pokémon se trouve du côté ennemi."
       },
       "1708400": {
         "NAME": "1 Ennemi Capacité Offensive Consommation 0 {{value}}",
-        "ABBR": "1 Ennemi Capacité Offensive Consommation 0 {{value}}",
+        "ABBR": "1 Ennemi Capa. Off. Conso. 0 {{value}}",
         "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand il utilise avec succès une capacité offensive alors que 1 seul Pokémon se trouve du côté ennemi."
       },
       "1708410": {
         "NAME": "Intro Prem. Capacité Duo Boost Spécial 1",
-        "ABBR": "Intro Prem. Capacité Duo Boost Spécial 1",
+        "ABBR": "Intro Prem. Capa. Duo Boost Spé. 1",
         "DESC": "Augmente l'effet Prochain boost capacité spéciale du lanceur de 1 rang la première fois qu'il arrive au combat à chaque combat. Augmente l'effet Prochain boost capacité spéciale du lanceur de 1 rang la première fois qu'il utilise sa capacité Duo à chaque combat."
       },
       "1801010": {
@@ -17642,7 +17642,7 @@
       },
       "1812100": {
         "NAME": "Allié Décl. Météo Zone Champ Coach 1/5 Stat 2 {{value}}",
-        "ABBR": "Allié Décl. Météo Zone Champ Coach 1/5 Stat 2 {{value}}",
+        "ABBR": "Allié Décl. MZC Coa. 1/5 Stat 2 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter aléatoirement une des stats suivantes de tous les Duos alliés de 2 rangs quand un allié active un effet de météo, de champ ou de zone : Attaque, Défense, Atq. Spé., Déf. Spé. ou Vitesse."
       },
       "1812110": {
@@ -17682,7 +17682,7 @@
       },
       "1812180": {
         "NAME": "Capacité Offensive Attaque Spéciale 4↓ {{value}}",
-        "ABBR": "Capacité Offensive Attaque Spéciale 4↓ {{value}}",
+        "ABBR": "Capa. Off. Attaque Spéciale 4↓ {{value}}",
         "DESC": "{{chance}} % de chances de baisser l'Atq. Spé. de la cible de 4 rangs quand le lanceur utilise avec succès une capacité offensive contre elle."
       },
       "1901010": {
@@ -18527,7 +18527,7 @@
       },
       "1905580": {
         "NAME": "Capacité Duo Dynamax Zone Insecte EX",
-        "ABBR": "Capacité Duo Dynamax Zone Insecte EX",
+        "ABBR": "Capa. Duo Dynamax Zone Insecte EX",
         "DESC": "Transforme la zone en une Zone Insecte EX après l'utilisation d'une capacité Duo Dynamax par le lanceur. (Une Zone Insecte EX renforce les attaques de type Insecte.)"
       },
       "1905590": {
@@ -18562,27 +18562,27 @@
       },
       "1905660": {
         "NAME": "Prem. Capa. Duo Cercle de Johto Déf. Équipe",
-        "ABBR": "Prem. C.Duo C.Johto Déf. Équipe",
+        "ABBR": "Prem. Capa. Duo C.Johto Déf. Équipe",
         "DESC": "Applique Cercle de Johto Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
       },
       "1905670": {
         "NAME": "Prem. Capa. Duo Cercle de Kalos Déf. Équipe",
-        "ABBR": "Prem. C.Duo C.Kalos Déf. Équipe",
+        "ABBR": "Prem. Capa. Duo C.Kalos Déf. Équipe",
         "DESC": "Applique Cercle de Kalos Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
       },
       "1905680": {
         "NAME": "Prem. Capa. Duo Cercle de Galar Déf. Équipe",
-        "ABBR": "Prem. C.Duo C.Galar Déf. Équipe",
+        "ABBR": "Prem. Capa. Duo C.Galar Déf. Équipe",
         "DESC": "Applique Cercle de Galar Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
       },
       "1905690": {
         "NAME": "Cercle de Kalos Défensif Prolongé {{value}}",
-        "ABBR": "Cercle de Kalos Défensif Prolongé {{value}}",
+        "ABBR": "C.Kalos Défensif Prolongé {{value}}",
         "DESC": "Cercle de Kalos Défensif dure plus longtemps quand Cercle de Kalos Défensif est appliqué au côté allié."
       },
       "1905700": {
         "NAME": "Cercle de Galar Défensif Prolongé {{value}}",
-        "ABBR": "Cercle de Galar Défensif Prolongé {{value}}",
+        "ABBR": "C.Galar Défensif Prolongé {{value}}",
         "DESC": "Cercle de Galar Défensif dure plus longtemps quand Cercle de Galar Défensif est appliqué au côté allié."
       },
       "1905780": {

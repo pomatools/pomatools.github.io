@@ -6429,8 +6429,8 @@
         ],
         "type": "POWERUP",
         "applies": "MAXM",
-        "effect": "",
-        "affects": "TARG_001",
+        "effect": "TARG_001",
+        "affects": "",
         "attribute": "",
         "spec": "SIMPLE"
     },
@@ -6445,8 +6445,8 @@
         ],
         "type": "POWERUP",
         "applies": "SYNC",
-        "effect": "",
-        "affects": "TARG_034",
+        "effect": "TARG_034",
+        "affects": "",
         "attribute": "",
         "spec": "SIMPLE"
     },
@@ -6461,8 +6461,8 @@
         ],
         "type": "POWERUP",
         "applies": "SYNC",
-        "effect": "",
-        "affects": "TARG_001",
+        "effect": "TARG_001",
+        "affects": "",
         "attribute": "",
         "spec": "SIMPLE"
     },
@@ -6477,8 +6477,8 @@
         ],
         "type": "POWERUP",
         "applies": "SYNC",
-        "effect": "",
-        "affects": "TARG_034",
+        "effect": "TARG_034",
+        "affects": "",
         "attribute": "",
         "spec": "SIMPLE"
     },
