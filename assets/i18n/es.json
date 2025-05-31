@@ -1582,6 +1582,8 @@
       "080001": "Necrozma Melena Crepuscular",
       "080002": "Necrozma Alas del Alba",
       "080003": "Ultra-Necrozma",
+      "080004": "Necrozma Melena Crepuscular ★",
+      "080005": "Necrozma Alas del Alba ★",
       "080100": "Magearna",
       "080200": "Marshadow",
       "080300": "Poipole",
@@ -1802,6 +1804,7 @@
       "096600": "Revavroom",
       "096700": "Cyclizar",
       "097000": "Glimmora",
+      "097300": "Flamigo",
       "097500": "Cetitan",
       "097900": "Annihilape",
       "098000": "Clodsire",
@@ -2041,9 +2044,11 @@
       "012100": "Francine",
       "012200": "Elio",
       "012201": "Elio (Ultra)",
+      "012202": "Elio (Neocampeón)",
       "012300": "Selene",
       "012301": "Selene (Especial)",
       "012302": "Selene (Ultra)",
+      "012303": "Selene (Neocampeona)",
       "012400": "Lulú",
       "012401": "Lulú (Temporada 23)",
       "012500": "Guzmán",
@@ -2077,6 +2082,7 @@
       "013601": "Ciprés",
       "013602": "Ciprés (Temporada 23)",
       "013700": "Oak",
+      "013800": "Gabriel Oak",
       "013900": "Xana",
       "013901": "Xana (Especial)",
       "014000": "Giovanni",
@@ -2233,6 +2239,7 @@
       "030300": "Pola",
       "030301": "Pola (Temporada 25)",
       "030400": "Laureano",
+      "030401": "Laureano (Especial)",
       "031700": "Damián",
       "031800": "Clavel",
       "031801": "Clavel (Academia Uva)",
@@ -2243,6 +2250,7 @@
       "033000": "Erin",
       "035100": "Janelle (Jovencita con Kimono)",
       "035200": "Aroa",
+      "035800": "Cael",
       "036400": "Blas (Montañero)",
       "050200": "Recluta del Equipo Aqua",
       "050300": "Recluta del Equipo Aqua",
@@ -3828,6 +3836,11 @@
         "ABBR": "Fragor Escamas",
         "DESC": "Reduce la Defensa del usuario en 1 nivel."
       },
+      "654": {
+        "NAME": "Martillo Dragón",
+        "ABBR": "Martillo Dragón",
+        "DESC": "Sin efectos secundarios."
+      },
       "655": {
         "NAME": "Giro Vil",
         "ABBR": "Giro Vil",
@@ -4135,22 +4148,22 @@
       },
       "6000": {
         "NAME": "Placaje Eléctrico Original",
-        "ABBR": "Placaje Eléctrico S",
+        "ABBR": "Placaje Eléctrico O",
         "DESC": "Cuándo se activa: Cuando se crea un campo eléctrico.\nCuándo se desactiva: Cuando ya no esté activo el campo eléctrico.\n\nIgnora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos. Ignora el efecto Aguante del objetivo. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Reduce la Defensa y la Defensa Especial del objetivo en 1 nivel cuando el objetivo está paralizado."
       },
       "6001": {
         "NAME": "Rayo Amistoso",
-        "ABBR": "Rayo S",
+        "ABBR": "Rayo A",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento tres veces.\nCuándo se desactiva: No se puede desactivar.\n\nAcierta siempre. Consume hasta 6 puntos de la barra de movimientos del usuario. Cuantos más puntos consuma, más aumenta la potencia de este ataque."
       },
       "6002": {
         "NAME": "Superesfera Aural",
-        "ABBR": "Esfera Aural S",
+        "ABBR": "S Esfera Aural",
         "DESC": "Cuándo se activa: Cuando golpean al usuario con un movimiento de ataque dos veces.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Aplica el efecto Barra mov. acelerada al bando aliado. Aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en 2 niveles. Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en 2 niveles."
       },
       "6003": {
         "NAME": "Brillo Mágico Absoluto",
-        "ABBR": "Brillo Mágico S",
+        "ABBR": "Brillo Mágico A",
         "DESC": "Cuándo se activa: Cuando un aliado megaevoluciona.\nCuándo se desactiva: No se puede desactivar.\n\nReduce el Ataque y el Ataque Especial del objetivo en 4 niveles. Reduce la Resiliencia Hada del objetivo en 1 nivel."
       },
       "6004": {
@@ -4160,7 +4173,7 @@
       },
       "6005": {
         "NAME": "Ataque Rápido Elegante",
-        "ABBR": "Ataque Rápido S",
+        "ABBR": "Ataque Rápido E",
         "DESC": "Cuándo se activa: Cuando un movimiento de ataque de algún aliado golpea un total de 10 veces mientras este movimiento está desactivado.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Reduce la Defensa y la Defensa Especial del objetivo en 2 niveles. Reduce la Resiliencia Agua del objetivo en 1 nivel cuando el movimiento compi del usuario es de tipo Agua. Reduce la Resiliencia Siniestro del objetivo en 1 nivel cuando el movimiento compi del usuario es de tipo Siniestro. Se reduce en 1 el contador de movimientos compi del usuario. Aumenta la Velocidad de todos los compis aliados en 3 niveles."
       },
       "6006": {
@@ -4170,7 +4183,7 @@
       },
       "6007": {
         "NAME": "Tormenta de Diamantes Rosácea",
-        "ABBR": "Tormenta de Diamantes S",
+        "ABBR": "Tormenta de Diamantes R",
         "DESC": "Cuándo se activa: Cuando se crea una Zona Roca.\nCuándo se desactiva: Cuando ya no esté activa la Zona Roca.\n\nReduce la Defensa del objetivo en 2 niveles. Aumenta la Defensa de todos los compis aliados en 2 niveles."
       },
       "6008": {
@@ -4180,32 +4193,32 @@
       },
       "6009": {
         "NAME": "Veneno X Detectivesco",
-        "ABBR": "Veneno X S",
+        "ABBR": "Veneno X D",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon envenenado o gravemente envenenado en el bando rival.\nCuándo se desactiva: Cuando no quede ningún Pokémon envenenado o gravemente envenenado en el bando rival.\n\nAcierta siempre. Asesta un golpe crítico, salvo en ciertas circunstancias. Hay una probabilidad del 10% de envenenar gravemente al objetivo."
       },
       "6010": {
         "NAME": "Furia Candente Feroz",
-        "ABBR": "Furia Candente S",
+        "ABBR": "Furia Candente F",
         "DESC": "Cuándo se activa: Cuando los compis de tu equipo usan un movimiento compi 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nHay una probabilidad del 50% de hacer retroceder al objetivo. Ignora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos. Ignora el efecto Aguante del objetivo. La potencia y la probabilidad de aplicar efectos secundarios de este movimiento no se reducen incluso si hay varios objetivos. La potencia de este ataque aumenta un 20% cuando el usuario está en un apuro."
       },
       "6011": {
         "NAME": "Patada Relámpago Crepitante",
-        "ABBR": "Patada Relámpago S",
+        "ABBR": "Patada Relámpago C",
         "DESC": "Cuándo se activa: Cuando se reduce en 6 el contador de movimientos compi de tu equipo mientras este movimiento está desactivado.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Ignora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos. Ignora el efecto Aguante del objetivo. Reduce la Defensa y la Velocidad del objetivo en 3 niveles."
       },
       "6012": {
         "NAME": "Mirada Heladora Intimidante",
-        "ABBR": "Mirada Heladora S",
+        "ABBR": "Mirada Heladora I",
         "DESC": "Cuándo se activa: Cuando se reduce en 3 el contador de movimientos compi de tu equipo mientras este movimiento está desactivado. (La activación del contador no se reduce cuando los PM restantes de este movimiento son 0).\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Hay una probabilidad del 10% de congelar al objetivo. Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 1 nivel. Aplica el efecto Siguiente sin coste a todos los compis aliados."
       },
       "6013": {
         "NAME": "Malicioso Vinculante",
-        "ABBR": "Malicioso S",
+        "ABBR": "Malicioso V",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon con una resiliencia tipo reducida en el bando rival.\nCuándo se desactiva: Cuando ya no quede ningún Pokémon con una resiliencia tipo reducida en el bando rival.\n\nAcierta siempre. Reduce el Ataque, Defensa y Velocidad del objetivo en 2 niveles. Aplica el efecto Inesquivable al objetivo. Aplica el efecto Relevo imposible al objetivo."
       },
       "6014": {
         "NAME": "Tajo Umbrío Birlesco",
-        "ABBR": "Tajo Umbrío S",
+        "ABBR": "Tajo Umbrío B",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon con la Resiliencia Siniestro reducida en el bando rival.\nCuándo se desactiva: Cuando no quede ningún Pokémon con la Resiliencia Siniestro reducida en el bando rival.\n\nAcierta siempre. Anula los aumentos en las características del objetivo, aumenta las mismas características del usuario en igual medida y luego ataca. Asesta un golpe crítico, salvo en ciertas circunstancias. Aplica el efecto Aumento imposible al bando rival."
       },
       "6015": {
@@ -4215,112 +4228,112 @@
       },
       "6016": {
         "NAME": "Protección Oceánica",
-        "ABBR": "Protección S",
+        "ABBR": "Protección O",
         "DESC": "Cuándo se activa: Cuando se activan efectos de cambios atmosféricos, campo o zona.\nCuándo se desactiva: Cuando se eliminan todos los efectos de cambios atmosféricos, campo y zona.\n\nAplica el efecto Siguiente mitiga daño a todos los compis aliados. Recupera aproximadamente un 20% de los PS máximos de todos los compis aliados. En su lugar, restaura PS en un 30% cuando la zona es Zona Hada. Elimina cualquier reducción en las características de todos los compis aliados cuando llueve."
       },
       "6017": {
         "NAME": "Danza Espada Inquebrantable",
-        "ABBR": "Danza Espada S",
+        "ABBR": "Danza Espada I",
         "DESC": "Cuándo se activa: Cuando se activan efectos de cambios atmosféricos, campo o zona.\nCuándo se desactiva: Cuando se eliminan todos los efectos de cambios atmosféricos, campo y zona.\n\nAumenta el Ataque de todos los compis aliados en 2 niveles. Aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en 1 nivel. Llena 2 puntos la barra de movimientos del usuario cuando está soleado."
       },
       "6018": {
         "NAME": "Psicocorte Juguetón",
-        "ABBR": "Psicocorte S",
+        "ABBR": "Psicocorte J",
         "DESC": "Cuándo se activa: Cuando se activan efectos de cambios atmosféricos, campo o zona.\nCuándo se desactiva: Cuando se eliminan todos los efectos de cambios atmosféricos, campo y zona.\n\nAcierta siempre. Asesta un golpe crítico, salvo en ciertas circunstancias. La potencia de este movimiento no se reduce incluso si hay varios objetivos. El movimiento consume 2 puntos menos de la barra de movimientos cuando hay un campo psíquico activo."
       },
       "6019": {
         "NAME": "Hoja Afilada Tajante",
-        "ABBR": "Hoja Afilada S",
+        "ABBR": "Hoja Afilada T",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nSuele ser crítico. Reduce la Defensa del objetivo en 1 nivel. Reduce la Resiliencia Planta del objetivo en 1 nivel. Además, reduce la Defensa del objetivo en 1 nivel cuando está soleado."
       },
       "6020": {
         "NAME": "Rayo Hielo Danzante",
-        "ABBR": "Rayo Hielo S",
+        "ABBR": "Rayo Hielo de Alas Gélidas",
         "DESC": "Cuándo se activa: Cuando graniza.\nCuándo se desactiva: Cuando ya no graniza.\n\nAcierta siempre. Hay una probabilidad del 10% de congelar al objetivo. Reduce la Defensa Especial del objetivo en 4 niveles. Aplica el efecto Barra mov. acelerada al bando aliado. Aplica el efecto Siguiente sin coste al usuario."
       },
       "6021": {
         "NAME": "Surf Purificador",
-        "ABBR": "Surf S",
+        "ABBR": "Surf P",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento dos veces.\nCuándo se desactiva: No se puede desactivar.\n\nHay una probabilidad del 20% de hacer retroceder al objetivo. La potencia y la probabilidad de aplicar efectos secundarios de este movimiento no se reducen incluso si hay varios objetivos."
       },
       "6022": {
         "NAME": "Triple Axel Antienclenques",
-        "ABBR": "Triple Axel S",
+        "ABBR": "Triple Axel A",
         "DESC": "Cuándo se activa: Cuando el usuario tiene los PS al máximo.\nCuándo se desactiva: Cuando el usuario no tiene los PS al máximo.\n\nAtaca hasta tres veces seguidas. La potencia de este ataque aumenta con cada golpe. (El segundo ataque es el doble de potente que el primero, y el tercer ataque es el triple de potente que el primero). Se reduce en 1 el contador de movimientos compi del usuario con cada golpe. Aumenta la probabilidad de asestar golpes críticos del usuario en 1 nivel con cada golpe. Tras usar el movimiento, la potencia de este ataque vuelve a la normalidad."
       },
       "6023": {
         "NAME": "Vasto Impacto Imbatible",
-        "ABBR": "Vasto Impacto S",
+        "ABBR": "Vasto Impacto I",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: No se puede desactivar.\n\nReduce el Ataque, Defensa y Velocidad del objetivo en 1 nivel."
       },
       "6024": {
         "NAME": "Electropalmas A Toda Mecha",
-        "ABBR": "Electropalmas S",
+        "ABBR": "Electropalmas ATM",
         "DESC": "Cuándo se activa: Cuando ha aumentado la Velocidad del usuario.\nCuándo se desactiva: Cuando no ha aumentado la Velocidad del usuario.\n\nCuanto más haya aumentado la Velocidad del usuario, más aumenta la potencia de este ataque. Aplica el efecto Siguiente sin coste a todos los compis aliados."
       },
       "6025": {
         "NAME": "Rayo Hielo de Alas Gélidas",
-        "ABBR": "Rayo Hielo S",
+        "ABBR": "Rayo Hielo AG",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon con una resiliencia tipo reducida en el bando rival.\nCuándo se desactiva: Cuando ya no quede ningún Pokémon con una resiliencia tipo reducida en el bando rival.\n\nIgnora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos. Ignora el efecto Aguante del objetivo. Congela al objetivo."
       },
       "6026": {
         "NAME": "Respiro de Alas Tronadoras",
-        "ABBR": "Respiro S",
+        "ABBR": "Respiro AT",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon con una resiliencia tipo reducida en el bando rival.\nCuándo se desactiva: Cuando ya no quede ningún Pokémon con una resiliencia tipo reducida en el bando rival.\n\nRecupera aproximadamente un 30% de los PS máximos de todos los compis aliados. Además, recupera aproximadamente un 30% de los PS máximos del usuario. Cura todos los problemas de estado de todos los compis aliados. Aplica el efecto Regeneración de PS a todos los compis aliados."
       },
       "6027": {
         "NAME": "Envite Ígneo de Alas Ardientes",
-        "ABBR": "Envite Ígneo S",
+        "ABBR": "Envite Ígneo AA",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon con una resiliencia tipo reducida en el bando rival.\nCuándo se desactiva: Cuando ya no quede ningún Pokémon con una resiliencia tipo reducida en el bando rival.\n\nDescongela al usuario. Duplica las reducciones en las características del objetivo. Cambia el tiempo a soleado la primera vez que este movimiento de ataque acierta en cada combate. Hay una probabilidad del 10% de quemar al objetivo."
       },
       "6028": {
         "NAME": "Giga Impacto de la Torre",
-        "ABBR": "Giga Impacto S",
+        "ABBR": "Giga Impacto T",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento, movimiento compi o movimiento compi Dinamax un total de 5 veces.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nReduce la Defensa del objetivo en 6 niveles. Recupera aproximadamente un 50% de los PS máximos del usuario."
       },
       "6029": {
         "NAME": "Aullido del Corazón",
-        "ABBR": "Aullido S",
+        "ABBR": "Aullido C",
         "DESC": "Cuándo se activa: Cuando el usuario usa un movimiento compi una vez.\nCuándo se desactiva: No se puede desactivar.\n\nConsume hasta 3 puntos de la barra de movimientos del usuario. Cuantos más puntos consuma, más aumenta el Ataque, la Defensa, la Defensa Especial y la Velocidad de todos los compis aliados (hasta 4 niveles). Aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en 2 niveles."
       },
       "6030": {
         "NAME": "Terremoto del Tirano",
-        "ABBR": "Terremoto S",
+        "ABBR": "Terremoto T",
         "DESC": "Cuándo se activa: Cuando ha aumentado el Ataque del usuario.\nCuándo se desactiva: Cuando no ha aumentado el Ataque del usuario.\n\nCuanto más haya aumentado el Ataque Especial del usuario, más aumenta la potencia de este ataque. Desata una tormenta de arena la primera vez que este movimiento de ataque acierta en cada combate. Reduce la Velocidad del objetivo en 1 nivel."
       },
       "6031": {
         "NAME": "Tajo Metralla de la Protagonista",
-        "ABBR": "Tajo Metralla S",
+        "ABBR": "Tajo Metralla P",
         "DESC": "Cuándo se activa: Cuando el Campo Daño Siniestro se aplica al bando rival.\nCuándo se desactiva: Cuando ya no esté activo el Campo Daño Siniestro del bando rival.\n\nAcierta siempre. Asesta un golpe crítico, salvo en ciertas circunstancias. La potencia de este movimiento aumenta cuando se usa con éxito repetidas veces. (Este movimiento aumenta la potencia en un 20% cada vez que se usa). (Aumenta la potencia hasta un máximo del 60%). Si el Pokémon del usuario usa un movimiento diferente, la potencia de este movimiento vuelve a la normalidad."
       },
       "6032": {
         "NAME": "Triple Flecha de la Lluvia Estival",
-        "ABBR": "Triple Flecha S",
+        "ABBR": "Triple Flecha LE",
         "DESC": "Cuándo se activa: Cuando los compis de tu equipo usan un movimiento compi 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAsesta un golpe crítico, salvo en ciertas circunstancias. Reduce la Defensa del objetivo en 2 niveles. Hace retroceder al objetivo. La potencia y la probabilidad de aplicar efectos secundarios de este movimiento no se reducen incluso si hay varios objetivos."
       },
       "6033": {
         "NAME": "Terratemblor del Rencor",
-        "ABBR": "Terratemblor S",
+        "ABBR": "Terratemblor R",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon bajo ataduras en el bando rival.\nCuándo se desactiva: Cuando no quede ningún Pokémon bajo ataduras en el bando rival.\n\nReduce la Defensa y la Velocidad del objetivo en 1 nivel. Aumenta la Defensa y la Velocidad de todos los compis aliados en 1 nivel."
       },
       "6034": {
         "NAME": "Beso Drenaje Astral",
-        "ABBR": "Beso Drenaje S",
+        "ABBR": "Beso Drenaje A",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Anula los aumentos en las características del objetivo y luego aumenta las mismas características del usuario en igual medida. Recupera aproximadamente un 40% de los PS máximos del usuario."
       },
       "6035": {
         "NAME": "Onda Tóxica Desmelenante",
-        "ABBR": "Onda Tóxica S",
+        "ABBR": "Onda Tóxica D",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon que sufre problemas de estado en el bando rival.\nCuándo se desactiva: Cuando no quede ningún Pokémon que sufra problemas de estado en el bando rival.\n\nReduce la Defensa Especial del objetivo en 2 niveles. Hay una probabilidad del 10% de envenenar al objetivo. La potencia de este ataque aumenta un 50% cuando hay un campo eléctrico activo."
       },
       "6036": {
         "NAME": "Amplificador con Ecos de Tristeza",
-        "ABBR": "Amplificador S",
+        "ABBR": "Amplificador ET",
         "DESC": "Cuándo se activa: Cuando se activan efectos de cambios atmosféricos, campo o zona.\nCuándo se desactiva: Cuando se eliminan todos los efectos de cambios atmosféricos, campo y zona.\n\nLa potencia de este movimiento no se reduce incluso si hay varios objetivos. El movimiento consume 2 puntos menos de la barra de movimientos cuando la zona es Zona Veneno. La potencia de este ataque aumenta un 20% cuando el objetivo sufre algún problema de estado."
       },
       "6037": {
         "NAME": "Tijera X Apuradora",
-        "ABBR": "Tijera X S",
+        "ABBR": "Tijera X A",
         "DESC": "Cuándo se activa: Cuando ha aumentado la Velocidad del usuario al máximo nivel.\nCuándo se desactiva: Cuando no ha aumentado la Velocidad del usuario al máximo nivel.\n\nAcierta siempre. Reduce la Precisión del objetivo en 1 nivel. Confunde al objetivo."
       },
       "6038": {
@@ -4330,147 +4343,147 @@
       },
       "6039": {
         "NAME": "Canto Arcaico Impresionanci",
-        "ABBR": "Canto Arcaico S",
+        "ABBR": "Canto Arcaico I",
         "DESC": "Cuándo se activa: Cuando el usuario no está en un apuro.\nCuándo se desactiva: Cuando el usuario está en un apuro.\n\nAcierta siempre. Hay una probabilidad del 30% de dormir al objetivo. Aumenta la probabilidad de asestar golpes críticos de todos los compis aliados en 1 nivel. Aumenta en 2 niveles una de las siguientes características de todos los compis aliados al azar: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión. (Dicha característica aumenta en igual medida para todos los compis aliados)."
       },
       "6040": {
         "NAME": "Enfado Azabache",
-        "ABBR": "Enfado S",
+        "ABBR": "Enfado A",
         "DESC": "Cuándo se activa: Cuando ha aumentado el Ataque del usuario.\nCuándo se desactiva: Cuando no ha aumentado el Ataque del usuario.\n\nAcierta siempre. Se reduce en 1 el contador de movimientos compi del usuario."
       },
       "6041": {
         "NAME": "Paralizador de la Mariposa Álgida",
-        "ABBR": "Paralizador S",
+        "ABBR": "Paralizador MA",
         "DESC": "Cuándo se activa: Cuando se crea una Zona Bicho.\nCuándo se desactiva: Cuando ya no esté activa la Zona Bicho.\n\nAcierta siempre. Paraliza al objetivo. Confunde al objetivo. Reduce el Ataque, la Defensa, el Ataque Especial, la Defensa Especial, la Velocidad, la Precisión y la Evasión del objetivo en 1 nivel."
       },
       "6042": {
         "NAME": "Cabeza Sorpresa de Llamas Extrañas",
-        "ABBR": "Cabeza Sorpresa S",
+        "ABBR": "Cabeza Sorpresa LE",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: No se puede desactivar.\n\nAumenta el efecto Siguiente Especial ↑ del usuario de 0 a 10 niveles al azar (cuanto más alto sea al nivel del efecto que aumenta, más bajas serán las probabilidades de que se active)."
       },
       "6043": {
         "NAME": "Alud Gélido",
-        "ABBR": "Alud S",
+        "ABBR": "Alud G",
         "DESC": "Cuándo se activa: Cuando ha aumentado la Defensa del usuario.\nCuándo se desactiva: Cuando no ha aumentado la Defensa del usuario.\n\nEl usuario asume una posición defensiva. Si se utiliza de nuevo este movimiento, el usuario vuelve a su posición habitual y ataca. Cuando esté en posición defensiva, no puede realizar ninguna otra acción. Si el usuario o todos los aliados son atacados con un movimiento mientras está en posición defensiva, evita el ataque, vuelve a su posición habitual y ataca al objetivo con el doble de potencia que dicho ataque. Reduce el Ataque y el Ataque Especial del objetivo de este ataque en 3 niveles."
       },
       "6044": {
         "NAME": "Electrocañón Brillibrilli",
-        "ABBR": "Electrocañón S",
+        "ABBR": "Electrocañón BB",
         "DESC": "Cuándo se activa: Cuando el efecto Siguiente Especial ↑ del usuario es de nivel 3 o superior.\nCuándo se desactiva: Cuando el efecto Siguiente Especial ↑ del usuario es de nivel 2 o inferior.\n\nReduce la Defensa Especial del objetivo en 2 niveles. Hay una probabilidad del 50% de hacer retroceder al objetivo. Paraliza al objetivo."
       },
       "6045": {
         "NAME": "Cañón Floral Perforante",
-        "ABBR": "Cañón Floral S",
+        "ABBR": "Cañón Floral P",
         "DESC": "Cuándo se activa: Cuando el Pokémon del usuario use un movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Cuanto más se haya reducido el Ataque Especial del rival al que se apunta actualmente, más aumenta la potencia de este ataque. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Cuanto más se haya reducido el Ataque Especial del rival al que se apunta actualmente, más aumenta el efecto Siguiente Especial ↑ del usuario (hasta 3 niveles)."
       },
       "6046": {
         "NAME": "Eructo Descomunal",
-        "ABBR": "Eructo S",
+        "ABBR": "Eructo D",
         "DESC": "Cuándo se activa: Cuando los PM restantes de Baya Zidra del usuario son 2 o menos.\nCuándo se desactiva: Cuando los PM restantes de Baya Zidra del usuario son 3.\n\nAcierta siempre. Reduce el Ataque, la Defensa, el Ataque Especial y la Defensa Especial del objetivo en 2 niveles. Envenena gravemente al objetivo."
       },
       "6047": {
         "NAME": "Chuzos con Concentración",
-        "ABBR": "Chuzos S",
+        "ABBR": "Chuzos C",
         "DESC": "Cuándo se activa: Cuando el Pokémon del usuario use un movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nCuanto más se use Chuzos antes de este movimiento (hasta un máximo de 4 veces), más aumentará la potencia de este ataque. (Este ataque aumenta la potencia en un 50% cada vez que el usuario usa Chuzos, hasta un total del 200%). Tras usar el ataque, la potencia de este vuelve a la normalidad. Hace retroceder al objetivo."
       },
       "6048": {
         "NAME": "Hipnosis Onírica",
-        "ABBR": "Hipnosis S",
+        "ABBR": "Hipnosis O",
         "DESC": "Cuándo se activa: Cuando un movimiento de ataque de algún aliado golpea un total de 5 veces mientras este movimiento está desactivado.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Hace retroceder, confunde o deja bajo ataduras a todos los compis rivales. Duerme a todos los compis rivales. Aumenta en 1 nivel una de las siguientes características de todos los compis aliados al azar: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión."
       },
       "6049": {
         "NAME": "Giro Mortífero Floreado",
-        "ABBR": "Giro Mortífero S",
+        "ABBR": "Giro Mortífero F",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon envenenado o gravemente envenenado en el bando rival.\nCuándo se desactiva: Cuando no quede ningún Pokémon envenenado o gravemente envenenado en el bando rival.\n\nAcierta siempre. Reduce la Defensa del objetivo en 3 niveles. Envenena al objetivo. Crea una Zona Veneno. (Una Zona Veneno potencia los ataques de tipo Veneno). Elimina un campo daño del bando aliado. Libra de las ataduras al usuario."
       },
       "6050": {
         "NAME": "Avalancha Colosal",
-        "ABBR": "Avalancha S",
+        "ABBR": "Avalancha C",
         "DESC": "Cuándo se activa: Cuando los compis de tu equipo usan un movimiento compi 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nHace retroceder al objetivo. Ignora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos. Ignora el efecto Aguante del objetivo. La potencia de este movimiento no se reduce incluso si hay varios objetivos."
       },
       "6051": {
         "NAME": "Arremetida Neblinosa",
-        "ABBR": "Arremetida S",
+        "ABBR": "Arremetida N",
         "DESC": "Cuándo se activa: Cuando el usuario está quemado.\nCuándo se desactiva: Cuando el usuario no está quemado.\n\nAcierta siempre. Cuantos menos PS tenga el usuario, más aumenta la potencia de este ataque."
       },
       "6052": {
         "NAME": "Rencor Reprimido Recóndito",
-        "ABBR": "Rencor Reprimido S",
+        "ABBR": "Rencor RR",
         "DESC": "Cuándo se activa: Cuando algún aliado usa movimientos un total de 3 veces.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nDuplica la potencia de este ataque contra objetivos que sufren problemas de estado, están confundidos, bajo ataduras o han retrocedido. Reduce el Ataque del objetivo en 4 niveles. Hace retroceder al objetivo."
       },
       "6053": {
         "NAME": "Metrónomo Extraordinario",
-        "ABBR": "Metrónomo S",
+        "ABBR": "Metrónomo E",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nUsa un movimiento al azar. (Salvo en algunos casos, el usuario usará un movimiento que no sea Metrónomo.) Activa un efecto de varios efectos secundarios al azar. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
       "6054": {
         "NAME": "Poder Reserva Experimental",
-        "ABBR": "Poder Reserva S",
+        "ABBR": "Poder Reserva E",
         "DESC": "Cuándo se activa: Cuando aumentan las características del usuario en un total de 10 niveles o más.\nCuándo se desactiva: Cuando aumentan las características del usuario en un total de 9 niveles o menos.\n\nAcierta siempre. Asesta un golpe crítico, salvo en ciertas circunstancias. Cuanto más hayan aumentado las características del usuario, más aumenta la potencia de este ataque. Elimina todos los aumentos de características del usuario."
       },
       "6055": {
         "NAME": "Megacuerno Espiral",
-        "ABBR": "Megacuerno S",
+        "ABBR": "Megacuerno E",
         "DESC": "Cuándo se activa: Cuando un movimiento de ataque del usuario golpea un total de 5 veces mientras este movimiento está desactivado.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nLa potencia de este movimiento no se reduce incluso si hay varios objetivos."
       },
       "6056": {
         "NAME": "Puño Bala Acerino",
-        "ABBR": "Puño Bala S",
+        "ABBR": "Puño Bala A",
         "DESC": "Cuándo se activa: Cuando se crea una Zona Acero.\nCuándo se desactiva: Cuando ya no esté activa la Zona Acero.\n\nAcierta siempre. Hace retroceder al objetivo. Si el Scizor del usuario ha megaevolucionado, también recupera 1 PM de su movimiento sincro."
       },
       "6057": {
         "NAME": "Bofetón Lodo Cabreado",
-        "ABBR": "Bofetón Lodo S",
+        "ABBR": "Bofetón Lodo C",
         "DESC": "Cuándo se activa: Cuando golpean al usuario con un movimiento de ataque 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Reduce la Precisión del objetivo en 2 niveles. Envenena al objetivo. Crea una Zona Tierra. (Una Zona Tierra potencia los ataques de tipo Tierra). Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 2 niveles."
       },
       "6058": {
         "NAME": "Martillo Colosal Fuertote",
-        "ABBR": "Martillo Colosal S",
+        "ABBR": "Martillo Colosal F",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nSin efectos secundarios."
       },
       "6059": {
         "NAME": "Llanto Falso Histriónico",
-        "ABBR": "Llanto Falso S",
+        "ABBR": "Llanto Falso H",
         "DESC": "Cuándo se activa: Cuando el Entrenador del usuario usa algún movimiento 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Reduce el Ataque Especial y la Defensa Especial del objetivo en 2 niveles. Reduce la Resiliencia Siniestro del objetivo en 1 nivel."
       },
       "6060": {
         "NAME": "Anillo Ígneo Flamante",
-        "ABBR": "Anillo Ígneo S",
+        "ABBR": "Anillo Ígneo F",
         "DESC": "Cuándo se activa: Cuando el tiempo cambia a soleado.\nCuándo se desactiva: Cuando ya no está soleado.\n\nReduce la Defensa y la Defensa Especial del objetivo en 1 nivel. La potencia de este movimiento no se reduce incluso si hay varios objetivos."
       },
       "6061": {
         "NAME": "Rayo Confuso Cautivador",
-        "ABBR": "Rayo Confuso S",
+        "ABBR": "Rayo Confuso C",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon envenenado o gravemente envenenado en el bando rival.\nCuándo se desactiva: Cuando no quede ningún Pokémon envenenado o gravemente envenenado en el bando rival.\n\nConfunde al objetivo. Reduce la Precisión del objetivo en 1 nivel. Aplica el efecto Barra mov. acelerada al bando aliado. Se reduce en 1 el contador de movimientos compi del usuario."
       },
       "6062": {
         "NAME": "Vendaval Gélido Azabache",
-        "ABBR": "Vendaval Gélido S",
+        "ABBR": "Vendaval Gélido A",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Cuanto más haya aumentado el efecto Siguiente Físico ↑ del usuario, más aumenta la potencia de este ataque. Reduce la Velocidad del objetivo en 2 niveles. Reduce la Resiliencia Volador del objetivo en 1 nivel la primera vez que este movimiento de ataque acierta en cada combate."
       },
       "6063": {
         "NAME": "Espada Santa Alba",
-        "ABBR": "Espada Santa S",
+        "ABBR": "Espada Santa A",
         "DESC": "Cuándo se activa: Cuando se le aplica Círculo de Teselia (Defensivo) al bando aliado.\nCuándo se desactiva: Cuando ya no se le aplica Círculo de Teselia (Defensivo) al bando aliado.\n\nAcierta siempre. Ignora cualquier mejora del objetivo y lo ataca. Reduce el Ataque y el Ataque Especial del objetivo en 3 niveles. Reduce la Resiliencia Lucha del objetivo en 2 niveles."
       },
       "6064": {
         "NAME": "Hipertaladro del Montón",
-        "ABBR": "Hipertaladro S",
+        "ABBR": "Hipertaladro M",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Reduce la Defensa del objetivo en 2 niveles. Reduce la Resiliencia Normal del objetivo en 1 nivel. Aplica el efecto Siguiente sin coste al usuario."
       },
       "6065": {
         "NAME": "Rueda Fuego Abrasadora",
-        "ABBR": "Rueda Fuego S",
+        "ABBR": "Rueda Fuego A",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon bajo ataduras en el bando rival.\nCuándo se desactiva: Cuando no quede ningún Pokémon bajo ataduras en el bando rival.\n\nDescongela al usuario. Hay una probabilidad del 10% de quemar al objetivo. Recupera los PS de todos los compis aliados cuando el objetivo está quemado. Recupera los PS de todos los compis aliados cuando el objetivo está bajo ataduras."
       },
       "6066": {
         "NAME": "Moluscañón con Venenito",
-        "ABBR": "Moluscañón S",
+        "ABBR": "Moluscañón V",
         "DESC": "Cuándo se activa: Cuando el efecto Siguiente Físico ↑ o el efecto Siguiente Especial ↑ del usuario han aumentado.\nCuándo se desactiva: Cuando el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ del usuario no han aumentado.\n\nLa categoría de este movimiento cambia a Físico cuando el nivel del efecto Siguiente Físico ↑ del usuario es superior al nivel de su efecto Siguiente Especial ↑. De la misma manera, la categoría de este movimiento cambia a Especial cuando el nivel del efecto Siguiente Especial ↑ del usuario es igual o superior al nivel de su efecto Siguiente Físico ↑. La categoría del movimiento compi Dinamax correspondiente a este movimiento no cambiará de Especial. Acierta siempre. Envenena al objetivo. Además, otorga los siguientes 2 efectos cuando la categoría de este movimiento es Físico: Reduce el Ataque y la Defensa del objetivo en 2 niveles. Recupera PS del usuario. Además, otorga los siguientes 2 efectos cuando la categoría de este movimiento es Especial: Reduce el Ataque Especial y la Defensa Especial del objetivo en 2 niveles. Aplica el efecto Siguiente sin coste al usuario."
       },
       "6067": {
         "NAME": "Fría Acogida Refinada",
-        "ABBR": "Fría Acogida S",
+        "ABBR": "Fría Acogida R",
         "DESC": "Cuándo se activa: Cuando se le aplica un círculo al bando aliado.\nCuándo se desactiva: Cuando ya no se le aplica ningún círculo al bando aliado.\n\nAcierta siempre. Reduce la Defensa, la Defensa Especial y la Evasión de todos los compis rivales en 3 niveles. Desata una tormenta de granizo. Aplica el efecto Aumento imposible al bando rival. Aplica el efecto Bloqueo caract. ↓ al bando aliado. Elimina cualquier reducción en las características de todos los compis aliados."
       },
       "6068": {
@@ -4480,107 +4493,107 @@
       },
       "6069": {
         "NAME": "Bola Sombra de Colores Estivales",
-        "ABBR": "Bola Sombra S",
+        "ABBR": "Bola Sombra CE",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: No se puede desactivar.\n\nReduce el Ataque y el Ataque Especial del objetivo en 1 nivel. Hay una probabilidad del 20% de reducir la Defensa Especial del objetivo en 1 nivel. Crea una Zona Fantasma la primera vez que este movimiento de ataque acierta en cada combate. (Una Zona Fantasma potencia los ataques de tipo Fantasma)."
       },
       "6070": {
         "NAME": "Viento Aciago del Litoral",
-        "ABBR": "Viento Aciago S",
+        "ABBR": "Viento Aciago L",
         "DESC": "Cuándo se activa: Cuando los PS del usuario son el 80% o más.\nCuándo se desactiva: Cuando los PS del usuario son inferiores al 80%.\n\nAumenta el Ataque, la Defensa, el Ataque Especial, la Defensa Especial y la Velocidad de todos los compis aliados en 2 niveles."
       },
       "6071": {
         "NAME": "Moluscañón con Venenito",
-        "ABBR": "Moluscañón S",
+        "ABBR": "Moluscañón V",
         "DESC": "Cuándo se activa: Cuando el efecto Siguiente Físico ↑ o el efecto Siguiente Especial ↑ del usuario han aumentado.\nCuándo se desactiva: Cuando el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ del usuario no han aumentado.\n\nLa categoría de este movimiento cambia a Físico cuando el nivel del efecto Siguiente Físico ↑ del usuario es superior al nivel de su efecto Siguiente Especial ↑. De la misma manera, la categoría de este movimiento cambia a Especial cuando el nivel del efecto Siguiente Especial ↑ del usuario es igual o superior al nivel de su efecto Siguiente Físico ↑. La categoría del movimiento compi Dinamax correspondiente a este movimiento no cambiará de Especial. Acierta siempre. Envenena al objetivo. Además, otorga los siguientes 2 efectos cuando la categoría de este movimiento es Físico: Reduce el Ataque y la Defensa del objetivo en 2 niveles. Recupera PS del usuario. Además, otorga los siguientes 2 efectos cuando la categoría de este movimiento es Especial: Reduce el Ataque Especial y la Defensa Especial del objetivo en 2 niveles. Aplica el efecto Siguiente sin coste al usuario."
       },
       "6072": {
         "NAME": "Presa Maxilar Resurgida",
-        "ABBR": "Presa Maxilar S",
+        "ABBR": "Presa Maxilar R",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento 1 vez.\nCuándo se desactiva: No se puede desactivar.\n\nAcierta siempre. Aplica el efecto Relevo imposible al objetivo y al usuario. Si los PM restantes de Baya Zidra del usuario son 1 o más cuando ataca con este movimiento, reduce dichos PM en 1 y aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en 2 niveles. Si los PM restantes de Baya Zidra del usuario son 0 cuando ataca con este movimiento, recupera aproximadamente un 10% de los PS máximos del usuario."
       },
       "6073": {
         "NAME": "Tumba Rocas Gargantuesca",
-        "ABBR": "Tumba Rocas S",
+        "ABBR": "Tumba Rocas G",
         "DESC": "Cuándo se activa: Cuando ha aumentado la Defensa del usuario al máximo nivel.\nCuándo se desactiva: Cuando no ha aumentado la Defensa del usuario al máximo nivel.\n\nReduce la Velocidad del objetivo en 2 niveles. Crea una Zona Roca. (Una Zona Roca potencia los ataques de tipo Roca). Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
       "6074": {
         "NAME": "Rayo Meteórico Vacío",
-        "ABBR": "Rayo Meteórico S",
+        "ABBR": "Rayo Meteórico V",
         "DESC": "Cuándo se activa: Cuando ha aumentado el Ataque Especial del usuario.\nCuándo se desactiva: Cuando no ha aumentado el Ataque Especial del usuario.\n\nEl usuario adopta una pose de ataque. Aumenta el Ataque Especial del usuario en 1 nivel cuando adopta una pose de ataque. (No aumentará el Ataque Especial del usuario si no ha adoptado una pose de ataque). Si se usa de nuevo este movimiento, vuelve a su posición habitual y ataca. Mientras adopta la pose, el usuario no puede realizar ninguna otra acción. Acierta siempre. Cuanto más se haya reducido la Defensa Especial del objetivo, más aumenta la potencia de este ataque. Reduce la Defensa Especial del objetivo en 1 nivel cuando está envenenado o gravemente envenenado. Cuando se aplica un círculo al bando aliado, el usuario ataca al instante."
       },
       "6075": {
         "NAME": "Carantoña Agresiva",
-        "ABBR": "Carantoña S",
+        "ABBR": "Carantoña A",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento 1 vez.\nCuándo se desactiva: No se puede desactivar.\n\nAcierta siempre. Reduce el Ataque y la Defensa del objetivo en 1 nivel. La potencia de este movimiento no se reduce incluso si hay varios objetivos."
       },
       "6076": {
         "NAME": "Terremoto de Poder Celestial",
-        "ABBR": "Terremoto S",
+        "ABBR": "Terremoto PC",
         "DESC": "Cuándo se activa: Cuando se desata una tormenta de arena.\nCuándo se desactiva: No se puede desactivar.\n\nReduce la Defensa del objetivo en 1 nivel. Aumenta el efecto Siguiente Movimiento Compi ↑ del usuario en 1 nivel cuando golpea con su ataque a un objetivo que está bajo ataduras."
       },
       "6077": {
         "NAME": "Puño Bala de Ráfaga Celestial",
-        "ABBR": "Puño Bala S",
+        "ABBR": "Puño Bala RC",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Reduce la Defensa y la Defensa Especial del objetivo en 2 niveles. Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 2 niveles."
       },
       "6078": {
         "NAME": "Hiperrayo con Bramido Celestial",
-        "ABBR": "Hiperrayo S",
+        "ABBR": "Hiperrayo BC",
         "DESC": "Cuándo se activa: Cuando el Pokémon de un aliado usa algún movimiento 3 veces.\nCuándo se desactiva: No se puede desactivar.\n\nAcierta siempre. Cuanto más se hayan reducido la Defensa o Defensa Especial del rival, más aumenta la potencia de este ataque."
       },
       "6079": {
         "NAME": "Fiebre Dorada Incalculable",
-        "ABBR": "Fiebre Dorada S",
+        "ABBR": "Fiebre Dorada I",
         "DESC": "Cuándo se activa: Cuando los compis de tu equipo usan un movimiento compi 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nReduce la Defensa Especial del objetivo en 3 niveles. Aplica el efecto Siguiente sin coste a todos los compis aliados. La potencia de este movimiento no se reduce incluso si hay varios objetivos."
       },
       "6080": {
         "NAME": "Meteoimpacto de Darlo Todo",
-        "ABBR": "Meteoimpacto S",
+        "ABBR": "Meteoimpacto DT",
         "DESC": "Cuándo se activa: Cuando el Pokémon del usuario use un movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nIgnora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos. Ignora el efecto Aguante del objetivo. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Crea una Zona Acero la primera vez que este movimiento de ataque acierta en cada combate. (Una Zona Acero potencia los ataques de tipo Acero)."
       },
       "6081": {
         "NAME": "Hidrocañón a Tope",
-        "ABBR": "Hidrocañón S",
+        "ABBR": "Hidrocañón T",
         "DESC": "Cuándo se activa: Cuando el tiempo cambia a lluvia.\nCuándo se desactiva: Cuando ya no está lloviendo.\n\nReduce el Ataque y el Ataque Especial del objetivo en 1 nivel. La potencia de este movimiento no se reduce incluso si hay varios objetivos."
       },
       "6082": {
         "NAME": "Genufendiente Ejemplar",
-        "ABBR": "Genufendiente S",
+        "ABBR": "Genufendiente E",
         "DESC": "Cuándo se activa: Cuando el efecto Siguiente Movimiento Compi ↑ del usuario ha aumentado.\nCuándo se desactiva: Cuando el efecto Siguiente Movimiento Compi ↑ del usuario no ha aumentado.\n\nAcierta siempre. Cuanto más haya aumentado el efecto Siguiente Movimiento Compi ↑ del usuario, más aumenta la potencia de este ataque. Ignora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos. Ignora el efecto Aguante del objetivo. Aumenta el efecto Siguiente Físico ↑ del usuario el mismo número de niveles que Pokémon debilitados haya en tu equipo."
       },
       "6083": {
         "NAME": "Hidroariete Mueveesqueletos",
-        "ABBR": "Hidroariete S",
+        "ABBR": "Hidroariete M",
         "DESC": "Cuándo se activa: Cuando ha aumentado la Velocidad del usuario.\nCuándo se desactiva: Cuando no ha aumentado la Velocidad del usuario.\n\nAcierta siempre. Cuanto más haya aumentado la Velocidad del usuario, más aumenta la potencia de este ataque. Reduce la Defensa del objetivo en 2 niveles. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Elimina todos los aumentos de Velocidad del usuario."
       },
       "6084": {
         "NAME": "Bola Sombra Espeluznadora",
-        "ABBR": "Bola Sombra S",
+        "ABBR": "Bola Sombra E",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Reduce la Defensa Especial del objetivo en 2 niveles. Reduce la Resiliencia Fantasma del objetivo en 1 nivel la primera vez que este movimiento de ataque acierta en cada combate. La potencia de este movimiento no se reduce incluso si hay varios objetivos."
       },
       "6085": {
         "NAME": "Ventisca Maldita",
-        "ABBR": "Ventisca S",
+        "ABBR": "Ventisca M",
         "DESC": "Cuándo se activa: Cuando graniza.\nCuándo se desactiva: Cuando ya no graniza.\n\nDuplica las reducciones en las características del objetivo. Congela al objetivo. La potencia de este movimiento no se reduce incluso si hay varios objetivos."
       },
       "6086": {
         "NAME": "Infortunio de Vapor",
-        "ABBR": "Infortunio S",
+        "ABBR": "Infortunio V",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon que sufre problemas de estado, ha retrocedido, está confundido o bajo ataduras en el bando rival.\nCuándo se desactiva: Cuando no quede ningún Pokémon que sufra problemas de estado, ha retrocedido, está confundido o bajo ataduras en el bando rival.\n\nDuplica la potencia de este ataque contra objetivos que sufren problemas de estado, están confundidos, bajo ataduras o han retrocedido. Reduce la Defensa del objetivo en 2 niveles cuando está paralizado. Reduce la Defensa Especial del objetivo en 2 niveles cuando está quemado. Reduce la Velocidad del objetivo en 2 niveles cuando ha retrocedido. Recupera los PS de todos los compis aliados cuando el objetivo está envenenado o gravemente envenenado. Aplica el efecto Siguiente sin coste al usuario cuando el objetivo está bajo ataduras. Aumenta el efecto Siguiente Especial ↑ del usuario en 1 nivel cuando el objetivo está confuso."
       },
       "6087": {
         "NAME": "Voltio Cruel por Catenaria",
-        "ABBR": "Voltio Cruel S",
+        "ABBR": "Voltio Cruel C",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon que sufre problemas de estado, ha retrocedido, está confundido o bajo ataduras en el bando rival.\nCuándo se desactiva: Cuando no quede ningún Pokémon que sufra problemas de estado, ha retrocedido, está confundido o bajo ataduras en el bando rival.\n\nReduce la Defensa del objetivo en 2 niveles cuando está paralizado. Reduce la Defensa Especial del objetivo en 2 niveles cuando está quemado. Reduce la Velocidad del objetivo en 2 niveles cuando ha retrocedido. Recupera los PS de todos los compis aliados cuando el objetivo está envenenado o gravemente envenenado. Aplica el efecto Siguiente sin coste al usuario cuando el objetivo está confuso. Aumenta el efecto Siguiente Físico ↑ del usuario en 1 nivel cuando el objetivo está bajo ataduras."
       },
       "6088": {
         "NAME": "Viento Hielo Airoso",
-        "ABBR": "Viento Hielo S",
+        "ABBR": "Viento Hielo A",
         "DESC": "Cuándo se activa: Cuando ha aumentado la Evasión del usuario.\nCuándo se desactiva: No se puede desactivar.\n\nAcierta siempre. Ignora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos. Ignora el efecto Aguante del objetivo. Reduce la Velocidad y la Precisión del objetivo en 1 nivel. La potencia de este movimiento no se reduce incluso si hay varios objetivos."
       },
       "6089": {
         "NAME": "Psíquico del Alba",
-        "ABBR": "Psíquico S",
+        "ABBR": "Psíquico A",
         "DESC": "Cuándo se activa: Cuando ha aumentado el Ataque Especial del usuario.\nCuándo se desactiva: Cuando no ha aumentado el Ataque Especial del usuario.\n\nAcierta siempre. Reduce la Defensa Especial del objetivo en 2 niveles. Aplica el efecto Siguiente sin coste al usuario. Aumenta el efecto Siguiente Especial ↑ del usuario en 1 nivel. Si los PM restantes de Baya Ziuela del usuario son 1 o más cuando ataca con este movimiento, reduce dichos PM en 1 y recupera 1 PM de su movimiento sincro."
       },
       "6090": {
@@ -4590,67 +4603,67 @@
       },
       "6091": {
         "NAME": "Llamarada de Fervor Celestial",
-        "ABBR": "Llamarada S",
+        "ABBR": "Llamarada FC",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon quemado en el bando rival.\nCuándo se desactiva: Cuando no quede ningún Pokémon quemado en el bando rival.\n\nQuema al objetivo."
       },
       "6092": {
         "NAME": "Voz Cautivadora Coruscante",
-        "ABBR": "Voz Cautivadora S",
+        "ABBR": "Voz Cautivadora C",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Se reduce en 1 el contador de movimientos compi del usuario. Aplica el efecto Siguiente Supereficaz ↑ a todos los compis aliados. Aplica el efecto Siguiente sin coste a todos los compis aliados. La potencia de este movimiento no se reduce incluso si hay varios objetivos."
       },
       "6093": {
         "NAME": "Chupavidas Estridulante",
-        "ABBR": "Chupavidas S",
+        "ABBR": "Chupavidas E",
         "DESC": "Cuándo se activa: Cuando se le aplica un círculo al bando aliado.\nCuándo se desactiva: Cuando ya no se le aplica ningún círculo al bando aliado.\n\nReduce en 2 niveles una de estas características del objetivo al azar: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión. Dicha característica aumenta en igual medida para el usuario. Cuanto más daño inflija al objetivo, más cantidad de PS recupera el usuario. Recupera aproximadamente un 10% de los PS máximos de todos los compis aliados. Crea una Zona Bicho la primera vez que este movimiento de ataque acierta en cada combate. (Una Zona Bicho potencia los ataques de tipo Bicho)."
       },
       "6094": {
         "NAME": "Tragar Desmedido",
-        "ABBR": "Tragar S",
+        "ABBR": "Tragar D",
         "DESC": "Cuándo se activa: Cuando el usuario usa Reserva.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nRecupera aproximadamente un 20% de los PS máximos de todos los compis aliados. Cuanto más haya aumentado la Defensa o Defensa Especial del usuario, más PS recupera también. Elimina todos los aumentos de Defensa y Defensa Especial del usuario."
       },
       "6095": {
         "NAME": "Triturar Voraz",
-        "ABBR": "Triturar S",
+        "ABBR": "Triturar V",
         "DESC": "Cuándo se activa: Cuando la Defensa y la Defensa Especial del usuario son de 6 niveles o más en total.\nCuándo se desactiva: Cuando la Defensa y la Defensa Especial del usuario son de 5 niveles o menos en total.\n\nCuanto más haya aumentado la Defensa o Defensa Especial del usuario, más aumenta la potencia de este ataque. Reduce la Defensa y la Defensa Especial del objetivo en 1 nivel. Elimina todos los aumentos de Defensa y Defensa Especial del usuario."
       },
       "6096": {
         "NAME": "Llama Embrujada Abrasadora",
-        "ABBR": "Llama Embrujada S",
+        "ABBR": "Llama Embrujada A",
         "DESC": "Cuándo se activa: Cuando ha aumentado el Ataque Especial del usuario.\nCuándo se desactiva: Cuando no ha aumentado el Ataque Especial del usuario.\n\nAcierta siempre. Cuanto más se haya reducido la Defensa del usuario, más aumenta la potencia de este ataque. Reduce el Ataque Especial del objetivo en 2 niveles. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Cuanto más se haya reducido la Defensa del usuario, más se reduce su contador de movimientos compi (hasta 3 niveles). Anula las reducciones en las características del usuario y luego aumenta las mismas características del usuario en igual medida."
       },
       "6097": {
         "NAME": "Polución Aciaga",
-        "ABBR": "Polución S",
+        "ABBR": "Polución A",
         "DESC": "Cuándo se activa: Cuando el Campo Daño Veneno se aplica al bando rival.\nCuándo se desactiva: Cuando ya no esté activo el Campo Daño Veneno del bando rival.\n\nEnvenena gravemente al objetivo. Reduce la Resiliencia Veneno del objetivo en 1 nivel la primera vez que este movimiento de ataque acierta en cada combate. Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 2 niveles."
       },
       "6098": {
         "NAME": "Deslumbrar Arenáceo",
-        "ABBR": "Deslumbrar S",
+        "ABBR": "Deslumbrar A",
         "DESC": "Cuándo se activa: Cuando se desata una tormenta de arena.\nCuándo se desactiva: Cuando ya no hay una tormenta de arena.\n\nAcierta siempre. Reduce la Defensa, la Defensa Especial y la Velocidad del objetivo en 1 nivel. Paraliza al objetivo."
       },
       "6099": {
         "NAME": "Cabeza de Hierro Acerante",
-        "ABBR": "Cabeza de Hierro S",
+        "ABBR": "Cabeza de Hierro A",
         "DESC": "Cuándo se activa: Cuando se crea una Zona Acero.\nCuándo se desactiva: Cuando ya no esté activa la Zona Acero.\n\nReduce el Ataque y el Ataque Especial del objetivo en 1 nivel. Hay una probabilidad del 30% de hacer retroceder al objetivo. Si el Steelix del usuario ha megaevolucionado, también reduce la Velocidad del objetivo en 1 nivel. Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 1 nivel. Si el Steelix del usuario ha megaevolucionado, también aumenta la Velocidad de todos los compis aliados en 1 nivel."
       },
       "6100": {
         "NAME": "Esporagodón Fertilizante",
-        "ABBR": "Esporagodón S",
+        "ABBR": "Esporagodón F",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Reduce la Velocidad de todos los compis rivales en 2 niveles. Aplica el efecto Siguiente Supereficaz ↑ a todos los compis aliados. Aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en 2 niveles."
       },
       "6101": {
         "NAME": "Balón Ígneo Explosivo",
-        "ABBR": "Balón Ígneo S",
+        "ABBR": "Balón Ígneo E",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nDescongela al usuario. Hay una probabilidad del 10% de quemar al objetivo. La potencia y la probabilidad de aplicar efectos secundarios de este movimiento no se reducen incluso si hay varios objetivos. Aplica el efecto Siguiente Supereficaz ↑ a todos los compis aliados. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
       "6102": {
         "NAME": "Batería Asalto Arrítmica",
-        "ABBR": "Batería Asalto S",
+        "ABBR": "Batería Asalto A",
         "DESC": "Cuándo se activa: Cuando los compis de tu equipo usan un movimiento compi Dinamax 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nLa potencia de este movimiento no se reduce incluso si hay varios objetivos. Reduce la Velocidad del objetivo en 1 nivel."
       },
       "6103": {
         "NAME": "Disparo Certero de Alta Presión",
-        "ABBR": "Disparo Certero S",
+        "ABBR": "Disparo Certero AP",
         "DESC": "Cuándo se activa: Cuando los compis de tu equipo usan un movimiento compi 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nSuele ser crítico. Reduce la Defensa Especial del objetivo en 3 niveles."
       },
       "6104": {
@@ -4665,82 +4678,82 @@
       },
       "6106": {
         "NAME": "Fogonazo Floreciente",
-        "ABBR": "Fogonazo S",
+        "ABBR": "Fogonazo F",
         "DESC": "Cuándo se activa: Cuando se reduce en 3 el contador de movimientos compi de tu equipo mientras este movimiento está desactivado.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAsesta un golpe crítico, salvo en ciertas circunstancias. Reduce la Defensa Especial del objetivo en 2 niveles. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
       "6107": {
         "NAME": "Energibola en Ramo",
-        "ABBR": "Energibola S",
+        "ABBR": "Energibola R",
         "DESC": "Cuándo se activa: Cuando ha aumentado el Ataque Especial del usuario.\nCuándo se desactiva: No se puede desactivar.\n\nAcierta siempre. Si los PM restantes de Baya Ziuela del usuario son 3 cuando ataca con este movimiento, reduce dichos PM en 3 y otorga los siguientes 3 efectos: La potencia de este ataque aumenta. (Este ataque aumenta la potencia en un 400%). Reduce el Ataque Especial y la Defensa Especial del objetivo en 3 niveles. Recupera aproximadamente un 30% de los PS máximos del usuario. Si los PM restantes de Baya Ziuela del usuario son 2 cuando ataca con este movimiento, reduce dichos PM en 2 y otorga los siguientes 3 efectos: La potencia de este ataque aumenta. (Este ataque aumenta la potencia en un 200%). Reduce el Ataque Especial y la Defensa Especial del objetivo en 2 niveles. Recupera aproximadamente un 20% de los PS máximos del usuario. Si los PM restantes de Baya Ziuela del usuario son 1 cuando ataca con este movimiento, reduce dichos PM en 1 y otorga los siguientes 3 efectos: La potencia de este ataque aumenta. (Este ataque aumenta la potencia en un 50%). Reduce el Ataque Especial y la Defensa Especial del objetivo en 1 nivel. Recupera aproximadamente un 10% de los PS máximos del usuario. Si los PM restantes de Baya Ziuela del usuario son 0 cuando ataca con este movimiento, hay una probabilidad del 10% de reducir la Defensa Especial del objetivo en 1 nivel."
       },
       "6108": {
         "NAME": "Arremetida Agrietadora",
-        "ABBR": "Arremetida S",
+        "ABBR": "Arremetida A",
         "DESC": "Cuándo se activa: Cuando se crea una Zona Tierra.\nCuándo se desactiva: Cuando ya no esté activa la Zona Tierra.\n\nAcierta siempre. Reduce la Defensa del objetivo en 4 niveles. Aplica el efecto Siguiente Supereficaz ↑ al usuario."
       },
       "6109": {
         "NAME": "Filo del Abismo Rojo",
-        "ABBR": "Filo del Abismo Rojo",
+        "ABBR": "Filo del Abismo R",
         "DESC": "Cuándo se activa: Cuando los compis de tu equipo usan un movimiento compi 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nHace retroceder al objetivo. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Reduce la Defensa del objetivo en 3 niveles cuando está soleado EX. Aplica el efecto Siguiente sin coste al usuario cuando está soleado EX."
       },
       "6110": {
         "NAME": "Pulso Primigenio Azul",
-        "ABBR": "Pulso Primigenio S",
+        "ABBR": "Pulso Primigenio A",
         "DESC": "Cuándo se activa: Cuando el tiempo cambia a lluvia EX.\nCuándo se desactiva: Cuando el tiempo ya no es lluvia EX.\n\nHace retroceder al objetivo."
       },
       "6111": {
         "NAME": "Pulso Noche de Negrura Celestial",
-        "ABBR": "Pulso Noche S",
+        "ABBR": "Pulso Noche NC",
         "DESC": "Cuándo se activa: Cuando hay al menos 1 Pokémon con una resiliencia tipo reducida en el bando rival.\nCuándo se desactiva: Cuando ya no quede ningún Pokémon con una resiliencia tipo reducida en el bando rival.\n\nAcierta siempre. Cuanto más se hayan reducido las características del objetivo, más aumenta la potencia de este ataque. Reduce la Precisión del objetivo en 1 nivel."
       },
       "6112": {
         "NAME": "Encanto Empalagoso",
-        "ABBR": "Encanto S",
+        "ABBR": "Encanto E",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Reduce el Ataque de todos los compis rivales en 2 niveles. Aplica el efecto Bloqueo de críticos al bando aliado. Aplica el efecto Daño físico ↓ al bando aliado. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
       "6113": {
         "NAME": "Tajo Supremo del Héroe Azul",
-        "ABBR": "Tajo Supremo S",
+        "ABBR": "Tajo Supremo HA",
         "DESC": "Cuándo se activa: Cuando ha aumentado el Ataque del usuario.\nCuándo se desactiva: Cuando no ha aumentado el Ataque del usuario.\n\nRecupera 1 PM del movimiento sincro del usuario cuando el objetivo no está lleno de determinación. Duplica la potencia de este ataque cuando el objetivo está lleno de determinación. Se reduce en 2 el contador de movimientos compi del usuario cuando el objetivo está lleno de determinación."
       },
       "6114": {
         "NAME": "Fuego Sagrado de Llamas Irisadas",
-        "ABBR": "Fuego Sagrado S",
+        "ABBR": "Fuego Sagrado LI",
         "DESC": "Cuándo se activa: Cuando el tiempo cambia a soleado.\nCuándo se desactiva: Cuando ya no está soleado.\n\nDescongela al usuario. Reduce la Defensa y la Defensa Especial del objetivo en 1 nivel. Quema al objetivo."
       },
       "6115": {
         "NAME": "Brillo Mágico con Cariño",
-        "ABBR": "Brillo Mágico S",
+        "ABBR": "Brillo Mágico C",
         "DESC": "Cuándo se activa: Cuando se le aplica el efecto Barra mov. acelerada al bando aliado.\nCuándo se desactiva: Cuando ya no se le aplica el efecto Barra mov. acelerada al bando aliado.\n\nAcierta siempre. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Otorga el efecto siguiente 6 veces: Reduce en 1 nivel una de estas características del objetivo al azar: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión. Crea una Zona Hada EX. (Una Zona Hada EX potencia los ataques de tipo Hada). Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
       "6116": {
         "NAME": "Ala Aural Alpina",
-        "ABBR": "Ala Aural S",
+        "ABBR": "Ala Aural A",
         "DESC": "Cuándo se activa: Cuando ha aumentado el Ataque Especial del usuario.\nCuándo se desactiva: Cuando no ha aumentado el Ataque Especial del usuario.\n\nAcierta siempre. Asesta un golpe crítico, salvo en ciertas circunstancias. Aumenta la Velocidad de todos los compis aliados en 2 niveles. Si los PM restantes de ¡Más rápido! del usuario son 1 o más cuando ataca con este movimiento, aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
       "6117": {
         "NAME": "Ráfaga Escamas Primaveral",
-        "ABBR": "Ráfaga Escamas S",
+        "ABBR": "Ráfaga Escamas P",
         "DESC": "Cuándo se activa: Cuando ha aumentado el Ataque del usuario.\nCuándo se desactiva: Cuando no ha aumentado el Ataque del usuario.\n\nAcierta siempre. Aumenta la Velocidad del usuario en 1 nivel. Ataca al objetivo de 2 a 5 veces seguidas. Aumenta en 1 nivel una de las siguientes características del usuario al azar cuando ataca al menos 3 veces seguidas: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión. Aplica el efecto Siguiente sin coste al usuario cuando ataca al menos 4 veces seguidas. Aumenta el efecto Siguiente Físico ↑ del usuario en 3 niveles cuando ataca 5 veces seguidas. Si los PM restantes de Baya Zidra del usuario son 1 o más cuando ataca con este movimiento, reduce dichos PM en 1 y otorga todos los efectos siguientes: Aumenta al máximo el número de ataques. Se reduce en 1 el contador de movimientos compi del usuario."
       },
       "6118": {
         "NAME": "Marcha Espectral Crepuscular",
-        "ABBR": "Marcha Espectral S",
+        "ABBR": "Marcha Espectral C",
         "DESC": "Cuándo se activa: Cuando los compis de tu equipo usan un movimiento compi 1 vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Duplica la potencia de este ataque cuando el objetivo sufre un problema de estado. Reduce la Defensa Especial y la Velocidad del objetivo en 3 niveles. Quema al objetivo."
       },
       "6119": {
         "NAME": "Metaláser Afilado",
-        "ABBR": "Metaláser S",
+        "ABBR": "Metaláser A",
         "DESC": "Cuándo se activa: Cuando se crea una Zona Acero.\nCuándo se desactiva: Cuando ya no esté activa la Zona Acero.\n\nAcierta siempre. Reduce el Ataque Especial y la Defensa Especial del objetivo en 2 niveles."
       },
       "6120": {
         "NAME": "Bola Sombra Malévola",
-        "ABBR": "Bola Sombra S",
+        "ABBR": "Bola Sombra M",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: No se puede desactivar.\n\nAcierta siempre. Reduce todos los PM de este movimiento. Cuanto más se hayan reducido los PM, más aumenta la potencia de este ataque. Hay una probabilidad del 20% de reducir la Defensa Especial del objetivo en 1 nivel. Hace retroceder, confunde o deja bajo ataduras al objetivo cuando los PM restantes se reducen en 108 por un solo ataque."
       },
       "6121": {
         "NAME": "Hiperrayo de Calidez Celestial",
-        "ABBR": "Hiperrayo S",
+        "ABBR": "Hiperrayo CC",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: No se puede desactivar.\n\nConsume hasta 6 puntos de la barra de movimientos del usuario. La potencia de este ataque aumenta según la cantidad de puntos consumida. Crea una Zona Bicho. (Una Zona Bicho potencia los ataques de tipo Bicho)."
       },
       "6122": {
@@ -4750,18 +4763,43 @@
       },
       "6123": {
         "NAME": "Relámpago Súbito Electrizante",
-        "ABBR": "Relámpago Súbito S",
+        "ABBR": "Relámpago Súbito E",
         "DESC": "Cuándo se activa: Cuando ha aumentado el Ataque Especial del usuario.\nCuándo se desactiva: Cuando no ha aumentado el Ataque Especial del usuario.\n\nHace retroceder al objetivo. Crea un campo eléctrico EX la primera vez que este movimiento de ataque acierta en cada combate. Aumenta el efecto Siguiente Movimiento Compi ↑ de todos los compis aliados en 2 niveles."
       },
       "6124": {
         "NAME": "Electormenta Chispeante",
-        "ABBR": "Electormenta S",
+        "ABBR": "Electormenta C",
         "DESC": "Cuándo se activa: Cuando ha aumentado el Ataque Especial del usuario.\nCuándo se desactiva: Cuando no ha aumentado el Ataque Especial del usuario.\n\nAcierta siempre cuando llueve. Reduce la Defensa Especial del objetivo en 2 niveles. Reduce la Resiliencia Eléctrico del objetivo en 1 nivel la primera vez que este movimiento de ataque acierta en cada combate. Paraliza al objetivo. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Si los PM restantes de Campo Eléctrico del usuario son 1 o más cuando ataca con este movimiento, reduce dichos PM en 1 y otorga todos los efectos siguientes: Genera una fuerte lluvia. Crea un campo eléctrico."
       },
       "6125": {
         "NAME": "Onda Certera Meditativa",
-        "ABBR": "Onda Certera S",
+        "ABBR": "Onda Certera M",
         "DESC": "Cuándo se activa: Cuando el usuario usa Energía Potenciadora.\nCuándo se desactiva: No se puede desactivar.\n\nReduce la Defensa Especial del objetivo en 1 nivel."
+      },
+      "6126": {
+        "NAME": "Meteoimpacto Helíaco",
+        "ABBR": "Meteoimpacto H",
+        "DESC": "Cuándo se activa: Cuando los compis de tu equipo usan un movimiento compi una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nIgnora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos. Ignora el efecto Aguante del objetivo. Reduce la Defensa del objetivo en 3 niveles. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Si los PM restantes de Sol Matinal del usuario son 1 o más cuando ataca con este movimiento, aplica Círculo de Alola (Físico) al bando aliado. Círculo de Alola (Físico) otorga todos los efectos siguientes: Aumenta la potencia de los movimientos de ataque físico y los movimientos compi físicos de todos los compis aliados en un 10%. Mitiga el daño por movimientos de ataque físico y movimientos compi físicos que reciben todos los compis aliados en un 5%. Cuantos más compis con el distintivo \"Alola\" haya en el bando aliado, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos y los movimientos compi en un 10% adicional (hasta un total máximo del 40%), y mitiga el daño recibido en un 3% adicional (hasta un total máximo del 14%)."
+      },
+      "6127": {
+        "NAME": "Rayo Umbrío Selénico",
+        "ABBR": "Rayo Umbrío S",
+        "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nIgnora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos. Ignora el efecto Aguante del objetivo. Reduce la Defensa Especial del objetivo en 3 niveles. Cuantos más PM restantes haya de Luz Lunar del usuario cuando ataca con este movimiento, más se reduce su contador de movimientos compi (hasta 3 niveles)."
+      },
+      "6128": {
+        "NAME": "Danza Pluma Tropical",
+        "ABBR": "Danza Pluma T",
+        "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. Reduce el Ataque y el Ataque Especial de todos los compis rivales en 2 niveles. Crea una Zona Voladora. (Una Zona Voladora potencia los ataques de tipo Volador). Aumenta la Evasión de todos los compis aliados en 2 niveles. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 2 niveles."
+      },
+      "6129": {
+        "NAME": "Dulce Aroma Cautivador",
+        "ABBR": "Dulce Aroma C",
+        "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: No se puede desactivar.\n\nAcierta siempre. Reduce la Evasión de todos los compis rivales en 2 niveles. Hace retroceder, confunde o deja bajo ataduras a todos los compis rivales. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel. Recupera aproximadamente un 10% de los PS máximos del usuario. El usuario se convierte en el blanco de los ataques enemigos durante un breve período de tiempo."
+      },
+      "6130": {
+        "NAME": "Martillo Dragón Talludo",
+        "ABBR": "Martillo Dragón T",
+        "DESC": "Cuándo se activa: Cuando el efecto Siguiente Físico ↑ del usuario es de nivel 2 o superior.\nCuándo se desactiva: Cuando el efecto Siguiente Físico ↑ del usuario es de nivel 1 o inferior.\n\nConfunde al objetivo. Paraliza al objetivo."
       },
       "6131": {
         "NAME": "Finta por la Cara",
@@ -4772,6 +4810,16 @@
         "NAME": "Finta por la Cruz",
         "ABBR": "Finta ◒",
         "DESC": "Cuándo se activa: Cuando los PS del usuario son inferiores al 50%.\nCuándo se desactiva: Cuando los PS del usuario son el 50% o más.\n\nAcierta siempre. Otorga uno de los efectos secundarios siguientes 2 veces al azar: Hace retroceder, confunde y deja bajo ataduras al objetivo. Crea una Zona Siniestra. (Una Zona Siniestra potencia los ataques de tipo Siniestro). Aumenta la Evasión de todos los compis aliados en 2 niveles. Aplica el efecto Siguiente sin coste a todos los compis aliados. Aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en 2 niveles. Se reduce en 1 el contador de movimientos compi del usuario. Aplica el efecto Siguiente mitiga daño al usuario. Aumenta el efecto Siguiente Físico ↑ del usuario en 4 niveles. Reduce el Ataque y el Ataque Especial del usuario en 2 niveles. Reduce la Defensa y la Defensa Especial del usuario en 2 niveles."
+      },
+      "6137": {
+        "NAME": "Neblina Nevada",
+        "ABBR": "Neblina N",
+        "DESC": "Cuándo se activa: Cuando se le aplica el efecto Daño especial ↓ al bando aliado.\nCuándo se desactiva: Cuando ya no se le aplica el efecto Daño especial ↓ al bando aliado.\n\nAcierta siempre. Anula los aumentos en las características de todos los compis rivales. Aplica el efecto Aumento imposible al bando rival. Aplica el efecto Bloqueo caract. ↓ al bando aliado. Elimina cualquier reducción en las características de todos los compis aliados. Aplica el efecto Siguiente Supereficaz ↑ a todos los compis aliados. Aplica el efecto Siguiente sin coste a todos los compis aliados."
+      },
+      "6138": {
+        "NAME": "Defensa Férrea Rompedora",
+        "ABBR": "Defensa Férrea R",
+        "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAumenta la Defensa y la Defensa Especial de todos los compis aliados en 2 niveles. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
       "7000": {
         "NAME": "Gigarreciclaje",
@@ -6008,6 +6056,11 @@
         "ABBR": "¡Venceremos!",
         "DESC": "Aplica el efecto Barra mov. acelerada al bando aliado. Se reduce en 1 el contador de movimientos compi del usuario. Aumenta el Ataque del usuario en 2 niveles. Aumenta la probabilidad del usuario de asestar golpes críticos en 1 nivel."
       },
+      "10929": {
+        "NAME": "¡Ya no puedo esperar más!",
+        "ABBR": "¡Ya no puedo esperar más!",
+        "DESC": "Aumenta el Ataque y el Ataque Especial de todos los compis aliados en 4 niveles. Aumenta la Velocidad de todos los compis aliados en 2 niveles."
+      },
       "10940": {
         "NAME": "¡A toda máquina!",
         "ABBR": "¡A toda máquina!",
@@ -6413,6 +6466,11 @@
         "ABBR": "¡Un as bajo la manga!",
         "DESC": "Aumenta la Velocidad de todos los compis aliados en 1 nivel. Consume hasta 3 puntos de la barra de movimientos del usuario. Cuantos más puntos consuma, más aumenta el Ataque y el Ataque Especial de todos los compis aliados (hasta 4 niveles)."
       },
+      "11227": {
+        "NAME": "¡Gloria del fulgor solar!",
+        "ABBR": "¡Gloria del fulgor solar!",
+        "DESC": "Se reduce en 2 el contador de movimientos compi del usuario. Aumenta el efecto Siguiente Físico ↑ del usuario en 2 niveles. Aumenta el efecto Siguiente Movimiento Compi ↑ del usuario en 3 niveles. Aplica Círculo de Alola (Físico) al bando aliado. Círculo de Alola (Físico) otorga todos los efectos siguientes: Aumenta la potencia de los movimientos de ataque físico y los movimientos compi físicos de todos los compis aliados en un 10%. Mitiga el daño por movimientos de ataque físico y movimientos compi físicos que reciben todos los compis aliados en un 5%. Cuantos más compis con el distintivo \"Alola\" haya en el bando aliado, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos y los movimientos compi en un 10% adicional (hasta un total máximo del 40%), y mitiga el daño recibido en un 3% adicional (hasta un total máximo del 14%)."
+      },
       "11228": {
         "NAME": "¡Ultracuración!",
         "ABBR": "¡Ultracuración!",
@@ -6432,6 +6490,11 @@
         "NAME": "¡Combinemos nuestros poderes!",
         "ABBR": "¡Combinemos nuestros poderes!",
         "DESC": "Aumenta el Ataque y la probabilidad de asestar golpes críticos de un aliado en 2 niveles."
+      },
+      "11237": {
+        "NAME": "¡Gloria del brillo lunar!",
+        "ABBR": "¡Gloria del brillo lunar!",
+        "DESC": "Se reduce en 2 el contador de movimientos compi del usuario. Aplica el efecto Siguiente Supereficaz ↑ al usuario. Aumenta el efecto Siguiente Especial ↑ del usuario en 3 niveles. Aplica Círculo de Alola (Especial) al bando aliado. Círculo de Alola (Especial) otorga todos los efectos siguientes: Aumenta la potencia de los movimientos de ataque especial y los movimientos compi especiales de todos los compis aliados en un 10%. Mitiga el daño por movimientos de ataque especial y movimientos compi especiales que reciben todos los compis aliados en un 5%. Cuantos más compis con el distintivo \"Alola\" estén en el bando aliado, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos y los movimientos compi en un 10% adicional (hasta un total máximo del 40%), y mitiga el daño recibido en un 3% adicional (hasta un total máximo del 14%)."
       },
       "11238": {
         "NAME": "¡Ultrapotencial!",
@@ -6652,6 +6715,11 @@
         "NAME": "¡Te espera un mundo de sueños y aventuras!",
         "ABBR": "¡Te espera un mundo de sueños y aventuras!",
         "DESC": "Aplica el efecto Daño especial ↓ al bando aliado. Aumenta la Defensa Especial de todos los compis aliados en 4 niveles. Aplica el efecto Regeneración de PS a todos los compis aliados."
+      },
+      "11380": {
+        "NAME": "¡De lo más interesante!",
+        "ABBR": "¡De lo más interesante!",
+        "DESC": "Aumenta el Ataque y el Ataque Especial de todos los compis aliados en 2 niveles. Aumenta la probabilidad de asestar golpes críticos de todos los compis aliados en 3 niveles."
       },
       "11390": {
         "NAME": "¡Vamos juntas!",
@@ -7208,6 +7276,11 @@
         "ABBR": "¡Una muestra de mi capacidad!",
         "DESC": "Aplica el efecto Rebote probl. estado al bando aliado. Aumenta el Ataque Especial y la probabilidad del usuario de asestar golpes críticos en 2 niveles. Reduce la Defensa del usuario en 1 nivel."
       },
+      "12466": {
+        "NAME": "Qué pesadilla",
+        "ABBR": "Qué pesadilla",
+        "DESC": "Aumenta la Defensa y la probabilidad de asestar golpes críticos de un aliado en 1 nivel. Aumenta el Ataque Especial de un aliado en 2 niveles."
+      },
       "12467": {
         "NAME": "¡No ha sido un camino de rosas!",
         "ABBR": "¡No ha sido un camino de rosas!",
@@ -7303,10 +7376,20 @@
         "ABBR": "¡No he dicho mi última palabra!",
         "DESC": "Aumenta el Ataque del usuario en 2 niveles. Aumenta la Defensa y la probabilidad de asestar golpes críticos del usuario en 1 nivel."
       },
+      "12549": {
+        "NAME": "¡Como un monolito!",
+        "ABBR": "¡Como un monolito!",
+        "DESC": "Aumenta el Ataque y el Ataque Especial de todos los compis aliados en 2 niveles. Aumenta la probabilidad de asestar golpes críticos de todos los compis aliados en 3 niveles."
+      },
       "12550": {
         "NAME": "¡No pienso ponértelo fácil!",
         "ABBR": "¡No pienso ponértelo fácil!",
         "DESC": "Aumenta la Defensa Especial de todos los compis aliados en 2 niveles. Aumenta la probabilidad de asestar golpes críticos de todos los compis aliados en 1 nivel."
+      },
+      "12559": {
+        "NAME": "¡Procura no congelarte!",
+        "ABBR": "¡Procura no congelarte!",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario. Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 4 niveles."
       },
       "12560": {
         "NAME": "¡Intimidando, que es gerundio!",
@@ -7563,6 +7646,11 @@
         "ABBR": "Lo normal no quita lo valiente",
         "DESC": "Aplica el efecto Barra mov. acelerada al bando aliado. Se reduce en 1 el contador de movimientos compi del usuario. Aumenta la Velocidad de todos los compis aliados en 2 niveles."
       },
+      "13044": {
+        "NAME": "Está rico",
+        "ABBR": "Está rico",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario. Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 4 niveles. Aumenta la Precisión de todos los compis aliados en 1 nivel."
+      },
       "13049": {
         "NAME": "Habrá que darles lo que piden",
         "ABBR": "Habrá que darles lo que piden",
@@ -7627,6 +7715,11 @@
         "NAME": "¡Me gusta!",
         "ABBR": "¡Me gusta!",
         "DESC": "Aumenta la probabilidad de asestar golpes críticos del usuario en 2 niveles. Aumenta la Velocidad de todos los compis aliados en 2 niveles."
+      },
+      "13580": {
+        "NAME": "Estate al loro",
+        "ABBR": "Estate al loro",
+        "DESC": "Aplica el efecto Barra mov. acelerada al bando aliado. Aumenta la Evasión del usuario en 6 niveles. Aplica el efecto Aguante al usuario."
       },
       "13640": {
         "NAME": "¡Las montañas son maravillosas!",
@@ -10723,6 +10816,16 @@
         "ABBR": "Relámpago Súbito Revelado en Exclusiva",
         "DESC": "Sin efectos secundarios."
       },
+      "113900": {
+        "NAME": "Rayo Umbrío del Eclipse Lunar del Alba",
+        "ABBR": "Rayo Umbrío del Eclipse Lunar del Alba",
+        "DESC": "Cuanto más haya aumentado el Ataque Especial del usuario, más aumenta la potencia de este ataque. Ignora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos."
+      },
+      "114000": {
+        "NAME": "Meteoimpacto del Eclipse Solar Crepuscular",
+        "ABBR": "Meteoimpacto del Eclipse Solar Crepuscular",
+        "DESC": "Ignora las habilidades pasivas que reducen el daño de este ataque. Ignora las habilidades pasivas que impiden que el objetivo reciba golpes críticos."
+      },
       "114100": {
         "NAME": "Impacto Tierra de Capturar un Momentazo",
         "ABBR": "Impacto Tierra de Capturar un Momentazo",
@@ -10926,6 +11029,41 @@
       "119300": {
         "NAME": "Rayo Planta del Cambio de Estación",
         "ABBR": "Rayo Planta del Cambio de Estación",
+        "DESC": "Sin efectos secundarios."
+      },
+      "119400": {
+        "NAME": "Rayo Volador de Sabor Único",
+        "ABBR": "Rayo Volador de Sabor Único",
+        "DESC": "Sin efectos secundarios."
+      },
+      "119500": {
+        "NAME": "Rayo Veneno de Ir de Incógnito",
+        "ABBR": "Rayo Veneno de Ir de Incógnito",
+        "DESC": "La potencia de este ataque aumenta cuando el objetivo está confundido, bajo ataduras o ha retrocedido."
+      },
+      "119600": {
+        "NAME": "Impacto Dragón de Surfear las Olas",
+        "ABBR": "Impacto Dragón de Surfear las Olas",
+        "DESC": "Sin efectos secundarios."
+      },
+      "119700": {
+        "NAME": "Impacto Dragón de Acercarse a los Pokémon",
+        "ABBR": "Impacto Dragón de Acercarse a los Pokémon",
+        "DESC": "Sin efectos secundarios."
+      },
+      "119800": {
+        "NAME": "Rayo Hada que Aún Tiene Potencial",
+        "ABBR": "Rayo Hada que Aún Tiene Potencial",
+        "DESC": "Sin efectos secundarios."
+      },
+      "120500": {
+        "NAME": "Rayo Hielo que No Es Moco de Pavo",
+        "ABBR": "Rayo Hielo que No Es Moco de Pavo",
+        "DESC": "Sin efectos secundarios."
+      },
+      "120600": {
+        "NAME": "Impacto Roca del Rompedruscos por Antonomasia",
+        "ABBR": "Impacto Roca del Rompedruscos por Antonomasia",
         "DESC": "Sin efectos secundarios."
       }
     },
@@ -11185,6 +11323,16 @@
         "ABBR": "M-Dinamax Curat. M {{value}}",
         "DESC": "Recupera aproximadamente un {{heal}}% de los PS máximos de todos los compis aliados tras usar el movimiento compi Dinamax del usuario."
       },
+      "1101530": {
+        "NAME": "1.er Daño Movimiento Compi Curativo M +{{value}}",
+        "ABBR": "1.er Daño Movimiento Compi Curativo M {{value}}",
+        "DESC": "Recupera aproximadamente un {{heal}}% de los PS máximos de todos los compis aliados la primera vez que golpean al usuario con un movimiento compi en cada combate."
+      },
+      "1101540": {
+        "NAME": "Ataque Aliado Rival Atado Curativo +{{value}}",
+        "ABBR": "At. Ali. Riv. Ata. Cura {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de recuperar aproximadamente un 10% de los PS máximos de un aliado cuando su movimiento de ataque acierta contra un rival que está bajo ataduras."
+      },
       "1201010": {
         "NAME": "Velocidad Pluvial +{{value}}",
         "ABBR": "Velocidad Pluvial {{value}}",
@@ -11424,6 +11572,16 @@
         "NAME": "At. Relevo Imposible Rival Llenabarras ↑↑ +{{value}}",
         "ABBR": "At. Rel.Im. Riv. Llena ↑↑ {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de llenar 2 puntos la barra de movimientos del usuario cuando su movimiento de ataque acierta contra un rival que sufre relevo imposible."
+      },
+      "1202260": {
+        "NAME": "Ataque Aliado Rival Confuso Llenabarras ↑↑ +{{value}}",
+        "ABBR": "At. Ali. Riv. Conf. Llena ↑↑ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de llenar 2 puntos la barra de movimientos de un aliado cuando su movimiento de ataque acierta contra un rival que está confuso."
+      },
+      "1202270": {
+        "NAME": "Ataque Aliado Rival Confuso Llenabarras +{{value}}",
+        "ABBR": "At. Ali. Riv. Conf. Llena {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de llenar 1 punto la barra de movimientos de un aliado cuando su movimiento de ataque acierta contra un rival que está confuso."
       },
       "1301010": {
         "NAME": "Ultravínculo +{{value}}",
@@ -12355,6 +12513,11 @@
         "ABBR": "At. Recupera 32 PM Mov. S {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 32 PM del movimiento sincro del usuario cuando su movimiento de ataque acierta."
       },
+      "1306280": {
+        "NAME": "Daño Recupera PM Baya +{{value}}",
+        "ABBR": "Daño Recupera PM Baya {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario que tengan el efecto Baya cuando le golpean con un movimiento de ataque."
+      },
       "1307010": {
         "NAME": "Inmunidad Secuelas +9",
         "ABBR": "Inm. Secuelas 9",
@@ -12539,6 +12702,16 @@
         "NAME": "Resiliencia Rival ↓ Superimpulsora +{{value}}",
         "ABBR": "Res. Riv. ↓ Superimp. {{value}}",
         "DESC": "Aumenta la potencia de los movimientos y del movimiento compi del usuario cuando se reduce la resiliencia del tipo del objetivo."
+      },
+      "1308360": {
+        "NAME": "Crítico Aliado Impulsor +{{value}}",
+        "ABBR": "Crítico Ali. Imp. {{value}}",
+        "DESC": "Aumenta la potencia de los ataques de los aliados cuando estos resultan críticos."
+      },
+      "1308370": {
+        "NAME": "Zona Dragón Impulsora M +{{value}}",
+        "ABBR": "Z.Dragón Imp. M {{value}}",
+        "DESC": "Aumenta la potencia de los movimientos de todos los compis aliados cuando la zona es Zona Dragón."
       },
       "1401010": {
         "NAME": "Regalo Final",
@@ -13344,6 +13517,11 @@
         "NAME": "Zona Bicho Compimpulsora M +{{value}}",
         "ABBR": "Z.Bicho Compimp. M {{value}}",
         "DESC": "Aumenta la potencia de los movimientos compi de todos los compis aliados cuando la zona es Zona Bicho."
+      },
+      "1603050": {
+        "NAME": "Círculo Compimpulsor +{{value}}",
+        "ABBR": "Círculo Compimp. {{value}}",
+        "DESC": "Aumenta la potencia del movimiento compi del usuario cuando se aplica un círculo al bando aliado."
       },
       "1701010": {
         "NAME": "Inmunidad Veneno",
@@ -15350,6 +15528,41 @@
         "ABBR": "Mov. Sig.Fís.Esp. ↑+2 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ del usuario en 2 niveles cuando su movimiento acierta."
       },
+      "1708310": {
+        "NAME": "1.er Movimiento Compi Determinación ↑ +{{value}}",
+        "ABBR": "1.er M-Compi Determinación ↑ {{value}}",
+        "DESC": "Aumenta la determinación del bando del usuario en {{value}} nivel la primera vez que usa su movimiento compi en cada combate."
+      },
+      "1708320": {
+        "NAME": "Círculo Aliado Siguiente Físico ↑ Doble +{{value}}",
+        "ABBR": "Círculo Ali. Sig.Fís. ↑+2 {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ del usuario en 2 niveles cuando un aliado aplica un círculo al bando aliado."
+      },
+      "1708330": {
+        "NAME": "Círculo Aliado Movimiento Compi ↑ Triple +{{value}}",
+        "ABBR": "Círculo Ali. M-Compi ↑+3 {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Movimiento Compi ↑ del usuario en 3 niveles cuando un aliado aplica un círculo al bando aliado."
+      },
+      "1708340": {
+        "NAME": "Caract. Aliada ↑ Mov. Compi ↑ Simple +{{value}}",
+        "ABBR": "Caract. Ali. ↑ Mov. Compi ↑+1 {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Movimiento Compi ↑ de un aliado en 1 nivel cuando haya aumentado alguna de sus características."
+      },
+      "1708350": {
+        "NAME": "Daño Mov. Compi Sig. Fís. Esp. ↑ Simple M +{{value}}",
+        "ABBR": "Daño M-Compi Sig.Fís.Esp. ↑+1 M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel cuando golpean al usuario con un movimiento compi."
+      },
+      "1708360": {
+        "NAME": "At. Aliado Retr. Riv. Sig. Fís. Esp. ↑ Simple +{{value}}",
+        "ABBR": "At. Ali. Retr. Riv. Sig.Fís.Esp. ↑+1 {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de un aliado en 1 nivel cuando su movimiento de ataque acierta contra un rival que ha retrocedido."
+      },
+      "1708370": {
+        "NAME": "Daño Ataduras Rival +{{value}}",
+        "ABBR": "Daño Ata. Riv. {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de dejar bajo ataduras a un rival que ha atacado al usuario cuando golpea al usuario con un movimiento de ataque."
+      },
       "1708380": {
         "NAME": "1.ª Acción de Estado Sig. Mitiga Daño",
         "ABBR": "1.ª Acc. Est. Sig. Mitiga Daño",
@@ -15369,6 +15582,31 @@
         "NAME": "1.ª Entrada y 1.er Mov. Compi Sig. Esp. ↑ +1",
         "ABBR": "1.ª Entrada y 1.er M-Compi Sig.Esp. ↑ +1",
         "DESC": "Aumenta el efecto Siguiente Especial ↑ del usuario en 1 nivel al entrar en combate por primera vez en cada combate. Aumenta el efecto Siguiente Especial ↑ del usuario en 1 nivel la primera vez que usa su movimiento compi en cada combate."
+      },
+      "1708450": {
+        "NAME": "At. Aliado Retr. Rival Mov. Compi ↑ Doble +{{value}}",
+        "ABBR": "At. Ali. Retr. Riv. M-Compi ↑+2 {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Movimiento Compi ↑ de un aliado en 2 niveles cuando su movimiento de ataque acierta contra un rival que ha retrocedido."
+      },
+      "1708460": {
+        "NAME": "Zona Hada Curativa +{{value}}",
+        "ABBR": "Z.Hada Cura {{value}}",
+        "DESC": "Recupera PS del usuario tras cada acción de su Pokémon cuando la zona es Zona Hada."
+      },
+      "1708470": {
+        "NAME": "Solo 1 Rival At. Sig. Especial ↑ Simple +{{value}}",
+        "ABBR": "Solo 1 Riv. At. Sig.Esp. ↑+1 {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Especial ↑ del usuario en 1 nivel cuando su movimiento de ataque acierta mientras solo hay 1 Pokémon en el bando rival."
+      },
+      "1708480": {
+        "NAME": "Círculo Aliado Sig. Físico ↑ Simple M +{{value}}",
+        "ABBR": "Círculo Ali. Sig.Fís. ↑+1 M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ de todos los compis aliados en 1 nivel cuando un aliado aplica un círculo al bando aliado."
+      },
+      "1708490": {
+        "NAME": "Círculo Aliado Siguiente Sin Coste +{{value}}",
+        "ABBR": "Círculo Ali. Sig. 0 Coste {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aplicar el efecto Siguiente sin coste al usuario cuando un aliado aplica un círculo al bando aliado."
       },
       "1801010": {
         "NAME": "Resistencia Ataque ↓ +{{value}}",
@@ -17412,7 +17650,7 @@
       },
       "1811630": {
         "NAME": "Mov. Compi Dinamax Def. Esp. ↓ M +{{value}}",
-        "ABBR": "M-Dinamax Def. Esp. ↓ M {{value}}",
+        "ABBR": "M-Dinamax Def.E. ↓ M {{value}}",
         "DESC": "Reduce la Defensa Especial de todos los compis rivales en {{value}} nivel(es) cuando el movimiento compi Dinamax del usuario dirigido a un rival acierta."
       },
       "1811640": {
@@ -17684,6 +17922,26 @@
         "NAME": "Ataque Ataque Especial ↓↓↓↓ +{{value}}",
         "ABBR": "At. A.Esp. ↓↓↓↓ {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de reducir el Ataque Especial del objetivo en 4 niveles cuando el movimiento de ataque del usuario contra el objetivo acierta."
+      },
+      "1812280": {
+        "NAME": "Ataque Aliado Rival Atado Caract. ↑ +{{value}}",
+        "ABBR": "At. Ali. Riv. Ata. Caract. ↑ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar en 1 nivel una de las siguientes características de un aliado al azar cuando su movimiento de ataque acierta contra un rival que está bajo ataduras: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión."
+      },
+      "1812290": {
+        "NAME": "Acción Ataque Especial ↓ +{{value}}",
+        "ABBR": "Acc. A.Esp. ↓ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir el Ataque Especial del objetivo en 1 nivel cuando el Pokémon del usuario usa un movimiento dirigido a ese rival."
+      },
+      "1812300": {
+        "NAME": "Ataque Precisión ↓↓↓ +{{value}}",
+        "ABBR": "At. Pre. ↓↓↓ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir la Precisión del objetivo en 3 niveles cuando el movimiento de ataque del usuario contra el objetivo acierta."
+      },
+      "1812310": {
+        "NAME": "Movimiento Compi D Defensiva ↑ +{{value}}",
+        "ABBR": "M-Dinamax Defensiva ↑ {{value}}",
+        "DESC": "Aumenta la Defensa y la Defensa Especial del usuario en {{value}} nivel tras usar su movimiento compi Dinamax."
       },
       "1901010": {
         "NAME": "Ataque Penetrante",
@@ -18555,6 +18813,11 @@
         "ABBR": "1.er M-Compi C.Teselia (Def)",
         "DESC": "Aplica Círculo de Teselia (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate."
       },
+      "1905640": {
+        "NAME": "Movimiento Compi Dinamax Zona Dragón",
+        "ABBR": "M-Dinamax Z.Dragón",
+        "DESC": "Crea una Zona Dragón tras usar el movimiento compi Dinamax del usuario. (Una Zona Dragón potencia los ataques de tipo Dragón)."
+      },
       "1905650": {
         "NAME": "Zona Lucha Duradera +{{value}}",
         "ABBR": "Z.Lucha Duradera {{value}}",
@@ -18584,6 +18847,26 @@
         "NAME": "Círculo de Galar (Defensivo) Duradero +{{value}}",
         "ABBR": "C.Galar (Def) Duradero {{value}}",
         "DESC": "Aumenta la duración de Círculo de Galar (Defensivo) cuando se le aplica Círculo de Galar (Defensivo) al bando aliado."
+      },
+      "1905730": {
+        "NAME": "1.ª Entrada Mitiga Esp. Bando y Duradero +{{value}}",
+        "ABBR": "1.ª Entrada Mitiga Esp. Bando y Duradero {{value}}",
+        "DESC": "Aplica el efecto Daño especial ↓ al bando aliado cuando el usuario entra en combate por primera vez en cada combate. Aumenta la duración del efecto Daño especial ↓ cuando se le aplica el efecto Daño especial ↓ al bando aliado."
+      },
+      "1905740": {
+        "NAME": "1.er Ataque Zona Fantasma",
+        "ABBR": "1.er At. Z.Fantasma",
+        "DESC": "Crea una Zona Fantasma la primera vez que el movimiento de ataque del usuario acierta en cada combate. (Una Zona Fantasma potencia los ataques de tipo Fantasma)."
+      },
+      "1905750": {
+        "NAME": "1.er Ataque Zona Fantasma y Duradera +{{value}}",
+        "ABBR": "1.er At. Z.Fantasma y Duradera {{value}}",
+        "DESC": "Crea una Zona Fantasma la primera vez que el movimiento de ataque del usuario acierta en cada combate. (Una Zona Fantasma potencia los ataques de tipo Fantasma). Aumenta la duración de la Zona Fantasma cuando la zona cambia a Zona Fantasma mientras el usuario está en el campo de batalla."
+      },
+      "1905760": {
+        "NAME": "Movimiento Compi Mitiga Especial Bando",
+        "ABBR": "M-Compi Mitiga Especial Bando",
+        "DESC": "Aplica el efecto Daño especial ↓ al bando aliado tras usar el movimiento compi del usuario."
       },
       "1905780": {
         "NAME": "1.ª Entrada Círculo de Paldea (Defensivo)",
@@ -18774,6 +19057,11 @@
         "NAME": "Superacción Objetivo Múltiple",
         "ABBR": "Superacción Objetivo Múltiple",
         "DESC": "Cuando el Pokémon del usuario usa un movimiento sobre sí mismo o un aliado y acierta, afecta a todos los compis aliados. Cuando el Pokémon del usuario usa un movimiento contra un rival y acierta, afecta a todos los compis rivales. Cuando el movimiento compi del usuario ataca a un rival, afecta a todos los compis rivales. La potencia y la probabilidad de aplicar efectos secundarios de los movimientos y movimientos compi afectados por esta habilidad pasiva no se reducen incluso si hay varios objetivos."
+      },
+      "2301220": {
+        "NAME": "Superataque Objetivo Múltiple",
+        "ABBR": "Superataque Objetivo Múltiple",
+        "DESC": "Cuando el Pokémon del usuario usa un movimiento de ataque sobre sí mismo o un aliado y acierta, ese ataque afecta a todos los compis aliados. Cuando el Pokémon del usuario usa un movimiento de ataque contra un rival y acierta, ese ataque afecta a todos los compis rivales. Cuando el movimiento compi del usuario ataca a un rival, afecta a todos los compis rivales. La potencia y la probabilidad de aplicar efectos secundarios de los movimientos y movimientos compi afectados por esta habilidad pasiva no se reducen incluso si hay varios objetivos."
       },
       "2401010": {
         "NAME": "Mitiga Normal",
@@ -19029,6 +19317,11 @@
         "NAME": "Ideales de Paldea",
         "ABBR": "Ideales de Paldea",
         "DESC": "Aumenta la potencia de los movimientos de ataque especial de todos los compis aliados en un 20%. Mitiga el daño por movimientos de ataque especial que reciben todos los compis aliados en un 25%. Cuantos más compis aliados con habilidades de equipo con el distintivo \"Paldea\" tenga el bando del usuario, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos en un 15% adicional (hasta un total máximo del 50%), y mitiga el daño recibido en un 3% adicional (hasta un total máximo del 31%)."
+      },
+      "2801270": {
+        "NAME": "Espíritu Luchador de Alola",
+        "ABBR": "Espíritu Luchador de Alola",
+        "DESC": "Aumenta la potencia de los movimientos de ataque físico de todos los compis aliados en un 20%. Mitiga el daño por movimientos de ataque físico que reciben todos los compis aliados en un 25%. Cuantos más compis aliados con habilidades de equipo con el distintivo \"Alola\" tenga el bando del usuario, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos en un 15% adicional (hasta un total máximo del 50%), y mitiga el daño recibido en un 3% adicional (hasta un total máximo del 31%)."
       },
       "2802010": {
         "NAME": "Carisma Roca",
@@ -19689,6 +19982,11 @@
         "NAME": "Entrada Defensa Especial ×{{value}}",
         "ABBR": "Entrada Defensa Especial ×{{value}}",
         "DESC": "Incrementa la Defensa Especial del usuario en ×{{value}} al entrar en combate."
+      },
+      "6008030": {
+        "NAME": "Conexión Caract. y Reduc. Daño",
+        "ABBR": "Conexión Caract. y Reduc. Daño",
+        "DESC": "Mitiga el daño de ataques o movimientos compi que recibe el usuario dependiendo de la suma neta de los niveles de las características del usuario.\nNulifica el daño si la suma neta es 10 o más.\nSe desactiva si la suma neta es -10 o menos.\nCada valor entre -9 a 9 mitiga un 5% extra."
       },
       "9901010": {
         "NAME": "Cambio Táctico",
@@ -20490,6 +20788,46 @@
         "ABBR": "Actuación de Canto y Baile",
         "DESC": "Crea un campo psíquico la primera vez que el Entrenador del usuario usa un movimiento en cada combate cuando el usuario presenta la Forma Lírica. Crea una Zona Lucha la primera vez que el Entrenador del usuario usa un movimiento en cada combate cuando el usuario presenta la Forma Danza. (Una Zona Lucha potencia los ataques de tipo Lucha)."
       },
+      "9902650": {
+        "NAME": "La Criatura que Se Nutre del Sol",
+        "ABBR": "La Criatura que Se Nutre del Sol",
+        "DESC": "Los movimientos de ataque consumen 1 punto más de la barra de movimientos para aumentar su potencia. Aumenta el Ataque del usuario en 6 niveles al entrar en combate. Salvo en ciertas circunstancias, los ataques con éxito con los siguientes ataques del usuario se convierten en golpes críticos: movimientos de los Pokémon o movimientos compi. Aumenta la determinación del bando del usuario en 1 nivel la primera vez que usa su movimiento compi en cada combate."
+      },
+      "9902660": {
+        "NAME": "Energía Absorbida Ilimitada",
+        "ABBR": "Energía Absorbida Ilimitada",
+        "DESC": "Aumenta el efecto Siguiente Físico ↑ del usuario en 2 niveles cuando un aliado aplica un círculo al bando aliado. Aumenta el efecto Siguiente Movimiento Compi ↑ del usuario en 3 niveles cuando un aliado aplica un círculo al bando aliado."
+      },
+      "9902670": {
+        "NAME": "Sol Matinal Agradable",
+        "ABBR": "Sol Matinal Agradable",
+        "DESC": "Reduce los PM de Sol Matinal del usuario en 1 y otorga todos los efectos siguientes cuando sus PS bajan a la mitad o menos: Recupera aproximadamente un 50% de los PS máximos del usuario. Aumenta el efecto Siguiente Físico ↑ del usuario en 2 niveles."
+      },
+      "9902680": {
+        "NAME": "La Criatura que Invoca a la Luna",
+        "ABBR": "La Criatura que Invoca a la Luna",
+        "DESC": "Aumenta la duración de Círculo de Alola (Especial) cuando se le aplica Círculo de Alola (Especial) al bando aliado. Cuando el Pokémon del usuario usa un movimiento de ataque sobre sí mismo o un aliado y acierta, ese ataque afecta a todos los compis aliados. Cuando el Pokémon del usuario usa un movimiento de ataque contra un rival y acierta, ese ataque afecta a todos los compis rivales. Cuando el movimiento compi del usuario ataca a un rival, afecta a todos los compis rivales. La potencia y la probabilidad de aplicar efectos secundarios de los movimientos y movimientos compi afectados por esta habilidad pasiva no se reducen incluso si hay varios objetivos. Aumenta el Ataque Especial del usuario en 6 niveles al entrar en combate. Salvo en ciertas circunstancias, los ataques con éxito con los siguientes ataques del usuario se convierten en golpes críticos: movimientos de los Pokémon o movimientos compi."
+      },
+      "9902690": {
+        "NAME": "Energía Absorbida Poco a Poco",
+        "ABBR": "Energía Absorbida Poco a Poco",
+        "DESC": "Otorga uno de los efectos siguientes dependiendo de cuántos rivales fueron golpeados tras usar el movimiento compi del usuario: Aplica el efecto Siguiente sin coste al usuario cuando fueron golpeados 3 rivales exactamente. Llena 2 puntos la barra de movimientos del usuario y aumenta su efecto Siguiente Especial ↑ en 1 nivel cuando fueron golpeados 2 rivales exactamente. Aumenta el efecto Siguiente Especial ↑ del usuario en 3 niveles cuando fue golpeado 1 rival exactamente."
+      },
+      "9902700": {
+        "NAME": "Luz Lunar Cálida",
+        "ABBR": "Luz Lunar Cálida",
+        "DESC": "Reduce los PM de Luz Lunar del usuario en 1 y otorga todos los efectos siguientes cuando sus PS bajan a la mitad o menos: Recupera aproximadamente un 50% de los PS máximos del usuario. Aumenta el efecto Siguiente Especial ↑ del usuario en 2 niveles."
+      },
+      "9902710": {
+        "NAME": "Transformación Gracias a los Rayos Solares",
+        "ABBR": "Transformación Gracias a los Rayos Solares",
+        "DESC": "Recupera 1 PM de los movimientos del usuario que tengan el efecto Baya cuando este usa Baya Zidra mientras está soleado. Hay una probabilidad del 50% de recuperar 1 PM de los movimientos del usuario que tengan el efecto Baya cuando este usa Baya Zidra mientras no está soleado."
+      },
+      "9902720": {
+        "NAME": "Buen Uso de Bienes Abundantes",
+        "ABBR": "Buen Uso de Bienes Abundantes",
+        "DESC": "Otorga todos los efectos siguientes cuando el usuario usa Baya Zidra: El usuario se convierte en el blanco de los ataques enemigos durante un breve período de tiempo. Aplica el efecto Absorbe daño sig. mov. a todos al usuario. Aumenta el efecto Siguiente Físico ↑ del usuario en 2 niveles."
+      },
       "9902730": {
         "NAME": "El Riesgo Tiene su Recompensa",
         "ABBR": "El Riesgo Tiene su Recompensa",
@@ -21040,7 +21378,11 @@
       "20000408": "Ságita",
       "20000409": "Cayena",
       "20000410": "Los viajes de negocios",
-      "20000411": "El Mesón El Tesoro"
+      "20000411": "El Mesón El Tesoro",
+      "20000412": "Mirto",
+      "20000413": "La Medalla Leyenda",
+      "20000414": "Ciudad Caolín",
+      "20000415": "La Aldea de los Dragones"
     },
     "TOPIC_GROUP": {
       "1": "Pokémon",
