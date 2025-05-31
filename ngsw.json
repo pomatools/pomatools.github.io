@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1748670735624,
+  "timestamp": 1748706480117,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -22,7 +22,7 @@
         "/301.175307ace1c9df35.js",
         "/42.f03102cb7b326b0d.js",
         "/463.1f67f681ab92cc0f.js",
-        "/502.a59e3b02e00cdf12.js",
+        "/502.18b7f3b6cfed32ba.js",
         "/634.d3d8e9524dda2017.js",
         "/766.e5c928674c34e266.js",
         "/793.6eac59a2a4c3f817.js",
@@ -35,7 +35,7 @@
         "/main.baeaabb454addb72.js",
         "/manifest.webmanifest",
         "/polyfills.a402040b2e0938e4.js",
-        "/runtime.eb95c4a5c33abc37.js",
+        "/runtime.0fc1242b46cbeb72.js",
         "/styles.18ea283000b0c22d.css"
       ],
       "patterns": []
@@ -2245,7 +2245,7 @@
     "/301.175307ace1c9df35.js": "4fb50a7bc0adab4d8bc877c7116d6b7ce5d2997f",
     "/42.f03102cb7b326b0d.js": "652c7d4aae553ac8390c4cf5212347a2eaa18f0c",
     "/463.1f67f681ab92cc0f.js": "b831f0e66240bc7878717f20bc4cf83ea6022ab0",
-    "/502.a59e3b02e00cdf12.js": "38678c53be40a72e5945d98458cfa830602cce97",
+    "/502.18b7f3b6cfed32ba.js": "6c03ee868106f511cd21f52314b2e7cfb80553ab",
     "/634.d3d8e9524dda2017.js": "8212febfdd8b2114586d2658a30dd2069a9a393a",
     "/766.e5c928674c34e266.js": "d3e40521328373855d0be76714110ccb76696c02",
     "/793.6eac59a2a4c3f817.js": "27191b1341e04a3e6957d2f8f15e49ffdbfe3080",
@@ -2270,7 +2270,7 @@
     "/assets/fonts/kenya-NewRodinProN-EB.otf": "25e4cb519d757a20dabf71890b7ca53addba05e9",
     "/assets/fonts/kenya-SouthSide.otf": "1939893b51d970695f5fe0f19d84cb47f7174d3d",
     "/assets/i18n/de.json": "22f17de72287b79018d852c1704df7ace64f0b38",
-    "/assets/i18n/en.json": "a38c0ebf294f0285443d1d8e839648a974862d43",
+    "/assets/i18n/en.json": "f838f8d6f56307713e3b4656e8995d498e8e784b",
     "/assets/i18n/es.json": "d3d3bf81c32ad563e9bd3b0723e9c2d0f8ca8e1e",
     "/assets/i18n/fr.json": "da81a9960866c7a9b0a2931dc88d2f0620edae40",
     "/assets/i18n/it.json": "706c2eb5226f5427745808d1f0596579bc8c149c",
@@ -4434,11 +4434,11 @@
     "/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
     "/fa-solid-900.40ddefd79fe7af45.woff2": "2717f3f58271f2f2e6120d9937c7227002656d34",
     "/favicon.ico": "bde24ab5ee5a7b66902f6b8aadac944671cea10a",
-    "/index.html": "f10317f697f0f8cd71298eb8f6719168d2b47ec6",
+    "/index.html": "6d61cf3e0507eccd894a0bfbc59ac4adde29a4d4",
     "/main.baeaabb454addb72.js": "b2b9d02f6bad00e232f2cb4632595b4a1bf4a808",
     "/manifest.webmanifest": "feeb74972c76d307fa17102d69de773d03f2e2be",
     "/polyfills.a402040b2e0938e4.js": "9b26c1d105f9ffe8cc6b64216eb7657ac83b7292",
-    "/runtime.eb95c4a5c33abc37.js": "66c548a3c24500e7d5b1f85d23b4062ab4400dae",
+    "/runtime.0fc1242b46cbeb72.js": "cca8c3e99cf77b69193024b19b8e128433db1d19",
     "/styles.18ea283000b0c22d.css": "5ee731b37c72db8054101ca8dafb014303109206"
   },
   "navigationUrls": [
