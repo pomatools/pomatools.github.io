@@ -11325,12 +11325,12 @@
       },
       "1101530": {
         "NAME": "Prem. Réflexe Capacité Duo Coach Soin {{value}}",
-        "ABBR": "Prem. Réflexe Capacité Duo Coach Soin {{value}}",
+        "ABBR": "Prem. Réflexe C.Duo Coa. Soin {{value}}",
         "DESC": "Restaure environ {{heal}} % des PV maximums de tous les Duos alliés la première fois que le lanceur subit une capacité Duo à chaque combat."
       },
       "1101540": {
         "NAME": "Ennemi Ligoté Allié Capa. Off. Soin {{value}}",
-        "ABBR": "Ennemi Ligoté Allié Capa. Off. Soin {{value}}",
+        "ABBR": "Enn. Ligoté Allié C.Off. Soin {{value}}",
         "DESC": "{{chance}} % de chances de restaurer environ 10 % des PV maximums d'un allié quand il utilise avec succès sa capacité offensive contre un ennemi ligoté."
       },
       "1201010": {
@@ -11575,12 +11575,12 @@
       },
       "1202260": {
         "NAME": "Ennemi Confus Allié Capa. Off. Jauge 2↑ {{value}}",
-        "ABBR": "Ennemi Confus Allié Capa. Off. Jauge 2↑ {{value}}",
+        "ABBR": "Enn. Confus Allié C.Off. Jauge 2↑ {{value}}",
         "DESC": "{{chance}} % de chances de remplir la Jauge Capacité d'un allié de 2 segments quand il utilise avec succès sa capacité offensive contre un ennemi confus."
       },
       "1202270": {
         "NAME": "Ennemi Confus Allié Capa. Off. Jauge ↑ {{value}}",
-        "ABBR": "Ennemi Confus Allié Capa. Off. Jauge ↑ {{value}}",
+        "ABBR": "Enn. Confus Allié C.Off. Jauge ↑ {{value}}",
         "DESC": "{{chance}} % de chances de remplir la Jauge Capacité d'un allié de 1 segment quand il utilise avec succès sa capacité offensive contre un ennemi confus."
       },
       "1301010": {
@@ -12710,7 +12710,7 @@
       },
       "1308370": {
         "NAME": "Zone Dragon Coach Puissance {{value}}",
-        "ABBR": "Zone Dragon Coach Puissance {{value}}",
+        "ABBR": "Zone Dragon Coach Pui. {{value}}",
         "DESC": "Augmente la puissance des capacités de tous les Duos alliés quand la zone est une Zone Dragon."
       },
       "1401010": {
@@ -13520,7 +13520,7 @@
       },
       "1603050": {
         "NAME": "Cercle Puissance Capacité Duo ↑ {{value}}",
-        "ABBR": "Cercle Puissance Capacité Duo ↑ {{value}}",
+        "ABBR": "Cercle Puissance Capa. Duo ↑ {{value}}",
         "DESC": "Augmente la puissance de la capacité Duo du lanceur quand un cercle s'applique au côté allié."
       },
       "1701010": {
@@ -15530,32 +15530,32 @@
       },
       "1708310": {
         "NAME": "Première Capacité Duo Détermination ↑ {{value}}",
-        "ABBR": "Première Capacité Duo Détermination ↑ {{value}}",
+        "ABBR": "Première Capa. Duo Déter. ↑ {{value}}",
         "DESC": "Augmente la détermination de l'équipe du lanceur de {{value}} rang la première fois qu'il utilise sa capacité Duo à chaque combat."
       },
       "1708320": {
         "NAME": "Allié Déclenchement Cercle Boost Physique +2 {{value}}",
-        "ABBR": "Allié Déclenchement Cercle Boost Physique +2 {{value}}",
+        "ABBR": "Allié Décl. Cercle Boost Phys. +2 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique du lanceur de 2 rangs quand un allié applique un cercle au côté allié."
       },
       "1708330": {
         "NAME": "Allié Déclenchement Cercle Boost Capacité Duo +3 {{value}}",
-        "ABBR": "Allié Déclenchement Cercle Boost Capacité Duo +3 {{value}}",
+        "ABBR": "Allié Décl. Cercle Boost C.Duo +3 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité Duo du lanceur de 3 rangs quand un allié applique un cercle au côté allié."
       },
       "1708340": {
         "NAME": "Allié Stat ↑ Boost Capacité Duo +1 {{value}}",
-        "ABBR": "Allié Stat ↑ Boost Capacité Duo +1 {{value}}",
+        "ABBR": "Allié Stat ↑ Boost Capa. Duo +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité Duo d'un allié de 1 rang quand n'importe laquelle de ses stats est augmentée."
       },
       "1708350": {
         "NAME": "Réflexe Capacité Duo Coach Boost Phy. Spé. +1 {{value}}",
-        "ABBR": "Réflexe Capacité Duo Coach Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "Réfl. C.Duo Coa. Boost Phy. Spé. +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang quand le lanceur subit une capacité Duo."
       },
       "1708360": {
         "NAME": "Enn. Apeuré Allié Capa. Off. Boost Phy. Spé. +1 {{value}}",
-        "ABBR": "Enn. Apeuré Allié Capa. Off. Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "Enn. Apeuré All. C.O. Boost P.S. +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale d'un allié de 1 rang quand il utilise avec succès sa capacité offensive contre un ennemi apeuré."
       },
       "1708370": {
@@ -15585,7 +15585,7 @@
       },
       "1708450": {
         "NAME": "Enn. Apeuré Allié Capa. Off. Boost Capa. Duo +2 {{value}}",
-        "ABBR": "Enn. Apeuré Allié Capa. Off. Boost Capa. Duo +2 {{value}}",
+        "ABBR": "Enn. Apeuré All. C.O. Boost C.D. +2 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité Duo d'un allié de 2 rangs quand il utilise avec succès sa capacité offensive contre un ennemi apeuré."
       },
       "1708460": {
@@ -15595,17 +15595,17 @@
       },
       "1708470": {
         "NAME": "1 Ennemi Capacité Offensive Boost Spé. +1 {{value}}",
-        "ABBR": "1 Ennemi Capacité Offensive Boost Spé. +1 {{value}}",
+        "ABBR": "1 Ennemi Capa. Off. Boost Spé. +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale du lanceur de 1 rang quand il utilise avec succès sa capacité offensive alors que 1 seul Pokémon se trouve du côté ennemi."
       },
       "1708480": {
         "NAME": "Allié Déclenchement Cercle Coach Boost Physique +1 {{value}}",
-        "ABBR": "Allié Déclenchement Cercle Coach Boost Physique +1 {{value}}",
+        "ABBR": "All. Décl. Cercle Coa. Bst. Phy. +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique de tous les Duos alliés de 1 rang quand un allié applique un cercle au côté allié."
       },
       "1708490": {
         "NAME": "Allié Déclenchement Cercle Consommation 0 {{value}}",
-        "ABBR": "Allié Déclenchement Cercle Consommation 0 {{value}}",
+        "ABBR": "All. Décl. Cercle Conso. 0 {{value}}",
         "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand un allié applique un cercle au côté allié."
       },
       "1801010": {
@@ -17925,12 +17925,12 @@
       },
       "1812280": {
         "NAME": "Ennemi Ligoté Allié Capa. Off. Stat ↑ {{value}}",
-        "ABBR": "Ennemi Ligoté Allié Capa. Off. Stat ↑ {{value}}",
+        "ABBR": "Enn. Ligoté All. Capa. Off. Stat ↑ {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter aléatoirement une des stats suivantes d'un allié de 1 rang quand il utilise avec succès sa capacité offensive contre un ennemi ligoté : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
       },
       "1812290": {
         "NAME": "Action Ennemi Attaque Spéciale ↓ {{value}}",
-        "ABBR": "Action Ennemi Attaque Spéciale ↓ {{value}}",
+        "ABBR": "Action Ennemi Atq. Spé. ↓ {{value}}",
         "DESC": "{{chance}} % de chances de baisser l'Atq. Spé. de la cible de 1 rang quand le Pokémon du lanceur utilise une capacité qui vise cet ennemi."
       },
       "1812300": {
@@ -17940,7 +17940,7 @@
       },
       "1812310": {
         "NAME": "Capacité Duo Dynamax Déf. Déf. Spé. ↑ {{value}}",
-        "ABBR": "Capacité Duo Dynamax Déf. Déf. Spé. ↑ {{value}}",
+        "ABBR": "Capa. Duo Dynamax Déf. Déf. Spé. ↑ {{value}}",
         "DESC": "Augmente la Défense et la Déf. Spé. du lanceur de {{value}} rang après l'utilisation de sa capacité Duo Dynamax."
       },
       "1901010": {
@@ -18815,7 +18815,7 @@
       },
       "1905640": {
         "NAME": "Capacité Duo Dynamax Zone Dragon",
-        "ABBR": "Capacité Duo Dynamax Zone Dragon",
+        "ABBR": "Capa. Duo Dynamax Zone Dragon",
         "DESC": "Transforme la zone en une Zone Dragon après l'utilisation d'une capacité Duo Dynamax par le lanceur. (Une Zone Dragon renforce les attaques de type Dragon.)"
       },
       "1905650": {
@@ -18850,22 +18850,22 @@
       },
       "1905730": {
         "NAME": "Intro Stoï. Spé. Équipe Stoï. Spé. Prolongé {{value}}",
-        "ABBR": "Intro Stoï. Spé. Équipe Stoï. Spé. Prolongé {{value}}",
+        "ABBR": "Intro Stoï. Spé. Équipe Prolongé {{value}}",
         "DESC": "Applique l'effet Résilience Spéciale au côté allié la première fois que le lanceur arrive au combat à chaque combat. L'effet Résilience Spéciale dure plus longtemps quand l'effet Résilience Spéciale est appliqué au côté allié."
       },
       "1905740": {
         "NAME": "Prem. Capacité Offensive Zone Spectre",
-        "ABBR": "Prem. Capacité Offensive Zone Spectre",
+        "ABBR": "Prem. Capa. Offensive Zone Spectre",
         "DESC": "Transforme la zone en une Zone Spectre la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. (Une Zone Spectre renforce les attaques de type Spectre.)"
       },
       "1905750": {
         "NAME": "Prem. Capa. Off. Zone Spectre Zone Spectre Prolongée {{value}}",
-        "ABBR": "Prem. Capa. Off. Zone Spectre Zone Spectre Prolongée {{value}}",
+        "ABBR": "Prem. C.Off. Z.Spectre Prolongée {{value}}",
         "DESC": "Transforme la zone en une Zone Spectre la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. (Une Zone Spectre renforce les attaques de type Spectre.) La Zone Spectre dure plus longtemps quand la zone devient une Zone Spectre et que le lanceur est sur le terrain."
       },
       "1905760": {
         "NAME": "Capacité Duo Stoïcisme Spécial Équipe",
-        "ABBR": "Capacité Duo Stoïcisme Spécial Équipe",
+        "ABBR": "Capa. Duo Stoïcisme Spécial Équipe",
         "DESC": "Applique l'effet Résilience Spéciale au côté allié après l'utilisation d'une capacité Duo par le lanceur."
       },
       "1905780": {
@@ -19060,7 +19060,7 @@
       },
       "2301220": {
         "NAME": "Action Capacité Duo Offensives Diffusion",
-        "ABBR": "Action Capacité Duo Offensives Diffusion",
+        "ABBR": "Action Capa. Duo Offensives Diffusion",
         "DESC": "Quand le Pokémon du lanceur utilise avec succès une capacité offensive qui le cible lui ou un allié, la cible de cette attaque devient tous les Duos alliés. Quand le Pokémon du lanceur utilise avec succès une capacité offensive qui cible un ennemi, la cible de cette attaque devient tous les Duos ennemis. Quand la capacité Duo du lanceur attaque un ennemi, la cible devient tous les Duos ennemis. La puissance et les chances d'appliquer les effets supplémentaires des capacités et capacités Duo concernées par ce talent passif ne sont pas baissées même s'il y a plusieurs cibles."
       },
       "2401010": {

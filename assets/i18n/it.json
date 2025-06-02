@@ -11330,7 +11330,7 @@
       },
       "1101540": {
         "NAME": "Imprigionattacco alleato curativo {{value}}",
-        "ABBR": "Imprigionattacco alleato curativo {{value}}",
+        "ABBR": "Imprigionatt. alleato curativo {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di far recuperare PS a un alleato per una certa percentuale (10% circa) dei suoi PS massimi quando il suo attacco semplice va a segno contro un avversario imprigionato."
       },
       "1201010": {
@@ -11575,12 +11575,12 @@
       },
       "1202260": {
         "NAME": "Confusattacco alleato riempibarra doppio {{value}}",
-        "ABBR": "Confusattacco alleato riempibarra doppio {{value}}",
+        "ABBR": "Confusatt. alleato riempib. doppio {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aggiungere 2 barrette alla barra mosse di un alleato quando il suo attacco semplice va a segno contro un avversario confuso."
       },
       "1202270": {
         "NAME": "Confusattacco alleato riempibarra {{value}}",
-        "ABBR": "Confusattacco alleato riempibarra {{value}}",
+        "ABBR": "Confusatt. alleato riempib. {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aggiungere 1 barretta alla barra mosse di un alleato quando il suo attacco semplice va a segno contro un avversario confuso."
       },
       "1301010": {
@@ -12705,12 +12705,12 @@
       },
       "1308360": {
         "NAME": "Alleacolpo rafforzante {{value}}",
-        "ABBR": "Alleacolpo rafforzante {{value}}",
+        "ABBR": "Alleacolpo raff. {{value}}",
         "DESC": "Aumenta la potenza degli attacchi degli alleati quando sono brutti colpi."
       },
       "1308370": {
         "NAME": "Zona Drago rafforzante-G {{value}}",
-        "ABBR": "Zona Drago rafforzante-G {{value}}",
+        "ABBR": "Zona Drago raff.-G {{value}}",
         "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate in presenza di una Zona Drago."
       },
       "1401010": {
@@ -15535,12 +15535,12 @@
       },
       "1708320": {
         "NAME": "Alleacerchia iperfisica doppia {{value}}",
-        "ABBR": "Alleacerchia iperfisica doppia {{value}}",
+        "ABBR": "Alleacer. iperfisica doppia {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi quando un alleato applica una Cerchia al campo alleato."
       },
       "1708330": {
         "NAME": "Alleacerchia Unibonus triplo {{value}}",
-        "ABBR": "Alleacerchia Unibonus triplo {{value}}",
+        "ABBR": "Alleacer. Unibonus triplo {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima Unimossa ↑\" di chi la usa di 3 gradi quando un alleato applica una Cerchia al campo alleato."
       },
       "1708340": {
@@ -15555,12 +15555,12 @@
       },
       "1708360": {
         "NAME": "Tentennemico attacco alleato iper singolo {{value}}",
-        "ABBR": "Tentennemico attacco alleato iper singolo {{value}}",
+        "ABBR": "Tentennem. attacco alleato iper singolo {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di un alleato di 1 grado quando il suo attacco semplice va a segno contro un avversario che tentenna."
       },
       "1708370": {
         "NAME": "Reazione imprigionante {{value}}",
-        "ABBR": "Reazione imprigionante {{value}}",
+        "ABBR": "Reazione imprig. {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di imprigionare l'avversario che ha attaccato chi la usa quando chi la usa subisce un attacco semplice."
       },
       "1708380": {
@@ -15585,7 +15585,7 @@
       },
       "1708450": {
         "NAME": "Tentennemico attacco alleato Unibonus doppio {{value}}",
-        "ABBR": "Tentennemico attacco alleato Unibonus doppio {{value}}",
+        "ABBR": "Tentennem. attacco alleato Unibonus doppio {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima Unimossa ↑\" di un alleato di 2 gradi quando il suo attacco semplice va a segno contro un avversario che tentenna."
       },
       "1708460": {
@@ -15595,17 +15595,17 @@
       },
       "1708470": {
         "NAME": "Mononemico attacco iperspeciale singolo {{value}}",
-        "ABBR": "Mononemico attacco iperspeciale singolo {{value}}",
+        "ABBR": "Mononemico attacco ipersp. singolo {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando il suo attacco semplice va a segno mentre c'è 1 solo Pokémon nel campo avversario."
       },
       "1708480": {
         "NAME": "Alleacerchia iperfisica singola-G {{value}}",
-        "ABBR": "Alleacerchia iperfisica singola-G {{value}}",
+        "ABBR": "Alleacer. iperfisica singola-G {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado quando un alleato applica una Cerchia al campo alleato."
       },
       "1708490": {
         "NAME": "Alleacerchia azzeracosto {{value}}",
-        "ABBR": "Alleacerchia azzeracosto {{value}}",
+        "ABBR": "Alleacer. azzeracosto {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di applicare l'effetto \"Prossimo a costo zero\" a chi la usa quando un alleato applica una Cerchia al campo alleato."
       },
       "1801010": {
@@ -17925,7 +17925,7 @@
       },
       "1812280": {
         "NAME": "Imprigionattacco alleato migliorandom {{value}}",
-        "ABBR": "Imprigionattacco alleato migliorandom {{value}}",
+        "ABBR": "Imprigionatt. alleato miglior. {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare a caso di 1 grado una delle seguenti statistiche di un alleato quando il suo attacco semplice va a segno contro un avversario imprigionato: Attacco, Difesa, Attacco Speciale, Difesa Speciale, Velocità, precisione o elusione."
       },
       "1812290": {
@@ -17935,12 +17935,12 @@
       },
       "1812300": {
         "NAME": "Abbagliattacco triplogrado {{value}}",
-        "ABBR": "Abbagliattacco triplogrado {{value}}",
+        "ABBR": "Abbagliatt. triplogrado {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre la precisione del bersaglio di 3 gradi quando l'attacco semplice di chi la usa contro di esso va a segno."
       },
       "1812310": {
         "NAME": "UniDynamax iperdifensivo {{value}}",
-        "ABBR": "UniDynamax iperdifensivo {{value}}",
+        "ABBR": "UniDynamax iperdif. {{value}}",
         "DESC": "Aumenta la Difesa e la Difesa Speciale di chi la usa di {{value}} gradi dopo aver sferrato la sua mossa UniDynamax."
       },
       "1901010": {
@@ -18850,22 +18850,22 @@
       },
       "1905730": {
         "NAME": "Smorzadanno speciale primentrata e duraturo {{value}}",
-        "ABBR": "Smorzadanno speciale primentrata e duraturo {{value}}",
+        "ABBR": "Smorzad. speciale primentrata e duraturo {{value}}",
         "DESC": "Applica l'effetto \"Riduzione danni speciali\" al campo alleato la prima volta che chi la usa entra in campo in ogni lotta. Aumenta la durata dell'effetto \"Riduzione danni speciali\" quando al campo alleato viene applicato l'effetto \"Riduzione danni speciali\"."
       },
       "1905740": {
         "NAME": "Primattacco Zona Spettro",
-        "ABBR": "Primattacco Zona Spettro",
+        "ABBR": "Primatt. Zona Spettro",
         "DESC": "Trasforma la zona in una Zona Spettro la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Spettro aumenta la potenza degli attacchi di tipo Spettro.)"
       },
       "1905750": {
         "NAME": "Zona Spettro primattacco e duratura {{value}}",
-        "ABBR": "Zona Spettro primattacco e duratura {{value}}",
+        "ABBR": "Zona Spettro primatt. e duratura {{value}}",
         "DESC": "Trasforma la zona in una Zona Spettro la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Spettro aumenta la potenza degli attacchi di tipo Spettro.) Aumenta la durata della Zona Spettro quando la zona si trasforma in una Zona Spettro mentre chi la usa è in campo."
       },
       "1905760": {
         "NAME": "Unicampo smorzadanno speciale",
-        "ABBR": "Unicampo smorzadanno speciale",
+        "ABBR": "Unicampo smorzad. speciale",
         "DESC": "Applica l'effetto \"Riduzione danni speciali\" al campo alleato dopo aver sferrato l'Unimossa di chi la usa."
       },
       "1905780": {
