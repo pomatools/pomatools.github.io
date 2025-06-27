@@ -1250,7 +1250,7 @@
         "spec": ""
     },
     "1202230": {
-        "trigger": "MOVE",
+        "trigger": "ACTION",
         "times": "",
         "conditions": [],
         "type": "",

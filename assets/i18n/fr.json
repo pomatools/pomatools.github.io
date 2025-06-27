@@ -4815,6 +4815,26 @@
         "ABBR": "Feinte ◒",
         "DESC": "Condition d'activation : Quand les PV du lanceur sont inférieurs à 50 %.\nCondition de désactivation : Quand les PV du lanceur sont à 50 % ou plus.\n\nN'échoue jamais. Un des effets supplémentaires suivants s'applique aléatoirement 2 fois : Applique l'effet Peur, Confusion et Ligotage à la cible. Transforme la zone en une Zone Ténèbres. (Une Zone Ténèbres renforce les attaques de type Ténèbres.) Augmente l'Esquive de tous les Duos alliés de 2 rangs. Applique l'effet Conso. 0 assurée à tous les Duos alliés. Augmente l'effet Prochain boost capacité physique de tous les Duos alliés de 2 rangs. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Applique l'effet Prochain Garde au lanceur. Augmente l'effet Prochain boost capacité physique du lanceur de 4 rangs. Baisse l'Attaque et l'Atq. Spé. du lanceur de 2 rangs. Baisse la Défense et la Déf. Spé. du lanceur de 2 rangs."
       },
+      "6133": {
+        "NAME": "Aéroblast des mers vénérées",
+        "ABBR": "Aéroblast S",
+        "DESC": "Condition d'activation : Quand l'effet Prochain boost capacité Duo du lanceur a été augmenté.\nCondition de désactivation : Quand l'effet Prochain boost capacité Duo du lanceur n'est pas augmenté.\n\nN'échoue jamais. Inflige un coup critique si l'attaque atteint sa cible (sauf dans certains cas). Augmente la puissance de l'attaque de 50 % quand la cible souffre d'une altération de statut. Apeure la cible."
+      },
+      "6134": {
+        "NAME": "Feu Sacré des cieux vénérés",
+        "ABBR": "Feu Sacré S",
+        "DESC": "Condition d'activation : Quand les PV du lanceur sont à 50 % ou plus.\nCondition de désactivation : Quand les PV du lanceur sont inférieurs à 50 %.\n\nN'échoue jamais. Dégèle le lanceur. Brûle l'ennemi. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Fait briller le soleil EX si les PPC restants sont équivalents à 3 quand cette capacité est choisie. Baisse la Défense et la Déf. Spé. de la cible de 3 rangs si les PPC restants sont équivalents à 2 quand cette capacité est choisie. Applique l'effet Prêt à encaisser à tous les Duos alliés si les PPC restants sont équivalents à 1 quand cette capacité est choisie."
+      },
+      "6135": {
+        "NAME": "Ocroupi d'un jour d'été",
+        "ABBR": "Ocroupi S",
+        "DESC": "Condition d'activation : Quand le lanceur souffre d'une altération de statut.\nCondition de désactivation : Quand le lanceur ne souffre pas d'une altération de statut.\n\nN'échoue jamais. Baisse la Précision de la cible de 1 rang. Augmente aléatoirement une des stats suivantes de tous les Duos alliés de 1 rang : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
+      },
+      "6136": {
+        "NAME": "Lance-Soleil estival",
+        "ABBR": "Lance-Soleil S",
+        "DESC": "Condition d'activation : Quand le lanceur utilise une fois n'importe quelle capacité.\nCondition de désactivation : Impossible de désactiver.\n\nLe lanceur charge l'attaque. En utilisant à nouveau cette capacité, le lanceur quitte cette posture pour attaquer. Aucune autre action ne peut être réalisée lorsqu'il charge l'attaque. La période de préparation est sautée quand le soleil brille, et le lanceur attaque tout de suite. N'échoue jamais. Baisse la Déf. Spé. et la Vitesse de la cible de 2 rangs. Plus la Vitesse du lanceur a été augmenté(e), plus son effet Prochain boost capacité spéciale est augmenté (jusqu'à 3 rangs). Annule toutes les augmentations de Vitesse du lanceur."
+      },
       "6137": {
         "NAME": "Brume d'argent",
         "ABBR": "Brume S",
@@ -5394,6 +5414,11 @@
         "NAME": "On se dépêche !",
         "ABBR": "On se dépêche !",
         "DESC": "Augmente la Vitesse et le taux de critiques du lanceur de 1 rang. Augmente aléatoirement une des stats suivantes de tous les Duos alliés de 2 rangs : Attaque, Atq. Spé., Défense, Déf. Spé., Précision ou Esquive."
+      },
+      "10165": {
+        "NAME": "Voyageons dans les cieux !",
+        "ABBR": "Voyageons dans les cieux !",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente la Vitesse du lanceur de 2 rangs. Augmente l'effet Prochain boost capacité spéciale du lanceur de 2 rangs."
       },
       "10168": {
         "NAME": "Décollage !",
@@ -6025,6 +6050,11 @@
         "ABBR": "Les recherches commencent !",
         "DESC": "Augmente l'Attaque et l'Atq. Spé. du lanceur de 4 rangs. Augmente le taux de critiques du lanceur de 3 rangs. Baisse la Défense et la Déf. Spé. du lanceur de 1 rang."
       },
+      "10914": {
+        "NAME": "Si reposant...",
+        "ABBR": "Si reposant...",
+        "DESC": "Augmente la Défense et la Déf. Spé. de tous les Duos alliés de 4 rangs. Applique l'effet Régénération lente PV à tous les Duos alliés. Brûle le lanceur."
+      },
       "10916": {
         "NAME": "Ce n'est pas encore fini !",
         "ABBR": "Ce n'est pas encore fini !",
@@ -6299,6 +6329,11 @@
         "NAME": "C'est décidé !",
         "ABBR": "C'est décidé !",
         "DESC": "50 % de chances de réduire de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente la Précision du lanceur de 1 rang. Applique l'effet Coup critique assuré au lanceur. Augmente l'effet Prochain boost capacité spéciale du lanceur de 3 rangs."
+      },
+      "11122": {
+        "NAME": "La lumière de nos âmes !",
+        "ABBR": "La lumière de nos âmes !",
+        "DESC": "Applique l'effet Prêt à encaisser au lanceur. Plus l'effet Prochain boost capacité Duo du lanceur est augmenté, plus le nombre d'actions nécessaires pour lancer sa capacité Duo diminue (jusqu'à 4 rangs)."
       },
       "11129": {
         "NAME": "Avec un coeur en or pur !",
@@ -6669,6 +6704,11 @@
         "NAME": "Je te laisserai jamais seul !",
         "ABBR": "Je te laisserai jamais seul !",
         "DESC": "Applique l'effet Accélération Jauge Capacité au côté allié. Augmente l'Attaque du lanceur de 3 rangs."
+      },
+      "11332": {
+        "NAME": "Avec force et justice !",
+        "ABBR": "Avec force et justice !",
+        "DESC": "Réduit de 2 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente la Défense et la Déf. Spé. du lanceur de 6 rangs."
       },
       "11337": {
         "NAME": "Je vais t'écraser !",
@@ -7309,6 +7349,11 @@
         "NAME": "C'est éternel !",
         "ABBR": "C'est éternel !",
         "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Atq. Spé. du lanceur de 3 rangs. Applique l'effet Prochain super efficace ↑ au lanceur. Baisse la Déf. Spé. du lanceur de 1 rang."
+      },
+      "12472": {
+        "NAME": "Passion pour le combat !",
+        "ABBR": "Passion pour le combat !",
+        "DESC": "Augmente l'Attaque de tous les Duos alliés de 4 rangs. Applique l'effet Régénération lente PV à tous les Duos alliés."
       },
       "12474": {
         "NAME": "C'est l'heure des cadeaux !",
@@ -10870,6 +10915,16 @@
         "ABBR": "Évaluons-les pour mieux tirer ! Laser Eau !",
         "DESC": "Aucun effet additionnel."
       },
+      "114900": {
+        "NAME": "Reflets argentés de la Voie lactée ! Capacité Ultime : Aéroblast !",
+        "ABBR": "Reflets argentés de la Voie lactée ! Capacité Ultime : Aéroblast !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "115000": {
+        "NAME": "Règle d'or absolue ! Capacité Ultime : Feu Sacré !",
+        "ABBR": "Règle d'or absolue ! Capacité Ultime : Feu Sacré !",
+        "DESC": "Applique l'effet Prochain Garde au lanceur la première fois qu'il utilise une capacité Duo à chaque combat."
+      },
       "115100": {
         "NAME": "Éclosion de gratitude et de courage ! Laser Plante !",
         "ABBR": "Éclosion de gratitude et de courage ! Laser Plante !",
@@ -11060,71 +11115,6 @@
         "ABBR": "Nous n'avons pas dit notre dernier mot ! Laser Fée !",
         "DESC": "Aucun effet additionnel."
       },
-      "120500": {
-        "NAME": "Ne nous laissons pas aller à la pitié ! Laser Glace !",
-        "ABBR": "Ne nous laissons pas aller à la pitié ! Laser Glace !",
-        "DESC": "Aucun effet additionnel."
-      },
-      "120600": {
-        "NAME": "Solides comme le roc ! Impact Roche !",
-        "ABBR": "Solides comme le roc ! Impact Roche !",
-        "DESC": "Aucun effet additionnel."
-      },
-      "6133": {
-        "NAME": "Aéroblast des mers vénérées",
-        "ABBR": "Aéroblast S",
-        "DESC": "Condition d'activation : Quand l'effet Prochain boost capacité Duo du lanceur a été augmenté.\nCondition de désactivation : Quand l'effet Prochain boost capacité Duo du lanceur n'est pas augmenté.\n\nN'échoue jamais. Inflige un coup critique si l'attaque atteint sa cible (sauf dans certains cas). Augmente la puissance de l'attaque de 50 % quand la cible souffre d'une altération de statut. Apeure la cible."
-      },
-      "6134": {
-        "NAME": "Feu Sacré des cieux vénérés",
-        "ABBR": "Feu Sacré S",
-        "DESC": "Condition d'activation : Quand les PV du lanceur sont à 50 % ou plus.\nCondition de désactivation : Quand les PV du lanceur sont inférieurs à 50 %.\n\nN'échoue jamais. Dégèle le lanceur. Brûle l'ennemi. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Fait briller le soleil EX si les PPC restants sont équivalents à 3 quand cette capacité est choisie. Baisse la Défense et la Déf. Spé. de la cible de 3 rangs si les PPC restants sont équivalents à 2 quand cette capacité est choisie. Applique l'effet Prêt à encaisser à tous les Duos alliés si les PPC restants sont équivalents à 1 quand cette capacité est choisie."
-      },
-      "6135": {
-        "NAME": "Ocroupi d'un jour d'été",
-        "ABBR": "Ocroupi S",
-        "DESC": "Condition d'activation : Quand le lanceur souffre d'une altération de statut.\nCondition de désactivation : Quand le lanceur ne souffre pas d'une altération de statut.\n\nN'échoue jamais. Baisse la Précision de la cible de 1 rang. Augmente aléatoirement une des stats suivantes de tous les Duos alliés de 1 rang : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
-      },
-      "6136": {
-        "NAME": "Lance-Soleil estival",
-        "ABBR": "Lance-Soleil S",
-        "DESC": "Condition d'activation : Quand le lanceur utilise une fois n'importe quelle capacité.\nCondition de désactivation : Impossible de désactiver.\n\nLe lanceur charge l'attaque. En utilisant à nouveau cette capacité, le lanceur quitte cette posture pour attaquer. Aucune autre action ne peut être réalisée lorsqu'il charge l'attaque. La période de préparation est sautée quand le soleil brille, et le lanceur attaque tout de suite. N'échoue jamais. Baisse la Déf. Spé. et la Vitesse de la cible de 2 rangs. Plus la Vitesse du lanceur a été augmenté(e), plus son effet Prochain boost capacité spéciale est augmenté (jusqu'à 3 rangs). Annule toutes les augmentations de Vitesse du lanceur."
-      },
-      "10165": {
-        "NAME": "Voyageons dans les cieux !",
-        "ABBR": "Voyageons dans les cieux !",
-        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente la Vitesse du lanceur de 2 rangs. Augmente l'effet Prochain boost capacité spéciale du lanceur de 2 rangs."
-      },
-      "10914": {
-        "NAME": "Si reposant...",
-        "ABBR": "Si reposant...",
-        "DESC": "Augmente la Défense et la Déf. Spé. de tous les Duos alliés de 4 rangs. Applique l'effet Régénération lente PV à tous les Duos alliés. Brûle le lanceur."
-      },
-      "11122": {
-        "NAME": "La lumière de nos âmes !",
-        "ABBR": "La lumière de nos âmes !",
-        "DESC": "Applique l'effet Prêt à encaisser au lanceur. Plus l'effet Prochain boost capacité Duo du lanceur est augmenté, plus le nombre d'actions nécessaires pour lancer sa capacité Duo diminue (jusqu'à 4 rangs)."
-      },
-      "11332": {
-        "NAME": "Avec force et justice !",
-        "ABBR": "Avec force et justice !",
-        "DESC": "Réduit de 2 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente la Défense et la Déf. Spé. du lanceur de 6 rangs."
-      },
-      "12472": {
-        "NAME": "Passion pour le combat !",
-        "ABBR": "Passion pour le combat !",
-        "DESC": "Augmente l'Attaque de tous les Duos alliés de 4 rangs. Applique l'effet Régénération lente PV à tous les Duos alliés."
-      },
-      "114900": {
-        "NAME": "Reflets argentés de la Voie lactée ! Capacité Ultime : Aéroblast !",
-        "ABBR": "Reflets argentés de la Voie lactée ! Capacité Ultime : Aéroblast !",
-        "DESC": "Aucun effet additionnel."
-      },
-      "115000": {
-        "NAME": "Règle d'or absolue ! Capacité Ultime : Feu Sacré !",
-        "ABBR": "Règle d'or absolue ! Capacité Ultime : Feu Sacré !",
-        "DESC": "Applique l'effet Prochain Garde au lanceur la première fois qu'il utilise une capacité Duo à chaque combat."
-      },
       "120200": {
         "NAME": "Une beauté au talent caché ! Laser Eau !",
         "ABBR": "Une beauté au talent caché ! Laser Eau !",
@@ -11138,6 +11128,16 @@
       "120400": {
         "NAME": "On va déchaîner les foules ! Impact Sol !",
         "ABBR": "On va déchaîner les foules ! Impact Sol !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "120500": {
+        "NAME": "Ne nous laissons pas aller à la pitié ! Laser Glace !",
+        "ABBR": "Ne nous laissons pas aller à la pitié ! Laser Glace !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "120600": {
+        "NAME": "Solides comme le roc ! Impact Roche !",
+        "ABBR": "Solides comme le roc ! Impact Roche !",
         "DESC": "Aucun effet additionnel."
       }
     },
@@ -12351,6 +12351,11 @@
         "NAME": "Équipe Turbo Stoïcisme Capacité Offensive {{value}}",
         "ABBR": "Éq. Tur. Stoï. Capa. Off. {{value}}",
         "DESC": "Réduit les dégâts quand le lanceur subit une capacité offensive et que l'effet Accélération Jauge Capacité s'applique au côté allié."
+      },
+      "1302450": {
+        "NAME": "Soleil Coach Stoï. Capacité Offensive {{value}}",
+        "ABBR": "Soleil Coach Stoï. Capa. Off. {{value}}",
+        "DESC": "Réduit les dégâts des capacités offensives subies par des alliés quand le soleil brille."
       },
       "1303010": {
         "NAME": "Œil Aiguisé",
@@ -15657,6 +15662,21 @@
         "ABBR": "Intro Prem. Capa. Duo Boost Spé. 1",
         "DESC": "Augmente l'effet Prochain boost capacité spéciale du lanceur de 1 rang la première fois qu'il arrive au combat à chaque combat. Augmente l'effet Prochain boost capacité spéciale du lanceur de 1 rang la première fois qu'il utilise sa capacité Duo à chaque combat."
       },
+      "1708420": {
+        "NAME": "Action Boost Capacité Duo +2 {{value}}",
+        "ABBR": "Action Boost Capacité Duo +2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité Duo du lanceur de 2 rangs quand son Pokémon utilise une capacité."
+      },
+      "1708430": {
+        "NAME": "Action Statut Boost Spécial +2 {{value}}",
+        "ABBR": "Action Statut Boost Spé. +2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale du lanceur de 2 rangs quand son Pokémon utilise une capacité de statut."
+      },
+      "1708440": {
+        "NAME": "Soleil Allié Capa. Offensive Boost Spécial +1 {{value}}",
+        "ABBR": "Soleil All. C.O. Boost Spé. +1 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale d'un allié de 1 rang quand il utilise avec succès sa capacité offensive alors que le soleil brille."
+      },
       "1708450": {
         "NAME": "Enn. Apeuré Allié Capa. Off. Boost Capa. Duo +2 {{value}}",
         "ABBR": "Enn. Apeuré All. C.O. Boost C.D. +2 {{value}}",
@@ -15681,6 +15701,31 @@
         "NAME": "Allié Déclenchement Cercle Consommation 0 {{value}}",
         "ABBR": "All. Décl. Cercle Conso. 0 {{value}}",
         "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand un allié applique un cercle au côté allié."
+      },
+      "1708550": {
+        "NAME": "Capacité Duo Coach Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "C.Duo Coach Boost Phy. Spé. +1 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang après l'utilisation d'une capacité Duo par le lanceur."
+      },
+      "1708560": {
+        "NAME": "Intro Boost Capacité Duo 1",
+        "ABBR": "Intro Boost Capacité Duo 1",
+        "DESC": "Augmente l'effet Prochain boost capacité Duo du lanceur de 1 rang la première fois qu'il arrive au combat à chaque combat."
+      },
+      "1708570": {
+        "NAME": "Prem. Action Statut Util. Coach Boost Spé. {{value}}",
+        "ABBR": "1er A.Sta. Util. Coa. Bst.S. {{value}}",
+        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de {{value}} rang la première fois que le Pokémon du lanceur utilise une capacité de statut à chaque combat."
+      },
+      "1708580": {
+        "NAME": "Capacité Encaisse Prochains Dégâts Pour Tous {{value}}",
+        "ABBR": "Capa. Enc. Pro. Dég. Pour Tous {{value}}",
+        "DESC": "{{chance}} % de chances d'appliquer l'effet Encaisse prochains dégâts pour tous au lanceur quand il utilise avec succès une capacité."
+      },
+      "1708590": {
+        "NAME": "Prem. Capa. Duo Coach Boost Phy. Spé. {{value}}",
+        "ABBR": "1er C.Duo Coa. Boost Phy. Spé. {{value}}",
+        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de {{value}} rang la première fois que le lanceur utilise une capacité Duo à chaque combat."
       },
       "1801010": {
         "NAME": "Résistance ↓Attaque {{value}}",
@@ -17997,6 +18042,41 @@
         "ABBR": "Capa. Off. Attaque Spéciale 4↓ {{value}}",
         "DESC": "{{chance}} % de chances de baisser l'Atq. Spé. de la cible de 4 rangs quand le lanceur utilise avec succès une capacité offensive contre elle."
       },
+      "1812190": {
+        "NAME": "Prem. Action Statut Util. Attaque Spéciale ↑ {{value}}",
+        "ABBR": "1er A. Sta. Util. Atq. Spé. ↑ {{value}}",
+        "DESC": "Augmente l'Atq. Spé. du lanceur de {{value}} rang la première fois que son Pokémon utilise une capacité de statut à chaque combat."
+      },
+      "1812200": {
+        "NAME": "Prem. Action Statut Util. Critiques ↑ {{value}}",
+        "ABBR": "1er A. Sta. Util. Critiques ↑ {{value}}",
+        "DESC": "Augmente le taux de critiques du lanceur de {{value}} rang la première fois que son Pokémon utilise une capacité de statut à chaque combat."
+      },
+      "1812210": {
+        "NAME": "Capacité Offensive Défense Spéciale 3↓ {{value}}",
+        "ABBR": "Capa. Off. Défense Spé. 3↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser la Déf. Spé. de la cible de 3 rangs quand le lanceur utilise avec succès une capacité offensive contre elle."
+      },
+      "1812220": {
+        "NAME": "Enn. Altér. Allié Capacité Offensive Stat ↓ {{value}}",
+        "ABBR": "Enn. Altér. All. C.Off. Stat ↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser aléatoirement une des stats suivantes de la cible de 1 rang quand un allié utilise avec succès une capacité offensive contre les cibles qui souffrent d'une altération de statut : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
+      },
+      "1812240": {
+        "NAME": "Réflexe Coach Stat Identique 2 {{value}}",
+        "ABBR": "Réfl. Coa. Stat Identique 2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter aléatoirement une des stats suivantes de tous les Duos alliés de 2 rangs quand le lanceur subit une capacité offensive : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive. (La même stat est augmentée pour tous les Duos alliés)."
+      },
+      "1812260": {
+        "NAME": "Action Statut Util. Vitesse 6↑ {{value}}",
+        "ABBR": "Act. Statut Util. Vit. 6↑ {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter la Vitesse du lanceur de 6 rangs quand son Pokémon utilise une capacité de statut."
+      },
+      "1812270": {
+        "NAME": "Soleil Allié Capa. Off. Coach Vitesse {{value}}",
+        "ABBR": "Soleil All. C.Off. Coa. Vit. {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter la Vitesse de tous les Duos alliés de 1 rang quand un allié utilise avec succès une capacité offensive alors que le soleil brille."
+      },
       "1812280": {
         "NAME": "Ennemi Ligoté Allié Capa. Off. Stat ↑ {{value}}",
         "ABBR": "Enn. Ligoté All. Capa. Off. Stat ↑ {{value}}",
@@ -18922,6 +19002,16 @@
         "ABBR": "C.Galar Défensif Prolongé {{value}}",
         "DESC": "Cercle de Galar Défensif dure plus longtemps quand Cercle de Galar Défensif est appliqué au côté allié."
       },
+      "1905710": {
+        "NAME": "Intro Cercle de Sinnoh Défensif Équipe",
+        "ABBR": "Intro C.Sinnoh Défensif Équipe",
+        "DESC": "Applique Cercle de Sinnoh Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1905720": {
+        "NAME": "Prem. Capacité Offensive Zone Vol EX",
+        "ABBR": "Prem. Capa. Off. Zone Vol EX",
+        "DESC": "Transforme la zone en une Zone Vol EX la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. (Une Zone Vol EX renforce les attaques de type Vol.)"
+      },
       "1905730": {
         "NAME": "Intro Stoï. Spé. Équipe Stoï. Spé. Prolongé {{value}}",
         "ABBR": "Intro Stoï. Spé. Équipe Prolongé {{value}}",
@@ -18946,6 +19036,11 @@
         "NAME": "Intro Cercle de Paldea Défensif Équipe",
         "ABBR": "Intro C.Paldea Défensif Équipe",
         "DESC": "Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1905800": {
+        "NAME": "Arrivée Cercle de Johto Phy. Équipe Coach Boost Phy. {{value}}",
+        "ABBR": "Arr. C.Johto Phy. Coa. Bst.P. {{value}}",
+        "DESC": "Applique Cercle de Johto Physique au côté allié quand le lanceur arrive au combat. Augmente l'effet Prochain boost capacité physique de tous les Duos alliés de {{value}} rang quand le lanceur arrive au combat."
       },
       "2001010": {
         "NAME": "Immunité Sable",
@@ -19477,6 +19572,11 @@
         "ABBR": "Mythe Insecte",
         "DESC": "Augmente de 10 % la puissance des capacités de tous les Duos alliés et de 20 % la résistance aux dégâts des capacités offensives de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Insecte dans votre équipe, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et de 3 % la résistance. L'augmentation maximum est de 30 % pour la puissance des capacités et 26 % pour la résistance aux dégâts.)"
       },
+      "2901070": {
+        "NAME": "Mythe Ciel",
+        "ABBR": "Mythe Ciel",
+        "DESC": "Augmente de 10 % la puissance des capacités de tous les Duos alliés et de 20 % la résistance aux dégâts des capacités offensives de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Vol dans votre équipe, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et de 3 % la résistance. L'augmentation maximum est de 30 % pour la puissance des capacités et 26 % pour la résistance aux dégâts.)"
+      },
       "2902010": {
         "NAME": "Jugement Fer",
         "ABBR": "Jugement Fer",
@@ -19506,6 +19606,11 @@
         "NAME": "Jugement Insecte",
         "ABBR": "Jugement Insecte",
         "DESC": "Augmente la Résilience Insecte de tous les Duos alliés de 1 rang la première fois que le lanceur arrive au combat à chaque combat. Baisse la Résilience Insecte de tous les Duos ennemis de 1 rang la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "2902070": {
+        "NAME": "Jugement Ciel",
+        "ABBR": "Jugement Ciel",
+        "DESC": "Augmente la Résilience Vol de tous les Duos alliés de 1 rang la première fois que le lanceur arrive au combat à chaque combat. Baisse la Résilience Vol de tous les Duos ennemis de 1 rang la première fois que le lanceur arrive au combat à chaque combat."
       },
       "3201010": {
         "NAME": "Rythme apaisant de la forêt",
@@ -20912,121 +21017,6 @@
         "ABBR": "Les dés sont jetés !",
         "DESC": "Tous les effets suivants s'appliquent quand le lanceur arrive au combat : Augmente l'Attaque du lanceur de 1 à 6 rangs, aléatoirement. Augmente la Défense du lanceur de 1 à 6 rangs, aléatoirement. Augmente la Déf. Spé. du lanceur de 1 à 6 rangs, aléatoirement."
       },
-      "9902900": {
-        "NAME": "Début d'une saison d'épanouissement",
-        "ABBR": "Début d'une saison d'épanouissement",
-        "DESC": "Transforme le champ en un Champ Herbu la première fois que le lanceur arrive au combat à chaque combat. Le Champ Herbu dure plus longtemps quand le champ devient un Champ Herbu et que le lanceur est sur le terrain."
-      },
-      "9902910": {
-        "NAME": "Président du club de recherches sur le paranormal",
-        "ABBR": "Président du club de recherches sur le paranormal",
-        "DESC": "Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat. Cercle de Paldea Défensif dure plus longtemps quand Cercle de Paldea Défensif est appliqué au côté allié."
-      },
-      "1302450": {
-        "NAME": "Soleil Coach Stoï. Capacité Offensive {{value}}",
-        "ABBR": "Soleil Coach Stoï. Capacité Offensive {{value}}",
-        "DESC": "Réduit les dégâts des capacités offensives subies par des alliés quand le soleil brille."
-      },
-      "1708420": {
-        "NAME": "Action Boost Capacité Duo +2 {{value}}",
-        "ABBR": "Action Boost Capacité Duo +2 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité Duo du lanceur de 2 rangs quand son Pokémon utilise une capacité."
-      },
-      "1708430": {
-        "NAME": "Action Statut Boost Spécial +2 {{value}}",
-        "ABBR": "Action Statut Boost Spécial +2 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale du lanceur de 2 rangs quand son Pokémon utilise une capacité de statut."
-      },
-      "1708440": {
-        "NAME": "Soleil Allié Capa. Offensive Boost Spécial +1 {{value}}",
-        "ABBR": "Soleil Allié Capa. Offensive Boost Spécial +1 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale d'un allié de 1 rang quand il utilise avec succès sa capacité offensive alors que le soleil brille."
-      },
-      "1708550": {
-        "NAME": "Capacité Duo Coach Boost Phy. Spé. +1 {{value}}",
-        "ABBR": "Capacité Duo Coach Boost Phy. Spé. +1 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang après l'utilisation d'une capacité Duo par le lanceur."
-      },
-      "1708560": {
-        "NAME": "Intro Boost Capacité Duo 1",
-        "ABBR": "Intro Boost Capacité Duo 1",
-        "DESC": "Augmente l'effet Prochain boost capacité Duo du lanceur de 1 rang la première fois qu'il arrive au combat à chaque combat."
-      },
-      "1708570": {
-        "NAME": "Prem. Action Statut Util. Coach Boost Spé. {{value}}",
-        "ABBR": "Prem. Action Statut Util. Coach Boost Spé. {{value}}",
-        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de {{value}} rang la première fois que le Pokémon du lanceur utilise une capacité de statut à chaque combat."
-      },
-      "1708580": {
-        "NAME": "Capacité Encaisse Prochains Dégâts Pour Tous {{value}}",
-        "ABBR": "Capacité Encaisse Prochains Dégâts Pour Tous {{value}}",
-        "DESC": "{{chance}} % de chances d'appliquer l'effet Encaisse prochains dégâts pour tous au lanceur quand il utilise avec succès une capacité."
-      },
-      "1708590": {
-        "NAME": "Prem. Capa. Duo Coach Boost Phy. Spé. {{value}}",
-        "ABBR": "Prem. Capa. Duo Coach Boost Phy. Spé. {{value}}",
-        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de {{value}} rang la première fois que le lanceur utilise une capacité Duo à chaque combat."
-      },
-      "1812190": {
-        "NAME": "Prem. Action Statut Util. Attaque Spéciale ↑ {{value}}",
-        "ABBR": "Prem. Action Statut Util. Attaque Spéciale ↑ {{value}}",
-        "DESC": "Augmente l'Atq. Spé. du lanceur de {{value}} rang la première fois que son Pokémon utilise une capacité de statut à chaque combat."
-      },
-      "1812200": {
-        "NAME": "Prem. Action Statut Util. Critiques ↑ {{value}}",
-        "ABBR": "Prem. Action Statut Util. Critiques ↑ {{value}}",
-        "DESC": "Augmente le taux de critiques du lanceur de {{value}} rang la première fois que son Pokémon utilise une capacité de statut à chaque combat."
-      },
-      "1812210": {
-        "NAME": "Capacité Offensive Défense Spéciale 3↓ {{value}}",
-        "ABBR": "Capacité Offensive Défense Spéciale 3↓ {{value}}",
-        "DESC": "{{chance}} % de chances de baisser la Déf. Spé. de la cible de 3 rangs quand le lanceur utilise avec succès une capacité offensive contre elle."
-      },
-      "1812220": {
-        "NAME": "Enn. Altér. Allié Capacité Offensive Stat ↓ {{value}}",
-        "ABBR": "Enn. Altér. Allié Capacité Offensive Stat ↓ {{value}}",
-        "DESC": "{{chance}} % de chances de baisser aléatoirement une des stats suivantes de la cible de 1 rang quand un allié utilise avec succès une capacité offensive contre les cibles qui souffrent d'une altération de statut : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
-      },
-      "1812240": {
-        "NAME": "Réflexe Coach Stat Identique 2 {{value}}",
-        "ABBR": "Réflexe Coach Stat Identique 2 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter aléatoirement une des stats suivantes de tous les Duos alliés de 2 rangs quand le lanceur subit une capacité offensive : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive. (La même stat est augmentée pour tous les Duos alliés)."
-      },
-      "1812260": {
-        "NAME": "Action Statut Util. Vitesse 6↑ {{value}}",
-        "ABBR": "Action Statut Util. Vitesse 6↑ {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter la Vitesse du lanceur de 6 rangs quand son Pokémon utilise une capacité de statut."
-      },
-      "1812270": {
-        "NAME": "Soleil Allié Capa. Off. Coach Vitesse {{value}}",
-        "ABBR": "Soleil Allié Capa. Off. Coach Vitesse {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter la Vitesse de tous les Duos alliés de 1 rang quand un allié utilise avec succès une capacité offensive alors que le soleil brille."
-      },
-      "1905710": {
-        "NAME": "Intro Cercle de Sinnoh Défensif Équipe",
-        "ABBR": "Intro Cercle de Sinnoh Défensif Équipe",
-        "DESC": "Applique Cercle de Sinnoh Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat."
-      },
-      "1905720": {
-        "NAME": "Prem. Capacité Offensive Zone Vol EX",
-        "ABBR": "Prem. Capacité Offensive Zone Vol EX",
-        "DESC": "Transforme la zone en une Zone Vol EX la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. (Une Zone Vol EX renforce les attaques de type Vol.)"
-      },
-      "1905800": {
-        "NAME": "Arrivée Cercle de Johto Phy. Équipe Coach Boost Phy. {{value}}",
-        "ABBR": "Arrivée Cercle de Johto Phy. Équipe Coach Boost Phy. {{value}}",
-        "DESC": "Applique Cercle de Johto Physique au côté allié quand le lanceur arrive au combat. Augmente l'effet Prochain boost capacité physique de tous les Duos alliés de {{value}} rang quand le lanceur arrive au combat."
-      },
-      "2901070": {
-        "NAME": "Mythe Ciel",
-        "ABBR": "Mythe Ciel",
-        "DESC": "Augmente de 10 % la puissance des capacités de tous les Duos alliés et de 20 % la résistance aux dégâts des capacités offensives de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Vol dans votre équipe, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et de 3 % la résistance. L'augmentation maximum est de 30 % pour la puissance des capacités et 26 % pour la résistance aux dégâts.)"
-      },
-      "2902070": {
-        "NAME": "Jugement Ciel",
-        "ABBR": "Jugement Ciel",
-        "DESC": "Augmente la Résilience Vol de tous les Duos alliés de 1 rang la première fois que le lanceur arrive au combat à chaque combat. Baisse la Résilience Vol de tous les Duos ennemis de 1 rang la première fois que le lanceur arrive au combat à chaque combat."
-      },
       "9902750": {
         "NAME": "Une âme à l'éclat argenté",
         "ABBR": "Une âme à l'éclat argenté",
@@ -21081,6 +21071,16 @@
         "NAME": "Conditions idéales pour une sortie",
         "ABBR": "Conditions idéales pour une sortie",
         "DESC": "Le soleil brille plus longtemps quand la météo devient ensoleillée et que le lanceur est sur le terrain. Augmente la Vitesse de tous les Duos alliés de 1 rang quand un allié utilise avec succès une capacité offensive alors que le soleil brille. Augmente l'effet Prochain boost capacité spéciale d'un allié de 1 rang quand il utilise avec succès sa capacité offensive alors que le soleil brille."
+      },
+      "9902900": {
+        "NAME": "Début d'une saison d'épanouissement",
+        "ABBR": "Début d'une saison d'épanouissement",
+        "DESC": "Transforme le champ en un Champ Herbu la première fois que le lanceur arrive au combat à chaque combat. Le Champ Herbu dure plus longtemps quand le champ devient un Champ Herbu et que le lanceur est sur le terrain."
+      },
+      "9902910": {
+        "NAME": "Président du club de recherches sur le paranormal",
+        "ABBR": "Président du club de recherches sur le paranormal",
+        "DESC": "Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat. Cercle de Paldea Défensif dure plus longtemps quand Cercle de Paldea Défensif est appliqué au côté allié."
       }
     },
     "THEMES": {

@@ -4815,6 +4815,26 @@
         "ABBR": "Finta ◒",
         "DESC": "Cuándo se activa: Cuando los PS del usuario son inferiores al 50%.\nCuándo se desactiva: Cuando los PS del usuario son el 50% o más.\n\nAcierta siempre. Otorga uno de los efectos secundarios siguientes 2 veces al azar: Hace retroceder, confunde y deja bajo ataduras al objetivo. Crea una Zona Siniestra. (Una Zona Siniestra potencia los ataques de tipo Siniestro). Aumenta la Evasión de todos los compis aliados en 2 niveles. Aplica el efecto Siguiente sin coste a todos los compis aliados. Aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en 2 niveles. Se reduce en 1 el contador de movimientos compi del usuario. Aplica el efecto Siguiente mitiga daño al usuario. Aumenta el efecto Siguiente Físico ↑ del usuario en 4 niveles. Reduce el Ataque y el Ataque Especial del usuario en 2 niveles. Reduce la Defensa y la Defensa Especial del usuario en 2 niveles."
       },
+      "6133": {
+        "NAME": "Aerochorro del Mar Celestial",
+        "ABBR": "Aerochorro MC",
+        "DESC": "Cuándo se activa: Cuando el efecto Siguiente Movimiento Compi ↑ del usuario ha aumentado.\nCuándo se desactiva: Cuando el efecto Siguiente Movimiento Compi ↑ del usuario no ha aumentado.\n\nAcierta siempre. Asesta un golpe crítico, salvo en ciertas circunstancias. La potencia de este ataque aumenta un 50% cuando el objetivo sufre algún problema de estado. Hace retroceder al objetivo."
+      },
+      "6134": {
+        "NAME": "Fuego Sagrado del Arcoíris Celestial",
+        "ABBR": "Fuego Sagrado AC",
+        "DESC": "Cuándo se activa: Cuando los PS del usuario son el 50% o más.\nCuándo se desactiva: Cuando los PS del usuario son inferiores al 50%.\n\nAcierta siempre. Descongela al usuario. Quema al objetivo. La potencia de este movimiento no se reduce incluso si hay varios objetivos. El tiempo cambia a soleado EX si los PM restantes son 3 cuando este movimiento esté seleccionado. Reduce la Defensa y la Defensa Especial del objetivo en 3 niveles si los PM restantes son 2 cuando este movimiento esté seleccionado. Aplica el efecto Aguante a todos los compis aliados si los PM restantes son 1 cuando este movimiento esté seleccionado."
+      },
+      "6135": {
+        "NAME": "Agua Lodosa Estival",
+        "ABBR": "Agua Lodosa E",
+        "DESC": "Cuándo se activa: Cuando el usuario sufre problemas de estado.\nCuándo se desactiva: Cuando el usuario no sufre problemas de estado.\n\nAcierta siempre. Reduce la Precisión del objetivo en 1 nivel. Aumenta en 1 nivel una de las siguientes características de todos los compis aliados al azar: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión."
+      },
+      "6136": {
+        "NAME": "Rayo Solar Luminoso",
+        "ABBR": "Rayo Solar L",
+        "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: No se puede desactivar.\n\nEl usuario adopta una pose de ataque. Si se usa de nuevo este movimiento, vuelve a su posición habitual y ataca. Mientras adopta la pose, el usuario no puede realizar ninguna otra acción. Cuando está soleado, el usuario ataca al instante. Acierta siempre. Reduce la Defensa Especial y la Velocidad del objetivo en 2 niveles. Cuanto más haya aumentado la Velocidad del usuario, más aumenta su efecto Siguiente Especial ↑ (hasta 3 niveles). Elimina todos los aumentos de Velocidad del usuario."
+      },
       "6137": {
         "NAME": "Neblina Nevada",
         "ABBR": "Neblina N",
@@ -5394,6 +5414,11 @@
         "NAME": "¡Abran paso, que voy con prisa!",
         "ABBR": "¡Abran paso, que voy con prisa!",
         "DESC": "Aumenta la Velocidad y la probabilidad de asestar golpes críticos del usuario en 1 nivel. Aumenta en 2 niveles una de las siguientes características de todos los compis aliados al azar: Ataque, Defensa, Ataque Especial, Defensa Especial, Precisión o Evasión."
+      },
+      "10165": {
+        "NAME": "¡Adonde nos lleve el viento!",
+        "ABBR": "¡Adonde nos lleve el viento!",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario. Aumenta la Velocidad del usuario en 2 niveles. Aumenta el efecto Siguiente Especial ↑ del usuario en 2 niveles."
       },
       "10168": {
         "NAME": "¡Me preparo para despegar!",
@@ -6025,6 +6050,11 @@
         "ABBR": "¡Vamos a investigar!",
         "DESC": "Aumenta el Ataque y el Ataque Especial del usuario en 4 niveles. Aumenta la probabilidad del usuario de asestar golpes críticos en 3 niveles. Reduce la Defensa y la Defensa Especial del usuario en 1 nivel."
       },
+      "10914": {
+        "NAME": "Qué relajante...",
+        "ABBR": "Qué relajante...",
+        "DESC": "Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 4 niveles. Aplica el efecto Regeneración de PS a todos los compis aliados. Quema al usuario."
+      },
       "10916": {
         "NAME": "¡No dejaré que termine tan rápido!",
         "ABBR": "¡No dejaré que termine tan rápido!",
@@ -6299,6 +6329,11 @@
         "NAME": "¡Ecolocalización submarina!",
         "ABBR": "¡Ecolocalización submarina!",
         "DESC": "Hay una probabilidad del 50% de reducir en 1 el contador de movimientos compi del usuario. Aumenta la Precisión del usuario en 1 nivel. Aplica el efecto Siguiente crítico al usuario. Aumenta el efecto Siguiente Especial ↑ del usuario en 3 niveles."
+      },
+      "11122": {
+        "NAME": "¡Cuánto brilla nuestra alma!",
+        "ABBR": "¡Cuánto brilla nuestra alma!",
+        "DESC": "Aplica el efecto Aguante al usuario. Cuanto más haya aumentado el efecto Siguiente Movimiento Compi ↑ del usuario, más se reduce su contador de movimientos compi (hasta 4 niveles)."
       },
       "11129": {
         "NAME": "¡Con un corazón de oro!",
@@ -6669,6 +6704,11 @@
         "NAME": "¡No puedo abandonarte!",
         "ABBR": "¡No puedo abandonarte!",
         "DESC": "Aplica el efecto Barra mov. acelerada al bando aliado. Aumenta el Ataque del usuario en 3 niveles."
+      },
+      "11332": {
+        "NAME": "¡Cuán puro es nuestro corazón!",
+        "ABBR": "¡Cuán puro es nuestro corazón!",
+        "DESC": "Se reduce en 2 el contador de movimientos compi del usuario. Aumenta la Defensa y la Defensa Especial del usuario en 6 niveles."
       },
       "11337": {
         "NAME": "¡Prepárate, que luego será tu turno!",
@@ -7309,6 +7349,11 @@
         "NAME": "¡Es eterno!",
         "ABBR": "¡Es eterno!",
         "DESC": "Se reduce en 1 el contador de movimientos compi del usuario. Aumenta el Ataque Especial del usuario en 3 niveles. Aplica el efecto Siguiente Supereficaz ↑ al usuario. Reduce la Defensa Especial del usuario en 1 nivel."
+      },
+      "12472": {
+        "NAME": "¡Con el corazón en un puño!",
+        "ABBR": "¡Con el corazón en un puño!",
+        "DESC": "Aumenta el Ataque de todos los compis aliados en 4 niveles. Aplica el efecto Regeneración de PS a todos los compis aliados."
       },
       "12474": {
         "NAME": "¡Aquí llega el regalón!",
@@ -10870,6 +10915,16 @@
         "ABBR": "Rayo Agua de Atacar sus Puntos Débiles",
         "DESC": "Sin efectos secundarios."
       },
+      "114900": {
+        "NAME": "Archi Aerochorro Bajo una Cascada Argéntea",
+        "ABBR": "Archi Aerochorro Bajo una Cascada Argéntea",
+        "DESC": "Sin efectos secundarios."
+      },
+      "115000": {
+        "NAME": "Archi Fuego Sagrado de Tesón Áureo",
+        "ABBR": "Archi Fuego Sagrado de Tesón Áureo",
+        "DESC": "Aplica el efecto Siguiente mitiga daño al usuario la primera vez que usa su movimiento compi en cada combate."
+      },
       "115100": {
         "NAME": "Rayo Planta de Valor y Gratitud",
         "ABBR": "Rayo Planta de Valor y Gratitud",
@@ -11060,71 +11115,6 @@
         "ABBR": "Rayo Hada que Aún Tiene Potencial",
         "DESC": "Sin efectos secundarios."
       },
-      "120500": {
-        "NAME": "Rayo Hielo que No Es Moco de Pavo",
-        "ABBR": "Rayo Hielo que No Es Moco de Pavo",
-        "DESC": "Sin efectos secundarios."
-      },
-      "120600": {
-        "NAME": "Impacto Roca del Rompedruscos por Antonomasia",
-        "ABBR": "Impacto Roca del Rompedruscos por Antonomasia",
-        "DESC": "Sin efectos secundarios."
-      },
-      "6133": {
-        "NAME": "Aerochorro del Mar Celestial",
-        "ABBR": "Aerochorro MC",
-        "DESC": "Cuándo se activa: Cuando el efecto Siguiente Movimiento Compi ↑ del usuario ha aumentado.\nCuándo se desactiva: Cuando el efecto Siguiente Movimiento Compi ↑ del usuario no ha aumentado.\n\nAcierta siempre. Asesta un golpe crítico, salvo en ciertas circunstancias. La potencia de este ataque aumenta un 50% cuando el objetivo sufre algún problema de estado. Hace retroceder al objetivo."
-      },
-      "6134": {
-        "NAME": "Fuego Sagrado del Arcoíris Celestial",
-        "ABBR": "Fuego Sagrado AC",
-        "DESC": "Cuándo se activa: Cuando los PS del usuario son el 50% o más.\nCuándo se desactiva: Cuando los PS del usuario son inferiores al 50%.\n\nAcierta siempre. Descongela al usuario. Quema al objetivo. La potencia de este movimiento no se reduce incluso si hay varios objetivos. El tiempo cambia a soleado EX si los PM restantes son 3 cuando este movimiento esté seleccionado. Reduce la Defensa y la Defensa Especial del objetivo en 3 niveles si los PM restantes son 2 cuando este movimiento esté seleccionado. Aplica el efecto Aguante a todos los compis aliados si los PM restantes son 1 cuando este movimiento esté seleccionado."
-      },
-      "6135": {
-        "NAME": "Agua Lodosa Estival",
-        "ABBR": "Agua Lodosa E",
-        "DESC": "Cuándo se activa: Cuando el usuario sufre problemas de estado.\nCuándo se desactiva: Cuando el usuario no sufre problemas de estado.\n\nAcierta siempre. Reduce la Precisión del objetivo en 1 nivel. Aumenta en 1 nivel una de las siguientes características de todos los compis aliados al azar: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión."
-      },
-      "6136": {
-        "NAME": "Rayo Solar Luminoso",
-        "ABBR": "Rayo Solar L",
-        "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: No se puede desactivar.\n\nEl usuario adopta una pose de ataque. Si se usa de nuevo este movimiento, vuelve a su posición habitual y ataca. Mientras adopta la pose, el usuario no puede realizar ninguna otra acción. Cuando está soleado, el usuario ataca al instante. Acierta siempre. Reduce la Defensa Especial y la Velocidad del objetivo en 2 niveles. Cuanto más haya aumentado la Velocidad del usuario, más aumenta su efecto Siguiente Especial ↑ (hasta 3 niveles). Elimina todos los aumentos de Velocidad del usuario."
-      },
-      "10165": {
-        "NAME": "¡Adonde nos lleve el viento!",
-        "ABBR": "¡Adonde nos lleve el viento!",
-        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario. Aumenta la Velocidad del usuario en 2 niveles. Aumenta el efecto Siguiente Especial ↑ del usuario en 2 niveles."
-      },
-      "10914": {
-        "NAME": "Qué relajante...",
-        "ABBR": "Qué relajante...",
-        "DESC": "Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 4 niveles. Aplica el efecto Regeneración de PS a todos los compis aliados. Quema al usuario."
-      },
-      "11122": {
-        "NAME": "¡Cuánto brilla nuestra alma!",
-        "ABBR": "¡Cuánto brilla nuestra alma!",
-        "DESC": "Aplica el efecto Aguante al usuario. Cuanto más haya aumentado el efecto Siguiente Movimiento Compi ↑ del usuario, más se reduce su contador de movimientos compi (hasta 4 niveles)."
-      },
-      "11332": {
-        "NAME": "¡Cuán puro es nuestro corazón!",
-        "ABBR": "¡Cuán puro es nuestro corazón!",
-        "DESC": "Se reduce en 2 el contador de movimientos compi del usuario. Aumenta la Defensa y la Defensa Especial del usuario en 6 niveles."
-      },
-      "12472": {
-        "NAME": "¡Con el corazón en un puño!",
-        "ABBR": "¡Con el corazón en un puño!",
-        "DESC": "Aumenta el Ataque de todos los compis aliados en 4 niveles. Aplica el efecto Regeneración de PS a todos los compis aliados."
-      },
-      "114900": {
-        "NAME": "Archi Aerochorro Bajo una Cascada Argéntea",
-        "ABBR": "Archi Aerochorro Bajo una Cascada Argéntea",
-        "DESC": "Sin efectos secundarios."
-      },
-      "115000": {
-        "NAME": "Archi Fuego Sagrado de Tesón Áureo",
-        "ABBR": "Archi Fuego Sagrado de Tesón Áureo",
-        "DESC": "Aplica el efecto Siguiente mitiga daño al usuario la primera vez que usa su movimiento compi en cada combate."
-      },
       "120200": {
         "NAME": "Rayo Agua de Belleza Playera",
         "ABBR": "Rayo Agua de Belleza Playera",
@@ -11138,6 +11128,16 @@
       "120400": {
         "NAME": "Impacto Tierra de la Emoción del Combate",
         "ABBR": "Impacto Tierra de la Emoción del Combate",
+        "DESC": "Sin efectos secundarios."
+      },
+      "120500": {
+        "NAME": "Rayo Hielo que No Es Moco de Pavo",
+        "ABBR": "Rayo Hielo que No Es Moco de Pavo",
+        "DESC": "Sin efectos secundarios."
+      },
+      "120600": {
+        "NAME": "Impacto Roca del Rompedruscos por Antonomasia",
+        "ABBR": "Impacto Roca del Rompedruscos por Antonomasia",
         "DESC": "Sin efectos secundarios."
       }
     },
@@ -12351,6 +12351,11 @@
         "NAME": "Barra Acelerada Mitigadora +{{value}}",
         "ABBR": "Barra Acelerada Mitigadora {{value}}",
         "DESC": "Mitiga el daño recibido cuando golpean al usuario con un movimiento de ataque mientras se aplica el efecto Barra mov. acelerada al bando aliado."
+      },
+      "1302450": {
+        "NAME": "Sol Mitigador M +{{value}}",
+        "ABBR": "Sol Mitigador M {{value}}",
+        "DESC": "Mitiga el daño por movimientos de ataque que reciben los aliados cuando está soleado."
       },
       "1303010": {
         "NAME": "Vista Aguda",
@@ -15657,6 +15662,21 @@
         "ABBR": "1.ª Entrada y 1.er M-Compi Sig.Esp. ↑ +1",
         "DESC": "Aumenta el efecto Siguiente Especial ↑ del usuario en 1 nivel al entrar en combate por primera vez en cada combate. Aumenta el efecto Siguiente Especial ↑ del usuario en 1 nivel la primera vez que usa su movimiento compi en cada combate."
       },
+      "1708420": {
+        "NAME": "Acción Movimiento Compi ↑ Doble +{{value}}",
+        "ABBR": "Acc. M-Compi ↑+2 {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Movimiento Compi ↑ del usuario en 2 niveles cuando su Pokémon usa un movimiento."
+      },
+      "1708430": {
+        "NAME": "Acción de Estado Sig. Especial ↑ Doble +{{value}}",
+        "ABBR": "Acc. Est. Sig.Esp. ↑+2 {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Especial ↑ del usuario en 2 niveles cuando su Pokémon usa un movimiento de estado."
+      },
+      "1708440": {
+        "NAME": "Ataque Aliado Sig. Esp. ↑ Simple Solar +{{value}}",
+        "ABBR": "At. Aliado Sig.Esp. ↑+1 Solar {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Especial ↑ de un aliado en 1 nivel cuando su movimiento de ataque acierta mientras está soleado."
+      },
       "1708450": {
         "NAME": "At. Aliado Retr. Rival Mov. Compi ↑ Doble +{{value}}",
         "ABBR": "At. Ali. Retr. Riv. M-Compi ↑+2 {{value}}",
@@ -15681,6 +15701,31 @@
         "NAME": "Círculo Aliado Siguiente Sin Coste +{{value}}",
         "ABBR": "Círculo Ali. Sig. 0 Coste {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de aplicar el efecto Siguiente sin coste al usuario cuando un aliado aplica un círculo al bando aliado."
+      },
+      "1708550": {
+        "NAME": "Mov. Compi Siguiente Fís. Esp. ↑ Simple M +{{value}}",
+        "ABBR": "M-Compi Sig.Fís.Esp. ↑+1 M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel tras usar el movimiento compi del usuario."
+      },
+      "1708560": {
+        "NAME": "1.ª Entrada Movimiento Compi ↑ +1",
+        "ABBR": "1.ª Entrada M-Compi ↑+1",
+        "DESC": "Aumenta el efecto Siguiente Movimiento Compi ↑ del usuario en 1 nivel al entrar en combate por primera vez en cada combate."
+      },
+      "1708570": {
+        "NAME": "1.ª Acción de Estado Sig. Especial ↑ M +{{value}}",
+        "ABBR": "1.ª Acc. Est. Sig.Esp. ↑ M {{value}}",
+        "DESC": "Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel(es) la primera vez que el Pokémon del usuario usa un movimiento de estado en cada combate."
+      },
+      "1708580": {
+        "NAME": "Mov. Efecto Absorbe Daño Sig. Mov. a Todos +{{value}}",
+        "ABBR": "Mov. Efecto Absorbe Daño Sig. Mov. a Todos {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aplicar el efecto Absorbe daño sig. mov. a todos al usuario cuando su movimiento acierta."
+      },
+      "1708590": {
+        "NAME": "1.er Mov. Compi Siguiente Fís. Esp. ↑ M +{{value}}",
+        "ABBR": "1.er Mov. Compi Siguiente Fís. Esp. ↑ M {{value}}",
+        "DESC": "Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel(es) la primera vez que el usuario usa un movimiento compi en cada combate."
       },
       "1801010": {
         "NAME": "Resistencia Ataque ↓ +{{value}}",
@@ -17997,6 +18042,41 @@
         "ABBR": "At. A.Esp. ↓↓↓↓ {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de reducir el Ataque Especial del objetivo en 4 niveles cuando el movimiento de ataque del usuario contra el objetivo acierta."
       },
+      "1812190": {
+        "NAME": "1.ª Acción de Estado Ataque Especial ↑ +{{value}}",
+        "ABBR": "1.ª Acc. Est. A.Esp. ↑ {{value}}",
+        "DESC": "Aumenta el Ataque Especial del usuario en {{value}} nivel(es) la primera vez que su Pokémon usa un movimiento de estado en cada combate."
+      },
+      "1812200": {
+        "NAME": "1.ª Acción de Estado Críticos ↑ +{{value}}",
+        "ABBR": "1.ª Acc. Est. Críticos ↑ {{value}}",
+        "DESC": "Aumenta la probabilidad de asestar golpes críticos del usuario en {{value}} nivel(es) la primera vez que su Pokémon usa un movimiento de estado en cada combate."
+      },
+      "1812210": {
+        "NAME": "Ataque Defensa Especial ↓↓↓ +{{value}}",
+        "ABBR": "At. D.Esp. ↓↓↓ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir la Defensa Especial del objetivo en 3 niveles cuando el movimiento de ataque del usuario contra el objetivo acierta."
+      },
+      "1812220": {
+        "NAME": "At. Aliado Riv. Probl. de Est. Caract. ↓ +{{value}}",
+        "ABBR": "At. Aliado Riv. Probl. Est. Caract. ↓ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir en 1 nivel una de las siguientes características del objetivo al azar cuando un movimiento de ataque de un aliado acierta contra objetivos que sufren problemas de estado: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión."
+      },
+      "1812240": {
+        "NAME": "Daño Misma Característica ↑↑ M +{{value}}",
+        "ABBR": "Daño Misma Caract. ↑↑ M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar en 2 niveles una de las siguientes características de todos los compis aliados al azar cuando golpean al usuario con un movimiento de ataque: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión. Dicha característica aumenta en igual medida para todos los compis aliados."
+      },
+      "1812260": {
+        "NAME": "Acción de Estado Velocidad ↑↑↑↑↑↑ +{{value}}",
+        "ABBR": "Acc. Est. Vel. ↑↑↑↑↑↑ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar la Velocidad del usuario en 6 niveles cuando su Pokémon usa un movimiento de estado."
+      },
+      "1812270": {
+        "NAME": "Ataque Aliado Velocidad ↑ Solar M +{{value}}",
+        "ABBR": "At. Aliado Vel. ↑ Solar M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar la Velocidad de todos los compis aliados en 1 nivel cuando un movimiento de ataque de un aliado acierta mientras está soleado."
+      },
       "1812280": {
         "NAME": "Ataque Aliado Rival Atado Caract. ↑ +{{value}}",
         "ABBR": "At. Ali. Riv. Ata. Caract. ↑ {{value}}",
@@ -18922,6 +19002,16 @@
         "ABBR": "C.Galar (Def) Duradero {{value}}",
         "DESC": "Aumenta la duración de Círculo de Galar (Defensivo) cuando se le aplica Círculo de Galar (Defensivo) al bando aliado."
       },
+      "1905710": {
+        "NAME": "1.ª Entrada Círculo de Sinnoh (Defensivo)",
+        "ABBR": "1.ª Entrada C.Sinnoh (Defensivo)",
+        "DESC": "Aplica Círculo de Sinnoh (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate."
+      },
+      "1905720": {
+        "NAME": "1.er Ataque Zona Voladora EX",
+        "ABBR": "1.er Ataque Z-Voladora EX",
+        "DESC": "Crea una Zona Voladora EX la primera vez que el movimiento de ataque del usuario acierta en cada combate. (Una Zona Voladora EX potencia los ataques de tipo Volador)."
+      },
       "1905730": {
         "NAME": "1.ª Entrada Mitiga Esp. Bando y Duradero +{{value}}",
         "ABBR": "1.ª Entrada Mitiga Esp. Bando y Duradero {{value}}",
@@ -18946,6 +19036,11 @@
         "NAME": "1.ª Entrada Círculo de Paldea (Defensivo)",
         "ABBR": "1.ª Entrada C.Paldea (Def)",
         "DESC": "Aplica Círculo de Paldea (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate."
+      },
+      "1905800": {
+        "NAME": "Entrada Círculo de Johto (Fís.) y Sig. Fís. ↑ M +{{value}}",
+        "ABBR": "Entrada C.Johto (Fís) y Sig.Fís. ↑ M {{value}}",
+        "DESC": "Aplica Círculo de Johto (Físico) al bando aliado cuando el usuario entra en combate. Aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en {{value}} nivel(es) cuando el usuario entra en combate."
       },
       "2001010": {
         "NAME": "Inmunidad Arena",
@@ -19477,6 +19572,11 @@
         "ABBR": "Mito Bicho",
         "DESC": "Aumenta la potencia de los movimientos de todos los compis aliados en un 10%. Mitiga el daño por movimientos de ataque recibido por todos los compis aliados en un 20%. Cuantos más compis aliados con habilidades de equipo con el distintivo \"Bicho\" tenga el bando del usuario, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos en un 10% adicional (hasta un total máximo del 30%), y mitiga el daño recibido en un 3% adicional (hasta un total máximo del 26%)."
       },
+      "2901070": {
+        "NAME": "Mito Cielo",
+        "ABBR": "Mito Cielo",
+        "DESC": "Aumenta la potencia de los movimientos de todos los compis aliados en un 10%. Mitiga el daño por movimientos de ataque recibido por todos los compis aliados en un 20%. Cuantos más compis aliados con habilidades de equipo con el distintivo \"Volador\" tenga el bando del usuario, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos en un 10% adicional (hasta un total máximo del 30%), y mitiga el daño recibido en un 3% adicional (hasta un total máximo del 26%)."
+      },
       "2902010": {
         "NAME": "Sentencia Acero",
         "ABBR": "Sentencia Acero",
@@ -19506,6 +19606,11 @@
         "NAME": "Sentencia Bicho",
         "ABBR": "Sentencia Bicho",
         "DESC": "Aumenta la Resiliencia Bicho de todos los compis aliados en 1 nivel cuando el usuario entra en combate por primera vez en cada combate. Reduce la Resiliencia Bicho de todos los compis rivales en 1 nivel cuando el usuario entra en combate por primera vez en cada combate."
+      },
+      "2902070": {
+        "NAME": "Sentencia Cielo",
+        "ABBR": "Sentencia Cielo",
+        "DESC": "Aumenta la Resiliencia Volador de todos los compis aliados en 1 nivel cuando el usuario entra en combate por primera vez en cada combate. Reduce la Resiliencia Volador de todos los compis rivales en 1 nivel cuando el usuario entra en combate por primera vez en cada combate."
       },
       "3201010": {
         "NAME": "Mecer de las Hojas al Viento",
@@ -20912,121 +21017,6 @@
         "ABBR": "¡La Suerte Está Echada!",
         "DESC": "Otorga todos los efectos siguientes cuando el usuario entra en combate: Aumenta al azar entre 1 y 6 niveles el Ataque del usuario. Aumenta al azar entre 1 y 6 niveles la Defensa del usuario. Aumenta al azar entre 1 y 6 niveles la Defensa Especial del usuario."
       },
-      "9902900": {
-        "NAME": "Comienzo de Estación Floreciente",
-        "ABBR": "Comienzo de Estación Floreciente",
-        "DESC": "Crea un campo de hierba cuando el usuario entra en combate por primera vez en cada combate. Aumenta la duración del campo de hierba cuando el terreno cambia a campo de hierba mientras el usuario está en el campo de batalla."
-      },
-      "9902910": {
-        "NAME": "Presidente del Club de Estudios Paranormales",
-        "ABBR": "Presidente del Club de Estudios Paranormales",
-        "DESC": "Aplica Círculo de Paldea (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate. Aumenta la duración de Círculo de Paldea (Defensivo) cuando se le aplica Círculo de Paldea (Defensivo) al bando aliado."
-      },
-      "1302450": {
-        "NAME": "Sol Mitigador M +{{value}}",
-        "ABBR": "Sol Mitigador M {{value}}",
-        "DESC": "Mitiga el daño por movimientos de ataque que reciben los aliados cuando está soleado."
-      },
-      "1708420": {
-        "NAME": "Acción Movimiento Compi ↑ Doble +{{value}}",
-        "ABBR": "Acc. M-Compi ↑+2 {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Movimiento Compi ↑ del usuario en 2 niveles cuando su Pokémon usa un movimiento."
-      },
-      "1708430": {
-        "NAME": "Acción de Estado Sig. Especial ↑ Doble +{{value}}",
-        "ABBR": "Acc. Est. Sig.Esp. ↑+2 {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Especial ↑ del usuario en 2 niveles cuando su Pokémon usa un movimiento de estado."
-      },
-      "1708440": {
-        "NAME": "Ataque Aliado Sig. Esp. ↑ Simple Solar +{{value}}",
-        "ABBR": "At. Aliado Sig.Esp. ↑+1 Solar {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Especial ↑ de un aliado en 1 nivel cuando su movimiento de ataque acierta mientras está soleado."
-      },
-      "1708550": {
-        "NAME": "Mov. Compi Siguiente Fís. Esp. ↑ Simple M +{{value}}",
-        "ABBR": "M-Compi Sig.Fís.Esp. ↑+1 M {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel tras usar el movimiento compi del usuario."
-      },
-      "1708560": {
-        "NAME": "1.ª Entrada Movimiento Compi ↑ +1",
-        "ABBR": "1.ª Entrada M-Compi ↑+1",
-        "DESC": "Aumenta el efecto Siguiente Movimiento Compi ↑ del usuario en 1 nivel al entrar en combate por primera vez en cada combate."
-      },
-      "1708570": {
-        "NAME": "1.ª Acción de Estado Sig. Especial ↑ M +{{value}}",
-        "ABBR": "1.ª Acc. Est. Sig.Esp. ↑ M {{value}}",
-        "DESC": "Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel(es) la primera vez que el Pokémon del usuario usa un movimiento de estado en cada combate."
-      },
-      "1708580": {
-        "NAME": "Mov. Efecto Absorbe Daño Sig. Mov. a Todos +{{value}}",
-        "ABBR": "Mov. Efecto Absorbe Daño Sig. Mov. a Todos {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aplicar el efecto Absorbe daño sig. mov. a todos al usuario cuando su movimiento acierta."
-      },
-      "1708590": {
-        "NAME": "1.er Mov. Compi Siguiente Fís. Esp. ↑ M +{{value}}",
-        "ABBR": "1.er Mov. Compi Siguiente Fís. Esp. ↑ M {{value}}",
-        "DESC": "Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel(es) la primera vez que el usuario usa un movimiento compi en cada combate."
-      },
-      "1812190": {
-        "NAME": "1.ª Acción de Estado Ataque Especial ↑ +{{value}}",
-        "ABBR": "1.ª Acc. Est. A.Esp. ↑ {{value}}",
-        "DESC": "Aumenta el Ataque Especial del usuario en {{value}} nivel(es) la primera vez que su Pokémon usa un movimiento de estado en cada combate."
-      },
-      "1812200": {
-        "NAME": "1.ª Acción de Estado Críticos ↑ +{{value}}",
-        "ABBR": "1.ª Acc. Est. Críticos ↑ {{value}}",
-        "DESC": "Aumenta la probabilidad de asestar golpes críticos del usuario en {{value}} nivel(es) la primera vez que su Pokémon usa un movimiento de estado en cada combate."
-      },
-      "1812210": {
-        "NAME": "Ataque Defensa Especial ↓↓↓ +{{value}}",
-        "ABBR": "At. D.Esp. ↓↓↓ {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de reducir la Defensa Especial del objetivo en 3 niveles cuando el movimiento de ataque del usuario contra el objetivo acierta."
-      },
-      "1812220": {
-        "NAME": "At. Aliado Riv. Probl. de Est. Caract. ↓ +{{value}}",
-        "ABBR": "At. Aliado Riv. Probl. Est. Caract. ↓ {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de reducir en 1 nivel una de las siguientes características del objetivo al azar cuando un movimiento de ataque de un aliado acierta contra objetivos que sufren problemas de estado: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión."
-      },
-      "1812240": {
-        "NAME": "Daño Misma Característica ↑↑ M +{{value}}",
-        "ABBR": "Daño Misma Caract. ↑↑ M {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar en 2 niveles una de las siguientes características de todos los compis aliados al azar cuando golpean al usuario con un movimiento de ataque: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión. Dicha característica aumenta en igual medida para todos los compis aliados."
-      },
-      "1812260": {
-        "NAME": "Acción de Estado Velocidad ↑↑↑↑↑↑ +{{value}}",
-        "ABBR": "Acc. Est. Vel. ↑↑↑↑↑↑ {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar la Velocidad del usuario en 6 niveles cuando su Pokémon usa un movimiento de estado."
-      },
-      "1812270": {
-        "NAME": "Ataque Aliado Velocidad ↑ Solar M +{{value}}",
-        "ABBR": "At. Aliado Vel. ↑ Solar M {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar la Velocidad de todos los compis aliados en 1 nivel cuando un movimiento de ataque de un aliado acierta mientras está soleado."
-      },
-      "1905710": {
-        "NAME": "1.ª Entrada Círculo de Sinnoh (Defensivo)",
-        "ABBR": "1.ª Entrada C.Sinnoh (Defensivo)",
-        "DESC": "Aplica Círculo de Sinnoh (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate."
-      },
-      "1905720": {
-        "NAME": "1.er Ataque Zona Voladora EX",
-        "ABBR": "1.er Ataque Z-Voladora EX",
-        "DESC": "Crea una Zona Voladora EX la primera vez que el movimiento de ataque del usuario acierta en cada combate. (Una Zona Voladora EX potencia los ataques de tipo Volador)."
-      },
-      "1905800": {
-        "NAME": "Entrada Círculo de Johto (Fís.) y Sig. Fís. ↑ M +{{value}}",
-        "ABBR": "Entrada C.Johto (Fís) y Sig.Fís. ↑ M {{value}}",
-        "DESC": "Aplica Círculo de Johto (Físico) al bando aliado cuando el usuario entra en combate. Aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en {{value}} nivel(es) cuando el usuario entra en combate."
-      },
-      "2901070": {
-        "NAME": "Mito Cielo",
-        "ABBR": "Mito Cielo",
-        "DESC": "Aumenta la potencia de los movimientos de todos los compis aliados en un 10%. Mitiga el daño por movimientos de ataque recibido por todos los compis aliados en un 20%. Cuantos más compis aliados con habilidades de equipo con el distintivo \"Volador\" tenga el bando del usuario, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos en un 10% adicional (hasta un total máximo del 30%), y mitiga el daño recibido en un 3% adicional (hasta un total máximo del 26%)."
-      },
-      "2902070": {
-        "NAME": "Sentencia Cielo",
-        "ABBR": "Sentencia Cielo",
-        "DESC": "Aumenta la Resiliencia Volador de todos los compis aliados en 1 nivel cuando el usuario entra en combate por primera vez en cada combate. Reduce la Resiliencia Volador de todos los compis rivales en 1 nivel cuando el usuario entra en combate por primera vez en cada combate."
-      },
       "9902750": {
         "NAME": "Alma de Plata Reluciente",
         "ABBR": "Alma de Plata Reluciente",
@@ -21081,6 +21071,16 @@
         "NAME": "Buen Día para Pasear",
         "ABBR": "Buen Día para Pasear",
         "DESC": "Aumenta la duración del tiempo cuando cambia a soleado mientras el usuario está en el campo de batalla. Aumenta la Velocidad de todos los compis aliados en 1 nivel cuando un movimiento de ataque de un aliado acierta mientras está soleado. Aumenta el efecto Siguiente Especial ↑ de un aliado en 1 nivel cuando su movimiento de ataque acierta mientras está soleado."
+      },
+      "9902900": {
+        "NAME": "Comienzo de Estación Floreciente",
+        "ABBR": "Comienzo de Estación Floreciente",
+        "DESC": "Crea un campo de hierba cuando el usuario entra en combate por primera vez en cada combate. Aumenta la duración del campo de hierba cuando el terreno cambia a campo de hierba mientras el usuario está en el campo de batalla."
+      },
+      "9902910": {
+        "NAME": "Presidente del Club de Estudios Paranormales",
+        "ABBR": "Presidente del Club de Estudios Paranormales",
+        "DESC": "Aplica Círculo de Paldea (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate. Aumenta la duración de Círculo de Paldea (Defensivo) cuando se le aplica Círculo de Paldea (Defensivo) al bando aliado."
       }
     },
     "THEMES": {

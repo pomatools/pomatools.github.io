@@ -4815,6 +4815,26 @@
         "ABBR": "Finte ◒",
         "DESC": "Aktivierungsvoraussetzung: Wenn die KP des Anwenders weniger als 50 % betragen.\nDeaktivierungsvoraussetzung: Wenn die KP des Anwenders 50 % oder mehr betragen.\n\nTrifft garantiert. Löst zufällig einen der folgenden Zusatzeffekte 2-mal aus: Lässt das Ziel zurückschrecken, verwirrt und fängt es in einer Umschlingung. Erzeugt einen Unlicht-Fokus. (Ein Unlicht-Fokus verstärkt Angriffe vom Typ Unlicht.) Erhöht den Fluchtwert aller verbündeten Gefährten um 2. Verursacht bei allen verbündeten Gefährten den Effekt Folge-Leistenverbr. 0. Erhöht den Effekt Folge-Phys.-Attacke↑ aller verbündeten Gefährten um 2. Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 1. Verursacht beim Anwender den Effekt Folge-Schadensschutz. Erhöht den Effekt Folge-Phys.-Attacke↑ des Anwenders um 4. Senkt den Angriff und Spezial-Angriff des Anwenders um 2. Senkt die Verteidigung und Spezial-Verteidigung des Anwenders um 2."
       },
+      "6133": {
+        "NAME": "Luftstoß des tosenden Meeres",
+        "ABBR": "Luftstoß S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn der Effekt Folge-GA-Stärke↑ des Anwenders erhöht ist.\nDeaktivierungsvoraussetzung: Wenn der Effekt Folge-GA-Stärke↑ des Anwenders nicht erhöht ist.\n\nTrifft garantiert. Außer unter besonderen Umständen werden Angriffe garantiert Volltreffer, sofern sie treffen. Die Stärke dieses Angriffs steigt um 50 %, wenn das Ziel an einem Statusproblem leidet. Lässt das Ziel zurückschrecken."
+      },
+      "6134": {
+        "NAME": "Läuterfeuer des glühenden Himmels",
+        "ABBR": "Läuterfeuer S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn die KP des Anwenders 50 % oder mehr betragen.\nDeaktivierungsvoraussetzung: Wenn die KP des Anwenders weniger als 50 % betragen.\n\nTrifft garantiert. Ist der Anwender gefroren, wird er von dem Statusproblem befreit. Fügt dem Ziel Verbrennungen zu. Die Stärke dieser Attacke wird nicht gesenkt, selbst wenn mehrere Ziele vorhanden sind. Erzeugt Sonne EX, wenn die verbleibenden Attackeneinsatzpunkte (AEP) 3 betragen und diese Attacke ausgewählt wird. Senkt die Verteidigung und Spezial-Verteidigung des Zieles um 3, wenn die verbleibenden Attackeneinsatzpunkte (AEP) 2 betragen und diese Attacke ausgewählt wird. Verursacht bei allen verbündeten Gefährten den Effekt Überstehen, wenn die verbleibenden Attackeneinsatzpunkte (AEP) 1 betragen und diese Attacke ausgewählt wird."
+      },
+      "6135": {
+        "NAME": "Lehmbrühe des Hochsommers",
+        "ABBR": "Lehmbrühe S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn der Anwender an einem Statusproblem leidet.\nDeaktivierungsvoraussetzung: Wenn der Anwender nicht an einem Statusproblem leidet.\n\nTrifft garantiert. Senkt die Genauigkeit des Zieles um 1. Erhöht zufällig einen der folgenden Statuswerte aller verbündeten Gefährten um 1: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert."
+      },
+      "6136": {
+        "NAME": "Solarstrahl des sonnigen Gemüts",
+        "ABBR": "Solarstrahl S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn der Anwender eine beliebige Attacke einmal einsetzt.\nDeaktivierungsvoraussetzung: Kann nicht deaktiviert werden.\n\nDer Anwender geht in Angriffsbereitschaft. Wenn diese Attacke erneut ausgeführt wird, endet die Bereitschaft und der Anwender greift an. In Angriffsbereitschaft kann der Anwender keine weiteren Aktionen ausführen. Bei starkem Sonnenlicht geht der Anwender nicht in Angriffsbereitschaft und greift stattdessen sofort an. Trifft garantiert. Senkt die Spezial-Verteidigung und die Initiative des Zieles um 2. Je stärker die Initiative des Anwenders erhöht wurde, desto mehr wird sein Effekt Folge-Sp.-Attacke↑ erhöht (kann um bis zu maximal 3 erhöht werden). Entfernt alle Erhöhungen der Initiative des Anwenders."
+      },
       "6137": {
         "NAME": "Weißnebel der verschneiten Welt",
         "ABBR": "Weißnebel S",
@@ -5394,6 +5414,11 @@
         "NAME": "Wir haben’s eilig!",
         "ABBR": "Wir haben’s eilig!",
         "DESC": "Erhöht die Initiative und die Volltrefferquote des Anwenders um 1. Erhöht zufällig einen der folgenden Statuswerte aller verbündeten Gefährten um 2: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Genauigkeit oder Fluchtwert."
+      },
+      "10165": {
+        "NAME": "Lassen wir uns vom Wind tragen!",
+        "ABBR": "Lassen wir uns vom Wind tragen!",
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 1. Erhöht die Initiative des Anwenders um 2. Erhöht den Effekt Folge-Sp.-Attacke↑ des Anwenders um 2."
       },
       "10168": {
         "NAME": "Düsen wir durch die Lüfte!",
@@ -6025,6 +6050,11 @@
         "ABBR": "Die Untersuchung beginnt!",
         "DESC": "Erhöht den Angriff und Spezial-Angriff des Anwenders um 4. Erhöht die Volltrefferquote des Anwenders um 3. Senkt die Verteidigung und Spezial-Verteidigung des Anwenders um 1."
       },
+      "10914": {
+        "NAME": "Gönnen wir uns eine Auszeit!",
+        "ABBR": "Gönnen wir uns eine Auszeit!",
+        "DESC": "Erhöht die Verteidigung und Spezial-Verteidigung aller verbündeten Gefährten um 4. Verursacht bei allen verbündeten Gefährten den Effekt KP-Regenerierung. Der Anwender erleidet Verbrennungen."
+      },
       "10916": {
         "NAME": "Es ist noch nicht vorbei!",
         "ABBR": "Es ist noch nicht vorbei!",
@@ -6299,6 +6329,11 @@
         "NAME": "Jetzt reicht es aber!",
         "ABBR": "Jetzt reicht es aber!",
         "DESC": "Hat eine 50 %-Chance, den Wert des Gefährtenattacken-Countdowns des Anwenders um  1 zu reduzieren. Erhöht die Genauigkeit des Anwenders um 1. Verursacht beim Anwender den Effekt Folgevolltreffer. Erhöht den Effekt Folge-Sp.-Attacke↑ des Anwenders um 3."
+      },
+      "11122": {
+        "NAME": "Das Licht in unseren Herzen!",
+        "ABBR": "Das Licht in unseren Herzen!",
+        "DESC": "Verursacht beim Anwender den Effekt Überstehen. Je stärker der Effekt Folge-GA-Stärke↑ des Anwenders erhöht wurde, desto mehr wird der Wert seines Gefährtenattacken- Countdowns reduziert (kann um bis zu maximal 4 reduziert werden)."
       },
       "11129": {
         "NAME": "Ein Herz aus purem Gold!",
@@ -6669,6 +6704,11 @@
         "NAME": "Ich lass dich nicht im Stich!",
         "ABBR": "Ich lass dich nicht im Stich!",
         "DESC": "Verursacht auf der Anwender-Seite den Effekt Attackenleiste↑. Erhöht den Angriff des Anwenders um 3."
+      },
+      "11332": {
+        "NAME": "Gerechtigkeit und Stärke!",
+        "ABBR": "Gerechtigkeit und Stärke!",
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 2. Erhöht die Verteidigung und Spezial-Verteidigung des Anwenders um 6."
       },
       "11337": {
         "NAME": "Tobt euch aus!",
@@ -7309,6 +7349,11 @@
         "NAME": "Maximal endlos!",
         "ABBR": "Maximal endlos!",
         "DESC": "Reduziert den Wert des Gefährtenattacken-Countdowns des Anwenders um 1. Erhöht den Spezial-Angriff des Anwenders um 3. Verursacht beim Anwender den Effekt Folge-Effektiv.-Stärke↑. Senkt die Spezial-Verteidigung des Anwenders um 1."
+      },
+      "12472": {
+        "NAME": "Spürt die Begeisterung!",
+        "ABBR": "Spürt die Begeisterung!",
+        "DESC": "Erhöht den Angriff aller verbündeten Gefährten um 4. Verursacht bei allen verbündeten Gefährten den Effekt KP-Regenerierung."
       },
       "12474": {
         "NAME": "Zeit für Geschenke!",
@@ -10870,6 +10915,16 @@
         "ABBR": "Wasserstrahl der präzisen Einschätzung",
         "DESC": "Hat keinen Zusatzeffekt."
       },
+      "114900": {
+        "NAME": "Alpha-Luftstoß der silbernen Galaxie",
+        "ABBR": "Alpha-Luftstoß der silbernen Galaxie",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
+      "115000": {
+        "NAME": "Alpha-Läuterfeuer der goldenen Regel",
+        "ABBR": "Alpha-Läuterfeuer der goldenen Regel",
+        "DESC": "Verursacht ein Mal pro Kampf beim Anwender den Effekt Folge-Schadensschutz, wenn er erstmals seine Gefährtenattacke einsetzt."
+      },
       "115100": {
         "NAME": "Pflanzenstrahl des erblühenden Mutes",
         "ABBR": "Pflanzenstrahl des erblühenden Mutes",
@@ -11060,71 +11115,6 @@
         "ABBR": "Feenstrahl des ungebrochenen Stolzes",
         "DESC": "Hat keinen Zusatzeffekt."
       },
-      "120500": {
-        "NAME": "Froststrahl des kaltblütigen Kampfstils",
-        "ABBR": "Froststrahl des kaltblütigen Kampfstils",
-        "DESC": "Hat keinen Zusatzeffekt."
-      },
-      "120600": {
-        "NAME": "Gesteinsstoß der berstenden Felsen",
-        "ABBR": "Gesteinsstoß der berstenden Felsen",
-        "DESC": "Hat keinen Zusatzeffekt."
-      },
-      "6133": {
-        "NAME": "Luftstoß des tosenden Meeres",
-        "ABBR": "Luftstoß S",
-        "DESC": "Aktivierungsvoraussetzung: Wenn der Effekt Folge-GA-Stärke↑ des Anwenders erhöht ist.\nDeaktivierungsvoraussetzung: Wenn der Effekt Folge-GA-Stärke↑ des Anwenders nicht erhöht ist.\n\nTrifft garantiert. Außer unter besonderen Umständen werden Angriffe garantiert Volltreffer, sofern sie treffen. Die Stärke dieses Angriffs steigt um 50 %, wenn das Ziel an einem Statusproblem leidet. Lässt das Ziel zurückschrecken."
-      },
-      "6134": {
-        "NAME": "Läuterfeuer des glühenden Himmels",
-        "ABBR": "Läuterfeuer S",
-        "DESC": "Aktivierungsvoraussetzung: Wenn die KP des Anwenders 50 % oder mehr betragen.\nDeaktivierungsvoraussetzung: Wenn die KP des Anwenders weniger als 50 % betragen.\n\nTrifft garantiert. Ist der Anwender gefroren, wird er von dem Statusproblem befreit. Fügt dem Ziel Verbrennungen zu. Die Stärke dieser Attacke wird nicht gesenkt, selbst wenn mehrere Ziele vorhanden sind. Erzeugt Sonne EX, wenn die verbleibenden Attackeneinsatzpunkte (AEP) 3 betragen und diese Attacke ausgewählt wird. Senkt die Verteidigung und Spezial-Verteidigung des Zieles um 3, wenn die verbleibenden Attackeneinsatzpunkte (AEP) 2 betragen und diese Attacke ausgewählt wird. Verursacht bei allen verbündeten Gefährten den Effekt Überstehen, wenn die verbleibenden Attackeneinsatzpunkte (AEP) 1 betragen und diese Attacke ausgewählt wird."
-      },
-      "6135": {
-        "NAME": "Lehmbrühe des Hochsommers",
-        "ABBR": "Lehmbrühe S",
-        "DESC": "Aktivierungsvoraussetzung: Wenn der Anwender an einem Statusproblem leidet.\nDeaktivierungsvoraussetzung: Wenn der Anwender nicht an einem Statusproblem leidet.\n\nTrifft garantiert. Senkt die Genauigkeit des Zieles um 1. Erhöht zufällig einen der folgenden Statuswerte aller verbündeten Gefährten um 1: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert."
-      },
-      "6136": {
-        "NAME": "Solarstrahl des sonnigen Gemüts",
-        "ABBR": "Solarstrahl S",
-        "DESC": "Aktivierungsvoraussetzung: Wenn der Anwender eine beliebige Attacke einmal einsetzt.\nDeaktivierungsvoraussetzung: Kann nicht deaktiviert werden.\n\nDer Anwender geht in Angriffsbereitschaft. Wenn diese Attacke erneut ausgeführt wird, endet die Bereitschaft und der Anwender greift an. In Angriffsbereitschaft kann der Anwender keine weiteren Aktionen ausführen. Bei starkem Sonnenlicht geht der Anwender nicht in Angriffsbereitschaft und greift stattdessen sofort an. Trifft garantiert. Senkt die Spezial-Verteidigung und die Initiative des Zieles um 2. Je stärker die Initiative des Anwenders erhöht wurde, desto mehr wird sein Effekt Folge-Sp.-Attacke↑ erhöht (kann um bis zu maximal 3 erhöht werden). Entfernt alle Erhöhungen der Initiative des Anwenders."
-      },
-      "10165": {
-        "NAME": "Lassen wir uns vom Wind tragen!",
-        "ABBR": "Lassen wir uns vom Wind tragen!",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 1. Erhöht die Initiative des Anwenders um 2. Erhöht den Effekt Folge-Sp.-Attacke↑ des Anwenders um 2."
-      },
-      "10914": {
-        "NAME": "Gönnen wir uns eine Auszeit!",
-        "ABBR": "Gönnen wir uns eine Auszeit!",
-        "DESC": "Erhöht die Verteidigung und Spezial-Verteidigung aller verbündeten Gefährten um 4. Verursacht bei allen verbündeten Gefährten den Effekt KP-Regenerierung. Der Anwender erleidet Verbrennungen."
-      },
-      "11122": {
-        "NAME": "Das Licht in unseren Herzen!",
-        "ABBR": "Das Licht in unseren Herzen!",
-        "DESC": "Verursacht beim Anwender den Effekt Überstehen. Je stärker der Effekt Folge-GA-Stärke↑ des Anwenders erhöht wurde, desto mehr wird der Wert seines Gefährtenattacken- Countdowns reduziert (kann um bis zu maximal 4 reduziert werden)."
-      },
-      "11332": {
-        "NAME": "Gerechtigkeit und Stärke!",
-        "ABBR": "Gerechtigkeit und Stärke!",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 2. Erhöht die Verteidigung und Spezial-Verteidigung des Anwenders um 6."
-      },
-      "12472": {
-        "NAME": "Spürt die Begeisterung!",
-        "ABBR": "Spürt die Begeisterung!",
-        "DESC": "Erhöht den Angriff aller verbündeten Gefährten um 4. Verursacht bei allen verbündeten Gefährten den Effekt KP-Regenerierung."
-      },
-      "114900": {
-        "NAME": "Alpha-Luftstoß der silbernen Galaxie",
-        "ABBR": "Alpha-Luftstoß der silbernen Galaxie",
-        "DESC": "Hat keinen Zusatzeffekt."
-      },
-      "115000": {
-        "NAME": "Alpha-Läuterfeuer der goldenen Regel",
-        "ABBR": "Alpha-Läuterfeuer der goldenen Regel",
-        "DESC": "Verursacht ein Mal pro Kampf beim Anwender den Effekt Folge-Schadensschutz, wenn er erstmals seine Gefährtenattacke einsetzt."
-      },
       "120200": {
         "NAME": "Wasserstrahl der umwerfenden Urlauberin",
         "ABBR": "Wasserstrahl der umwerfenden Urlauberin",
@@ -11138,6 +11128,16 @@
       "120400": {
         "NAME": "Bodenstoß des erwachten Kampfgeists",
         "ABBR": "Bodenstoß des erwachten Kampfgeists",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
+      "120500": {
+        "NAME": "Froststrahl des kaltblütigen Kampfstils",
+        "ABBR": "Froststrahl des kaltblütigen Kampfstils",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
+      "120600": {
+        "NAME": "Gesteinsstoß der berstenden Felsen",
+        "ABBR": "Gesteinsstoß der berstenden Felsen",
         "DESC": "Hat keinen Zusatzeffekt."
       }
     },
@@ -12351,6 +12351,11 @@
         "NAME": "Attackenleiste↑-Schaden↓ {{value}}",
         "ABBR": "Att.l.↑ Sch.↓ {{value}}",
         "DESC": "Verringert den erlittenen Schaden, wenn der Anwender von einem Angriff mit einer Attacke getroffen wird, während der Effekt Attackenleiste↑ auf der Anwender-Seite aktiv ist."
+      },
+      "1302450": {
+        "NAME": "Sonne-Schaden↓ T {{value}}",
+        "ABBR": "Sonne Schaden↓ T {{value}}",
+        "DESC": "Verringert bei starkem Sonnenlicht den durch Angriffe mit Attacken erlittenen Schaden von Verbündeten."
       },
       "1303010": {
         "NAME": "Treffergarantie",
@@ -15657,6 +15662,21 @@
         "ABBR": "Erstantr. Sp. Boost+Erst GA Sp. Boost 1",
         "DESC": "Erhöht ein Mal pro Kampf den Effekt Folge-Sp.-Attacke↑ des Anwenders um 1, wenn er erstmals den Kampf antritt. Erhöht ein Mal pro Kampf den Effekt Folge-Sp.-Attacke↑ des Anwenders um 1, wenn er erstmals seine Gefährtenattacke einsetzt."
       },
+      "1708420": {
+        "NAME": "P-Attacke-2×-GA-Boost {{value}}",
+        "ABBR": "P Attacke 2× GA Boost {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-GA-Stärke↑ des Anwenders um 2 zu erhöhen, wenn sein Pokémon eine Attacke einsetzt."
+      },
+      "1708430": {
+        "NAME": "P-Status-Attacke-2×-Spezial-Boost {{value}}",
+        "ABBR": "P Status Attacke 2× Spezial Boost {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Sp.-Attacke↑ des Anwenders um 2 zu erhöhen, wenn sein Pokémon eine Status-Attacke einsetzt."
+      },
+      "1708440": {
+        "NAME": "Sonne-Mitstr.-Angriff-1×-Spez.-Boost {{value}}",
+        "ABBR": "Sonne Mitstr. Angriff 1× Spez. Boost {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Sp.-Attacke↑ eines Verbündeten um 1 zu erhöhen, wenn sein Angriff mit einer Attacke bei starkem Sonnenlicht Erfolg hat."
+      },
       "1708450": {
         "NAME": "Geg.-Schreck-Mitstr.-Ang.-2×-GA-Boost {{value}}",
         "ABBR": "Geg. Schreck Mitstr. Ang. 2× GA Boost {{value}}",
@@ -15681,6 +15701,31 @@
         "NAME": "Mitstr.-Freundeskreis-Folge-Leistenv. 0 {{value}}",
         "ABBR": "Mitstr. Freundeskreis Folge Leistenv. 0 {{value}}",
         "DESC": "Hat eine {{chance}} %-Chance beim Anwender den Effekt Folge-Leistenverbr. 0 zu verursachen, wenn ein Verbündeter einen Freundeskreis auf der Anwender-Seite verursacht."
+      },
+      "1708550": {
+        "NAME": "GA-1×-Phys.+Spez.-Boost T {{value}}",
+        "ABBR": "GA 1× Phys.+Spez. Boost T {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1 zu erhöhen, nachdem der Anwender seine Gefährtenattacke eingesetzt hat."
+      },
+      "1708560": {
+        "NAME": "Erstantritt-GA-Boost 1",
+        "ABBR": "Erstantritt GA Boost 1",
+        "DESC": "Erhöht ein Mal pro Kampf den Effekt Folge-GA-Stärke↑ des Anwenders um 1, wenn er erstmals den Kampf antritt."
+      },
+      "1708570": {
+        "NAME": "Erst-P-Status-Att.-Spez.-Boost T {{value}}",
+        "ABBR": "Erst P Status Att. Spez. Boost T {{value}}",
+        "DESC": "Erhöht ein Mal pro Kampf den Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um {{value}}, wenn das Pokémon des Anwenders erstmals eine Status-Attacke einsetzt."
+      },
+      "1708580": {
+        "NAME": "Att.-F.-Att.-Schadensabsorp.-v.-Mitstr. {{value}}",
+        "ABBR": "Att. F. Att. Schadensabsorp. v. Mitstr. {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance beim Anwender den Effekt F.-Att.-Schadensabsorp.-v.-Mitstr. zu verursachen, wenn seine Attacke Erfolg hat."
+      },
+      "1708590": {
+        "NAME": "Erst-GA-Phys.+Spez.-Boost T {{value}}",
+        "ABBR": "Erst GA Phys.+Spez. Boost T {{value}}",
+        "DESC": "Erhöht ein Mal pro Kampf die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ aller verbündeten Gefährten um {{value}}, wenn der Anwender erstmals seine Gefährtenattacke einsetzt."
       },
       "1801010": {
         "NAME": "Angriff↓-Resistenz {{value}}",
@@ -17997,6 +18042,41 @@
         "ABBR": "Angriff Spezial Angriff 4↓ {{value}}",
         "DESC": "Hat eine {{chance}} %-Chance den Spezial-Angriff des Zieles um 4 zu senken, wenn der Angriff des Anwenders mit einer Attacke gegen es Erfolg hat."
       },
+      "1812190": {
+        "NAME": "Erst-P-Status-Att.-Sp.-Angriff↑ {{value}}",
+        "ABBR": "Erst P Status Att. Sp. Angriff↑ {{value}}",
+        "DESC": "Erhöht ein Mal pro Kampf den Spezial-Angriff des Anwenders um {{value}}, wenn sein Pokémon erstmals eine Status-Attacke einsetzt."
+      },
+      "1812200": {
+        "NAME": "Erst-P-Status-Attacke-Volltreffer↑ {{value}}",
+        "ABBR": "Erst P Status Attacke Volltreffer↑ {{value}}",
+        "DESC": "Erhöht ein Mal pro Kampf die Volltrefferquote des Anwenders um {{value}}, wenn sein Pokémon erstmals eine Status-Attacke einsetzt."
+      },
+      "1812210": {
+        "NAME": "Angriff-Sp.-Vert. 3↓ {{value}}",
+        "ABBR": "Angriff Sp. Vert. 3↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die Spezial-Verteidigung des Zieles um 3 zu senken, wenn der Angriff des Anwenders mit einer Attacke gegen es Erfolg hat."
+      },
+      "1812220": {
+        "NAME": "Geg.-Problem-Mitstr.-Angriff-Wert↓ {{value}}",
+        "ABBR": "Geg. Problem Mitstr. Angriff Wert↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance zufällig einen der folgenden Statuswerte des Zieles um 1 zu senken, wenn ein Angriff eines Verbündeten mit einer Attacke auf Ziele, die an Statusproblemen leiden, Erfolg hat: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert."
+      },
+      "1812240": {
+        "NAME": "Gegentreffer-Ident.-Wert-2↑ T {{value}}",
+        "ABBR": "Gegentreffer Ident. Wert 2↑ T {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance zufällig einen der folgenden Statuswerte aller verbündeten Gefährten um 2 zu erhöhen, wenn der Anwender von einem Angriff mit einer Attacke getroffen wird: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert. (Derselbe Statuswert wird für alle verbündeten Gefährten erhöht.)"
+      },
+      "1812260": {
+        "NAME": "P-Status-Att.-Initiative 6↑ {{value}}",
+        "ABBR": "P Status Att. Initiative 6↑ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die Initiative des Anwenders um 6 zu erhöhen, wenn sein Pokémon eine Status-Attacke einsetzt."
+      },
+      "1812270": {
+        "NAME": "Sonne-Mitstr.-Angriff-Initiative↑ T {{value}}",
+        "ABBR": "Sonne Mitstr. Angriff Initiative↑ T {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die Initiative aller verbündeten Gefährten um 1 zu erhöhen, wenn ein Angriff eines Verbündeten mit einer Attacke bei starkem Sonnenlicht Erfolg hat."
+      },
       "1812280": {
         "NAME": "Geg.-Umschl.-Mitstr.-Ang.-Wert↑ {{value}}",
         "ABBR": "Geg. Umschl. Mitstr. Ang. Wert↑ {{value}}",
@@ -18922,6 +19002,16 @@
         "ABBR": "Galars Freundeskreis (Vert.): Dauer↑ {{value}}",
         "DESC": "Verlängert die Dauer vom Galars Freundeskreis (Verteidigung), wenn Galars Freundeskreis (Verteidigung) auf der Anwender-Seite verursacht wird."
       },
+      "1905710": {
+        "NAME": "Erstantritt: Sinnohs Freundeskr. (Vert.)",
+        "ABBR": "Erstantritt: Sinnohs Freundeskr. (Vert.)",
+        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Sinnohs Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt."
+      },
+      "1905720": {
+        "NAME": "Erst-Angriff: Flug-Fokus EX",
+        "ABBR": "Erst Angriff: Flug Fokus EX",
+        "DESC": "Erzeugt ein Mal pro Kampf einen Flug-Fokus EX, wenn der Angriff des Anwenders mit einer Attacke erstmals Erfolg hat. (Ein Flug-Fokus EX verstärkt Angriffe vom Typ Flug.)"
+      },
       "1905730": {
         "NAME": "Erstantr.-Sp.-Schad.↓+Sp.-Schad.↓-Dauer↑ {{value}}",
         "ABBR": "Erstantr. Sp. Schad.↓+Sp. Schad.↓ Dauer↑ {{value}}",
@@ -18946,6 +19036,11 @@
         "NAME": "Erstantritt: Paldeas Freundeskr. (Vert.)",
         "ABBR": "Erstantr.: Paldeas Freundeskr. (Vert.)",
         "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Paldeas Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt."
+      },
+      "1905800": {
+        "NAME": "Antr.: Johtos Freundeskr. (Phys.) + Phys. Boost T {{value}}",
+        "ABBR": "Antr.: Johtos Freundeskr. (Phys.) + Phys. Boost T {{value}}",
+        "DESC": "Verursacht auf der Anwender-Seite Johtos Freundeskreis (Physisch), wenn der Anwender den Kampf antritt. Erhöht den Effekt Folge-Phys.-Attacke↑ aller verbündeten Gefährten um {{value}}, wenn der Anwender den Kampf antritt."
       },
       "2001010": {
         "NAME": "Sandsturmschutz",
@@ -19477,6 +19572,11 @@
         "ABBR": "Käfer Mythos",
         "DESC": "Erhöht die Stärke der Attacken aller verbündeten Gefährten um 10 %. Verringert den durch Angriffe mit Attacken erlittenen Schaden aller verbündeten Gefährten um 20 %. Je mehr verbündete Gefährten das Käfer-Attribut haben, desto mehr steigt die Effektivität. (Jedes zusätzliche Gefährtengespann steigert die Stärke der Attacken um 10 % und verringert den erlittenen Schaden um 3 %. Die Stärke der Attacken kann um maximal 30 % erhöht und der Schaden um maximal 26 % verringert werden.)"
       },
+      "2901070": {
+        "NAME": "Wolken-Mythos",
+        "ABBR": "Wolken Mythos",
+        "DESC": "Erhöht die Stärke der Attacken aller verbündeten Gefährten um 10 %. Verringert den durch Angriffe mit Attacken erlittenen Schaden aller verbündeten Gefährten um 20 %. Je mehr verbündete Gefährten das Flug-Attribut haben, desto mehr steigt die Effektivität. (Jedes zusätzliche Gefährtengespann steigert die Stärke der Attacken um 10 % und verringert den erlittenen Schaden um 3 %. Die Stärke der Attacken kann um maximal 30 % erhöht und der Schaden um maximal 26 % verringert werden.)"
+      },
       "2902010": {
         "NAME": "Eisen-Urteil",
         "ABBR": "Eisen Urteil",
@@ -19506,6 +19606,11 @@
         "NAME": "Käfer-Urteil",
         "ABBR": "Käfer Urteil",
         "DESC": "Erhöht ein Mal pro Kampf den Käferwiderstand aller verbündeten Gefährten um 1, wenn der Anwender erstmals den Kampf antritt. Senkt ein Mal pro Kampf den Käferwiderstand aller gegnerischen Gefährten um 1, wenn der Anwender erstmals den Kampf antritt."
+      },
+      "2902070": {
+        "NAME": "Wolken-Urteil",
+        "ABBR": "Wolken Urteil",
+        "DESC": "Erhöht ein Mal pro Kampf den Flugwiderstand aller verbündeten Gefährten um 1, wenn der Anwender erstmals den Kampf antritt. Senkt ein Mal pro Kampf den Flugwiderstand aller gegnerischen Gefährten um 1, wenn der Anwender erstmals den Kampf antritt."
       },
       "3201010": {
         "NAME": "Die innere Ruhe des Waldes",
@@ -20912,121 +21017,6 @@
         "ABBR": "Der Würfel ist gefallen!",
         "DESC": "Löst alle folgenden Effekte aus, wenn der Anwender den Kampf antritt: Erhöht den Angriff des Anwenders zufällig um 1 bis 6. Erhöht die Verteidigung des Anwenders zufällig um 1 bis 6. Erhöht die Spezial-Verteidigung des Anwenders zufällig um 1 bis 6."
       },
-      "9902900": {
-        "NAME": "Zeit des Erblühens",
-        "ABBR": "Zeit des Erblühens",
-        "DESC": "Erzeugt ein Mal pro Kampf ein Grasfeld, wenn der Anwender erstmals den Kampf antritt. Verlängert die Dauer vom Grasfeld, wenn ein Grasfeld erzeugt wird, während der Anwender auf dem Feld ist."
-      },
-      "9902910": {
-        "NAME": "Vorsitzender des Clubs für Paranormales",
-        "ABBR": "Vorsitzender des Clubs für Paranormales",
-        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Paldeas Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt. Verlängert die Dauer vom Paldeas Freundeskreis (Verteidigung), wenn Paldeas Freundeskreis (Verteidigung) auf der Anwender-Seite verursacht wird."
-      },
-      "1302450": {
-        "NAME": "Sonne-Schaden↓ T {{value}}",
-        "ABBR": "Sonne Schaden↓ T {{value}}",
-        "DESC": "Verringert bei starkem Sonnenlicht den durch Angriffe mit Attacken erlittenen Schaden von Verbündeten."
-      },
-      "1708420": {
-        "NAME": "P-Attacke-2×-GA-Boost {{value}}",
-        "ABBR": "P Attacke 2× GA Boost {{value}}",
-        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-GA-Stärke↑ des Anwenders um 2 zu erhöhen, wenn sein Pokémon eine Attacke einsetzt."
-      },
-      "1708430": {
-        "NAME": "P-Status-Attacke-2×-Spezial-Boost {{value}}",
-        "ABBR": "P Status Attacke 2× Spezial Boost {{value}}",
-        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Sp.-Attacke↑ des Anwenders um 2 zu erhöhen, wenn sein Pokémon eine Status-Attacke einsetzt."
-      },
-      "1708440": {
-        "NAME": "Sonne-Mitstr.-Angriff-1×-Spez.-Boost {{value}}",
-        "ABBR": "Sonne Mitstr. Angriff 1× Spez. Boost {{value}}",
-        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Sp.-Attacke↑ eines Verbündeten um 1 zu erhöhen, wenn sein Angriff mit einer Attacke bei starkem Sonnenlicht Erfolg hat."
-      },
-      "1708550": {
-        "NAME": "GA-1×-Phys.+Spez.-Boost T {{value}}",
-        "ABBR": "GA 1× Phys.+Spez. Boost T {{value}}",
-        "DESC": "Hat eine {{chance}} %-Chance die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1 zu erhöhen, nachdem der Anwender seine Gefährtenattacke eingesetzt hat."
-      },
-      "1708560": {
-        "NAME": "Erstantritt-GA-Boost 1",
-        "ABBR": "Erstantritt GA Boost 1",
-        "DESC": "Erhöht ein Mal pro Kampf den Effekt Folge-GA-Stärke↑ des Anwenders um 1, wenn er erstmals den Kampf antritt."
-      },
-      "1708570": {
-        "NAME": "Erst-P-Status-Att.-Spez.-Boost T {{value}}",
-        "ABBR": "Erst P Status Att. Spez. Boost T {{value}}",
-        "DESC": "Erhöht ein Mal pro Kampf den Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um {{value}}, wenn das Pokémon des Anwenders erstmals eine Status-Attacke einsetzt."
-      },
-      "1708580": {
-        "NAME": "Att.-F.-Att.-Schadensabsorp.-v.-Mitstr. {{value}}",
-        "ABBR": "Att. F. Att. Schadensabsorp. v. Mitstr. {{value}}",
-        "DESC": "Hat eine {{chance}} %-Chance beim Anwender den Effekt F.-Att.-Schadensabsorp.-v.-Mitstr. zu verursachen, wenn seine Attacke Erfolg hat."
-      },
-      "1708590": {
-        "NAME": "Erst-GA-Phys.+Spez.-Boost T {{value}}",
-        "ABBR": "Erst GA Phys.+Spez. Boost T {{value}}",
-        "DESC": "Erhöht ein Mal pro Kampf die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ aller verbündeten Gefährten um {{value}}, wenn der Anwender erstmals seine Gefährtenattacke einsetzt."
-      },
-      "1812190": {
-        "NAME": "Erst-P-Status-Att.-Sp.-Angriff↑ {{value}}",
-        "ABBR": "Erst P Status Att. Sp. Angriff↑ {{value}}",
-        "DESC": "Erhöht ein Mal pro Kampf den Spezial-Angriff des Anwenders um {{value}}, wenn sein Pokémon erstmals eine Status-Attacke einsetzt."
-      },
-      "1812200": {
-        "NAME": "Erst-P-Status-Attacke-Volltreffer↑ {{value}}",
-        "ABBR": "Erst P Status Attacke Volltreffer↑ {{value}}",
-        "DESC": "Erhöht ein Mal pro Kampf die Volltrefferquote des Anwenders um {{value}}, wenn sein Pokémon erstmals eine Status-Attacke einsetzt."
-      },
-      "1812210": {
-        "NAME": "Angriff-Sp.-Vert. 3↓ {{value}}",
-        "ABBR": "Angriff Sp. Vert. 3↓ {{value}}",
-        "DESC": "Hat eine {{chance}} %-Chance die Spezial-Verteidigung des Zieles um 3 zu senken, wenn der Angriff des Anwenders mit einer Attacke gegen es Erfolg hat."
-      },
-      "1812220": {
-        "NAME": "Geg.-Problem-Mitstr.-Angriff-Wert↓ {{value}}",
-        "ABBR": "Geg. Problem Mitstr. Angriff Wert↓ {{value}}",
-        "DESC": "Hat eine {{chance}} %-Chance zufällig einen der folgenden Statuswerte des Zieles um 1 zu senken, wenn ein Angriff eines Verbündeten mit einer Attacke auf Ziele, die an Statusproblemen leiden, Erfolg hat: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert."
-      },
-      "1812240": {
-        "NAME": "Gegentreffer-Ident.-Wert-2↑ T {{value}}",
-        "ABBR": "Gegentreffer Ident. Wert 2↑ T {{value}}",
-        "DESC": "Hat eine {{chance}} %-Chance zufällig einen der folgenden Statuswerte aller verbündeten Gefährten um 2 zu erhöhen, wenn der Anwender von einem Angriff mit einer Attacke getroffen wird: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert. (Derselbe Statuswert wird für alle verbündeten Gefährten erhöht.)"
-      },
-      "1812260": {
-        "NAME": "P-Status-Att.-Initiative 6↑ {{value}}",
-        "ABBR": "P Status Att. Initiative 6↑ {{value}}",
-        "DESC": "Hat eine {{chance}} %-Chance die Initiative des Anwenders um 6 zu erhöhen, wenn sein Pokémon eine Status-Attacke einsetzt."
-      },
-      "1812270": {
-        "NAME": "Sonne-Mitstr.-Angriff-Initiative↑ T {{value}}",
-        "ABBR": "Sonne Mitstr. Angriff Initiative↑ T {{value}}",
-        "DESC": "Hat eine {{chance}} %-Chance die Initiative aller verbündeten Gefährten um 1 zu erhöhen, wenn ein Angriff eines Verbündeten mit einer Attacke bei starkem Sonnenlicht Erfolg hat."
-      },
-      "1905710": {
-        "NAME": "Erstantritt: Sinnohs Freundeskr. (Vert.)",
-        "ABBR": "Erstantritt: Sinnohs Freundeskr. (Vert.)",
-        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Sinnohs Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt."
-      },
-      "1905720": {
-        "NAME": "Erst-Angriff: Flug-Fokus EX",
-        "ABBR": "Erst Angriff: Flug Fokus EX",
-        "DESC": "Erzeugt ein Mal pro Kampf einen Flug-Fokus EX, wenn der Angriff des Anwenders mit einer Attacke erstmals Erfolg hat. (Ein Flug-Fokus EX verstärkt Angriffe vom Typ Flug.)"
-      },
-      "1905800": {
-        "NAME": "Antr.: Johtos Freundeskr. (Phys.) + Phys. Boost T {{value}}",
-        "ABBR": "Antr.: Johtos Freundeskr. (Phys.) + Phys. Boost T {{value}}",
-        "DESC": "Verursacht auf der Anwender-Seite Johtos Freundeskreis (Physisch), wenn der Anwender den Kampf antritt. Erhöht den Effekt Folge-Phys.-Attacke↑ aller verbündeten Gefährten um {{value}}, wenn der Anwender den Kampf antritt."
-      },
-      "2901070": {
-        "NAME": "Wolken-Mythos",
-        "ABBR": "Wolken Mythos",
-        "DESC": "Erhöht die Stärke der Attacken aller verbündeten Gefährten um 10 %. Verringert den durch Angriffe mit Attacken erlittenen Schaden aller verbündeten Gefährten um 20 %. Je mehr verbündete Gefährten das Flug-Attribut haben, desto mehr steigt die Effektivität. (Jedes zusätzliche Gefährtengespann steigert die Stärke der Attacken um 10 % und verringert den erlittenen Schaden um 3 %. Die Stärke der Attacken kann um maximal 30 % erhöht und der Schaden um maximal 26 % verringert werden.)"
-      },
-      "2902070": {
-        "NAME": "Wolken-Urteil",
-        "ABBR": "Wolken Urteil",
-        "DESC": "Erhöht ein Mal pro Kampf den Flugwiderstand aller verbündeten Gefährten um 1, wenn der Anwender erstmals den Kampf antritt. Senkt ein Mal pro Kampf den Flugwiderstand aller gegnerischen Gefährten um 1, wenn der Anwender erstmals den Kampf antritt."
-      },
       "9902750": {
         "NAME": "Silberglänzendes Herz",
         "ABBR": "Silberglänzendes Herz",
@@ -21081,6 +21071,16 @@
         "NAME": "Schönwetterausflug!",
         "ABBR": "Schönwetterausflug!",
         "DESC": "Verlängert die Dauer von starkem Sonnenlicht, wenn das starke Sonnenlicht beginnt, während der Anwender auf dem Feld ist. Erhöht die Initiative aller verbündeten Gefährten um 1, wenn ein Angriff eines Verbündeten mit einer Attacke bei starkem Sonnenlicht Erfolg hat. Erhöht den Effekt Folge-Sp.-Attacke↑ eines Verbündeten um 1, wenn sein Angriff mit einer Attacke bei starkem Sonnenlicht Erfolg hat."
+      },
+      "9902900": {
+        "NAME": "Zeit des Erblühens",
+        "ABBR": "Zeit des Erblühens",
+        "DESC": "Erzeugt ein Mal pro Kampf ein Grasfeld, wenn der Anwender erstmals den Kampf antritt. Verlängert die Dauer vom Grasfeld, wenn ein Grasfeld erzeugt wird, während der Anwender auf dem Feld ist."
+      },
+      "9902910": {
+        "NAME": "Vorsitzender des Clubs für Paranormales",
+        "ABBR": "Vorsitzender des Clubs für Paranormales",
+        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Paldeas Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt. Verlängert die Dauer vom Paldeas Freundeskreis (Verteidigung), wenn Paldeas Freundeskreis (Verteidigung) auf der Anwender-Seite verursacht wird."
       }
     },
     "THEMES": {
