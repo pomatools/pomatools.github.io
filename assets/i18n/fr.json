@@ -4167,10 +4167,25 @@
         "ABBR": "Marteau Mastoc",
         "DESC": "Aucun effet additionnel."
       },
+      "902": {
+        "NAME": "Mortier Matcha",
+        "ABBR": "Mortier Matcha",
+        "DESC": "Dégèle le lanceur. 20 % de chances de brûler la cible. Plus la cible subit de dégâts, plus les PV du lanceur sont restaurés."
+      },
       "909": {
         "NAME": "Vif Éclair",
         "ABBR": "Vif Éclair",
         "DESC": "Aucun effet additionnel."
+      },
+      "4041": {
+        "NAME": "Téra Explosion topaze",
+        "ABBR": "TE topaze",
+        "DESC": "Baisse aléatoirement une des stats suivantes de la cible de 2 rangs : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive. (La même stat est baissée pour tous les Duos ennemis.) La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. 50 % de chances que tous les effets suivants s'appliquent également : Cette attaque est deux fois plus puissante. Baisse aléatoirement une des stats suivantes de la cible de 2 rangs : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive. (La même stat est baissée pour tous les Duos ennemis.)"
+      },
+      "4042": {
+        "NAME": "Téra Explosion émeraude",
+        "ABBR": "TE émeraude",
+        "DESC": "Inflige un coup critique si l'attaque atteint sa cible (sauf dans certains cas). Transforme le champ en un Champ Herbu la première fois que cette capacité offensive est utilisée avec succès à chaque combat. Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 2 rangs."
       },
       "5000": {
         "NAME": "Tonnerre",
@@ -4872,6 +4887,21 @@
         "ABBR": "Mur de Fer S",
         "DESC": "Condition d'activation : Quand le lanceur utilise une fois n'importe quelle capacité.\nCondition de désactivation : Quand cette capacité est utilisée.\n\nAugmente la Défense et la Déf. Spé. de tous les Duos alliés de 2 rangs. Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang."
       },
+      "6139": {
+        "NAME": "Zénith S",
+        "ABBR": "Zénith S",
+        "DESC": "Condition d'activation : Quand les PV du lanceur sont à 50 % ou plus.\nCondition de désactivation : Quand les PV du lanceur sont inférieurs à 50 %.\n\nIntensifie les rayons du soleil. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'effet Prochain boost capacité Duo de tous les Duos alliés de 2 rangs."
+      },
+      "6140": {
+        "NAME": "Blizzard S",
+        "ABBR": "Blizzard S",
+        "DESC": "Condition d'activation : Quand un cercle est appliqué au côté allié.\nCondition de désactivation : Quand plus aucun cercle ne s'applique au côté allié.\n\nN'échoue jamais. 50 % de chances de geler la cible. La puissance et les chances d'appliquer les effets supplémentaires de cette capacité ne sont pas baissées même s'il y a plusieurs cibles. Applique l'effet Prochain super efficace ↑ à tous les Duos alliés. Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 2 rangs."
+      },
+      "6141": {
+        "NAME": "Ultralaser Z",
+        "ABBR": "Ultralaser Z",
+        "DESC": "Condition d'activation : Quand le Duo de votre équipe utilise une fois une capacité Duo.\nCondition de désactivation : Quand cette capacité est utilisée.\n\nN'échoue jamais. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Applique l'effet Conso. 0 assurée au lanceur. Augmente l'effet Prochain boost capacité spéciale du lanceur de 2 rangs."
+      },
       "7000": {
         "NAME": "Récolte G-Max",
         "ABBR": "Récolte G Max",
@@ -5137,6 +5167,11 @@
         "ABBR": "Passion pour Unys",
         "DESC": "Augmente l'effet Prochain boost capacité physique de tous les Duos alliés de 1 rang. Applique Cercle d'Unys Physique au côté allié. Cercle d'Unys Physique applique tous les effets suivants : Augmente de 10 % la puissance des capacités physiques et des capacités Duo physiques de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités physiques et des capacités Duo physiques de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Unys du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
       },
+      "8213": {
+        "NAME": "Analyse d'Unys",
+        "ABBR": "Analyse d'Unys",
+        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle d'Unys spécial au côté allié. Cercle d'Unys spécial applique tous les effets suivants : Augmente de 10 % la puissance des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Unys du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
+      },
       "8214": {
         "NAME": "Union d'Unys",
         "ABBR": "Union d'Unys",
@@ -5376,6 +5411,11 @@
         "NAME": "Du poison sur scène !",
         "ABBR": "Du poison sur scène !",
         "DESC": "Applique l'effet Accélération Jauge Capacité au côté allié. Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente le taux de critiques du lanceur de 3 rangs."
+      },
+      "10119": {
+        "NAME": "On est à fond !",
+        "ABBR": "On est à fond !",
+        "DESC": "Augmente la Défense et la Déf. Spé. de tous les Duos alliés de 4 rangs. Augmente l'effet Prochain boost capacité Duo de tous les Duos alliés de 3 rangs."
       },
       "10120": {
         "NAME": "En piste !",
@@ -6112,6 +6152,11 @@
         "ABBR": "J'vais te gober d'un seul coup !",
         "DESC": "Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente la Précision du lanceur de 1 rang. Augmente le taux de critiques du lanceur de 2 rangs."
       },
+      "10925": {
+        "NAME": "On perdra jamais !",
+        "ABBR": "On perdra jamais !",
+        "DESC": "Restaure environ 40 % des PV maximums de tous les Duos alliés. Soigne tous les Duos alliés de toutes les altérations de statut et de la peur, de la confusion et du ligotage. Applique l'effet Régénération lente PV à tous les Duos alliés. Augmente la Résilience Eau de tous les Duos alliés de 2 rangs."
+      },
       "10928": {
         "NAME": "Numérote tes abattis !",
         "ABBR": "Numérote tes abattis !",
@@ -6492,6 +6537,11 @@
         "ABBR": "Mon âme tremble... !",
         "DESC": "Augmente l'Atq. Spé. du lanceur de 6 rangs. Augmente le taux de critiques du lanceur de 3 rangs. Applique l'effet Conso. 0 assurée au lanceur. Augmente l'effet Prochain boost capacité spéciale du lanceur de 1 rang."
       },
+      "11194": {
+        "NAME": "Je vise la note maximale...",
+        "ABBR": "Je vise la note maximale...",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente le taux de critiques du lanceur de 3 rangs."
+      },
       "11198": {
         "NAME": "Parfait. On y va... !",
         "ABBR": "Parfait. On y va... !",
@@ -6511,6 +6561,11 @@
         "NAME": "Amour aveuglant !",
         "ABBR": "Amour aveuglant !",
         "DESC": "Réduit de 2 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Atq. Spé. du lanceur de 6 rangs. Baisse la Vitesse du lanceur de 1 rang."
+      },
+      "11208": {
+        "NAME": "Montrez-nous donc ce que vous valez !",
+        "ABBR": "Montrez-nous donc ce que vous valez !",
+        "DESC": "Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente le taux de critiques du lanceur de 2 rangs."
       },
       "11209": {
         "NAME": "La force de protéger les siens",
@@ -6932,6 +6987,11 @@
         "ABBR": "Je vais t'éblouir !",
         "DESC": "Remplit 3 segments de la Jauge Capacité du lanceur. Augmente le taux de critiques du lanceur de 1 rang."
       },
+      "11519": {
+        "NAME": "Faisons de notre best !",
+        "ABBR": "Faisons de notre best !",
+        "DESC": "Augmente l'Attaque, la Défense, l'Atq. Spé. et la Déf. Spé. de tous les Duos alliés de 2 rangs. Applique l'effet Prochain super efficace ↑ à tous les Duos alliés."
+      },
       "11520": {
         "NAME": "Mon Pokémon est redoutable !",
         "ABBR": "Mon Pokémon est redoutable !",
@@ -7001,6 +7061,11 @@
         "NAME": "Prêts à se lancer !",
         "ABBR": "Prêts à se lancer !",
         "DESC": "Augmente l'Attaque et l'Atq. Spé. du lanceur de 6 rangs. Applique l'effet Prochain super efficace ↑ au lanceur quand le champ est un Champ Psychique."
+      },
+      "11608": {
+        "NAME": "Quelle belle journée pour pêcher !",
+        "ABBR": "Quelle belle journée pour pêcher !",
+        "DESC": "Augmente l'Esquive de tous les Duos alliés de 3 rangs. Augmente le taux de critiques de tous les Duos alliés de 2 rangs. Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang."
       },
       "11609": {
         "NAME": "Je me dois de faire preuve de sérieux !",
@@ -7792,6 +7857,16 @@
         "ABBR": "J'approuve totalement !",
         "DESC": "Augmente le taux de critiques du lanceur de 2 rangs. Augmente la Vitesse de tous les Duos alliés de 2 rangs."
       },
+      "13560": {
+        "NAME": "Faites gaffe !",
+        "ABBR": "Faites gaffe !",
+        "DESC": "Augmente la Défense et la Déf. Spé. de tous les Duos alliés de 4 rangs. Applique l'effet Prêt à encaisser au lanceur."
+      },
+      "13570": {
+        "NAME": "J'vais tout donner !",
+        "ABBR": "J'vais tout donner !",
+        "DESC": "Augmente l'Attaque d'un allié de 6 rangs. Augmente le taux de critiques d'un allié de 3 rangs. Applique l'effet Régénération lente PV à un allié."
+      },
       "13580": {
         "NAME": "Il faut que je fasse gaffe...",
         "ABBR": "Il faut que je fasse gaffe...",
@@ -7941,6 +8016,11 @@
         "NAME": "Révisions sur le soutien",
         "ABBR": "Révisions sur le soutien",
         "DESC": "Augmente la Défense de tous les Duos alliés de 2 rangs. Augmente la Vitesse de tous les Duos alliés de 1 rang."
+      },
+      "17504": {
+        "NAME": "Révisions sur l'attaque",
+        "ABBR": "Révisions sur l'attaque",
+        "DESC": "Augmente l'Attaque et l'Atq. Spé. du lanceur de 2 rangs."
       },
       "18500": {
         "NAME": "Baie Sitrus",
@@ -8445,6 +8525,11 @@
       "50101": {
         "NAME": "Pugnacité stylée ! Turbo-Charge Bulldozer !",
         "ABBR": "Pugnacité stylée ! Turbo-Charge Bulldozer !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "50102": {
+        "NAME": "C'est en se battant qu'on apprend ! Turbo-Charge Bulldozer !",
+        "ABBR": "C'est en se battant qu'on apprend ! Turbo-Charge Bulldozer !",
         "DESC": "Aucun effet additionnel."
       },
       "50201": {
@@ -11167,91 +11252,6 @@
         "ABBR": "Solides comme le roc ! Impact Roche !",
         "DESC": "Aucun effet additionnel."
       },
-      "902": {
-        "NAME": "Mortier Matcha",
-        "ABBR": "Mortier Matcha",
-        "DESC": "Dégèle le lanceur. 20 % de chances de brûler la cible. Plus la cible subit de dégâts, plus les PV du lanceur sont restaurés."
-      },
-      "4041": {
-        "NAME": "Téra Explosion topaze",
-        "ABBR": "TE topaze",
-        "DESC": "Baisse aléatoirement une des stats suivantes de la cible de 2 rangs : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive. (La même stat est baissée pour tous les Duos ennemis.) La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. 50 % de chances que tous les effets suivants s'appliquent également : Cette attaque est deux fois plus puissante. Baisse aléatoirement une des stats suivantes de la cible de 2 rangs : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive. (La même stat est baissée pour tous les Duos ennemis.)"
-      },
-      "4042": {
-        "NAME": "Téra Explosion émeraude",
-        "ABBR": "TE émeraude",
-        "DESC": "Inflige un coup critique si l'attaque atteint sa cible (sauf dans certains cas). Transforme le champ en un Champ Herbu la première fois que cette capacité offensive est utilisée avec succès à chaque combat. Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 2 rangs."
-      },
-      "6139": {
-        "NAME": "Zénith S",
-        "ABBR": "Zénith S",
-        "DESC": "Condition d'activation : Quand les PV du lanceur sont à 50 % ou plus.\nCondition de désactivation : Quand les PV du lanceur sont inférieurs à 50 %.\n\nIntensifie les rayons du soleil. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'effet Prochain boost capacité Duo de tous les Duos alliés de 2 rangs."
-      },
-      "6140": {
-        "NAME": "Blizzard S",
-        "ABBR": "Blizzard S",
-        "DESC": "Condition d'activation : Quand un cercle est appliqué au côté allié.\nCondition de désactivation : Quand plus aucun cercle ne s'applique au côté allié.\n\nN'échoue jamais. 50 % de chances de geler la cible. La puissance et les chances d'appliquer les effets supplémentaires de cette capacité ne sont pas baissées même s'il y a plusieurs cibles. Applique l'effet Prochain super efficace ↑ à tous les Duos alliés. Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 2 rangs."
-      },
-      "6141": {
-        "NAME": "Ultralaser Z",
-        "ABBR": "Ultralaser Z",
-        "DESC": "Condition d'activation : Quand le Duo de votre équipe utilise une fois une capacité Duo.\nCondition de désactivation : Quand cette capacité est utilisée.\n\nN'échoue jamais. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Applique l'effet Conso. 0 assurée au lanceur. Augmente l'effet Prochain boost capacité spéciale du lanceur de 2 rangs."
-      },
-      "8213": {
-        "NAME": "Analyse d'Unys",
-        "ABBR": "Analyse d'Unys",
-        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle d'Unys spécial au côté allié. Cercle d'Unys spécial applique tous les effets suivants : Augmente de 10 % la puissance des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Unys du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
-      },
-      "10119": {
-        "NAME": "On est à fond !",
-        "ABBR": "On est à fond !",
-        "DESC": "Augmente la Défense et la Déf. Spé. de tous les Duos alliés de 4 rangs. Augmente l'effet Prochain boost capacité Duo de tous les Duos alliés de 3 rangs."
-      },
-      "10925": {
-        "NAME": "On perdra jamais !",
-        "ABBR": "On perdra jamais !",
-        "DESC": "Restaure environ 40 % des PV maximums de tous les Duos alliés. Soigne tous les Duos alliés de toutes les altérations de statut et de la peur, de la confusion et du ligotage. Applique l'effet Régénération lente PV à tous les Duos alliés. Augmente la Résilience Eau de tous les Duos alliés de 2 rangs."
-      },
-      "11194": {
-        "NAME": "Je vise la note maximale...",
-        "ABBR": "Je vise la note maximale...",
-        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente le taux de critiques du lanceur de 3 rangs."
-      },
-      "11208": {
-        "NAME": "Montrez-nous donc ce que vous valez !",
-        "ABBR": "Montrez-nous donc ce que vous valez !",
-        "DESC": "Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente le taux de critiques du lanceur de 2 rangs."
-      },
-      "11519": {
-        "NAME": "Faisons de notre best !",
-        "ABBR": "Faisons de notre best !",
-        "DESC": "Augmente l'Attaque, la Défense, l'Atq. Spé. et la Déf. Spé. de tous les Duos alliés de 2 rangs. Applique l'effet Prochain super efficace ↑ à tous les Duos alliés."
-      },
-      "11608": {
-        "NAME": "Quelle belle journée pour pêcher !",
-        "ABBR": "Quelle belle journée pour pêcher !",
-        "DESC": "Augmente l'Esquive de tous les Duos alliés de 3 rangs. Augmente le taux de critiques de tous les Duos alliés de 2 rangs. Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang."
-      },
-      "13560": {
-        "NAME": "Faites gaffe !",
-        "ABBR": "Faites gaffe !",
-        "DESC": "Augmente la Défense et la Déf. Spé. de tous les Duos alliés de 4 rangs. Applique l'effet Prêt à encaisser au lanceur."
-      },
-      "13570": {
-        "NAME": "J'vais tout donner !",
-        "ABBR": "J'vais tout donner !",
-        "DESC": "Augmente l'Attaque d'un allié de 6 rangs. Augmente le taux de critiques d'un allié de 3 rangs. Applique l'effet Régénération lente PV à un allié."
-      },
-      "17504": {
-        "NAME": "Révisions sur l'attaque",
-        "ABBR": "Révisions sur l'attaque",
-        "DESC": "Augmente l'Attaque et l'Atq. Spé. du lanceur de 2 rangs."
-      },
-      "50102": {
-        "NAME": "C'est en se battant qu'on apprend ! Turbo-Charge Bulldozer !",
-        "ABBR": "C'est en se battant qu'on apprend ! Turbo-Charge Bulldozer !",
-        "DESC": "Aucun effet additionnel."
-      },
       "120700": {
         "NAME": "Étudions tous ensemble ! Laser Glace !",
         "ABBR": "Étudions tous ensemble ! Laser Glace !",
@@ -11559,6 +11559,16 @@
         "ABBR": "Enn. Ligoté Allié C.Off. Soin {{value}}",
         "DESC": "{{chance}} % de chances de restaurer environ 10 % des PV maximums d'un allié quand il utilise avec succès sa capacité offensive contre un ennemi ligoté."
       },
+      "1101550": {
+        "NAME": "Coéquipier Capacité Duo Coach Soin {{value}}",
+        "ABBR": "Coéquipier C.Duo Coach Soin {{value}}",
+        "DESC": "Restaure environ {{heal}} % des PV maximums de tous les Duos alliés après l'utilisation d'une capacité Duo par le Duo de votre équipe."
+      },
+      "1101560": {
+        "NAME": "Fatigue Soin Conso'1 PPC Soin 5",
+        "ABBR": "Fatigue Soin Conso PPC Soin 5",
+        "DESC": "Réduit les PPC de Soin du lanceur de 1 et restaure environ 50 % de ses PV maximums quand il perd au moins la moitié de ses PV."
+      },
       "1201010": {
         "NAME": "Turbo Pluie {{value}}",
         "ABBR": "Turbo Pluie {{value}}",
@@ -11678,6 +11688,11 @@
         "NAME": "Turbo Cercle {{value}}",
         "ABBR": "Turbo Cercle {{value}}",
         "DESC": "La Jauge Capacité se remplit plus vite quand un cercle s'applique au côté allié."
+      },
+      "1201250": {
+        "NAME": "Turbo Changement Météo Zone Champ {{value}}",
+        "ABBR": "Turbo Changement MZC {{value}}",
+        "DESC": "La Jauge Capacité se remplit plus vite quand les conditions météo, un champ ou une zone sont actifs."
       },
       "1202010": {
         "NAME": "Récup'Jauge {{value}}",
@@ -12534,6 +12549,11 @@
         "ABBR": "Aiguisé Action Capa. Duo Crit.",
         "DESC": "Les capacités du lanceur n'échouent jamais. Inflige un coup critique si les attaques suivantes du lanceur atteignent leur cible (sauf dans certains cas) : capacités du Pokémon ou capacité Duo."
       },
+      "1303060": {
+        "NAME": "Ultralaser Aiguisé",
+        "ABBR": "Ultralaser Aiguisé",
+        "DESC": "La capacité Ultralaser du lanceur n'échoue jamais."
+      },
       "1305010": {
         "NAME": "Conversion Fée",
         "ABBR": "Conversion Fée",
@@ -12744,6 +12764,11 @@
         "ABBR": "C. Off. Récup'32 PPC C.S. {{value}}",
         "DESC": "{{chance}} % de chances que la capacité Synchro du lanceur regagne 32 PPC quand il utilise avec succès sa capacité offensive."
       },
+      "1306270": {
+        "NAME": "Analyse d'Unys Util. Récup'PPC Capa. Synchro {{value}}",
+        "ABBR": "Ana.Unys Util. Récup'PPC C.S. {{value}}",
+        "DESC": "La capacité Synchro du lanceur regagne {{value}} PPC quand il utilise Analyse d'Unys."
+      },
       "1306280": {
         "NAME": "Réflexe Récup'PPC Baie {{value}}",
         "ABBR": "Réflexe Récup'PPC Baie {{value}}",
@@ -12943,6 +12968,26 @@
         "NAME": "Zone Dragon Coach Puissance {{value}}",
         "ABBR": "Zone Dragon Coach Pui. {{value}}",
         "DESC": "Augmente la puissance des capacités de tous les Duos alliés quand la zone est une Zone Dragon."
+      },
+      "1308380": {
+        "NAME": "Ultralaser Puissance ↑ {{value}}",
+        "ABBR": "Ultralaser Puissance ↑ {{value}}",
+        "DESC": "Augmente la puissance de Ultralaser du lanceur."
+      },
+      "1308390": {
+        "NAME": "Vitalité Capacité Duo ↑ {{value}}",
+        "ABBR": "Vitalité Capacité Duo ↑ {{value}}",
+        "DESC": "Augmente la puissance de la capacité Duo du lanceur quand ses PV restants sont à la moitié ou plus."
+      },
+      "1308400": {
+        "NAME": "Zone Combat Coach Puissance {{value}}",
+        "ABBR": "Zone Combat Coach Pui. {{value}}",
+        "DESC": "Augmente la puissance des capacités de tous les Duos alliés quand la zone est une Zone Combat."
+      },
+      "1308420": {
+        "NAME": "Cercle d'Unys Spécial Coach Puissance {{value}}",
+        "ABBR": "C.Unys Spé. Coach Pui. {{value}}",
+        "DESC": "Augmente la puissance des capacités de tous les Duos alliés quand Cercle d'Unys spécial s'applique au côté allié."
       },
       "1401010": {
         "NAME": "Cadeau d'Adieu",
@@ -13753,6 +13798,16 @@
         "NAME": "Cercle Puissance Capacité Duo ↑ {{value}}",
         "ABBR": "Cercle Puissance Capa. Duo ↑ {{value}}",
         "DESC": "Augmente la puissance de la capacité Duo du lanceur quand un cercle s'applique au côté allié."
+      },
+      "1603060": {
+        "NAME": "Allié Vitesse ↑ Capacité Duo ↑ {{value}}",
+        "ABBR": "Allié Vit. ↑ Capa. Duo ↑ {{value}}",
+        "DESC": "Augmente la puissance de la capacité Duo d'un allié quand sa Vitesse est augmenté(e)."
+      },
+      "1603070": {
+        "NAME": "Changem. Météo Zone Champ Coach C. D. {{value}}",
+        "ABBR": "Changem. MZC Coach C.D. {{value}}",
+        "DESC": "Augmente la puissance des capacités Duo de tous les Duos alliés quand les conditions météo, un champ ou une zone sont actifs."
       },
       "1701010": {
         "NAME": "Immu. Empoisonnement",
@@ -15854,6 +15909,31 @@
         "ABBR": "All. Décl. Cercle Conso. 0 {{value}}",
         "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand un allié applique un cercle au côté allié."
       },
+      "1708500": {
+        "NAME": "Allié Décl. MZC Coach Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "All. MZC Coa. Boost P.S. +1 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang quand un allié active un effet de météo, de champ ou de zone."
+      },
+      "1708510": {
+        "NAME": "Coéquipier C. D. Coach Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "Coéqu. C.D. Coa. Boost P.S. +1 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang après l'utilisation d'une capacité Duo par le Duo de votre équipe."
+      },
+      "1708520": {
+        "NAME": "Coach Puissance Spectre {{value}}",
+        "ABBR": "Coach Puissance Spectre {{value}}",
+        "DESC": "Augmente la puissance des capacités de type Spectre de tous les Duos alliés."
+      },
+      "1708530": {
+        "NAME": "Coach Puissance Poison {{value}}",
+        "ABBR": "Coach Puissance Poison {{value}}",
+        "DESC": "Augmente la puissance des capacités de type Poison de tous les Duos alliés."
+      },
+      "1708540": {
+        "NAME": "Coach Puissance Eau {{value}}",
+        "ABBR": "Coach Puissance Eau {{value}}",
+        "DESC": "Augmente la puissance des capacités de type Eau de tous les Duos alliés."
+      },
       "1708550": {
         "NAME": "Capacité Duo Coach Boost Phy. Spé. +1 {{value}}",
         "ABBR": "C.Duo Coach Boost Phy. Spé. +1 {{value}}",
@@ -15878,6 +15958,41 @@
         "NAME": "Prem. Capa. Duo Coach Boost Phy. Spé. {{value}}",
         "ABBR": "1er C.Duo Coa. Boost Phy. Spé. {{value}}",
         "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de {{value}} rang la première fois que le lanceur utilise une capacité Duo à chaque combat."
+      },
+      "1708690": {
+        "NAME": "Intro Coach Suiv. Ultra-Efficace",
+        "ABBR": "Intro Coa. Suiv. Ultra-Efficace",
+        "DESC": "Applique l'effet Prochain super efficace ↑ à tous les Duos alliés la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1708700": {
+        "NAME": "Action Boost Capacité Duo +1 {{value}}",
+        "ABBR": "Action Boost Capa. Duo +1 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité Duo de tous les Duos alliés de 1 rang quand le Pokémon du lanceur utilise une capacité."
+      },
+      "1708710": {
+        "NAME": "Capacité Duo Dynamax Boost Phy. Spé. {{value}}",
+        "ABBR": "Capa. Duo Dyn. Boost Phy. Spé. {{value}}",
+        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de {{value}} rang après l'utilisation de sa capacité Duo Dynamax."
+      },
+      "1708720": {
+        "NAME": "Intro Coach Boost Physique Spécial {{value}}",
+        "ABBR": "Intro Coach Boost Phy. Spé. {{value}}",
+        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de {{value}} rang la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1708730": {
+        "NAME": "Intro Coach Boost Capacité Duo {{value}}",
+        "ABBR": "Intro Coach Boost Capa. Duo {{value}}",
+        "DESC": "Augmente l'effet Prochain boost capacité Duo de tous les Duos alliés de {{value}} rang la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1708760": {
+        "NAME": "Allié Décl. Ch. Herbu Coach Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "All. Ch. Her. Coa. Boost P.S. +1 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang quand un allié transforme le champ en un Champ Herbu."
+      },
+      "1708770": {
+        "NAME": "Super Efficace 1 Tourment {{value}}",
+        "ABBR": "Super Efficace 1 Tourment {{value}}",
+        "DESC": "{{chance}} % de chances d'appliquer l'effet Peur, Confusion ou bien Ligotage à la cible quand la capacité du lanceur contre elle est super efficace."
       },
       "1801010": {
         "NAME": "Résistance ↓Attaque {{value}}",
@@ -18249,6 +18364,46 @@
         "ABBR": "Capa. Duo Dynamax Déf. Déf. Spé. ↑ {{value}}",
         "DESC": "Augmente la Défense et la Déf. Spé. du lanceur de {{value}} rang après l'utilisation de sa capacité Duo Dynamax."
       },
+      "1812320": {
+        "NAME": "Soleil Capa. Off. Défense ↓ {{value}}",
+        "ABBR": "Soleil Capa. Off. Déf. ↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser la Défense de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive alors que le soleil brille."
+      },
+      "1812330": {
+        "NAME": "Zone Combat Capacité Offensive Déf. Spé. ↓ {{value}}",
+        "ABBR": "Z. Combat C.Off. Déf. Spé. ↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser la Déf. Spé. de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive et que la zone est une Zone Combat."
+      },
+      "1812340": {
+        "NAME": "Auto-Décl. Cercle d'Unys Spé. Coa. Déf. Déf. Spé. 2 {{value}}",
+        "ABBR": "A.Décl. C.Unys Coa. D. Déf.S. 2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter la Défense et la Déf. Spé. de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys spécial au côté allié."
+      },
+      "1812360": {
+        "NAME": "Intro Coach 7 Stats {{value}}",
+        "ABBR": "Intro Coach 7 Stats {{value}}",
+        "DESC": "Augmente l'Attaque, la Défense, l'Atq. Spé., la Déf. Spé., la Vitesse, la Précision et l'Esquive de tous les Duos alliés de {{value}} rang la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1812380": {
+        "NAME": "Enn. Brûlé Capa. Off. Déf. Déf. Spé. ↓ {{value}}",
+        "ABBR": "Enn. Brûlé C.Off. Déf. Déf.S. ↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser la Défense et la Déf. Spé. de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive contre un ennemi brûlé."
+      },
+      "1812390": {
+        "NAME": "Auto-Décl. Cercle d'Unys Spé. Coach Atq. 2 {{value}}",
+        "ABBR": "A.Décl. C.Unys Spé. Coa. Atq. 2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'Attaque de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys spécial au côté allié."
+      },
+      "1812400": {
+        "NAME": "Auto-Décl. Cercle d'Unys Spé. Coach Atq. Spé. 2 {{value}}",
+        "ABBR": "A.Décl. C.Unys Spé. Coa. Atq.S. 2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'Atq. Spé. de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys spécial au côté allié."
+      },
+      "1812420": {
+        "NAME": "Pluie Capacité Offensive Stat 2↓ {{value}}",
+        "ABBR": "Pluie Capacité Off. Stat 2↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser aléatoirement une des stats suivantes de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive alors qu'il pleut : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
+      },
       "1901010": {
         "NAME": "Transperceur",
         "ABBR": "Transp.",
@@ -19184,15 +19339,60 @@
         "ABBR": "Capa. Duo Stoïcisme Spécial Équipe",
         "DESC": "Applique l'effet Résilience Spéciale au côté allié après l'utilisation d'une capacité Duo par le lanceur."
       },
+      "1905770": {
+        "NAME": "Auto-Déclenchement Soleil Zone Combat",
+        "ABBR": "Auto-Décl. Soleil Zone Combat",
+        "DESC": "Transforme la zone en une Zone Combat quand le lanceur fait briller le soleil. (Une Zone Combat renforce les attaques de type Combat.)"
+      },
       "1905780": {
         "NAME": "Intro Cercle de Paldea Défensif Équipe",
         "ABBR": "Intro C.Paldea Défensif Équipe",
         "DESC": "Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat."
       },
+      "1905790": {
+        "NAME": "Intro Cercle d'Unys Spécial Équipe",
+        "ABBR": "Intro C.Unys Spécial Équipe",
+        "DESC": "Applique Cercle d'Unys spécial au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+      },
       "1905800": {
         "NAME": "Arrivée Cercle de Johto Phy. Équipe Coach Boost Phy. {{value}}",
         "ABBR": "Arr. C.Johto Phy. Coa. Bst.P. {{value}}",
         "DESC": "Applique Cercle de Johto Physique au côté allié quand le lanceur arrive au combat. Augmente l'effet Prochain boost capacité physique de tous les Duos alliés de {{value}} rang quand le lanceur arrive au combat."
+      },
+      "1905890": {
+        "NAME": "Première Capacité Duo Zone Fée",
+        "ABBR": "Première Capacité Duo Zone Fée",
+        "DESC": "Transforme la zone en une Zone Fée la première fois que le lanceur utilise une capacité Duo à chaque combat. (Une Zone Fée renforce les attaques de type Fée.)"
+      },
+      "1905900": {
+        "NAME": "Soleil Prolongé Zone Combat Prolongée {{value}}",
+        "ABBR": "Soleil Prolongé Z.Combat Pro. {{value}}",
+        "DESC": "Le soleil brille plus longtemps quand la météo devient ensoleillée et que le lanceur est sur le terrain. La Zone Combat dure plus longtemps quand la zone devient une Zone Combat et que le lanceur est sur le terrain."
+      },
+      "1905910": {
+        "NAME": "Prem. Capa. Off. Cercle de Paldea Déf. Équipe",
+        "ABBR": "Prem. Capa. Off. C.Paldea Déf. Équipe",
+        "DESC": "Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat."
+      },
+      "1905920": {
+        "NAME": "Prem. Capa. Duo Cercle de Sinnoh Déf. Équipe",
+        "ABBR": "Prem. Capa. Duo C.Sinnoh Déf. Équipe",
+        "DESC": "Applique Cercle de Sinnoh Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
+      },
+      "1905930": {
+        "NAME": "Prem. Capa. Duo Cercle d'Alola Déf. Équipe",
+        "ABBR": "Prem. Capa. Duo C.Alola Déf. Équipe",
+        "DESC": "Applique Cercle d'Alola Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
+      },
+      "1905940": {
+        "NAME": "Intro Cercle de Hoenn Défensif Équipe",
+        "ABBR": "Intro C.Hoenn Défensif Équipe",
+        "DESC": "Applique Cercle de Hoenn défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1905970": {
+        "NAME": "Cercle d'Unys Spécial Prolongé {{value}}",
+        "ABBR": "C.Unys Spécial Prolongé {{value}}",
+        "DESC": "Cercle d'Unys spécial dure plus longtemps quand Cercle d'Unys spécial est appliqué au côté allié."
       },
       "2001010": {
         "NAME": "Immunité Sable",
@@ -19243,6 +19443,11 @@
         "NAME": "Équipe Turbo Coach Immunité Critiques",
         "ABBR": "Équipe Turbo Coach Immu. Crit.",
         "DESC": "Protège tous les Duos alliés des coups critiques quand l'effet Accélération Jauge Capacité s'applique au côté allié."
+      },
+      "2101100": {
+        "NAME": "Cercle d'Unys Spécial Coach Immu. Critiques",
+        "ABBR": "C.Unys Spécial Coach Immu. Critiques",
+        "DESC": "Protège tous les Duos alliés des coups critiques quand Cercle d'Unys spécial s'applique au côté allié."
       },
       "2201010": {
         "NAME": "Air Nocif {{value}}",
@@ -20279,6 +20484,41 @@
         "ABBR": "Il ne faut pas décevoir les fans !",
         "DESC": "Réduit de 2 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur après l'utilisation de sa capacité Duo Dynamax. Protège tous les Duos alliés des coups critiques quand il pleut. Applique l'effet Prêt à encaisser au lanceur s'il a tous ses PV quand il arrive au combat."
       },
+      "3202050": {
+        "NAME": "Charme infini de la fille au pur style",
+        "ABBR": "Charme infini de la fille au pur style",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il utilise sa capacité Duo à chaque combat. Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat."
+      },
+      "3202060": {
+        "NAME": "La captivante reine de la danse",
+        "ABBR": "La captivante reine de la danse",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Applique Cercle de Sinnoh Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Cercle de Sinnoh Défensif dure plus longtemps quand Cercle de Sinnoh Défensif est appliqué au côté allié."
+      },
+      "3202070": {
+        "NAME": "Un poison dans la vie et sur scène",
+        "ABBR": "Un poison dans la vie et sur scène",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Applique Cercle d'Unys Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Cercle d'Unys Défensif dure plus longtemps quand Cercle d'Unys Défensif est appliqué au côté allié."
+      },
+      "3202080": {
+        "NAME": "Capitaine de la Colline Clapotis",
+        "ABBR": "Capitaine de la Colline Clapotis",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Applique Cercle d'Alola Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Cercle d'Alola Défensif dure plus longtemps quand Cercle d'Alola Défensif est appliqué au côté allié."
+      },
+      "3202090": {
+        "NAME": "Celui qui rassemble l'équipe",
+        "ABBR": "Celui qui rassemble l'équipe",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois que son Dresseur utilise une capacité à chaque combat. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo la première fois que le lanceur utilise une capacité Duo à chaque combat."
+      },
+      "3301050": {
+        "NAME": "Intro Duo-Téracristallisation Plante",
+        "ABBR": "Intro Duo-Téracristallisation Plante",
+        "DESC": "Le lanceur bascule en Duo-Téracristal de type Plante la première fois qu'il arrive au combat à chaque combat."
+      },
+      "3301070": {
+        "NAME": "Intro Duo-Téracristallisation Combat",
+        "ABBR": "Intro Duo-Téracristallisation Combat",
+        "DESC": "Le lanceur bascule en Duo-Téracristal de type Combat la première fois qu'il arrive au combat à chaque combat."
+      },
       "5130206": {
         "NAME": "Intégrité Résil. C. Poké. C. D. {{value}}",
         "ABBR": "Intégrité Résil. C. Poké. C. D. {{value}}",
@@ -21224,256 +21464,6 @@
         "ABBR": "Conditions idéales pour une sortie",
         "DESC": "Le soleil brille plus longtemps quand la météo devient ensoleillée et que le lanceur est sur le terrain. Augmente la Vitesse de tous les Duos alliés de 1 rang quand un allié utilise avec succès une capacité offensive alors que le soleil brille. Augmente l'effet Prochain boost capacité spéciale d'un allié de 1 rang quand il utilise avec succès sa capacité offensive alors que le soleil brille."
       },
-      "9902900": {
-        "NAME": "Début d'une saison d'épanouissement",
-        "ABBR": "Début d'une saison d'épanouissement",
-        "DESC": "Transforme le champ en un Champ Herbu la première fois que le lanceur arrive au combat à chaque combat. Le Champ Herbu dure plus longtemps quand le champ devient un Champ Herbu et que le lanceur est sur le terrain."
-      },
-      "9902910": {
-        "NAME": "Président du club de recherches sur le paranormal",
-        "ABBR": "Président du club de recherches sur le paranormal",
-        "DESC": "Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat. Cercle de Paldea Défensif dure plus longtemps quand Cercle de Paldea Défensif est appliqué au côté allié."
-      },
-      "1101550": {
-        "NAME": "Coéquipier Capacité Duo Coach Soin {{value}}",
-        "ABBR": "Coéquipier Capacité Duo Coach Soin {{value}}",
-        "DESC": "Restaure environ {{heal}} % des PV maximums de tous les Duos alliés après l'utilisation d'une capacité Duo par le Duo de votre équipe."
-      },
-      "1101560": {
-        "NAME": "Fatigue Soin Conso'1 PPC Soin 5",
-        "ABBR": "Fatigue Soin Conso'1 PPC Soin 5",
-        "DESC": "Réduit les PPC de Soin du lanceur de 1 et restaure environ 50 % de ses PV maximums quand il perd au moins la moitié de ses PV."
-      },
-      "1201250": {
-        "NAME": "Turbo Changement Météo Zone Champ {{value}}",
-        "ABBR": "Turbo Changement Météo Zone Champ {{value}}",
-        "DESC": "La Jauge Capacité se remplit plus vite quand les conditions météo, un champ ou une zone sont actifs."
-      },
-      "1303060": {
-        "NAME": "Ultralaser Aiguisé",
-        "ABBR": "Ultralaser Aiguisé",
-        "DESC": "La capacité Ultralaser du lanceur n'échoue jamais."
-      },
-      "1306270": {
-        "NAME": "Analyse d'Unys Util. Récup'PPC Capa. Synchro {{value}}",
-        "ABBR": "Analyse d'Unys Util. Récup'PPC Capa. Synchro {{value}}",
-        "DESC": "La capacité Synchro du lanceur regagne {{value}} PPC quand il utilise Analyse d'Unys."
-      },
-      "1308380": {
-        "NAME": "Ultralaser Puissance ↑ {{value}}",
-        "ABBR": "Ultralaser Puissance ↑ {{value}}",
-        "DESC": "Augmente la puissance de Ultralaser du lanceur."
-      },
-      "1308390": {
-        "NAME": "Vitalité Capacité Duo ↑ {{value}}",
-        "ABBR": "Vitalité Capacité Duo ↑ {{value}}",
-        "DESC": "Augmente la puissance de la capacité Duo du lanceur quand ses PV restants sont à la moitié ou plus."
-      },
-      "1308400": {
-        "NAME": "Zone Combat Coach Puissance {{value}}",
-        "ABBR": "Zone Combat Coach Puissance {{value}}",
-        "DESC": "Augmente la puissance des capacités de tous les Duos alliés quand la zone est une Zone Combat."
-      },
-      "1308420": {
-        "NAME": "Cercle d'Unys Spécial Coach Puissance {{value}}",
-        "ABBR": "Cercle d'Unys Spécial Coach Puissance {{value}}",
-        "DESC": "Augmente la puissance des capacités de tous les Duos alliés quand Cercle d'Unys spécial s'applique au côté allié."
-      },
-      "1603060": {
-        "NAME": "Allié Vitesse ↑ Capacité Duo ↑ {{value}}",
-        "ABBR": "Allié Vitesse ↑ Capacité Duo ↑ {{value}}",
-        "DESC": "Augmente la puissance de la capacité Duo d'un allié quand sa Vitesse est augmenté(e)."
-      },
-      "1603070": {
-        "NAME": "Changem. Météo Zone Champ Coach C. D. {{value}}",
-        "ABBR": "Changem. Météo Zone Champ Coach C. D. {{value}}",
-        "DESC": "Augmente la puissance des capacités Duo de tous les Duos alliés quand les conditions météo, un champ ou une zone sont actifs."
-      },
-      "1708500": {
-        "NAME": "Allié Décl. MZC Coach Boost Phy. Spé. +1 {{value}}",
-        "ABBR": "Allié Décl. MZC Coach Boost Phy. Spé. +1 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang quand un allié active un effet de météo, de champ ou de zone."
-      },
-      "1708510": {
-        "NAME": "Coéquipier C. D. Coach Boost Phy. Spé. +1 {{value}}",
-        "ABBR": "Coéquipier C. D. Coach Boost Phy. Spé. +1 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang après l'utilisation d'une capacité Duo par le Duo de votre équipe."
-      },
-      "1708520": {
-        "NAME": "Coach Puissance Spectre {{value}}",
-        "ABBR": "Coach Puissance Spectre {{value}}",
-        "DESC": "Augmente la puissance des capacités de type Spectre de tous les Duos alliés."
-      },
-      "1708530": {
-        "NAME": "Coach Puissance Poison {{value}}",
-        "ABBR": "Coach Puissance Poison {{value}}",
-        "DESC": "Augmente la puissance des capacités de type Poison de tous les Duos alliés."
-      },
-      "1708540": {
-        "NAME": "Coach Puissance Eau {{value}}",
-        "ABBR": "Coach Puissance Eau {{value}}",
-        "DESC": "Augmente la puissance des capacités de type Eau de tous les Duos alliés."
-      },
-      "1708690": {
-        "NAME": "Intro Coach Suiv. Ultra-Efficace",
-        "ABBR": "Intro Coach Suiv. Ultra-Efficace",
-        "DESC": "Applique l'effet Prochain super efficace ↑ à tous les Duos alliés la première fois que le lanceur arrive au combat à chaque combat."
-      },
-      "1708700": {
-        "NAME": "Action Boost Capacité Duo +1 {{value}}",
-        "ABBR": "Action Boost Capacité Duo +1 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité Duo de tous les Duos alliés de 1 rang quand le Pokémon du lanceur utilise une capacité."
-      },
-      "1708710": {
-        "NAME": "Capacité Duo Dynamax Boost Phy. Spé. {{value}}",
-        "ABBR": "Capacité Duo Dynamax Boost Phy. Spé. {{value}}",
-        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de {{value}} rang après l'utilisation de sa capacité Duo Dynamax."
-      },
-      "1708720": {
-        "NAME": "Intro Coach Boost Physique Spécial {{value}}",
-        "ABBR": "Intro Coach Boost Physique Spécial {{value}}",
-        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de {{value}} rang la première fois que le lanceur arrive au combat à chaque combat."
-      },
-      "1708730": {
-        "NAME": "Intro Coach Boost Capacité Duo {{value}}",
-        "ABBR": "Intro Coach Boost Capacité Duo {{value}}",
-        "DESC": "Augmente l'effet Prochain boost capacité Duo de tous les Duos alliés de {{value}} rang la première fois que le lanceur arrive au combat à chaque combat."
-      },
-      "1708760": {
-        "NAME": "Allié Décl. Ch. Herbu Coach Boost Phy. Spé. +1 {{value}}",
-        "ABBR": "Allié Décl. Ch. Herbu Coach Boost Phy. Spé. +1 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang quand un allié transforme le champ en un Champ Herbu."
-      },
-      "1708770": {
-        "NAME": "Super Efficace 1 Tourment {{value}}",
-        "ABBR": "Super Efficace 1 Tourment {{value}}",
-        "DESC": "{{chance}} % de chances d'appliquer l'effet Peur, Confusion ou bien Ligotage à la cible quand la capacité du lanceur contre elle est super efficace."
-      },
-      "1812320": {
-        "NAME": "Soleil Capa. Off. Défense ↓ {{value}}",
-        "ABBR": "Soleil Capa. Off. Défense ↓ {{value}}",
-        "DESC": "{{chance}} % de chances de baisser la Défense de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive alors que le soleil brille."
-      },
-      "1812330": {
-        "NAME": "Zone Combat Capacité Offensive Déf. Spé. ↓ {{value}}",
-        "ABBR": "Zone Combat Capacité Offensive Déf. Spé. ↓ {{value}}",
-        "DESC": "{{chance}} % de chances de baisser la Déf. Spé. de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive et que la zone est une Zone Combat."
-      },
-      "1812340": {
-        "NAME": "Auto-Décl. Cercle d'Unys Spé. Coa. Déf. Déf. Spé. 2 {{value}}",
-        "ABBR": "Auto-Décl. Cercle d'Unys Spé. Coa. Déf. Déf. Spé. 2 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter la Défense et la Déf. Spé. de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys spécial au côté allié."
-      },
-      "1812360": {
-        "NAME": "Intro Coach 7 Stats {{value}}",
-        "ABBR": "Intro Coach 7 Stats {{value}}",
-        "DESC": "Augmente l'Attaque, la Défense, l'Atq. Spé., la Déf. Spé., la Vitesse, la Précision et l'Esquive de tous les Duos alliés de {{value}} rang la première fois que le lanceur arrive au combat à chaque combat."
-      },
-      "1812380": {
-        "NAME": "Enn. Brûlé Capa. Off. Déf. Déf. Spé. ↓ {{value}}",
-        "ABBR": "Enn. Brûlé Capa. Off. Déf. Déf. Spé. ↓ {{value}}",
-        "DESC": "{{chance}} % de chances de baisser la Défense et la Déf. Spé. de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive contre un ennemi brûlé."
-      },
-      "1812390": {
-        "NAME": "Auto-Décl. Cercle d'Unys Spé. Coach Atq. 2 {{value}}",
-        "ABBR": "Auto-Décl. Cercle d'Unys Spé. Coach Atq. 2 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'Attaque de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys spécial au côté allié."
-      },
-      "1812400": {
-        "NAME": "Auto-Décl. Cercle d'Unys Spé. Coach Atq. Spé. 2 {{value}}",
-        "ABBR": "Auto-Décl. Cercle d'Unys Spé. Coach Atq. Spé. 2 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'Atq. Spé. de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys spécial au côté allié."
-      },
-      "1812420": {
-        "NAME": "Pluie Capacité Offensive Stat 2↓ {{value}}",
-        "ABBR": "Pluie Capacité Offensive Stat 2↓ {{value}}",
-        "DESC": "{{chance}} % de chances de baisser aléatoirement une des stats suivantes de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive alors qu'il pleut : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
-      },
-      "1905770": {
-        "NAME": "Auto-Déclenchement Soleil Zone Combat",
-        "ABBR": "Auto-Déclenchement Soleil Zone Combat",
-        "DESC": "Transforme la zone en une Zone Combat quand le lanceur fait briller le soleil. (Une Zone Combat renforce les attaques de type Combat.)"
-      },
-      "1905790": {
-        "NAME": "Intro Cercle d'Unys Spécial Équipe",
-        "ABBR": "Intro Cercle d'Unys Spécial Équipe",
-        "DESC": "Applique Cercle d'Unys spécial au côté allié la première fois que le lanceur arrive au combat à chaque combat."
-      },
-      "1905890": {
-        "NAME": "Première Capacité Duo Zone Fée",
-        "ABBR": "Première Capacité Duo Zone Fée",
-        "DESC": "Transforme la zone en une Zone Fée la première fois que le lanceur utilise une capacité Duo à chaque combat. (Une Zone Fée renforce les attaques de type Fée.)"
-      },
-      "1905900": {
-        "NAME": "Soleil Prolongé Zone Combat Prolongée {{value}}",
-        "ABBR": "Soleil Prolongé Zone Combat Prolongée {{value}}",
-        "DESC": "Le soleil brille plus longtemps quand la météo devient ensoleillée et que le lanceur est sur le terrain. La Zone Combat dure plus longtemps quand la zone devient une Zone Combat et que le lanceur est sur le terrain."
-      },
-      "1905910": {
-        "NAME": "Prem. Capa. Off. Cercle de Paldea Déf. Équipe",
-        "ABBR": "Prem. Capa. Off. Cercle de Paldea Déf. Équipe",
-        "DESC": "Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat."
-      },
-      "1905920": {
-        "NAME": "Prem. Capa. Duo Cercle de Sinnoh Déf. Équipe",
-        "ABBR": "Prem. Capa. Duo Cercle de Sinnoh Déf. Équipe",
-        "DESC": "Applique Cercle de Sinnoh Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
-      },
-      "1905930": {
-        "NAME": "Prem. Capa. Duo Cercle d'Alola Déf. Équipe",
-        "ABBR": "Prem. Capa. Duo Cercle d'Alola Déf. Équipe",
-        "DESC": "Applique Cercle d'Alola Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
-      },
-      "1905940": {
-        "NAME": "Intro Cercle de Hoenn Défensif Équipe",
-        "ABBR": "Intro Cercle de Hoenn Défensif Équipe",
-        "DESC": "Applique Cercle de Hoenn défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat."
-      },
-      "1905970": {
-        "NAME": "Cercle d'Unys Spécial Prolongé {{value}}",
-        "ABBR": "Cercle d'Unys Spécial Prolongé {{value}}",
-        "DESC": "Cercle d'Unys spécial dure plus longtemps quand Cercle d'Unys spécial est appliqué au côté allié."
-      },
-      "2101100": {
-        "NAME": "Cercle d'Unys Spécial Coach Immu. Critiques",
-        "ABBR": "Cercle d'Unys Spécial Coach Immu. Critiques",
-        "DESC": "Protège tous les Duos alliés des coups critiques quand Cercle d'Unys spécial s'applique au côté allié."
-      },
-      "3202050": {
-        "NAME": "Charme infini de la fille au pur style",
-        "ABBR": "Charme infini de la fille au pur style",
-        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il utilise sa capacité Duo à chaque combat. Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat."
-      },
-      "3202060": {
-        "NAME": "La captivante reine de la danse",
-        "ABBR": "La captivante reine de la danse",
-        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Applique Cercle de Sinnoh Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Cercle de Sinnoh Défensif dure plus longtemps quand Cercle de Sinnoh Défensif est appliqué au côté allié."
-      },
-      "3202070": {
-        "NAME": "Un poison dans la vie et sur scène",
-        "ABBR": "Un poison dans la vie et sur scène",
-        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Applique Cercle d'Unys Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Cercle d'Unys Défensif dure plus longtemps quand Cercle d'Unys Défensif est appliqué au côté allié."
-      },
-      "3202080": {
-        "NAME": "Capitaine de la Colline Clapotis",
-        "ABBR": "Capitaine de la Colline Clapotis",
-        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Applique Cercle d'Alola Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Cercle d'Alola Défensif dure plus longtemps quand Cercle d'Alola Défensif est appliqué au côté allié."
-      },
-      "3202090": {
-        "NAME": "Celui qui rassemble l'équipe",
-        "ABBR": "Celui qui rassemble l'équipe",
-        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois que son Dresseur utilise une capacité à chaque combat. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo la première fois que le lanceur utilise une capacité Duo à chaque combat."
-      },
-      "3301050": {
-        "NAME": "Intro Duo-Téracristallisation Plante",
-        "ABBR": "Intro Duo-Téracristallisation Plante",
-        "DESC": "Le lanceur bascule en Duo-Téracristal de type Plante la première fois qu'il arrive au combat à chaque combat."
-      },
-      "3301070": {
-        "NAME": "Intro Duo-Téracristallisation Combat",
-        "ABBR": "Intro Duo-Téracristallisation Combat",
-        "DESC": "Le lanceur bascule en Duo-Téracristal de type Combat la première fois qu'il arrive au combat à chaque combat."
-      },
       "9902860": {
         "NAME": "Soleil de Septentria",
         "ABBR": "Soleil de Septentria",
@@ -21493,6 +21483,16 @@
         "NAME": "Grande sœur déterminée à gagner",
         "ABBR": "Grande sœur déterminée à gagner",
         "DESC": "Augmente l'Attaque et l'Atq. Spé. de tous les Duos alliés de 1 rang quand le lanceur utilise avec succès une capacité offensive. Applique l'effet Conso. 0 assurée au lanceur quand il utilise avec succès sa capacité offensive."
+      },
+      "9902900": {
+        "NAME": "Début d'une saison d'épanouissement",
+        "ABBR": "Début d'une saison d'épanouissement",
+        "DESC": "Transforme le champ en un Champ Herbu la première fois que le lanceur arrive au combat à chaque combat. Le Champ Herbu dure plus longtemps quand le champ devient un Champ Herbu et que le lanceur est sur le terrain."
+      },
+      "9902910": {
+        "NAME": "Président du club de recherches sur le paranormal",
+        "ABBR": "Président du club de recherches sur le paranormal",
+        "DESC": "Applique Cercle de Paldea Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat. Cercle de Paldea Défensif dure plus longtemps quand Cercle de Paldea Défensif est appliqué au côté allié."
       },
       "9902920": {
         "NAME": "Harmonie des humains et de la nature",
