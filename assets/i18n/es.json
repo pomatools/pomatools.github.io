@@ -4167,10 +4167,25 @@
         "ABBR": "Martillo Colosal",
         "DESC": "Sin efectos secundarios."
       },
+      "902": {
+        "NAME": "Cañón Batidor",
+        "ABBR": "Cañón Batidor",
+        "DESC": "Descongela al usuario. Hay una probabilidad del 20% de quemar al objetivo. Cuanto más daño inflija al objetivo, más cantidad de PS recupera el usuario."
+      },
       "909": {
         "NAME": "Fulgor",
         "ABBR": "Fulgor",
         "DESC": "Sin efectos secundarios."
+      },
+      "4041": {
+        "NAME": "Teraexplosión Topacio",
+        "ABBR": "Tera Topacio",
+        "DESC": "Reduce en 2 niveles una de estas características del objetivo al azar: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión. (Dicha característica se reduce en igual medida para todos los compis rivales). La potencia de este movimiento no se reduce incluso si hay varios objetivos. Además, hay una probabilidad del 50% de otorgar todos los efectos siguientes: Duplica la potencia de este ataque. Reduce en 2 niveles una de estas características del objetivo al azar: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión. (Dicha característica se reduce en igual medida para todos los compis rivales)."
+      },
+      "4042": {
+        "NAME": "Teraexplosión Esmeralda",
+        "ABBR": "Tera Esmeralda",
+        "DESC": "Asesta un golpe crítico, salvo en ciertas circunstancias. Crea un campo de hierba la primera vez que este movimiento de ataque acierta en cada combate. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 2 niveles."
       },
       "5000": {
         "NAME": "Rayo",
@@ -4872,6 +4887,21 @@
         "ABBR": "Defensa Férrea R",
         "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAumenta la Defensa y la Defensa Especial de todos los compis aliados en 2 niveles. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
+      "6139": {
+        "NAME": "Día Soleado Maduro",
+        "ABBR": "Día Soleado M",
+        "DESC": "Cuándo se activa: Cuando los PS del usuario son el 50% o más.\nCuándo se desactiva: Cuando los PS del usuario son inferiores al 50%.\n\nHace que el sol brille con fuerza. Se reduce en 1 el contador de movimientos compi del usuario. Aumenta el efecto Siguiente Movimiento Compi ↑ de todos los compis aliados en 2 niveles."
+      },
+      "6140": {
+        "NAME": "Ventisca Refrescante",
+        "ABBR": "Ventisca R",
+        "DESC": "Cuándo se activa: Cuando se le aplica un círculo al bando aliado.\nCuándo se desactiva: Cuando ya no se le aplica ningún círculo al bando aliado.\n\nAcierta siempre. Hay una probabilidad del 50% de congelar al objetivo. La potencia y la probabilidad de aplicar efectos secundarios de este movimiento no se reducen incluso si hay varios objetivos. Aplica el efecto Siguiente Supereficaz ↑ a todos los compis aliados. Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en 2 niveles."
+      },
+      "6141": {
+        "NAME": "Hiperrayo Z",
+        "ABBR": "Hiperrayo Z",
+        "DESC": "Cuándo se activa: Cuando los compis de tu equipo usan un movimiento compi una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Se reduce en 1 el contador de movimientos compi del usuario. Aplica el efecto Siguiente sin coste al usuario. Aumenta el efecto Siguiente Especial ↑ del usuario en 2 niveles."
+      },
       "7000": {
         "NAME": "Gigarreciclaje",
         "ABBR": "Gigarreciclaje",
@@ -5137,6 +5167,11 @@
         "ABBR": "Pasión de Teselia",
         "DESC": "Aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en 1 nivel. Aplica Círculo de Teselia (Físico) al bando aliado. Círculo de Teselia (Físico) otorga todos los efectos siguientes: Aumenta la potencia de los movimientos de ataque físico y los movimientos compi físicos de todos los compis aliados en un 10%. Mitiga el daño por movimientos de ataque físico y movimientos compi físicos que reciben todos los compis aliados en un 5%. Cuantos más compis con el distintivo \"Teselia\" haya en el bando aliado, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos y los movimientos compi en un 10% adicional (hasta un total máximo del 40%), y mitiga el daño recibido en un 3% adicional (hasta un total máximo del 14%)."
       },
+      "8213": {
+        "NAME": "Análisis de Teselia",
+        "ABBR": "Análisis de Teselia",
+        "DESC": "Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel. Aplica Círculo de Teselia (Especial) al bando aliado. Círculo de Teselia (Especial) otorga todos los efectos siguientes: Aumenta la potencia de los movimientos de ataque especial y los movimientos compi especiales de todos los compis aliados en un 10%. Mitiga el daño por movimientos de ataque especial y movimientos compi especiales que reciben todos los compis aliados en un 5%. Cuantos más compis con el distintivo \"Teselia\" estén en el bando aliado, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos y los movimientos compi en un 10% adicional (hasta un total máximo del 40%), y mitiga el daño recibido en un 3% adicional (hasta un total máximo del 14%)."
+      },
       "8214": {
         "NAME": "Unidad de Teselia",
         "ABBR": "Unidad de Teselia",
@@ -5376,6 +5411,11 @@
         "NAME": "¡Chica nociva en el escenario!",
         "ABBR": "¡Chica nociva en el escenario!",
         "DESC": "Aplica el efecto Barra mov. acelerada al bando aliado. Aumenta el Ataque Especial del usuario en 4 niveles. Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles."
+      },
+      "10119": {
+        "NAME": "¡A sacooo!",
+        "ABBR": "¡A sacooo!",
+        "DESC": "Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 4 niveles. Aumenta el efecto Siguiente Movimiento Compi ↑ de todos los compis aliados en 3 niveles."
       },
       "10120": {
         "NAME": "¡Todo va a salir rodado!",
@@ -6112,6 +6152,11 @@
         "ABBR": "¡Ñam, ñam!",
         "DESC": "Aumenta el Ataque Especial del usuario en 4 niveles. Aumenta la Precisión del usuario en 1 nivel. Aumenta la probabilidad del usuario de asestar golpes críticos en 2 niveles."
       },
+      "10925": {
+        "NAME": "¡Yo seré tu guardaespaldas!",
+        "ABBR": "¡Yo seré tu guardaespaldas!",
+        "DESC": "Recupera aproximadamente un 40% de los PS máximos de todos los compis aliados. Cura todos los problemas de estado, de retroceso, confusión y ataduras de todos los compis aliados. Aplica el efecto Regeneración de PS a todos los compis aliados. Aumenta la Resiliencia Agua de todos los compis aliados en 2 niveles."
+      },
       "10928": {
         "NAME": "¡Venceremos!",
         "ABBR": "¡Venceremos!",
@@ -6492,6 +6537,11 @@
         "ABBR": "¡Mi alma se estremece!",
         "DESC": "Aumenta el Ataque Especial del usuario en 6 niveles. Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles. Aplica el efecto Siguiente sin coste al usuario. Aumenta el efecto Siguiente Especial ↑ del usuario en 1 nivel."
       },
+      "11194": {
+        "NAME": "Sacar notazas...",
+        "ABBR": "Sacar notazas...",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario. Aumenta el Ataque Especial del usuario en 4 niveles. Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles."
+      },
       "11198": {
         "NAME": "Bien. ¡Vamos!",
         "ABBR": "Bien. ¡Vamos!",
@@ -6511,6 +6561,11 @@
         "NAME": "¡Un amor colmado de luz!",
         "ABBR": "¡Un amor colmado de luz!",
         "DESC": "Se reduce en 2 el contador de movimientos compi del usuario. Aumenta el Ataque Especial del usuario en 6 niveles. Reduce la Velocidad del usuario en 1 nivel."
+      },
+      "11208": {
+        "NAME": "¿Por qué no me lo demuestras?",
+        "ABBR": "¿Por qué no me lo demuestras?",
+        "DESC": "Aumenta el Ataque Especial del usuario en 4 niveles. Aumenta la probabilidad de asestar golpes críticos del usuario en 2 niveles."
       },
       "11209": {
         "NAME": "¡La fuerza para cuidar de ellos!",
@@ -6932,6 +6987,11 @@
         "ABBR": "Quelle surprise!",
         "DESC": "Llena 3 puntos la barra de movimientos del usuario. Aumenta la probabilidad del usuario de asestar golpes críticos en 1 nivel."
       },
+      "11519": {
+        "NAME": "¡Nunca nos rendiremos!",
+        "ABBR": "¡Nunca nos rendiremos!",
+        "DESC": "Aumenta el Ataque, la Defensa, el Ataque Especial y la Defensa Especial de todos los compis aliados en 2 niveles. Aplica el efecto Siguiente Supereficaz ↑ a todos los compis aliados."
+      },
       "11520": {
         "NAME": "¡Tan formidables como hermosos!",
         "ABBR": "¡Tan formidables como hermosos!",
@@ -7001,6 +7061,11 @@
         "NAME": "¡Que piquen!",
         "ABBR": "¡Que piquen!",
         "DESC": "Aumenta el Ataque y el Ataque Especial del usuario en 6 niveles. Aplica el efecto Siguiente Supereficaz ↑ al usuario cuando hay un campo psíquico activo."
+      },
+      "11608": {
+        "NAME": "¡Qué buen día para ir a pescar!",
+        "ABBR": "¡Qué buen día para ir a pescar!",
+        "DESC": "Aumenta la Evasión de todos los compis aliados en 3 niveles. Aumenta la probabilidad de asestar golpes críticos de todos los compis aliados en 2 niveles. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
       "11609": {
         "NAME": "¡Pienso emplearme a fondo!",
@@ -7792,6 +7857,16 @@
         "ABBR": "¡Me gusta!",
         "DESC": "Aumenta la probabilidad de asestar golpes críticos del usuario en 2 niveles. Aumenta la Velocidad de todos los compis aliados en 2 niveles."
       },
+      "13560": {
+        "NAME": "¡Prepárate!",
+        "ABBR": "¡Prepárate!",
+        "DESC": "Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 4 niveles. Aplica el efecto Aguante al usuario."
+      },
+      "13570": {
+        "NAME": "¡No pienso darte cuartel!",
+        "ABBR": "¡No pienso darte cuartel!",
+        "DESC": "Aumenta el Ataque de un aliado en 6 niveles. Aumenta la probabilidad de asestar golpes críticos de un aliado en 3 niveles. Aplica el efecto Regeneración de PS a un aliado."
+      },
       "13580": {
         "NAME": "Estate al loro",
         "ABBR": "Estate al loro",
@@ -7941,6 +8016,11 @@
         "NAME": "¡A repasar apoyo!",
         "ABBR": "¡A repasar apoyo!",
         "DESC": "Aumenta la Defensa de todos los compis aliados en 2 niveles. Aumenta la Velocidad de todos los compis aliados en 1 nivel."
+      },
+      "17504": {
+        "NAME": "¡A repasar ofensiva!",
+        "ABBR": "¡A repasar ofensiva!",
+        "DESC": "Aumenta el Ataque y el Ataque Especial del usuario en 2 niveles."
       },
       "18500": {
         "NAME": "Baya Zidra",
@@ -8445,6 +8525,11 @@
       "50101": {
         "NAME": "Carrera Arrolladora del Príncipe Obsesionado",
         "ABBR": "Carrera Arrolladora del Príncipe Obsesionado",
+        "DESC": "Sin efectos secundarios."
+      },
+      "50102": {
+        "NAME": "Carrera Arrolladora de Probar las Veces que Haga Falta",
+        "ABBR": "Carrera Arrolladora de Probar las Veces que Haga Falta",
         "DESC": "Sin efectos secundarios."
       },
       "50201": {
@@ -11167,91 +11252,6 @@
         "ABBR": "Impacto Roca del Rompedruscos por Antonomasia",
         "DESC": "Sin efectos secundarios."
       },
-      "902": {
-        "NAME": "Cañón Batidor",
-        "ABBR": "Cañón Batidor",
-        "DESC": "Descongela al usuario. Hay una probabilidad del 20% de quemar al objetivo. Cuanto más daño inflija al objetivo, más cantidad de PS recupera el usuario."
-      },
-      "4041": {
-        "NAME": "Teraexplosión Topacio",
-        "ABBR": "Tera Topacio",
-        "DESC": "Reduce en 2 niveles una de estas características del objetivo al azar: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión. (Dicha característica se reduce en igual medida para todos los compis rivales). La potencia de este movimiento no se reduce incluso si hay varios objetivos. Además, hay una probabilidad del 50% de otorgar todos los efectos siguientes: Duplica la potencia de este ataque. Reduce en 2 niveles una de estas características del objetivo al azar: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión. (Dicha característica se reduce en igual medida para todos los compis rivales)."
-      },
-      "4042": {
-        "NAME": "Teraexplosión Esmeralda",
-        "ABBR": "Tera Esmeralda",
-        "DESC": "Asesta un golpe crítico, salvo en ciertas circunstancias. Crea un campo de hierba la primera vez que este movimiento de ataque acierta en cada combate. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 2 niveles."
-      },
-      "6139": {
-        "NAME": "Día Soleado Maduro",
-        "ABBR": "Día Soleado M",
-        "DESC": "Cuándo se activa: Cuando los PS del usuario son el 50% o más.\nCuándo se desactiva: Cuando los PS del usuario son inferiores al 50%.\n\nHace que el sol brille con fuerza. Se reduce en 1 el contador de movimientos compi del usuario. Aumenta el efecto Siguiente Movimiento Compi ↑ de todos los compis aliados en 2 niveles."
-      },
-      "6140": {
-        "NAME": "Ventisca Refrescante",
-        "ABBR": "Ventisca R",
-        "DESC": "Cuándo se activa: Cuando se le aplica un círculo al bando aliado.\nCuándo se desactiva: Cuando ya no se le aplica ningún círculo al bando aliado.\n\nAcierta siempre. Hay una probabilidad del 50% de congelar al objetivo. La potencia y la probabilidad de aplicar efectos secundarios de este movimiento no se reducen incluso si hay varios objetivos. Aplica el efecto Siguiente Supereficaz ↑ a todos los compis aliados. Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en 2 niveles."
-      },
-      "6141": {
-        "NAME": "Hiperrayo Z",
-        "ABBR": "Hiperrayo Z",
-        "DESC": "Cuándo se activa: Cuando los compis de tu equipo usan un movimiento compi una vez.\nCuándo se desactiva: Cuando se usa este movimiento.\n\nAcierta siempre. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Se reduce en 1 el contador de movimientos compi del usuario. Aplica el efecto Siguiente sin coste al usuario. Aumenta el efecto Siguiente Especial ↑ del usuario en 2 niveles."
-      },
-      "8213": {
-        "NAME": "Análisis de Teselia",
-        "ABBR": "Análisis de Teselia",
-        "DESC": "Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel. Aplica Círculo de Teselia (Especial) al bando aliado. Círculo de Teselia (Especial) otorga todos los efectos siguientes: Aumenta la potencia de los movimientos de ataque especial y los movimientos compi especiales de todos los compis aliados en un 10%. Mitiga el daño por movimientos de ataque especial y movimientos compi especiales que reciben todos los compis aliados en un 5%. Cuantos más compis con el distintivo \"Teselia\" estén en el bando aliado, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos y los movimientos compi en un 10% adicional (hasta un total máximo del 40%), y mitiga el daño recibido en un 3% adicional (hasta un total máximo del 14%)."
-      },
-      "10119": {
-        "NAME": "¡A sacooo!",
-        "ABBR": "¡A sacooo!",
-        "DESC": "Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 4 niveles. Aumenta el efecto Siguiente Movimiento Compi ↑ de todos los compis aliados en 3 niveles."
-      },
-      "10925": {
-        "NAME": "¡Yo seré tu guardaespaldas!",
-        "ABBR": "¡Yo seré tu guardaespaldas!",
-        "DESC": "Recupera aproximadamente un 40% de los PS máximos de todos los compis aliados. Cura todos los problemas de estado, de retroceso, confusión y ataduras de todos los compis aliados. Aplica el efecto Regeneración de PS a todos los compis aliados. Aumenta la Resiliencia Agua de todos los compis aliados en 2 niveles."
-      },
-      "11194": {
-        "NAME": "Sacar notazas...",
-        "ABBR": "Sacar notazas...",
-        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario. Aumenta el Ataque Especial del usuario en 4 niveles. Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles."
-      },
-      "11208": {
-        "NAME": "¿Por qué no me lo demuestras?",
-        "ABBR": "¿Por qué no me lo demuestras?",
-        "DESC": "Aumenta el Ataque Especial del usuario en 4 niveles. Aumenta la probabilidad de asestar golpes críticos del usuario en 2 niveles."
-      },
-      "11519": {
-        "NAME": "¡Nunca nos rendiremos!",
-        "ABBR": "¡Nunca nos rendiremos!",
-        "DESC": "Aumenta el Ataque, la Defensa, el Ataque Especial y la Defensa Especial de todos los compis aliados en 2 niveles. Aplica el efecto Siguiente Supereficaz ↑ a todos los compis aliados."
-      },
-      "11608": {
-        "NAME": "¡Qué buen día para ir a pescar!",
-        "ABBR": "¡Qué buen día para ir a pescar!",
-        "DESC": "Aumenta la Evasión de todos los compis aliados en 3 niveles. Aumenta la probabilidad de asestar golpes críticos de todos los compis aliados en 2 niveles. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
-      },
-      "13560": {
-        "NAME": "¡Prepárate!",
-        "ABBR": "¡Prepárate!",
-        "DESC": "Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 4 niveles. Aplica el efecto Aguante al usuario."
-      },
-      "13570": {
-        "NAME": "¡No pienso darte cuartel!",
-        "ABBR": "¡No pienso darte cuartel!",
-        "DESC": "Aumenta el Ataque de un aliado en 6 niveles. Aumenta la probabilidad de asestar golpes críticos de un aliado en 3 niveles. Aplica el efecto Regeneración de PS a un aliado."
-      },
-      "17504": {
-        "NAME": "¡A repasar ofensiva!",
-        "ABBR": "¡A repasar ofensiva!",
-        "DESC": "Aumenta el Ataque y el Ataque Especial del usuario en 2 niveles."
-      },
-      "50102": {
-        "NAME": "Carrera Arrolladora de Probar las Veces que Haga Falta",
-        "ABBR": "Carrera Arrolladora de Probar las Veces que Haga Falta",
-        "DESC": "Sin efectos secundarios."
-      },
       "120700": {
         "NAME": "Rayo Glacial de Estudiar en Compañía",
         "ABBR": "Rayo Glacial de Estudiar en Compañía",
@@ -11559,6 +11559,16 @@
         "ABBR": "At. Ali. Riv. Ata. Cura {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar aproximadamente un 10% de los PS máximos de un aliado cuando su movimiento de ataque acierta contra un rival que está bajo ataduras."
       },
+      "1101550": {
+        "NAME": "Movimiento Compi Aliado Curativo M +{{value}}",
+        "ABBR": "M-Compi Aliado Cura M {{value}}",
+        "DESC": "Recupera aproximadamente un {{heal}}% de los PS máximos de todos los compis aliados después de que los compis de tu equipo usen su movimiento compi."
+      },
+      "1101560": {
+        "NAME": "Fatiga PM Recuperación ↓ y Curativa +5",
+        "ABBR": "Fatiga PM Recuperación ↓ y Curativa +5",
+        "DESC": "Reduce los PM de Recuperación del usuario en 1 y recupera aproximadamente un 50% de sus PS máximos cuando sus PS bajan a la mitad o menos."
+      },
       "1201010": {
         "NAME": "Velocidad Pluvial +{{value}}",
         "ABBR": "Velocidad Pluvial {{value}}",
@@ -11678,6 +11688,11 @@
         "NAME": "Círculo Acelerador +{{value}}",
         "ABBR": "Círculo Acelerador {{value}}",
         "DESC": "Aumenta la velocidad a la que se llena la barra de movimientos cuando se aplica un círculo al bando aliado."
+      },
+      "1201250": {
+        "NAME": "Cambio de Entorno Acelerador +{{value}}",
+        "ABBR": "Cambio Entorno Acelerador {{value}}",
+        "DESC": "Aumenta la velocidad a la que se llena la barra de movimientos cuando hay efectos de cambios atmosféricos, campo o zona activos."
       },
       "1202010": {
         "NAME": "Movimiento Llenabarras +{{value}}",
@@ -12534,6 +12549,11 @@
         "ABBR": "Vista Aguda y Superacción Crítica",
         "DESC": "Hace que los movimientos del usuario acierten siempre. Salvo en ciertas circunstancias, los ataques con éxito con los siguientes ataques del usuario se convierten en golpes críticos: movimientos de los Pokémon o movimientos compi."
       },
+      "1303060": {
+        "NAME": "Hiperrayo Certero",
+        "ABBR": "Hiperrayo Certero",
+        "DESC": "El movimiento Hiperrayo del usuario acierta siempre."
+      },
       "1305010": {
         "NAME": "Cambio Hada",
         "ABBR": "Cambio Hada",
@@ -12744,6 +12764,11 @@
         "ABBR": "At. Recupera 32 PM M-Sincro {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 32 PM del movimiento sincro del usuario cuando su movimiento de ataque acierta."
       },
+      "1306270": {
+        "NAME": "Análisis de Teselia Recupera PM Mov. S +{{value}}",
+        "ABBR": "Análisis de Teselia Recupera PM Mov. S {{value}}",
+        "DESC": "Recupera {{value}} PM del movimiento sincro del usuario cuando usa Análisis de Teselia."
+      },
       "1306280": {
         "NAME": "Daño Recupera PM Baya +{{value}}",
         "ABBR": "Daño Recupera PM Baya {{value}}",
@@ -12943,6 +12968,26 @@
         "NAME": "Zona Dragón Impulsora M +{{value}}",
         "ABBR": "Z.Dragón Imp. M {{value}}",
         "DESC": "Aumenta la potencia de los movimientos de todos los compis aliados cuando la zona es Zona Dragón."
+      },
+      "1308380": {
+        "NAME": "Hiperrayo Impulsor +{{value}}",
+        "ABBR": "Hiperrayo Imp. {{value}}",
+        "DESC": "Aumenta la potencia de Hiperrayo del usuario."
+      },
+      "1308390": {
+        "NAME": "Vigor Compimpulsor +{{value}}",
+        "ABBR": "Vigor Compimp. {{value}}",
+        "DESC": "Aumenta la potencia del movimiento compi del usuario cuando sus PS restantes sean la mitad o más."
+      },
+      "1308400": {
+        "NAME": "Zona Lucha Impulsora M +{{value}}",
+        "ABBR": "Z.Lucha Imp. M {{value}}",
+        "DESC": "Aumenta la potencia de los movimientos de todos los compis aliados cuando la zona es Zona Lucha."
+      },
+      "1308420": {
+        "NAME": "Círculo de Teselia (Especial) Impulsor M +{{value}}",
+        "ABBR": "C.Teselia (Esp) Imp. M {{value}}",
+        "DESC": "Aumenta la potencia de los movimientos de todos los compis aliados cuando se aplica Círculo de Teselia (Especial) al bando aliado."
       },
       "1401010": {
         "NAME": "Regalo Final",
@@ -13753,6 +13798,16 @@
         "NAME": "Círculo Compimpulsor +{{value}}",
         "ABBR": "Círculo Compimp. {{value}}",
         "DESC": "Aumenta la potencia del movimiento compi del usuario cuando se aplica un círculo al bando aliado."
+      },
+      "1603060": {
+        "NAME": "Velocidad Aliada ↑ Compimpulsora +{{value}}",
+        "ABBR": "Vel. Aliada ↑ Compimp. {{value}}",
+        "DESC": "Aumenta la potencia del movimiento compi de un aliado cuando ha aumentado su Velocidad."
+      },
+      "1603070": {
+        "NAME": "Cambio de Entorno Compimpulsor M +{{value}}",
+        "ABBR": "Cambio Entorno Compimp. M {{value}}",
+        "DESC": "Aumenta la potencia de los movimientos compi de todos los compis aliados cuando hay efectos de cambios atmosféricos, campo o zona activos."
       },
       "1701010": {
         "NAME": "Inmunidad Veneno",
@@ -15810,9 +15865,9 @@
         "DESC": "Hay una probabilidad del {{chance}}% de aplicar el efecto Siguiente sin coste al usuario cuando su movimiento de ataque acierta mientras solo hay 1 Pokémon en el bando rival."
       },
       "1708410": {
-        "NAME": "1.ª Entrada y 1.er Mov. Compi Sig. Esp. ↑ +1",
-        "ABBR": "1.ª Entrada y 1.er M-Compi Sig.Esp. ↑ +1",
-        "DESC": "Aumenta el efecto Siguiente Especial ↑ del usuario en 1 nivel al entrar en combate por primera vez en cada combate. Aumenta el efecto Siguiente Especial ↑ del usuario en 1 nivel la primera vez que usa su movimiento compi en cada combate."
+        "NAME": "1.ª Entrada y 1.er Mov. Compi Sig. Esp. ↑ +{{value}}",
+        "ABBR": "1.ª Entrada y 1.er M-Compi Sig.Esp. ↑ +{{value}}",
+        "DESC": "Aumenta el efecto Siguiente Especial ↑ del usuario en {{value}} nivel(es) al entrar en combate por primera vez en cada combate. Aumenta el efecto Siguiente Especial ↑ del usuario en 1 nivel la primera vez que usa su movimiento compi en cada combate."
       },
       "1708420": {
         "NAME": "Acción Movimiento Compi ↑ Doble +{{value}}",
@@ -15854,6 +15909,31 @@
         "ABBR": "Círculo Ali. Sig. 0 Coste {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de aplicar el efecto Siguiente sin coste al usuario cuando un aliado aplica un círculo al bando aliado."
       },
+      "1708500": {
+        "NAME": "Cambiaentorno Sig. Fís. Esp. ↑ Simple M +{{value}}",
+        "ABBR": "Cambiaentorno Sig.Fís.Esp. ↑+1 M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel cuando un aliado activa un efecto de cambio atmosférico, campo o zona."
+      },
+      "1708510": {
+        "NAME": "Mov. Compi Aliado Sig. Fís. Esp. ↑ Simple M +{{value}}",
+        "ABBR": "M-Compi Aliado Sig.Fís.Esp. ↑+1 M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel después de que los compis de tu equipo usen su movimiento compi."
+      },
+      "1708520": {
+        "NAME": "Impulso Fantasma M +{{value}}",
+        "ABBR": "Imp. Fantasma M {{value}}",
+        "DESC": "Aumenta la potencia de los movimientos de tipo Fantasma de todos los compis aliados."
+      },
+      "1708530": {
+        "NAME": "Impulso Veneno M +{{value}}",
+        "ABBR": "Imp. Veneno M {{value}}",
+        "DESC": "Aumenta la potencia de los movimientos de tipo Veneno de todos los compis aliados."
+      },
+      "1708540": {
+        "NAME": "Impulso Agua M +{{value}}",
+        "ABBR": "Imp. Agua M {{value}}",
+        "DESC": "Aumenta la potencia de los movimientos de tipo Agua de todos los compis aliados."
+      },
       "1708550": {
         "NAME": "Mov. Compi Siguiente Fís. Esp. ↑ Simple M +{{value}}",
         "ABBR": "M-Compi Sig.Fís.Esp. ↑+1 M {{value}}",
@@ -15878,6 +15958,41 @@
         "NAME": "1.er Mov. Compi Siguiente Fís. Esp. ↑ M +{{value}}",
         "ABBR": "1.er Mov. Compi Siguiente Fís. Esp. ↑ M {{value}}",
         "DESC": "Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel(es) la primera vez que el usuario usa un movimiento compi en cada combate."
+      },
+      "1708690": {
+        "NAME": "1.ª Entrada Siguiente Supereficaz ↑ M",
+        "ABBR": "1.ª Entrada Siguiente Supereficaz ↑ M",
+        "DESC": "Aplica el efecto Siguiente Supereficaz ↑ a todos los compis aliados cuando el usuario entra en combate por primera vez en cada combate."
+      },
+      "1708700": {
+        "NAME": "Acción Movimiento Compi ↑ Simple M +{{value}}",
+        "ABBR": "Acción M-Compi ↑+1 M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Movimiento Compi ↑ de todos los compis aliados en 1 nivel cuando el Pokémon del usuario usa un movimiento."
+      },
+      "1708710": {
+        "NAME": "Mov. Compi D Siguiente Físico Especial ↑ +{{value}}",
+        "ABBR": "M-Dinamax Sig.Fís.Esp. ↑+{{value}}",
+        "DESC": "Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ del usuario en {{value}} nivel(es) tras usar su movimiento compi Dinamax."
+      },
+      "1708720": {
+        "NAME": "1.ª Entrada Sig. Físico Especial ↑ M +{{value}}",
+        "ABBR": "1.ª Entrada Sig.Fís.Esp. ↑+ M {{value}}",
+        "DESC": "Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel(es) cuando el usuario entra en combate por primera vez en cada combate."
+      },
+      "1708730": {
+        "NAME": "1.ª Entrada Movimiento Compi ↑ M +{{value}}",
+        "ABBR": "1.ª Entrada M-Compi ↑+ M {{value}}",
+        "DESC": "Aumenta el efecto Siguiente Movimiento Compi ↑ de todos los compis aliados en {{value}} nivel(es) cuando el usuario entra en combate por primera vez en cada combate."
+      },
+      "1708760": {
+        "NAME": "Aliado Act. Campo Hierba Sig. Fís. Esp. ↑ Simple M +{{value}}",
+        "ABBR": "Aliado Act. C.Hierba Sig.Fís.Esp. ↑+1 M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel cuando un aliado crea un campo de hierba."
+      },
+      "1708770": {
+        "NAME": "Movimiento Supereficaz Monosabotaje +{{value}}",
+        "ABBR": "Mov. Efi. Monosabotaje {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de hacer retroceder, confundir o dejar bajo ataduras al objetivo cuando el movimiento del usuario contra el objetivo resulta supereficaz."
       },
       "1801010": {
         "NAME": "Resistencia Ataque ↓ +{{value}}",
@@ -18249,6 +18364,46 @@
         "ABBR": "M-Dinamax Defensiva ↑ {{value}}",
         "DESC": "Aumenta la Defensa y la Defensa Especial del usuario en {{value}} nivel tras usar su movimiento compi Dinamax."
       },
+      "1812320": {
+        "NAME": "Ataque Defensa ↓ Solar +{{value}}",
+        "ABBR": "At. Def. ↓ Solar {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir la Defensa del objetivo en 1 nivel cuando el movimiento de ataque del usuario acierta mientras está soleado."
+      },
+      "1812330": {
+        "NAME": "Ataque Zona Lucha Defensa Especial ↓ +{{value}}",
+        "ABBR": "At. Z.Lucha D.Esp. ↓ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir la Defensa Especial del objetivo en 1 nivel cuando el movimiento de ataque del usuario acierta mientras la zona es Zona Lucha."
+      },
+      "1812340": {
+        "NAME": "Activa Círculo de Teselia (Esp.) Defensiva ↑↑ M +{{value}}",
+        "ABBR": "Activa C.Teselia (Esp) Def. ↑↑ M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar la Defensa y la Defensa Especial de todos los compis aliados en 2 niveles cuando el usuario aplica Círculo de Teselia (Especial) al bando aliado."
+      },
+      "1812360": {
+        "NAME": "1.ª Entrada Características ↑ M +{{value}}",
+        "ABBR": "1.ª Entrada Caract. ↑ M {{value}}",
+        "DESC": "Aumenta el Ataque, la Defensa, el Ataque Especial, la Defensa Especial, la Velocidad, la Precisión y la Evasión de todos los compis aliados en {{value}} nivel(es) cuando el usuario entra en combate por primera vez en cada combate."
+      },
+      "1812380": {
+        "NAME": "Ataque Rival Quemado Defensiva ↓ +{{value}}",
+        "ABBR": "At. Riv. Que. Defensiva ↓ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir la Defensa y la Defensa Especial del objetivo en 1 nivel cuando el movimiento de ataque del usuario acierta contra un rival que está quemado."
+      },
+      "1812390": {
+        "NAME": "Activa Círculo de Teselia (Esp.) Ataque ↑↑ M +{{value}}",
+        "ABBR": "Activa C.Teselia (Esp) Atq. ↑↑ M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el Ataque de todos los compis aliados en 2 niveles cuando el usuario aplica Círculo de Teselia (Especial) al bando aliado."
+      },
+      "1812400": {
+        "NAME": "Activa Círculo de Teselia (Esp.) At. Esp. ↑↑ M +{{value}}",
+        "ABBR": "Activa C.Teselia (Esp) A.Esp. ↑↑ M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el Ataque Especial de todos los compis aliados en 2 niveles cuando el usuario aplica Círculo de Teselia (Especial) al bando aliado."
+      },
+      "1812420": {
+        "NAME": "Ataque Característica ↓↓ Pluvial +{{value}}",
+        "ABBR": "Ataque Caract. ↓↓ Pluvial {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir en 2 niveles una de estas características del objetivo al azar cuando el movimiento de ataque del usuario acierta mientras llueve: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión."
+      },
       "1901010": {
         "NAME": "Ataque Penetrante",
         "ABBR": "At. Penetrante",
@@ -19184,15 +19339,60 @@
         "ABBR": "M-Compi Mitiga Especial Bando",
         "DESC": "Aplica el efecto Daño especial ↓ al bando aliado tras usar el movimiento compi del usuario."
       },
+      "1905770": {
+        "NAME": "Activa Sol Zona Lucha",
+        "ABBR": "Activa Sol Z.Lucha",
+        "DESC": "Crea una Zona Lucha cuando el usuario cambia el tiempo a soleado. (Una Zona Lucha potencia los ataques de tipo Lucha)."
+      },
       "1905780": {
         "NAME": "1.ª Entrada Círculo de Paldea (Defensivo)",
         "ABBR": "1.ª Entrada C.Paldea (Def)",
         "DESC": "Aplica Círculo de Paldea (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate."
       },
+      "1905790": {
+        "NAME": "1.ª Entrada Círculo de Teselia (Especial)",
+        "ABBR": "1.ª Entrada C.Teselia (Esp)",
+        "DESC": "Aplica Círculo de Teselia (Especial) al bando aliado cuando el usuario entra en combate por primera vez en cada combate."
+      },
       "1905800": {
         "NAME": "Entrada Círculo de Johto (Fís.) y Sig. Fís. ↑ M +{{value}}",
         "ABBR": "Entrada C.Johto (Fís) y Sig.Fís. ↑ M {{value}}",
         "DESC": "Aplica Círculo de Johto (Físico) al bando aliado cuando el usuario entra en combate. Aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en {{value}} nivel(es) cuando el usuario entra en combate."
+      },
+      "1905890": {
+        "NAME": "1.er Movimiento Compi Zona Hada",
+        "ABBR": "1.er M-Compi Z.Hada",
+        "DESC": "Crea una Zona Hada la primera vez que el usuario usa un movimiento compi en cada combate. (Una Zona Hada potencia los ataques de tipo Hada)."
+      },
+      "1905900": {
+        "NAME": "Sol y Zona Lucha Duraderos +{{value}}",
+        "ABBR": "Sol y Z.Lucha Duraderos {{value}}",
+        "DESC": "Aumenta la duración del tiempo cuando cambia a soleado mientras el usuario está en el campo de batalla. Aumenta la duración de la Zona Lucha cuando la zona cambia a Zona Lucha mientras el usuario está en el campo de batalla."
+      },
+      "1905910": {
+        "NAME": "1.er Ataque Círculo de Paldea (Defensivo)",
+        "ABBR": "1.er At. C.Paldea (Def)",
+        "DESC": "Aplica Círculo de Paldea (Defensivo) al bando aliado la primera vez que el movimiento de ataque del usuario acierta en cada combate."
+      },
+      "1905920": {
+        "NAME": "1.er Mov. Compi Círculo de Sinnoh (Defensivo)",
+        "ABBR": "1.er M-Compi C.Sinnoh (Def)",
+        "DESC": "Aplica Círculo de Sinnoh (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate."
+      },
+      "1905930": {
+        "NAME": "1.er Mov. Compi Círculo de Alola (Defensivo)",
+        "ABBR": "1.er M-Compi C.Alola (Def)",
+        "DESC": "Aplica Círculo de Alola (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate."
+      },
+      "1905940": {
+        "NAME": "1.ª Entrada Círculo de Hoenn (Defensivo)",
+        "ABBR": "1.ª Entrada C.Hoenn (Def)",
+        "DESC": "Aplica Círculo de Hoenn (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate."
+      },
+      "1905970": {
+        "NAME": "Círculo de Teselia (Especial) Duradero +{{value}}",
+        "ABBR": "C.Teselia (Esp) Duradero {{value}}",
+        "DESC": "Aumenta la duración de Círculo de Teselia (Especial) cuando se le aplica Círculo de Teselia (Especial) al bando aliado."
       },
       "2001010": {
         "NAME": "Inmunidad Arena",
@@ -19243,6 +19443,11 @@
         "NAME": "Barra Acelerada Inmunidad Críticos M",
         "ABBR": "Barra Acelerada Inm. Críticos M",
         "DESC": "Impide que todos los compis aliados reciban golpes críticos cuando se aplica el efecto Barra mov. acelerada al bando aliado."
+      },
+      "2101100": {
+        "NAME": "Círculo de Teselia (Especial) Inmun. Crít. M",
+        "ABBR": "C.Teselia (Esp) Inmun. Crít. M",
+        "DESC": "Impide que todos los compis aliados reciban golpes críticos cuando se aplica Círculo de Teselia (Especial) al bando aliado."
       },
       "2201010": {
         "NAME": "Aire Nocivo +{{value}}",
@@ -20279,6 +20484,41 @@
         "ABBR": "No Puedo Defraudar a mis Admiradores",
         "DESC": "Se reduce en 2 el contador de movimientos compi del usuario tras usar su movimiento compi Dinamax. Impide que todos los compis aliados reciban golpes críticos cuando llueve. Aplica el efecto Aguante al usuario cuando tiene los PS al máximo al entrar en combate."
       },
+      "3202050": {
+        "NAME": "Encanto de la Dama Sofisticada",
+        "ABBR": "Encanto de la Dama Sofisticada",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario la primera vez que usa su movimiento compi en cada combate. Aplica Círculo de Paldea (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate. Aplica Círculo de Paldea (Defensivo) al bando aliado la primera vez que el movimiento de ataque del usuario acierta en cada combate."
+      },
+      "3202060": {
+        "NAME": "Danzarina Encantadora",
+        "ABBR": "Danzarina Encantadora",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Aplica Círculo de Sinnoh (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate. Aumenta la duración de Círculo de Sinnoh (Defensivo) cuando se le aplica Círculo de Sinnoh (Defensivo) al bando aliado."
+      },
+      "3202070": {
+        "NAME": "Nociva Dentro y Fuera de los Escenarios",
+        "ABBR": "Nociva Dentro y Fuera de los Escenarios",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Aplica Círculo de Teselia (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate. Aumenta la duración de Círculo de Teselia (Defensivo) cuando se le aplica Círculo de Teselia (Defensivo) al bando aliado."
+      },
+      "3202080": {
+        "NAME": "Capitana de la Colina Saltagua",
+        "ABBR": "Capitana de la Colina Saltagua",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Aplica Círculo de Alola (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate. Aumenta la duración de Círculo de Alola (Defensivo) cuando se le aplica Círculo de Alola (Defensivo) al bando aliado."
+      },
+      "3202090": {
+        "NAME": "Corazón del Equipo",
+        "ABBR": "Corazón del Equipo",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Se reduce en 1 el contador de movimientos compi del usuario la primera vez que su Entrenador usa un movimiento en cada combate. Se reduce en 1 el contador de movimientos compi la primera vez que el usuario usa un movimiento compi en cada combate."
+      },
+      "3301050": {
+        "NAME": "1.ª Entrada Teracrist. Compi Planta",
+        "ABBR": "1.ª Entrada Teracrist. Compi Planta",
+        "DESC": "Teracristaliza a tipo Planta al usuario al entrar en combate por primera vez en cada combate."
+      },
+      "3301070": {
+        "NAME": "1.ª Entrada Teracrist. Compi Lucha",
+        "ABBR": "1.ª Entrada Teracrist. Compi Lucha",
+        "DESC": "Teracristaliza a tipo Lucha al usuario al entrar en combate por primera vez en cada combate."
+      },
       "5130206": {
         "NAME": "Ausencia Cambios Aplacadora +{{value}}",
         "ABBR": "Ausencia Cambios Aplacadora {{value}}",
@@ -21224,256 +21464,6 @@
         "ABBR": "Buen Día para Pasear",
         "DESC": "Aumenta la duración del tiempo cuando cambia a soleado mientras el usuario está en el campo de batalla. Aumenta la Velocidad de todos los compis aliados en 1 nivel cuando un movimiento de ataque de un aliado acierta mientras está soleado. Aumenta el efecto Siguiente Especial ↑ de un aliado en 1 nivel cuando su movimiento de ataque acierta mientras está soleado."
       },
-      "9902900": {
-        "NAME": "Comienzo de Estación Floreciente",
-        "ABBR": "Comienzo de Estación Floreciente",
-        "DESC": "Crea un campo de hierba cuando el usuario entra en combate por primera vez en cada combate. Aumenta la duración del campo de hierba cuando el terreno cambia a campo de hierba mientras el usuario está en el campo de batalla."
-      },
-      "9902910": {
-        "NAME": "Presidente del Club de Estudios Paranormales",
-        "ABBR": "Presidente del Club de Estudios Paranormales",
-        "DESC": "Aplica Círculo de Paldea (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate. Aumenta la duración de Círculo de Paldea (Defensivo) cuando se le aplica Círculo de Paldea (Defensivo) al bando aliado."
-      },
-      "1101550": {
-        "NAME": "Movimiento Compi Aliado Curativo M +{{value}}",
-        "ABBR": "M-Compi Aliado Cura M {{value}}",
-        "DESC": "Recupera aproximadamente un {{heal}}% de los PS máximos de todos los compis aliados después de que los compis de tu equipo usen su movimiento compi."
-      },
-      "1101560": {
-        "NAME": "Fatiga PM Recuperación ↓ y Curativa +5",
-        "ABBR": "Fatiga PM Recuperación ↓ y Curativa +5",
-        "DESC": "Reduce los PM de Recuperación del usuario en 1 y recupera aproximadamente un 50% de sus PS máximos cuando sus PS bajan a la mitad o menos."
-      },
-      "1201250": {
-        "NAME": "Cambio de Entorno Acelerador +{{value}}",
-        "ABBR": "Cambio Entorno Acelerador {{value}}",
-        "DESC": "Aumenta la velocidad a la que se llena la barra de movimientos cuando hay efectos de cambios atmosféricos, campo o zona activos."
-      },
-      "1303060": {
-        "NAME": "Hiperrayo Certero",
-        "ABBR": "Hiperrayo Certero",
-        "DESC": "El movimiento Hiperrayo del usuario acierta siempre."
-      },
-      "1306270": {
-        "NAME": "Análisis de Teselia Recupera PM Mov. S +{{value}}",
-        "ABBR": "Análisis de Teselia Recupera PM Mov. S {{value}}",
-        "DESC": "Recupera {{value}} PM del movimiento sincro del usuario cuando usa Análisis de Teselia."
-      },
-      "1308380": {
-        "NAME": "Hiperrayo Impulsor +{{value}}",
-        "ABBR": "Hiperrayo Imp. {{value}}",
-        "DESC": "Aumenta la potencia de Hiperrayo del usuario."
-      },
-      "1308390": {
-        "NAME": "Vigor Compimpulsor +{{value}}",
-        "ABBR": "Vigor Compimp. {{value}}",
-        "DESC": "Aumenta la potencia del movimiento compi del usuario cuando sus PS restantes sean la mitad o más."
-      },
-      "1308400": {
-        "NAME": "Zona Lucha Impulsora M +{{value}}",
-        "ABBR": "Z.Lucha Imp. M {{value}}",
-        "DESC": "Aumenta la potencia de los movimientos de todos los compis aliados cuando la zona es Zona Lucha."
-      },
-      "1308420": {
-        "NAME": "Círculo de Teselia (Especial) Impulsor M +{{value}}",
-        "ABBR": "C.Teselia (Esp) Imp. M {{value}}",
-        "DESC": "Aumenta la potencia de los movimientos de todos los compis aliados cuando se aplica Círculo de Teselia (Especial) al bando aliado."
-      },
-      "1603060": {
-        "NAME": "Velocidad Aliada ↑ Compimpulsora +{{value}}",
-        "ABBR": "Vel. Aliada ↑ Compimp. {{value}}",
-        "DESC": "Aumenta la potencia del movimiento compi de un aliado cuando ha aumentado su Velocidad."
-      },
-      "1603070": {
-        "NAME": "Cambio de Entorno Compimpulsor M +{{value}}",
-        "ABBR": "Cambio Entorno Compimp. M {{value}}",
-        "DESC": "Aumenta la potencia de los movimientos compi de todos los compis aliados cuando hay efectos de cambios atmosféricos, campo o zona activos."
-      },
-      "1708500": {
-        "NAME": "Cambiaentorno Sig. Fís. Esp. ↑ Simple M +{{value}}",
-        "ABBR": "Cambiaentorno Sig.Fís.Esp. ↑+1 M {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel cuando un aliado activa un efecto de cambio atmosférico, campo o zona."
-      },
-      "1708510": {
-        "NAME": "Mov. Compi Aliado Sig. Fís. Esp. ↑ Simple M +{{value}}",
-        "ABBR": "M-Compi Aliado Sig.Fís.Esp. ↑+1 M {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel después de que los compis de tu equipo usen su movimiento compi."
-      },
-      "1708520": {
-        "NAME": "Impulso Fantasma M +{{value}}",
-        "ABBR": "Imp. Fantasma M {{value}}",
-        "DESC": "Aumenta la potencia de los movimientos de tipo Fantasma de todos los compis aliados."
-      },
-      "1708530": {
-        "NAME": "Impulso Veneno M +{{value}}",
-        "ABBR": "Imp. Veneno M {{value}}",
-        "DESC": "Aumenta la potencia de los movimientos de tipo Veneno de todos los compis aliados."
-      },
-      "1708540": {
-        "NAME": "Impulso Agua M +{{value}}",
-        "ABBR": "Imp. Agua M {{value}}",
-        "DESC": "Aumenta la potencia de los movimientos de tipo Agua de todos los compis aliados."
-      },
-      "1708690": {
-        "NAME": "1.ª Entrada Siguiente Supereficaz ↑ M",
-        "ABBR": "1.ª Entrada Siguiente Supereficaz ↑ M",
-        "DESC": "Aplica el efecto Siguiente Supereficaz ↑ a todos los compis aliados cuando el usuario entra en combate por primera vez en cada combate."
-      },
-      "1708700": {
-        "NAME": "Acción Movimiento Compi ↑ Simple M +{{value}}",
-        "ABBR": "Acción M-Compi ↑+1 M {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Movimiento Compi ↑ de todos los compis aliados en 1 nivel cuando el Pokémon del usuario usa un movimiento."
-      },
-      "1708710": {
-        "NAME": "Mov. Compi D Siguiente Físico Especial ↑ +{{value}}",
-        "ABBR": "M-Dinamax Sig.Fís.Esp. ↑+{{value}}",
-        "DESC": "Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ del usuario en {{value}} nivel(es) tras usar su movimiento compi Dinamax."
-      },
-      "1708720": {
-        "NAME": "1.ª Entrada Sig. Físico Especial ↑ M +{{value}}",
-        "ABBR": "1.ª Entrada Sig.Fís.Esp. ↑+ M {{value}}",
-        "DESC": "Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel(es) cuando el usuario entra en combate por primera vez en cada combate."
-      },
-      "1708730": {
-        "NAME": "1.ª Entrada Movimiento Compi ↑ M +{{value}}",
-        "ABBR": "1.ª Entrada M-Compi ↑+ M {{value}}",
-        "DESC": "Aumenta el efecto Siguiente Movimiento Compi ↑ de todos los compis aliados en {{value}} nivel(es) cuando el usuario entra en combate por primera vez en cada combate."
-      },
-      "1708760": {
-        "NAME": "Aliado Act. Campo Hierba Sig. Fís. Esp. ↑ Simple M +{{value}}",
-        "ABBR": "Aliado Act. C.Hierba Sig.Fís.Esp. ↑+1 M {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel cuando un aliado crea un campo de hierba."
-      },
-      "1708770": {
-        "NAME": "Movimiento Supereficaz Monosabotaje +{{value}}",
-        "ABBR": "Mov. Efi. Monosabotaje {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de hacer retroceder, confundir o dejar bajo ataduras al objetivo cuando el movimiento del usuario contra el objetivo resulta supereficaz."
-      },
-      "1812320": {
-        "NAME": "Ataque Defensa ↓ Solar +{{value}}",
-        "ABBR": "At. Def. ↓ Solar {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de reducir la Defensa del objetivo en 1 nivel cuando el movimiento de ataque del usuario acierta mientras está soleado."
-      },
-      "1812330": {
-        "NAME": "Ataque Zona Lucha Defensa Especial ↓ +{{value}}",
-        "ABBR": "At. Z.Lucha D.Esp. ↓ {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de reducir la Defensa Especial del objetivo en 1 nivel cuando el movimiento de ataque del usuario acierta mientras la zona es Zona Lucha."
-      },
-      "1812340": {
-        "NAME": "Activa Círculo de Teselia (Esp.) Defensiva ↑↑ M +{{value}}",
-        "ABBR": "Activa C.Teselia (Esp) Def. ↑↑ M {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar la Defensa y la Defensa Especial de todos los compis aliados en 2 niveles cuando el usuario aplica Círculo de Teselia (Especial) al bando aliado."
-      },
-      "1812360": {
-        "NAME": "1.ª Entrada Características ↑ M +{{value}}",
-        "ABBR": "1.ª Entrada Caract. ↑ M {{value}}",
-        "DESC": "Aumenta el Ataque, la Defensa, el Ataque Especial, la Defensa Especial, la Velocidad, la Precisión y la Evasión de todos los compis aliados en {{value}} nivel(es) cuando el usuario entra en combate por primera vez en cada combate."
-      },
-      "1812380": {
-        "NAME": "Ataque Rival Quemado Defensiva ↓ +{{value}}",
-        "ABBR": "At. Riv. Que. Defensiva ↓ {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de reducir la Defensa y la Defensa Especial del objetivo en 1 nivel cuando el movimiento de ataque del usuario acierta contra un rival que está quemado."
-      },
-      "1812390": {
-        "NAME": "Activa Círculo de Teselia (Esp.) Ataque ↑↑ M +{{value}}",
-        "ABBR": "Activa C.Teselia (Esp) Atq. ↑↑ M {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el Ataque de todos los compis aliados en 2 niveles cuando el usuario aplica Círculo de Teselia (Especial) al bando aliado."
-      },
-      "1812400": {
-        "NAME": "Activa Círculo de Teselia (Esp.) At. Esp. ↑↑ M +{{value}}",
-        "ABBR": "Activa C.Teselia (Esp) A.Esp. ↑↑ M {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el Ataque Especial de todos los compis aliados en 2 niveles cuando el usuario aplica Círculo de Teselia (Especial) al bando aliado."
-      },
-      "1812420": {
-        "NAME": "Ataque Característica ↓↓ Pluvial +{{value}}",
-        "ABBR": "Ataque Caract. ↓↓ Pluvial {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de reducir en 2 niveles una de estas características del objetivo al azar cuando el movimiento de ataque del usuario acierta mientras llueve: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión."
-      },
-      "1905770": {
-        "NAME": "Activa Sol Zona Lucha",
-        "ABBR": "Activa Sol Z.Lucha",
-        "DESC": "Crea una Zona Lucha cuando el usuario cambia el tiempo a soleado. (Una Zona Lucha potencia los ataques de tipo Lucha)."
-      },
-      "1905790": {
-        "NAME": "1.ª Entrada Círculo de Teselia (Especial)",
-        "ABBR": "1.ª Entrada C.Teselia (Esp)",
-        "DESC": "Aplica Círculo de Teselia (Especial) al bando aliado cuando el usuario entra en combate por primera vez en cada combate."
-      },
-      "1905890": {
-        "NAME": "1.er Movimiento Compi Zona Hada",
-        "ABBR": "1.er M-Compi Z.Hada",
-        "DESC": "Crea una Zona Hada la primera vez que el usuario usa un movimiento compi en cada combate. (Una Zona Hada potencia los ataques de tipo Hada)."
-      },
-      "1905900": {
-        "NAME": "Sol y Zona Lucha Duraderos +{{value}}",
-        "ABBR": "Sol y Z.Lucha Duraderos {{value}}",
-        "DESC": "Aumenta la duración del tiempo cuando cambia a soleado mientras el usuario está en el campo de batalla. Aumenta la duración de la Zona Lucha cuando la zona cambia a Zona Lucha mientras el usuario está en el campo de batalla."
-      },
-      "1905910": {
-        "NAME": "1.er Ataque Círculo de Paldea (Defensivo)",
-        "ABBR": "1.er At. C.Paldea (Def)",
-        "DESC": "Aplica Círculo de Paldea (Defensivo) al bando aliado la primera vez que el movimiento de ataque del usuario acierta en cada combate."
-      },
-      "1905920": {
-        "NAME": "1.er Mov. Compi Círculo de Sinnoh (Defensivo)",
-        "ABBR": "1.er M-Compi C.Sinnoh (Def)",
-        "DESC": "Aplica Círculo de Sinnoh (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate."
-      },
-      "1905930": {
-        "NAME": "1.er Mov. Compi Círculo de Alola (Defensivo)",
-        "ABBR": "1.er M-Compi C.Alola (Def)",
-        "DESC": "Aplica Círculo de Alola (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate."
-      },
-      "1905940": {
-        "NAME": "1.ª Entrada Círculo de Hoenn (Defensivo)",
-        "ABBR": "1.ª Entrada C.Hoenn (Def)",
-        "DESC": "Aplica Círculo de Hoenn (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate."
-      },
-      "1905970": {
-        "NAME": "Círculo de Teselia (Especial) Duradero +{{value}}",
-        "ABBR": "C.Teselia (Esp) Duradero {{value}}",
-        "DESC": "Aumenta la duración de Círculo de Teselia (Especial) cuando se le aplica Círculo de Teselia (Especial) al bando aliado."
-      },
-      "2101100": {
-        "NAME": "Círculo de Teselia (Especial) Inmun. Crít. M",
-        "ABBR": "C.Teselia (Esp) Inmun. Crít. M",
-        "DESC": "Impide que todos los compis aliados reciban golpes críticos cuando se aplica Círculo de Teselia (Especial) al bando aliado."
-      },
-      "3202050": {
-        "NAME": "Encanto de la Dama Sofisticada",
-        "ABBR": "Encanto de la Dama Sofisticada",
-        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario la primera vez que usa su movimiento compi en cada combate. Aplica Círculo de Paldea (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate. Aplica Círculo de Paldea (Defensivo) al bando aliado la primera vez que el movimiento de ataque del usuario acierta en cada combate."
-      },
-      "3202060": {
-        "NAME": "Danzarina Encantadora",
-        "ABBR": "Danzarina Encantadora",
-        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Aplica Círculo de Sinnoh (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate. Aumenta la duración de Círculo de Sinnoh (Defensivo) cuando se le aplica Círculo de Sinnoh (Defensivo) al bando aliado."
-      },
-      "3202070": {
-        "NAME": "Nociva Dentro y Fuera de los Escenarios",
-        "ABBR": "Nociva Dentro y Fuera de los Escenarios",
-        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Aplica Círculo de Teselia (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate. Aumenta la duración de Círculo de Teselia (Defensivo) cuando se le aplica Círculo de Teselia (Defensivo) al bando aliado."
-      },
-      "3202080": {
-        "NAME": "Capitana de la Colina Saltagua",
-        "ABBR": "Capitana de la Colina Saltagua",
-        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Aplica Círculo de Alola (Defensivo) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate. Aumenta la duración de Círculo de Alola (Defensivo) cuando se le aplica Círculo de Alola (Defensivo) al bando aliado."
-      },
-      "3202090": {
-        "NAME": "Corazón del Equipo",
-        "ABBR": "Corazón del Equipo",
-        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Se reduce en 1 el contador de movimientos compi del usuario la primera vez que su Entrenador usa un movimiento en cada combate. Se reduce en 1 el contador de movimientos compi la primera vez que el usuario usa un movimiento compi en cada combate."
-      },
-      "3301050": {
-        "NAME": "1.ª Entrada Teracrist. Compi Planta",
-        "ABBR": "1.ª Entrada Teracrist. Compi Planta",
-        "DESC": "Teracristaliza a tipo Planta al usuario al entrar en combate por primera vez en cada combate."
-      },
-      "3301070": {
-        "NAME": "1.ª Entrada Teracrist. Compi Lucha",
-        "ABBR": "1.ª Entrada Teracrist. Compi Lucha",
-        "DESC": "Teracristaliza a tipo Lucha al usuario al entrar en combate por primera vez en cada combate."
-      },
       "9902860": {
         "NAME": "Sol de Noroteo",
         "ABBR": "Sol de Noroteo",
@@ -21493,6 +21483,16 @@
         "NAME": "Hermana Mayor Mandona",
         "ABBR": "Hermana Mayor Mandona",
         "DESC": "Aumenta el Ataque y el Ataque Especial de todos los compis aliados en 1 nivel cuando el movimiento de ataque del usuario acierta. Aplica el efecto Siguiente sin coste al usuario cuando su movimiento de ataque acierta."
+      },
+      "9902900": {
+        "NAME": "Comienzo de Estación Floreciente",
+        "ABBR": "Comienzo de Estación Floreciente",
+        "DESC": "Crea un campo de hierba cuando el usuario entra en combate por primera vez en cada combate. Aumenta la duración del campo de hierba cuando el terreno cambia a campo de hierba mientras el usuario está en el campo de batalla."
+      },
+      "9902910": {
+        "NAME": "Presidente del Club de Estudios Paranormales",
+        "ABBR": "Presidente del Club de Estudios Paranormales",
+        "DESC": "Aplica Círculo de Paldea (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate. Aumenta la duración de Círculo de Paldea (Defensivo) cuando se le aplica Círculo de Paldea (Defensivo) al bando aliado."
       },
       "9902920": {
         "NAME": "Convivencia entre Naturaleza y Humanos",

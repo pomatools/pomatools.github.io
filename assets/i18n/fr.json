@@ -15865,9 +15865,9 @@
         "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand il utilise avec succès une capacité offensive alors que 1 seul Pokémon se trouve du côté ennemi."
       },
       "1708410": {
-        "NAME": "Intro Prem. Capacité Duo Boost Spécial 1",
-        "ABBR": "Intro Prem. Capa. Duo Boost Spé. 1",
-        "DESC": "Augmente l'effet Prochain boost capacité spéciale du lanceur de 1 rang la première fois qu'il arrive au combat à chaque combat. Augmente l'effet Prochain boost capacité spéciale du lanceur de 1 rang la première fois qu'il utilise sa capacité Duo à chaque combat."
+        "NAME": "Intro Prem. Capacité Duo Boost Spécial {{value}}",
+        "ABBR": "Intro Prem. Capa. Duo Boost Spé. {{value}}",
+        "DESC": "Augmente l'effet Prochain boost capacité spéciale du lanceur de {{value}} rang la première fois qu'il arrive au combat à chaque combat. Augmente l'effet Prochain boost capacité spéciale du lanceur de 1 rang la première fois qu'il utilise sa capacité Duo à chaque combat."
       },
       "1708420": {
         "NAME": "Action Boost Capacité Duo +2 {{value}}",
