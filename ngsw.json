@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1754616756169,
+  "timestamp": 1754936987559,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -16,7 +16,7 @@
         "/201.8e41dfc9793aa063.js",
         "/205.d2b554b6894a0b77.js",
         "/247.fd0883c18d3218f9.js",
-        "/253.b1896b2720e07dc0.js",
+        "/253.b30abb97b6719695.js",
         "/268.bca500b9bf09242f.js",
         "/293.15bbc533db6ea43e.js",
         "/301.e246bd51fa66a297.js",
@@ -35,7 +35,7 @@
         "/main.9a10baa611148a0b.js",
         "/manifest.webmanifest",
         "/polyfills.a402040b2e0938e4.js",
-        "/runtime.133b603fb642a5c6.js",
+        "/runtime.d191f9b9a435cce1.js",
         "/styles.18ea283000b0c22d.css"
       ],
       "patterns": []
@@ -2279,7 +2279,7 @@
     "/201.8e41dfc9793aa063.js": "3d443ff53921884c826fd8cfce952e5af507f405",
     "/205.d2b554b6894a0b77.js": "20527ee1f1287b137526371bbd78a08abd27c309",
     "/247.fd0883c18d3218f9.js": "bf3b2bb784e7251a1fe0d41be15ee279a964ae43",
-    "/253.b1896b2720e07dc0.js": "525979d0fb543294527aa5aca3ec2333940a7293",
+    "/253.b30abb97b6719695.js": "159337f99803bd1e4f952d51d2ad7f24bcb2a039",
     "/268.bca500b9bf09242f.js": "9ca4d3db77e92b9a48169bdda2b8bdc56d4583a5",
     "/293.15bbc533db6ea43e.js": "81e3c8c035310707fc1a5027a12b8c9d505cd528",
     "/301.e246bd51fa66a297.js": "4287510c1ab6631f4778bec869aa6e14351016ef",
@@ -2294,7 +2294,7 @@
     "/845.ffd241feccdef441.js": "a46d6657fc830e74467d5a5559e5cfe966c07cd6",
     "/939.95bc531595fe49f0.js": "a3f3754d8fa420549e853b7937f3102fa2834c67",
     "/assets/data/battlerally.json": "67fc030bf04ad2a4281b630f9ae821153fcc8359",
-    "/assets/data/champion.json": "533e92f35d8b392cd36a9957fa74f6e9b2797848",
+    "/assets/data/champion.json": "5553a1204a265fe1c16efb7321908d7e5f22905c",
     "/assets/data/customlucky.json": "175751d349171c7b22cad930fd5821f2bbe704d7",
     "/assets/data/eggs.json": "5cd61927bd0336534f85a879fea6c21f750321e2",
     "/assets/data/lucky.json": "9d45a3d7ffa57737f258328b6758cae27824d507",
@@ -4514,11 +4514,11 @@
     "/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
     "/fa-solid-900.40ddefd79fe7af45.woff2": "2717f3f58271f2f2e6120d9937c7227002656d34",
     "/favicon.ico": "bde24ab5ee5a7b66902f6b8aadac944671cea10a",
-    "/index.html": "2a5beec82689d51faacb53353f06129dea0bd768",
+    "/index.html": "30bc29568dc503e41a4abb98ae377e453ccb6bd9",
     "/main.9a10baa611148a0b.js": "0f2bcf838107faae55a545176801a30e3175d1ba",
     "/manifest.webmanifest": "feeb74972c76d307fa17102d69de773d03f2e2be",
     "/polyfills.a402040b2e0938e4.js": "9b26c1d105f9ffe8cc6b64216eb7657ac83b7292",
-    "/runtime.133b603fb642a5c6.js": "e4adf6486eb93805100ddab816463bfc018e3dc1",
+    "/runtime.d191f9b9a435cce1.js": "57f880af246a152814e7023af29b919ee32904e5",
     "/styles.18ea283000b0c22d.css": "5ee731b37c72db8054101ca8dafb014303109206"
   },
   "navigationUrls": [
