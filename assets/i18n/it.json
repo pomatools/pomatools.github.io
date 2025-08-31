@@ -4978,8 +4978,8 @@
         "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Quando l'Attacco Speciale di chi la usa non aumenta.\n\nVa sempre a segno quando piove. Riduce l'Attacco del bersaglio di 3 gradi. Scotta il bersaglio. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Applica l'effetto \"Riduzione danni fisici\" al campo alleato."
       },
       "6151": {
-        "NAME": "Spaccaroccia S",
-        "ABBR": "Spaccaroccia igneo",
+        "NAME": "Spaccaroccia igneo",
+        "ABBR": "Spaccaroccia S",
         "DESC": "Condizione di attivazione: Quando la zona si trasforma in una Zona Lotta.\nCondizione di disattivazione: Quando la zona smette di essere una Zona Lotta.\n\nVa sempre a segno. Riduce la Difesa del bersaglio di 4 gradi. Riduce la Protezione Lotta del bersaglio di 1 grado la prima volta che questo attacco semplice va a segno in ogni lotta."
       },
       "7000": {
@@ -18826,7 +18826,7 @@
       },
       "1812470": {
         "NAME": "Scottattacco disarmante doppiogrado {{value}}",
-        "ABBR": "Scottatt.disarmante doppiogr. {{value}}",
+        "ABBR": "Scottatt. disarmante doppiogr. {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre l'Attacco e la Difesa del bersaglio di 2 gradi quando l'attacco semplice di chi la usa va a segno contro un avversario scottato."
       },
       "1812480": {

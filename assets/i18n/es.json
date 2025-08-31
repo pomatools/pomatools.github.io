@@ -12916,37 +12916,37 @@
       },
       "1306020": {
         "NAME": "Movimiento Recupera PM +{{value}}",
-        "ABBR": "Mov. PM {{value}}",
+        "ABBR": "Mov.: PM+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM del movimiento que se acaba de usar cuando dicho movimiento acierta."
       },
       "1306030": {
         "NAME": "Ataque Recupera PM +{{value}}",
-        "ABBR": "At. Recupera PM {{value}}",
+        "ABBR": "At. Rápido: PM+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario que tengan el efecto de ataque rápido cuando su movimiento de ataque acierta."
       },
       "1306040": {
         "NAME": "Acción Recupera PM +{{value}}",
-        "ABBR": "Acc. PM {{value}}",
+        "ABBR": "Acc.: PM+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de hacer que el usuario recupere 1 PM cuando su Pokémon use un movimiento."
       },
       "1306050": {
         "NAME": "Crítico Recupera PM +{{value}}",
-        "ABBR": "Crít. PM {{value}}",
+        "ABBR": "Crít.: PM+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario tras asestar un golpe crítico."
       },
       "1306060": {
         "NAME": "Ataque Rival Quemado Recupera PM +{{value}}",
-        "ABBR": "At. Riv. Que. Recupera PM {{value}}",
+        "ABBR": "At. Riv. Que.: PM+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario que tengan el efecto de ataque rápido cuando su movimiento de ataque acierta mientras el objetivo está quemado."
       },
       "1306070": {
         "NAME": "Superacción Recupera PM +{{value}}",
-        "ABBR": "Superacción Recupera PM {{value}}",
+        "ABBR": "Superacción: PM+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de hacer que el usuario recupere 1 PM cuando su Pokémon use un movimiento. Hay una probabilidad del {{chance}}% de hacer que el usuario recupere 1 PM tras usar su movimiento compi."
       },
       "1306080": {
         "NAME": "Movimiento Recupera PM Acción +{{value}}",
-        "ABBR": "Mov. Recupera PM Acción {{value}}",
+        "ABBR": "Mov.: PM Acción+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de hacer que el Pokémon del usuario recupere 1 PM cuando el movimiento del usuario acierta."
       },
       "1306090": {
@@ -12966,62 +12966,62 @@
       },
       "1306120": {
         "NAME": "Efecto Ataque Rápido Recupera PM Orden +{{value}}",
-        "ABBR": "At. Rápido Recupera PM Ord. {{value}}",
+        "ABBR": "At. Rápido: PM Orden+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM del Entrenador del usuario cuando usa un movimiento que tiene el efecto de ataque rápido."
       },
       "1306130": {
         "NAME": "Fatiga Recupera PM 1 vez +{{value}}",
-        "ABBR": "Fatiga Recupera PM 1 vez {{value}}",
+        "ABBR": "1.ª Fatiga: PM+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario cuando sus PS bajan a la mitad o menos. Este efecto solo se puede activar una vez por combate."
       },
       "1306140": {
         "NAME": "Mov. Compi Recupera PM Baya +{{value}}",
-        "ABBR": "M-Compi Recupera PM Baya {{value}}",
+        "ABBR": "M-Compi: PM Baya+{{value}}",
         "DESC": "Recupera {{value}} PM de los movimientos del usuario que tengan el efecto Baya tras usar su movimiento compi."
       },
       "1306150": {
         "NAME": "Mov. Compi Aliado Recupera PM Mov. S +{{value}}",
-        "ABBR": "M-Compi Aliado Recupera PM M-Sincro {{value}}",
+        "ABBR": "M-Compi Aliado: PM M-Sincro+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM del movimiento sincro del usuario después de que los compis de tu equipo usen su movimiento compi."
       },
       "1306160": {
         "NAME": "Movimiento Sincro Recupera PM Orden +{{value}}",
-        "ABBR": "M-Sincro Recupera PM Ord. {{value}}",
+        "ABBR": "M-Sincro: PM Orden+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM del Entrenador del usuario cuando usa un movimiento sincro."
       },
       "1306170": {
         "NAME": "1.er Movimiento Compi Recupera PM Baya +{{value}}",
-        "ABBR": "1.er M-Compi Recupera PM Baya {{value}}",
+        "ABBR": "1.er M-Compi: PM Baya+{{value}}",
         "DESC": "Recupera {{value}} PM de los movimientos del usuario que tengan el efecto Baya la primera vez que usa su movimiento compi en cada combate."
       },
       "1306180": {
         "NAME": "1.er Mov. Compi Recupera PM Acc. de Est. +{{value}}",
-        "ABBR": "1.er M-Compi Rec. PM Acc. Est. {{value}}",
+        "ABBR": "1.er M-Compi: PM Acc. Est.+{{value}}",
         "DESC": "Recupera {{value}} PM de los movimientos de estado del Pokémon del usuario la primera vez que el usuario usa un movimiento compi en cada combate."
       },
       "1306190": {
         "NAME": "1.er Campo Eléctrico Recupera PM Mov. S +{{value}}",
-        "ABBR": "1.er C.Eléc. Recupera PM M-Sincro {{value}}",
+        "ABBR": "1.er C.Eléc.: PM M-Sincro+{{value}}",
         "DESC": "Recupera {{value}} PM del movimiento sincro del usuario la primera vez que usa Campo Eléctrico en cada combate."
       },
       "1306200": {
         "NAME": "Ataque Recupera PM Acc. de Estado 1 vez +{{value}}",
-        "ABBR": "At. Rec. PM Acc. Est. 1 vez {{value}}",
+        "ABBR": "1.er At.: PM Acc. Est.+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos de estado del Pokémon del usuario cuando el movimiento de ataque del usuario acierta. Este efecto solo se puede activar una vez por combate."
       },
       "1306210": {
         "NAME": "1.ª vez 0 PM Baya Recupera PM Baya +{{value}}",
-        "ABBR": "1.ª vez 0 PM Baya Rec. PM Baya {{value}}",
+        "ABBR": "1.ª vez 0 PM Baya: PM Baya+{{value}}",
         "DESC": "Recupera {{value}} PM de los movimientos del usuario que tengan el efecto Baya la primera vez que a sus movimientos con el efecto Baya les quedan 0 PM en cada combate."
       },
       "1306220": {
         "NAME": "Ataque Recupera PM Baya +{{value}}",
-        "ABBR": "At. Rec. PM Baya {{value}}",
+        "ABBR": "At.: PM Baya+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario que tengan el efecto Baya cuando su movimiento de ataque acierta."
       },
       "1306230": {
         "NAME": "Movimiento Compi Recupera PM Mov. S +{{value}}",
-        "ABBR": "M-Compi Recupera PM M-Sincro {{value}}",
+        "ABBR": "M-Compi: PM M-Sincro+{{value}}",
         "DESC": "Recupera {{value}} PM del movimiento sincro del usuario tras usar su movimiento compi."
       },
       "1306240": {
@@ -13041,17 +13041,17 @@
       },
       "1306270": {
         "NAME": "Análisis de Teselia Recupera PM Mov. S +{{value}}",
-        "ABBR": "Análisis de Teselia Recupera PM Mov. S {{value}}",
+        "ABBR": "Análisis de Teselia: PM M-Sincro+{{value}}",
         "DESC": "Recupera {{value}} PM del movimiento sincro del usuario cuando usa Análisis de Teselia."
       },
       "1306280": {
         "NAME": "Daño Recupera PM Baya +{{value}}",
-        "ABBR": "Daño Recupera PM Baya {{value}}",
+        "ABBR": "Daño: PM Baya+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario que tengan el efecto Baya cuando le golpean con un movimiento de ataque."
       },
       "1306290": {
         "NAME": "1.ª Acción de Estado Recupera PM Mov. S +{{value}}",
-        "ABBR": "1.ª Acc. Estado Recupera PM Mov. S {{value}}",
+        "ABBR": "1.ª Acc. Est.: PM M-Sincro+{{value}}",
         "DESC": "Recupera {{value}} PM del movimiento sincro del usuario la primera vez que su Pokémon usa un movimiento de estado en cada combate."
       },
       "1307010": {
@@ -14026,7 +14026,7 @@
       },
       "1602010": {
         "NAME": "1.er Mov. Compi Recupera PM +{{value}}",
-        "ABBR": "1.er M-Compi Recupera PM {{value}}",
+        "ABBR": "1.er M-Compi: PM+{{value}}",
         "DESC": "Recupera {{value}} PM del usuario la primera vez que usa su movimiento compi en cada combate."
       },
       "1602020": {
@@ -14041,32 +14041,32 @@
       },
       "1602040": {
         "NAME": "Mov. Compi Recupera PM Acción +{{value}}",
-        "ABBR": "M-Compi Recupera PM Acción {{value}}",
+        "ABBR": "M-Compi: PM Acción+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de hacer que el Pokémon del usuario recupere 1 PM tras usar el movimiento compi del usuario."
       },
       "1602050": {
         "NAME": "Mov. Compi Recupera PM Acción 1 vez +{{value}}",
-        "ABBR": "M-Compi Recupera PM Acción 1 vez {{value}}",
+        "ABBR": "1.er M-Compi: PM Acción+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de hacer que el Pokémon del usuario recupere 1 PM después de usar el movimiento compi del usuario. Este efecto solo se puede activar una vez por combate."
       },
       "1602060": {
         "NAME": "1.er Mov. Compi Recupera PM Orden +{{value}}",
-        "ABBR": "1.er M-Compi Recupera PM Ord. {{value}}",
+        "ABBR": "1.er M-Compi: PM Orden+{{value}}",
         "DESC": "Recupera {{value}} PM del Entrenador del usuario la primera vez que usa su movimiento compi en cada combate."
       },
       "1602070": {
         "NAME": "1.er Mov. Compi Recupera PM At. Rápidos +{{value}}",
-        "ABBR": "1.er M-Compi Recupera PM At. Rápidos {{value}}",
+        "ABBR": "1.er M-Compi: PM At. Rápidos+{{value}}",
         "DESC": "Recupera {{value}} PM de los movimientos del usuario que tengan el efecto de ataque rápido la primera vez que usa su movimiento compi en cada combate."
       },
       "1602080": {
         "NAME": "Recupera PM At. Rápidos 1 vez en Apuro +{{value}}",
-        "ABBR": "Recupera PM At. Rápidos 1 vez en Apuro {{value}}",
+        "ABBR": "1.er Apuro: PM At. Rápidos+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario que tengan el efecto de ataque rápido cuando está en un apuro. Este efecto solo se puede activar una vez por combate."
       },
       "1602090": {
         "NAME": "Movimiento Compi Recupera PM Orden +{{value}}",
-        "ABBR": "M-Compi Recupera PM Ord. {{value}}",
+        "ABBR": "M-Compi: PM Orden+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM del Entrenador del usuario tras usar su movimiento compi."
       },
       "1603010": {

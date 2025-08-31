@@ -3699,7 +3699,7 @@
       },
       "580": {
         "NAME": "Grassy Terrain",
-        "ABBR": "Grassy Terrain",
+        "ABBR": "Grassy-T",
         "DESC": "Turns the field of play’s terrain into Grassy Terrain."
       },
       "583": {
@@ -3759,7 +3759,7 @@
       },
       "604": {
         "NAME": "Electric Terrain",
-        "ABBR": "Electric Terrain",
+        "ABBR": "Electric-T",
         "DESC": "Turns the field of play’s terrain into Electric Terrain."
       },
       "605": {
@@ -3844,7 +3844,7 @@
       },
       "640": {
         "NAME": "Psychic Terrain",
-        "ABBR": "Psychic Terrain",
+        "ABBR": "Psychic-T",
         "DESC": "Turns the field of play’s terrain into Psychic Terrain."
       },
       "641": {
@@ -11971,7 +11971,7 @@
       },
       "1202010": {
         "NAME": "Move Gauge Refresh {{value}}",
-        "ABBR": "Move Gauge Refresh {{value}}",
+        "ABBR": "MGR{{value}}",
         "DESC": "Has a chance ({{chance}}%) of charging the user’s move gauge by one when its move is successful."
       },
       "1202020": {
@@ -12961,67 +12961,67 @@
       },
       "1306110": {
         "NAME": "1st S-Move: Restore B-Move MP {{value}}",
-        "ABBR": "1st S-Move: Restore B-Move MP {{value}}",
+        "ABBR": "1st S-Move: B-Move MP+{{value}}",
         "DESC": "Restores {{value}} MP of the user’s buddy move the first time its sync move is used each battle."
       },
       "1306120": {
         "NAME": "“Quick Move”: Restore T-Move MP {{value}}",
-        "ABBR": "“Quick Move”: Restore T-Move MP {{value}}",
+        "ABBR": "“Quick Move”: T-Move MP+1 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of restoring 1 MP for the user’s Trainer when it uses a move that has the quick move effect tag."
       },
       "1306130": {
         "NAME": "Half HP: Restore MP Once {{value}}",
-        "ABBR": "Half HP: Restore MP Once {{value}}",
+        "ABBR": "1st Half HP: MP+1 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of restoring 1 MP for the user’s moves when its HP drops to half or below. This effect can activate only once per battle."
       },
       "1306140": {
         "NAME": "S-Move: Restore “Berry” MP {{value}}",
-        "ABBR": "S-Move: Restore “Berry” MP {{value}}",
+        "ABBR": "S-Move: “Berry” MP+{{value}}",
         "DESC": "Restores {{value}} MP of the user’s moves that have the Berry effect tag after using its sync move."
       },
       "1306150": {
         "NAME": "Team S-Move: Restore B-Move MP {{value}}",
-        "ABBR": "Team S-Move: Restore B-Move MP {{value}}",
+        "ABBR": "Team S-Move: B-Move MP+1 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of restoring 1 MP of the user’s buddy move after your team’s sync pair uses their sync move."
       },
       "1306160": {
         "NAME": "B-Move: Restore T-Move MP {{value}}",
-        "ABBR": "B-Move: Restore T-Move MP {{value}}",
+        "ABBR": "B-Move: T-Move MP+1 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of restoring 1 MP for the user’s Trainer when it uses a buddy move."
       },
       "1306170": {
         "NAME": "1st S-Move: Restore “Berry” MP {{value}}",
-        "ABBR": "1st S-Move: Restore “Berry” MP {{value}}",
+        "ABBR": "1st S-Move: “Berry” MP+{{value}}",
         "DESC": "Restores {{value}} MP of the user’s moves that have the Berry effect tag the first time its sync move is used each battle."
       },
       "1306180": {
         "NAME": "1st S-Move: Restore Status P-Move MP {{value}}",
-        "ABBR": "1st S-Move: Restore Status P-Move MP {{value}}",
+        "ABBR": "1st S-Move: Status P-Move MP+{{value}}",
         "DESC": "Restores {{value}} MP for the status moves of the user’s Pokémon the first time the user’s sync move is used each battle."
       },
       "1306190": {
         "NAME": "1st Use Electric Terrain: Restore B-Move MP {{value}}",
-        "ABBR": "1st Use Electric-T: Restore B-Move MP {{value}}",
+        "ABBR": "1st Use Electric-T: B-Move MP+{{value}}",
         "DESC": "Restores {{value}} MP of the user’s buddy move the first time it uses Electric Terrain each battle."
       },
       "1306200": {
         "NAME": "Hit: Restore Status P-Move MP Once {{value}}",
-        "ABBR": "Hit: Restore Status P-Move MP Once {{value}}",
+        "ABBR": "1st Hit: Status P-Move MP+1 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of restoring 1 MP for the status moves of the user’s Pokémon when the user’s attack move is successful. This effect can activate only once per battle."
       },
       "1306210": {
         "NAME": "1st “Berry” MP 0: Restore “Berry” MP {{value}}",
-        "ABBR": "1st “Berry” MP 0: Restore “Berry” MP {{value}}",
+        "ABBR": "1st “Berry” MP 0: “Berry” MP+{{value}}",
         "DESC": "Restores {{value}} MP of the user’s moves that have the Berry effect tag the first time the remaining MP for its moves that have the Berry effect tag is zero each battle."
       },
       "1306220": {
         "NAME": "Hit: Restore “Berry” MP {{value}}",
-        "ABBR": "Hit: Restore “Berry” MP {{value}}",
+        "ABBR": "Hit: “Berry” MP+1 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of restoring 1 MP of the user’s moves that have the Berry effect tag when its attack move is successful."
       },
       "1306230": {
         "NAME": "S-Move: Restore B-Move MP {{value}}",
-        "ABBR": "S-Move: Restore B-Move MP {{value}}",
+        "ABBR": "S-Move: B-Move MP+{{value}}",
         "DESC": "Restores {{value}} MP of the user’s buddy move after using its sync move."
       },
       "1306240": {
@@ -13041,17 +13041,17 @@
       },
       "1306270": {
         "NAME": "Use Unova Analysis: Restore B-Move MP {{value}}",
-        "ABBR": "Use Unova Analysis: Restore B-Move MP {{value}}",
+        "ABBR": "Use Unova Analysis: B-Move MP+{{value}}",
         "DESC": "Restores {{value}} MP of the user’s buddy move when it uses Unova Analysis."
       },
       "1306280": {
         "NAME": "Take Hit: Restore “Berry” MP {{value}}",
-        "ABBR": "Take Hit: Restore “Berry” MP {{value}}",
+        "ABBR": "Take Hit: “Berry” MP+1 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of restoring 1 MP of the user’s moves that have the Berry effect tag when it is hit by an attack move."
       },
       "1306290": {
         "NAME": "1st Use Status P-Move: Restore B-Move MP {{value}}",
-        "ABBR": "1st Use Status P-Move: Restore B-Move MP {{value}}",
+        "ABBR": "1st Use Status P-Move: B-Move MP+{{value}}",
         "DESC": "Restores {{value}} MP of the user’s buddy move the first time its Pokémon uses a status move each battle."
       },
       "1307010": {
@@ -14056,17 +14056,17 @@
       },
       "1602070": {
         "NAME": "1st S-Move: Restore “Quick Move” MP {{value}}",
-        "ABBR": "1st S-Move: Restore “Quick Move” MP {{value}}",
+        "ABBR": "1st S-Move: “Quick Move” MP+{{value}}",
         "DESC": "Restores {{value}} MP of the user’s moves that have the quick move effect tag the first time its sync move is used each battle."
       },
       "1602080": {
         "NAME": "Pinch: Restore “Quick Move” MP Once {{value}}",
-        "ABBR": "Pinch: Restore “Quick Move” MP Once {{value}}",
+        "ABBR": "1st Pinch: “Quick Move” MP+1 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of restoring 1 MP for the user’s moves that have the quick move effect tag when it is in a pinch. This effect can activate only once per battle."
       },
       "1602090": {
         "NAME": "S-Move: Restore T-Move MP {{value}}",
-        "ABBR": "S-Move: Restore T-Move MP {{value}}",
+        "ABBR": "S-Move: T-Move MP+1 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of restoring 1 MP for the user’s Trainer after using its sync move."
       },
       "1603010": {
@@ -14986,7 +14986,7 @@
       },
       "1705050": {
         "NAME": "Condition Nullification Extension {{value}}",
-        "ABBR": "Condition Nullification Extension {{value}}",
+        "ABBR": "Condition Nullification Ext. {{value}}",
         "DESC": "Extends the duration of the Condition Nullification effect when the Condition Nullification effect is applied to the user."
       },
       "1705060": {
@@ -19001,7 +19001,7 @@
       },
       "1902310": {
         "NAME": "Fairy Zone Extension {{value}}",
-        "ABBR": "Fairy-Z Extension {{value}}",
+        "ABBR": "Fairy-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Fairy Zone when the zone turns into a Fairy Zone while the user is on the field."
       },
       "1902320": {
@@ -19036,7 +19036,7 @@
       },
       "1902380": {
         "NAME": "Rock Zone Extension {{value}}",
-        "ABBR": "Rock-Z Extension {{value}}",
+        "ABBR": "Rock-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Rock Zone when the zone turns into a Rock Zone while the user is on the field."
       },
       "1902390": {
@@ -19056,27 +19056,27 @@
       },
       "1902420": {
         "NAME": "Electric Terrain Debut & Extension {{value}}",
-        "ABBR": "Electric-T Debut & Extension {{value}}",
+        "ABBR": "Electric-T Debut & Ext. {{value}}",
         "DESC": "Turns the field of play’s terrain into Electric Terrain the first time the user enters a battle each battle. Extends the duration of Electric Terrain when the terrain turns into Electric Terrain while the user is on the field."
       },
       "1902430": {
         "NAME": "Fairy Zone Debut & Extension {{value}}",
-        "ABBR": "Fairy-Z Debut & Extension {{value}}",
+        "ABBR": "Fairy-Z Debut & Ext. {{value}}",
         "DESC": "Turns the field of play’s zone into a Fairy Zone the first time the user enters a battle each battle. (A Fairy Zone powers up Fairy-type attacks.) Extends the duration of the Fairy Zone when the zone turns into a Fairy Zone while the user is on the field."
       },
       "1902440": {
         "NAME": "Grassy Terrain Debut & Extension {{value}}",
-        "ABBR": "Grassy-T Debut & Extension {{value}}",
+        "ABBR": "Grassy-T Debut & Ext. {{value}}",
         "DESC": "Turns the field of play’s terrain into Grassy Terrain the first time the user enters a battle each battle. Extends the duration of Grassy Terrain when the terrain turns into Grassy Terrain while the user is on the field."
       },
       "1902450": {
         "NAME": "Psychic Terrain Debut & Extension {{value}}",
-        "ABBR": "Psychic-T Debut & Extension {{value}}",
+        "ABBR": "Psychic-T Debut & Ext. {{value}}",
         "DESC": "Turns the field of play’s terrain into Psychic Terrain the first time the user enters a battle each battle. Extends the duration of Psychic Terrain when the terrain turns into Psychic Terrain while the user is on the field."
       },
       "1902460": {
         "NAME": "Buff Block Extension {{value}}",
-        "ABBR": "Buff Block Extension {{value}}",
+        "ABBR": "Buff Block Ext. {{value}}",
         "DESC": "Extends the duration of the No Stat Increases effect when the No Stat Increases effect is applied to the opponent’s field of play."
       },
       "1902470": {
@@ -19111,7 +19111,7 @@
       },
       "1902530": {
         "NAME": "Ice Zone Extension {{value}}",
-        "ABBR": "Ice-Z Extension {{value}}",
+        "ABBR": "Ice-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Ice Zone when the zone turns into an Ice Zone while the user is on the field."
       },
       "1902540": {
@@ -19136,7 +19136,7 @@
       },
       "1902580": {
         "NAME": "Dragon Zone Extension {{value}}",
-        "ABBR": "Dragon-Z Extension {{value}}",
+        "ABBR": "Dragon-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Dragon Zone when the zone turns into a Dragon Zone while the user is on the field."
       },
       "1902590": {
@@ -19151,7 +19151,7 @@
       },
       "1902610": {
         "NAME": "Dark DF Extension {{value}}",
-        "ABBR": "Dark DF Extension {{value}}",
+        "ABBR": "Dark DF Ext. {{value}}",
         "DESC": "Extends the duration of Dark Damage Field when Dark Damage Field is applied to the opponent’s field of play."
       },
       "1902620": {
@@ -19166,7 +19166,7 @@
       },
       "1902640": {
         "NAME": "Poison Zone Extension {{value}}",
-        "ABBR": "Poison-Z Extension {{value}}",
+        "ABBR": "Poison-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Poison Zone when the zone turns into a Poison Zone while the user is on the field."
       },
       "1902650": {
@@ -19176,7 +19176,7 @@
       },
       "1902660": {
         "NAME": "Electric Terrain Extension {{value}}",
-        "ABBR": "Electric-T Extension {{value}}",
+        "ABBR": "Electric-T Ext. {{value}}",
         "DESC": "Extends the duration of Electric Terrain when the terrain turns into Electric Terrain while the user is on the field."
       },
       "1902670": {
@@ -19186,7 +19186,7 @@
       },
       "1902680": {
         "NAME": "Unova C (Phys) Extension {{value}}",
-        "ABBR": "Unova C (Phys) Extension {{value}}",
+        "ABBR": "Unova C (Phys) Ext. {{value}}",
         "DESC": "Extends the duration of Unova Circle (Physical) when Unova Circle (Physical) is applied to the allied field of play."
       },
       "1902690": {
@@ -19196,12 +19196,12 @@
       },
       "1902700": {
         "NAME": "Flying Zone Extension {{value}}",
-        "ABBR": "Flying-Z Extension {{value}}",
+        "ABBR": "Flying-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Flying Zone when the zone turns into a Flying Zone while the user is on the field."
       },
       "1902710": {
         "NAME": "Kanto C (Spec) Extension {{value}}",
-        "ABBR": "Kanto C (Spec) Extension {{value}}",
+        "ABBR": "Kanto C (Spec) Ext. {{value}}",
         "DESC": "Extends the duration of Kanto Circle (Special) when Kanto Circle (Special) is applied to the allied field of play."
       },
       "1902720": {
@@ -19211,12 +19211,12 @@
       },
       "1902730": {
         "NAME": "Johto C (Phys) Extension {{value}}",
-        "ABBR": "Johto C (Phys) Extension {{value}}",
+        "ABBR": "Johto C (Phys) Ext. {{value}}",
         "DESC": "Extends the duration of Johto Circle (Physical) when Johto Circle (Physical) is applied to the allied field of play."
       },
       "1902740": {
         "NAME": "Grassy Terrain Extension {{value}}",
-        "ABBR": "Grassy-T Extension {{value}}",
+        "ABBR": "Grassy-T Ext. {{value}}",
         "DESC": "Extends the duration of Grassy Terrain when the terrain turns into Grassy Terrain while the user is on the field."
       },
       "1902750": {
@@ -19236,12 +19236,12 @@
       },
       "1902780": {
         "NAME": "Steel Zone Extension {{value}}",
-        "ABBR": "Steel-Z Extension {{value}}",
+        "ABBR": "Steel-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Steel Zone when the zone turns into a Steel Zone while the user is on the field."
       },
       "1902790": {
         "NAME": "Sinnoh C (Defensive) Extension {{value}}",
-        "ABBR": "Sinnoh C (Def) Extension {{value}}",
+        "ABBR": "Sinnoh C (Def) Ext. {{value}}",
         "DESC": "Extends the duration of Sinnoh Circle (Defensive) when Sinnoh Circle (Defensive) is applied to the allied field of play."
       },
       "1902800": {
@@ -19256,7 +19256,7 @@
       },
       "1902820": {
         "NAME": "Ground Zone Extension {{value}}",
-        "ABBR": "Ground-Z Extension {{value}}",
+        "ABBR": "Ground-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Ground Zone when the zone turns into a Ground Zone while the user is on the field."
       },
       "1902830": {
@@ -19271,7 +19271,7 @@
       },
       "1902850": {
         "NAME": "Unova C (Defensive) Extension {{value}}",
-        "ABBR": "Unova C (Def) Extension {{value}}",
+        "ABBR": "Unova C (Def) Ext. {{value}}",
         "DESC": "Extends the duration of Unova Circle (Defensive) when Unova Circle (Defensive) is applied to the allied field of play."
       },
       "1902860": {
@@ -19286,7 +19286,7 @@
       },
       "1902880": {
         "NAME": "Galar C (Special) Extension {{value}}",
-        "ABBR": "Galar C (Spec) Extension {{value}}",
+        "ABBR": "Galar C (Spec) Ext. {{value}}",
         "DESC": "Extends the duration of Galar Circle (Special) when Galar Circle (Special) is applied to the allied field of play."
       },
       "1902890": {
@@ -19301,22 +19301,22 @@
       },
       "1902910": {
         "NAME": "Ghost Zone Extension {{value}}",
-        "ABBR": "Ghost-Z Extension {{value}}",
+        "ABBR": "Ghost-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Ghost Zone when the zone turns into a Ghost Zone while the user is on the field."
       },
       "1902920": {
         "NAME": "Dark Zone Extension {{value}}",
-        "ABBR": "Dark-Z Extension {{value}}",
+        "ABBR": "Dark-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Dark Zone when the zone turns into a Dark Zone while the user is on the field."
       },
       "1902930": {
         "NAME": "Alola C (Spec) Extension {{value}}",
-        "ABBR": "Alola C (Spec) Extension {{value}}",
+        "ABBR": "Alola C (Spec) Ext. {{value}}",
         "DESC": "Extends the duration of Alola Circle (Special) when Alola Circle (Special) is applied to the allied field of play."
       },
       "1902940": {
         "NAME": "Alola C (Defensive) Extension {{value}}",
-        "ABBR": "Alola C (Def) Extension {{value}}",
+        "ABBR": "Alola C (Def) Ext. {{value}}",
         "DESC": "Extends the duration of Alola Circle (Defensive) when Alola Circle (Defensive) is applied to the allied field of play."
       },
       "1902950": {
@@ -19326,7 +19326,7 @@
       },
       "1902960": {
         "NAME": "Pasio C (Defensive) Extension {{value}}",
-        "ABBR": "Pasio C (Def) Extension {{value}}",
+        "ABBR": "Pasio C (Def) Ext. {{value}}",
         "DESC": "Extends the duration of Pasio Circle (Defensive) when Pasio Circle (Defensive) is applied to the allied field of play."
       },
       "1902970": {
@@ -19446,12 +19446,12 @@
       },
       "1905100": {
         "NAME": "Normal Zone Extension {{value}}",
-        "ABBR": "Normal-Z Extension {{value}}",
+        "ABBR": "Normal-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Normal Zone when the zone turns into a Normal Zone while the user is on the field."
       },
       "1905110": {
         "NAME": "Paldea C (Defensive) Extension {{value}}",
-        "ABBR": "Paldea C (Def) Extension {{value}}",
+        "ABBR": "Paldea C (Def) Ext. {{value}}",
         "DESC": "Extends the duration of Paldea Circle (Defensive) when Paldea Circle (Defensive) is applied to the allied field of play."
       },
       "1905120": {
@@ -19481,7 +19481,7 @@
       },
       "1905170": {
         "NAME": "Psychic Terrain Extension {{value}}",
-        "ABBR": "Psychic-T Extension {{value}}",
+        "ABBR": "Psychic-T Ext. {{value}}",
         "DESC": "Extends the duration of Psychic Terrain when the terrain turns into Psychic Terrain while the user is on the field."
       },
       "1905180": {
@@ -19531,7 +19531,7 @@
       },
       "1905270": {
         "NAME": "Bug Zone Extension {{value}}",
-        "ABBR": "Bug-Z Extension {{value}}",
+        "ABBR": "Bug-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Bug Zone when the zone turns into a Bug Zone while the user is on the field."
       },
       "1905280": {
@@ -19616,7 +19616,7 @@
       },
       "1905440": {
         "NAME": "Poison DF Extension {{value}}",
-        "ABBR": "Poison DF Extension {{value}}",
+        "ABBR": "Poison DF Ext. {{value}}",
         "DESC": "Extends the duration of Poison Damage Field when Poison Damage Field is applied to the opponent’s field of play."
       },
       "1905450": {
@@ -19636,12 +19636,12 @@
       },
       "1905480": {
         "NAME": "Kanto C (Defensive) Extension {{value}}",
-        "ABBR": "Kanto C (Def) Extension {{value}}",
+        "ABBR": "Kanto C (Def) Ext. {{value}}",
         "DESC": "Extends the duration of Kanto Circle (Defensive) when Kanto Circle (Defensive) is applied to the allied field of play."
       },
       "1905490": {
         "NAME": "Hoenn C (Defensive) Extension {{value}}",
-        "ABBR": "Hoenn C (Def) Extension {{value}}",
+        "ABBR": "Hoenn C (Def) Ext. {{value}}",
         "DESC": "Extends the duration of Hoenn Circle (Defensive) when Hoenn Circle (Defensive) is applied to the allied field of play."
       },
       "1905500": {
@@ -19661,22 +19661,22 @@
       },
       "1905530": {
         "NAME": "Sinnoh C (Spec) Extension {{value}}",
-        "ABBR": "Sinnoh C (Spec) Extension {{value}}",
+        "ABBR": "Sinnoh C (Spec) Ext. {{value}}",
         "DESC": "Extends the duration of Sinnoh Circle (Special) when Sinnoh Circle (Special) is applied to the allied field of play."
       },
       "1905540": {
         "NAME": "MG → Field Extension {{value}}",
-        "ABBR": "MG → Field Extension {{value}}",
+        "ABBR": "MG → Field Ext. {{value}}",
         "DESC": "Extends the duration of the Move Gauge Acceleration effect when the Move Gauge Acceleration effect is applied to the allied field of play."
       },
       "1905550": {
         "NAME": "Hoenn C (Phys) Extension {{value}}",
-        "ABBR": "Hoenn C (Phys) Extension {{value}}",
+        "ABBR": "Hoenn C (Phys) Ext. {{value}}",
         "DESC": "Extends the duration of Hoenn Circle (Physical) when Hoenn Circle (Physical) is applied to the allied field of play."
       },
       "1905560": {
         "NAME": "Johto C (Defensive) Extension {{value}}",
-        "ABBR": "Johto C (Def) Extension {{value}}",
+        "ABBR": "Johto C (Def) Ext. {{value}}",
         "DESC": "Extends the duration of Johto Circle (Defensive) when Johto Circle (Defensive) is applied to the allied field of play."
       },
       "1905570": {
@@ -19691,7 +19691,7 @@
       },
       "1905590": {
         "NAME": "Johto C (Spec) Extension {{value}}",
-        "ABBR": "Johto C (Spec) Extension {{value}}",
+        "ABBR": "Johto C (Spec) Ext. {{value}}",
         "DESC": "Extends the duration of Johto Circle (Special) when Johto Circle (Special) is applied to the allied field of play."
       },
       "1905600": {
@@ -19721,7 +19721,7 @@
       },
       "1905650": {
         "NAME": "Fighting Zone Extension {{value}}",
-        "ABBR": "Fighting-Z Extension {{value}}",
+        "ABBR": "Fighting-Z Ext. {{value}}",
         "DESC": "Extends the duration of the Fighting Zone when the zone turns into a Fighting Zone while the user is on the field."
       },
       "1905660": {
@@ -19741,12 +19741,12 @@
       },
       "1905690": {
         "NAME": "Kalos C (Defensive) Extension {{value}}",
-        "ABBR": "Kalos C (Def) Extension {{value}}",
+        "ABBR": "Kalos C (Def) Ext. {{value}}",
         "DESC": "Extends the duration of Kalos Circle (Defensive) when Kalos Circle (Defensive) is applied to the allied field of play."
       },
       "1905700": {
         "NAME": "Galar C (Defensive) Extension {{value}}",
-        "ABBR": "Galar C (Def) Extension {{value}}",
+        "ABBR": "Galar C (Def) Ext. {{value}}",
         "DESC": "Extends the duration of Galar Circle (Defensive) when Galar Circle (Defensive) is applied to the allied field of play."
       },
       "1905710": {
@@ -19761,7 +19761,7 @@
       },
       "1905730": {
         "NAME": "Debut: Field Special DR & Extension {{value}}",
-        "ABBR": "Debut: Field Special DR & Extension {{value}}",
+        "ABBR": "Debut: Field Special DR & Ext. {{value}}",
         "DESC": "Applies the Special Damage Reduction effect to the allied field of play the first time the user enters a battle each battle. Extends the duration of the Special Damage Reduction effect when the Special Damage Reduction effect is applied to the allied field of play."
       },
       "1905740": {
@@ -19771,7 +19771,7 @@
       },
       "1905750": {
         "NAME": "1st Hit: Ghost Zone & Extension {{value}}",
-        "ABBR": "1st Hit: Ghost-Z & Extension {{value}}",
+        "ABBR": "1st Hit: Ghost-Z & Ext. {{value}}",
         "DESC": "Turns the field of play’s zone into a Ghost Zone the first time the user’s attack move is successful each battle. (A Ghost Zone powers up Ghost-type attacks.) Extends the duration of the Ghost Zone when the zone turns into a Ghost Zone while the user is on the field."
       },
       "1905760": {
@@ -19846,7 +19846,7 @@
       },
       "1905900": {
         "NAME": "Sun & Fighting Zone Extension {{value}}",
-        "ABBR": "Sun & Fighting-Z Extension {{value}}",
+        "ABBR": "Sun & Fighting-Z Ext. {{value}}",
         "DESC": "Extends the duration of sunny weather when the weather turns sunny while the user is on the field. Extends the duration of the Fighting Zone when the zone turns into a Fighting Zone while the user is on the field."
       },
       "1905910": {
@@ -19871,7 +19871,7 @@
       },
       "1905970": {
         "NAME": "Unova C (Spec) Extension {{value}}",
-        "ABBR": "Unova C (Spec) Extension {{value}}",
+        "ABBR": "Unova C (Spec) Ext. {{value}}",
         "DESC": "Extends the duration of Unova Circle (Special) when Unova Circle (Special) is applied to the allied field of play."
       },
       "1905980": {
@@ -19886,7 +19886,7 @@
       },
       "1906000": {
         "NAME": "Debut: Galar C (Def) on Field & Extension {{value}}",
-        "ABBR": "Debut: Galar C (Def) on Field & Extension {{value}}",
+        "ABBR": "Debut: Galar C (Def) on Field & Ext. {{value}}",
         "DESC": "Applies Galar Circle (Defensive) to the allied field of play the first time the user enters a battle each battle. Extends the duration of Galar Circle (Defensive) when Galar Circle (Defensive) is applied to the allied field of play."
       },
       "1906010": {
@@ -19896,12 +19896,12 @@
       },
       "1906020": {
         "NAME": "Debut: Sinnoh C (Spec) on Field & Extension {{value}}",
-        "ABBR": "Debut: Sinnoh C (Spec) on Field & Extension {{value}}",
+        "ABBR": "Debut: Sinnoh C (Spec) on Field & Ext. {{value}}",
         "DESC": "Applies Sinnoh Circle (Special) to the allied field of play the first time the user enters a battle each battle. Extends the duration of Sinnoh Circle (Special) when Sinnoh Circle (Special) is applied to the allied field of play."
       },
       "1906030": {
         "NAME": "Debut: Kanto C (Phys) & Extension {{value}}",
-        "ABBR": "Debut: Kanto C (Phys) & Extension {{value}}",
+        "ABBR": "Debut: Kanto C (Phys) & Ext. {{value}}",
         "DESC": "Applies Kanto Circle (Physical) to the allied field of play the first time the user enters a battle each battle. Extends the duration of Kanto Circle (Physical) when Kanto Circle (Physical) is applied to the allied field of play."
       },
       "1906070": {
@@ -19911,7 +19911,7 @@
       },
       "1906080": {
         "NAME": "1st Hit: Psychic Terrain & Extension {{value}}",
-        "ABBR": "1st Hit: Psychic-T & Extension {{value}}",
+        "ABBR": "1st Hit: Psychic-T & Ext. {{value}}",
         "DESC": "Turns the field of play’s terrain into Psychic Terrain the first time the user’s attack move is successful each battle. Extends the duration of Psychic Terrain when the terrain turns into Psychic Terrain while the user is on the field."
       },
       "2001010": {
