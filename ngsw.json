@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1756651101361,
+  "timestamp": 1756651632605,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/205.4c231b531ca96a4f.js",
         "/247.c3e44c1a6714c564.js",
         "/253.e6fa3a21fcefc605.js",
-        "/268.8e5eefed00d1f59b.js",
+        "/268.39a180989a2388e2.js",
         "/293.009bf27fe72c4626.js",
         "/301.503f700a5540bfaf.js",
         "/42.f03102cb7b326b0d.js",
@@ -35,7 +35,7 @@
         "/main.89d6c7d180d528d2.js",
         "/manifest.webmanifest",
         "/polyfills.a402040b2e0938e4.js",
-        "/runtime.53a502cbed1b1cf2.js",
+        "/runtime.8e69edc9c0d7cf70.js",
         "/styles.18ea283000b0c22d.css"
       ],
       "patterns": []
@@ -2382,7 +2382,7 @@
     "/205.4c231b531ca96a4f.js": "8925bfb1d381db180bf43edb064105264d28a0be",
     "/247.c3e44c1a6714c564.js": "8985f2abb11cfb2597f337519b38396359d89b83",
     "/253.e6fa3a21fcefc605.js": "d6228b60c241011b1bf91cd55f8fcf186038dd69",
-    "/268.8e5eefed00d1f59b.js": "adc2cb21180a91a7f768328b0061dfb68e76462a",
+    "/268.39a180989a2388e2.js": "36c7bad943f4194bc3403185032e18c129a7d74d",
     "/293.009bf27fe72c4626.js": "b99d29507ff2db5bd9647c0bbf624c11837bd89d",
     "/301.503f700a5540bfaf.js": "b6163ac36e4508a04fd93f757e6b2bc558a3e995",
     "/42.f03102cb7b326b0d.js": "652c7d4aae553ac8390c4cf5212347a2eaa18f0c",
@@ -2413,7 +2413,7 @@
     "/assets/fonts/kenya-SouthSide.otf": "1939893b51d970695f5fe0f19d84cb47f7174d3d",
     "/assets/i18n/de.json": "61faf5d0a7af54e02421392f402cc9d76bf5774b",
     "/assets/i18n/en.json": "a77fbd818171a1afdd077ada7f651d82d943556b",
-    "/assets/i18n/es.json": "c2a98ada1b1adf0aa6533bbf2bf5176274c34089",
+    "/assets/i18n/es.json": "0aa884a40298661d7d323dcf0cd9dc940c8d5ea2",
     "/assets/i18n/fr.json": "ca6174d0c4e4cad10334f9a36dcf62a8a6b6d086",
     "/assets/i18n/it.json": "d447ccc615541f581f4029c564f7a32de74e3d69",
     "/assets/i18n/ja.json": "bec8685335daa4fe0877b6d574ad59a0d8fd277d",
@@ -4718,11 +4718,11 @@
     "/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
     "/fa-solid-900.40ddefd79fe7af45.woff2": "2717f3f58271f2f2e6120d9937c7227002656d34",
     "/favicon.ico": "bde24ab5ee5a7b66902f6b8aadac944671cea10a",
-    "/index.html": "e911037de9925b082dd20412bb917390614cbf66",
+    "/index.html": "825b4cda12a7d625f7d98e1b3e0ce9388801778f",
     "/main.89d6c7d180d528d2.js": "ff79d29fe91a41279f0d890435f277e7b96fccfb",
     "/manifest.webmanifest": "feeb74972c76d307fa17102d69de773d03f2e2be",
     "/polyfills.a402040b2e0938e4.js": "9b26c1d105f9ffe8cc6b64216eb7657ac83b7292",
-    "/runtime.53a502cbed1b1cf2.js": "fddf0f398812392c4f3eac6db16c417c7632c3eb",
+    "/runtime.8e69edc9c0d7cf70.js": "49fddbacfaac39efd0368037b0140f28b79f6b9a",
     "/styles.18ea283000b0c22d.css": "5ee731b37c72db8054101ca8dafb014303109206"
   },
   "navigationUrls": [

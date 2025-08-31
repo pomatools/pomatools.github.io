@@ -12956,12 +12956,12 @@
       },
       "1306100": {
         "NAME": "At. Riv. Probl. de Est. Rec. PM +{{value}}",
-        "ABBR": "At. Riv. Probl.Est. Rec. PM {{value}}",
+        "ABBR": "At. Riv. Probl.Est.: PM+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario cuando su movimiento de ataque acierta contra objetivos que sufren problemas de estado."
       },
       "1306110": {
         "NAME": "1.er Mov. Compi Rec. PM Mov. S +{{value}}",
-        "ABBR": "1.er M-Compi Rec. PM M-Sincro {{value}}",
+        "ABBR": "1.er M-Compi: PM M-Sincro+{{value}}",
         "DESC": "Recupera {{value}} PM del movimiento sincro del usuario la primera vez que usa su movimiento compi en cada combate."
       },
       "1306120": {
@@ -14031,12 +14031,12 @@
       },
       "1602020": {
         "NAME": "Mov. Compi Rec. PM At. Rápidos +{{value}}",
-        "ABBR": "M-Compi Rec. PM At. Rápidos {{value}}",
+        "ABBR": "M-Compi: PM At. Rápidos+{{value}}",
         "DESC": "Recupera {{value}} PM de los movimientos del usuario que tengan el efecto de ataque rápido tras usar su movimiento compi."
       },
       "1602030": {
         "NAME": "1.er Mov. Compi Rec. PM Curación +{{value}}",
-        "ABBR": "1.er M-Compi Rec. PM Curación {{value}}",
+        "ABBR": "1.er M-Compi: PM Curación+{{value}}",
         "DESC": "Recupera {{value}} PM de los movimientos del usuario que tengan el efecto de curación la primera vez que usa su movimiento compi en cada combate."
       },
       "1602040": {
