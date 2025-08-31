@@ -131,7 +131,8 @@
       "SYNC": "Unimossa",
       "SUPERAWAKENING": "Risveglio",
       "BERRY": "Bacca",
-      "MP": "UDL"
+      "MP": "UDL",
+      "BREAK": "Aumento"
     },
     "KINDS": {
       "BASE": "Base",
@@ -578,6 +579,7 @@
       "000601": "Mega Charizard X",
       "000602": "Mega Charizard Y",
       "000603": "Charizard Gigamax",
+      "000665": "Charizard Teratipo Drago",
       "000700": "Squirtle",
       "000800": "Wartortle",
       "000900": "Blastoise",
@@ -650,6 +652,7 @@
       "005700": "Primeape",
       "005800": "Growlithe",
       "005900": "Arcanine",
+      "005901": "Arcanine di Hisui",
       "006000": "Poliwag",
       "006100": "Poliwhirl",
       "006200": "Poliwrath",
@@ -781,6 +784,7 @@
       "015600": "Quilava",
       "015700": "Typhlosion",
       "015701": "Typhlosion di Hisui",
+      "015776": "Typhlosion di Hisui (teratipo Veleno)",
       "015800": "Totodile",
       "015900": "Croconaw",
       "016000": "Feraligatr",
@@ -1325,6 +1329,7 @@
       "059100": "Amoonguss",
       "059200": "Frillish",
       "059300": "Jellicent",
+      "059301": "Jellicent",
       "059400": "Alomomola",
       "059500": "Joltik",
       "059600": "Galvantula",
@@ -1619,6 +1624,7 @@
       "081400": "Raboot",
       "081500": "Cinderace",
       "081501": "Cinderace Gigamax",
+      "081563": "Cinderace Teratipo Roccia",
       "081600": "Sobble",
       "081700": "Drizzile",
       "081800": "Inteleon",
@@ -1848,6 +1854,7 @@
       "000001": "Rosso Costumax",
       "000002": "Rosso Costumax (Fulmine)",
       "000003": "Rosso (Campione)",
+      "000004": "Rosso (anniversario 2025)",
       "000100": "Kukui",
       "000200": "Cetra",
       "000201": "Cetra Costumax",
@@ -2202,6 +2209,7 @@
       "024301": "Gloria (feste 2021)",
       "024302": "Gloria (Uniforme dojo)",
       "024303": "Gloria (alternativo 2)",
+      "024304": "Gloria (anniversario 2025)",
       "024400": "Hop",
       "024401": "Hop (Campione)",
       "024402": "Hop",
@@ -2247,6 +2255,7 @@
       "028401": "Damon (speciale)",
       "028500": "Perula",
       "028501": "Perula (speciale)",
+      "028502": "Perula (anniversario 2025)",
       "028600": "Florian",
       "028700": "Juliana",
       "028900": "Nemi",
@@ -2282,6 +2291,7 @@
       "035600": "Rubra",
       "035700": "Riben",
       "035800": "Garoff",
+      "035900": "Ethelo (alternativo)",
       "036400": "Oreste (Montanaro)",
       "050200": "Recluta del Team Idro",
       "050300": "Recluta del Team Idro",
@@ -2525,7 +2535,7 @@
       "76": {
         "NAME": "Solarraggio",
         "ABBR": "Solarraggio",
-        "DESC": "Chi la usa entra in uno stato di attesa per potere attaccare. Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Mentre lo stato di attesa per potere attaccare è attivo, l'Unità non può fare altre azioni. Quando la luce del sole è intensa, chi la usa non entra in uno stato di attesa ma attacca direttamente."
+        "DESC": "Chi la usa entra in uno stato di attesa per potere attaccare. Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Mentre lo stato di attesa per potere attaccare è attivo, chi la usa non può fare altre azioni. Quando la luce del sole è intensa, chi la usa non entra in uno stato di attesa ma attacca direttamente."
       },
       "78": {
         "NAME": "Paralizzante",
@@ -2615,7 +2625,7 @@
       "105": {
         "NAME": "Ripresa",
         "ABBR": "Ripresa",
-        "DESC": "Chi la usa recupera PS per circa il 50% dei suoi PS massimi."
+        "DESC": "Chi la usa recupera PS per una certa percentuale (50% circa) dei suoi PS massimi."
       },
       "109": {
         "NAME": "Stordiraggio",
@@ -3420,7 +3430,7 @@
       "456": {
         "NAME": "Comandocura",
         "ABBR": "Comandocura",
-        "DESC": "Chi la usa recupera PS per circa il 50% dei suoi PS massimi."
+        "DESC": "Chi la usa recupera PS per una certa percentuale (50% circa) dei suoi PS massimi."
       },
       "457": {
         "NAME": "Zuccata",
@@ -3460,7 +3470,7 @@
       "467": {
         "NAME": "Oscurotuffo",
         "ABBR": "Oscurotuffo",
-        "DESC": "Chi la usa entra in modalità Oscurotuffo. Dopo un certo lasso di tempo, la modalità Oscurotuffo termina e chi la usa attacca. Mentre la modalità Oscurotuffo è attiva, chi la usa non può fare altre azioni. Mentre questa modalità è attiva, le mosse avversarie che hanno come bersaglio chi la usa falliscono. Se l'Unità subisce un attacco con un'Unimossa o una mossa UniDynamax mentre è attiva, la modalità Oscurotuffo termina."
+        "DESC": "Chi la usa entra in modalità Oscurotuffo. Dopo un certo lasso di tempo, la modalità Oscurotuffo termina e chi la usa attacca. Mentre la modalità Oscurotuffo è attiva, chi la usa non può fare altre azioni. Mentre questa modalità è attiva, le mosse avversarie che hanno come bersaglio chi la usa falliscono. Se chi la usa subisce un attacco con un'Unimossa o una mossa UniDynamax mentre è attiva, la modalità Oscurotuffo termina."
       },
       "469": {
         "NAME": "Bodyguard",
@@ -3625,7 +3635,7 @@
       "553": {
         "NAME": "Elettrogelo",
         "ABBR": "Elettrogelo",
-        "DESC": "Chi la usa entra in uno stato di attesa per potere attaccare. Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Ha una certa probabilità (30%) di paralizzare il bersaglio. Mentre lo stato di attesa per potere attaccare è attivo, l'Unità non può fare altre azioni."
+        "DESC": "Chi la usa entra in uno stato di attesa per potere attaccare. Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Ha una certa probabilità (30%) di paralizzare il bersaglio. Mentre lo stato di attesa per potere attaccare è attivo, chi la usa non può fare altre azioni."
       },
       "555": {
         "NAME": "Urlorabbia",
@@ -3830,7 +3840,7 @@
       "631": {
         "NAME": "Lama Solare",
         "ABBR": "Lama Solare",
-        "DESC": "Chi la usa entra in uno stato di attesa per potere attaccare. Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Mentre lo stato di attesa per potere attaccare è attivo, l'Unità non può fare altre azioni. Quando la luce del sole è intensa, chi la usa non entra in uno stato di attesa ma attacca direttamente."
+        "DESC": "Chi la usa entra in uno stato di attesa per potere attaccare. Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Mentre lo stato di attesa per potere attaccare è attivo, chi la usa non può fare altre azioni. Quando la luce del sole è intensa, chi la usa non entra in uno stato di attesa ma attacca direttamente."
       },
       "640": {
         "NAME": "Campo Psichico",
@@ -4035,7 +4045,7 @@
       "800": {
         "NAME": "Raggiometeora",
         "ABBR": "Raggiomet.",
-        "DESC": "Chi la usa entra in uno stato di attesa per potere attaccare. Aumenta l'Attacco Speciale di chi la usa di 1 grado quando entra in uno stato di attesa per potere attaccare. Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Mentre lo stato di attesa per potere attaccare è attivo, l'Unità non può fare altre azioni."
+        "DESC": "Chi la usa entra in uno stato di attesa per potere attaccare. Aumenta l'Attacco Speciale di chi la usa di 1 grado quando entra in uno stato di attesa per potere attaccare. Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Mentre lo stato di attesa per potere attaccare è attivo, chi la usa non può fare altre azioni."
       },
       "803": {
         "NAME": "Erboscivolata",
@@ -4117,6 +4127,11 @@
         "ABBR": "Tempesta Tonante",
         "DESC": "Va sempre a segno quando piove. Ha una certa probabilità (20%) di paralizzare il bersaglio."
       },
+      "848": {
+        "NAME": "Tempesta Ardente",
+        "ABBR": "Tempesta Ardente",
+        "DESC": "Va sempre a segno quando piove. Ha una certa probabilità (20%) di scottare il bersaglio."
+      },
       "866": {
         "NAME": "Glitturbine",
         "ABBR": "Glitturbine",
@@ -4186,6 +4201,21 @@
         "NAME": "Terascoppio: smeraldo",
         "ABBR": "Terasc: smeraldo",
         "DESC": "Brutto colpo quando l'attacco va a segno, salvo casi particolari. Trasforma il campo di lotta in un Campo Erboso la prima volta che questo attacco semplice va a segno in ogni lotta. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi."
+      },
+      "4043": {
+        "NAME": "Terascoppio: lazulite",
+        "ABBR": "Terasc: lazulite",
+        "DESC": "Va sempre a segno. Aggiunge 1 barretta alla barra mosse di chi la usa per ogni colpo. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 1 grado per ogni colpo."
+      },
+      "4044": {
+        "NAME": "Terascoppio: rutilo",
+        "ABBR": "Terasc: rutilo",
+        "DESC": "Riduce l'Attacco, la Difesa, l'Attacco Speciale, la Difesa Speciale e la Velocità del bersaglio di 1 grado. Ha una certa probabilità (50%) di far tentennare il bersaglio."
+      },
+      "4045": {
+        "NAME": "Terascoppio: ametista",
+        "ABBR": "Terasc: ametista",
+        "DESC": "Riduce la Difesa e la Difesa Speciale del bersaglio di 1 grado. Iperavvelena il bersaglio. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli."
       },
       "5000": {
         "NAME": "Fulmine",
@@ -4365,7 +4395,7 @@
       "6034": {
         "NAME": "Assorbibacio stellare",
         "ABBR": "Assorbiba. S",
-        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nVa sempre a segno. Annulla gli aumenti delle statistiche del bersaglio, poi aumenta le stesse statistiche di chi la usa in egual misura. Chi la usa recupera PS per circa il 40% dei suoi PS massimi."
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nVa sempre a segno. Annulla gli aumenti delle statistiche del bersaglio, poi aumenta le stesse statistiche di chi la usa in egual misura. Chi la usa recupera PS per una certa percentuale (40% circa) dei suoi PS massimi."
       },
       "6035": {
         "NAME": "Fangonda sfrenata",
@@ -4565,7 +4595,7 @@
       "6074": {
         "NAME": "Raggiometeora vacuo",
         "ABBR": "Raggiomet. S",
-        "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Quando l'Attacco Speciale di chi la usa non aumenta.\n\nChi la usa entra in uno stato di attesa per potere attaccare. Aumenta l'Attacco Speciale di chi la usa di 1 grado quando entra in uno stato di attesa per potere attaccare. (L'Attacco Speciale di chi la usa non aumenta se non è entrato in uno stato di attesa per potere attaccare.) Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Mentre lo stato di attesa per potere attaccare è attivo, l'Unità non può fare altre azioni. Va sempre a segno. Aumenta la potenza di questo attacco in proporzione alla riduzione della Difesa Speciale del bersaglio. Riduce la Difesa Speciale del bersaglio di 1 grado quando è avvelenato o iperavvelenato. Quando al campo alleato è applicata una Cerchia, chi la usa non entra in uno stato di attesa ma attacca direttamente."
+        "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Quando l'Attacco Speciale di chi la usa non aumenta.\n\nChi la usa entra in uno stato di attesa per potere attaccare. Aumenta l'Attacco Speciale di chi la usa di 1 grado quando entra in uno stato di attesa per potere attaccare. (L'Attacco Speciale di chi la usa non aumenta se non è entrato in uno stato di attesa per potere attaccare.) Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Mentre lo stato di attesa per potere attaccare è attivo, chi la usa non può fare altre azioni. Va sempre a segno. Aumenta la potenza di questo attacco in proporzione alla riduzione della Difesa Speciale del bersaglio. Riduce la Difesa Speciale del bersaglio di 1 grado quando è avvelenato o iperavvelenato. Quando al campo alleato è applicata una Cerchia, chi la usa non entra in uno stato di attesa ma attacca direttamente."
       },
       "6075": {
         "NAME": "Carineria feroce",
@@ -4660,12 +4690,12 @@
       "6093": {
         "NAME": "Sanguisuga del frinio",
         "ABBR": "Sanguisuga S",
-        "DESC": "Condizione di attivazione: Quando al campo alleato viene applicata una Cerchia.\nCondizione di disattivazione: Quando al campo alleato non è più applicata una Cerchia.\n\nRiduce una statistica a caso del bersaglio di 2 gradi tra le seguenti: Attacco, Difesa, Attacco Speciale, Difesa Speciale. Velocità, precisione o elusione. Aumenta le statistiche di chi la usa in egual misura. Aumenta il recupero di PS di chi la usa in proporzione al danno inferto al bersaglio. Fa recuperare PS a tutte le Unità alleate per circa il 10% dei loro PS massimi. Trasforma la zona in una Zona Coleottero la prima volta che questo attacco semplice va a segno in ogni lotta. (Una Zona Coleottero aumenta la potenza degli attacchi di tipo Coleottero.)"
+        "DESC": "Condizione di attivazione: Quando al campo alleato viene applicata una Cerchia.\nCondizione di disattivazione: Quando al campo alleato non è più applicata una Cerchia.\n\nRiduce una statistica a caso del bersaglio di 2 gradi tra le seguenti: Attacco, Difesa, Attacco Speciale, Difesa Speciale. Velocità, precisione o elusione. Aumenta le statistiche di chi la usa in egual misura. Aumenta il recupero di PS di chi la usa in proporzione al danno inferto al bersaglio. Fa recuperare PS a tutte le Unità alleate per una certa percentuale (10% circa) dei loro PS massimi. Trasforma la zona in una Zona Coleottero la prima volta che questo attacco semplice va a segno in ogni lotta. (Una Zona Coleottero aumenta la potenza degli attacchi di tipo Coleottero.)"
       },
       "6094": {
         "NAME": "Introenergia: sete insaziabile",
         "ABBR": "Introenergia S",
-        "DESC": "Condizione di attivazione: Quando chi la usa utilizza Accumulo.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nFa recuperare PS a tutte le Unità alleate per circa il 20% dei loro PS massimi. Aumenta anche il recupero PS di chi la usa in proporzione all'aumento della Difesa o della Difesa Speciale di chi la usa. Rimuove tutti gli aumenti della Difesa e della Difesa Speciale di chi la usa."
+        "DESC": "Condizione di attivazione: Quando chi la usa utilizza Accumulo.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nFa recuperare PS a tutte le Unità alleate per una certa percentuale (20% circa) dei loro PS massimi. Aumenta anche il recupero PS di chi la usa in proporzione all'aumento della Difesa o della Difesa Speciale di chi la usa. Rimuove tutti gli aumenti della Difesa e della Difesa Speciale di chi la usa."
       },
       "6095": {
         "NAME": "Sgranocchio: fame insaziabile",
@@ -4825,7 +4855,7 @@
       "6126": {
         "NAME": "Astrocarica solare",
         "ABBR": "Astrocarica S",
-        "DESC": "Condizione di attivazione: Quando l'Unità nella tua squadra sferra un'Unimossa una volta.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nAttacca ignorando le abilità passive che riducono i danni. Attacca ignorando le abilità passive del bersaglio che impediscono i brutti colpi. Ignora l'effetto \"Resistenza a colpo micidiale\" del bersaglio. Riduce la Difesa del bersaglio di 3 gradi. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Se gli utilizzi residui di Mattindoro di chi la usa sono pari o superiori a 1 quando si attacca con questa mossa, applica una Cerchia di Alola (danni fisici) al campo alleato. Cerchia di Alola (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Alola\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Condizione di attivazione: Quando l'Unità nella tua squadra sferra un'Unimossa una volta.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nAttacca ignorando le abilità passive che riducono i danni. Attacca ignorando le abilità passive del bersaglio che impediscono i brutti colpi. Ignora l'effetto \"Resistenza a colpo micidiale\" del bersaglio. Riduce la Difesa del bersaglio di 3 gradi. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Se gli utilizzi residui di Mattindoro di chi la usa sono pari o superiori a 1 quando si attacca con questa mossa, applica una Cerchia di Alola (danni fisici) al campo alleato. Cerchia di Alola (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Alola\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "6127": {
         "NAME": "Raggio d'Ombra lunare",
@@ -4901,6 +4931,56 @@
         "NAME": "Iper Raggio Z",
         "ABBR": "Iper Raggio Z",
         "DESC": "Condizione di attivazione: Quando l'Unità nella tua squadra sferra un'Unimossa una volta.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nVa sempre a segno. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Applica l'effetto \"Prossimo a costo zero\" a chi la usa. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 2 gradi."
+      },
+      "6142": {
+        "NAME": "Dragartigli brillanti",
+        "ABBR": "Dragartigli S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco di chi la usa viene aumentato.\nCondizione di disattivazione: Quando l'Attacco di chi la usa non viene aumentato.\n\nVa sempre a segno. Applica l'effetto \"Aumento danni fisici\" sul bersaglio. Raddoppia la potenza di questo attacco quando la tensione della squadra di chi la usa non è aumentata. Riduce la Difesa del bersaglio di 6 gradi quando la tensione della squadra di chi la usa non è aumentata."
+      },
+      "6143": {
+        "NAME": "Oltraggio squamato",
+        "ABBR": "Oltraggio S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco di chi la usa viene aumentato.\nCondizione di disattivazione: Quando l'Attacco di chi la usa non viene aumentato.\n\nVa sempre a segno. Aumenta la potenza di questo attacco in proporzione all'aumento dell'effetto \"Prossima mossa speciale ↑\" di chi la usa. Rimuove tutti i gradi dell'effetto \"Prossima mossa speciale ↑\" di chi la usa."
+      },
+      "6144": {
+        "NAME": "Attacco Rapido meteorico",
+        "ABBR": "Attacco Rapido S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nApplica l'effetto \"Aumento danni fisici\" e l'effetto \"Aumento danni speciali\" sul bersaglio. Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi."
+      },
+      "6145": {
+        "NAME": "Sciagura illusoria",
+        "ABBR": "Sciagura S",
+        "DESC": "Condizione di attivazione: Quando c'è almeno 1 Pokémon affetto da un problema di stato nel campo avversario.\nCondizione di disattivazione: Non si può disattivare.\n\nRaddoppia la potenza di questo attacco quando il bersaglio è affetto da problemi di stato. Riduce la precisione del bersaglio di 3 gradi. Applica l'effetto \"Aumento danni speciali\" sul bersaglio."
+      },
+      "6146": {
+        "NAME": "Iper Raggio S",
+        "ABBR": "Iper Raggio sontuoso",
+        "DESC": "Condizione di attivazione: Quando c'è almeno 1 Pokémon affetto da un problema di stato nel campo avversario.\nCondizione di disattivazione: Non si può disattivare.\n\nLa potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Raddoppia la potenza di questo attacco quando il bersaglio è affetto da problemi di stato. Applica l'effetto \"Prossimo superefficace ↑\" a chi la usa quando la tensione della sua squadra non è aumentata. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 5 gradi quando la tensione della sua squadra non è aumentata. Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando la tensione della sua squadra è stata aumentata."
+      },
+      "6147": {
+        "NAME": "Oscurotuffo del Mondo Distorto",
+        "ABBR": "Oscurotuffo S",
+        "DESC": "Condizione di attivazione: Quando l'Unità nella tua squadra sferra un'Unimossa una volta.\nCondizione di disattivazione: Quando questa mossa viene usata o quando si attacca con questa mossa.\n\nChi la usa entra in modalità Oscurotuffo. Dopo un certo lasso di tempo, la modalità Oscurotuffo termina e chi la usa attacca. Mentre la modalità Oscurotuffo è attiva, chi la usa non può fare altre azioni. Mentre questa modalità è attiva, le mosse avversarie che hanno come bersaglio chi la usa falliscono. Se chi la usa subisce un attacco con un'Unimossa o una mossa UniDynamax mentre è attiva, la modalità Oscurotuffo termina. Chi la usa attacca senza entrare in modalità Oscurotuffo in presenza di una Zona Spettro. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Aumenta l'elusione di tutte le Unità alleate di 2 gradi."
+      },
+      "6148": {
+        "NAME": "Tempesta Boreale nel rigido inverno",
+        "ABBR": "Tempesta Boreale S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Quando l'Attacco Speciale di chi la usa non aumenta.\n\nVa sempre a segno quando piove. Riduce la Velocità del bersaglio di 3 gradi. Confonde il bersaglio. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Applica l'effetto \"Blocco brutti colpi\" al campo alleato."
+      },
+      "6149": {
+        "NAME": "Tempesta Tonante di mezza estate",
+        "ABBR": "Tempesta Tonante S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Quando l'Attacco Speciale di chi la usa non aumenta.\n\nVa sempre a segno quando piove. Riduce l'Attacco Speciale del bersaglio di 3 gradi. Paralizza il bersaglio. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Applica l'effetto \"Riduzione danni speciali\" al campo alleato."
+      },
+      "6150": {
+        "NAME": "Tempesta Ardente del tardo autunno",
+        "ABBR": "Tempesta Ardente S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Quando l'Attacco Speciale di chi la usa non aumenta.\n\nVa sempre a segno quando piove. Riduce l'Attacco del bersaglio di 3 gradi. Scotta il bersaglio. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Applica l'effetto \"Riduzione danni fisici\" al campo alleato."
+      },
+      "6151": {
+        "NAME": "Spaccaroccia S",
+        "ABBR": "Spaccaroccia igneo",
+        "DESC": "Condizione di attivazione: Quando la zona si trasforma in una Zona Lotta.\nCondizione di disattivazione: Quando la zona smette di essere una Zona Lotta.\n\nVa sempre a segno. Riduce la Difesa del bersaglio di 4 gradi. Riduce la Protezione Lotta del bersaglio di 1 grado la prima volta che questo attacco semplice va a segno in ogni lotta."
       },
       "7000": {
         "NAME": "Gigarinnovamento",
@@ -5112,120 +5192,125 @@
         "ABBR": "Mutadanza",
         "DESC": "Non ha effetti aggiuntivi."
       },
+      "8200": {
+        "NAME": "Fervore di Kanto",
+        "ABBR": "Fervore di Kanto",
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Kanto (danni fisici) al campo alleato. Cerchia di Kanto (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Kanto\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
+      },
       "8201": {
         "NAME": "Analisi di Kanto",
         "ABBR": "Analisi di Kanto",
-        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Kanto (danni speciali) al campo alleato. Cerchia di Kanto (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Kanto\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Kanto (danni speciali) al campo alleato. Cerchia di Kanto (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Kanto\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8202": {
         "NAME": "Unione di Kanto",
         "ABBR": "Unione di Kanto",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Kanto (difensiva) al campo alleato. Cerchia di Kanto (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate del 5%. Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità del gruppo \"Kanto\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 5% e la riduzione dei danni del 5%. L'aumento massimo è del 20% e del 25% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Kanto (difensiva) al campo alleato. Cerchia di Kanto (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (5%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità del gruppo \"Kanto\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (5%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (25%) per la riduzione dei danni."
       },
       "8203": {
         "NAME": "Fervore di Johto",
         "ABBR": "Fervore di Johto",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Johto (danni fisici) al campo alleato. Cerchia di Johto (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Johto\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Johto (danni fisici) al campo alleato. Cerchia di Johto (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Johto\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8204": {
         "NAME": "Analisi di Johto",
         "ABBR": "Analisi di Johto",
-        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Johto (danni speciali) al campo alleato. Cerchia di Johto (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Johto\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Johto (danni speciali) al campo alleato. Cerchia di Johto (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Johto\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8205": {
         "NAME": "Unione di Johto",
         "ABBR": "Unione di Johto",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Johto (difensiva) al campo alleato. Cerchia di Johto (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate del 5%. Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità del gruppo \"Johto\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 5% e la riduzione dei danni del 5%. L'aumento massimo è del 20% e del 25% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Johto (difensiva) al campo alleato. Cerchia di Johto (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (5%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità del gruppo \"Johto\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (5%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (25%) per la riduzione dei danni."
       },
       "8206": {
         "NAME": "Fervore di Hoenn",
         "ABBR": "Fervore di Hoenn",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Hoenn (danni fisici) al campo alleato. Cerchia di Hoenn (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Hoenn\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Hoenn (danni fisici) al campo alleato. Cerchia di Hoenn (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Hoenn\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8207": {
         "NAME": "Analisi di Hoenn",
         "ABBR": "Analisi di Hoenn",
-        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Hoenn (danni speciali) al campo alleato. Cerchia di Hoenn (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Hoenn\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Hoenn (danni speciali) al campo alleato. Cerchia di Hoenn (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Hoenn\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8208": {
         "NAME": "Unione di Hoenn",
         "ABBR": "Unione di Hoenn",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Hoenn (difensiva) al campo alleato. Cerchia di Hoenn (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate del 5%. Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità del gruppo \"Hoenn\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 5% e la riduzione dei danni del 5%. L'aumento massimo è del 20% e del 25% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Hoenn (difensiva) al campo alleato. Cerchia di Hoenn (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (5%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità del gruppo \"Hoenn\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (5%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (25%) per la riduzione dei danni."
       },
       "8210": {
         "NAME": "Analisi di Sinnoh",
         "ABBR": "Analisi di Sinnoh",
-        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Sinnoh (danni speciali) al campo alleato. Cerchia di Sinnoh (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Sinnoh\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Sinnoh (danni speciali) al campo alleato. Cerchia di Sinnoh (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Sinnoh\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8211": {
         "NAME": "Unione di Sinnoh",
         "ABBR": "Unione di Sinnoh",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Sinnoh (difensiva) al campo alleato. Cerchia di Sinnoh (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate del 5%. Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità del gruppo \"Sinnoh\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 5% e la riduzione dei danni del 5%. L'aumento massimo è del 20% e del 25% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Sinnoh (difensiva) al campo alleato. Cerchia di Sinnoh (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (5%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità del gruppo \"Sinnoh\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (5%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (25%) per la riduzione dei danni."
       },
       "8212": {
         "NAME": "Fervore di Unima",
         "ABBR": "Fervore di Unima",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Unima (danni fisici) al campo alleato. Cerchia di Unima (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Unima\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Unima (danni fisici) al campo alleato. Cerchia di Unima (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Unima\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8213": {
         "NAME": "Analisi di Unima",
         "ABBR": "Analisi di Unima",
-        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Unima (danni speciali) al campo alleato. Cerchia di Unima (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Unima\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
+        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Unima (danni speciali) al campo alleato. Cerchia di Unima (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Unima\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8214": {
         "NAME": "Unione di Unima",
         "ABBR": "Unione di Unima",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Unima (difensiva) al campo alleato. Cerchia di Unima (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate del 5%. Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità del gruppo \"Unima\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 5% e la riduzione dei danni del 5%. L'aumento massimo è del 20% e del 25% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Unima (difensiva) al campo alleato. Cerchia di Unima (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (5%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità del gruppo \"Unima\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (5%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (25%) per la riduzione dei danni."
       },
       "8217": {
         "NAME": "Unione di Kalos",
         "ABBR": "Unione di Kalos",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Kalos (difensiva) al campo alleato. Cerchia di Kalos (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate del 5%. Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità del gruppo \"Kalos\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 5% e la riduzione dei danni del 5%. L'aumento massimo è del 20% e del 25% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Kalos (difensiva) al campo alleato. Cerchia di Kalos (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (5%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità del gruppo \"Kalos\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (5%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (25%) per la riduzione dei danni."
       },
       "8219": {
         "NAME": "Analisi di Alola",
         "ABBR": "Analisi di Alola",
-        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Alola (danni speciali) al campo alleato. Cerchia di Alola (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Alola\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Alola (danni speciali) al campo alleato. Cerchia di Alola (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Alola\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8220": {
         "NAME": "Unione di Alola",
         "ABBR": "Unione di Alola",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Alola (difensiva) al campo alleato. Cerchia di Alola (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate del 5%. Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità del gruppo \"Alola\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 5% e la riduzione dei danni del 5%. L'aumento massimo è del 20% e del 25% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Alola (difensiva) al campo alleato. Cerchia di Alola (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (5%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità del gruppo \"Alola\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (5%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (25%) per la riduzione dei danni."
       },
       "8221": {
         "NAME": "Fervore di Galar",
         "ABBR": "Fervore di Galar",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Galar (danni fisici) al campo alleato. Cerchia di Galar (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Galar\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Galar (danni fisici) al campo alleato. Cerchia di Galar (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Galar\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8222": {
         "NAME": "Analisi di Galar",
         "ABBR": "Analisi di Galar",
-        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Galar (danni speciali) al campo alleato. Cerchia di Galar (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Galar\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Galar (danni speciali) al campo alleato. Cerchia di Galar (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Galar\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8223": {
         "NAME": "Unione di Galar",
         "ABBR": "Unione di Galar",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Galar (difensiva) al campo alleato. Cerchia di Galar (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate del 5%. Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità del gruppo \"Galar\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 5% e la riduzione dei danni del 5%. L'aumento massimo è del 20% e del 25% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Galar (difensiva) al campo alleato. Cerchia di Galar (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (5%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità del gruppo \"Galar\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (5%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (25%) per la riduzione dei danni."
       },
       "8224": {
         "NAME": "Fervore di Paldea",
         "ABBR": "Fervore di Paldea",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Paldea (danni fisici) al campo alleato. Cerchia di Paldea (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Paldea\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Paldea (danni fisici) al campo alleato. Cerchia di Paldea (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Paldea\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8225": {
         "NAME": "Analisi di Paldea",
         "ABBR": "Analisi di Paldea",
-        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Paldea (danni speciali) al campo alleato. Cerchia di Paldea (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Paldea\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Paldea (danni speciali) al campo alleato. Cerchia di Paldea (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Paldea\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "8226": {
         "NAME": "Unione di Paldea",
         "ABBR": "Unione di Paldea",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Paldea (difensiva) al campo alleato. Cerchia di Paldea (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate del 5%. Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità del gruppo \"Paldea\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 5% e la riduzione dei danni del 5%. L'aumento massimo è del 20% e del 25% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Paldea (difensiva) al campo alleato. Cerchia di Paldea (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (5%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità del gruppo \"Paldea\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (5%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (25%) per la riduzione dei danni."
       },
       "8229": {
         "NAME": "Unione di Pasio",
         "ABBR": "Unione di Pasio",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Pasio (difensiva) al campo alleato. Cerchia di Pasio (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate del 5%. Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità del gruppo \"Pasio\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 5% e la riduzione dei danni del 5%. L'aumento massimo è del 20% e del 25% per la riduzione dei danni.)"
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Pasio (difensiva) al campo alleato. Cerchia di Pasio (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (5%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità del gruppo \"Pasio\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (5%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (25%) per la riduzione dei danni."
       },
       "10000": {
         "NAME": "Convinti della vittoria",
@@ -5236,6 +5321,11 @@
         "NAME": "Verso la vittoria!",
         "ABBR": "Verso la vittoria!",
         "DESC": "Aumenta l'Attacco di chi la usa di 6 gradi. Applica l'effetto \"Recupero costante PS\" a tutte le Unità alleate."
+      },
+      "10004": {
+        "NAME": "Brillando verso la vittoria",
+        "ABBR": "Brillando verso la vittoria",
+        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Applica l'effetto \"Prossimo superefficace ↑\" a chi la usa. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 3 gradi. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 5 gradi."
       },
       "10007": {
         "NAME": "Grintosi per la vittoria",
@@ -5322,6 +5412,11 @@
         "ABBR": "La sfida si fa rovente!",
         "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Aumenta l'Attacco di tutte le Unità alleate di 2 gradi. Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 2 gradi. Riduce la Velocità di chi la usa di 2 gradi."
       },
+      "10048": {
+        "NAME": "Verrete spazzati via!",
+        "ABBR": "Verrete spazzati via!",
+        "DESC": "Aumenta l'Attacco Speciale di un alleato di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di un alleato di 3 gradi. Applica l'effetto \"Prossimo a costo zero\" a un alleato. Aumenta l'effetto \"Prossima mossa speciale ↑\" di un alleato di 2 gradi."
+      },
       "10049": {
         "NAME": "Con grinta ed energia!",
         "ABBR": "Con grinta ed energia!",
@@ -5341,6 +5436,11 @@
         "NAME": "Fuoco e fiamme!",
         "ABBR": "Fuoco e fiamme!",
         "DESC": "Aumenta l'Attacco e l'Attacco Speciale di chi la usa di 2 gradi."
+      },
+      "10069": {
+        "NAME": "Andiamo a tutto gas!",
+        "ABBR": "Andiamo a tutto gas!",
+        "DESC": "Aumenta l'Attacco e l'Attacco Speciale di tutte le Unità alleate di 2 gradi. Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 1 grado."
       },
       "10070": {
         "NAME": "Guarda qua!",
@@ -5380,7 +5480,7 @@
       "10084": {
         "NAME": "Composizione floreale",
         "ABBR": "Composizione floreale",
-        "DESC": "Fa recuperare PS a tutte le Unità alleate per circa il 40% dei loro PS massimi. Annulla le riduzioni delle statistiche di tutte le Unità alleate. Aumenta la Difesa di tutte le Unità alleate di 1 grado."
+        "DESC": "Fa recuperare PS a tutte le Unità alleate per una certa percentuale (40% circa) dei loro PS massimi. Annulla le riduzioni delle statistiche di tutte le Unità alleate. Aumenta la Difesa di tutte le Unità alleate di 1 grado."
       },
       "10088": {
         "NAME": "In piena fioritura",
@@ -5395,7 +5495,7 @@
       "10090": {
         "NAME": "Darò il massimo!",
         "ABBR": "Darò il massimo!",
-        "DESC": "Chi la usa recupera PS per circa il 40% dei suoi PS massimi. Aggiunge 2 barrette alla barra mosse di chi la usa."
+        "DESC": "Chi la usa recupera PS per una certa percentuale (40% circa) dei suoi PS massimi. Aggiunge 2 barrette alla barra mosse di chi la usa."
       },
       "10100": {
         "NAME": "Il Distruttore!!",
@@ -5577,6 +5677,11 @@
         "ABBR": "Ora sì che ci divertiamo!",
         "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta la Difesa Speciale di chi la usa di 4 gradi. Aumenta l'Attacco Speciale di tutte le Unità alleate di 4 gradi. Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi. Riduce la Velocità di chi la usa di 2 gradi."
       },
+      "10209": {
+        "NAME": "Ho la strategia vincente!",
+        "ABBR": "Ho la strategia vincente!",
+        "DESC": "Aumenta l'Attacco Speciale di un alleato di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di un alleato di 3 gradi. Applica l'effetto \"Recupero costante PS\" a un alleato. Aumenta l'effetto \"Prossima mossa speciale ↑\" di un alleato di 2 gradi."
+      },
       "10210": {
         "NAME": "Fatti sotto!",
         "ABBR": "Fatti sotto!",
@@ -5625,7 +5730,7 @@
       "10230": {
         "NAME": "Non vedo l'ora!",
         "ABBR": "Non vedo l'ora!",
-        "DESC": "Fa recuperare PS a un alleato per circa il 40% dei suoi PS massimi. Aumenta la Difesa e la Difesa Speciale di un alleato di 2 gradi."
+        "DESC": "Fa recuperare PS a un alleato per una certa percentuale (40% circa) dei suoi PS massimi. Aumenta la Difesa e la Difesa Speciale di un alleato di 2 gradi."
       },
       "10239": {
         "NAME": "A tutta difesa!",
@@ -5660,7 +5765,7 @@
       "10260": {
         "NAME": "Sono forte, t'avverto!",
         "ABBR": "Sono forte, t'avverto!",
-        "DESC": "Chi la usa recupera PS per circa il 40% dei suoi PS massimi. Aumenta la Difesa di chi la usa di 2 gradi."
+        "DESC": "Chi la usa recupera PS per una certa percentuale (40% circa) dei suoi PS massimi. Aumenta la Difesa di chi la usa di 2 gradi."
       },
       "10264": {
         "NAME": "Divertiamoci in allegria!",
@@ -5782,10 +5887,20 @@
         "ABBR": "Cuore impavido!",
         "DESC": "Aumenta la Difesa Speciale di chi la usa di 2 gradi. Applica l'effetto \"Resistenza a colpo micidiale\" a chi la usa."
       },
+      "10409": {
+        "NAME": "Col sostegno dei Pokémon",
+        "ABBR": "Col sostegno dei Pokémon",
+        "DESC": "Aumenta l'Attacco di chi la usa di 4 gradi. Aumenta la precisione di chi la usa di 1 grado. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 2 gradi."
+      },
       "10410": {
         "NAME": "Analisi ultimata!",
         "ABBR": "Analisi ultimata!",
         "DESC": "Aumenta la Difesa e la Difesa Speciale di chi la usa di 1 grado. Applica l'effetto \"Resistenza al tipo\" a chi la usa e lo rende resistente al tipo dell'ultimo attacco subito."
+      },
+      "10418": {
+        "NAME": "Bziiiiip!",
+        "ABBR": "Bziiiiip!",
+        "DESC": "Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 3 gradi. Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado."
       },
       "10419": {
         "NAME": "Bando ai numeri, iniziamo!",
@@ -5825,7 +5940,7 @@
       "10454": {
         "NAME": "I Pokémon Coleottero sono ossi duri!",
         "ABBR": "I Pokémon Coleottero sono ossi duri!",
-        "DESC": "Fa recuperare PS a un alleato per circa il 40% dei suoi PS massimi. Guarisce un alleato dai problemi di stato, dal tentennamento, dalla confusione e dall'imprigionamento. Applica l'effetto \"Recupero costante PS\" a un alleato. Applica l'effetto \"Resistenza a colpo micidiale\" a un alleato."
+        "DESC": "Fa recuperare PS a un alleato per una certa percentuale (40% circa) dei suoi PS massimi. Guarisce un alleato dai problemi di stato, dal tentennamento, dalla confusione e dall'imprigionamento. Applica l'effetto \"Recupero costante PS\" a un alleato. Applica l'effetto \"Resistenza a colpo micidiale\" a un alleato."
       },
       "10459": {
         "NAME": "Approfondirò la mia ricerca!",
@@ -5835,7 +5950,7 @@
       "10460": {
         "NAME": "Fatti avanti se hai coraggio!",
         "ABBR": "Fatti avanti se hai coraggio!",
-        "DESC": "Chi la usa recupera PS per circa il 40% dei suoi PS massimi. Aumenta la Velocità di chi la usa di 2 gradi."
+        "DESC": "Chi la usa recupera PS per una certa percentuale (40% circa) dei suoi PS massimi. Aumenta la Velocità di chi la usa di 2 gradi."
       },
       "10469": {
         "NAME": "Ottimo lavoro!",
@@ -5876,6 +5991,11 @@
         "NAME": "Legame indissolubile!",
         "ABBR": "Legame indissolubile!",
         "DESC": "Aggiunge fino a 3 barrette alla barra mosse di chi la usa per ogni Unità alleata in campo. Minore è la percentuale di PS residui di chi la usa, più barrette verranno aggiunte alla barra mosse. In modalità multigiocatore, invece, aggiunge fino a 3 barrette alla barra mosse di tutti i giocatori alleati. Aumenta l'Attacco di tutte le Unità alleate, fino a un massimo di 4 gradi, in proporzione inversa rispetto alla percentuale di PS residui di chi la usa."
+      },
+      "10498": {
+        "NAME": "Un po' di cambiamenti!",
+        "ABBR": "Un po' di cambiamenti!",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'Attacco e la probabilità di mandare a segno brutti colpi di chi la usa di 2 gradi."
       },
       "10499": {
         "NAME": "La situazione si fa animata!",
@@ -6000,7 +6120,7 @@
       "10670": {
         "NAME": "Vi curo io!",
         "ABBR": "Vi curo io!",
-        "DESC": "Fa recuperare PS a un alleato per circa il 60% dei suoi PS massimi. Guarisce un alleato dai problemi di stato. Guarisce un alleato dalla confusione, dal tentennamento e dall'imprigionamento. Applica l'effetto \"Resistenza a colpo micidiale\" a un alleato. Applica l'effetto \"Recupero costante PS\" a un alleato quando la tensione di chi la usa è stata aumentata."
+        "DESC": "Fa recuperare PS a un alleato per una certa percentuale (60% circa) dei suoi PS massimi. Guarisce un alleato dai problemi di stato. Guarisce un alleato dalla confusione, dal tentennamento e dall'imprigionamento. Applica l'effetto \"Resistenza a colpo micidiale\" a un alleato. Applica l'effetto \"Recupero costante PS\" a un alleato quando la tensione di chi la usa è stata aumentata."
       },
       "10679": {
         "NAME": "Via alla ricercaaa!",
@@ -6020,7 +6140,7 @@
       "10890": {
         "NAME": "Perseguiamo i nostri ideali!",
         "ABBR": "Perseguiamo i nostri ideali!",
-        "DESC": "Aumenta la Velocità di chi la usa di 2 gradi. Aumenta la precisione di chi la usa di 1 grado. Riduce la Difesa di chi la usa di 1 grado. Quando la tensione di chi la usa non è aumentata, applica anche l'effetto \"Prossimo superefficace ↑\" a chi la usa."
+        "DESC": "Aumenta la Velocità di chi la usa di 2 gradi. Aumenta la precisione di chi la usa di 1 grado. Riduce la Difesa di chi la usa di 1 grado. Quando la tensione della squadra di chi la usa non è aumentata, applica anche l'effetto \"Prossimo superefficace ↑\" a chi la usa."
       },
       "10891": {
         "NAME": "Formula matematica",
@@ -6031,6 +6151,11 @@
         "NAME": "Per amore della verità!",
         "ABBR": "Per amore della verità!",
         "DESC": "Applica l'effetto \"Accelerazione barra mosse\" al campo alleato. Aumenta l'Attacco Speciale di chi la usa di 3 gradi. Aumenta la precisione di chi la usa di 1 grado."
+      },
+      "10895": {
+        "NAME": "La formula dell'armonia!",
+        "ABBR": "La formula dell'armonia!",
+        "DESC": "Aumenta l'Attacco Speciale di un alleato di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di un alleato di 3 gradi. Applica l'effetto \"Immunità problemi di stato e impedimenti\" a un alleato. Aumenta l'effetto \"Prossima mossa speciale ↑\" di un alleato di 2 gradi."
       },
       "10896": {
         "NAME": "Non ce la farete mai a fermarci!",
@@ -6185,7 +6310,7 @@
       "10960": {
         "NAME": "Arte effimera",
         "ABBR": "Arte effimera",
-        "DESC": "Chi la usa recupera PS per circa il 20% dei suoi PS massimi. Applica l'effetto \"Prossimo brutto colpo\" a chi la usa. Applica l'effetto \"Recupero costante PS\" a chi la usa."
+        "DESC": "Chi la usa recupera PS per una certa percentuale (20% circa) dei suoi PS massimi. Applica l'effetto \"Prossimo brutto colpo\" a chi la usa. Applica l'effetto \"Recupero costante PS\" a chi la usa."
       },
       "10961": {
         "NAME": "Nessun compromesso!",
@@ -6226,6 +6351,11 @@
         "NAME": "Stiamo arrivando!",
         "ABBR": "Stiamo arrivando!",
         "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'Attacco di chi la usa di 2 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Applica l'effetto \"Resistenza a colpo micidiale\" a chi la usa."
+      },
+      "10997": {
+        "NAME": "Credo fermamente in noi!",
+        "ABBR": "Credo fermamente in noi!",
+        "DESC": "Aumenta l'Attacco di un alleato di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di un alleato di 3 gradi. Applica l'effetto \"Prossimo superefficace ↑\" a un alleato."
       },
       "10998": {
         "NAME": "Che lentezza!",
@@ -6295,7 +6425,7 @@
       "11060": {
         "NAME": "Brutto colpo... di fulmine!",
         "ABBR": "Brutto colpo... di fulmine!",
-        "DESC": "Chi la usa recupera PS per circa il 40% dei suoi PS massimi. Applica l'effetto \"Prossimo brutto colpo\" a chi la usa."
+        "DESC": "Chi la usa recupera PS per una certa percentuale (40% circa) dei suoi PS massimi. Applica l'effetto \"Prossimo brutto colpo\" a chi la usa."
       },
       "11061": {
         "NAME": "Superlativo!",
@@ -6395,7 +6525,7 @@
       "11120": {
         "NAME": "Non mi arrendo!",
         "ABBR": "Non mi arrendo!",
-        "DESC": "Chi la usa recupera PS per circa il 40% dei suoi PS massimi. Aumenta la Velocità e l'elusione di chi la usa di 1 grado."
+        "DESC": "Chi la usa recupera PS per una certa percentuale (40% circa) dei suoi PS massimi. Aumenta la Velocità e l'elusione di chi la usa di 1 grado."
       },
       "11121": {
         "NAME": "È il momento decisivo!",
@@ -6410,7 +6540,7 @@
       "11129": {
         "NAME": "Con un cuore d'oro puro",
         "ABBR": "Con un cuore d'oro puro",
-        "DESC": "Applica l'effetto \"Recupero costante PS\" a tutte le Unità alleate. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica Cerchia di Johto (difensiva) al campo alleato. Cerchia di Johto (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate del 5%. Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità del gruppo \"Johto\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 5% e la riduzione dei danni del 5%. L'aumento massimo è del 20% e del 25% per la riduzione dei danni.)"
+        "DESC": "Applica l'effetto \"Recupero costante PS\" a tutte le Unità alleate. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado. Applica una Cerchia di Johto (difensiva) al campo alleato. Cerchia di Johto (difensiva) conferisce tutti gli effetti seguenti: Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (5%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità del gruppo \"Johto\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (5%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (25%) per la riduzione dei danni."
       },
       "11130": {
         "NAME": "Ta-daaah!",
@@ -6435,12 +6565,12 @@
       "11140": {
         "NAME": "Per me siete un libro aperto",
         "ABBR": "Per me siete un libro aperto",
-        "DESC": "Fa recuperare PS a un alleato per circa il 40% dei suoi PS massimi. Aumenta l'Attacco Speciale di un alleato di 3 gradi. Aumenta la precisione di un alleato di 1 grado."
+        "DESC": "Fa recuperare PS a un alleato per una certa percentuale (40% circa) dei suoi PS massimi. Aumenta l'Attacco Speciale di un alleato di 3 gradi. Aumenta la precisione di un alleato di 1 grado."
       },
       "11144": {
         "NAME": "Schiariamoci la mente!",
         "ABBR": "Schiariamoci la mente!",
-        "DESC": "Fa recuperare PS a un alleato per circa il 40% dei suoi PS massimi. Applica l'effetto \"Resistenza a colpo micidiale\" a un alleato."
+        "DESC": "Fa recuperare PS a un alleato per una certa percentuale (40% circa) dei suoi PS massimi. Applica l'effetto \"Resistenza a colpo micidiale\" a un alleato."
       },
       "11150": {
         "NAME": "Facciamo volare le scintille!",
@@ -6485,7 +6615,7 @@
       "11169": {
         "NAME": "Una danza perfetta!",
         "ABBR": "Una danza perfetta!",
-        "DESC": "Applica l'effetto \"Blocco riduzioni statistiche\" al campo alleato. Chi la usa recupera PS per circa il 40% dei suoi PS massimi. Aumenta l'elusione di chi la usa di 1 grado."
+        "DESC": "Applica l'effetto \"Blocco riduzioni statistiche\" al campo alleato. Chi la usa recupera PS per una certa percentuale (40% circa) dei suoi PS massimi. Aumenta l'elusione di chi la usa di 1 grado."
       },
       "11170": {
         "NAME": "Tutti pronti... Si comincia!",
@@ -6590,12 +6720,12 @@
       "11227": {
         "NAME": "Gloria che tocca il sole",
         "ABBR": "Gloria che tocca il sole",
-        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 3 gradi. Applica Cerchia di Alola (danni fisici) al campo alleato. Cerchia di Alola (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Alola\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 3 gradi. Applica una Cerchia di Alola (danni fisici) al campo alleato. Cerchia di Alola (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Alola\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "11228": {
         "NAME": "Ultratenacia!",
         "ABBR": "Ultratenacia!",
-        "DESC": "Fa recuperare PS a tutte le Unità alleate per circa il 20% dei loro PS massimi. Inoltre, chi la usa recupera PS per circa il 20% dei suoi PS massimi. Applica l'effetto \"Recupero costante PS\" a tutte le Unità alleate."
+        "DESC": "Fa recuperare PS a tutte le Unità alleate per una certa percentuale (20% circa) dei loro PS massimi. Inoltre, chi la usa recupera PS per circa il 20% dei suoi PS massimi. Applica l'effetto \"Recupero costante PS\" a tutte le Unità alleate."
       },
       "11229": {
         "NAME": "Che potere misterioso!",
@@ -6615,7 +6745,7 @@
       "11237": {
         "NAME": "Gloria al chiaro di luna",
         "ABBR": "Gloria al chiaro di luna",
-        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Applica l'effetto \"Prossimo superefficace ↑\" a chi la usa. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 3 gradi. Applica Cerchia di Alola (danni speciali) al campo alleato. Cerchia di Alola (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate del 10%. Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate del 5%. Le percentuali aumentano in base al numero di Unità del gruppo \"Alola\" sul campo alleato. (Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 40% e del 14% per la riduzione dei danni.)"
+        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Applica l'effetto \"Prossimo superefficace ↑\" a chi la usa. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 3 gradi. Applica una Cerchia di Alola (danni speciali) al campo alleato. Cerchia di Alola (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Alola\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
       },
       "11238": {
         "NAME": "Ultrachance!",
@@ -7165,7 +7295,7 @@
       "11880": {
         "NAME": "Non limitiamoci alla teoria!",
         "ABBR": "Non limitiamoci alla teoria!",
-        "DESC": "Chi la usa recupera PS per circa il 50% dei suoi PS massimi. Chi la usa guarisce dai problemi di stato. Applica l'effetto \"Protezione prossimo danno\" a chi la usa."
+        "DESC": "Chi la usa recupera PS per una certa percentuale (50% circa) dei suoi PS massimi. Chi la usa guarisce dai problemi di stato. Applica l'effetto \"Protezione prossimo danno\" a chi la usa."
       },
       "11900": {
         "NAME": "Lo spirito del rock'n'roll",
@@ -7295,7 +7425,7 @@
       "12410": {
         "NAME": "Una volontà indomabile!",
         "ABBR": "Una volontà indomabile!",
-        "DESC": "Chi la usa recupera PS per circa il 40% dei suoi PS massimi. Aumenta la Difesa Speciale di chi la usa di 2 gradi."
+        "DESC": "Chi la usa recupera PS per una certa percentuale (40% circa) dei suoi PS massimi. Aumenta la Difesa Speciale di chi la usa di 2 gradi."
       },
       "12420": {
         "NAME": "Ora si passa all'attacco!",
@@ -7321,6 +7451,16 @@
         "NAME": "Centreremo il bersaglio!",
         "ABBR": "Centreremo il bersaglio!",
         "DESC": "Aumenta l'Attacco Speciale e la Velocità di chi la usa di 1 grado. Applica l'effetto \"Prossimo brutto colpo\" a chi la usa. Applica l'effetto \"Prossimo superefficace ↑\" a chi la usa."
+      },
+      "12435": {
+        "NAME": "Spasso a più non posso!",
+        "ABBR": "Spasso a più non posso!",
+        "DESC": "Chi la usa recupera PS per una certa percentuale (20% circa) dei suoi PS massimi. Fa recuperare PS a tutte le Unità alleate per una certa percentuale (20% circa) dei loro PS massimi. Guarisce tutte le Unità alleate dai problemi di stato, dal tentennamento, dalla confusione e dall'imprigionamento."
+      },
+      "12436": {
+        "NAME": "Sempre più carichi!",
+        "ABBR": "Sempre più carichi!",
+        "DESC": "Aumenta l'Attacco e l'Attacco Speciale di tutte le Unità alleate di 6 gradi. Consuma fino a 3 barrette della barra mosse di chi la usa. Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate, da 0 fino a un massimo di 3 gradi, in base al numero di barrette consumate."
       },
       "12437": {
         "NAME": "Calcio d'inizio!",
@@ -7487,6 +7627,11 @@
         "ABBR": "Le gioie della condivisione",
         "DESC": "Aumenta l'Attacco e l'Attacco Speciale di tutte le Unità alleate di 4 gradi. Inoltre, aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado quando grandina."
       },
+      "12509": {
+        "NAME": "Vi travolgeremo!",
+        "ABBR": "Vi travolgeremo!",
+        "DESC": "Applica l'effetto \"Accelerazione barra mosse\" al campo alleato. Aumenta l'Attacco Speciale di chi la usa di 6 gradi."
+      },
       "12510": {
         "NAME": "Non potete sfuggirci...",
         "ABBR": "Non potete sfuggirci...",
@@ -7590,7 +7735,7 @@
       "12640": {
         "NAME": "Perdere è fuori questione!",
         "ABBR": "Perdere è fuori questione!",
-        "DESC": "Chi la usa recupera PS per circa il 20% dei suoi PS massimi. Aggiunge 6 barrette alla barra mosse di chi la usa. Applica l'effetto \"Recupero costante PS\" a chi la usa. Applica l'effetto \"Prossimo superefficace ↑\" a chi la usa. Applica l'effetto \"Protezione prossimo danno\" a chi la usa."
+        "DESC": "Chi la usa recupera PS per una certa percentuale (20% circa) dei suoi PS massimi. Aggiunge 6 barrette alla barra mosse di chi la usa. Applica l'effetto \"Recupero costante PS\" a chi la usa. Applica l'effetto \"Prossimo superefficace ↑\" a chi la usa. Applica l'effetto \"Protezione prossimo danno\" a chi la usa."
       },
       "12649": {
         "NAME": "Daremo il meglio di noi!",
@@ -7620,7 +7765,7 @@
       "12820": {
         "NAME": "Farò il tifo per tutti!",
         "ABBR": "Farò il tifo per tutti!",
-        "DESC": "Attiva un effetto aggiuntivo a caso tra vari. Chi la usa recupera PS per circa il 10% dei suoi PS massimi. I problemi di stato di tutte le Unità alleate guariscono. Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 1 grado."
+        "DESC": "Attiva un effetto aggiuntivo a caso tra vari. Chi la usa recupera PS per una certa percentuale (10% circa) dei suoi PS massimi. I problemi di stato di tutte le Unità alleate guariscono. Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 1 grado."
       },
       "12840": {
         "NAME": "Forza, il tempo passa!",
@@ -7647,6 +7792,11 @@
         "ABBR": "Siamo pronti ad affrontarvi!",
         "DESC": "Aumenta l'Attacco Speciale e l'elusione di chi la usa di 4 gradi. Applica l'effetto \"Prossimo a costo zero\" a chi la usa."
       },
+      "12855": {
+        "NAME": "Più siamo meglio è!",
+        "ABBR": "Più siamo meglio è!",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a un alleato per sferrare l'Unimossa. Aumenta l'Attacco Speciale di un alleato di 6 gradi. Aumenta la probabilità di mandare a segno brutti colpi di un alleato di 3 gradi."
+      },
       "12859": {
         "NAME": "Il mondo è vasto!",
         "ABBR": "Il mondo è vasto!",
@@ -7657,10 +7807,20 @@
         "ABBR": "Alla ricerca di tesori!",
         "DESC": "Aumenta l'Attacco Speciale di chi la usa di 6 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Inoltre, aumenta la Velocità di chi la usa di 6 gradi quando il campo di lotta è un Campo Elettrico."
       },
+      "12861": {
+        "NAME": "Ardiamo di potenza!",
+        "ABBR": "Ardiamo di potenza!",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'Attacco Speciale di chi la usa di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi."
+      },
       "12870": {
         "NAME": "Splendidi ricordi!",
         "ABBR": "Splendidi ricordi!",
         "DESC": "Aumenta l'Attacco di chi la usa di 6 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Inoltre, aumenta la Velocità di chi la usa di 6 gradi quando la luce del sole è intensa."
+      },
+      "12871": {
+        "NAME": "Cresciamo grandi e forti!",
+        "ABBR": "Cresciamo grandi e forti!",
+        "DESC": "Aumenta l'Attacco Speciale e la precisione di tutte le Unità alleate di 2 gradi. Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 3 gradi. Applica l'effetto \"Recupero costante PS\" a tutte le Unità alleate."
       },
       "12890": {
         "NAME": "Con tutte le mie forze!",
@@ -7671,6 +7831,11 @@
         "NAME": "La più grandiosa di tutte le lotte!",
         "ABBR": "La più grandiosa di tutte le lotte!",
         "DESC": "Aumenta l'Attacco di chi la usa di 6 gradi. Aumenta la Velocità di chi la usa di 4 gradi."
+      },
+      "12892": {
+        "NAME": "Che lotticina da brividi!",
+        "ABBR": "Che lotticina da brividi!",
+        "DESC": "Aumenta l'Attacco Speciale di chi la usa di 4 gradi. Aumenta la precisione di chi la usa di 2 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Applica l'effetto \"Prossimo superefficace ↑\" a chi la usa."
       },
       "12899": {
         "NAME": "Rivoluzioneremo la lotta!",
@@ -7862,6 +8027,11 @@
         "ABBR": "Presto, in guardia!",
         "DESC": "Aumenta la Difesa e la Difesa Speciale di tutte le Unità alleate di 4 gradi. Applica l'effetto \"Resistenza a colpo micidiale\" a chi la usa."
       },
+      "13561": {
+        "NAME": "Ve la vedrete con noi!",
+        "ABBR": "Ve la vedrete con noi!",
+        "DESC": "Aumenta l'Attacco, la Difesa, l'Attacco Speciale e la Difesa Speciale di tutte le Unità alleate di 2 gradi."
+      },
       "13570": {
         "NAME": "Non saremo da meno!",
         "ABBR": "Non saremo da meno!",
@@ -7871,6 +8041,11 @@
         "NAME": "State attenti!",
         "ABBR": "State attenti!",
         "DESC": "Applica l'effetto \"Accelerazione barra mosse\" al campo alleato. Aumenta l'elusione di chi la usa di 6 gradi. Applica l'effetto \"Resistenza a colpo micidiale\" a chi la usa."
+      },
+      "13590": {
+        "NAME": "Distruggiamo tutto!",
+        "ABBR": "Distruggiamo tutto!",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'Attacco e l'Attacco Speciale di chi la usa di 6 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 3 gradi. Applica l'effetto \"Aumento danni fisici\" e l'effetto \"Aumento danni speciali\" a chi la usa."
       },
       "13640": {
         "NAME": "La montagna è fantastica!",
@@ -7930,7 +8105,7 @@
       "17012": {
         "NAME": "Saldo come una roccia",
         "ABBR": "Saldo come una roccia",
-        "DESC": "Fa recuperare PS a un alleato per circa il 40% dei suoi PS massimi. Aumenta la Difesa di un alleato di 2 gradi. Applica l'effetto \"Recupero costante PS\" a un alleato."
+        "DESC": "Fa recuperare PS a un alleato per una certa percentuale (40% circa) dei suoi PS massimi. Aumenta la Difesa di un alleato di 2 gradi. Applica l'effetto \"Recupero costante PS\" a un alleato."
       },
       "17013": {
         "NAME": "Giustizia color cobalto",
@@ -7956,6 +8131,11 @@
         "NAME": "Seguendo il fulmine",
         "ABBR": "Seguendo il fulmine",
         "DESC": "Aumenta la Velocità di tutte le Unità alleate di 3 gradi. Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 1 grado."
+      },
+      "17018": {
+        "NAME": "Visto che muscoli?!",
+        "ABBR": "Visto che muscoli?!",
+        "DESC": "Applica l'effetto \"Accelerazione barra mosse\" al campo alleato. Aumenta l'Attacco e la Difesa di tutte le Unità alleate di 2 gradi."
       },
       "17100": {
         "NAME": "Restiamo uniti!",
@@ -8025,7 +8205,7 @@
       "18500": {
         "NAME": "Baccacedro",
         "ABBR": "Baccacedro",
-        "DESC": "Fa recuperare PS a un alleato per circa il 20% dei suoi PS massimi."
+        "DESC": "Fa recuperare PS a un alleato per una certa percentuale (20% circa) dei suoi PS massimi."
       },
       "18501": {
         "NAME": "Baccaprugna",
@@ -8035,12 +8215,17 @@
       "19000": {
         "NAME": "Pozione",
         "ABBR": "Pozione",
-        "DESC": "Fa recuperare PS a un alleato per circa il 40% dei suoi PS massimi."
+        "DESC": "Fa recuperare PS a un alleato per una certa percentuale (40% circa) dei suoi PS massimi."
       },
       "19001": {
         "NAME": "Minipozione-G",
         "ABBR": "Minipozione-G",
-        "DESC": "Fa recuperare PS a tutte le Unità alleate per circa il 20% dei loro PS massimi."
+        "DESC": "Fa recuperare PS a tutte le Unità alleate per una certa percentuale (20% circa) dei loro PS massimi."
+      },
+      "19002": {
+        "NAME": "Superpozione",
+        "ABBR": "Superpozione",
+        "DESC": "Fa recuperare PS a un alleato per una certa percentuale (60% circa) dei suoi PS massimi."
       },
       "19010": {
         "NAME": "Attacco X",
@@ -8930,7 +9115,7 @@
       "64500": {
         "NAME": "Meteorpugno supremo temprato alla perfezione",
         "ABBR": "Meteorpugno supremo temprato alla perfezione",
-        "DESC": "Permette a Metagross di megaevolversi. L'effetto svanisce al termine della lotta. Probabile brutto colpo. Fa recuperare PS a tutte le Unità alleate per circa il 20% dei loro PS massimi."
+        "DESC": "Permette a Metagross di megaevolversi. L'effetto svanisce al termine della lotta. Probabile brutto colpo. Fa recuperare PS a tutte le Unità alleate per una certa percentuale (20% circa) dei loro PS massimi."
       },
       "64600": {
         "NAME": "Impatto Acciaio dorato fortissimissimo",
@@ -11117,6 +11302,11 @@
         "ABBR": "Impatto Acciaio dell'armatura temprata",
         "DESC": "Non ha effetti aggiuntivi."
       },
+      "117100": {
+        "NAME": "Oscurotuffo per un mondo migliore",
+        "ABBR": "Oscurotuffo per un mondo migliore",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
       "117300": {
         "NAME": "Raggio Psico per volare a lezione",
         "ABBR": "Raggio Psico per volare a lezione",
@@ -11277,10 +11467,80 @@
         "ABBR": "Raggio Acqua con aculei affilati",
         "DESC": "Non ha effetti aggiuntivi."
       },
+      "121200": {
+        "NAME": "Raggio Coleottero: mangiatevi la polvere!",
+        "ABBR": "Raggio Coleottero: mangiatevi la polvere!",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "121300": {
+        "NAME": "Raggio Erba che incanta con un bel sorriso",
+        "ABBR": "Raggio Erba che incanta con un bel sorriso",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "121400": {
+        "NAME": "Raggio Fuoco dall'ardente desiderio di imparare",
+        "ABBR": "Raggio Fuoco dall'ardente desiderio di imparare",
+        "DESC": "Questo attacco aumenta di potenza quando il bersaglio è scottato."
+      },
+      "121500": {
+        "NAME": "Raggio Acqua che può estinguere qualsiasi incendio",
+        "ABBR": "Raggio Acqua che può estinguere qualsiasi incendio",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "121900": {
+        "NAME": "Raggio Volante: violenta tempesta che non si arrende ai fulmini",
+        "ABBR": "Raggio Volante: violenta tempesta che non si arrende ai fulmini",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "122000": {
+        "NAME": "Raggio Elettro: fulmini che non si arrendono alla tempesta",
+        "ABBR": "Raggio Elettro: fulmini che non si arrendono alla tempesta",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "122100": {
+        "NAME": "Raggio Terra che placa tempesta e fulmini",
+        "ABBR": "Raggio Terra che placa tempesta e fulmini",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "122200": {
+        "NAME": "Impatto Lotta che non finisce mai",
+        "ABBR": "Impatto Lotta che non finisce mai",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
       "122300": {
         "NAME": "Impatto Acqua extracurriculare",
         "ABBR": "Impatto Acqua extracurriculare",
         "DESC": "Non ha effetti aggiuntivi."
+      },
+      "122800": {
+        "NAME": "Impatto Normale: anche perdendo s'impara",
+        "ABBR": "Impatto Normale: anche perdendo s'impara",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "122900": {
+        "NAME": "Impatto Coleottero: muscoli dell'altro mondo",
+        "ABBR": "Impatto Coleottero: muscoli dell'altro mondo",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "123000": {
+        "NAME": "Impatto Ghiaccio dal cuore freddo e impavido",
+        "ABBR": "Impatto Ghiaccio dal cuore freddo e impavido",
+        "DESC": "Aumenta la potenza di questo attacco in proporzione alla riduzione della Velocità del bersaglio."
+      },
+      "123100": {
+        "NAME": "Impatto Fuoco: ardore e determinazione",
+        "ABBR": "Impatto Fuoco: ardore e determinazione",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "123200": {
+        "NAME": "Raggio Lotta: sfide che nutrono lo spirito",
+        "ABBR": "Raggio Lotta: sfide che nutrono lo spirito",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "123300": {
+        "NAME": "Impatto Spettro dai profondi legami invisibili",
+        "ABBR": "Impatto Spettro dai profondi legami invisibili",
+        "DESC": "Questo attacco aumenta di potenza quando il bersaglio è paralizzato."
       },
       "200501": {
         "NAME": "Terascoppio: occhio agli spruzzi",
@@ -11290,6 +11550,21 @@
       "200701": {
         "NAME": "Terascoppio: amici come prima",
         "ABBR": "Terascoppio: amici come prima",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "200801": {
+        "NAME": "Terascoppio: brillanti spazi sconfinati",
+        "ABBR": "Terascoppio: brillanti spazi sconfinati",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "201301": {
+        "NAME": "Terascoppio: gigaspasso sbrilluccicoso",
+        "ABBR": "Terascoppio: gigaspasso sbrilluccicoso",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "201501": {
+        "NAME": "Terascoppio: apice dello splendore",
+        "ABBR": "Terascoppio: apice dello splendore",
         "DESC": "Non ha effetti aggiuntivi."
       }
     },
@@ -12642,7 +12917,7 @@
       "1306020": {
         "NAME": "Attaccomaggio {{value}}",
         "ABBR": "Att.omaggio {{value}}",
-        "DESC": "Ha una certa probabilità ({{chance}}%) di ripristinare 1 utilizzo della mossa di chi la usa quando va a segno."
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ripristinare 1 utilizzo della mossa di chi la usa quando quella mossa va a segno."
       },
       "1306030": {
         "NAME": "Ricaricattacco veloce {{value}}",
@@ -12773,6 +13048,11 @@
         "NAME": "Reazione ricarica bacca {{value}}",
         "ABBR": "Reazione ricarica bacca {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di ripristinare 1 utilizzo delle mosse di chi la usa definite \"Bacca\" alla voce \"Effetti\" quando subisce un attacco semplice."
+      },
+      "1306290": {
+        "NAME": "Uso prima statomossa sincromaggio {{value}}",
+        "ABBR": "Uso prima statomossa sincrom. {{value}}",
+        "DESC": "Ripristina {{value}} utilizzo della sincromossa di chi la usa la prima volta che il suo Pokémon sferra una mossa di stato in ogni lotta."
       },
       "1307010": {
         "NAME": "Corposaldo 9",
@@ -12984,10 +13264,20 @@
         "ABBR": "Zona Lotta raff.-G {{value}}",
         "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate in presenza di una Zona Lotta."
       },
+      "1308410": {
+        "NAME": "Zuffa rafforzata {{value}}",
+        "ABBR": "Zuffa rafforzata {{value}}",
+        "DESC": "Aumenta la potenza di Zuffa di chi la usa."
+      },
       "1308420": {
         "NAME": "Cerchia di Unima (danni speciali) rafforzante-G {{value}}",
         "ABBR": "Cerchia di Unima (danni speciali) raff.-G {{value}}",
         "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo alleato è applicata Cerchia di Unima (danni speciali)."
+      },
+      "1308430": {
+        "NAME": "Zona Drago potenziatecniche {{value}}",
+        "ABBR": "Zona Drago potenziat. {{value}}",
+        "DESC": "Aumenta la potenza delle mosse e dell'Unimossa di chi la usa in presenza di una Zona Drago."
       },
       "1401010": {
         "NAME": "Ultimodono",
@@ -13238,6 +13528,11 @@
         "NAME": "Primo iperfisico seipiù sprint {{value}}",
         "ABBR": "Primo iperfisico seipiù sprint {{value}}",
         "DESC": "Abbassa di {{value}} il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che il suo effetto \"Prossima mossa fisica ↑\" è di grado 6 o superiore in ogni lotta."
+      },
+      "1501470": {
+        "NAME": "Uso Volontà Lotta sprint {{value}}",
+        "ABBR": "Uso Volontà Lotta sprint {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di abbassare di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando utilizza Volontà Lotta."
       },
       "1502010": {
         "NAME": "Smania {{value}}",
@@ -13808,6 +14103,11 @@
         "NAME": "Unipotenza ambiente-G {{value}}",
         "ABBR": "Unipotenza ambiente-G {{value}}",
         "DESC": "Aumenta la potenza delle Unimosse di tutte le Unità alleate quando ci sono condizioni atmosferiche attive o se il campo di lotta o una zona sono stati trasformati."
+      },
+      "1603080": {
+        "NAME": "Zona Lotta unipotente {{value}}",
+        "ABBR": "Zona Lotta unipotente {{value}}",
+        "DESC": "Aumenta la potenza dell'Unimossa di chi la usa in presenza di una Zona Lotta."
       },
       "1701010": {
         "NAME": "Antitossine",
@@ -15277,7 +15577,7 @@
       "1707200": {
         "NAME": "Unimossa iperspeciale doppia {{value}}",
         "ABBR": "Unimossa ipersp. doppia {{value}}",
-        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 2 gradi dopo aver sferrato l'Unimossa."
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 2 gradi dopo aver sferrato la sua Unimossa."
       },
       "1707220": {
         "NAME": "Primentrata soporifera-G",
@@ -15959,6 +16259,51 @@
         "ABBR": "Prima Unimossa iper-G {{value}}",
         "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di {{value}} gradi la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
       },
+      "1708600": {
+        "NAME": "Unimossa iperfisica tripla {{value}}",
+        "ABBR": "Unimossa iperfisica tripla {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 3 gradi dopo aver sferrato la sua Unimossa."
+      },
+      "1708610": {
+        "NAME": "Alleattacco accanito iper singolo {{value}}",
+        "ABBR": "Alleatt. accanito iper singolo {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di un alleato di 1 grado quando il suo attacco semplice va a segno contro un avversario affetto da problemi di stato."
+      },
+      "1708620": {
+        "NAME": "Alleattacco accanito Unibonus doppio {{value}}",
+        "ABBR": "Alleatt. accanito Unibonus doppio {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima Unimossa ↑\" di un alleato di 2 gradi quando il suo attacco semplice va a segno contro un avversario affetto da problemi di stato."
+      },
+      "1708630": {
+        "NAME": "Primentrata frangiprotezione Spettro-G {{value}}",
+        "ABBR": "Primentr. frangiprot. Spettro-G {{value}}",
+        "DESC": "Riduce la Protezione Spettro di tutte le Unità avversarie di {{value}} grado la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "1708640": {
+        "NAME": "Primavoce Unibonus 10",
+        "ABBR": "Primavoce Unibonus 10",
+        "DESC": "Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 10 gradi la prima volta che il suo Allenatore sferra una mossa in ogni lotta."
+      },
+      "1708650": {
+        "NAME": "Zona Spettro impacciattacco {{value}}",
+        "ABBR": "Zona Spettro impacc. {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di far tentennare, confondere e imprigionare il bersaglio quando l'attacco semplice di chi la usa contro di esso va a segno in presenza di una Zona Spettro."
+      },
+      "1708660": {
+        "NAME": "Impediattacco azzeracosto {{value}}",
+        "ABBR": "Impediat. azzeracosto {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di applicare l'effetto \"Prossimo a costo zero\" a chi la usa quando il suo attacco semplice va a segno contro un avversario che tentenna, è confuso o imprigionato."
+      },
+      "1708670": {
+        "NAME": "Impediattacco iper singolo {{value}}",
+        "ABBR": "Impediat. iper singolo {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando il suo attacco semplice va a segno contro un avversario che tentenna, è confuso o imprigionato."
+      },
+      "1708680": {
+        "NAME": "Prima Unimossa frangiprotezione Spettro-G {{value}}",
+        "ABBR": "Prima Unimossa frangiprot. Spettro-G {{value}}",
+        "DESC": "Riduce la Protezione Spettro di tutte le Unità avversarie di {{value}} grado la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
       "1708690": {
         "NAME": "Primentrata iperefficace-G",
         "ABBR": "Primentr. ipereff.-G",
@@ -15984,6 +16329,16 @@
         "ABBR": "Primentr. Unibonus-G {{value}}",
         "DESC": "Aumenta l'effetto \"Prossima Unimossa ↑\" di tutte le Unità alleate di {{value}} gradi la prima volta che chi la usa entra in campo in ogni lotta."
       },
+      "1708740": {
+        "NAME": "Uso Volontà Lotta iperfisica doppia {{value}}",
+        "ABBR": "Uso Volontà Lotta iperfisica doppia {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi quando utilizza Volontà Lotta."
+      },
+      "1708750": {
+        "NAME": "Zona Lotta attaccazzera {{value}}",
+        "ABBR": "Zona Lotta attaccazzera {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di applicare l'effetto \"Prossimo a costo zero\" a chi la usa quando il suo attacco semplice va a segno in presenza di una Zona Lotta."
+      },
       "1708760": {
         "NAME": "Campo Erboso alleato iper singolo-G {{value}}",
         "ABBR": "Campo Erboso alleato iper singolo-G {{value}}",
@@ -15993,6 +16348,51 @@
         "NAME": "Superefficacia impacciante minore {{value}}",
         "ABBR": "Supereff. impacc. minore {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di far tentennare, confondere o imprigionare il bersaglio quando la mossa di chi la usa contro di esso è superefficace."
+      },
+      "1708800": {
+        "NAME": "Voce iperspeciale doppia {{value}}",
+        "ABBR": "Voce ipersp. doppia {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 2 gradi quando il suo Allenatore sferra una mossa."
+      },
+      "1708810": {
+        "NAME": "Prima Unimossa protettiva-G",
+        "ABBR": "Prima Unimossa protettiva-G",
+        "DESC": "Applica l'effetto \"Protezione prossimo danno\" a tutte le Unità alleate la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "1708820": {
+        "NAME": "Unimossa iper doppia-G {{value}}",
+        "ABBR": "Unimossa iper doppia-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi dopo aver sferrato l'Unimossa di chi la usa."
+      },
+      "1708830": {
+        "NAME": "Primentrata iperavvelenante-G",
+        "ABBR": "Primentr. iperavv.-G",
+        "DESC": "Iperavvelena tutte le Unità avversarie la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "1708840": {
+        "NAME": "Primattacco iper {{value}}",
+        "ABBR": "Primatt. iper {{value}}",
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di {{value}} grado la prima volta che il suo attacco semplice va a segno in ogni lotta."
+      },
+      "1708850": {
+        "NAME": "Zona Spettro attacco iper singolo {{value}}",
+        "ABBR": "Zona Spettro attacco iper singolo {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando il suo attacco semplice va a segno in presenza di una Zona Spettro."
+      },
+      "1708860": {
+        "NAME": "Prima Unimossa Unibonus 10",
+        "ABBR": "Prima Unimossa Unibonus 10",
+        "DESC": "Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 10 gradi la prima volta che la sua Unimossa viene utilizzata in ogni lotta."
+      },
+      "1708900": {
+        "NAME": "Alleazona Spettro iper doppia-G {{value}}",
+        "ABBR": "Alleazona Spettro iper doppia-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi quando un alleato trasforma la zona in una Zona Spettro."
+      },
+      "1708910": {
+        "NAME": "Mossa iper singola-G {{value}}",
+        "ABBR": "Mossa iper singola-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado quando la mossa di chi la usa va a segno."
       },
       "1801010": {
         "NAME": "Cocciutaggine {{value}}",
@@ -18379,10 +18779,20 @@
         "ABBR": "Autocer. di Unima (danni speciali) corazz. doppiogr.-G {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare la Difesa e la Difesa Speciale di tutte le Unità alleate di 2 gradi quando chi la usa applica una Cerchia di Unima (danni speciali) al campo alleato."
       },
+      "1812350": {
+        "NAME": "Attacco corazzato doppiogrado-G {{value}}",
+        "ABBR": "Attacco corazzato doppiogr.-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare la Difesa e la Difesa Speciale di tutte le Unità alleate di 2 gradi quando l'attacco semplice di chi la usa va a segno."
+      },
       "1812360": {
         "NAME": "Primentrata ettaumento-G {{value}}",
         "ABBR": "Primentr. ettaumento-G {{value}}",
         "DESC": "Aumenta l'Attacco, la Difesa, l'Attacco Speciale, la Difesa Speciale, la Velocità, la precisione e l'elusione di tutte le Unità alleate di {{value}} gradi la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "1812370": {
+        "NAME": "Zuffa disorientante {{value}}",
+        "ABBR": "Zuffa disorientante {{value}}",
+        "DESC": "Riduce l'Attacco e l'Attacco Speciale del bersaglio di {{value}} grado quando Zuffa di chi la usa va a segno."
       },
       "1812380": {
         "NAME": "Scottattacco rompidifese {{value}}",
@@ -18399,10 +18809,40 @@
         "ABBR": "Autocer. di Unima (danni speciali) arguta doppia-G {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'Attacco Speciale di tutte le Unità alleate di 2 gradi quando chi la usa applica una Cerchia di Unima (danni speciali) al campo alleato."
       },
+      "1812410": {
+        "NAME": "UniTeracristal offensivo {{value}}",
+        "ABBR": "UniTera. offensivo {{value}}",
+        "DESC": "Aumenta l'Attacco di chi la usa di {{value}} grado quando si Uniteracristallizza."
+      },
       "1812420": {
         "NAME": "Pioggiattacco fiaccante doppiogrado {{value}}",
         "ABBR": "Pioggiatt. fiacc. doppiogr. {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre una statistica a caso del bersaglio di 2 gradi tra le seguenti quando l'attacco semplice di chi la usa va a segno mentre piove: Attacco, Difesa, Attacco Speciale, Difesa Speciale, Velocità, precisione o elusione."
+      },
+      "1812460": {
+        "NAME": "Mossa turboffensiva-G {{value}}",
+        "ABBR": "Mossa turboff.-G {{value}}",
+        "DESC": "Aumenta l'Attacco e la Velocità di tutte le Unità alleate di {{value}} grado quando la mossa di chi la usa va a segno."
+      },
+      "1812470": {
+        "NAME": "Scottattacco disarmante doppiogrado {{value}}",
+        "ABBR": "Scottatt.disarmante doppiogr. {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre l'Attacco e la Difesa del bersaglio di 2 gradi quando l'attacco semplice di chi la usa va a segno contro un avversario scottato."
+      },
+      "1812480": {
+        "NAME": "Avvelenattacco rompidifese {{value}}",
+        "ABBR": "Avvelenatt. difese ↓ \u00A0{{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre la Difesa e la Difesa Speciale del bersaglio di 1 grado quando l'attacco semplice di chi la usa va a segno contro un avversario avvelenato o iperavvelenato."
+      },
+      "1812490": {
+        "NAME": "Attacco rompidifesa sestuplogrado {{value}}",
+        "ABBR": "Attacco rompidif. sest. {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre la Difesa del bersaglio di 6 gradi quando l'attacco semplice di chi la usa contro di esso va a segno."
+      },
+      "1812500": {
+        "NAME": "Attacco sconfortante sestuplogrado {{value}}",
+        "ABBR": "Attacco sconfort. sest. {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre la Difesa Speciale del bersaglio di 6 gradi quando l'attacco semplice di chi la usa contro di esso va a segno."
       },
       "1901010": {
         "NAME": "Ignoracampo",
@@ -19359,6 +19799,46 @@
         "ABBR": "Entrata Cerchia di Johto (danni fisici) & iperfisica-G {{value}}",
         "DESC": "Applica una Cerchia di Johto (danni fisici) al campo alleato quando chi la usa entra in campo. Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di {{value}} gradi quando chi la usa entra in campo."
       },
+      "1905810": {
+        "NAME": "Primattacco Zona Roccia",
+        "ABBR": "Primatt. Zona Roccia",
+        "DESC": "Trasforma la zona in una Zona Roccia la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Roccia aumenta la potenza degli attacchi di tipo Roccia.)"
+      },
+      "1905820": {
+        "NAME": "Primattacco Zona Drago",
+        "ABBR": "Primatt. Zona Drago",
+        "DESC": "Trasforma la zona in una Zona Drago la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Drago aumenta la potenza degli attacchi di tipo Drago.)"
+      },
+      "1905830": {
+        "NAME": "Prima Unimossa Cerchia di Kanto (danni fisici)",
+        "ABBR": "Prima Unimossa Cerchia di Kanto (danni fisici)",
+        "DESC": "Applica una Cerchia di Kanto (danni fisici) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "1905840": {
+        "NAME": "Primattacco Zona Veleno EX",
+        "ABBR": "Primattacco Zona Veleno EX",
+        "DESC": "Trasforma la zona in una Zona Veleno EX la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Veleno EX aumenta la potenza degli attacchi di tipo Veleno.)"
+      },
+      "1905850": {
+        "NAME": "Prima Unimossa Cerchia di Sinnoh (danni speciali)",
+        "ABBR": "Prima Unimossa Cerchia di Sinnoh (danni speciali)",
+        "DESC": "Applica una Cerchia di Sinnoh (danni speciali) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "1905860": {
+        "NAME": "Primavoce Zona Spettro EX",
+        "ABBR": "Primavoce Zona Spettro EX",
+        "DESC": "Trasforma la zona in una Zona Spettro EX la prima volta che l'Allenatore di chi la usa sferra una mossa in ogni lotta. (Una Zona Spettro EX aumenta la potenza degli attacchi di tipo Spettro.)"
+      },
+      "1905870": {
+        "NAME": "Primattacco Campo Elettrico EX",
+        "ABBR": "Primatt. Campo Elettrico EX",
+        "DESC": "Trasforma il campo di lotta in un Campo Elettrico EX la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta."
+      },
+      "1905880": {
+        "NAME": "Primattacco Zona Terra EX",
+        "ABBR": "Primatt. Zona Terra EX",
+        "DESC": "Trasforma la zona in una Zona Terra EX la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Terra EX aumenta la potenza degli attacchi di tipo Terra.)"
+      },
       "1905890": {
         "NAME": "Prima Unimossa Zona Folletto",
         "ABBR": "Prima Unimossa Zona Folletto",
@@ -19393,6 +19873,46 @@
         "NAME": "Cerchia di Unima (danni speciali) duratura {{value}}",
         "ABBR": "Cerchia di Unima (danni speciali) duratura {{value}}",
         "DESC": "Aumenta la durata di Cerchia di Unima (danni speciali) quando al campo alleato viene applicata Cerchia di Unima (danni speciali)."
+      },
+      "1905980": {
+        "NAME": "Primentrata Zona Lotta",
+        "ABBR": "Primentr. Zona Lotta",
+        "DESC": "Trasforma la zona in una Zona Lotta la prima volta che chi la usa entra in campo in ogni lotta. (Una Zona Lotta aumenta la potenza degli attacchi di tipo Lotta.)"
+      },
+      "1905990": {
+        "NAME": "Primentrata Cerchia di Galar (difensiva)",
+        "ABBR": "Primentr. Cerchia di Galar (difensiva)",
+        "DESC": "Applica una Cerchia di Galar (difensiva) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "1906000": {
+        "NAME": "Cerchia di Galar (difensiva) primentrata e duratura {{value}}",
+        "ABBR": "Cerchia di Galar (dif.) primentr. e duratura {{value}}",
+        "DESC": "Applica una Cerchia di Galar (difensiva) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta. Aumenta la durata di Cerchia di Galar (difensiva) quando al campo alleato viene applicata Cerchia di Galar (difensiva)."
+      },
+      "1906010": {
+        "NAME": "Primentrata Cerchia di Sinnoh (danni speciali)",
+        "ABBR": "Primentr. Cerchia di Sinnoh (danni speciali)",
+        "DESC": "Applica una Cerchia di Sinnoh (danni speciali) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "1906020": {
+        "NAME": "Cerchia di Sinnoh (danni speciali) primentrata e duratura {{value}}",
+        "ABBR": "Cerchia di Sinnoh (danni speciali) primentr. e duratura {{value}}",
+        "DESC": "Applica una Cerchia di Sinnoh (danni speciali) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta. Aumenta la durata di Cerchia di Sinnoh (danni speciali) quando al campo alleato viene applicata Cerchia di Sinnoh (danni speciali)."
+      },
+      "1906030": {
+        "NAME": "Cerchia di Kanto (danni fisici) primentrata e duratura {{value}}",
+        "ABBR": "Cerchia di Kanto (danni fisici) primentr. e duratura {{value}}",
+        "DESC": "Applica una Cerchia di Kanto (danni fisici) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta. Aumenta la durata di Cerchia di Kanto (danni fisici) quando al campo alleato viene applicata Cerchia di Kanto (danni fisici)."
+      },
+      "1906070": {
+        "NAME": "Prima Unimossa Zona Spettro",
+        "ABBR": "Prima Unimossa Zona Spettro",
+        "DESC": "Trasforma la zona in una Zona Spettro la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. (Una Zona Spettro aumenta la potenza degli attacchi di tipo Spettro.)"
+      },
+      "1906080": {
+        "NAME": "Campo Psichico primattacco e duraturo {{value}}",
+        "ABBR": "Campo Psichico primatt. e duraturo {{value}}",
+        "DESC": "Trasforma il campo di lotta in un Campo Psichico la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. Aumenta la durata del Campo Psichico quando il campo di lotta si trasforma in un Campo Psichico mentre chi la usa è in campo."
       },
       "2001010": {
         "NAME": "Schivasabbia",
@@ -19448,6 +19968,11 @@
         "NAME": "Cerchia di Unima (danni speciali) barriercolpo-G",
         "ABBR": "Cerchia di Unima (danni speciali) barrierc.-G",
         "DESC": "Protegge tutte le Unità alleate dai brutti colpi quando al campo alleato è applicata Cerchia di Unima (danni speciali)."
+      },
+      "2101110": {
+        "NAME": "Zona Roccia barriercolpo-G",
+        "ABBR": "Zona Roccia barriercolpo-G",
+        "DESC": "Protegge tutte le Unità alleate dai brutti colpi in presenza di una Zona Roccia."
       },
       "2201010": {
         "NAME": "Atmoscura {{value}}",
@@ -19898,6 +20423,36 @@
         "NAME": "Carisma Elettro",
         "ABBR": "Carisma Elettro",
         "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate del 10% e riduce i danni subiti da attacchi semplici per tutte le Unità alleate del 10%. Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Elettro\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse del 5% e la riduzione dei danni del 2%. L'aumento massimo è del 20% e del 14% per la riduzione dei danni."
+      },
+      "2802110": {
+        "NAME": "Carisma Normale",
+        "ABBR": "Carisma Normale",
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate di una certa percentuale (10%) e riduce i danni subiti da attacchi semplici per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Normale\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (2%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (14%) per la riduzione dei danni."
+      },
+      "2802120": {
+        "NAME": "Carisma Coleottero",
+        "ABBR": "Carisma Coleottero",
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate di una certa percentuale (10%) e riduce i danni subiti da attacchi semplici per tutte le Unità alleate di una certa percentuale (10%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Coleottero\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse di una certa percentuale (5%) e la riduzione dei danni di una certa percentuale (2%). L'aumento massimo è di una certa percentuale (20%) e di una certa percentuale (14%) per la riduzione dei danni."
+      },
+      "2804010": {
+        "NAME": "Asso brillante di Galar",
+        "ABBR": "Asso brillante di Galar",
+        "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (20%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (25%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Galar\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (15%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (50%) e di una certa percentuale (31%) per la riduzione dei danni. Applica l'effetto \"Resistenza a colpo micidiale\" a tutte le Unità alleate la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "2804020": {
+        "NAME": "Leggenda brillante di Kanto",
+        "ABBR": "Leggenda brillante di Kanto",
+        "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (20%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (25%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Kanto\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (15%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (50%) e di una certa percentuale (31%) per la riduzione dei danni. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 3 gradi dopo aver sferrato la sua Unimossa."
+      },
+      "2804030": {
+        "NAME": "Perla brillante di Hisui",
+        "ABBR": "Perla brillante di Hisui",
+        "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (20%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (25%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Sinnoh\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (15%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (50%) e di una certa percentuale (31%) per la riduzione dei danni. Fa recuperare PS a tutte le Unità alleate per una certa percentuale (20% circa) dei loro PS massimi la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "2804040": {
+        "NAME": "Esperto di Pokémon di Hisui",
+        "ABBR": "Esperto di Pokémon di Hisui",
+        "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (20%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (25%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Sinnoh\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (15%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (50%) e di una certa percentuale (31%) per la riduzione dei danni. Riduce la Protezione Spettro di tutte le Unità avversarie di 1 grado la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
       },
       "2901010": {
         "NAME": "Mitoferro",
@@ -20518,6 +21073,21 @@
         "NAME": "Primentrata UniTeracristal Lotta",
         "ABBR": "Primentrata UniTeracristal Lotta",
         "DESC": "Chi la usa si Uniteracristallizza nel tipo Lotta la prima volta che entra in campo in ogni lotta."
+      },
+      "3301080": {
+        "NAME": "Primentrata UniTeracristal Veleno",
+        "ABBR": "Primentrata UniTeracristal Veleno",
+        "DESC": "Chi la usa si Uniteracristallizza nel tipo Veleno la prima volta che entra in campo in ogni lotta."
+      },
+      "3301130": {
+        "NAME": "Primentrata UniTeracristal Roccia",
+        "ABBR": "Primentrata UniTeracristal Roccia",
+        "DESC": "Chi la usa si Uniteracristallizza nel tipo Roccia la prima volta che entra in campo in ogni lotta."
+      },
+      "3301150": {
+        "NAME": "Primentrata UniTeracristal Drago",
+        "ABBR": "Primentrata UniTeracristal Drago",
+        "DESC": "Chi la usa si Uniteracristallizza nel tipo Drago la prima volta che entra in campo in ogni lotta."
       },
       "5130206": {
         "NAME": "Scudo invariato {{value}}",
@@ -21529,6 +22099,86 @@
         "ABBR": "Emulatore di ROM",
         "DESC": "Assegna alla mossa di chi la usa il tipo verso cui un singolo bersaglio è debole quando chi la usa attacca con Iper Raggio Z."
       },
+      "9902990": {
+        "NAME": "Fulgore di un sorriso pimpante",
+        "ABBR": "Fulgore di un sorriso pimpante",
+        "DESC": "Conferisce tutti gli effetti seguenti quando l'attacco semplice di chi la usa contro il bersaglio va a segno: Fa recuperare PS a tutte le Unità alleate. Aumenta la Difesa e la Difesa Speciale di tutte le Unità alleate di 2 gradi. Applica l'effetto \"Prossimo a costo zero\" a chi la usa."
+      },
+      "9903000": {
+        "NAME": "Ricordi di lotte contro il tipo Roccia",
+        "ABBR": "Ricordi di lotte contro il tipo Roccia",
+        "DESC": "Trasforma la zona in una Zona Roccia la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. Trasforma la zona in una Zona Roccia la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. (Una Zona Roccia aumenta la potenza degli attacchi di tipo Roccia.) Aumenta la durata della Zona Roccia quando la zona si trasforma in una Zona Roccia mentre chi la usa è in campo."
+      },
+      "9903010": {
+        "NAME": "Mossa decisiva dell'asso di Galar",
+        "ABBR": "Mossa decisiva dell'asso di Galar",
+        "DESC": "Applica una Cerchia di Galar (difensiva) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Aumenta la tensione della squadra di chi la usa di 1 grado la prima volta che sferra la sua Unimossa in ogni lotta."
+      },
+      "9903020": {
+        "NAME": "Fulgore dell'animo battagliero taciturno",
+        "ABBR": "Fulgore dell'animo battagliero taciturno",
+        "DESC": "Aumenta l'Attacco di chi la usa di 6 gradi quando si Uniteracristallizza. Salvo casi particolari, quando i seguenti attacchi di chi la usa vanno a segno diventano brutti colpi: mosse del Pokémon o Unimossa. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando il suo attacco semplice colpisce."
+      },
+      "9903030": {
+        "NAME": "Aura draconica incontenibile",
+        "ABBR": "Aura draconica incontenibile",
+        "DESC": "Trasforma la zona in una Zona Drago la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. Trasforma la zona in una Zona Drago la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. (Una Zona Drago aumenta la potenza degli attacchi di tipo Drago.) Aumenta la durata della Zona Drago quando la zona si trasforma in una Zona Drago mentre chi la usa è in campo."
+      },
+      "9903040": {
+        "NAME": "Intuito della leggenda vivente",
+        "ABBR": "Intuito della leggenda vivente",
+        "DESC": "Applica una Cerchia di Kanto (danni fisici) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Aumenta la tensione della squadra di chi la usa di 1 grado la prima volta che sferra la sua Unimossa in ogni lotta."
+      },
+      "9903050": {
+        "NAME": "Sostegno nel placare le lotte",
+        "ABBR": "Sostegno nel placare le lotte",
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di un alleato di 1 grado quando il suo attacco semplice va a segno contro un avversario affetto da problemi di stato. Aumenta l'effetto \"Prossima Unimossa ↑\" di un alleato di 2 gradi quando il suo attacco semplice va a segno contro un avversario affetto da problemi di stato."
+      },
+      "9903060": {
+        "NAME": "Spazio che deteriora le anime",
+        "ABBR": "Spazio che deteriora le anime",
+        "DESC": "Le mosse di tipo Normale diventano di tipo Veleno. Trasforma la zona in una Zona Veleno EX la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Veleno EX aumenta la potenza degli attacchi di tipo Veleno.)"
+      },
+      "9903070": {
+        "NAME": "Reggente cauta e lungimirante",
+        "ABBR": "Reggente cauta e lungimirante",
+        "DESC": "Applica una Cerchia di Sinnoh (danni speciali) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Aumenta la tensione della squadra di chi la usa di 1 grado la prima volta che sferra la sua Unimossa in ogni lotta."
+      },
+      "9903080": {
+        "NAME": "Ossessione demiurgica",
+        "ABBR": "Ossessione demiurgica",
+        "DESC": "Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Riduce la Protezione Spettro di tutte le Unità avversarie di 1 grado la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "9903090": {
+        "NAME": "Presenza sinistra e distorta",
+        "ABBR": "Presenza sinistra e distorta",
+        "DESC": "Trasforma la zona in una Zona Spettro EX la prima volta che l'Allenatore di chi la usa sferra una mossa in ogni lotta. (Una Zona Spettro EX aumenta la potenza degli attacchi di tipo Spettro.) Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 10 gradi la prima volta che il suo Allenatore sferra una mossa in ogni lotta."
+      },
+      "9903100": {
+        "NAME": "Mondo che non distingue tra cielo e terra",
+        "ABBR": "Mondo che non distingue tra cielo e terra",
+        "DESC": "Fa tentennare, confonde e imprigiona il bersaglio quando l'attacco semplice di chi la usa contro di esso va a segno in presenza di una Zona Spettro. Applica l'effetto \"Prossimo a costo zero\" a chi la usa quando il suo attacco semplice va a segno contro un avversario che tentenna, è confuso o imprigionato. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando il suo attacco semplice va a segno contro un avversario che tentenna, è confuso o imprigionato."
+      },
+      "9903110": {
+        "NAME": "Turbinio di chi ama le lotte",
+        "ABBR": "Turbinio di chi ama le lotte",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che la sua Unimossa viene utilizzata in ogni lotta. Trasforma la zona in una Zona Volante EX la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Volante EX aumenta la potenza degli attacchi di tipo Volante.)"
+      },
+      "9903120": {
+        "NAME": "Rombo di tuono dell'eroe in bianco",
+        "ABBR": "Rombo di tuono dell'eroe in bianco",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che la sua Unimossa viene utilizzata in ogni lotta. Trasforma il campo di lotta in un Campo Elettrico EX la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta."
+      },
+      "9903130": {
+        "NAME": "Abbondanza portata dall'eroe in nero",
+        "ABBR": "Abbondanza portata dall'eroe in nero",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che la sua Unimossa viene utilizzata in ogni lotta. Trasforma la zona in una Zona Terra EX la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Terra EX aumenta la potenza degli attacchi di tipo Terra.)"
+      },
+      "9903140": {
+        "NAME": "Incarnazione del mutare delle stagioni",
+        "ABBR": "Incarnazione del mutare delle stagioni",
+        "DESC": "Aumenta la Difesa Speciale di tutte le Unità alleate di 1 grado quando l'attacco semplice di chi la usa va a segno. Riduce la Difesa Speciale del bersaglio di 1 grado quando l'attacco semplice di chi la usa contro di esso va a segno."
+      },
       "9903150": {
         "NAME": "Serietà di Rosso Costumax",
         "ABBR": "Serietà di Rosso Costumax",
@@ -21619,10 +22269,35 @@
         "ABBR": "Concentrazione di Pepe",
         "DESC": "Trasforma la zona in una Zona Buio la prima volta che chi la usa entra in campo in ogni lotta. (Una Zona Buio aumenta la potenza degli attacchi di tipo Buio.) Aumenta la durata della Zona Buio quando la zona si trasforma in una Zona Buio mentre chi la usa è in campo."
       },
+      "9903330": {
+        "NAME": "Chi ha tempo per il conto alla rovescia?!?",
+        "ABBR": "Chi ha tempo per il conto alla rovescia?!?",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando utilizza Volontà Lotta. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi quando utilizza Volontà Lotta."
+      },
+      "9903340": {
+        "NAME": "Ragazzo impulsivo e incosciente",
+        "ABBR": "Ragazzo impulsivo e incosciente",
+        "DESC": "Aumenta la potenza di Zuffa di chi la usa. Rende chi la usa immune dalle riduzioni delle statistiche. Riduce l'Attacco e l'Attacco Speciale del bersaglio di 1 grado quando Zuffa di chi la usa va a segno."
+      },
       "9903350": {
         "NAME": "Ricordi del Percorso 120",
         "ABBR": "Ricordi del Percorso 120",
         "DESC": "Causa la pioggia la prima volta che chi la usa entra in campo in ogni lotta. Applica una Cerchia di Hoenn (difensiva) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "9903430": {
+        "NAME": "Tranquillità ritrovata",
+        "ABBR": "Tranquillità ritrovata",
+        "DESC": "Ripristina 1 utilizzo di Sciagura illusoria di chi la usa la prima volta che utilizza quella mossa in ogni lotta. Ripristina 1 utilizzo di Iper Raggio sontuoso di chi la usa la prima volta che utilizza quella mossa in ogni lotta."
+      },
+      "9903440": {
+        "NAME": "Profonda tenebra",
+        "ABBR": "Profonda tenebra",
+        "DESC": "Aumenta la durata della Zona Spettro quando la zona si trasforma in una Zona Spettro mentre chi la usa è in campo. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando il suo attacco semplice va a segno in presenza di una Zona Spettro."
+      },
+      "9903570": {
+        "NAME": "Luogo in cui si sovrappongono due mondi",
+        "ABBR": "Luogo in cui si sovrappongono due mondi",
+        "DESC": "Trasforma la zona in una Zona Spettro la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. Trasforma la zona in una Zona Spettro la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. (Una Zona Spettro aumenta la potenza degli attacchi di tipo Spettro.) Aumenta la durata della Zona Spettro quando la zona si trasforma in una Zona Spettro mentre chi la usa è in campo."
       }
     },
     "THEMES": {
@@ -21710,7 +22385,8 @@
       "29990069": "Vecchi amici",
       "29990070": "In giro per Alola",
       "29990071": "In giro per Galar",
-      "29990072": "Uova"
+      "29990072": "Uova",
+      "29990073": "In giro per Hisui"
     },
     "THEME_GROUPS": {
       "2001": "Tipo",
@@ -22164,7 +22840,15 @@
       "20000418": "Torre Lotta",
       "20000419": "UC Ball",
       "20000420": "Collezione",
-      "20000421": "Poké Resort"
+      "20000421": "Poké Resort",
+      "20000422": "Sinistcha",
+      "20000423": "Juliana",
+      "20000424": "Florian",
+      "20000425": "Sciroppomi",
+      "20000426": "Gioco della caccia all'orco",
+      "20000427": "Verdegiada",
+      "20000428": "Lago Cristallìo",
+      "20000429": "Maschere"
     },
     "TOPIC_GROUP": {
       "1": "Pokémon",

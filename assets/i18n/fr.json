@@ -131,7 +131,8 @@
       "SYNC": "C. Duo",
       "SUPERAWAKENING": "Transcendance",
       "BERRY": "Baie",
-      "MP": "PPC"
+      "MP": "PPC",
+      "BREAK": "Rupture"
     },
     "KINDS": {
       "BASE": "Forme de base",
@@ -578,6 +579,7 @@
       "000601": "Méga Dracaufeu X",
       "000602": "Méga Dracaufeu Y",
       "000603": "Dracaufeu Gigamax",
+      "000665": "Dracaufeu Type Téracristal Dragon",
       "000700": "Carapuce",
       "000800": "Carabaffe",
       "000900": "Tortank",
@@ -650,6 +652,7 @@
       "005700": "Colossinge",
       "005800": "Caninos",
       "005900": "Arcanin",
+      "005901": "Arcanin de Hisui",
       "006000": "Ptitard",
       "006100": "Têtarte",
       "006200": "Tartard",
@@ -781,6 +784,7 @@
       "015600": "Feurisson",
       "015700": "Typhlosion",
       "015701": "Typhlosion de Hisui",
+      "015776": "Typhlosion de Hisui (type Téracristal Poison)",
       "015800": "Kaiminus",
       "015900": "Crocrodil",
       "016000": "Aligatueur",
@@ -1325,6 +1329,7 @@
       "059100": "Gaulet",
       "059200": "Viskuse",
       "059300": "Moyade",
+      "059301": "Moyade",
       "059400": "Mamanbo",
       "059500": "Statitik",
       "059600": "Mygavolt",
@@ -1619,6 +1624,7 @@
       "081400": "Lapyro",
       "081500": "Pyrobut",
       "081501": "Pyrobut Gigamax",
+      "081563": "Pyrobut Type Téracristal Roche",
       "081600": "Larméléon",
       "081700": "Arrozard",
       "081800": "Lézargus",
@@ -1848,6 +1854,7 @@
       "000001": "Red (Ultime)",
       "000002": "Red (Ultime 2)",
       "000003": "Red (Néo-Maître)",
+      "000004": "Red (Anniversaire 2025)",
       "000100": "Euphorbe",
       "000200": "Célesta",
       "000201": "Célesta (Ultime)",
@@ -2202,6 +2209,7 @@
       "024301": "Gloria (Saison 2021)",
       "024302": "Gloria (Dojo)",
       "024303": "Gloria (Challenger)",
+      "024304": "Gloria (Anniversaire 2025)",
       "024400": "Nabil",
       "024401": "Nabil (Néo-Maître)",
       "024402": "Nabil",
@@ -2247,6 +2255,7 @@
       "028401": "Adamantin (Spécial)",
       "028500": "Nacchara",
       "028501": "Nacchara (Spécial)",
+      "028502": "Nacchara (Anniversaire 2025)",
       "028600": "Florian",
       "028700": "Juliana",
       "028900": "Menzi",
@@ -2282,6 +2291,7 @@
       "035600": "Roseille",
       "035700": "Kassis",
       "035800": "Clove",
+      "035900": "Percupio (Expert en Pokémon)",
       "036400": "Oreste (Montagnard)",
       "050200": "Sbire Team Aqua",
       "050300": "Sbire Team Aqua",
@@ -2330,17 +2340,17 @@
       "7": {
         "NAME": "Poing de Feu",
         "ABBR": "Poing de Feu",
-        "DESC": "10\u00A0% de chances de brûler la cible."
+        "DESC": "10 % de chances de brûler la cible."
       },
       "8": {
         "NAME": "Poing-Glace",
         "ABBR": "Poing Glace",
-        "DESC": "10\u00A0% de chances de geler la cible."
+        "DESC": "10 % de chances de geler la cible."
       },
       "9": {
         "NAME": "Poing-Éclair",
         "ABBR": "Poing Éclair",
-        "DESC": "10\u00A0% de chances de paralyser la cible."
+        "DESC": "10 % de chances de paralyser la cible."
       },
       "14": {
         "NAME": "Danse Lames",
@@ -2370,7 +2380,7 @@
       "23": {
         "NAME": "Écrasement",
         "ABBR": "Écrasement",
-        "DESC": "30\u00A0% de chances d'apeurer la cible."
+        "DESC": "30 % de chances d'apeurer la cible."
       },
       "25": {
         "NAME": "Ultimawashi",
@@ -2380,7 +2390,7 @@
       "29": {
         "NAME": "Coup d'Boule",
         "ABBR": "Coup d'Boule",
-        "DESC": "30\u00A0% de chances d'apeurer la cible."
+        "DESC": "30 % de chances d'apeurer la cible."
       },
       "33": {
         "NAME": "Charge",
@@ -2390,7 +2400,7 @@
       "34": {
         "NAME": "Plaquage",
         "ABBR": "Plaquage",
-        "DESC": "30\u00A0% de chances de paralyser la cible."
+        "DESC": "30 % de chances de paralyser la cible."
       },
       "35": {
         "NAME": "Ligotage",
@@ -2405,12 +2415,12 @@
       "40": {
         "NAME": "Dard-Venin",
         "ABBR": "Dard Venin",
-        "DESC": "30\u00A0% de chances d'empoisonner la cible."
+        "DESC": "30 % de chances d'empoisonner la cible."
       },
       "41": {
         "NAME": "Double-Dard",
         "ABBR": "Double Dard",
-        "DESC": "Attaque deux fois d'affilée. 20\u00A0% de chances d'empoisonner la cible."
+        "DESC": "Attaque deux fois d'affilée. 20 % de chances d'empoisonner la cible."
       },
       "42": {
         "NAME": "Dard-Nuée",
@@ -2425,7 +2435,7 @@
       "44": {
         "NAME": "Morsure",
         "ABBR": "Morsure",
-        "DESC": "30\u00A0% de chances d'apeurer la cible."
+        "DESC": "30 % de chances d'apeurer la cible."
       },
       "45": {
         "NAME": "Rugissement",
@@ -2445,17 +2455,17 @@
       "51": {
         "NAME": "Acide",
         "ABBR": "Acide",
-        "DESC": "10\u00A0% de chances de baisser la Déf. Spé. de la cible de 1 rang."
+        "DESC": "10 % de chances de baisser la Déf. Spé. de la cible de 1 rang."
       },
       "52": {
         "NAME": "Flammèche",
         "ABBR": "Flammèche",
-        "DESC": "10\u00A0% de chances de brûler la cible."
+        "DESC": "10 % de chances de brûler la cible."
       },
       "53": {
         "NAME": "Lance-Flammes",
         "ABBR": "Lance Flammes",
-        "DESC": "10\u00A0% de chances de brûler la cible."
+        "DESC": "10 % de chances de brûler la cible."
       },
       "54": {
         "NAME": "Brume",
@@ -2480,22 +2490,22 @@
       "58": {
         "NAME": "Laser Glace",
         "ABBR": "Laser Glace",
-        "DESC": "10\u00A0% de chances de geler la cible."
+        "DESC": "10 % de chances de geler la cible."
       },
       "59": {
         "NAME": "Blizzard",
         "ABBR": "Blizzard",
-        "DESC": "N'échoue jamais quand il grêle. 10\u00A0% de chances de geler la cible."
+        "DESC": "N'échoue jamais quand il grêle. 10 % de chances de geler la cible."
       },
       "60": {
         "NAME": "Rafale Psy",
         "ABBR": "Rafale Psy",
-        "DESC": "10\u00A0% de chances de rendre la cible confuse."
+        "DESC": "10 % de chances de rendre la cible confuse."
       },
       "61": {
         "NAME": "Bulles d'O",
         "ABBR": "Bulles d'O",
-        "DESC": "10\u00A0% de chances de baisser la Vitesse de la cible de 1 rang."
+        "DESC": "10 % de chances de baisser la Vitesse de la cible de 1 rang."
       },
       "63": {
         "NAME": "Ultralaser",
@@ -2545,12 +2555,12 @@
       "84": {
         "NAME": "Éclair",
         "ABBR": "Éclair",
-        "DESC": "10\u00A0% de chances de paralyser la cible."
+        "DESC": "10 % de chances de paralyser la cible."
       },
       "85": {
         "NAME": "Tonnerre",
         "ABBR": "Tonnerre",
-        "DESC": "10\u00A0% de chances de paralyser la cible."
+        "DESC": "10 % de chances de paralyser la cible."
       },
       "86": {
         "NAME": "Cage-Éclair",
@@ -2560,7 +2570,7 @@
       "87": {
         "NAME": "Fatal-Foudre",
         "ABBR": "Fatal Foudre",
-        "DESC": "N'échoue jamais quand il pleut. 30\u00A0% de chances de paralyser la cible."
+        "DESC": "N'échoue jamais quand il pleut. 30 % de chances de paralyser la cible."
       },
       "88": {
         "NAME": "Jet-Pierres",
@@ -2585,12 +2595,12 @@
       "93": {
         "NAME": "Choc Mental",
         "ABBR": "Choc Mental",
-        "DESC": "10\u00A0% de chances de rendre la cible confuse."
+        "DESC": "10 % de chances de rendre la cible confuse."
       },
       "94": {
         "NAME": "Psyko",
         "ABBR": "Psyko",
-        "DESC": "10\u00A0% de chances de baisser la Déf. Spé. de la cible de 1 rang."
+        "DESC": "10 % de chances de baisser la Déf. Spé. de la cible de 1 rang."
       },
       "95": {
         "NAME": "Hypnose",
@@ -2615,7 +2625,7 @@
       "105": {
         "NAME": "Soin",
         "ABBR": "Soin",
-        "DESC": "Le lanceur regagne environ 50\u00A0% de ses PV maximums."
+        "DESC": "Le lanceur regagne environ 50 % de ses PV maximums."
       },
       "109": {
         "NAME": "Onde Folie",
@@ -2645,27 +2655,27 @@
       "122": {
         "NAME": "Léchouille",
         "ABBR": "Léchouille",
-        "DESC": "30\u00A0% de chances de paralyser la cible."
+        "DESC": "30 % de chances de paralyser la cible."
       },
       "123": {
         "NAME": "Purédpois",
         "ABBR": "Purédpois",
-        "DESC": "40\u00A0% de chances d'empoisonner la cible."
+        "DESC": "40 % de chances d'empoisonner la cible."
       },
       "124": {
         "NAME": "Détritus",
         "ABBR": "Détritus",
-        "DESC": "30\u00A0% de chances d'empoisonner la cible."
+        "DESC": "30 % de chances d'empoisonner la cible."
       },
       "126": {
         "NAME": "Déflagration",
         "ABBR": "Déflagration",
-        "DESC": "10\u00A0% de chances de brûler la cible."
+        "DESC": "10 % de chances de brûler la cible."
       },
       "127": {
         "NAME": "Cascade",
         "ABBR": "Cascade",
-        "DESC": "20\u00A0% de chances d'apeurer la cible."
+        "DESC": "20 % de chances d'apeurer la cible."
       },
       "129": {
         "NAME": "Météores",
@@ -2675,7 +2685,7 @@
       "136": {
         "NAME": "Pied Voltige",
         "ABBR": "Pied Voltige",
-        "DESC": "En cas d'échec, le lanceur subit des dégâts équivalents à 50\u00A0% de ses PV maximums."
+        "DESC": "En cas d'échec, le lanceur subit des dégâts équivalents à 50 % de ses PV maximums."
       },
       "137": {
         "NAME": "Regard Médusant",
@@ -2700,7 +2710,7 @@
       "145": {
         "NAME": "Écume",
         "ABBR": "Écume",
-        "DESC": "10\u00A0% de chances de baisser la Vitesse de la cible de 1 rang."
+        "DESC": "10 % de chances de baisser la Vitesse de la cible de 1 rang."
       },
       "147": {
         "NAME": "Spore",
@@ -2720,12 +2730,12 @@
       "157": {
         "NAME": "Éboulement",
         "ABBR": "Éboulement",
-        "DESC": "30\u00A0% de chances d'apeurer la cible."
+        "DESC": "30 % de chances d'apeurer la cible."
       },
       "161": {
         "NAME": "Triplattaque",
         "ABBR": "Triplattaque",
-        "DESC": "20\u00A0% de chances de brûler, paralyser ou geler la cible."
+        "DESC": "20 % de chances de brûler, paralyser ou geler la cible."
       },
       "163": {
         "NAME": "Tranche",
@@ -2735,7 +2745,7 @@
       "172": {
         "NAME": "Roue de Feu",
         "ABBR": "Roue de Feu",
-        "DESC": "Dégèle le lanceur. 10\u00A0% de chances de brûler la cible."
+        "DESC": "Dégèle le lanceur. 10 % de chances de brûler la cible."
       },
       "177": {
         "NAME": "Aéroblast",
@@ -2750,7 +2760,7 @@
       "181": {
         "NAME": "Poudreuse",
         "ABBR": "Poudreuse",
-        "DESC": "10\u00A0% de chances de geler la cible."
+        "DESC": "10 % de chances de geler la cible."
       },
       "182": {
         "NAME": "Abri",
@@ -2765,7 +2775,7 @@
       "188": {
         "NAME": "Bomb Beurk",
         "ABBR": "Bomb Beurk",
-        "DESC": "30\u00A0% de chances d'empoisonner la cible."
+        "DESC": "30 % de chances d'empoisonner la cible."
       },
       "189": {
         "NAME": "Coud'Boue",
@@ -2775,7 +2785,7 @@
       "190": {
         "NAME": "Octazooka",
         "ABBR": "Octazooka",
-        "DESC": "50\u00A0% de chances de baisser la Précision de la cible de 1 rang."
+        "DESC": "50 % de chances de baisser la Précision de la cible de 1 rang."
       },
       "192": {
         "NAME": "Élecanon",
@@ -2815,7 +2825,7 @@
       "209": {
         "NAME": "Étincelle",
         "ABBR": "Étincelle",
-        "DESC": "30\u00A0% de chances de paralyser la cible."
+        "DESC": "30 % de chances de paralyser la cible."
       },
       "210": {
         "NAME": "Taillade",
@@ -2825,7 +2835,7 @@
       "211": {
         "NAME": "Aile d'Acier",
         "ABBR": "Aile d'Acier",
-        "DESC": "10\u00A0% de chances d'augmenter la Défense du lanceur de 1 rang."
+        "DESC": "10 % de chances d'augmenter la Défense du lanceur de 1 rang."
       },
       "219": {
         "NAME": "Rune Protect",
@@ -2835,7 +2845,7 @@
       "221": {
         "NAME": "Feu Sacré",
         "ABBR": "Feu Sacré",
-        "DESC": "Dégèle le lanceur. 50\u00A0% de chances de brûler la cible."
+        "DESC": "Dégèle le lanceur. 50 % de chances de brûler la cible."
       },
       "223": {
         "NAME": "Dynamopoing",
@@ -2850,7 +2860,7 @@
       "225": {
         "NAME": "Dracosouffle",
         "ABBR": "Dracosouffle",
-        "DESC": "30\u00A0% de chances de paralyser la cible."
+        "DESC": "30 % de chances de paralyser la cible."
       },
       "230": {
         "NAME": "Doux Parfum",
@@ -2860,12 +2870,12 @@
       "231": {
         "NAME": "Queue de Fer",
         "ABBR": "Queue de Fer",
-        "DESC": "30\u00A0% de chances de baisser la Défense de la cible de 1 rang."
+        "DESC": "30 % de chances de baisser la Défense de la cible de 1 rang."
       },
       "232": {
         "NAME": "Griffe Acier",
         "ABBR": "Griffe Acier",
-        "DESC": "10\u00A0% de chances d'augmenter l'Attaque du lanceur de 1 rang."
+        "DESC": "10 % de chances d'augmenter l'Attaque du lanceur de 1 rang."
       },
       "234": {
         "NAME": "Aurore",
@@ -2875,12 +2885,12 @@
       "235": {
         "NAME": "Synthèse",
         "ABBR": "Synthèse",
-        "DESC": "Le lanceur regagne environ 50\u00A0% de ses PV maximums. Les PV sont restaurés de 60\u00A0% à la place quand le soleil brille et de 40\u00A0% quand il pleut, quand il grêle ou durant une tempête de sable."
+        "DESC": "Le lanceur regagne environ 50 % de ses PV maximums. Les PV sont restaurés de 60 % à la place quand le soleil brille et de 40 % quand il pleut, quand il grêle ou durant une tempête de sable."
       },
       "236": {
         "NAME": "Rayon Lune",
         "ABBR": "Rayon Lune",
-        "DESC": "Le lanceur regagne environ 50\u00A0% de ses PV maximums. Les PV sont restaurés de 60\u00A0% à la place quand le soleil brille et de 40\u00A0% quand il pleut, quand il grêle ou durant une tempête de sable."
+        "DESC": "Le lanceur regagne environ 50 % de ses PV maximums. Les PV sont restaurés de 60 % à la place quand le soleil brille et de 40 % quand il pleut, quand il grêle ou durant une tempête de sable."
       },
       "238": {
         "NAME": "Coup-Croix",
@@ -2890,7 +2900,7 @@
       "239": {
         "NAME": "Ouragan",
         "ABBR": "Ouragan",
-        "DESC": "20\u00A0% de chances d'apeurer la cible."
+        "DESC": "20 % de chances d'apeurer la cible."
       },
       "240": {
         "NAME": "Danse Pluie",
@@ -2905,7 +2915,7 @@
       "242": {
         "NAME": "Mâchouille",
         "ABBR": "Mâchouille",
-        "DESC": "20\u00A0% de chances de baisser la Défense de la cible de 1 rang."
+        "DESC": "20 % de chances de baisser la Défense de la cible de 1 rang."
       },
       "243": {
         "NAME": "Voile Miroir",
@@ -2915,17 +2925,17 @@
       "246": {
         "NAME": "Pouvoir Antique",
         "ABBR": "Pouvoir Antique",
-        "DESC": "10\u00A0% de chances d'augmenter l'Attaque, la Défense, l'Atq. Spé., la Déf. Spé. et la Vitesse du lanceur de 1 rang."
+        "DESC": "10 % de chances d'augmenter l'Attaque, la Défense, l'Atq. Spé., la Déf. Spé. et la Vitesse du lanceur de 1 rang."
       },
       "247": {
         "NAME": "Ball'Ombre",
         "ABBR": "Ball'Ombre",
-        "DESC": "20\u00A0% de chances de baisser la Déf. Spé. de la cible de 1 rang."
+        "DESC": "20 % de chances de baisser la Déf. Spé. de la cible de 1 rang."
       },
       "249": {
         "NAME": "Éclate-Roc",
         "ABBR": "Éclate Roc",
-        "DESC": "50\u00A0% de chances de baisser la Défense de la cible de 1 rang."
+        "DESC": "50 % de chances de baisser la Défense de la cible de 1 rang."
       },
       "250": {
         "NAME": "Siphon",
@@ -2940,7 +2950,7 @@
       "257": {
         "NAME": "Canicule",
         "ABBR": "Canicule",
-        "DESC": "10\u00A0% de chances de brûler la cible."
+        "DESC": "10 % de chances de brûler la cible."
       },
       "258": {
         "NAME": "Grêle",
@@ -2975,12 +2985,12 @@
       "295": {
         "NAME": "Lumi-Éclat",
         "ABBR": "Lumi Éclat",
-        "DESC": "50\u00A0% de chances de baisser la Déf. Spé. de la cible de 1 rang."
+        "DESC": "50 % de chances de baisser la Déf. Spé. de la cible de 1 rang."
       },
       "296": {
         "NAME": "Ball'Brume",
         "ABBR": "Ball'Brume",
-        "DESC": "50\u00A0% de chances de baisser l'Atq. Spé. de la cible de 1 rang."
+        "DESC": "50 % de chances de baisser l'Atq. Spé. de la cible de 1 rang."
       },
       "297": {
         "NAME": "Danse-Plume",
@@ -2995,7 +3005,7 @@
       "299": {
         "NAME": "Pied Brûleur",
         "ABBR": "Pied Brûleur",
-        "DESC": "Taux de critiques élevé. 10\u00A0% de chances de brûler la cible."
+        "DESC": "Taux de critiques élevé. 10 % de chances de brûler la cible."
       },
       "304": {
         "NAME": "Mégaphone",
@@ -3005,12 +3015,12 @@
       "305": {
         "NAME": "Crochet Venin",
         "ABBR": "Crochet Venin",
-        "DESC": "50\u00A0% de chances de gravement empoisonner la cible."
+        "DESC": "50 % de chances de gravement empoisonner la cible."
       },
       "306": {
         "NAME": "Éclate Griffe",
         "ABBR": "Éclate Griffe",
-        "DESC": "50\u00A0% de chances de baisser la Défense de la cible de 1 rang."
+        "DESC": "50 % de chances de baisser la Défense de la cible de 1 rang."
       },
       "307": {
         "NAME": "Rafale Feu",
@@ -3025,12 +3035,12 @@
       "309": {
         "NAME": "Poing Météore",
         "ABBR": "Poing Météore",
-        "DESC": "20\u00A0% de chances d'augmenter l'Attaque du lanceur de 1 rang."
+        "DESC": "20 % de chances d'augmenter l'Attaque du lanceur de 1 rang."
       },
       "310": {
         "NAME": "Étonnement",
         "ABBR": "Étonnement",
-        "DESC": "30\u00A0% de chances d'apeurer la cible."
+        "DESC": "30 % de chances d'apeurer la cible."
       },
       "313": {
         "NAME": "Croco Larme",
@@ -3055,7 +3065,7 @@
       "318": {
         "NAME": "Vent Argenté",
         "ABBR": "Vent Argenté",
-        "DESC": "10\u00A0% de chances d'augmenter l'Attaque, la Défense, l'Atq. Spé., la Déf. Spé. et la Vitesse du lanceur de 1 rang."
+        "DESC": "10 % de chances d'augmenter l'Attaque, la Défense, l'Atq. Spé., la Déf. Spé. et la Vitesse du lanceur de 1 rang."
       },
       "319": {
         "NAME": "Strido-Son",
@@ -3080,7 +3090,7 @@
       "330": {
         "NAME": "Ocroupi",
         "ABBR": "Ocroupi",
-        "DESC": "30\u00A0% de chances de baisser la Précision de la cible de 1 rang."
+        "DESC": "30 % de chances de baisser la Précision de la cible de 1 rang."
       },
       "331": {
         "NAME": "Balle Graine",
@@ -3125,7 +3135,7 @@
       "340": {
         "NAME": "Rebond",
         "ABBR": "Rebond",
-        "DESC": "Le lanceur commence à rebondir. Après un certain temps, le lanceur cesse de rebondir et attaque. 30\u00A0% de chances de paralyser la cible. Le lanceur ne peut rien faire d'autre lorsqu'il rebondit. La plupart des capacités des ennemis ne peuvent pas toucher le lanceur lorsqu'il rebondit. Si le lanceur est attaqué par une capacité Duo ou une capacité Duo Dynamax lorsqu'il rebondit, il cesse de rebondir."
+        "DESC": "Le lanceur commence à rebondir. Après un certain temps, le lanceur cesse de rebondir et attaque. 30 % de chances de paralyser la cible. Le lanceur ne peut rien faire d'autre lorsqu'il rebondit. La plupart des capacités des ennemis ne peuvent pas toucher le lanceur lorsqu'il rebondit. Si le lanceur est attaqué par une capacité Duo ou une capacité Duo Dynamax lorsqu'il rebondit, il cesse de rebondir."
       },
       "341": {
         "NAME": "Tir de Boue",
@@ -3135,12 +3145,12 @@
       "342": {
         "NAME": "Queue-Poison",
         "ABBR": "Queue Poison",
-        "DESC": "Taux de critiques élevé. 10\u00A0% de chances d'empoisonner la cible."
+        "DESC": "Taux de critiques élevé. 10 % de chances d'empoisonner la cible."
       },
       "344": {
         "NAME": "Électacle",
         "ABBR": "Électacle",
-        "DESC": "Le lanceur subit environ un tiers des dégâts infligés à la cible. 10\u00A0% de chances de paralyser la cible."
+        "DESC": "Le lanceur subit environ un tiers des dégâts infligés à la cible. 10 % de chances de paralyser la cible."
       },
       "347": {
         "NAME": "Plénitude",
@@ -3155,7 +3165,7 @@
       "352": {
         "NAME": "Vibraqua",
         "ABBR": "Vibraqua",
-        "DESC": "20\u00A0% de chances de rendre la cible confuse."
+        "DESC": "20 % de chances de rendre la cible confuse."
       },
       "354": {
         "NAME": "Psycho-Boost",
@@ -3175,7 +3185,7 @@
       "362": {
         "NAME": "Saumure",
         "ABBR": "Saumure",
-        "DESC": "Quand les PV restants de la cible sont au maximum à 50\u00A0%, cette attaque est deux fois plus puissante."
+        "DESC": "Quand les PV restants de la cible sont au maximum à 50 %, cette attaque est deux fois plus puissante."
       },
       "368": {
         "NAME": "Fulmifer",
@@ -3190,7 +3200,7 @@
       "394": {
         "NAME": "Boutefeu",
         "ABBR": "Boutefeu",
-        "DESC": "Dégèle le lanceur. Le lanceur subit un quart des dégâts infligés. 10\u00A0% de chances de brûler la cible."
+        "DESC": "Dégèle le lanceur. Le lanceur subit un quart des dégâts infligés. 10 % de chances de brûler la cible."
       },
       "396": {
         "NAME": "Aurasphère",
@@ -3200,12 +3210,12 @@
       "398": {
         "NAME": "Direct Toxik",
         "ABBR": "Direct Toxik",
-        "DESC": "30\u00A0% de chances d'empoisonner la cible."
+        "DESC": "30 % de chances d'empoisonner la cible."
       },
       "399": {
         "NAME": "Vibrobscur",
         "ABBR": "Vibrobscur",
-        "DESC": "20\u00A0% de chances d'apeurer la cible."
+        "DESC": "20 % de chances d'apeurer la cible."
       },
       "400": {
         "NAME": "Tranche-Nuit",
@@ -3225,7 +3235,7 @@
       "403": {
         "NAME": "Lame d'Air",
         "ABBR": "Lame d'Air",
-        "DESC": "30\u00A0% de chances d'apeurer la cible."
+        "DESC": "30 % de chances d'apeurer la cible."
       },
       "404": {
         "NAME": "Plaie-Croix",
@@ -3235,7 +3245,7 @@
       "405": {
         "NAME": "Bourdon",
         "ABBR": "Bourdon",
-        "DESC": "10\u00A0% de chances de baisser la Déf. Spé. de la cible de 1 rang."
+        "DESC": "10 % de chances de baisser la Déf. Spé. de la cible de 1 rang."
       },
       "406": {
         "NAME": "Draco-Choc",
@@ -3245,7 +3255,7 @@
       "407": {
         "NAME": "Draco-Charge",
         "ABBR": "Draco Charge",
-        "DESC": "20\u00A0% de chances d'apeurer la cible."
+        "DESC": "20 % de chances d'apeurer la cible."
       },
       "408": {
         "NAME": "Rayon Gemme",
@@ -3265,12 +3275,12 @@
       "411": {
         "NAME": "Exploforce",
         "ABBR": "Exploforce",
-        "DESC": "10\u00A0% de chances de baisser la Déf. Spé. de la cible de 1 rang."
+        "DESC": "10 % de chances de baisser la Déf. Spé. de la cible de 1 rang."
       },
       "412": {
         "NAME": "Éco-Sphère",
         "ABBR": "Éco Sphère",
-        "DESC": "10\u00A0% de chances de baisser la Déf. Spé. de la cible de 1 rang."
+        "DESC": "10 % de chances de baisser la Déf. Spé. de la cible de 1 rang."
       },
       "413": {
         "NAME": "Rapace",
@@ -3280,7 +3290,7 @@
       "414": {
         "NAME": "Telluriforce",
         "ABBR": "Telluriforce",
-        "DESC": "10\u00A0% de chances de baisser la Déf. Spé. de la cible de 1 rang."
+        "DESC": "10 % de chances de baisser la Déf. Spé. de la cible de 1 rang."
       },
       "416": {
         "NAME": "Giga Impact",
@@ -3310,17 +3320,17 @@
       "422": {
         "NAME": "Crocs Éclair",
         "ABBR": "Crocs Éclair",
-        "DESC": "10\u00A0% de chances d'apeurer la cible. 10\u00A0% de chances de paralyser la cible."
+        "DESC": "10 % de chances d'apeurer la cible. 10 % de chances de paralyser la cible."
       },
       "423": {
         "NAME": "Crocs Givre",
         "ABBR": "Crocs Givre",
-        "DESC": "10\u00A0% de chances d'apeurer la cible. 10\u00A0% de chances de geler la cible."
+        "DESC": "10 % de chances d'apeurer la cible. 10 % de chances de geler la cible."
       },
       "424": {
         "NAME": "Crocs Feu",
         "ABBR": "Crocs Feu",
-        "DESC": "10\u00A0% de chances d'apeurer la cible. 10\u00A0% de chances de brûler la cible."
+        "DESC": "10 % de chances d'apeurer la cible. 10 % de chances de brûler la cible."
       },
       "425": {
         "NAME": "Ombre Portée",
@@ -3335,17 +3345,17 @@
       "428": {
         "NAME": "Psykoud'Boul",
         "ABBR": "Psykoud'Boul",
-        "DESC": "20\u00A0% de chances d'apeurer la cible."
+        "DESC": "20 % de chances d'apeurer la cible."
       },
       "429": {
         "NAME": "Miroi-Tir",
         "ABBR": "Miroi Tir",
-        "DESC": "30\u00A0% de chances de baisser la Précision de la cible de 1 rang."
+        "DESC": "30 % de chances de baisser la Précision de la cible de 1 rang."
       },
       "430": {
         "NAME": "Luminocanon",
         "ABBR": "Luminocanon",
-        "DESC": "10\u00A0% de chances de baisser la Déf. Spé. de la cible de 1 rang."
+        "DESC": "10 % de chances de baisser la Déf. Spé. de la cible de 1 rang."
       },
       "432": {
         "NAME": "Anti-Brume",
@@ -3360,7 +3370,7 @@
       "435": {
         "NAME": "Coup d'Jus",
         "ABBR": "Coup d'Jus",
-        "DESC": "30\u00A0% de chances de paralyser la cible."
+        "DESC": "30 % de chances de paralyser la cible."
       },
       "437": {
         "NAME": "Tempête Verte",
@@ -3375,17 +3385,17 @@
       "440": {
         "NAME": "Poison-Croix",
         "ABBR": "Poison Croix",
-        "DESC": "Taux de critiques élevé. 10\u00A0% de chances d'empoisonner la cible."
+        "DESC": "Taux de critiques élevé. 10 % de chances d'empoisonner la cible."
       },
       "441": {
         "NAME": "Détricanon",
         "ABBR": "Détricanon",
-        "DESC": "30\u00A0% de chances d'empoisonner la cible."
+        "DESC": "30 % de chances d'empoisonner la cible."
       },
       "442": {
         "NAME": "Tête de Fer",
         "ABBR": "Tête de Fer",
-        "DESC": "30\u00A0% de chances d'apeurer la cible."
+        "DESC": "30 % de chances d'apeurer la cible."
       },
       "444": {
         "NAME": "Lame de Roc",
@@ -3420,7 +3430,7 @@
       "456": {
         "NAME": "Appel Soins",
         "ABBR": "Appel Soins",
-        "DESC": "Le lanceur regagne environ 50\u00A0% de ses PV maximums."
+        "DESC": "Le lanceur regagne environ 50 % de ses PV maximums."
       },
       "457": {
         "NAME": "Fracass'Tête",
@@ -3450,12 +3460,12 @@
       "465": {
         "NAME": "Fulmigraine",
         "ABBR": "Fulmigraine",
-        "DESC": "40\u00A0% de chances de baisser la Déf. Spé. de la cible de 2 rangs."
+        "DESC": "40 % de chances de baisser la Déf. Spé. de la cible de 2 rangs."
       },
       "466": {
         "NAME": "Vent Mauvais",
         "ABBR": "Vent Mauvais",
-        "DESC": "10\u00A0% de chances d'augmenter l'Attaque, la Défense, l'Atq. Spé., la Déf. Spé. et la Vitesse du lanceur de 1 rang."
+        "DESC": "10 % de chances d'augmenter l'Attaque, la Défense, l'Atq. Spé., la Déf. Spé. et la Vitesse du lanceur de 1 rang."
       },
       "467": {
         "NAME": "Revenant",
@@ -3485,7 +3495,7 @@
       "482": {
         "NAME": "Cradovague",
         "ABBR": "Cradovague",
-        "DESC": "10\u00A0% de chances d'empoisonner la cible."
+        "DESC": "10 % de chances d'empoisonner la cible."
       },
       "488": {
         "NAME": "Nitrocharge",
@@ -3510,12 +3520,12 @@
       "503": {
         "NAME": "Ébullition",
         "ABBR": "Ébullition",
-        "DESC": "Dégèle le lanceur. 30\u00A0% de chances de brûler la cible."
+        "DESC": "Dégèle le lanceur. 30 % de chances de brûler la cible."
       },
       "506": {
         "NAME": "Châtiment",
         "ABBR": "Châtiment",
-        "DESC": "Double la puissance de cette attaque si la cible souffre d'une altération de statut."
+        "DESC": "Double la puissance de cette attaque quand la cible souffre d'une altération de statut."
       },
       "517": {
         "NAME": "Feu d'Enfer",
@@ -3565,12 +3575,12 @@
       "534": {
         "NAME": "Coqui-Lame",
         "ABBR": "Coqui Lame",
-        "DESC": "50\u00A0% de chances de baisser la Défense de la cible de 1 rang."
+        "DESC": "50 % de chances de baisser la Défense de la cible de 1 rang."
       },
       "539": {
         "NAME": "Explonuit",
         "ABBR": "Explonuit",
-        "DESC": "40\u00A0% de chances de baisser la Précision de la cible de 1 rang."
+        "DESC": "40 % de chances de baisser la Précision de la cible de 1 rang."
       },
       "540": {
         "NAME": "Frappe Psy",
@@ -3580,7 +3590,7 @@
       "542": {
         "NAME": "Vent Violent",
         "ABBR": "Vent Violent",
-        "DESC": "N'échoue jamais quand il pleut. 30\u00A0% de chances de rendre la cible confuse."
+        "DESC": "N'échoue jamais quand il pleut. 30 % de chances de rendre la cible confuse."
       },
       "543": {
         "NAME": "Peignée",
@@ -3590,7 +3600,7 @@
       "545": {
         "NAME": "Incendie",
         "ABBR": "Incendie",
-        "DESC": "30\u00A0% de chances de brûler la cible."
+        "DESC": "30 % de chances de brûler la cible."
       },
       "546": {
         "NAME": "Techno-Buster",
@@ -3615,17 +3625,17 @@
       "550": {
         "NAME": "Charge Foudre",
         "ABBR": "Charge Foudre",
-        "DESC": "20\u00A0% de chances de paralyser la cible."
+        "DESC": "20 % de chances de paralyser la cible."
       },
       "551": {
         "NAME": "Flamme Bleue",
         "ABBR": "Flamme Bleue",
-        "DESC": "20\u00A0% de chances de brûler la cible."
+        "DESC": "20 % de chances de brûler la cible."
       },
       "553": {
         "NAME": "Éclair Gelé",
         "ABBR": "Éclair Gelé",
-        "DESC": "Le lanceur charge l'attaque. En utilisant à nouveau cette capacité, le lanceur quitte cette posture pour attaquer. 30\u00A0% de chances de paralyser la cible. Aucune autre action ne peut être réalisée lorsqu'il charge l'attaque."
+        "DESC": "Le lanceur charge l'attaque. En utilisant à nouveau cette capacité, le lanceur quitte cette posture pour attaquer. 30 % de chances de paralyser la cible. Aucune autre action ne peut être réalisée lorsqu'il charge l'attaque."
       },
       "555": {
         "NAME": "Aboiement",
@@ -3635,7 +3645,7 @@
       "556": {
         "NAME": "Chute Glace",
         "ABBR": "Chute Glace",
-        "DESC": "30\u00A0% de chances d'apeurer la cible."
+        "DESC": "30 % de chances d'apeurer la cible."
       },
       "557": {
         "NAME": "Coup Victoire",
@@ -3695,12 +3705,12 @@
       "583": {
         "NAME": "Câlinerie",
         "ABBR": "Câlinerie",
-        "DESC": "10\u00A0% de chances de baisser l'Attaque de la cible de 1 rang."
+        "DESC": "10 % de chances de baisser l'Attaque de la cible de 1 rang."
       },
       "585": {
         "NAME": "Pouvoir Lunaire",
         "ABBR": "Pouvoir Lunaire",
-        "DESC": "30\u00A0% de chances de baisser l'Atq. Spé. de la cible de 1 rang."
+        "DESC": "30 % de chances de baisser l'Atq. Spé. de la cible de 1 rang."
       },
       "588": {
         "NAME": "Bouclier Royal",
@@ -3710,12 +3720,12 @@
       "591": {
         "NAME": "Orage Adamantin",
         "ABBR": "Orage Adamantin",
-        "DESC": "50\u00A0% de chances d'augmenter la Défense du lanceur de 2 rangs."
+        "DESC": "50 % de chances d'augmenter la Défense du lanceur de 2 rangs."
       },
       "592": {
         "NAME": "Jet de Vapeur",
         "ABBR": "Jet de Vapeur",
-        "DESC": "Dégèle le lanceur. 30\u00A0% de chances de brûler la cible."
+        "DESC": "Dégèle le lanceur. 30 % de chances de brûler la cible."
       },
       "593": {
         "NAME": "TrouDimensionnel",
@@ -3775,7 +3785,7 @@
       "613": {
         "NAME": "Mort'Ailes",
         "ABBR": "Mort'Ailes",
-        "DESC": "Plus la cible subit de dégâts, plus les PV du lanceur sont restaurés. Chaque utilisation restaure environ jusqu'à 50\u00A0% des PV maximums du lanceur."
+        "DESC": "Plus la cible subit de dégâts, plus les PV du lanceur sont restaurés. Chaque utilisation restaure environ jusqu'à 50 % des PV maximums du lanceur."
       },
       "615": {
         "NAME": "Myria-Vagues",
@@ -3895,7 +3905,7 @@
       "661": {
         "NAME": "Os'Ombre",
         "ABBR": "Os'Ombre",
-        "DESC": "20\u00A0% de chances de baisser la Défense de la cible de 1 rang."
+        "DESC": "20 % de chances de baisser la Défense de la cible de 1 rang."
       },
       "662": {
         "NAME": "Vif Roc",
@@ -3905,7 +3915,7 @@
       "663": {
         "NAME": "Aqua-Brèche",
         "ABBR": "Aqua Brèche",
-        "DESC": "20\u00A0% de chances de baisser la Défense de la cible de 1 rang."
+        "DESC": "20 % de chances de baisser la Défense de la cible de 1 rang."
       },
       "664": {
         "NAME": "Laser Prisme",
@@ -3925,7 +3935,7 @@
       "668": {
         "NAME": "Électrikipik",
         "ABBR": "Électrikipik",
-        "DESC": "30\u00A0% de chances d'apeurer la cible."
+        "DESC": "30 % de chances d'apeurer la cible."
       },
       "670": {
         "NAME": "Coup Varia-Type",
@@ -3945,7 +3955,7 @@
       "744": {
         "NAME": "Canon Dynamax",
         "ABBR": "Canon Dynamax",
-        "DESC": "Augmente la puissance de l'attaque de 50\u00A0% quand la détermination de la cible est au maximum."
+        "DESC": "Augmente la puissance de l'attaque de 50 % quand la détermination de la cible est au maximum."
       },
       "745": {
         "NAME": "Tir de Précision",
@@ -3975,17 +3985,17 @@
       "780": {
         "NAME": "Ballon Brûlant",
         "ABBR": "Ballon Brûlant",
-        "DESC": "Dégèle le lanceur. 10\u00A0% de chances de brûler la cible."
+        "DESC": "Dégèle le lanceur. 10 % de chances de brûler la cible."
       },
       "781": {
         "NAME": "Gladius Maximus",
         "ABBR": "Gladius Maximus",
-        "DESC": "Augmente la puissance de l'attaque de 50\u00A0% quand la détermination de la cible est au maximum."
+        "DESC": "Augmente la puissance de l'attaque de 50 % quand la détermination de la cible est au maximum."
       },
       "782": {
         "NAME": "Aegis Maxima",
         "ABBR": "Aegis Maxima",
-        "DESC": "Augmente la puissance de l'attaque de 50\u00A0% quand la détermination de la cible est au maximum."
+        "DESC": "Augmente la puissance de l'attaque de 50 % quand la détermination de la cible est au maximum."
       },
       "783": {
         "NAME": "Roue Libre",
@@ -4025,7 +4035,7 @@
       "796": {
         "NAME": "Métalaser",
         "ABBR": "Métalaser",
-        "DESC": "Le lanceur subit des dégâts équivalents à 50\u00A0% de ses PV maximums. Il subira ces dégâts même quand l'attaque échoue."
+        "DESC": "Le lanceur subit des dégâts équivalents à 50 % de ses PV maximums. Il subira ces dégâts même quand l'attaque échoue."
       },
       "799": {
         "NAME": "Rafale Écailles",
@@ -4055,12 +4065,12 @@
       "821": {
         "NAME": "Regard Glaçant",
         "ABBR": "Regard Glaçant",
-        "DESC": "10\u00A0% de chances de geler la cible."
+        "DESC": "10 % de chances de geler la cible."
       },
       "822": {
         "NAME": "Fureur Ardente",
         "ABBR": "Fureur Ardente",
-        "DESC": "20\u00A0% de chances d'apeurer la cible."
+        "DESC": "20 % de chances d'apeurer la cible."
       },
       "823": {
         "NAME": "Coup Fulgurant",
@@ -4100,7 +4110,7 @@
       "844": {
         "NAME": "Cortège Funèbre",
         "ABBR": "Cortège Funèbre",
-        "DESC": "Double la puissance de cette attaque si la cible souffre d'une altération de statut. 30 % de chances de brûler la cible."
+        "DESC": "Double la puissance de cette attaque quand la cible souffre d'une altération de statut. 30 % de chances de brûler la cible."
       },
       "845": {
         "NAME": "Vagues à Lames",
@@ -4116,6 +4126,11 @@
         "NAME": "Typhon Fulgurant",
         "ABBR": "Typhon Fulgurant",
         "DESC": "N'échoue jamais quand il pleut. 20 % de chances de paralyser la cible."
+      },
+      "848": {
+        "NAME": "Typhon Pyrosable",
+        "ABBR": "Typhon Pyrosable",
+        "DESC": "N'échoue jamais quand il pleut. 20 % de chances de brûler la cible."
       },
       "866": {
         "NAME": "Toupie Éclat",
@@ -4187,10 +4202,25 @@
         "ABBR": "TE émeraude",
         "DESC": "Inflige un coup critique si l'attaque atteint sa cible (sauf dans certains cas). Transforme le champ en un Champ Herbu la première fois que cette capacité offensive est utilisée avec succès à chaque combat. Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 2 rangs."
       },
+      "4043": {
+        "NAME": "Téra Explosion lazulite",
+        "ABBR": "TE lazulite",
+        "DESC": "N'échoue jamais. Remplit 1 segment de la Jauge Capacité du lanceur à chaque coup. Augmente l'effet Prochain boost capacité Duo du lanceur de 1 rang à chaque coup."
+      },
+      "4044": {
+        "NAME": "Téra Explosion rutile",
+        "ABBR": "TE rutile",
+        "DESC": "Baisse l'Attaque, la Défense, l'Atq. Spé. la Déf. Spé. et la Vitesse de la cible de 1 rang. 50 % de chances d'apeurer la cible."
+      },
+      "4045": {
+        "NAME": "Téra Explosion améthyste",
+        "ABBR": "TE améthyste",
+        "DESC": "Baisse la Défense et la Déf. Spé. de la cible de 1 rang. Empoisonne gravement l'ennemi. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles."
+      },
       "5000": {
         "NAME": "Tonnerre",
         "ABBR": "Tonnerre",
-        "DESC": "10\u00A0% de chances de paralyser la cible."
+        "DESC": "10 % de chances de paralyser la cible."
       },
       "6000": {
         "NAME": "Électacle originel",
@@ -4530,7 +4560,7 @@
       "6067": {
         "NAME": "Neigeux de Mots sophistiqué",
         "ABBR": "Neigeux de Mots S",
-        "DESC": "Condition d'activation : Quand un cercle est appliqué au côté allié.\nCondition de désactivation : Quand plus aucun cercle ne s'applique plus au côté allié.\n\nN'échoue jamais. Baisse la Défense, la Déf. Spé. et l'Esquive de tous les Duos ennemis de 3 rangs. Invoque la grêle. Applique l'effet Pas d'augmentation de stats au côté ennemi. Applique l'effet Anti-baisses de stats au côté allié. Annule les baisses de stats de tous les Duos alliés."
+        "DESC": "Condition d'activation : Quand un cercle est appliqué au côté allié.\nCondition de désactivation : Quand plus aucun cercle ne s'applique au côté allié.\n\nN'échoue jamais. Baisse la Défense, la Déf. Spé. et l'Esquive de tous les Duos ennemis de 3 rangs. Invoque la grêle. Applique l'effet Pas d'augmentation de stats au côté ennemi. Applique l'effet Anti-baisses de stats au côté allié. Annule les baisses de stats de tous les Duos alliés."
       },
       "6068": {
         "NAME": "Spore assommant",
@@ -4785,7 +4815,7 @@
       "6118": {
         "NAME": "Cortège Funèbre du sinistre crépuscule",
         "ABBR": "Cortège Funèbre S",
-        "DESC": "Condition d'activation : Quand le Duo de votre équipe utilise une capacité Duo 1 fois.\nCondition de désactivation : Quand cette capacité est utilisée.\n\nN'échoue jamais. Double la puissance de cette attaque si la cible souffre d'une altération de statut. Baisse la Déf. Spé. et la Vitesse de la cible de 3 rangs. Brûle l'ennemi."
+        "DESC": "Condition d'activation : Quand le Duo de votre équipe utilise une capacité Duo 1 fois.\nCondition de désactivation : Quand cette capacité est utilisée.\n\nN'échoue jamais. Double la puissance de cette attaque quand la cible souffre d'une altération de statut. Baisse la Déf. Spé. et la Vitesse de la cible de 3 rangs. Brûle l'ennemi."
       },
       "6119": {
         "NAME": "Métalaser inaltérable",
@@ -4825,7 +4855,7 @@
       "6126": {
         "NAME": "Choc Météore solaris",
         "ABBR": "Choc Météore S",
-        "DESC": "Condition d'activation : Quand le Duo de votre équipe utilise une fois une capacité Duo.\nCondition de désactivation : Quand cette capacité est utilisée.\n\nIgnore les talents passifs qui réduisent les dégâts de cette attaque. Ignore les talents passifs qui protègent la cible contre les coups critiques. Ignore l'effet Prêt à encaisser de la cible. Baisse la Défense de la cible de 3 rangs. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Si les PPC restants d'Aurore du lanceur sont de 1 ou plus quand il attaque avec cette capacité, applique Cercle d'Alola physique au côté allié. Cercle d'Alola physique applique tous les effets suivants : Augmente de 10 % la puissance des capacités physiques et des capacités Duo physiques de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités physiques et des capacités Duo physiques de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Alola du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
+        "DESC": "Condition d'activation : Quand le Duo de votre équipe utilise une fois une capacité Duo.\nCondition de désactivation : Quand cette capacité est utilisée.\n\nIgnore les talents passifs qui réduisent les dégâts de cette attaque. Ignore les talents passifs qui protègent la cible contre les coups critiques. Ignore l'effet Prêt à encaisser de la cible. Baisse la Défense de la cible de 3 rangs. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Si les PPC restants d'Aurore du lanceur sont de 1 ou plus quand il attaque avec cette capacité, applique Cercle d'Alola Physique au côté allié. Cercle d'Alola Physique applique tous les effets suivants : Augmente de 10 % la puissance des capacités physiques et des capacités Duo physiques de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités physiques et des capacités Duo physiques de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Alola du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
       },
       "6127": {
         "NAME": "Rayon Spectral lunaris",
@@ -4901,6 +4931,56 @@
         "NAME": "Ultralaser Z",
         "ABBR": "Ultralaser Z",
         "DESC": "Condition d'activation : Quand le Duo de votre équipe utilise une fois une capacité Duo.\nCondition de désactivation : Quand cette capacité est utilisée.\n\nN'échoue jamais. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Applique l'effet Conso. 0 assurée au lanceur. Augmente l'effet Prochain boost capacité spéciale du lanceur de 2 rangs."
+      },
+      "6142": {
+        "NAME": "Draco-Griffe brillante",
+        "ABBR": "Dracogriffe S",
+        "DESC": "Condition d'activation : Quand l'Attaque du lanceur est augmentée.\nCondition de désactivation : Quand l'Attaque du lanceur n'est pas augmentée.\n\nN'échoue jamais. Applique l'effet Rupture physique à la cible. Cette attaque est deux fois plus puissante quand l'équipe du lanceur n'a pas détermination au maximum. Baisse la Défense de la cible de 6 rangs quand l'équipe du lanceur n'a pas détermination au maximum."
+      },
+      "6143": {
+        "NAME": "Colère d'écailles",
+        "ABBR": "Colère S",
+        "DESC": "Condition d'activation : Quand l'Attaque du lanceur est augmentée.\nCondition de désactivation : Quand l'Attaque du lanceur n'est pas augmentée.\n\nN'échoue jamais. Plus l'effet Prochain boost capacité spéciale du lanceur a été augmenté, plus cette attaque est puissante. Annule tous les rangs de l'effet Prochain boost capacité spéciale du lanceur."
+      },
+      "6144": {
+        "NAME": "Vive-Attaque d'étoile filante",
+        "ABBR": "Vive Attaque S",
+        "DESC": "Condition d'activation : Quand le lanceur utilise une fois n'importe quelle capacité.\nCondition de désactivation : Quand cette capacité est utilisée.\n\nApplique l'effet Rupture physique et l'effet Rupture spéciale à la cible. Réduit de 3 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 2 rangs."
+      },
+      "6145": {
+        "NAME": "Châtiment illusoire",
+        "ABBR": "Châtiment S",
+        "DESC": "Condition d'activation : Quand au moins 1 Pokémon souffrant d'une altération de statut se trouve du côté ennemi.\nCondition de désactivation : Impossible de désactiver.\n\nDouble la puissance de cette attaque quand la cible souffre d'une altération de statut. Baisse la Précision de la cible de 3 rangs. Applique l'effet Rupture spéciale à la cible."
+      },
+      "6146": {
+        "NAME": "Ultralaser grandiose",
+        "ABBR": "Ultralaser S",
+        "DESC": "Condition d'activation : Quand au moins 1 Pokémon souffrant d'une altération de statut se trouve du côté ennemi.\nCondition de désactivation : Impossible de désactiver.\n\nLa puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Double la puissance de cette attaque quand la cible souffre d'une altération de statut. Applique l'effet Prochain super efficace ↑ au lanceur quand son équipe n'a pas détermination au maximum. Augmente l'effet Prochain boost capacité Duo du lanceur de 5 rangs quand son équipe n'a pas détermination au maximum. Réduit de 2 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur quand la détermination de son équipe est déjà au maximum."
+      },
+      "6147": {
+        "NAME": "Revenant du Monde Distorsion",
+        "ABBR": "Revenant S",
+        "DESC": "Condition d'activation : Quand le Duo de votre équipe utilise une fois une capacité Duo.\nCondition de désactivation : Quand cette capacité est utilisée ou en attaquant avec cette capacité.\n\nLe lanceur commence à être un revenant. Après un certain temps, le lanceur cesse d'être un revenant et attaque. Le lanceur ne peut rien faire d'autre lorsqu'il est un revenant. La plupart des capacités ennemies ne peuvent pas toucher le lanceur lorsqu'il est un revenant. Si le lanceur subit des dégâts d'une capacité Duo ou d'une capacité Duo Dynamax alors qu'il est un revenant, il perd ce statut. Le lanceur attaque sans commencer à être un revenant quand la zone est une Zone Spectre. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Augmente l'Esquive de tous les Duos alliés de 2 rangs."
+      },
+      "6148": {
+        "NAME": "Typhon Hivernal glacial",
+        "ABBR": "Typhon Hivernal S",
+        "DESC": "Condition d'activation : Quand l'Atq. Spé. du lanceur a été augmenté(e).\nCondition de désactivation : Quand l'Atq. Spé. du lanceur n'est pas augmenté(e).\n\nN'échoue jamais quand il pleut. Baisse la Vitesse de la cible de 3 rangs. Rend l'ennemi confus. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Applique l'effet Anti-critiques au côté allié."
+      },
+      "6149": {
+        "NAME": "Typhon Fulgurant caniculaire",
+        "ABBR": "Typhon Fulgurant S",
+        "DESC": "Condition d'activation : Quand l'Atq. Spé. du lanceur a été augmenté(e).\nCondition de désactivation : Quand l'Atq. Spé. du lanceur n'est pas augmenté(e).\n\nN'échoue jamais quand il pleut. Baisse l'Atq. Spé. de la cible de 3 rangs. Paralyse l'ennemi. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Applique l'effet Résilience Spéciale au côté allié."
+      },
+      "6150": {
+        "NAME": "Typhon Pyrosable automnal",
+        "ABBR": "Typhon Pyrosable S",
+        "DESC": "Condition d'activation : Quand l'Atq. Spé. du lanceur a été augmenté(e).\nCondition de désactivation : Quand l'Atq. Spé. du lanceur n'est pas augmenté(e).\n\nN'échoue jamais quand il pleut. Baisse l'Attaque de la cible de 3 rangs. Brûle l'ennemi. La puissance de cette capacité ne baisse pas même s'il y a plusieurs cibles. Applique l'effet Résilience Physique au côté allié."
+      },
+      "6151": {
+        "NAME": "Éclate-Roc S",
+        "ABBR": "Éclate-Roc flamboyant",
+        "DESC": "Condition d'activation : Quand la zone se transforme en une Zone Combat.\nCondition de désactivation : Quand la zone n'est plus une Zone Combat.\n\nN'échoue jamais. Baisse la Défense de la cible de 4 rangs. Baisse la Résilience Combat de la cible de 1 rang la première fois que cette capacité offensive est utilisée avec succès à chaque combat."
       },
       "7000": {
         "NAME": "Récolte G-Max",
@@ -5112,6 +5192,11 @@
         "ABBR": "Danse Éveil",
         "DESC": "Aucun effet additionnel."
       },
+      "8200": {
+        "NAME": "Passion pour Kanto",
+        "ABBR": "Passion pour Kanto",
+        "DESC": "Augmente l'effet Prochain boost capacité physique de tous les Duos alliés de 1 rang. Applique Cercle de Kanto Physique au côté allié. Cercle de Kanto Physique applique tous les effets suivants : Augmente de 10 % la puissance des capacités physiques et des capacités Duo physiques de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités physiques et des capacités Duo physiques de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Kanto du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
+      },
       "8201": {
         "NAME": "Analyse de Kanto",
         "ABBR": "Analyse de Kanto",
@@ -5120,7 +5205,7 @@
       "8202": {
         "NAME": "Union de Kanto",
         "ABBR": "Union de Kanto",
-        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle de Kanto défensif au côté allié. Cercle de Kanto défensif applique tous les effets suivants : Augmente de 5 % la puissance des capacités et des capacités Duo de tous les Duos alliés et de 10 % la résistance aux dégâts des capacités offensives et des capacités Duo de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Kanto du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 5 % la puissance des capacités et des capacités Duo, et de 5 % la résistance. L'augmentation maximum est de 20 % pour la puissance des capacités et 25 % pour la résistance aux dégâts.)"
+        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle de Kanto Défensif au côté allié. Cercle de Kanto Défensif applique tous les effets suivants : Augmente de 5 % la puissance des capacités et des capacités Duo de tous les Duos alliés et de 10 % la résistance aux dégâts des capacités offensives et des capacités Duo de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Kanto du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 5 % la puissance des capacités et des capacités Duo, et de 5 % la résistance. L'augmentation maximum est de 20 % pour la puissance des capacités et 25 % pour la résistance aux dégâts.)"
       },
       "8203": {
         "NAME": "Passion pour Johto",
@@ -5130,7 +5215,7 @@
       "8204": {
         "NAME": "Analyse de Johto",
         "ABBR": "Analyse de Johto",
-        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle de Johto spécial au côté allié. Cercle de Johto spécial applique tous les effets suivants : Augmente de 10 % la puissance des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Johto du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
+        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle de Johto Spécial au côté allié. Cercle de Johto Spécial applique tous les effets suivants : Augmente de 10 % la puissance des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Johto du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
       },
       "8205": {
         "NAME": "Union de Johto",
@@ -5150,12 +5235,12 @@
       "8208": {
         "NAME": "Union de Hoenn",
         "ABBR": "Union de Hoenn",
-        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle de Hoenn défensif au côté allié. Cercle de Hoenn défensif applique tous les effets suivants : Augmente de 5 % la puissance des capacités et des capacités Duo de tous les Duos alliés et de 10 % la résistance aux dégâts des capacités offensives et des capacités Duo de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Hoenn du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 5 % la puissance des capacités et des capacités Duo, et de 5 % la résistance. L'augmentation maximum est de 20 % pour la puissance des capacités et 25 % pour la résistance aux dégâts.)"
+        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle de Hoenn Défensif au côté allié. Cercle de Hoenn Défensif applique tous les effets suivants : Augmente de 5 % la puissance des capacités et des capacités Duo de tous les Duos alliés et de 10 % la résistance aux dégâts des capacités offensives et des capacités Duo de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Hoenn du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 5 % la puissance des capacités et des capacités Duo, et de 5 % la résistance. L'augmentation maximum est de 20 % pour la puissance des capacités et 25 % pour la résistance aux dégâts.)"
       },
       "8210": {
         "NAME": "Analyse de Sinnoh",
         "ABBR": "Analyse de Sinnoh",
-        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle de Sinnoh spécial au côté allié. Cercle de Sinnoh spécial applique tous les effets suivants : Augmente de 10 % la puissance des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Sinnoh du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
+        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle de Sinnoh Spécial au côté allié. Cercle de Sinnoh Spécial applique tous les effets suivants : Augmente de 10 % la puissance des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Sinnoh du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
       },
       "8211": {
         "NAME": "Union de Sinnoh",
@@ -5170,7 +5255,7 @@
       "8213": {
         "NAME": "Analyse d'Unys",
         "ABBR": "Analyse d'Unys",
-        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle d'Unys spécial au côté allié. Cercle d'Unys spécial applique tous les effets suivants : Augmente de 10 % la puissance des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Unys du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
+        "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang. Applique Cercle d'Unys Spécial au côté allié. Cercle d'Unys Spécial applique tous les effets suivants : Augmente de 10 % la puissance des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités spéciales et des capacités Duo spéciales de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Unys du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
       },
       "8214": {
         "NAME": "Union d'Unys",
@@ -5237,6 +5322,11 @@
         "ABBR": "Direction la victoire !",
         "DESC": "Augmente l'Attaque du lanceur de 6 rangs. Applique l'effet Régénération lente PV à tous les Duos alliés."
       },
+      "10004": {
+        "NAME": "Scintiller vers la victoire",
+        "ABBR": "Scintiller vers la victoire",
+        "DESC": "Réduit de 2 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Applique l'effet Prochain super efficace ↑ au lanceur. Augmente l'effet Prochain boost capacité physique du lanceur de 3 rangs. Augmente l'effet Prochain boost capacité Duo du lanceur de 5 rangs."
+      },
       "10007": {
         "NAME": "Résister pour gagner !",
         "ABBR": "Résister pour gagner !",
@@ -5270,7 +5360,7 @@
       "10024": {
         "NAME": "En scène !",
         "ABBR": "En scène !",
-        "DESC": "Remplit 2 segments de la Jauge Capacité du lanceur. Quand ce dernier est endormi, remplit à la place 4 segments de la Jauge Capacité du lanceur. Augmente l'Attaque et l'Atq. Spé. du lanceur de 1 rang. Quand ce dernier est endormi, augmente à la place l'Attaque et l'Atq. Spé. du lanceur de 2 rangs. Quand le lanceur est endormi, celui-ci regagne environ 40\u00A0% de ses PV maximums. Quand le lanceur est endormi, celui-ci se réveille."
+        "DESC": "Remplit 2 segments de la Jauge Capacité du lanceur. Quand ce dernier est endormi, remplit à la place 4 segments de la Jauge Capacité du lanceur. Augmente l'Attaque et l'Atq. Spé. du lanceur de 1 rang. Quand ce dernier est endormi, augmente à la place l'Attaque et l'Atq. Spé. du lanceur de 2 rangs. Quand le lanceur est endormi, celui-ci regagne environ 40 % de ses PV maximums. Quand le lanceur est endormi, celui-ci se réveille."
       },
       "10028": {
         "NAME": "Ni vu, ni connu !",
@@ -5285,7 +5375,7 @@
       "10030": {
         "NAME": "On deviendra plus forts !",
         "ABBR": "On deviendra plus forts !",
-        "DESC": "Plus les PV restants du lanceur sont bas, plus son Atq. Spé. augmente (jusqu'à 4 rangs). Le lanceur regagne environ 40\u00A0% de ses PV maximums."
+        "DESC": "Plus les PV restants du lanceur sont bas, plus son Atq. Spé. augmente (jusqu'à 4 rangs). Le lanceur regagne environ 40 % de ses PV maximums."
       },
       "10037": {
         "NAME": "Soyez attentifs !",
@@ -5322,6 +5412,11 @@
         "ABBR": "Quelle chaleur !",
         "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente le taux de critiques du lanceur de 3 rangs. Augmente l'Attaque de tous les Duos alliés de 2 rangs. Augmente l'effet Prochain boost capacité physique de tous les Duos alliés de 2 rangs. Baisse la Vitesse du lanceur de 2 rangs."
       },
+      "10048": {
+        "NAME": "Tout balayer d'un coup de vent !",
+        "ABBR": "Tout balayer d'un coup de vent !",
+        "DESC": "Augmente l'Atq. Spé. d'un allié de 4 rangs. Augmente le taux de critiques d'un allié de 3 rangs. Applique l'effet Conso. 0 assurée à un allié. Augmente l'effet Prochain boost capacité spéciale d'un allié de 2 rangs."
+      },
       "10049": {
         "NAME": "Motivation et détermination !",
         "ABBR": "Motivation et détermination !",
@@ -5341,6 +5436,11 @@
         "NAME": "Tout feu, tout flamme !",
         "ABBR": "Tout feu, tout flamme !",
         "DESC": "Augmente l'Attaque et l'Atq. Spé. du lanceur de 2 rangs."
+      },
+      "10069": {
+        "NAME": "Attention, on y va à fond !",
+        "ABBR": "Attention, on y va à fond !",
+        "DESC": "Augmente l'Attaque et l'Atq. Spé. de tous les Duos alliés de 2 rangs. Augmente le taux de critiques de tous les Duos alliés de 1 rang."
       },
       "10070": {
         "NAME": "Hé ! Par ici !",
@@ -5380,7 +5480,7 @@
       "10084": {
         "NAME": "Protection florale !",
         "ABBR": "Protection florale !",
-        "DESC": "Restaure environ 40\u00A0% des PV maximums de tous les Duos alliés. Annule les baisses de stats de tous les Duos alliés. Augmente la Défense de tous les Duos alliés de 1 rang."
+        "DESC": "Restaure environ 40 % des PV maximums de tous les Duos alliés. Annule les baisses de stats de tous les Duos alliés. Augmente la Défense de tous les Duos alliés de 1 rang."
       },
       "10088": {
         "NAME": "Le temps de la floraison est arrivé !",
@@ -5395,7 +5495,7 @@
       "10090": {
         "NAME": "À pleine puissance !",
         "ABBR": "À pleine puissance !",
-        "DESC": "Le lanceur regagne environ 40\u00A0% de ses PV maximums. Remplit 2 segments de la Jauge Capacité du lanceur."
+        "DESC": "Le lanceur regagne environ 40 % de ses PV maximums. Remplit 2 segments de la Jauge Capacité du lanceur."
       },
       "10100": {
         "NAME": "La déferlante masquée !",
@@ -5577,6 +5677,11 @@
         "ABBR": "On va bien s'amuser !",
         "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente la Déf. Spé. du lanceur de 4 rangs. Augmente l'Atq. Spé. de tous les Duos alliés de 4 rangs. Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de 2 rangs. Baisse la Vitesse du lanceur de 2 rangs."
       },
+      "10209": {
+        "NAME": "Une stratégie du tonnerre !",
+        "ABBR": "Une stratégie du tonnerre !",
+        "DESC": "Augmente l'Atq. Spé. d'un allié de 4 rangs. Augmente le taux de critiques d'un allié de 3 rangs. Applique l'effet Régénération lente PV à un allié. Augmente l'effet Prochain boost capacité spéciale d'un allié de 2 rangs."
+      },
       "10210": {
         "NAME": "C'est moi le meilleur !",
         "ABBR": "C'est moi le meilleur !",
@@ -5625,7 +5730,7 @@
       "10230": {
         "NAME": "Je ne suis pas rassurée...",
         "ABBR": "Je ne suis pas rassurée...",
-        "DESC": "Un allié regagne environ 40\u00A0% de ses PV maximums. Augmente la Défense et la Déf. Spé. d'un allié de 2 rangs."
+        "DESC": "Un allié regagne environ 40 % de ses PV maximums. Augmente la Défense et la Déf. Spé. d'un allié de 2 rangs."
       },
       "10239": {
         "NAME": "Protégeons-nous !",
@@ -5660,7 +5765,7 @@
       "10260": {
         "NAME": "C'est moi la plus balèze !",
         "ABBR": "C'est moi la plus balèze !",
-        "DESC": "Le lanceur regagne environ 40\u00A0% de ses PV maximums. Augmente la Défense du lanceur de 2 rangs."
+        "DESC": "Le lanceur regagne environ 40 % de ses PV maximums. Augmente la Défense du lanceur de 2 rangs."
       },
       "10264": {
         "NAME": "On va trop s'amuser !!!",
@@ -5782,10 +5887,20 @@
         "ABBR": "Montre-moi ta puissance !",
         "DESC": "Augmente la Déf. Spé. du lanceur de 2 rangs. Applique l'effet Prêt à encaisser au lanceur."
       },
+      "10409": {
+        "NAME": "Vivre parmi les Pokémon !",
+        "ABBR": "Vivre parmi les Pokémon !",
+        "DESC": "Augmente l'Attaque du lanceur de 4 rangs. Augmente la Précision du lanceur de 1 rang. Augmente le taux de critiques du lanceur de 2 rangs."
+      },
       "10410": {
         "NAME": "Analyse terminée !",
         "ABBR": "Analyse terminée !",
         "DESC": "Augmente la Défense et la Déf. Spé. du lanceur de 1 rang. Applique l'effet Résistance de type au lanceur. Cette résistance concerne le type de la dernière attaque subie."
+      },
+      "10418": {
+        "NAME": "Analyse en cours...",
+        "ABBR": "Analyse en cours...",
+        "DESC": "Augmente le taux de critiques de tous les Duos alliés de 3 rangs. Augmente l'effet Prochain boost capacité physique de tous les Duos alliés de 1 rang."
       },
       "10419": {
         "NAME": "C'est parti !",
@@ -5835,7 +5950,7 @@
       "10460": {
         "NAME": "Je veux savoir ce que tu vaux !",
         "ABBR": "Je veux savoir ce que tu vaux !",
-        "DESC": "Le lanceur regagne environ 40\u00A0% de ses PV maximums. Augmente la Vitesse du lanceur de 2 rangs."
+        "DESC": "Le lanceur regagne environ 40 % de ses PV maximums. Augmente la Vitesse du lanceur de 2 rangs."
       },
       "10469": {
         "NAME": "Joli travail !",
@@ -5860,7 +5975,7 @@
       "10481": {
         "NAME": "J'ai un défi à te proposer.",
         "ABBR": "J'ai un défi à te proposer.",
-        "DESC": "Soigne toutes les altérations de statut du lanceur. Augmente l'Esquive et le taux de critiques du lanceur de 3 rangs. Le lanceur subit des dégâts équivalents à 90\u00A0% de ses PV restants. Si le Sharpedo du lanceur a méga-évolué, augmente également l'Attaque du lanceur de 6 rangs."
+        "DESC": "Soigne toutes les altérations de statut du lanceur. Augmente l'Esquive et le taux de critiques du lanceur de 3 rangs. Le lanceur subit des dégâts équivalents à 90 % de ses PV restants. Si le Sharpedo du lanceur a méga-évolué, augmente également l'Attaque du lanceur de 6 rangs."
       },
       "10487": {
         "NAME": "Rien n'est encore fini !",
@@ -5876,6 +5991,11 @@
         "NAME": "Pour l'amitié !",
         "ABBR": "Pour l'amitié !",
         "DESC": "Remplit jusqu'à 3 segments de la Jauge Capacité du lanceur pour chaque Duo allié sur le terrain. Plus les PV restants du lanceur sont bas, plus la Jauge Capacité se remplit. En combat en coop, remplit à la place 3 segments de la Jauge Capacité de tous les joueurs alliés. Plus les PV restants du lanceur sont bas, plus l'Attaque de tous les Duos alliés augmente (jusqu'à 4 rangs)."
+      },
+      "10498": {
+        "NAME": "Toujours plus terrible !",
+        "ABBR": "Toujours plus terrible !",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Attaque et le taux de critiques du lanceur de 2 rangs."
       },
       "10499": {
         "NAME": "C'est vivant, ici !",
@@ -5955,7 +6075,7 @@
       "10610": {
         "NAME": "Tu as du talent !",
         "ABBR": "Tu as du talent !",
-        "DESC": "Augmente la Vitesse du lanceur de 6 rangs. Le lanceur subit des dégâts équivalents à 25\u00A0% de ses PV maximums."
+        "DESC": "Augmente la Vitesse du lanceur de 6 rangs. Le lanceur subit des dégâts équivalents à 25 % de ses PV maximums."
       },
       "10619": {
         "NAME": "Nous n'allons pas nous ménager !",
@@ -6020,7 +6140,7 @@
       "10890": {
         "NAME": "Soif d'idéal",
         "ABBR": "Soif d'idéal",
-        "DESC": "Augmente la Vitesse du lanceur de 2 rangs. Augmente la Précision du lanceur de 1 rang. Baisse la Défense du lanceur de 1 rang. Quand le lanceur n'a pas Détermination au maximum, applique à celui-ci l'effet Prochain super efficace ↑."
+        "DESC": "Augmente la Vitesse du lanceur de 2 rangs. Augmente la Précision du lanceur de 1 rang. Baisse la Défense du lanceur de 1 rang. Quand l'équipe du lanceur n'a pas détermination au maximum, applique au lanceur l'effet Prochain super efficace ↑."
       },
       "10891": {
         "NAME": "Voici mon équation !",
@@ -6031,6 +6151,11 @@
         "NAME": "En quête de Réalité !",
         "ABBR": "En quête de Réalité !",
         "DESC": "Applique l'effet Accélération Jauge Capacité au côté allié. Augmente l'Atq. Spé. du lanceur de 3 rangs. Augmente la Précision du lanceur de 1 rang."
+      },
+      "10895": {
+        "NAME": "La formule de l'harmonie",
+        "ABBR": "La formule de l'harmonie",
+        "DESC": "Augmente l'Atq. Spé. d'un allié de 4 rangs. Augmente le taux de critiques d'un allié de 3 rangs. Applique l'effet Immunité altérations et tourments à un allié. Augmente l'effet Prochain boost capacité spéciale d'un allié de 2 rangs."
       },
       "10896": {
         "NAME": "Vous ne pourrez pas nous arrêter",
@@ -6185,7 +6310,7 @@
       "10960": {
         "NAME": "Au nom de l'art culinaire !",
         "ABBR": "Au nom de l'art culinaire !",
-        "DESC": "Le lanceur regagne environ 20\u00A0% de ses PV maximums. Applique l'effet Coup critique assuré au lanceur. Applique l'effet Régénération lente PV au lanceur."
+        "DESC": "Le lanceur regagne environ 20 % de ses PV maximums. Applique l'effet Coup critique assuré au lanceur. Applique l'effet Régénération lente PV au lanceur."
       },
       "10961": {
         "NAME": "Aucun compromis !",
@@ -6226,6 +6351,11 @@
         "NAME": "Bon, je m'en occupe !",
         "ABBR": "Bon, je m'en occupe !",
         "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Attaque du lanceur de 2 rangs. Augmente le taux de critiques du lanceur de 3 rangs. Applique l'effet Prêt à encaisser au lanceur."
+      },
+      "10997": {
+        "NAME": "J'ai confiance !",
+        "ABBR": "J'ai confiance !",
+        "DESC": "Augmente l'Attaque d'un allié de 4 rangs. Augmente le taux de critiques d'un allié de 3 rangs. Applique l'effet Prochain super efficace ↑ à un allié."
       },
       "10998": {
         "NAME": "Pas le temps de traîner !",
@@ -6295,7 +6425,7 @@
       "11060": {
         "NAME": "Électrisant !",
         "ABBR": "Électrisant !",
-        "DESC": "Le lanceur regagne environ 40\u00A0% de ses PV maximums. Applique l'effet Coup critique assuré au lanceur."
+        "DESC": "Le lanceur regagne environ 40 % de ses PV maximums. Applique l'effet Coup critique assuré au lanceur."
       },
       "11061": {
         "NAME": "Mon style va te faire fondre !",
@@ -6370,12 +6500,12 @@
       "11110": {
         "NAME": "Je passe à l'attaque !",
         "ABBR": "Je passe à l'attaque !",
-        "DESC": "Remplit 6 segments de la Jauge Capacité du lanceur. Le lanceur subit des dégâts équivalents à 50\u00A0% de ses PV restants."
+        "DESC": "Remplit 6 segments de la Jauge Capacité du lanceur. Le lanceur subit des dégâts équivalents à 50 % de ses PV restants."
       },
       "11114": {
         "NAME": "Uniques au monde !",
         "ABBR": "Uniques au monde !",
-        "DESC": "Remplit 3 segments de la Jauge Capacité du lanceur. Augmente l'Attaque, l'Atq. Spé et la Précision du lanceur de 1 rang. Le lanceur subit des dégâts équivalents à 33\u00A0% de ses PV restants."
+        "DESC": "Remplit 3 segments de la Jauge Capacité du lanceur. Augmente l'Attaque, l'Atq. Spé et la Précision du lanceur de 1 rang. Le lanceur subit des dégâts équivalents à 33 % de ses PV restants."
       },
       "11117": {
         "NAME": "Que le combat commence !",
@@ -6390,12 +6520,12 @@
       "11119": {
         "NAME": "Un cœur pur et fort !",
         "ABBR": "Un cœur pur et fort !",
-        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente la Vitesse de tous les Duos alliés de 2 rangs. Augmente la Précision de tous les Duos alliés de 1 rang. Le lanceur subit des dégâts équivalents à 20\u00A0% de ses PV restants."
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente la Vitesse de tous les Duos alliés de 2 rangs. Augmente la Précision de tous les Duos alliés de 1 rang. Le lanceur subit des dégâts équivalents à 20 % de ses PV restants."
       },
       "11120": {
         "NAME": "N'abandonne pas !",
         "ABBR": "N'abandonne pas !",
-        "DESC": "Le lanceur regagne environ 40\u00A0% de ses PV maximums. Augmente la Vitesse et l'Esquive du lanceur de 1 rang."
+        "DESC": "Le lanceur regagne environ 40 % de ses PV maximums. Augmente la Vitesse et l'Esquive du lanceur de 1 rang."
       },
       "11121": {
         "NAME": "C'est décidé !",
@@ -6435,12 +6565,12 @@
       "11140": {
         "NAME": "Je vois tout.",
         "ABBR": "Je vois tout.",
-        "DESC": "Un allié regagne environ 40\u00A0% de ses PV maximums. Augmente l'Atq. Spé. d'un allié de 3 rangs. Augmente la Précision d'un allié de 1 rang."
+        "DESC": "Un allié regagne environ 40 % de ses PV maximums. Augmente l'Atq. Spé. d'un allié de 3 rangs. Augmente la Précision d'un allié de 1 rang."
       },
       "11144": {
         "NAME": "Faisons le vide...",
         "ABBR": "Faisons le vide...",
-        "DESC": "Un allié regagne environ 40\u00A0% de ses PV maximums. Applique l'effet Prêt à encaisser à un allié."
+        "DESC": "Un allié regagne environ 40 % de ses PV maximums. Applique l'effet Prêt à encaisser à un allié."
       },
       "11150": {
         "NAME": "Faisons des étincelles !",
@@ -6465,7 +6595,7 @@
       "11161": {
         "NAME": "Faites de beaux rêves !",
         "ABBR": "Faites de beaux rêves !",
-        "DESC": "Augmente la Défense, la Déf. Spé. et le taux de critiques de tous les Duos alliés de 2 rangs. Le lanceur subit des dégâts équivalents à 30\u00A0% de ses PV maximums."
+        "DESC": "Augmente la Défense, la Déf. Spé. et le taux de critiques de tous les Duos alliés de 2 rangs. Le lanceur subit des dégâts équivalents à 30 % de ses PV maximums."
       },
       "11164": {
         "NAME": "Quelle douceur !",
@@ -6485,7 +6615,7 @@
       "11169": {
         "NAME": "Une danse parfaite !",
         "ABBR": "Une danse parfaite !",
-        "DESC": "Applique l'effet Anti-baisses de stats au côté allié. Le lanceur regagne environ 40\u00A0% de ses PV maximums. Augmente l'Esquive du lanceur de 1 rang."
+        "DESC": "Applique l'effet Anti-baisses de stats au côté allié. Le lanceur regagne environ 40 % de ses PV maximums. Augmente l'Esquive du lanceur de 1 rang."
       },
       "11170": {
         "NAME": "Trois... Deux... Un... GO !",
@@ -6555,7 +6685,7 @@
       "11200": {
         "NAME": "Cesse de t'inquiéter.",
         "ABBR": "Cesse de t'inquiéter.",
-        "DESC": "Augmente l'Esquive et le taux de critiques du lanceur de 1 rang. Le lanceur regagne environ 40\u00A0% de ses PV maximums quand il est en mauvaise posture. Remplit 2 segments de la Jauge Capacité du lanceur quand il est en mauvaise posture."
+        "DESC": "Augmente l'Esquive et le taux de critiques du lanceur de 1 rang. Le lanceur regagne environ 40 % de ses PV maximums quand il est en mauvaise posture. Remplit 2 segments de la Jauge Capacité du lanceur quand il est en mauvaise posture."
       },
       "11201": {
         "NAME": "Amour aveuglant !",
@@ -6590,7 +6720,7 @@
       "11227": {
         "NAME": "Gloire parvenue au soleil",
         "ABBR": "Gloire parvenue au soleil",
-        "DESC": "Réduit de 2 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'effet Prochain boost capacité physique du lanceur de 2 rangs. Augmente l'effet Prochain boost capacité Duo du lanceur de 3 rangs. Applique Cercle d'Alola physique au côté allié. Cercle d'Alola physique applique tous les effets suivants : Augmente de 10 % la puissance des capacités physiques et des capacités Duo physiques de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités physiques et des capacités Duo physiques de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Alola du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
+        "DESC": "Réduit de 2 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'effet Prochain boost capacité physique du lanceur de 2 rangs. Augmente l'effet Prochain boost capacité Duo du lanceur de 3 rangs. Applique Cercle d'Alola Physique au côté allié. Cercle d'Alola Physique applique tous les effets suivants : Augmente de 10 % la puissance des capacités physiques et des capacités Duo physiques de tous les Duos alliés et de 5 % la résistance aux dégâts des capacités physiques et des capacités Duo physiques de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Alola du côté allié, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 10 % la puissance des capacités et des capacités Duo, et de 3 % la résistance. L'augmentation maximum est de 40 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
       },
       "11228": {
         "NAME": "Ultra-endurance !",
@@ -7190,7 +7320,7 @@
       "11940": {
         "NAME": "Un monde sans émotions.",
         "ABBR": "Un monde sans émotions.",
-        "DESC": "Augmente l'Atq. Spé. et la Vitesse du lanceur de 3 rangs. Le lanceur subit des dégâts équivalents à 25\u00A0% de ses PV restants."
+        "DESC": "Augmente l'Atq. Spé. et la Vitesse du lanceur de 3 rangs. Le lanceur subit des dégâts équivalents à 25 % de ses PV restants."
       },
       "11941": {
         "NAME": "Cauchemars éternels !",
@@ -7295,7 +7425,7 @@
       "12410": {
         "NAME": "Jamais découragés !",
         "ABBR": "Jamais découragés !",
-        "DESC": "Le lanceur regagne environ 40\u00A0% de ses PV maximums. Augmente la Déf. Spé. du lanceur de 2 rangs."
+        "DESC": "Le lanceur regagne environ 40 % de ses PV maximums. Augmente la Déf. Spé. du lanceur de 2 rangs."
       },
       "12420": {
         "NAME": "C'est le moment d'attaquer !",
@@ -7321,6 +7451,16 @@
         "NAME": "Dans ma ligne de mire !",
         "ABBR": "Dans ma ligne de mire !",
         "DESC": "Augmente l'Atq. Spé. et la Vitesse du lanceur de 1 rang. Applique l'effet Coup critique assuré au lanceur. Applique l'effet Prochain super efficace ↑ au lanceur."
+      },
+      "12435": {
+        "NAME": "Amusons-nous le plus possible !",
+        "ABBR": "Amusons-nous le plus possible !",
+        "DESC": "Le lanceur regagne environ 20 % de ses PV maximums. Restaure environ 20 % des PV maximums de tous les Duos alliés. Soigne tous les Duos alliés de toutes les altérations de statut et de la peur, de la confusion et du ligotage."
+      },
+      "12436": {
+        "NAME": "Toujours se dépasser !",
+        "ABBR": "Toujours se dépasser !",
+        "DESC": "Augmente l'Attaque et l'Atq. Spé. de tous les Duos alliés de 6 rangs. Consomme jusqu'à 3 segments de la Jauge Capacité du lanceur. Plus il y a de segments consommés, plus le taux de critiques de tous les Duos alliés augmente (de 0 à 3 rangs)."
       },
       "12437": {
         "NAME": "Coup d'envoi !",
@@ -7395,7 +7535,7 @@
       "12457": {
         "NAME": "Obsédée par la gloire !",
         "ABBR": "Obsédée par la gloire !",
-        "DESC": "Augmente l'Atq. Spé. du lanceur de 6 rangs. Augmente la Vitesse du lanceur de 4 rangs. Augmente l'Esquive du lanceur de 2 rangs. Applique l'effet Prêt à encaisser au lanceur. Le lanceur subit des dégâts équivalents à 10\u00A0% de ses PV restants."
+        "DESC": "Augmente l'Atq. Spé. du lanceur de 6 rangs. Augmente la Vitesse du lanceur de 4 rangs. Augmente l'Esquive du lanceur de 2 rangs. Applique l'effet Prêt à encaisser au lanceur. Le lanceur subit des dégâts équivalents à 10 % de ses PV restants."
       },
       "12458": {
         "NAME": "Z'ALLEZ LA BOUCLER, OUI ?!",
@@ -7486,6 +7626,11 @@
         "NAME": "Le plaisir d'offrir.",
         "ABBR": "Le plaisir d'offrir.",
         "DESC": "Augmente l'Attaque et l'Atq. Spé. de tous les Duos alliés de 4 rangs. Augmente en plus l'effet Prochain boost capacité physique de tous les Duos alliés de 1 rang quand il grêle."
+      },
+      "12509": {
+        "NAME": "Dites au revoir à votre quiétude !",
+        "ABBR": "Dites au revoir à votre quiétude !",
+        "DESC": "Applique l'effet Accélération Jauge Capacité au côté allié. Augmente l'Atq. Spé. du lanceur de 6 rangs."
       },
       "12510": {
         "NAME": "Tu ne peux pas t'enfuir...",
@@ -7590,7 +7735,7 @@
       "12640": {
         "NAME": "À nous la victoire !",
         "ABBR": "À nous la victoire !",
-        "DESC": "Le lanceur regagne environ 20\u00A0% de ses PV maximums. Remplit 6 segments de la Jauge Capacité du lanceur. Applique l'effet Régénération lente PV au lanceur. Applique l'effet Prochain super efficace ↑ au lanceur. Applique l'effet Prochain Garde au lanceur."
+        "DESC": "Le lanceur regagne environ 20 % de ses PV maximums. Remplit 6 segments de la Jauge Capacité du lanceur. Applique l'effet Régénération lente PV au lanceur. Applique l'effet Prochain super efficace ↑ au lanceur. Applique l'effet Prochain Garde au lanceur."
       },
       "12649": {
         "NAME": "Nous allons tout donner !",
@@ -7620,7 +7765,7 @@
       "12820": {
         "NAME": "Un soutien Ballissimo !",
         "ABBR": "Un soutien Ballissimo !",
-        "DESC": "Active aléatoirement un des effets supplémentaires parmi plusieurs. Le lanceur regagne environ 10\u00A0% de ses PV maximums. Soigne toutes les altérations de statut de tous les Duos alliés. Augmente le taux de critiques de tous les Duos alliés de 1 rang."
+        "DESC": "Active aléatoirement un des effets supplémentaires parmi plusieurs. Le lanceur regagne environ 10 % de ses PV maximums. Soigne toutes les altérations de statut de tous les Duos alliés. Augmente le taux de critiques de tous les Duos alliés de 1 rang."
       },
       "12840": {
         "NAME": "Perdons pas notre temps !",
@@ -7647,6 +7792,11 @@
         "ABBR": "Prête à me battre corps et âme !",
         "DESC": "Augmente l'Atq. Spé. et l'Esquive du lanceur de 4 rangs. Applique l'effet Conso. 0 assurée au lanceur."
       },
+      "12855": {
+        "NAME": "Le nombre, c'est la force !",
+        "ABBR": "Le nombre, c'est la force !",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour un allié. Augmente l'Atq. Spé. d'un allié de 6 rangs. Augmente le taux de critiques d'un allié de 3 rangs."
+      },
       "12859": {
         "NAME": "Ce monde est immense !",
         "ABBR": "Ce monde est immense !",
@@ -7657,10 +7807,20 @@
         "ABBR": "C'est parti pour la Chasse au Trésor !",
         "DESC": "Augmente l'Atq. Spé. du lanceur de 6 rangs. Augmente le taux de critiques du lanceur de 3 rangs. Augmente également la Vitesse du lanceur de 6 rangs quand le champ est un Champ Électrifié."
       },
+      "12861": {
+        "NAME": "On va mettre le feu !",
+        "ABBR": "On va mettre le feu !",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente le taux de critiques du lanceur de 3 rangs."
+      },
       "12870": {
         "NAME": "Souvenirs étincelants",
         "ABBR": "Souvenirs étincelants",
         "DESC": "Augmente l'Attaque du lanceur de 6 rangs. Augmente le taux de critiques du lanceur de 3 rangs. Augmente également la Vitesse du lanceur de 6 rangs quand le soleil brille."
+      },
+      "12871": {
+        "NAME": "Grandir encore et encore !",
+        "ABBR": "Grandir encore et encore !",
+        "DESC": "Augmente l'Atq. Spé. et la Précision de tous les Duos alliés de 2 rangs. Augmente le taux de critiques de tous les Duos alliés de 3 rangs. Applique l'effet Régénération lente PV à tous les Duos alliés."
       },
       "12890": {
         "NAME": "Donnons-nous à 100 % !",
@@ -7671,6 +7831,11 @@
         "NAME": "Ça va être le meilleur combat de tous les temps !",
         "ABBR": "Ça va être le meilleur combat de tous les temps !",
         "DESC": "Augmente l'Attaque du lanceur de 6 rangs. Augmente la Vitesse du lanceur de 4 rangs."
+      },
+      "12892": {
+        "NAME": "Que c'est palpitant !",
+        "ABBR": "Que c'est palpitant !",
+        "DESC": "Augmente l'Atq. Spé. du lanceur de 4 rangs. Augmente la Précision du lanceur de 2 rangs. Augmente le taux de critiques du lanceur de 3 rangs. Applique l'effet Prochain super efficace ↑ au lanceur."
       },
       "12899": {
         "NAME": "Je vais gagner !",
@@ -7862,6 +8027,11 @@
         "ABBR": "Faites gaffe !",
         "DESC": "Augmente la Défense et la Déf. Spé. de tous les Duos alliés de 4 rangs. Applique l'effet Prêt à encaisser au lanceur."
       },
+      "13561": {
+        "NAME": "C'est quand vous voulez !",
+        "ABBR": "C'est quand vous voulez !",
+        "DESC": "Augmente l'Attaque, la Défense, l'Atq. Spé. et la Déf. Spé. de tous les Duos alliés de 2 rangs."
+      },
       "13570": {
         "NAME": "J'vais tout donner !",
         "ABBR": "J'vais tout donner !",
@@ -7871,6 +8041,11 @@
         "NAME": "Il faut que je fasse gaffe...",
         "ABBR": "Il faut que je fasse gaffe...",
         "DESC": "Applique l'effet Accélération Jauge Capacité au côté allié. Augmente l'Esquive du lanceur de 6 rangs. Applique l'effet Prêt à encaisser au lanceur."
+      },
+      "13590": {
+        "NAME": "Écrasons-les !",
+        "ABBR": "Écrasons-les !",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur. Augmente l'Attaque et l'Atq. Spé. du lanceur de 6 rangs. Augmente le taux de critiques du lanceur de 3 rangs. Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de 3 rangs. Applique l'effet Rupture physique et l'effet Rupture spéciale au lanceur."
       },
       "13640": {
         "NAME": "La montagne, y'a qu'ça de vrai !",
@@ -7930,7 +8105,7 @@
       "17012": {
         "NAME": "Dur comme la pierre !",
         "ABBR": "Dur comme la pierre !",
-        "DESC": "Un allié regagne environ 40\u00A0% de ses PV maximums. Augmente la Défense d'un allié de 2 rangs. Applique l'effet Régénération lente PV à un allié."
+        "DESC": "Un allié regagne environ 40 % de ses PV maximums. Augmente la Défense d'un allié de 2 rangs. Applique l'effet Régénération lente PV à un allié."
       },
       "17013": {
         "NAME": "Justice bleu cobalt !",
@@ -7956,6 +8131,11 @@
         "NAME": "Rapides comme l'éclair !",
         "ABBR": "Rapides comme l'éclair !",
         "DESC": "Augmente la Vitesse de tous les Duos alliés de 3 rangs. Augmente le taux de critiques de tous les Duos alliés de 1 rang."
+      },
+      "17018": {
+        "NAME": "Muscles gonflés à l'extrême !",
+        "ABBR": "Muscles gonflés à l'extrême !",
+        "DESC": "Applique l'effet Accélération Jauge Capacité au côté allié. Augmente l'Attaque et la Défense de tous les Duos alliés de 2 rangs."
       },
       "17100": {
         "NAME": "Union parfaite !",
@@ -8035,12 +8215,17 @@
       "19000": {
         "NAME": "Potion",
         "ABBR": "Potion",
-        "DESC": "Un allié regagne environ 40\u00A0% de ses PV maximums."
+        "DESC": "Un allié regagne environ 40 % de ses PV maximums."
       },
       "19001": {
         "NAME": "Mini-Potion G",
         "ABBR": "Mini-Potion G",
-        "DESC": "Restaure environ 20\u00A0% des PV maximums de tous les Duos alliés."
+        "DESC": "Restaure environ 20 % des PV maximums de tous les Duos alliés."
+      },
+      "19002": {
+        "NAME": "Super Potion",
+        "ABBR": "Super Potion",
+        "DESC": "Un allié regagne environ 60 % de ses PV maximums."
       },
       "19010": {
         "NAME": "Attaque +",
@@ -9730,7 +9915,7 @@
       "87400": {
         "NAME": "Chassons les cauchemars ! Danse Lune !",
         "ABBR": "Chassons les cauchemars ! Danse Lune !",
-        "DESC": "Restaure environ 20\u00A0% des PV maximums de tous les Duos alliés, sauf le lanceur. Plus le niveau de capacité du lanceur est haut, plus ce pourcentage est important. (Chaque niveau de capacité supplémentaire augmente la quantité de PV restaurés de 5\u00A0%. La quantité maximale restaurée correspond à environ 40\u00A0% des PV maximums.) Soigne toutes les altérations de statut de tous les Duos alliés. Soigne la peur, la confusion et le ligotage de tous les Duos alliés. Remplit 6 segments de la Jauge Capacité du lanceur."
+        "DESC": "Restaure environ 20 % des PV maximums de tous les Duos alliés, sauf le lanceur. Plus le niveau de capacité du lanceur est haut, plus ce pourcentage est important. (Chaque niveau de capacité supplémentaire augmente la quantité de PV restaurés de 5 %. La quantité maximale restaurée correspond à environ 40 % des PV maximums.) Soigne toutes les altérations de statut de tous les Duos alliés. Soigne la peur, la confusion et le ligotage de tous les Duos alliés. Remplit 6 segments de la Jauge Capacité du lanceur."
       },
       "87500": {
         "NAME": "Rêve d'un monde parfait ! Vibrobscur !",
@@ -11117,6 +11302,11 @@
         "ABBR": "Une armure en acier trempé ! Impact Acier !",
         "DESC": "Aucun effet additionnel."
       },
+      "117100": {
+        "NAME": "Rêves d'un monde meilleur ! Revenant !",
+        "ABBR": "Rêves d'un monde meilleur ! Revenant !",
+        "DESC": "Aucun effet additionnel."
+      },
       "117300": {
         "NAME": "Envol direction l'école ! Laser Psy !",
         "ABBR": "Envol direction l'école ! Laser Psy !",
@@ -11277,10 +11467,80 @@
         "ABBR": "Une coquille résistante à toute épreuve ! Laser Eau !",
         "DESC": "Aucun effet additionnel."
       },
+      "121200": {
+        "NAME": "À en faire mordre la poussière ! Laser Insecte !",
+        "ABBR": "À en faire mordre la poussière ! Laser Insecte !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "121300": {
+        "NAME": "Fasciner les êtres alentour ! Laser Plante !",
+        "ABBR": "Fasciner les êtres alentour ! Laser Plante !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "121400": {
+        "NAME": "Brûler d'envie d'apprendre ! Laser Feu !",
+        "ABBR": "Brûler d'envie d'apprendre ! Laser Feu !",
+        "DESC": "Augmente la puissance de l'attaque quand la cible est brûlée."
+      },
+      "121500": {
+        "NAME": "Éteindre n'importe quel feu ! Laser Eau !",
+        "ABBR": "Éteindre n'importe quel feu ! Laser Eau !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "121900": {
+        "NAME": "Les vents contre les éclairs ! Laser Vol !",
+        "ABBR": "Les vents contre les éclairs ! Laser Vol !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "122000": {
+        "NAME": "Les éclairs contre les vents ! Laser Électrik !",
+        "ABBR": "Les éclairs contre les vents ! Laser Électrik !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "122100": {
+        "NAME": "Calmer les vents et les éclairs ! Laser Sol !",
+        "ABBR": "Calmer les vents et les éclairs ! Laser Sol !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "122200": {
+        "NAME": "Talent infini ! Impact Combat !",
+        "ABBR": "Talent infini ! Impact Combat !",
+        "DESC": "Aucun effet additionnel."
+      },
       "122300": {
         "NAME": "Parcours extrascolaire extra-fun ! Impact Eau !",
         "ABBR": "Parcours extrascolaire extra-fun ! Impact Eau !",
         "DESC": "Aucun effet additionnel."
+      },
+      "122800": {
+        "NAME": "Affiner son savoir en combattant ! Impact Normal !",
+        "ABBR": "Affiner son savoir en combattant ! Impact Normal !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "122900": {
+        "NAME": "Muscles d'un autre monde ! Impact Insecte !",
+        "ABBR": "Muscles d'un autre monde ! Impact Insecte !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "123000": {
+        "NAME": "Froideur et rage ! Impact Glace !",
+        "ABBR": "Froideur et rage ! Impact Glace !",
+        "DESC": "Plus la Vitesse de la cible a été baissée, plus cette attaque est puissante."
+      },
+      "123100": {
+        "NAME": "De la détermination à revendre ! Impact Feu !",
+        "ABBR": "De la détermination à revendre ! Impact Feu !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "123200": {
+        "NAME": "Renforcer son esprit en combattant ! Laser Combat !",
+        "ABBR": "Renforcer son esprit en combattant ! Laser Combat !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "123300": {
+        "NAME": "La force invisible de nos liens ! Impact Spectre !",
+        "ABBR": "La force invisible de nos liens ! Impact Spectre !",
+        "DESC": "Augmente la puissance de l'attaque quand la cible est paralysée."
       },
       "200501": {
         "NAME": "La défaite, c'est pas ma tasse de thé ! Téra Explosion !",
@@ -11290,6 +11550,21 @@
       "200701": {
         "NAME": "On repart à zéro ! Téra Explosion !",
         "ABBR": "On repart à zéro ! Téra Explosion !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "200801": {
+        "NAME": "L'espace pour scintiller ! Téra Explosion !",
+        "ABBR": "L'espace pour scintiller ! Téra Explosion !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "201301": {
+        "NAME": "Scintiller en s'amusant ! Téra Explosion !",
+        "ABBR": "Scintiller en s'amusant ! Téra Explosion !",
+        "DESC": "Aucun effet additionnel."
+      },
+      "201501": {
+        "NAME": "Scintiller au sommet ! Téra Explosion !",
+        "ABBR": "Scintiller au sommet ! Téra Explosion !",
         "DESC": "Aucun effet additionnel."
       }
     },
@@ -12774,6 +13049,11 @@
         "ABBR": "Réflexe Récup'PPC Baie {{value}}",
         "DESC": "{{chance}} % de chances que les capacités du lanceur qui ont l'effet Baie regagnent 1 PPC quand il subit une capacité offensive."
       },
+      "1306290": {
+        "NAME": "Prem. Action Statut Util. Récup'PPC Capa. Sync. {{value}}",
+        "ABBR": "1e Act. Sta. Util. PPC+1 C.S. {{value}}",
+        "DESC": "La capacité Synchro du lanceur regagne {{value}} PPC la première fois que son Pokémon utilise une capacité de statut à chaque combat."
+      },
       "1307010": {
         "NAME": "Immunité Contrecoup 9",
         "ABBR": "Immunité Contrecoup 9",
@@ -12984,10 +13264,20 @@
         "ABBR": "Zone Combat Coach Pui. {{value}}",
         "DESC": "Augmente la puissance des capacités de tous les Duos alliés quand la zone est une Zone Combat."
       },
+      "1308410": {
+        "NAME": "Close Combat Puissance ↑ {{value}}",
+        "ABBR": "Close Combat Puissance ↑ {{value}}",
+        "DESC": "Augmente la puissance de Close Combat du lanceur."
+      },
       "1308420": {
         "NAME": "Cercle d'Unys Spécial Coach Puissance {{value}}",
         "ABBR": "C.Unys Spé. Coach Pui. {{value}}",
-        "DESC": "Augmente la puissance des capacités de tous les Duos alliés quand Cercle d'Unys spécial s'applique au côté allié."
+        "DESC": "Augmente la puissance des capacités de tous les Duos alliés quand Cercle d'Unys Spécial s'applique au côté allié."
+      },
+      "1308430": {
+        "NAME": "Zone Dragon Action Capacité Duo ↑ {{value}}",
+        "ABBR": "Z. Dragon Action C.Duo ↑ {{value}}",
+        "DESC": "Augmente la puissance des capacités et de la capacité Duo du lanceur quand la zone est une Zone Dragon."
       },
       "1401010": {
         "NAME": "Cadeau d'Adieu",
@@ -13207,7 +13497,7 @@
       "1501400": {
         "NAME": "Prem. Auto-Décl. Cercle de Sinnoh Spé. Compteur ↓ {{value}}",
         "ABBR": "Prem. A.Décl. C.S.Spé. Compt. ↓ {{value}}",
-        "DESC": "Réduit de {{value}} le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il applique Cercle de Sinnoh spécial au côté allié à chaque combat."
+        "DESC": "Réduit de {{value}} le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il applique Cercle de Sinnoh Spécial au côté allié à chaque combat."
       },
       "1501410": {
         "NAME": "Souhait Sol Util. Compteur ↓ {{value}}",
@@ -13238,6 +13528,11 @@
         "NAME": "Prem. Boost Phy. Sup. ou Égal 6 Compteur ↓ {{value}}",
         "ABBR": "Prem. Boost Phy. ≥ 6 Compt. ↓ {{value}}",
         "DESC": "Réduit de {{value}} le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois que son effet Prochain boost capacité physique est de rang 6 ou plus à chaque combat."
+      },
+      "1501470": {
+        "NAME": "Souhait Combat Util. Compteur ↓ {{value}}",
+        "ABBR": "S. Combat Util. Compteur ↓ {{value}}",
+        "DESC": "{{chance}} % de chances de réduire de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur quand il utilise Souhait Combat."
       },
       "1502010": {
         "NAME": "Combativité {{value}}",
@@ -13717,7 +14012,7 @@
       "1601970": {
         "NAME": "Cercle de Sinnoh Spécial Coach Capacité Duo {{value}}",
         "ABBR": "C.Sinnoh Spé. Coach Capa. Duo {{value}}",
-        "DESC": "Augmente la puissance des capacités Duo de tous les Duos alliés quand Cercle de Sinnoh spécial s'applique au côté allié."
+        "DESC": "Augmente la puissance des capacités Duo de tous les Duos alliés quand Cercle de Sinnoh Spécial s'applique au côté allié."
       },
       "1601980": {
         "NAME": "Zone Normal Coach Capacité Duo {{value}}",
@@ -13808,6 +14103,11 @@
         "NAME": "Changem. Météo Zone Champ Coach C. D. {{value}}",
         "ABBR": "Changem. MZC Coach C.D. {{value}}",
         "DESC": "Augmente la puissance des capacités Duo de tous les Duos alliés quand les conditions météo, un champ ou une zone sont actifs."
+      },
+      "1603080": {
+        "NAME": "Zone Combat Capacité Duo ↑ {{value}}",
+        "ABBR": "Zone Combat Capacité Duo ↑ {{value}}",
+        "DESC": "Augmente la puissance de la capacité Duo du lanceur quand la zone est une Zone Combat."
       },
       "1701010": {
         "NAME": "Immu. Empoisonnement",
@@ -15152,7 +15452,7 @@
       "1706940": {
         "NAME": "Ennemi Tourmenté Capa. Off. Suiv. Ult.-Eff. {{value}}",
         "ABBR": "Enn. Tourm. C.O. Suiv. U.-E. {{value}}",
-        "DESC": "{{chance}} % de chances d'appliquer l'effet Prochain super efficace ↑ au lanceur quand il utilise avec succès une capacité offensive contre un ennemi apeuré, confus ou ligoté."
+        "DESC": "{{chance}} % de chances d'appliquer l'effet Prochain super efficace ↑ au lanceur quand il utilise avec succès sa capacité offensive contre un ennemi apeuré, confus ou ligoté."
       },
       "1706950": {
         "NAME": "Capacité Offensive Boost Spécial +1 {{value}}",
@@ -15277,7 +15577,7 @@
       "1707200": {
         "NAME": "Capacité Duo Boost Spécial +2 {{value}}",
         "ABBR": "C.D. Boost Spé. +2 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale du lanceur de 2 rangs après l'utilisation d'une capacité Duo."
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale du lanceur de 2 rangs après l'utilisation de sa capacité Duo."
       },
       "1707220": {
         "NAME": "Intro Tyran Sommeil",
@@ -15487,7 +15787,7 @@
       "1707630": {
         "NAME": "Zone Acier Capacité Offensive Consommation 0 {{value}}",
         "ABBR": "Zone Acier Capa. Off. Conso. 0 {{value}}",
-        "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand il utilise avec succès une capacité offensive et que la zone est une Zone Acier."
+        "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand il utilise avec succès sa capacité offensive et que la zone est une Zone Acier."
       },
       "1707640": {
         "NAME": "Coach Puissance Électrik {{value}}",
@@ -15622,7 +15922,7 @@
       "1707900": {
         "NAME": "Zone Sol Capacité Offensive Consommation 0 {{value}}",
         "ABBR": "Zone Sol Capa. Off. Conso. 0 {{value}}",
-        "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand il utilise avec succès une capacité offensive et que la zone est une Zone Sol."
+        "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand il utilise avec succès sa capacité offensive et que la zone est une Zone Sol."
       },
       "1707910": {
         "NAME": "Capacité Coach Boost Spécial +2 {{value}}",
@@ -15959,6 +16259,51 @@
         "ABBR": "1er C.Duo Coa. Boost Phy. Spé. {{value}}",
         "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de {{value}} rang la première fois que le lanceur utilise une capacité Duo à chaque combat."
       },
+      "1708600": {
+        "NAME": "Capacité Duo Boost Physique +3 {{value}}",
+        "ABBR": "Capa. Duo Boost Physique +3 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique du lanceur de 3 rangs après l'utilisation de sa capacité Duo."
+      },
+      "1708610": {
+        "NAME": "Enn. Altér. Allié C. Off. Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "Enn. Alt. Al. C.O. Boost P.S. +1 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale d'un allié de 1 rang quand il utilise avec succès sa capacité offensive contre un ennemi qui souffre d'une altération de statut."
+      },
+      "1708620": {
+        "NAME": "Enn. Altér. Allié C. Off. Boost Capa. Duo +2 {{value}}",
+        "ABBR": "Enn. Alt. Al. C.O. Boost C.D. +2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité Duo d'un allié de 2 rangs quand il utilise avec succès sa capacité offensive contre un ennemi qui souffre d'une altération de statut."
+      },
+      "1708630": {
+        "NAME": "Intro Tyran Résilience Spectre {{value}}",
+        "ABBR": "Intro Tyran Résil. Spectre {{value}}",
+        "DESC": "Baisse la Résilience Spectre de tous les Duos ennemis de {{value}} rang la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1708640": {
+        "NAME": "Première Capacité Dr. Boost Capacité Duo 10",
+        "ABBR": "Première Capa. Dr. Boost Capa. Duo 10",
+        "DESC": "Augmente l'effet Prochain boost capacité Duo du lanceur de 10 rangs la première fois que son Dresseur utilise une capacité à chaque combat."
+      },
+      "1708650": {
+        "NAME": "Zone Spectre Capacité Offensive Tourment {{value}}",
+        "ABBR": "Z. Spectre Capa. Off. Tourment {{value}}",
+        "DESC": "{{chance}} % de chances d'appliquer l'effet Peur, Confusion et Ligotage à la cible quand le lanceur utilise avec succès une capacité offensive contre elle et que la zone est une Zone Spectre."
+      },
+      "1708660": {
+        "NAME": "Ennemi Tourmenté Capa. Off. Conso. 0 {{value}}",
+        "ABBR": "Enn. Tourm. C.Off. Conso. 0 {{value}}",
+        "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand il utilise avec succès sa capacité offensive contre un ennemi apeuré, confus ou ligoté."
+      },
+      "1708670": {
+        "NAME": "Enn. Tourmenté Capa. Off. Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "Enn. Tourm. C.Off. Boost P.S. +1 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de 1 rang quand il utilise avec succès sa capacité offensive contre un ennemi apeuré, confus ou ligoté."
+      },
+      "1708680": {
+        "NAME": "Prem. Capa. Duo Tyran Résilience Spectre {{value}}",
+        "ABBR": "Prem. C.D. Tyran Résil. Spectre {{value}}",
+        "DESC": "Baisse la Résilience Spectre de tous les Duos ennemis de {{value}} rang la première fois que le lanceur utilise une capacité Duo à chaque combat."
+      },
       "1708690": {
         "NAME": "Intro Coach Suiv. Ultra-Efficace",
         "ABBR": "Intro Coa. Suiv. Ultra-Efficace",
@@ -15984,6 +16329,16 @@
         "ABBR": "Intro Coach Boost Capa. Duo {{value}}",
         "DESC": "Augmente l'effet Prochain boost capacité Duo de tous les Duos alliés de {{value}} rang la première fois que le lanceur arrive au combat à chaque combat."
       },
+      "1708740": {
+        "NAME": "Souhait Combat Util. Boost Physique +2 {{value}}",
+        "ABBR": "S. Combat Util. Boost Phy. +2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique du lanceur de 2 rangs quand il utilise Souhait Combat."
+      },
+      "1708750": {
+        "NAME": "Zone Combat Capa. Off. Consommation 0 {{value}}",
+        "ABBR": "Z. Combat Capa. Off. Conso. 0 {{value}}",
+        "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand il utilise avec succès sa capacité offensive et que la zone est une Zone Combat."
+      },
       "1708760": {
         "NAME": "Allié Décl. Ch. Herbu Coach Boost Phy. Spé. +1 {{value}}",
         "ABBR": "All. Ch. Her. Coa. Boost P.S. +1 {{value}}",
@@ -15993,6 +16348,51 @@
         "NAME": "Super Efficace 1 Tourment {{value}}",
         "ABBR": "Super Efficace 1 Tourment {{value}}",
         "DESC": "{{chance}} % de chances d'appliquer l'effet Peur, Confusion ou bien Ligotage à la cible quand la capacité du lanceur contre elle est super efficace."
+      },
+      "1708800": {
+        "NAME": "Capacité Dresseur Boost Spécial +2 {{value}}",
+        "ABBR": "Capa. Dres. Boost Spécial +2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale du lanceur de 2 rangs quand son Dresseur utilise une capacité."
+      },
+      "1708810": {
+        "NAME": "Prem. Capacité Duo Coach Prochain Garde",
+        "ABBR": "Prem. C.Duo Coach Prochain Garde",
+        "DESC": "Applique l'effet Prochain Garde à tous les Duos alliés la première fois que le lanceur utilise une capacité Duo à chaque combat."
+      },
+      "1708820": {
+        "NAME": "Capacité Duo Coach Boost Phys. Spé. +2 {{value}}",
+        "ABBR": "C.Duo Coach Boost Phy. Spé. +2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 2 rangs après l'utilisation d'une capacité Duo par le lanceur."
+      },
+      "1708830": {
+        "NAME": "Intro Tyran Poison grave",
+        "ABBR": "Intro Tyran Poison grave",
+        "DESC": "Empoisonne gravement tous les Duos ennemis la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1708840": {
+        "NAME": "Prem. Capacité Offensive Boost Phy. Spé. {{value}}",
+        "ABBR": "Prem. C.Off. Boost Phy. Spé. {{value}}",
+        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de {{value}} rang la première fois qu'il utilise avec succès sa capacité offensive à chaque combat."
+      },
+      "1708850": {
+        "NAME": "Zone Spectre Capa. Off. Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "Z. Spectre C.Off. Boost P.S. +1 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de 1 rang quand il utilise avec succès sa capacité offensive alors que la zone est une Zone Spectre."
+      },
+      "1708860": {
+        "NAME": "Première Capacité Duo Boost Capacité Duo 10",
+        "ABBR": "Prem. Capa. Duo Boost Capa. Duo 10",
+        "DESC": "Augmente l'effet Prochain boost capacité Duo du lanceur de 10 rangs la première fois qu'il utilise sa capacité Duo à chaque combat."
+      },
+      "1708900": {
+        "NAME": "Allié Décl. Zone Spectre Coa. Boost Phy. Spé. +2 {{value}}",
+        "ABBR": "Al. Décl. Z.Sp. Coa. Boost P.S. +2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 2 rangs quand un allié transforme la zone en une Zone Spectre."
+      },
+      "1708910": {
+        "NAME": "Capacité Coach Boost Physique Spécial +1 {{value}}",
+        "ABBR": "Capa. Coach Boost Phy. Spé. +1 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang quand le lanceur utilise avec succès une capacité."
       },
       "1801010": {
         "NAME": "Résistance ↓Attaque {{value}}",
@@ -18192,7 +18592,7 @@
       "1811940": {
         "NAME": "Prem. Auto-Décl. Cercle de Sinnoh Spé. Atq. Spé. ↑ {{value}}",
         "ABBR": "Prem. A.Décl. C.S.Spé. A.Spé. ↑ {{value}}",
-        "DESC": "Augmente l'Atq. Spé. du lanceur de {{value}} rang la première fois qu'il applique Cercle de Sinnoh spécial au côté allié à chaque combat."
+        "DESC": "Augmente l'Atq. Spé. du lanceur de {{value}} rang la première fois qu'il applique Cercle de Sinnoh Spécial au côté allié à chaque combat."
       },
       "1811950": {
         "NAME": "Capacité Duo Lanceur Déf. Déf. Spé. ↓ {{value}}",
@@ -18377,12 +18777,22 @@
       "1812340": {
         "NAME": "Auto-Décl. Cercle d'Unys Spé. Coa. Déf. Déf. Spé. 2 {{value}}",
         "ABBR": "A.Décl. C.Unys Coa. D. Déf.S. 2 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter la Défense et la Déf. Spé. de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys spécial au côté allié."
+        "DESC": "{{chance}} % de chances d'augmenter la Défense et la Déf. Spé. de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys Spécial au côté allié."
+      },
+      "1812350": {
+        "NAME": "Capacité Offensive Coach Déf. Déf. Spé. 2 {{value}}",
+        "ABBR": "Capa. Off. Coach Déf. D.Spé. 2 {{value}}",
+        "DESC": "{{chance}} % de chances d'augmenter la Défense et la Déf. Spé. de tous les Duos alliés de 2 rangs quand le lanceur utilise avec succès une capacité offensive."
       },
       "1812360": {
         "NAME": "Intro Coach 7 Stats {{value}}",
         "ABBR": "Intro Coach 7 Stats {{value}}",
         "DESC": "Augmente l'Attaque, la Défense, l'Atq. Spé., la Déf. Spé., la Vitesse, la Précision et l'Esquive de tous les Duos alliés de {{value}} rang la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1812370": {
+        "NAME": "Close Combat Attaque Attaque Spéciale ↓ {{value}}",
+        "ABBR": "Close Combat Atq. A.Spé. ↓ {{value}}",
+        "DESC": "Baisse l'Attaque et l'Atq. Spé. de la cible de {{value}} rang quand le lanceur utilise Close Combat avec succès."
       },
       "1812380": {
         "NAME": "Enn. Brûlé Capa. Off. Déf. Déf. Spé. ↓ {{value}}",
@@ -18392,17 +18802,47 @@
       "1812390": {
         "NAME": "Auto-Décl. Cercle d'Unys Spé. Coach Atq. 2 {{value}}",
         "ABBR": "A.Décl. C.Unys Spé. Coa. Atq. 2 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'Attaque de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys spécial au côté allié."
+        "DESC": "{{chance}} % de chances d'augmenter l'Attaque de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys Spécial au côté allié."
       },
       "1812400": {
         "NAME": "Auto-Décl. Cercle d'Unys Spé. Coach Atq. Spé. 2 {{value}}",
         "ABBR": "A.Décl. C.Unys Spé. Coa. Atq.S. 2 {{value}}",
-        "DESC": "{{chance}} % de chances d'augmenter l'Atq. Spé. de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys spécial au côté allié."
+        "DESC": "{{chance}} % de chances d'augmenter l'Atq. Spé. de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys Spécial au côté allié."
+      },
+      "1812410": {
+        "NAME": "Duo-Téracristallisation Attaque ↑ {{value}}",
+        "ABBR": "Duo-Téra. Attaque ↑ {{value}}",
+        "DESC": "Augmente l'Attaque du lanceur de {{value}} rang quand il bascule en Duo-Téracristal."
       },
       "1812420": {
         "NAME": "Pluie Capacité Offensive Stat 2↓ {{value}}",
         "ABBR": "Pluie Capacité Off. Stat 2↓ {{value}}",
         "DESC": "{{chance}} % de chances de baisser aléatoirement une des stats suivantes de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive alors qu'il pleut : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
+      },
+      "1812460": {
+        "NAME": "Capacité Coach Attaque Vitesse {{value}}",
+        "ABBR": "Capa. Coach Attaque Vitesse {{value}}",
+        "DESC": "Augmente l'Attaque et la Vitesse de tous les Duos alliés de {{value}} rang quand le lanceur utilise avec succès une capacité."
+      },
+      "1812470": {
+        "NAME": "Enn. Brûlé Capa. Off. Attaque Défense 2↓ {{value}}",
+        "ABBR": "Enn. Brûlé C.Off. Atq. Déf. 2↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser l'Attaque et la Défense de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive contre un ennemi brûlé."
+      },
+      "1812480": {
+        "NAME": "Enn. Emp. Capa. Off. Déf. Déf. Spé. ↓ {{value}}",
+        "ABBR": "Enn. Emp. C.Off. Déf. D.Spé. ↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser la Défense et la Déf. Spé. de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive contre un ennemi empoisonné ou gravement empoisonné."
+      },
+      "1812490": {
+        "NAME": "Capacité Offensive Défense 6↓ {{value}}",
+        "ABBR": "Capa. Offensive Défense 6↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser la Défense de la cible de 6 rangs quand le lanceur utilise avec succès une capacité offensive contre elle."
+      },
+      "1812500": {
+        "NAME": "Capacité Offensive Défense Spéciale 6↓ {{value}}",
+        "ABBR": "Capa. Off. Défense Spéciale 6↓ {{value}}",
+        "DESC": "{{chance}} % de chances de baisser la Déf. Spé. de la cible de 6 rangs quand le lanceur utilise avec succès une capacité offensive contre elle."
       },
       "1901010": {
         "NAME": "Transperceur",
@@ -19197,22 +19637,22 @@
       "1905480": {
         "NAME": "Cercle de Kanto Défensif Prolongé {{value}}",
         "ABBR": "C.Kanto Défensif Prolongé {{value}}",
-        "DESC": "Cercle de Kanto défensif dure plus longtemps quand Cercle de Kanto défensif est appliqué au côté allié."
+        "DESC": "Cercle de Kanto Défensif dure plus longtemps quand Cercle de Kanto Défensif est appliqué au côté allié."
       },
       "1905490": {
         "NAME": "Cercle de Hoenn Défensif Prolongé {{value}}",
         "ABBR": "C.Hoenn Défensif Prolongé {{value}}",
-        "DESC": "Cercle de Hoenn défensif dure plus longtemps quand Cercle de Hoenn défensif est appliqué au côté allié."
+        "DESC": "Cercle de Hoenn Défensif dure plus longtemps quand Cercle de Hoenn Défensif est appliqué au côté allié."
       },
       "1905500": {
         "NAME": "Prem. Capa. Duo Cercle de Kanto Déf. Équipe",
         "ABBR": "Prem. C.Duo C.Kanto Déf. Équipe",
-        "DESC": "Applique Cercle de Kanto défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
+        "DESC": "Applique Cercle de Kanto Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
       },
       "1905510": {
         "NAME": "Prem. Capa. Duo Cercle de Hoenn Déf. Équipe",
         "ABBR": "Prem. C.Duo C.Hoenn Déf. Équipe",
-        "DESC": "Applique Cercle de Hoenn défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
+        "DESC": "Applique Cercle de Hoenn Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
       },
       "1905520": {
         "NAME": "Prem. Capa. Duo Cercle de Paldea Déf. Équipe",
@@ -19222,7 +19662,7 @@
       "1905530": {
         "NAME": "Cercle de Sinnoh Spécial Prolongé {{value}}",
         "ABBR": "C.Sinnoh Spécial Prolongé {{value}}",
-        "DESC": "Cercle de Sinnoh spécial dure plus longtemps quand Cercle de Sinnoh spécial est appliqué au côté allié."
+        "DESC": "Cercle de Sinnoh Spécial dure plus longtemps quand Cercle de Sinnoh Spécial est appliqué au côté allié."
       },
       "1905540": {
         "NAME": "Turbo Prolongé {{value}}",
@@ -19252,12 +19692,12 @@
       "1905590": {
         "NAME": "Cercle de Johto Spécial Prolongé {{value}}",
         "ABBR": "C.Johto Spécial Prolongé {{value}}",
-        "DESC": "Cercle de Johto spécial dure plus longtemps quand Cercle de Johto spécial est appliqué au côté allié."
+        "DESC": "Cercle de Johto Spécial dure plus longtemps quand Cercle de Johto Spécial est appliqué au côté allié."
       },
       "1905600": {
         "NAME": "Intro Cercle de Johto Spécial Équipe",
         "ABBR": "Intro C.Johto Spécial Équipe",
-        "DESC": "Applique Cercle de Johto spécial au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+        "DESC": "Applique Cercle de Johto Spécial au côté allié la première fois que le lanceur arrive au combat à chaque combat."
       },
       "1905610": {
         "NAME": "Prem. Capa. Dr. Cercle de Paldea Déf. Équipe",
@@ -19352,12 +19792,52 @@
       "1905790": {
         "NAME": "Intro Cercle d'Unys Spécial Équipe",
         "ABBR": "Intro C.Unys Spécial Équipe",
-        "DESC": "Applique Cercle d'Unys spécial au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+        "DESC": "Applique Cercle d'Unys Spécial au côté allié la première fois que le lanceur arrive au combat à chaque combat."
       },
       "1905800": {
         "NAME": "Arrivée Cercle de Johto Phy. Équipe Coach Boost Phy. {{value}}",
         "ABBR": "Arr. C.Johto Phy. Coa. Bst.P. {{value}}",
         "DESC": "Applique Cercle de Johto Physique au côté allié quand le lanceur arrive au combat. Augmente l'effet Prochain boost capacité physique de tous les Duos alliés de {{value}} rang quand le lanceur arrive au combat."
+      },
+      "1905810": {
+        "NAME": "Première Capacité Offensive Zone Roche",
+        "ABBR": "Prem. Capa. Offensive Zone Roche",
+        "DESC": "Transforme la zone en une Zone Roche la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. (Une Zone Roche renforce les attaques de type Roche.)"
+      },
+      "1905820": {
+        "NAME": "Première Capacité Offensive Zone Dragon",
+        "ABBR": "Prem. Capa. Offensive Zone Dragon",
+        "DESC": "Transforme la zone en une Zone Dragon la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. (Une Zone Dragon renforce les attaques de type Dragon.)"
+      },
+      "1905830": {
+        "NAME": "Prem. C. Duo Cercle de Kanto Phy. Équipe",
+        "ABBR": "Prem. C.Duo C.Kanto Phy. Équipe",
+        "DESC": "Applique Cercle de Kanto Physique au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
+      },
+      "1905840": {
+        "NAME": "Première Capacité Offensive Zone Poison EX",
+        "ABBR": "Prem. Capa. Off. Zone Poison EX",
+        "DESC": "Transforme la zone en une Zone Poison EX la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. (Une Zone Poison EX renforce les attaques de type Poison.)"
+      },
+      "1905850": {
+        "NAME": "Prem. C. Duo Cercle de Sinnoh Spé. Équipe",
+        "ABBR": "Prem. C.Duo C.Sinnoh Spé. Équipe",
+        "DESC": "Applique Cercle de Sinnoh Spécial au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat."
+      },
+      "1905860": {
+        "NAME": "Première Capacité Dr. Zone Spectre EX",
+        "ABBR": "Prem. Capa. Dr. Zone Spectre EX",
+        "DESC": "Transforme la zone en une Zone Spectre EX la première fois que le Dresseur du lanceur utilise une capacité à chaque combat. (Une Zone Spectre EX renforce les attaques de type Spectre.)"
+      },
+      "1905870": {
+        "NAME": "Première Capa. Off. Champ Électrifié EX",
+        "ABBR": "Prem. Capa. Off. Champ Électrifié EX",
+        "DESC": "Transforme le champ en un Champ électrifié EX la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat."
+      },
+      "1905880": {
+        "NAME": "Première Capacité Offensive Zone Sol EX",
+        "ABBR": "Prem. Capa. Offensive Zone Sol EX",
+        "DESC": "Transforme la zone en une Zone Sol EX la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. (Une Zone Sol EX renforce les attaques de type Sol.)"
       },
       "1905890": {
         "NAME": "Première Capacité Duo Zone Fée",
@@ -19393,6 +19873,46 @@
         "NAME": "Cercle d'Unys Spécial Prolongé {{value}}",
         "ABBR": "C.Unys Spécial Prolongé {{value}}",
         "DESC": "Cercle d'Unys spécial dure plus longtemps quand Cercle d'Unys spécial est appliqué au côté allié."
+      },
+      "1905980": {
+        "NAME": "Intro Zone Combat",
+        "ABBR": "Intro Zone Combat",
+        "DESC": "Transforme la zone en une Zone Combat la première fois que le lanceur arrive au combat à chaque combat. (Une Zone Combat renforce les attaques de type Combat.)"
+      },
+      "1905990": {
+        "NAME": "Intro Cercle de Galar Défensif Équipe",
+        "ABBR": "Intro C.Galar Défensif Équipe",
+        "DESC": "Applique Cercle de Galar Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1906000": {
+        "NAME": "Intro Cercle de Galar Déf. Équipe Prolongé {{value}}",
+        "ABBR": "Intro C.Galar Déf. Équipe Pro. {{value}}",
+        "DESC": "Applique Cercle de Galar Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat. Cercle de Galar Défensif dure plus longtemps quand Cercle de Galar Défensif est appliqué au côté allié."
+      },
+      "1906010": {
+        "NAME": "Intro Cercle de Sinnoh Spécial Équipe",
+        "ABBR": "Intro C.Sinnoh Spécial Équipe",
+        "DESC": "Applique Cercle de Sinnoh Spécial au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "1906020": {
+        "NAME": "Intro Cercle de Sinnoh Spé. Équipe Prolongé {{value}}",
+        "ABBR": "Intro C.Sinnoh Spé. Équipe Pro. {{value}}",
+        "DESC": "Applique Cercle de Sinnoh Spécial au côté allié la première fois que le lanceur arrive au combat à chaque combat. Cercle de Sinnoh Spécial dure plus longtemps quand Cercle de Sinnoh Spécial est appliqué au côté allié."
+      },
+      "1906030": {
+        "NAME": "Intro Cercle de Kanto Phy. Équipe Prolongé {{value}}",
+        "ABBR": "Intro C.Kanto Phy. Équipe Pro. {{value}}",
+        "DESC": "Applique Cercle de Kanto Physique au côté allié la première fois que le lanceur arrive au combat à chaque combat. Cercle de Kanto Physique dure plus longtemps quand Cercle de Kanto Physique est appliqué au côté allié."
+      },
+      "1906070": {
+        "NAME": "Première Capacité Duo Zone Spectre",
+        "ABBR": "Prem. Capacité Duo Zone Spectre",
+        "DESC": "Transforme la zone en une Zone Spectre la première fois que le lanceur utilise une capacité Duo à chaque combat. (Une Zone Spectre renforce les attaques de type Spectre.)"
+      },
+      "1906080": {
+        "NAME": "Prem. C. Off. Champ Psy. Champ Psy. Prolongé {{value}}",
+        "ABBR": "Prem. C.Off. Ch.Psy. Pro. {{value}}",
+        "DESC": "Transforme le champ en un Champ Psychique la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. Le Champ Psychique dure plus longtemps quand le champ devient un Champ Psychique et que le lanceur est sur le terrain."
       },
       "2001010": {
         "NAME": "Immunité Sable",
@@ -19447,7 +19967,12 @@
       "2101100": {
         "NAME": "Cercle d'Unys Spécial Coach Immu. Critiques",
         "ABBR": "C.Unys Spécial Coach Immu. Critiques",
-        "DESC": "Protège tous les Duos alliés des coups critiques quand Cercle d'Unys spécial s'applique au côté allié."
+        "DESC": "Protège tous les Duos alliés des coups critiques quand Cercle d'Unys Spécial s'applique au côté allié."
+      },
+      "2101110": {
+        "NAME": "Zone Roche Coach Immunité Critiques",
+        "ABBR": "Zone Roche Coach Immunité Critiques",
+        "DESC": "Protège tous les Duos alliés des coups critiques quand la zone est une Zone Roche."
       },
       "2201010": {
         "NAME": "Air Nocif {{value}}",
@@ -19898,6 +20423,36 @@
         "NAME": "Charisme Électrik",
         "ABBR": "Charisme Électrik",
         "DESC": "Augmente de 10 % la puissance des capacités de tous les Duos alliés et de 10 % la résistance aux dégâts des capacités offensives de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Électrik dans votre équipe, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 5 % la puissance des capacités et de 2 % la résistance. L'augmentation maximum est de 20 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
+      },
+      "2802110": {
+        "NAME": "Charisme Normal",
+        "ABBR": "Charisme Normal",
+        "DESC": "Augmente de 10 % la puissance des capacités de tous les Duos alliés et de 10 % la résistance aux dégâts des capacités offensives de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Normal dans votre équipe, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 5 % la puissance des capacités et de 2 % la résistance. L'augmentation maximum est de 20 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
+      },
+      "2802120": {
+        "NAME": "Charisme Insecte",
+        "ABBR": "Charisme Insecte",
+        "DESC": "Augmente de 10 % la puissance des capacités de tous les Duos alliés et de 10 % la résistance aux dégâts des capacités offensives de tous les Duos alliés. Plus il y a de Duos avec le mot-clé Insecte dans votre équipe, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 5 % la puissance des capacités et de 2 % la résistance. L'augmentation maximum est de 20 % pour la puissance des capacités et 14 % pour la résistance aux dégâts.)"
+      },
+      "2804010": {
+        "NAME": "L'as scintillant de Galar",
+        "ABBR": "L'as scintillant de Galar",
+        "DESC": "Augmente de 20 % la puissance des capacités et des capacités Duo de tous les Duos alliés et de 25 % la résistance aux dégâts des capacités offensives et des capacités Duo de tous les Duos alliés. Plus il y a de Duos alliés avec le mot-clé Galar dans votre équipe, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 15 % la puissance des capacités et des capacités Duo et de 3 % la résistance. L'augmentation maximum est de 50 % pour la puissance des capacités et 31 % pour la résistance aux dégâts.) Applique l'effet Prêt à encaisser à tous les Duos alliés la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "2804020": {
+        "NAME": "La légende scintillante de Kanto",
+        "ABBR": "La légende scintillante de Kanto",
+        "DESC": "Augmente de 20 % la puissance des capacités et des capacités Duo de tous les Duos alliés et de 25 % la résistance aux dégâts des capacités offensives et des capacités Duo de tous les Duos alliés. Plus il y a de Duos alliés avec le mot-clé Kanto dans votre équipe, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 15 % la puissance des capacités et des capacités Duo et de 3 % la résistance. L'augmentation maximum est de 50 % pour la puissance des capacités et 31 % pour la résistance aux dégâts.) Augmente l'effet Prochain boost capacité physique du lanceur de 3 rangs après l'utilisation de sa capacité Duo."
+      },
+      "2804030": {
+        "NAME": "La perle scintillante de Hisui",
+        "ABBR": "La perle scintillante de Hisui",
+        "DESC": "Augmente de 20 % la puissance des capacités et des capacités Duo de tous les Duos alliés et de 25 % la résistance aux dégâts des capacités offensives et des capacités Duo de tous les Duos alliés. Plus il y a de Duos alliés avec le mot-clé Sinnoh dans votre équipe, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 15 % la puissance des capacités et des capacités Duo et de 3 % la résistance. L'augmentation maximum est de 50 % pour la puissance des capacités et 31 % pour la résistance aux dégâts.) Restaure environ 20 % des PV maximums de tous les Duos alliés la première fois que le lanceur utilise une capacité Duo à chaque combat."
+      },
+      "2804040": {
+        "NAME": "Expert en Pokémon de Hisui",
+        "ABBR": "Expert en Pokémon de Hisui",
+        "DESC": "Augmente de 20 % la puissance des capacités et des capacités Duo de tous les Duos alliés et de 25 % la résistance aux dégâts des capacités offensives et des capacités Duo de tous les Duos alliés. Plus il y a de Duos alliés avec le mot-clé Sinnoh dans votre équipe, plus cet effet est puissant. (Chaque Duo supplémentaire augmente de 15 % la puissance des capacités et des capacités Duo et de 3 % la résistance. L'augmentation maximum est de 50 % pour la puissance des capacités et 31 % pour la résistance aux dégâts.) Baisse la Résilience Spectre de tous les Duos ennemis de 1 rang la première fois que le lanceur utilise une capacité Duo à chaque combat."
       },
       "2901010": {
         "NAME": "Mythe Fer",
@@ -20427,12 +20982,12 @@
       "3201920": {
         "NAME": "Fascination pour les Pokémon fossiles",
         "ABBR": "Fascination pour les Pokémon fossiles",
-        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Applique Cercle de Kanto défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Cercle de Kanto défensif dure plus longtemps quand Cercle de Kanto défensif est appliqué au côté allié."
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Applique Cercle de Kanto Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Cercle de Kanto Défensif dure plus longtemps quand Cercle de Kanto Défensif est appliqué au côté allié."
       },
       "3201930": {
         "NAME": "Ornithologue parcourant le monde",
         "ABBR": "Ornithologue parcourant le monde",
-        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Applique Cercle de Hoenn défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Cercle de Hoenn défensif dure plus longtemps quand Cercle de Hoenn défensif est appliqué au côté allié."
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Applique Cercle de Hoenn Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Cercle de Hoenn Défensif dure plus longtemps quand Cercle de Hoenn Défensif est appliqué au côté allié."
       },
       "3201940": {
         "NAME": "Une réalité aussi froide et impitoyable que la neige",
@@ -20518,6 +21073,21 @@
         "NAME": "Intro Duo-Téracristallisation Combat",
         "ABBR": "Intro Duo-Téracristallisation Combat",
         "DESC": "Le lanceur bascule en Duo-Téracristal de type Combat la première fois qu'il arrive au combat à chaque combat."
+      },
+      "3301080": {
+        "NAME": "Intro Duo-Téracristallisation Poison",
+        "ABBR": "Intro Duo-Téracristallisation Poison",
+        "DESC": "Le lanceur bascule en Duo-Téracristal de type Poison la première fois qu'il arrive au combat à chaque combat."
+      },
+      "3301130": {
+        "NAME": "Intro Duo-Téracristallisation Roche",
+        "ABBR": "Intro Duo-Téracristallisation Roche",
+        "DESC": "Le lanceur bascule en Duo-Téracristal de type Roche la première fois qu'il arrive au combat à chaque combat."
+      },
+      "3301150": {
+        "NAME": "Intro Duo-Téracristallisation Dragon",
+        "ABBR": "Intro Duo-Téracristallisation Dragon",
+        "DESC": "Le lanceur bascule en Duo-Téracristal de type Dragon la première fois qu'il arrive au combat à chaque combat."
       },
       "5130206": {
         "NAME": "Intégrité Résil. C. Poké. C. D. {{value}}",
@@ -21142,7 +21712,7 @@
       "9902200": {
         "NAME": "Expression d'un cœur plein de bonté",
         "ABBR": "Expression d'un cœur plein de bonté",
-        "DESC": "Réduit de 3 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il applique Cercle de Sinnoh spécial au côté allié à chaque combat. Augmente l'Atq. Spé. du lanceur de 4 rangs la première fois qu'il applique Cercle de Sinnoh spécial au côté allié à chaque combat."
+        "DESC": "Réduit de 3 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il applique Cercle de Sinnoh Spécial au côté allié à chaque combat. Augmente l'Atq. Spé. du lanceur de 4 rangs la première fois qu'il applique Cercle de Sinnoh Spécial au côté allié à chaque combat."
       },
       "9902210": {
         "NAME": "Talent fleurissant",
@@ -21497,7 +22067,7 @@
       "9902920": {
         "NAME": "Harmonie des humains et de la nature",
         "ABBR": "Harmonie des humains et de la nature",
-        "DESC": "Applique Cercle d'Unys spécial au côté allié la première fois que le lanceur arrive au combat à chaque combat. Augmente la Défense et la Déf. Spé. de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys spécial au côté allié."
+        "DESC": "Applique Cercle d'Unys Spécial au côté allié la première fois que le lanceur arrive au combat à chaque combat. Augmente la Défense et la Déf. Spé. de tous les Duos alliés de 2 rangs quand le lanceur applique Cercle d'Unys Spécial au côté allié."
       },
       "9902930": {
         "NAME": "Programme d'Attaque",
@@ -21528,6 +22098,86 @@
         "NAME": "Émulateur de ROM",
         "ABBR": "Émulateur de ROM",
         "DESC": "Change le type de la capacité du lanceur pour celui de la faiblesse d'une cible unique quand le lanceur attaque avec Ultralaser Z."
+      },
+      "9902990": {
+        "NAME": "Scintillement d'un sourire assuré",
+        "ABBR": "Scintillement d'un sourire assuré",
+        "DESC": "Les effets suivants s'appliquent quand le lanceur utilise avec succès une capacité offensive contre une cible : Restaure les PV de tous les Duos alliés. Augmente la Défense et la Déf. Spé. de tous les Duos alliés de 2 rangs. Applique l'effet Conso. 0 assurée au lanceur."
+      },
+      "9903000": {
+        "NAME": "Souvenirs de combats contre le type Roche",
+        "ABBR": "Souvenirs de combats contre le type Roche",
+        "DESC": "Transforme la zone en une Zone Roche la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. Transforme la zone en une Zone Roche la première fois que le lanceur utilise une capacité Duo à chaque combat. (Une Zone Roche renforce les attaques de type Roche.) La Zone Roche dure plus longtemps quand la zone devient une Zone Roche et que le lanceur est sur le terrain."
+      },
+      "9903010": {
+        "NAME": "Le coup final de l'as de Galar",
+        "ABBR": "Le coup final de l'as de Galar",
+        "DESC": "Applique Cercle de Galar Défensif au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Augmente la détermination de l'équipe du lanceur de 1 rang la première fois qu'il utilise sa capacité Duo à chaque combat."
+      },
+      "9903020": {
+        "NAME": "L'éclat d'un esprit combatif taciturne",
+        "ABBR": "L'éclat d'un esprit combatif taciturne",
+        "DESC": "Augmente l'Attaque du lanceur de 6 rangs quand il bascule en Duo-Téracristal. Inflige un coup critique si les attaques suivantes du lanceur atteignent leur cible (sauf dans certains cas) : capacités du Pokémon ou capacité Duo. Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de 1 rang quand sa capacité offensive atteint sa cible."
+      },
+      "9903030": {
+        "NAME": "Aura de dragon débordante",
+        "ABBR": "Aura de dragon débordante",
+        "DESC": "Transforme la zone en une Zone Dragon la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. Transforme la zone en une Zone Dragon la première fois que le lanceur utilise une capacité Duo à chaque combat. (Une Zone Dragon renforce les attaques de type Dragon.) La Zone Dragon dure plus longtemps quand la zone devient une Zone Dragon et que le lanceur est sur le terrain."
+      },
+      "9903040": {
+        "NAME": "Intuition de la légende vivante",
+        "ABBR": "Intuition de la légende vivante",
+        "DESC": "Applique Cercle de Kanto Physique au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Augmente la détermination de l'équipe du lanceur de 1 rang la première fois qu'il utilise sa capacité Duo à chaque combat."
+      },
+      "9903050": {
+        "NAME": "Aide apaisant le combat",
+        "ABBR": "Aide apaisant le combat",
+        "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale d'un allié de 1 rang quand il utilise avec succès sa capacité offensive contre un ennemi qui souffre d'une altération de statut. Augmente l'effet Prochain boost capacité Duo d'un allié de 2 rangs quand il utilise avec succès sa capacité offensive contre un ennemi qui souffre d'une altération de statut."
+      },
+      "9903060": {
+        "NAME": "Espace mangeur d'âme",
+        "ABBR": "Espace mangeur d'âme",
+        "DESC": "Change les capacités de type Normal en type Poison. Transforme la zone en une Zone Poison EX la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. (Une Zone Poison EX renforce les attaques de type Poison.)"
+      },
+      "9903070": {
+        "NAME": "Décision de la Cheffe clairvoyante",
+        "ABBR": "Décision de la Cheffe clairvoyante",
+        "DESC": "Applique Cercle de Sinnoh Spécial au côté allié la première fois que le lanceur utilise une capacité Duo à chaque combat. Augmente la détermination de l'équipe du lanceur de 1 rang la première fois qu'il utilise sa capacité Duo à chaque combat."
+      },
+      "9903080": {
+        "NAME": "Obsession pour le créateur de l'univers",
+        "ABBR": "Obsession pour le créateur de l'univers",
+        "DESC": "Réduit de 3 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Baisse la Résilience Spectre de tous les Duos ennemis de 1 rang la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "9903090": {
+        "NAME": "Étrange aura distordue",
+        "ABBR": "Étrange aura distordue",
+        "DESC": "Transforme la zone en une Zone Spectre EX la première fois que le Dresseur du lanceur utilise une capacité à chaque combat. (Une Zone Spectre EX renforce les attaques de type Spectre.) Augmente l'effet Prochain boost capacité Duo du lanceur de 10 rangs la première fois que son Dresseur utilise une capacité à chaque combat."
+      },
+      "9903100": {
+        "NAME": "Un monde où ciel et terre ne font qu'un",
+        "ABBR": "Un monde où ciel et terre ne font qu'un",
+        "DESC": "Applique l'effet Peur, Confusion et Ligotage à la cible quand le lanceur utilise avec succès une capacité offensive contre elle et que la zone est une Zone Spectre. Applique l'effet Conso. 0 assurée au lanceur quand il utilise avec succès sa capacité offensive contre un ennemi apeuré, confus ou ligoté. Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de 1 rang quand il utilise avec succès sa capacité offensive contre un ennemi apeuré, confus ou ligoté."
+      },
+      "9903110": {
+        "NAME": "Tourbillon de la passionnée de combat",
+        "ABBR": "Tourbillon de la passionnée de combat",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il utilise sa capacité Duo à chaque combat. Transforme la zone en une Zone Vol EX la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. (Une Zone Vol EX renforce les attaques de type Vol.)"
+      },
+      "9903120": {
+        "NAME": "Tonnerre grondant du héros en blanc",
+        "ABBR": "Tonnerre grondant du héros en blanc",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il utilise sa capacité Duo à chaque combat. Transforme le champ en un Champ électrifié EX la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat."
+      },
+      "9903130": {
+        "NAME": "Récolte abondante du héros en noir",
+        "ABBR": "Récolte abondante du héros en noir",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il utilise sa capacité Duo à chaque combat. Transforme la zone en une Zone Sol EX la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. (Une Zone Sol EX renforce les attaques de type Sol.)"
+      },
+      "9903140": {
+        "NAME": "L'incarnation du changement des saisons",
+        "ABBR": "L'incarnation du changement des saisons",
+        "DESC": "Augmente la Déf. Spé. de tous les Duos alliés de 1 rang quand le lanceur utilise avec succès une capacité offensive. Baisse la Déf. Spé. de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive contre elle."
       },
       "9903150": {
         "NAME": "Solennité de Red (Look Ultime)",
@@ -21619,10 +22269,35 @@
         "ABBR": "Concentration de Pepper",
         "DESC": "Transforme la zone en une Zone Ténèbres la première fois que le lanceur arrive au combat à chaque combat. (Une Zone Ténèbres renforce les attaques de type Ténèbres.) La Zone Ténèbres dure plus longtemps quand la zone devient une Zone Ténèbres et que le lanceur est sur le terrain."
       },
+      "9903330": {
+        "NAME": "Qui a le temps de compter ?",
+        "ABBR": "Qui a le temps de compter ?",
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur quand il utilise Souhait Combat. Augmente l'effet Prochain boost capacité physique du lanceur de 2 rangs quand il utilise Souhait Combat."
+      },
+      "9903340": {
+        "NAME": "Impulsif et téméraire",
+        "ABBR": "Impulsif et téméraire",
+        "DESC": "Augmente la puissance de Close Combat du lanceur. Les stats du lanceur ne peuvent pas être baissées. Baisse l'Attaque et l'Atq. Spé. de la cible de 1 rang quand le lanceur utilise Close Combat avec succès."
+      },
       "9903350": {
         "NAME": "Souvenirs de la Route 120",
         "ABBR": "Souvenirs de la Route 120",
-        "DESC": "Invoque la pluie la première fois que le lanceur arrive au combat à chaque combat. Applique Cercle de Hoenn défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+        "DESC": "Invoque la pluie la première fois que le lanceur arrive au combat à chaque combat. Applique Cercle de Hoenn Défensif au côté allié la première fois que le lanceur arrive au combat à chaque combat."
+      },
+      "9903430": {
+        "NAME": "Le pouvoir de ramener le calme",
+        "ABBR": "Le pouvoir de ramener le calme",
+        "DESC": "La capacité Châtiment illusoire du lanceur regagne 1 PPC la première fois qu'il utilise cette capacité à chaque combat. La capacité Ultralaser grandiose du lanceur regagne 1 PPC la première fois qu'il utilise cette capacité à chaque combat."
+      },
+      "9903440": {
+        "NAME": "Une ombre profonde",
+        "ABBR": "Une ombre profonde",
+        "DESC": "La Zone Spectre dure plus longtemps quand la zone devient une Zone Spectre et que le lanceur est sur le terrain. Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de 1 rang quand il utilise avec succès sa capacité offensive alors que la zone est une Zone Spectre."
+      },
+      "9903570": {
+        "NAME": "Un lieu à la croisée de deux mondes",
+        "ABBR": "Un lieu à la croisée de deux mondes",
+        "DESC": "Transforme la zone en une Zone Spectre la première fois que le lanceur utilise avec succès une capacité offensive à chaque combat. Transforme la zone en une Zone Spectre la première fois que le lanceur utilise une capacité Duo à chaque combat. (Une Zone Spectre renforce les attaques de type Spectre.) La Zone Spectre dure plus longtemps quand la zone devient une Zone Spectre et que le lanceur est sur le terrain."
       }
     },
     "THEMES": {
@@ -21710,7 +22385,8 @@
       "29990069": "Vieux amis",
       "29990070": "Voyageurs d'Alola",
       "29990071": "Voyageurs de Galar",
-      "29990072": "Œufs"
+      "29990072": "Œufs",
+      "29990073": "Voyageurs de Hisui"
     },
     "THEME_GROUPS": {
       "2001": "Type",
@@ -22164,7 +22840,15 @@
       "20000418": "Tour de Combat",
       "20000419": "Ultra Balls",
       "20000420": "Collections",
-      "20000421": "Poké Loisir"
+      "20000421": "Poké Loisir",
+      "20000422": "Théffroyable",
+      "20000423": "Juliana",
+      "20000424": "Florian",
+      "20000425": "Pommes Nectar",
+      "20000426": "Chasse aux Monstres",
+      "20000427": "Jaderaude",
+      "20000428": "Lac Cristallin",
+      "20000429": "Masques"
     },
     "TOPIC_GROUP": {
       "1": "Pokémon",

@@ -771,6 +771,170 @@
     "change": "NONE"
   },
   {
+    "id": "000004000600",
+    "trainerId": "000004",
+    "gridId": "000004000600",
+    "entry": 8405,
+    "promotion": 5,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": 1756360800,
+    "dateExRole": 1756360800,
+    "dateAwakening": -1,
+    "exMode": 1,
+    "role": "ROLE_001",
+    "exRole": "ROLE_004",
+    "awakeningSkill": 0,
+    "themes": [
+      20010015,
+      20020001,
+      20030001,
+      20040011,
+      29990018
+    ],
+    "acquisition": 274,
+    "pokemon": [
+      {
+        "id": "000600",
+        "weak": "TYPE_006",
+        "moves": [
+          6142,
+          182,
+          6143,
+          10004,
+          201501
+        ],
+        "skills": [
+          [
+            2804020,
+            0
+          ],
+          [
+            3301150,
+            0
+          ],
+          [
+            9903030,
+            0
+          ],
+          [
+            9903040,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            110,
+            16,
+            15,
+            13,
+            15,
+            17
+          ],
+          [
+            189,
+            71,
+            36,
+            57,
+            36,
+            60
+          ],
+          [
+            264,
+            122,
+            54,
+            99,
+            54,
+            99
+          ],
+          [
+            561,
+            331,
+            131,
+            264,
+            131,
+            264
+          ],
+          [
+            625,
+            375,
+            147,
+            300,
+            147,
+            300
+          ],
+          [
+            689,
+            419,
+            163,
+            336,
+            163,
+            336
+          ],
+          [
+            881,
+            551,
+            211,
+            444,
+            211,
+            444
+          ]
+        ],
+        "kind": "BASE"
+      },
+      {
+        "id": "000665",
+        "weak": "TYPE_006",
+        "moves": [
+          6142,
+          182,
+          6143,
+          10004,
+          201501,
+          4043
+        ],
+        "skills": [
+          [
+            2804020,
+            0
+          ],
+          [
+            9903020,
+            0
+          ],
+          [
+            9903030,
+            0
+          ],
+          [
+            9903040,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        ],
+        "kind": "TERA_15"
+      }
+    ],
+    "change": "TERA"
+  },
+  {
     "id": "000100074500",
     "trainerId": "000100",
     "gridId": "000100074500",
@@ -2836,6 +3000,125 @@
     "change": "NONE"
   },
   {
+    "id": "000400064100",
+    "trainerId": "000400",
+    "gridId": "000400064100",
+    "entry": 6806,
+    "promotion": 5,
+    "date": 1757052000,
+    "dateGrid": 1757052000,
+    "date6ex": 1757052000,
+    "dateExRole": 1757052000,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_016",
+    "exRole": "ROLE_002",
+    "awakeningSkill": 0,
+    "themes": [
+      20010010,
+      20020005,
+      20030001,
+      29990054,
+      29990064
+    ],
+    "acquisition": 16,
+    "pokemon": [
+      {
+        "id": "064100",
+        "weak": "TYPE_006",
+        "moves": [
+          846,
+          19160,
+          6148,
+          10048,
+          121900
+        ],
+        "skills": [
+          [
+            9903110,
+            0
+          ],
+          [
+            9903140,
+            0
+          ],
+          [
+            1202190,
+            9
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            96,
+            10,
+            10,
+            17,
+            12,
+            15
+          ],
+          [
+            172,
+            60,
+            33,
+            69,
+            36,
+            61
+          ],
+          [
+            244,
+            108,
+            54,
+            117,
+            57,
+            103
+          ],
+          [
+            530,
+            295,
+            142,
+            315,
+            145,
+            279
+          ],
+          [
+            590,
+            335,
+            158,
+            355,
+            165,
+            315
+          ],
+          [
+            650,
+            375,
+            174,
+            395,
+            185,
+            351
+          ],
+          [
+            830,
+            495,
+            222,
+            515,
+            245,
+            459
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
     "id": "000401071900",
     "trainerId": "000401",
     "gridId": "000401071900",
@@ -3467,6 +3750,124 @@
             319,
             317,
             359
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
+    "id": "000600007800",
+    "trainerId": "000600",
+    "gridId": "000600007800",
+    "entry": 3501,
+    "promotion": 4,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": 1756360800,
+    "dateExRole": -1,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_002",
+    "exRole": "",
+    "awakeningSkill": 0,
+    "themes": [
+      20010002,
+      20020004,
+      20030003,
+      29990064
+    ],
+    "acquisition": 512,
+    "pokemon": [
+      {
+        "id": "007800",
+        "weak": "TYPE_013",
+        "moves": [
+          488,
+          19071,
+          340,
+          10069,
+          123100
+        ],
+        "skills": [
+          [
+            1809510,
+            9
+          ],
+          [
+            1810550,
+            9
+          ],
+          [
+            1704020,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            100,
+            7,
+            10,
+            7,
+            10,
+            16
+          ],
+          [
+            169,
+            31,
+            39,
+            21,
+            39,
+            53
+          ],
+          [
+            235,
+            52,
+            66,
+            33,
+            66,
+            89
+          ],
+          [
+            499,
+            140,
+            176,
+            88,
+            176,
+            232
+          ],
+          [
+            555,
+            160,
+            200,
+            100,
+            200,
+            260
+          ],
+          [
+            611,
+            180,
+            224,
+            112,
+            224,
+            288
+          ],
+          [
+            779,
+            240,
+            296,
+            148,
+            296,
+            372
           ]
         ],
         "kind": "BASE"
@@ -4791,10 +5192,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1666677600,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_001",
     "exRole": "",
     "awakeningSkill": 0,
@@ -4910,10 +5311,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1658728800,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -6542,10 +6943,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1597125600,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -10193,6 +10594,125 @@
     "change": "NONE"
   },
   {
+    "id": "002000064200",
+    "trainerId": "002000",
+    "gridId": "002000064200",
+    "entry": 6704,
+    "promotion": 5,
+    "date": 1757052000,
+    "dateGrid": 1757052000,
+    "date6ex": 1757052000,
+    "dateExRole": 1757052000,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_016",
+    "exRole": "ROLE_002",
+    "awakeningSkill": 0,
+    "themes": [
+      20010004,
+      20020005,
+      20030001,
+      29990054,
+      29990020
+    ],
+    "acquisition": 16,
+    "pokemon": [
+      {
+        "id": "064200",
+        "weak": "TYPE_013",
+        "moves": [
+          847,
+          19160,
+          6149,
+          10209,
+          122000
+        ],
+        "skills": [
+          [
+            9903120,
+            0
+          ],
+          [
+            9903140,
+            0
+          ],
+          [
+            1202190,
+            9
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            96,
+            10,
+            10,
+            17,
+            12,
+            15
+          ],
+          [
+            172,
+            60,
+            33,
+            69,
+            36,
+            61
+          ],
+          [
+            244,
+            108,
+            54,
+            117,
+            57,
+            103
+          ],
+          [
+            530,
+            295,
+            142,
+            315,
+            145,
+            279
+          ],
+          [
+            590,
+            335,
+            158,
+            355,
+            165,
+            315
+          ],
+          [
+            650,
+            375,
+            174,
+            395,
+            185,
+            351
+          ],
+          [
+            830,
+            495,
+            222,
+            515,
+            245,
+            459
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
     "id": "002001064900",
     "trainerId": "002001",
     "gridId": "002001064900",
@@ -11565,10 +12085,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1648188000,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_001",
     "exRole": "",
     "awakeningSkill": 0,
@@ -12680,10 +13200,10 @@
     "promotion": 4,
     "date": 0,
     "dateGrid": 1653458400,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -13393,10 +13913,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1579068000,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -13512,10 +14032,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1661407200,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_002",
     "exRole": "",
     "awakeningSkill": 0,
@@ -13750,10 +14270,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1666677600,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_001",
     "exRole": "",
     "awakeningSkill": 0,
@@ -15296,10 +15816,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1648188000,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -15415,10 +15935,10 @@
     "promotion": 3,
     "date": 1582178400,
     "dateGrid": 1648188000,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -16120,6 +16640,125 @@
     "change": "NONE"
   },
   {
+    "id": "004000036500",
+    "trainerId": "004000",
+    "gridId": "004000036500",
+    "entry": 4201,
+    "promotion": 4,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": 1756360800,
+    "dateExRole": -1,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_004",
+    "exRole": "",
+    "awakeningSkill": 0,
+    "themes": [
+      20010006,
+      20020005,
+      20030004,
+      29990058,
+      20040004
+    ],
+    "acquisition": 512,
+    "pokemon": [
+      {
+        "id": "036500",
+        "weak": "TYPE_004",
+        "moves": [
+          423,
+          19020,
+          333,
+          10409,
+          123000
+        ],
+        "skills": [
+          [
+            1706960,
+            4
+          ],
+          [
+            1303040,
+            1
+          ],
+          [
+            1810090,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            103,
+            12,
+            13,
+            12,
+            10,
+            9
+          ],
+          [
+            174,
+            64,
+            33,
+            64,
+            30,
+            39
+          ],
+          [
+            240,
+            112,
+            51,
+            112,
+            48,
+            66
+          ],
+          [
+            504,
+            310,
+            128,
+            310,
+            125,
+            176
+          ],
+          [
+            560,
+            350,
+            144,
+            350,
+            141,
+            200
+          ],
+          [
+            616,
+            390,
+            160,
+            390,
+            157,
+            224
+          ],
+          [
+            784,
+            510,
+            208,
+            510,
+            205,
+            296
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
     "id": "004000061500",
     "trainerId": "004000",
     "gridId": "004000061500",
@@ -16127,10 +16766,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1640412000,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -16477,6 +17116,125 @@
     "change": "NONE"
   },
   {
+    "id": "004100048600",
+    "trainerId": "004100",
+    "gridId": "004100048600",
+    "entry": 3602,
+    "promotion": 5,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": 1756360800,
+    "dateExRole": -1,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_002",
+    "exRole": "",
+    "awakeningSkill": 0,
+    "themes": [
+      20010001,
+      20020004,
+      20030016,
+      29990026,
+      29990061
+    ],
+    "acquisition": 512,
+    "pokemon": [
+      {
+        "id": "048600",
+        "weak": "TYPE_007",
+        "moves": [
+          23,
+          19000,
+          182,
+          10418,
+          122800
+        ],
+        "skills": [
+          [
+            2802110,
+            0
+          ],
+          [
+            1812460,
+            1
+          ],
+          [
+            1706730,
+            9
+          ],
+          [
+            2101010,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            100,
+            10,
+            17,
+            11,
+            17,
+            16
+          ],
+          [
+            179,
+            39,
+            50,
+            37,
+            50,
+            53
+          ],
+          [
+            254,
+            66,
+            80,
+            61,
+            80,
+            89
+          ],
+          [
+            551,
+            176,
+            201,
+            160,
+            201,
+            232
+          ],
+          [
+            615,
+            200,
+            225,
+            180,
+            225,
+            260
+          ],
+          [
+            679,
+            224,
+            249,
+            200,
+            249,
+            288
+          ],
+          [
+            871,
+            296,
+            321,
+            260,
+            321,
+            372
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
     "id": "004200027900",
     "trainerId": "004200",
     "gridId": "004200027900",
@@ -16484,10 +17242,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1656136800,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -16722,10 +17480,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1658728800,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -16841,10 +17599,10 @@
     "promotion": 3,
     "date": 1582178400,
     "dateGrid": 1658728800,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -18787,6 +19545,125 @@
     "change": "SYNC"
   },
   {
+    "id": "004900030200",
+    "trainerId": "004900",
+    "gridId": "004900030200",
+    "entry": 2602,
+    "promotion": 4,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": 1756360800,
+    "dateExRole": -1,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_008",
+    "exRole": "",
+    "awakeningSkill": 0,
+    "themes": [
+      20010014,
+      20020003,
+      20030003,
+      29990060,
+      29990068
+    ],
+    "acquisition": 512,
+    "pokemon": [
+      {
+        "id": "030200",
+        "weak": "TYPE_018",
+        "moves": [
+          310,
+          86,
+          566,
+          10498,
+          123300
+        ],
+        "skills": [
+          [
+            1501200,
+            1
+          ],
+          [
+            1202090,
+            1
+          ],
+          [
+            1809380,
+            9
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            100,
+            15,
+            12,
+            13,
+            10,
+            12
+          ],
+          [
+            168,
+            65,
+            33,
+            57,
+            30,
+            45
+          ],
+          [
+            231,
+            113,
+            51,
+            99,
+            48,
+            75
+          ],
+          [
+            484,
+            300,
+            128,
+            264,
+            125,
+            196
+          ],
+          [
+            540,
+            340,
+            144,
+            300,
+            141,
+            220
+          ],
+          [
+            596,
+            380,
+            160,
+            336,
+            157,
+            244
+          ],
+          [
+            764,
+            500,
+            208,
+            444,
+            205,
+            316
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
     "id": "004900035600",
     "trainerId": "004900",
     "gridId": "004900047700",
@@ -19151,10 +20028,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1677304800,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_002",
     "exRole": "",
     "awakeningSkill": 0,
@@ -19270,10 +20147,10 @@
     "promotion": 3,
     "date": 1582178400,
     "dateGrid": 1677304800,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_002",
     "exRole": "",
     "awakeningSkill": 0,
@@ -19627,10 +20504,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1674626400,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_002",
     "exRole": "",
     "awakeningSkill": 0,
@@ -19746,10 +20623,10 @@
     "promotion": 4,
     "date": 0,
     "dateGrid": 1645768800,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -19865,10 +20742,10 @@
     "promotion": 4,
     "date": 1582178400,
     "dateGrid": 1645768800,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -20266,10 +21143,10 @@
     "promotion": 4,
     "date": 0,
     "dateGrid": 1664085600,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_004",
     "exRole": "",
     "awakeningSkill": 0,
@@ -23227,6 +24104,125 @@
             444,
             205,
             264
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
+    "id": "008900064500",
+    "trainerId": "008900",
+    "gridId": "008900064500",
+    "entry": 11207,
+    "promotion": 5,
+    "date": 1757052000,
+    "dateGrid": 1757052000,
+    "date6ex": 1757052000,
+    "dateExRole": 1757052000,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_016",
+    "exRole": "ROLE_002",
+    "awakeningSkill": 0,
+    "themes": [
+      20010009,
+      20020005,
+      20030006,
+      20030011,
+      29990054
+    ],
+    "acquisition": 16,
+    "pokemon": [
+      {
+        "id": "064500",
+        "weak": "TYPE_006",
+        "moves": [
+          848,
+          19160,
+          6150,
+          10895,
+          122100
+        ],
+        "skills": [
+          [
+            9903130,
+            0
+          ],
+          [
+            9903140,
+            0
+          ],
+          [
+            1202190,
+            9
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            101,
+            17,
+            12,
+            17,
+            10,
+            13
+          ],
+          [
+            179,
+            69,
+            36,
+            69,
+            33,
+            57
+          ],
+          [
+            254,
+            117,
+            57,
+            117,
+            54,
+            99
+          ],
+          [
+            551,
+            315,
+            145,
+            315,
+            142,
+            264
+          ],
+          [
+            615,
+            355,
+            165,
+            355,
+            158,
+            300
+          ],
+          [
+            679,
+            395,
+            185,
+            395,
+            174,
+            336
+          ],
+          [
+            871,
+            515,
+            245,
+            515,
+            222,
+            444
           ]
         ],
         "kind": "BASE"
@@ -27877,6 +28873,125 @@
     "change": "NONE"
   },
   {
+    "id": "009900039200",
+    "trainerId": "009900",
+    "gridId": "009900039200",
+    "entry": 2904,
+    "promotion": 5,
+    "date": 1756706400,
+    "dateGrid": 1756706400,
+    "date6ex": 1756706400,
+    "dateExRole": 1756706400,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_016",
+    "exRole": "ROLE_008",
+    "awakeningSkill": 0,
+    "themes": [
+      20010007,
+      20020004,
+      20030006,
+      20040007,
+      29990064
+    ],
+    "acquisition": 16,
+    "pokemon": [
+      {
+        "id": "039200",
+        "weak": "TYPE_003",
+        "moves": [
+          370,
+          19570,
+          6151,
+          10997,
+          122200
+        ],
+        "skills": [
+          [
+            9903330,
+            0
+          ],
+          [
+            9903340,
+            0
+          ],
+          [
+            1708750,
+            9
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            101,
+            17,
+            12,
+            6,
+            12,
+            12
+          ],
+          [
+            179,
+            60,
+            35,
+            43,
+            35,
+            55
+          ],
+          [
+            254,
+            99,
+            56,
+            79,
+            56,
+            94
+          ],
+          [
+            551,
+            264,
+            144,
+            222,
+            144,
+            259
+          ],
+          [
+            615,
+            300,
+            160,
+            250,
+            160,
+            295
+          ],
+          [
+            679,
+            336,
+            176,
+            278,
+            176,
+            331
+          ],
+          [
+            871,
+            444,
+            224,
+            362,
+            224,
+            439
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
     "id": "009900039300",
     "trainerId": "009900",
     "gridId": "009900039500",
@@ -29654,6 +30769,124 @@
     "pokemon": [
       {
         "id": "058500",
+        "weak": "TYPE_010",
+        "moves": [
+          412,
+          -1,
+          -1,
+          -1,
+          119300
+        ],
+        "skills": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            27,
+            18,
+            13,
+            18,
+            13,
+            18
+          ],
+          [
+            51,
+            35,
+            18,
+            35,
+            18,
+            57
+          ],
+          [
+            72,
+            50,
+            21,
+            50,
+            21,
+            93
+          ],
+          [
+            160,
+            116,
+            32,
+            116,
+            32,
+            236
+          ],
+          [
+            180,
+            128,
+            36,
+            128,
+            36,
+            268
+          ],
+          [
+            200,
+            140,
+            40,
+            140,
+            40,
+            300
+          ],
+          [
+            260,
+            176,
+            52,
+            176,
+            52,
+            396
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
+    "id": "010103058501",
+    "trainerId": "010103",
+    "gridId": "010103058501",
+    "entry": 3906,
+    "promotion": 5,
+    "date": 1758520800,
+    "dateGrid": 1758520800,
+    "date6ex": 1758520800,
+    "dateExRole": 1758520800,
+    "dateAwakening": -1,
+    "exMode": 1,
+    "role": "ROLE_016",
+    "exRole": "ROLE_008",
+    "awakeningSkill": 0,
+    "themes": [
+      20010005,
+      20020005,
+      20030001,
+      20040012
+    ],
+    "acquisition": 0,
+    "pokemon": [
+      {
+        "id": "058501",
         "weak": "TYPE_010",
         "moves": [
           412,
@@ -31951,10 +33184,10 @@
     "promotion": 3,
     "date": 0,
     "dateGrid": 1591250400,
-    "date6ex": -1,
+    "date6ex": 1756360800,
     "dateExRole": -1,
     "dateAwakening": -1,
-    "exMode": 0,
+    "exMode": 1,
     "role": "ROLE_002",
     "exRole": "",
     "awakeningSkill": 0,
@@ -43246,11 +44479,11 @@
     "date": 1580364000,
     "dateGrid": 1617861600,
     "date6ex": 1659074400,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_001",
-    "exRole": "",
+    "exRole": "ROLE_002",
     "awakeningSkill": 0,
     "themes": [
       20010015,
@@ -43364,11 +44597,11 @@
     "date": 1660111200,
     "dateGrid": 1660111200,
     "date6ex": 1660111200,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_001",
-    "exRole": "",
+    "exRole": "ROLE_002",
     "awakeningSkill": 0,
     "themes": [
       20010015,
@@ -45275,11 +46508,11 @@
     "date": 1588226400,
     "dateGrid": 1621317600,
     "date6ex": 1652940000,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_001",
-    "exRole": "",
+    "exRole": "ROLE_008",
     "awakeningSkill": 0,
     "themes": [
       20010002,
@@ -45394,11 +46627,11 @@
     "date": 1653890400,
     "dateGrid": 1653890400,
     "date6ex": 1653890400,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_001",
-    "exRole": "",
+    "exRole": "ROLE_008",
     "awakeningSkill": 0,
     "themes": [
       20010002,
@@ -46357,11 +47590,11 @@
     "date": 1613023200,
     "dateGrid": 1613023200,
     "date6ex": 1673503200,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_002",
-    "exRole": "",
+    "exRole": "ROLE_008",
     "awakeningSkill": 0,
     "themes": [
       20010018,
@@ -46476,11 +47709,11 @@
     "date": 1676268000,
     "dateGrid": 1676268000,
     "date6ex": 1676268000,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_002",
-    "exRole": "",
+    "exRole": "ROLE_008",
     "awakeningSkill": 0,
     "themes": [
       20010018,
@@ -47863,11 +49096,11 @@
     "date": 1575525600,
     "dateGrid": 1627279200,
     "date6ex": 1631772000,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_001",
-    "exRole": "",
+    "exRole": "ROLE_016",
     "awakeningSkill": 0,
     "themes": [
       20010011,
@@ -47981,11 +49214,11 @@
     "date": 1631772000,
     "dateGrid": 1631772000,
     "date6ex": 1631772000,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_001",
-    "exRole": "",
+    "exRole": "ROLE_016",
     "awakeningSkill": 0,
     "themes": [
       20010011,
@@ -55682,11 +56915,11 @@
     "date": 1597644000,
     "dateGrid": 1615788000,
     "date6ex": 1642053600,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_001",
-    "exRole": "",
+    "exRole": "ROLE_002",
     "awakeningSkill": 0,
     "themes": [
       20010015,
@@ -55800,11 +57033,11 @@
     "date": 1644472800,
     "dateGrid": 1644472800,
     "date6ex": 1644472800,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_001",
-    "exRole": "",
+    "exRole": "ROLE_002",
     "awakeningSkill": 0,
     "themes": [
       20010015,
@@ -56037,11 +57270,11 @@
     "date": 1620108000,
     "dateGrid": 1620108000,
     "date6ex": 1667196000,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_004",
-    "exRole": "",
+    "exRole": "ROLE_002",
     "awakeningSkill": 0,
     "themes": [
       20010006,
@@ -56155,11 +57388,11 @@
     "date": 1668405600,
     "dateGrid": 1668405600,
     "date6ex": 1668405600,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_004",
-    "exRole": "",
+    "exRole": "ROLE_002",
     "awakeningSkill": 0,
     "themes": [
       20010006,
@@ -59995,6 +61228,170 @@
     "change": "ALTR"
   },
   {
+    "id": "024304081500",
+    "trainerId": "024304",
+    "gridId": "024304081500",
+    "entry": 11105,
+    "promotion": 5,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": 1756360800,
+    "dateExRole": 1756360800,
+    "dateAwakening": -1,
+    "exMode": 1,
+    "role": "ROLE_002",
+    "exRole": "ROLE_008",
+    "awakeningSkill": 0,
+    "themes": [
+      20010013,
+      20020008,
+      20030001,
+      20040011,
+      29990064
+    ],
+    "acquisition": 274,
+    "pokemon": [
+      {
+        "id": "081500",
+        "weak": "TYPE_003",
+        "moves": [
+          780,
+          12435,
+          6144,
+          12436,
+          201301
+        ],
+        "skills": [
+          [
+            2804010,
+            0
+          ],
+          [
+            3301130,
+            0
+          ],
+          [
+            9903000,
+            0
+          ],
+          [
+            9903010,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            101,
+            10,
+            20,
+            7,
+            20,
+            15
+          ],
+          [
+            179,
+            39,
+            60,
+            31,
+            60,
+            61
+          ],
+          [
+            254,
+            66,
+            99,
+            52,
+            99,
+            103
+          ],
+          [
+            551,
+            176,
+            253,
+            140,
+            253,
+            279
+          ],
+          [
+            615,
+            200,
+            285,
+            160,
+            285,
+            315
+          ],
+          [
+            679,
+            224,
+            317,
+            180,
+            317,
+            351
+          ],
+          [
+            871,
+            296,
+            413,
+            240,
+            413,
+            459
+          ]
+        ],
+        "kind": "BASE"
+      },
+      {
+        "id": "081563",
+        "weak": "TYPE_003",
+        "moves": [
+          780,
+          12435,
+          6144,
+          12436,
+          201301,
+          4044
+        ],
+        "skills": [
+          [
+            2804010,
+            0
+          ],
+          [
+            9902990,
+            0
+          ],
+          [
+            9903000,
+            0
+          ],
+          [
+            9903010,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        ],
+        "kind": "TERA_13"
+      }
+    ],
+    "change": "TERA"
+  },
+  {
     "id": "024400081200",
     "trainerId": "024400",
     "gridId": "024400081200",
@@ -60404,11 +61801,11 @@
     "date": 1628748000,
     "dateGrid": 1628748000,
     "date6ex": 1689314400,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_002",
-    "exRole": "",
+    "exRole": "ROLE_008",
     "awakeningSkill": 0,
     "themes": [
       20010017,
@@ -60642,11 +62039,11 @@
     "date": 1690783200,
     "dateGrid": 1690783200,
     "date6ex": 1690783200,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 0,
     "role": "ROLE_002",
-    "exRole": "",
+    "exRole": "ROLE_008",
     "awakeningSkill": 0,
     "themes": [
       20010017,
@@ -63967,6 +65364,125 @@
       }
     ],
     "change": "ALTR"
+  },
+  {
+    "id": "025000023700",
+    "trainerId": "025000",
+    "gridId": "025000023700",
+    "entry": 12602,
+    "promotion": 4,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": 1756360800,
+    "dateExRole": -1,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_001",
+    "exRole": "",
+    "awakeningSkill": 0,
+    "themes": [
+      20010007,
+      20020008,
+      20030004,
+      29990010,
+      29990062
+    ],
+    "acquisition": 512,
+    "pokemon": [
+      {
+        "id": "023700",
+        "weak": "TYPE_011",
+        "moves": [
+          411,
+          19082,
+          19160,
+          12509,
+          123200
+        ],
+        "skills": [
+          [
+            1708800,
+            9
+          ],
+          [
+            1706950,
+            9
+          ],
+          [
+            1303010,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            102,
+            13,
+            7,
+            13,
+            8,
+            13
+          ],
+          [
+            170,
+            57,
+            22,
+            57,
+            24,
+            47
+          ],
+          [
+            236,
+            99,
+            37,
+            99,
+            39,
+            80
+          ],
+          [
+            489,
+            264,
+            92,
+            264,
+            94,
+            212
+          ],
+          [
+            545,
+            300,
+            104,
+            300,
+            106,
+            240
+          ],
+          [
+            601,
+            336,
+            116,
+            336,
+            118,
+            268
+          ],
+          [
+            769,
+            444,
+            152,
+            444,
+            154,
+            352
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
   },
   {
     "id": "025000086500",
@@ -68441,6 +69957,289 @@
     "change": "NONE"
   },
   {
+    "id": "028502015701",
+    "trainerId": "028502",
+    "gridId": "028502015701",
+    "entry": 16703,
+    "promotion": 5,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": 1756360800,
+    "dateExRole": 1756360800,
+    "dateAwakening": -1,
+    "exMode": 1,
+    "role": "ROLE_016",
+    "exRole": "ROLE_001",
+    "awakeningSkill": 0,
+    "themes": [
+      20010008,
+      20020004,
+      20040011,
+      29990056,
+      29990073
+    ],
+    "acquisition": 274,
+    "pokemon": [
+      {
+        "id": "015701",
+        "weak": "TYPE_009",
+        "moves": [
+          6145,
+          19002,
+          6146,
+          12855,
+          200801
+        ],
+        "skills": [
+          [
+            2804030,
+            0
+          ],
+          [
+            3301080,
+            0
+          ],
+          [
+            9903060,
+            0
+          ],
+          [
+            9903070,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            96,
+            6,
+            12,
+            13,
+            12,
+            14
+          ],
+          [
+            172,
+            43,
+            36,
+            57,
+            36,
+            55
+          ],
+          [
+            244,
+            79,
+            57,
+            99,
+            57,
+            94
+          ],
+          [
+            530,
+            222,
+            145,
+            264,
+            145,
+            248
+          ],
+          [
+            590,
+            250,
+            165,
+            300,
+            165,
+            280
+          ],
+          [
+            650,
+            278,
+            185,
+            336,
+            185,
+            312
+          ],
+          [
+            830,
+            362,
+            245,
+            444,
+            245,
+            408
+          ]
+        ],
+        "kind": "BASE"
+      },
+      {
+        "id": "015776",
+        "weak": "TYPE_009",
+        "moves": [
+          6145,
+          19002,
+          6146,
+          12855,
+          200801,
+          4045
+        ],
+        "skills": [
+          [
+            2804030,
+            0
+          ],
+          [
+            9903050,
+            0
+          ],
+          [
+            9903060,
+            0
+          ],
+          [
+            9903070,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            100,
+            100,
+            100,
+            100,
+            100,
+            100
+          ]
+        ],
+        "kind": "TERA_08"
+      }
+    ],
+    "change": "TERA"
+  },
+  {
+    "id": "028600090900",
+    "trainerId": "028600",
+    "gridId": "028600090900",
+    "entry": 22502,
+    "promotion": 5,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": 1756360800,
+    "dateExRole": 1756360800,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_004",
+    "exRole": "ROLE_002",
+    "awakeningSkill": 0,
+    "themes": [
+      20010002,
+      20020009,
+      20030001,
+      29990034,
+      29990026
+    ],
+    "acquisition": 128,
+    "pokemon": [
+      {
+        "id": "090900",
+        "weak": "TYPE_009",
+        "moves": [
+          257,
+          261,
+          241,
+          12861,
+          121400
+        ],
+        "skills": [
+          [
+            1704110,
+            9
+          ],
+          [
+            1810630,
+            9
+          ],
+          [
+            1802090,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            96,
+            12,
+            12,
+            16,
+            14,
+            11
+          ],
+          [
+            172,
+            64,
+            35,
+            75,
+            37,
+            45
+          ],
+          [
+            244,
+            112,
+            56,
+            132,
+            58,
+            78
+          ],
+          [
+            530,
+            310,
+            144,
+            352,
+            146,
+            210
+          ],
+          [
+            590,
+            350,
+            160,
+            400,
+            162,
+            238
+          ],
+          [
+            650,
+            390,
+            176,
+            448,
+            178,
+            266
+          ],
+          [
+            830,
+            510,
+            224,
+            592,
+            226,
+            350
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
     "id": "028600091500",
     "trainerId": "028600",
     "gridId": "028600091500",
@@ -68679,6 +70478,125 @@
     "change": "NONE"
   },
   {
+    "id": "028700090600",
+    "trainerId": "028700",
+    "gridId": "028700090600",
+    "entry": 22401,
+    "promotion": 5,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": 1756360800,
+    "dateExRole": 1756360800,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_002",
+    "exRole": "ROLE_001",
+    "awakeningSkill": 0,
+    "themes": [
+      20010005,
+      20020009,
+      20030001,
+      29990034,
+      29990068
+    ],
+    "acquisition": 128,
+    "pokemon": [
+      {
+        "id": "090600",
+        "weak": "TYPE_008",
+        "moves": [
+          412,
+          19000,
+          580,
+          12871,
+          121300
+        ],
+        "skills": [
+          [
+            1706170,
+            9
+          ],
+          [
+            1701420,
+            0
+          ],
+          [
+            1101010,
+            4
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            90,
+            11,
+            14,
+            11,
+            12,
+            12
+          ],
+          [
+            165,
+            37,
+            48,
+            37,
+            46,
+            49
+          ],
+          [
+            237,
+            61,
+            81,
+            61,
+            79,
+            85
+          ],
+          [
+            523,
+            160,
+            213,
+            160,
+            211,
+            228
+          ],
+          [
+            583,
+            180,
+            241,
+            180,
+            239,
+            256
+          ],
+          [
+            643,
+            200,
+            269,
+            200,
+            267,
+            284
+          ],
+          [
+            823,
+            260,
+            353,
+            260,
+            351,
+            368
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
     "id": "028700100700",
     "trainerId": "028700",
     "gridId": "028700100700",
@@ -68909,6 +70827,125 @@
             316,
             221,
             445
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
+    "id": "028900091200",
+    "trainerId": "028900",
+    "gridId": "028900091200",
+    "entry": 17303,
+    "promotion": 5,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": 1756360800,
+    "dateExRole": 1756360800,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_001",
+    "exRole": "ROLE_004",
+    "awakeningSkill": 0,
+    "themes": [
+      20010003,
+      20020009,
+      20030006,
+      20030010,
+      29990064
+    ],
+    "acquisition": 128,
+    "pokemon": [
+      {
+        "id": "091200",
+        "weak": "TYPE_004",
+        "moves": [
+          56,
+          19100,
+          240,
+          12892,
+          121500
+        ],
+        "skills": [
+          [
+            2301060,
+            0
+          ],
+          [
+            1301450,
+            5
+          ],
+          [
+            1704070,
+            9
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            93,
+            10,
+            9,
+            10,
+            9,
+            13
+          ],
+          [
+            169,
+            50,
+            31,
+            50,
+            31,
+            49
+          ],
+          [
+            241,
+            89,
+            52,
+            89,
+            52,
+            82
+          ],
+          [
+            527,
+            243,
+            129,
+            243,
+            129,
+            214
+          ],
+          [
+            587,
+            275,
+            145,
+            275,
+            145,
+            242
+          ],
+          [
+            647,
+            307,
+            161,
+            307,
+            161,
+            270
+          ],
+          [
+            827,
+            403,
+            209,
+            403,
+            209,
+            354
           ]
         ],
         "kind": "BASE"
@@ -73474,6 +75511,124 @@
     "change": "NONE"
   },
   {
+    "id": "035600054100",
+    "trainerId": "035600",
+    "gridId": "035600054100",
+    "entry": 23301,
+    "promotion": 4,
+    "date": 1756706400,
+    "dateGrid": 1756706400,
+    "date6ex": 1756706400,
+    "dateExRole": -1,
+    "dateAwakening": -1,
+    "exMode": 0,
+    "role": "ROLE_002",
+    "exRole": "",
+    "awakeningSkill": 0,
+    "themes": [
+      20010012,
+      20020009,
+      20030006,
+      29990020
+    ],
+    "acquisition": 1024,
+    "pokemon": [
+      {
+        "id": "054100",
+        "weak": "TYPE_002",
+        "moves": [
+          522,
+          235,
+          202,
+          13561,
+          121200
+        ],
+        "skills": [
+          [
+            1804970,
+            9
+          ],
+          [
+            1202010,
+            4
+          ],
+          [
+            1703050,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            90,
+            8,
+            16,
+            11,
+            14,
+            10
+          ],
+          [
+            156,
+            29,
+            45,
+            37,
+            42,
+            41
+          ],
+          [
+            219,
+            47,
+            72,
+            61,
+            69,
+            71
+          ],
+          [
+            472,
+            124,
+            182,
+            160,
+            168,
+            192
+          ],
+          [
+            524,
+            140,
+            206,
+            180,
+            188,
+            216
+          ],
+          [
+            576,
+            156,
+            230,
+            200,
+            208,
+            240
+          ],
+          [
+            732,
+            204,
+            302,
+            260,
+            268,
+            312
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
     "id": "035600101300",
     "trainerId": "035600",
     "gridId": "035600101300",
@@ -73911,6 +76066,124 @@
             592,
             247,
             311
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
+    "id": "035900048701",
+    "trainerId": "035900",
+    "gridId": "035900048701",
+    "entry": 19902,
+    "promotion": 5,
+    "date": 1757916000,
+    "dateGrid": 1757916000,
+    "date6ex": 1757916000,
+    "dateExRole": 1757916000,
+    "dateAwakening": -1,
+    "exMode": 1,
+    "role": "ROLE_016",
+    "exRole": "ROLE_001",
+    "awakeningSkill": 0,
+    "themes": [
+      20010014,
+      20020004,
+      29990026,
+      29990051
+    ],
+    "acquisition": 274,
+    "pokemon": [
+      {
+        "id": "048701",
+        "weak": "TYPE_018",
+        "moves": [
+          467,
+          247,
+          6147,
+          13590,
+          117100
+        ],
+        "skills": [
+          [
+            2804040,
+            0
+          ],
+          [
+            9903080,
+            0
+          ],
+          [
+            9903090,
+            0
+          ],
+          [
+            9903100,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            109,
+            12,
+            10,
+            12,
+            10,
+            12
+          ],
+          [
+            190,
+            64,
+            35,
+            64,
+            35,
+            55
+          ],
+          [
+            268,
+            112,
+            59,
+            112,
+            59,
+            94
+          ],
+          [
+            576,
+            310,
+            147,
+            310,
+            147,
+            259
+          ],
+          [
+            640,
+            350,
+            167,
+            350,
+            167,
+            295
+          ],
+          [
+            704,
+            390,
+            187,
+            390,
+            187,
+            331
+          ],
+          [
+            896,
+            510,
+            247,
+            510,
+            247,
+            439
           ]
         ],
         "kind": "BASE"
@@ -75563,11 +77836,11 @@
     "date": 1577858400,
     "dateGrid": 1623045600,
     "date6ex": 1682661600,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_001",
-    "exRole": "",
+    "exRole": "ROLE_004",
     "awakeningSkill": 0,
     "themes": [
       20010017,
@@ -75664,6 +77937,123 @@
             427,
             198,
             355
+          ]
+        ],
+        "kind": "BASE"
+      }
+    ],
+    "change": "NONE"
+  },
+  {
+    "id": "900000079400",
+    "trainerId": "900000",
+    "gridId": "900000079400",
+    "entry": 113,
+    "promotion": 5,
+    "date": 1756360800,
+    "dateGrid": 1756360800,
+    "date6ex": -1,
+    "dateExRole": -1,
+    "dateAwakening": -1,
+    "exMode": 1,
+    "role": "ROLE_002",
+    "exRole": "",
+    "awakeningSkill": 0,
+    "themes": [
+      20010012,
+      20020020,
+      20030001
+    ],
+    "acquisition": 512,
+    "pokemon": [
+      {
+        "id": "079400",
+        "weak": "TYPE_010",
+        "moves": [
+          641,
+          19000,
+          141,
+          17018,
+          122900
+        ],
+        "skills": [
+          [
+            2802120,
+            0
+          ],
+          [
+            1804310,
+            9
+          ],
+          [
+            1301590,
+            1
+          ],
+          [
+            1802090,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "stats": [
+          [
+            101,
+            9,
+            17,
+            6,
+            14,
+            13
+          ],
+          [
+            177,
+            39,
+            51,
+            24,
+            45,
+            47
+          ],
+          [
+            249,
+            66,
+            81,
+            42,
+            75,
+            80
+          ],
+          [
+            535,
+            176,
+            202,
+            108,
+            196,
+            212
+          ],
+          [
+            595,
+            200,
+            230,
+            120,
+            220,
+            240
+          ],
+          [
+            655,
+            224,
+            258,
+            132,
+            244,
+            268
+          ],
+          [
+            835,
+            296,
+            342,
+            168,
+            316,
+            352
           ]
         ],
         "kind": "BASE"
@@ -75914,11 +78304,11 @@
     "date": 1683871200,
     "dateGrid": 1683871200,
     "date6ex": 1683871200,
-    "dateExRole": -1,
+    "dateExRole": 1757397600,
     "dateAwakening": -1,
     "exMode": 1,
     "role": "ROLE_001",
-    "exRole": "",
+    "exRole": "ROLE_004",
     "awakeningSkill": 0,
     "themes": [
       20010017,
