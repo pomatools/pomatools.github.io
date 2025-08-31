@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1756612570139,
+  "timestamp": 1756648946023,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -27,15 +27,15 @@
         "/766.171b9b0123abaf28.js",
         "/793.712ce154c9c8ceca.js",
         "/804.1fbb33fe3f2f2f14.js",
-        "/815.6328e1259382ba01.js",
+        "/815.f59ee5604f6f54c8.js",
         "/845.ffd241feccdef441.js",
         "/939.95bc531595fe49f0.js",
         "/favicon.ico",
         "/index.html",
-        "/main.72b9995dcd48a86c.js",
+        "/main.89d6c7d180d528d2.js",
         "/manifest.webmanifest",
         "/polyfills.a402040b2e0938e4.js",
-        "/runtime.4c274637632fce2c.js",
+        "/runtime.f5a945a751551a20.js",
         "/styles.18ea283000b0c22d.css"
       ],
       "patterns": []
@@ -2392,7 +2392,7 @@
     "/766.171b9b0123abaf28.js": "8b04132a382f3cc51d4c8b6de26615e3027a6050",
     "/793.712ce154c9c8ceca.js": "2c78f19d83af914d0b32f3a300bf432c5ba43665",
     "/804.1fbb33fe3f2f2f14.js": "783a54a89787d2d19f6abf9cc886182d26d373bc",
-    "/815.6328e1259382ba01.js": "14c0310048f3c015087830efd097b7e4eb9157f7",
+    "/815.f59ee5604f6f54c8.js": "37e1774d6d39eb49ee854c4acdf6e1e3d40f6c72",
     "/845.ffd241feccdef441.js": "a46d6657fc830e74467d5a5559e5cfe966c07cd6",
     "/939.95bc531595fe49f0.js": "a3f3754d8fa420549e853b7937f3102fa2834c67",
     "/assets/data/battlerally.json": "67fc030bf04ad2a4281b630f9ae821153fcc8359",
@@ -2404,7 +2404,7 @@
     "/assets/data/moveskills.json": "8207d91c70f5b06600f8c1927b8a5aeeeeed921d",
     "/assets/data/pairgrids.json": "dab0f764d684fec6b4d710a24aaae120db420ff4",
     "/assets/data/pairs.json": "a7c492329f3f4f915286241511fbc422b62d05af",
-    "/assets/data/skills.json": "54089e23bdfef831b64edbb011ff65284bae9daa",
+    "/assets/data/skills.json": "a3e3c658b1e71272704f302101e04f9f68b72479",
     "/assets/data/trainerslodge.json": "31bb70efa5e4e258d43f92d9dee1287345cd7ee4",
     "/assets/fonts/SourceHanSansTC-Bold.otf": "0ea6fc3f603b7e4bd6c20c35d7b6b72cbb51353f",
     "/assets/fonts/SourceHanSansTC-Medium.otf": "c6ce9a93b60d155438d1b4555899133eeb1760fe",
@@ -4718,11 +4718,11 @@
     "/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
     "/fa-solid-900.40ddefd79fe7af45.woff2": "2717f3f58271f2f2e6120d9937c7227002656d34",
     "/favicon.ico": "bde24ab5ee5a7b66902f6b8aadac944671cea10a",
-    "/index.html": "8ff3028ab4583dc49039ada43b6550e94732e625",
-    "/main.72b9995dcd48a86c.js": "952b8ba20abcafee9d67d9fd8d98ec52994697fb",
+    "/index.html": "923f905f125e4a0c47816e9e6a51893c88f3097c",
+    "/main.89d6c7d180d528d2.js": "ff79d29fe91a41279f0d890435f277e7b96fccfb",
     "/manifest.webmanifest": "feeb74972c76d307fa17102d69de773d03f2e2be",
     "/polyfills.a402040b2e0938e4.js": "9b26c1d105f9ffe8cc6b64216eb7657ac83b7292",
-    "/runtime.4c274637632fce2c.js": "ae10b8b4d0510d41463f34a733a1298df18c012f",
+    "/runtime.f5a945a751551a20.js": "dd92dd6b94800e844b5e78ce102e1fcd066c70eb",
     "/styles.18ea283000b0c22d.css": "5ee731b37c72db8054101ca8dafb014303109206"
   },
   "navigationUrls": [

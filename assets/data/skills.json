@@ -6820,7 +6820,7 @@
         "conditions": [
             [
                 "TARG_018",
-                "ZONE_9"
+                "ZONE_7"
             ]
         ],
         "type": "POWERUP",
