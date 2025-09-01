@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1756651632605,
+  "timestamp": 1756702809537,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/154.9d7c6795beb5b66f.js",
         "/168.42804db7d2209372.js",
-        "/201.e1d3bd1429853f28.js",
+        "/201.b2ad34f34666d4cc.js",
         "/205.4c231b531ca96a4f.js",
         "/247.c3e44c1a6714c564.js",
         "/253.e6fa3a21fcefc605.js",
@@ -27,7 +27,7 @@
         "/766.94355a1aa4c5188b.js",
         "/793.712ce154c9c8ceca.js",
         "/804.1fbb33fe3f2f2f14.js",
-        "/815.f59ee5604f6f54c8.js",
+        "/815.9ee576b688bb1c18.js",
         "/845.ffd241feccdef441.js",
         "/939.95bc531595fe49f0.js",
         "/favicon.ico",
@@ -35,7 +35,7 @@
         "/main.89d6c7d180d528d2.js",
         "/manifest.webmanifest",
         "/polyfills.a402040b2e0938e4.js",
-        "/runtime.8e69edc9c0d7cf70.js",
+        "/runtime.a84c47abb7a7c980.js",
         "/styles.18ea283000b0c22d.css"
       ],
       "patterns": []
@@ -2378,7 +2378,7 @@
   "hashTable": {
     "/154.9d7c6795beb5b66f.js": "ea1cd3e71522e5a6a5c294d31c232c91e7f0a745",
     "/168.42804db7d2209372.js": "e2b9b96b86c403076441a039ebf161645ebfbf1a",
-    "/201.e1d3bd1429853f28.js": "81881ba4e180ec9a3827a03953bdaf56c2b75b90",
+    "/201.b2ad34f34666d4cc.js": "a40a80e73935970f8788ec33fbe6d114d041efb0",
     "/205.4c231b531ca96a4f.js": "8925bfb1d381db180bf43edb064105264d28a0be",
     "/247.c3e44c1a6714c564.js": "8985f2abb11cfb2597f337519b38396359d89b83",
     "/253.e6fa3a21fcefc605.js": "d6228b60c241011b1bf91cd55f8fcf186038dd69",
@@ -2392,7 +2392,7 @@
     "/766.94355a1aa4c5188b.js": "f40b8ab1214cbf1bcc6cb36b418f2fc7b87fd165",
     "/793.712ce154c9c8ceca.js": "2c78f19d83af914d0b32f3a300bf432c5ba43665",
     "/804.1fbb33fe3f2f2f14.js": "783a54a89787d2d19f6abf9cc886182d26d373bc",
-    "/815.f59ee5604f6f54c8.js": "37e1774d6d39eb49ee854c4acdf6e1e3d40f6c72",
+    "/815.9ee576b688bb1c18.js": "77ae905008e1ca61552d9523b7f112550dd06d2d",
     "/845.ffd241feccdef441.js": "a46d6657fc830e74467d5a5559e5cfe966c07cd6",
     "/939.95bc531595fe49f0.js": "a3f3754d8fa420549e853b7937f3102fa2834c67",
     "/assets/data/battlerally.json": "67fc030bf04ad2a4281b630f9ae821153fcc8359",
@@ -2400,11 +2400,11 @@
     "/assets/data/customlucky.json": "c150da311a7b0e93d0bd102b5d911249f1e3a9a5",
     "/assets/data/eggs.json": "5cd61927bd0336534f85a879fea6c21f750321e2",
     "/assets/data/lucky.json": "9d45a3d7ffa57737f258328b6758cae27824d507",
-    "/assets/data/moves.json": "a7382e1f9d157aa9eb5e29c23e2d4444e285cf73",
+    "/assets/data/moves.json": "b4c2df849f398a38468d51d62d6a4402f0c144e2",
     "/assets/data/moveskills.json": "8207d91c70f5b06600f8c1927b8a5aeeeeed921d",
     "/assets/data/pairgrids.json": "dab0f764d684fec6b4d710a24aaae120db420ff4",
     "/assets/data/pairs.json": "a7c492329f3f4f915286241511fbc422b62d05af",
-    "/assets/data/skills.json": "a3e3c658b1e71272704f302101e04f9f68b72479",
+    "/assets/data/skills.json": "45ed7f773936f495fe40ca4797999b9e3cde888a",
     "/assets/data/trainerslodge.json": "31bb70efa5e4e258d43f92d9dee1287345cd7ee4",
     "/assets/fonts/SourceHanSansTC-Bold.otf": "0ea6fc3f603b7e4bd6c20c35d7b6b72cbb51353f",
     "/assets/fonts/SourceHanSansTC-Medium.otf": "c6ce9a93b60d155438d1b4555899133eeb1760fe",
@@ -4718,11 +4718,11 @@
     "/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
     "/fa-solid-900.40ddefd79fe7af45.woff2": "2717f3f58271f2f2e6120d9937c7227002656d34",
     "/favicon.ico": "bde24ab5ee5a7b66902f6b8aadac944671cea10a",
-    "/index.html": "825b4cda12a7d625f7d98e1b3e0ce9388801778f",
+    "/index.html": "f4cd9ebed6902ab5301e0f45f9126818ad714e06",
     "/main.89d6c7d180d528d2.js": "ff79d29fe91a41279f0d890435f277e7b96fccfb",
     "/manifest.webmanifest": "feeb74972c76d307fa17102d69de773d03f2e2be",
     "/polyfills.a402040b2e0938e4.js": "9b26c1d105f9ffe8cc6b64216eb7657ac83b7292",
-    "/runtime.8e69edc9c0d7cf70.js": "49fddbacfaac39efd0368037b0140f28b79f6b9a",
+    "/runtime.a84c47abb7a7c980.js": "6d1785079708d3c571520339b29798b9c5a36772",
     "/styles.18ea283000b0c22d.css": "5ee731b37c72db8054101ca8dafb014303109206"
   },
   "navigationUrls": [

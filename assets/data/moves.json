@@ -5327,7 +5327,7 @@
                 "1000"
             ]
         ],
-        "tags": ""
+        "tags": "NO_AOE"
     },
     "4042": {
         "type": "TYPE_005",
@@ -7471,7 +7471,7 @@
         "accuracy": -1,
         "target": "TARG_036",
         "powerup": [],
-        "tags": ""
+        "tags": "NO_AOE"
     },
     "6135": {
         "type": "TYPE_003",

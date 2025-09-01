@@ -11495,7 +11495,7 @@
             ]
         ],
         "type": "POWERUP",
-        "applies": "PKMN",
+        "applies": "MOVE",
         "effect": "TARG_034",
         "affects": "",
         "attribute": "",
@@ -11510,7 +11510,7 @@
             ]
         ],
         "type": "POWERUP",
-        "applies": "PKMN",
+        "applies": "MOVE",
         "effect": "TARG_034",
         "affects": "",
         "attribute": "",
@@ -11525,7 +11525,7 @@
             ]
         ],
         "type": "POWERUP",
-        "applies": "PKMN",
+        "applies": "MOVE",
         "effect": "TARG_034",
         "affects": "",
         "attribute": "",
@@ -11874,11 +11874,11 @@
         "times": "ALWAYS",
         "conditions": [
             [
-                "TYPE_013"
+                "TYPE_014"
             ]
         ],
         "type": "POWERUP",
-        "applies": "PKMN",
+        "applies": "MOVE",
         "effect": "TARG_034",
         "affects": "",
         "attribute": "",
@@ -11893,7 +11893,7 @@
             ]
         ],
         "type": "POWERUP",
-        "applies": "PKMN",
+        "applies": "MOVE",
         "effect": "TARG_034",
         "affects": "",
         "attribute": "",
@@ -11908,7 +11908,7 @@
             ]
         ],
         "type": "POWERUP",
-        "applies": "PKMN",
+        "applies": "MOVE",
         "effect": "TARG_034",
         "affects": "",
         "attribute": "",
