@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1756702809537,
+  "timestamp": 1757042535831,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -27,7 +27,7 @@
         "/766.94355a1aa4c5188b.js",
         "/793.712ce154c9c8ceca.js",
         "/804.1fbb33fe3f2f2f14.js",
-        "/815.9ee576b688bb1c18.js",
+        "/815.db523c12c5b6ef79.js",
         "/845.ffd241feccdef441.js",
         "/939.95bc531595fe49f0.js",
         "/favicon.ico",
@@ -35,7 +35,7 @@
         "/main.89d6c7d180d528d2.js",
         "/manifest.webmanifest",
         "/polyfills.a402040b2e0938e4.js",
-        "/runtime.a84c47abb7a7c980.js",
+        "/runtime.b70ee9a633ab78da.js",
         "/styles.18ea283000b0c22d.css"
       ],
       "patterns": []
@@ -2392,7 +2392,7 @@
     "/766.94355a1aa4c5188b.js": "f40b8ab1214cbf1bcc6cb36b418f2fc7b87fd165",
     "/793.712ce154c9c8ceca.js": "2c78f19d83af914d0b32f3a300bf432c5ba43665",
     "/804.1fbb33fe3f2f2f14.js": "783a54a89787d2d19f6abf9cc886182d26d373bc",
-    "/815.9ee576b688bb1c18.js": "77ae905008e1ca61552d9523b7f112550dd06d2d",
+    "/815.db523c12c5b6ef79.js": "19e13bd6622de674127b9c20dee19d9952b91bcd",
     "/845.ffd241feccdef441.js": "a46d6657fc830e74467d5a5559e5cfe966c07cd6",
     "/939.95bc531595fe49f0.js": "a3f3754d8fa420549e853b7937f3102fa2834c67",
     "/assets/data/battlerally.json": "67fc030bf04ad2a4281b630f9ae821153fcc8359",
@@ -2404,7 +2404,7 @@
     "/assets/data/moveskills.json": "8207d91c70f5b06600f8c1927b8a5aeeeeed921d",
     "/assets/data/pairgrids.json": "dab0f764d684fec6b4d710a24aaae120db420ff4",
     "/assets/data/pairs.json": "a7c492329f3f4f915286241511fbc422b62d05af",
-    "/assets/data/skills.json": "45ed7f773936f495fe40ca4797999b9e3cde888a",
+    "/assets/data/skills.json": "b88c1d99f4330bf511398839e5c06ef41c0a0558",
     "/assets/data/trainerslodge.json": "31bb70efa5e4e258d43f92d9dee1287345cd7ee4",
     "/assets/fonts/SourceHanSansTC-Bold.otf": "0ea6fc3f603b7e4bd6c20c35d7b6b72cbb51353f",
     "/assets/fonts/SourceHanSansTC-Medium.otf": "c6ce9a93b60d155438d1b4555899133eeb1760fe",
@@ -4718,11 +4718,11 @@
     "/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
     "/fa-solid-900.40ddefd79fe7af45.woff2": "2717f3f58271f2f2e6120d9937c7227002656d34",
     "/favicon.ico": "bde24ab5ee5a7b66902f6b8aadac944671cea10a",
-    "/index.html": "f4cd9ebed6902ab5301e0f45f9126818ad714e06",
+    "/index.html": "cf02d2c6b3d0751774b9c661c64b5d7da0ad72e0",
     "/main.89d6c7d180d528d2.js": "ff79d29fe91a41279f0d890435f277e7b96fccfb",
     "/manifest.webmanifest": "feeb74972c76d307fa17102d69de773d03f2e2be",
     "/polyfills.a402040b2e0938e4.js": "9b26c1d105f9ffe8cc6b64216eb7657ac83b7292",
-    "/runtime.a84c47abb7a7c980.js": "6d1785079708d3c571520339b29798b9c5a36772",
+    "/runtime.b70ee9a633ab78da.js": "ebc348e50fc3c37c2cd1a277ee611a77b18bfc42",
     "/styles.18ea283000b0c22d.css": "5ee731b37c72db8054101ca8dafb014303109206"
   },
   "navigationUrls": [
