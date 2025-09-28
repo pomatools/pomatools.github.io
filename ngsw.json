@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1759041279876,
+  "timestamp": 1759074551669,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -19,7 +19,7 @@
         "/253.d6b792ae6577bc48.js",
         "/268.a7b302a8c0d20a58.js",
         "/293.43668f070924597b.js",
-        "/301.505992b7d8ca6d6c.js",
+        "/301.a3d75af16d85ecba.js",
         "/42.f03102cb7b326b0d.js",
         "/463.79648a3842e14df3.js",
         "/502.038a3ea21a4391c2.js",
@@ -27,7 +27,7 @@
         "/766.50d97a73121e6647.js",
         "/793.4e409e8bbc5436e8.js",
         "/804.09123a0cb4fdc1e3.js",
-        "/815.57a7b24d69968178.js",
+        "/815.a301bd56b59a241e.js",
         "/845.ffd241feccdef441.js",
         "/939.95bc531595fe49f0.js",
         "/favicon.ico",
@@ -35,7 +35,7 @@
         "/main.6aac6b77e3784c9a.js",
         "/manifest.webmanifest",
         "/polyfills.a402040b2e0938e4.js",
-        "/runtime.8d2766258e8ea2d9.js",
+        "/runtime.bb5198766013c4ca.js",
         "/styles.18ea283000b0c22d.css"
       ],
       "patterns": []
@@ -2411,7 +2411,7 @@
     "/253.d6b792ae6577bc48.js": "3699201f70b610d896e31e28fd518a7643cab2a5",
     "/268.a7b302a8c0d20a58.js": "ab291d22f3e09d9868e41f2b72f17865d971e34e",
     "/293.43668f070924597b.js": "5b065463bf7747bb2cd9654c0c06c277bcdbf3a4",
-    "/301.505992b7d8ca6d6c.js": "05c99212498ece7a2aaaec5d4d44e692da92bc75",
+    "/301.a3d75af16d85ecba.js": "a6b96ab9a4a297dc5cbafa3bb0a7598daf52aed1",
     "/42.f03102cb7b326b0d.js": "652c7d4aae553ac8390c4cf5212347a2eaa18f0c",
     "/463.79648a3842e14df3.js": "4f9e4bbaefbcc7bb91d2f2c8964da511ddab940d",
     "/502.038a3ea21a4391c2.js": "77f2a54d910e9e20bfc8aeea9fbb40461c07fb21",
@@ -2419,7 +2419,7 @@
     "/766.50d97a73121e6647.js": "5f9643f5b27ae75b5a0309ed93cdaef4efe811ac",
     "/793.4e409e8bbc5436e8.js": "86cbee0580a7052d28d9ddfc67606c15b76234f9",
     "/804.09123a0cb4fdc1e3.js": "994a6b417c2982dcb45b744fc037c729cd9b1077",
-    "/815.57a7b24d69968178.js": "3dfe7ca3f3f502a994e6505494fd22bf04f56acc",
+    "/815.a301bd56b59a241e.js": "c45ad42cef7cdcf7a67ff785629a34bd8f0a4897",
     "/845.ffd241feccdef441.js": "a46d6657fc830e74467d5a5559e5cfe966c07cd6",
     "/939.95bc531595fe49f0.js": "a3f3754d8fa420549e853b7937f3102fa2834c67",
     "/assets/data/battlerally.json": "67fc030bf04ad2a4281b630f9ae821153fcc8359",
@@ -2429,9 +2429,9 @@
     "/assets/data/lucky.json": "9d45a3d7ffa57737f258328b6758cae27824d507",
     "/assets/data/moves.json": "9591c55fda7b5c902e1719dc889a1bf96db05949",
     "/assets/data/moveskills.json": "2470c1b74af2c7c0e7a9d0d2afbf1a0c4071bae3",
-    "/assets/data/pairgrids.json": "f8d1244380bd75bb91c84d5b2042a0a5aaac95ba",
+    "/assets/data/pairgrids.json": "47fb880431384d408c671dfe0df47e35598e7fca",
     "/assets/data/pairs.json": "2779f0fe068e7729900867a9d72136789934c1d7",
-    "/assets/data/skills.json": "9023cc018f92770b0d86a5f92a07f0401c85f906",
+    "/assets/data/skills.json": "acdf4e36a42e7b2de3da9c489cc4dee1c8b2dc9d",
     "/assets/data/trainerslodge.json": "6910a2686010d887dd278b8e54496feca2c3e71f",
     "/assets/fonts/SourceHanSansTC-Bold.otf": "0ea6fc3f603b7e4bd6c20c35d7b6b72cbb51353f",
     "/assets/fonts/SourceHanSansTC-Medium.otf": "c6ce9a93b60d155438d1b4555899133eeb1760fe",
@@ -4772,11 +4772,11 @@
     "/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
     "/fa-solid-900.40ddefd79fe7af45.woff2": "2717f3f58271f2f2e6120d9937c7227002656d34",
     "/favicon.ico": "bde24ab5ee5a7b66902f6b8aadac944671cea10a",
-    "/index.html": "70f1ae1a275fbc6468492083b49f3f2f07cd7d75",
+    "/index.html": "c35e7d366fca22c27283be2d7e311497d5290418",
     "/main.6aac6b77e3784c9a.js": "8d2c1ec7a59578a64cbadbdad260d502b620a360",
     "/manifest.webmanifest": "feeb74972c76d307fa17102d69de773d03f2e2be",
     "/polyfills.a402040b2e0938e4.js": "9b26c1d105f9ffe8cc6b64216eb7657ac83b7292",
-    "/runtime.8d2766258e8ea2d9.js": "ad5f0fafe4bf18fe7fea7b92b7b6e8fdbd7dbf17",
+    "/runtime.bb5198766013c4ca.js": "ff8da4d1451441c44eb7674bd312e19de93a007a",
     "/styles.18ea283000b0c22d.css": "5ee731b37c72db8054101ca8dafb014303109206"
   },
   "navigationUrls": [
