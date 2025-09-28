@@ -651,6 +651,7 @@
       "005600": "Mankey",
       "005700": "Primeape",
       "005800": "Growlithe",
+      "005801": "Hisuian Growlithe",
       "005900": "Arcanine",
       "005901": "Hisuian Arcanine",
       "006000": "Poliwag",
@@ -1268,8 +1269,10 @@
       "054500": "Scolipede",
       "054600": "Cottonee",
       "054700": "Whimsicott",
+      "054766": "Whimsicott Tera Type: Dark",
       "054800": "Petilil",
       "054900": "Lilligant",
+      "054901": "Hisuian Lilligant",
       "055000": "Basculin Red Stripe",
       "055001": "Basculine Blue Stripe",
       "055100": "Sandile",
@@ -2278,6 +2281,8 @@
       "030301": "Poppy (New Year's 2025)",
       "030400": "Larry",
       "030401": "Larry (Special Costume)",
+      "031100": "Mai",
+      "031200": "Arezu",
       "031700": "Arven",
       "031800": "Clavell",
       "031801": "Clavell (Alt.)",
@@ -2286,8 +2291,10 @@
       "032800": "Atticus",
       "032900": "Ortega",
       "033000": "Eri",
+      "033800": "Perrin",
       "035100": "Blossom (Furisode Girl)",
       "035200": "Lacey",
+      "035201": "Lacey (Fall 2025)",
       "035600": "Carmine",
       "035700": "Kieran",
       "035800": "Clive",
@@ -4087,6 +4094,11 @@
         "ABBR": "Eerie Spell",
         "DESC": "No additional effect."
       },
+      "837": {
+        "NAME": "Victory Dance",
+        "ABBR": "Victory Dance",
+        "DESC": "Raises the user’s Attack, Defense, and Speed by 1 stat rank."
+      },
       "838": {
         "NAME": "Headlong Rush",
         "ABBR": "Headlong Rush",
@@ -4216,6 +4228,11 @@
         "NAME": "Amethyst Tera Blast",
         "ABBR": "Amethyst TB",
         "DESC": "Lowers the target’s Defense and Sp. Def by 1 stat rank. Leaves the target badly poisoned. The power of this move is not lowered even if there are multiple targets."
+      },
+      "4046": {
+        "NAME": "Spinel Tera Blast",
+        "ABBR": "Spinel TB",
+        "DESC": "Raises the user’s Defense and Sp. Def by 1 stat rank."
       },
       "5000": {
         "NAME": "Thunderbolt",
@@ -4982,6 +4999,36 @@
         "ABBR": "F Rock Smash",
         "DESC": "Activation Condition: When the field of play’s zone turns into a Fighting Zone.\nDeactivation Condition: When the field of play’s zone is no longer a Fighting Zone.\n\nNever misses. Lowers the target’s Defense by 4 stat ranks. Lowers the target’s Fighting Type Rebuff by 1 rank the first time this attack move is successful each battle."
       },
+      "6152": {
+        "NAME": "Pebbly Rock Slide",
+        "ABBR": "P Rock Slide",
+        "DESC": "Activation Condition: When Rock Damage Field applies to the opponent’s field of play.\nDeactivation Condition: When the opponent’s field of play is no longer Rock Damage Field.\n\nLowers the target’s Defense by 2 stat ranks. Makes the target flinch. The power of this move is not lowered even if there are multiple targets. Turns the field of play’s zone into an EX Rock Zone the first time this attack move is successful each battle. (An EX Rock Zone powers up Rock-type attacks.)"
+      },
+      "6153": {
+        "NAME": "Splendid Victory Dance",
+        "ABBR": "S Victory Dance",
+        "DESC": "Activation Condition: When the sync buff of the user’s team is zero.\nDeactivation Condition: When the sync buff of the user’s team is 1 or more.\n\nRaises the user’s Attack, Defense, Sp. Atk, and Speed by 6 stat ranks."
+      },
+      "6154": {
+        "NAME": "Thick Fur Protect",
+        "ABBR": "TF Protect",
+        "DESC": "Activation Condition: When the user uses any move once.\nDeactivation Condition: Cannot be deactivated.\n\nApplies the Gradual Healing effect to the user. Applies the Damage Guard Next effect to the user. Applies the Take Next \"All\" Move effect to the user."
+      },
+      "6155": {
+        "NAME": "Cute ’n’ Bad Fake Tears",
+        "ABBR": "CnB Fake Tears",
+        "DESC": "Activation Condition: When the user uses any move once.\nDeactivation Condition: Cannot be deactivated.\n\nNever misses. Lowers the Sp. Def of all opposing sync pairs by 3 stat ranks. Turns the field of play’s zone into a Dark Zone. (A Dark Zone powers up Dark-type attacks.) Increases the Special Moves ↑ Next effect of all allied sync pairs by 1 rank."
+      },
+      "6156": {
+        "NAME": "Dancing Flames Flare Blitz",
+        "ABBR": "DF Flare Blitz",
+        "DESC": "Activation Condition: When a circle is applied to the allied field of play.\nDeactivation Condition: Cannot be deactivated.\n\nRemoves the frozen condition from the user. Never misses. Lowers the target’s Defense by 1 stat rank. Has a chance (10%) of leaving the target burned. The power and chance of applying additional effects of this move are not lowered even if there are multiple targets."
+      },
+      "6157": {
+        "NAME": "Hydraulic Force Aqua Tail",
+        "ABBR": "HF Aqua Tail",
+        "DESC": "Activation Condition: When the user uses any move once.\nDeactivation Condition: Cannot be deactivated.\n\nNever misses. Lowers the target’s Defense and Speed by 2 stat ranks. Applies the Physical Move Break effect to the target the first time this attack move is successful each battle."
+      },
       "7000": {
         "NAME": "G-Max Replenish",
         "ABBR": "G-Max Replenish",
@@ -5335,7 +5382,7 @@
       "10008": {
         "NAME": "You and Me!",
         "ABBR": "You and Me!",
-        "DESC": "Reduces the sync move countdown of an allied sync pair by 1. Raises an ally’s critical-hit rate by 2 stat ranks. Applies the Supereffective ↑ Next effect to an ally."
+        "DESC": "Reduces the sync move countdown of an ally by 1. Raises an ally’s critical-hit rate by 2 stat ranks. Applies the Supereffective ↑ Next effect to an ally."
       },
       "10009": {
         "NAME": "Glory of the Winning Path!",
@@ -5700,7 +5747,7 @@
       "10215": {
         "NAME": "Can’t Fool Me!",
         "ABBR": "Can’t Fool Me!",
-        "DESC": "Reduces the sync move countdown of an allied sync pair by 1. Raises an ally’s Attack by 4 stat ranks. Applies the Supereffective ↑ Next effect to an ally."
+        "DESC": "Reduces the sync move countdown of an ally by 1. Raises an ally’s Attack by 4 stat ranks. Applies the Supereffective ↑ Next effect to an ally."
       },
       "10216": {
         "NAME": "Glory of Leadership!",
@@ -6430,12 +6477,12 @@
       "11061": {
         "NAME": "Breathtaking!",
         "ABBR": "Breathtaking!",
-        "DESC": "Reduces the sync move countdown of an allied sync pair by 2. Raises the accuracy and critical-hit rate of an allied sync pair by 1 stat rank. Raises accuracy and critical-hit rate of an allied sync pair by 2 stat ranks instead when the user’s team has a sync buff."
+        "DESC": "Reduces the sync move countdown of an ally by 2. Raises the accuracy and critical-hit rate of an allied sync pair by 1 stat rank. Raises accuracy and critical-hit rate of an allied sync pair by 2 stat ranks instead when the user’s team has a sync buff."
       },
       "11062": {
         "NAME": "Surely, Shirley!",
         "ABBR": "Surely, Shirley!",
-        "DESC": "Reduces the sync move countdown of an allied sync pair by 1. Raises an ally’s Sp. Atk by 4 stat ranks. Raises an ally’s critical-hit rate by 3 stat ranks."
+        "DESC": "Reduces the sync move countdown of an ally by 1. Raises an ally’s Sp. Atk by 4 stat ranks. Raises an ally’s critical-hit rate by 3 stat ranks."
       },
       "11064": {
         "NAME": "Delivering Delight!",
@@ -6451,6 +6498,11 @@
         "NAME": "Mutual Improvement!",
         "ABBR": "Mutual Improvement!",
         "DESC": "Raises the accuracy of all allied sync pairs by 1 stat rank. Raises the critical-hit rate of all allied sync pairs by 2 stat ranks."
+      },
+      "11070": {
+        "NAME": "Enjoy the Fragrance!",
+        "ABBR": "Enjoy the Fragrance!",
+        "DESC": "Raises the Defense and Sp. Def of all allied sync pairs by 2 stat ranks. Applies Unova Circle (Defensive) to the allied field of play. Unova Circle (Defensive) grants all of the following effects: Powers up the moves and sync moves of all allied sync pairs by 5%. Reduces attack move and sync move damage taken by all allied sync pairs by 10%. The more sync pairs with the Unova theme that are on the allied field of play, the higher these percentages are. (Each additional sync pair powers up moves and sync moves by 5% and reduces damage by 5%. The maximum power-up is 20%, and the maximum damage reduction is 25%.)"
       },
       "11080": {
         "NAME": "All Aboard!",
@@ -7047,6 +7099,16 @@
         "ABBR": "I’ll Show You Wrath!",
         "DESC": "Raises the Speed, accuracy, and critical-hit rate of all allied sync pairs by 1 stat rank. Increases the Special Moves ↑ Next effect of all allied sync pairs by 1 rank."
       },
+      "11450": {
+        "NAME": "Keep It Burning!",
+        "ABBR": "Keep It Burning!",
+        "DESC": "Applies the Supereffective ↑ Next effect to the user. Applies the Free Move Next effect to the user. Increases the user’s Sync Move ↑ Next effect by 4 ranks."
+      },
+      "11460": {
+        "NAME": "Like a Fresh Stream!",
+        "ABBR": "Like a Fresh Stream!",
+        "DESC": "Reduces the user’s sync move countdown by one. Raises the user’s Attack by 4 stat ranks. Raises the user’s critical-hit rate by 3 stat ranks."
+      },
       "11470": {
         "NAME": "I’ll Take You On!",
         "ABBR": "I’ll Take You On!",
@@ -7490,7 +7552,7 @@
       "12447": {
         "NAME": "Show What We Know!",
         "ABBR": "Show What We Know!",
-        "DESC": "Reduces the sync move countdown of an allied sync pair by 1. Applies the Supereffective ↑ Next effect to an ally. Increases the Physical Moves ↑ Next effect of an ally by 3 ranks."
+        "DESC": "Reduces the sync move countdown of an ally by 1. Applies the Supereffective ↑ Next effect to an ally. Increases the Physical Moves ↑ Next effect of an ally by 3 ranks."
       },
       "12448": {
         "NAME": "Test This Out!",
@@ -7525,7 +7587,7 @@
       "12455": {
         "NAME": "Charge On Ahead!",
         "ABBR": "Charge On Ahead!",
-        "DESC": "Reduces the sync move countdown of an allied sync pair by 1. Increases the Physical Moves ↑ Next effect and Special Moves ↑ Next effect of an ally by 2 ranks."
+        "DESC": "Reduces the sync move countdown of an ally by 1. Increases the Physical Moves ↑ Next effect and Special Moves ↑ Next effect of an ally by 2 ranks."
       },
       "12456": {
         "NAME": "No Way We’re Losin’!",
@@ -7565,7 +7627,7 @@
       "12468": {
         "NAME": "Fine, Then!",
         "ABBR": "Fine, Then!",
-        "DESC": "Reduces the sync move countdown of an allied sync pair by 1. Applies the Supereffective ↑ Next effect to an ally. Increases the Special Moves ↑ Next effect of an ally by 3 ranks."
+        "DESC": "Reduces the sync move countdown of an ally by 1. Applies the Supereffective ↑ Next effect to an ally. Increases the Special Moves ↑ Next effect of an ally by 3 ranks."
       },
       "12469": {
         "NAME": "Triumphant Tenacity!",
@@ -7686,6 +7748,11 @@
         "NAME": "The Show Begins!",
         "ABBR": "The Show Begins!",
         "DESC": "Turns the field of play’s zone into a Poison Zone. (A Poison Zone powers up Poison-type attacks.) Raises the user’s Sp. Atk and critical-hit rate by 2 stat ranks."
+      },
+      "12569": {
+        "NAME": "Singin’ You a Song!",
+        "ABBR": "Singin’ You a Song!",
+        "DESC": "Raises the Sp. Def of all allied sync pairs by 4 stat ranks. Raises the accuracy of all allied sync pairs by 1 stat rank."
       },
       "12570": {
         "NAME": "Top This!",
@@ -7825,7 +7892,7 @@
       "12890": {
         "NAME": "Let’s Battle All Out!",
         "ABBR": "Let’s Battle All Out!",
-        "DESC": "Reduces the sync move countdown of an allied sync pair by 2. Raises an ally’s Attack by 2 stat ranks. Applies the Gradual Healing effect to an ally. Applies the Damage Guard Next effect to an ally. Applies the Enduring effect to an ally."
+        "DESC": "Reduces the sync move countdown of an ally by 2. Raises an ally’s Attack by 2 stat ranks. Applies the Gradual Healing effect to an ally. Applies the Damage Guard Next effect to an ally. Applies the Enduring effect to an ally."
       },
       "12891": {
         "NAME": "Our Greatest Battle!",
@@ -7885,7 +7952,7 @@
       "12966": {
         "NAME": "Shiny Li’l Lightbulb!",
         "ABBR": "Shiny Li’l Lightbulb!",
-        "DESC": "Reduces the sync move countdown of an allied sync pair by 1. Raises an ally’s Sp. Atk by 4 stat ranks. Raises an ally’s critical-hit rate by 3 stat ranks."
+        "DESC": "Reduces the sync move countdown of an ally by 1. Raises an ally’s Sp. Atk by 4 stat ranks. Raises an ally’s critical-hit rate by 3 stat ranks."
       },
       "12967": {
         "NAME": "Gimme Some Cheers!",
@@ -7962,6 +8029,16 @@
         "ABBR": "Showtime...",
         "DESC": "Raises the Attack, Sp. Atk, and critical-hit rate of all allied sync pairs by 2 stat ranks."
       },
+      "13110": {
+        "NAME": "We’ll Help You!",
+        "ABBR": "We’ll Help You!",
+        "DESC": "Raises the Defense and Sp. Def of all allied sync pairs by 3 stat ranks. These stats are raised by 6 stat ranks instead when the zone is a Normal Zone."
+      },
+      "13120": {
+        "NAME": "Just Thought This Up!",
+        "ABBR": "Just Thought This Up!",
+        "DESC": "Reduces the user’s sync move countdown by two. Increases the user’s Physical Moves ↑ Next effect by 10 ranks when its Physical Moves ↑ Next effect is increased. Increases the user’s Special Moves ↑ Next effect by 10 ranks when its Special Moves ↑ Next effect is increased."
+      },
       "13170": {
         "NAME": "Here You Go!",
         "ABBR": "Here You Go!",
@@ -8007,6 +8084,11 @@
         "ABBR": "I Won’t Run Away!",
         "DESC": "Raises the critical-hit rate of all allied sync pairs by 3 stat ranks. Applies the Gradual Healing effect to all allied sync pairs. Increases the Physical Moves ↑ Next effect of all allied sync pairs by 2 ranks."
       },
+      "13380": {
+        "NAME": "Gimme a Nice Expression!",
+        "ABBR": "Gimme a Nice Expression!",
+        "DESC": "Reduces the sync move countdown of an ally by 1. Applies the Supereffective ↑ Next effect to an ally. Applies the Enduring effect to an ally."
+      },
       "13510": {
         "NAME": "Suits You Well!",
         "ABBR": "Suits You Well!",
@@ -8016,6 +8098,11 @@
         "NAME": "Share the Cuteness!",
         "ABBR": "Share the Cuteness!",
         "DESC": "Applies the Move Gauge Acceleration effect to the allied field of play. Raises an ally’s Sp. Atk by 4 stat ranks. Raises an ally’s critical-hit rate by 3 stat ranks."
+      },
+      "13524": {
+        "NAME": "Cuter and Cuter!",
+        "ABBR": "Cuter and Cuter!",
+        "DESC": "Raises the Sp. Atk of all allied sync pairs by 4 stat ranks. Raises the critical-hit rate of all allied sync pairs by 3 stat ranks. Increases the Special Moves ↑ Next effect of all allied sync pairs by 1 rank."
       },
       "13529": {
         "NAME": "A Fine Idea!",
@@ -11302,6 +11389,21 @@
         "ABBR": "Tempered Armor Steel Impact",
         "DESC": "No additional effect."
       },
+      "116800": {
+        "NAME": "Traveling Photo Enthusiast Rock Slide",
+        "ABBR": "Traveling Photo Enthusiast Rock Slide",
+        "DESC": "No additional effect."
+      },
+      "116900": {
+        "NAME": "Bold and Strong Hairstylist Petal Dance",
+        "ABBR": "Bold and Strong Hairstylist Petal Dance",
+        "DESC": "The more the user’s Speed is raised, the greater the power of this attack."
+      },
+      "117000": {
+        "NAME": "Big Sis Warden Giga Impact",
+        "ABBR": "Big Sis Warden Giga Impact",
+        "DESC": "No additional effect."
+      },
       "117100": {
         "NAME": "Dreaming of a Better World Shadow Force",
         "ABBR": "Dreaming of a Better World Shadow Force",
@@ -11512,6 +11614,26 @@
         "ABBR": "Enjoying After-School Activities Water Impact",
         "DESC": "No additional effect."
       },
+      "122400": {
+        "NAME": "Fragrant Green Trouble Grass Impact",
+        "ABBR": "Fragrant Green Trouble Grass Impact",
+        "DESC": "No additional effect."
+      },
+      "122500": {
+        "NAME": "Burning Red Trouble Fire Impact",
+        "ABBR": "Burning Red Trouble Fire Impact",
+        "DESC": "No additional effect."
+      },
+      "122600": {
+        "NAME": "Flowing Blue Trouble Water Impact",
+        "ABBR": "Flowing Blue Trouble Water Impact",
+        "DESC": "The more the user’s Speed is raised, the greater the power of this attack."
+      },
+      "122700": {
+        "NAME": "I Don’t Do Encores Dark Impact",
+        "ABBR": "I Don’t Do Encores Dark Impact",
+        "DESC": "No additional effect."
+      },
       "122800": {
         "NAME": "Learn Through Battling Normal Impact",
         "ABBR": "Learn Through Battling Normal Impact",
@@ -11565,6 +11687,11 @@
       "201501": {
         "NAME": "Shine at the Summit Tera Blast",
         "ABBR": "Shine at the Summit Tera Blast",
+        "DESC": "No additional effect."
+      },
+      "201601": {
+        "NAME": "Bad for a Day Tera Blast",
+        "ABBR": "Bad for a Day Tera Blast",
         "DESC": "No additional effect."
       }
     },
@@ -11843,6 +11970,21 @@
         "NAME": "Half HP: “Recover” MP ↓ & HP Recovery 5",
         "ABBR": "Half HP: “Recover” MP ↓ & HP Recovery 5",
         "DESC": "Reduces the MP for the user’s Recover by 1 and restores its HP by approximately 50% of its maximum HP when its HP drops to half or below."
+      },
+      "1101570": {
+        "NAME": "Normal Zone & Take Hit: Team HP Recovery {{value}}",
+        "ABBR": "Normal-Z & Take Hit: Team HP Recovery {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of restoring the HP of all allied sync pairs when the user is hit by an attack move while the zone is a Normal Zone."
+      },
+      "1101580": {
+        "NAME": "Normal Zone & Take S-Move Hit: HP Recovery {{value}}",
+        "ABBR": "Normal-Z & Take S-Move Hit: HP Recovery {{value}}",
+        "DESC": "Restores the user’s HP by approximately {{heal}}% of its maximum HP when it is hit by a sync move while the zone is a Normal Zone."
+      },
+      "1101590": {
+        "NAME": "Take P/S-Move Hit & Half HP: Use Berry & HP Recovery {{value}}",
+        "ABBR": "Take P/S-Move Hit & Half HP: Use Berry & HP Recovery {{value}}",
+        "DESC": "Reduces MP by {{value}} for the user’s moves that have the Berry effect tag and restores its HP by approximately {{value}}0% of its maximum HP when its HP is left at half or below after it is hit by an attack move or sync move."
       },
       "1201010": {
         "NAME": "Racing Rain {{value}}",
@@ -12829,6 +12971,11 @@
         "ABBR": "Hyper Beam Sure Hit",
         "DESC": "The user’s Hyper Beam never misses."
       },
+      "1303070": {
+        "NAME": "Sure Hit & Recoil Removal",
+        "ABBR": "Sure Hit & Recoil Removal",
+        "DESC": "The user’s moves never miss. Negates recoil damage when using moves that have the Recoil effect tag."
+      },
       "1305010": {
         "NAME": "Fairy Shift",
         "ABBR": "Fairy Shift",
@@ -13279,6 +13426,11 @@
         "ABBR": "Dragon-Z: P-Moves ↑ & S-Moves ↑ {{value}}",
         "DESC": "Powers up the user’s moves and sync move when the zone is a Dragon Zone."
       },
+      "1308450": {
+        "NAME": "Rock DF on Opp: Team Moves ↑ {{value}}",
+        "ABBR": "Rock DF Opp: Team Moves ↑ {{value}}",
+        "DESC": "Powers up the moves of all allied sync pairs when Rock Damage Field applies to the opponent’s field of play."
+      },
       "1401010": {
         "NAME": "Last Word",
         "ABBR": "Last Word",
@@ -13533,6 +13685,16 @@
         "NAME": "Use Fighting Wish: Sync CD ↓ {{value}}",
         "ABBR": "Use Fighting Wish: Sync CD ↓ {{value}}",
         "DESC": "Has a chance ({{chance}}%) of reducing the user’s sync move countdown by 1 when it uses Fighting Wish."
+      },
+      "1501480": {
+        "NAME": "S-Tera: Sync CD ↓ {{value}}",
+        "ABBR": "S-Tera: Sync CD ↓ {{value}}",
+        "DESC": "Reduces the user’s sync move countdown by {{value}} when it Sync Terastallizes."
+      },
+      "1501490": {
+        "NAME": "Use Unova Passion: Sync CD ↓ {{value}}",
+        "ABBR": "Use Unova Passion: Sync CD ↓ {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of reducing the user’s sync move countdown by 1 when it uses Unova Passion."
       },
       "1502010": {
         "NAME": "Momentum {{value}}",
@@ -14108,6 +14270,16 @@
         "NAME": "Fighting Zone: S-Moves ↑ {{value}}",
         "ABBR": "Fighting-Z: S-Moves ↑ {{value}}",
         "DESC": "Powers up the user’s sync move when the zone is a Fighting Zone."
+      },
+      "1603100": {
+        "NAME": "Rock DF on Opp: Team S-Moves ↑ {{value}}",
+        "ABBR": "Rock DF Opp: Team S-Moves ↑ {{value}}",
+        "DESC": "Powers up the sync moves of all allied sync pairs when Rock Damage Field applies to the opponent’s field of play."
+      },
+      "1603120": {
+        "NAME": "Fighting Zone: Team S-Moves ↑ {{value}}",
+        "ABBR": "Fighting-Z: Team S-Moves ↑ {{value}}",
+        "DESC": "Powers up the sync moves of all allied sync pairs when the zone is a Fighting Zone."
       },
       "1701010": {
         "NAME": "Antitoxin",
@@ -16349,6 +16521,16 @@
         "ABBR": "Supereffective: Interference (1 Kind) {{value}}",
         "DESC": "Has a chance ({{chance}}%) of leaving the target either flinching, confused, or trapped when the user’s move against it is super effective."
       },
+      "1708780": {
+        "NAME": "User Sets Dark Zone: Team Special Boost ↑1 {{value}}",
+        "ABBR": "User Sets Dark-Z: Team SM⇑1 {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of increasing the Special Moves ↑ Next effect of all allied sync pairs by 1 rank when the user turns the field of play’s zone into a Dark Zone."
+      },
+      "1708790": {
+        "NAME": "Rock DF on Opp & Hit: Free Move Next {{value}}",
+        "ABBR": "Rock DF Opp & Hit: FMN {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of applying the Free Move Next effect to the user when its attack move is successful while Rock Damage Field applies to the opponent’s field of play."
+      },
       "1708800": {
         "NAME": "T-Move: Special Boost ↑2 {{value}}",
         "ABBR": "T-Move: SM⇑2 {{value}}",
@@ -16393,6 +16575,31 @@
         "NAME": "Move: Team Phys & Spec Boost ↑1 {{value}}",
         "ABBR": "Move: Team P&SM⇑1 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of increasing the Physical Moves ↑ Next effect and Special Moves ↑ Next effect of all allied sync pairs by 1 rank when the user’s move is successful."
+      },
+      "1708920": {
+        "NAME": "Ally Sets Circle: Team Free Move Next {{value}}",
+        "ABBR": "Ally Sets Circle: Team FMN {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of applying the Free Move Next effect to all allied sync pairs when an ally applies a circle to the allied field of play."
+      },
+      "1708930": {
+        "NAME": "Hit: Physical Boost ↑1 & Special Boost ↑1 {{value}}",
+        "ABBR": "Hit: P&SM⇑1 {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of increasing the user’s Physical Moves ↑ Next effect and Special Moves ↑ Next effect by 1 rank when its attack move is successful."
+      },
+      "1708940": {
+        "NAME": "1st Use Status P-Move: Team Free Move Next",
+        "ABBR": "1st Use Status P-Move: Team FMN",
+        "DESC": "Applies the Free Move Next effect to all allied sync pairs the first time the user’s Pokémon uses a status move each battle."
+      },
+      "1708980": {
+        "NAME": "Entry: Team Physical & Special Boost {{value}}",
+        "ABBR": "Entry: Team P&SM⇑{{value}}",
+        "DESC": "Increases the Physical Moves ↑ Next effect and Special Moves ↑ Next effect of all allied sync pairs by {{value}} rank when the user enters a battle."
+      },
+      "1708990": {
+        "NAME": "User Sets Pasio C (Def): Team Special Boost {{value}}",
+        "ABBR": "User Sets Pasio C (Def): Team SM⇑{{value}}",
+        "DESC": "Increases the Special Moves ↑ Next effect of all allied sync pairs by {{value}} rank when the user applies Pasio Circle (Defensive) to the allied field of play."
       },
       "1801010": {
         "NAME": "Stout Heart {{value}}",
@@ -16553,6 +16760,16 @@
         "NAME": "Dark Zone: All Stats ↓ Immunity",
         "ABBR": "Dark-Z: All Stats ↓ Immunity",
         "DESC": "The user’s stats cannot be lowered when the zone is a Dark Zone."
+      },
+      "1802250": {
+        "NAME": "Normal Zone: Team All Stats ↓ Immunity",
+        "ABBR": "Normal-Z: Team All Stats ↓ Immunity",
+        "DESC": "Stats cannot be lowered for all allied sync pairs when the zone is a Normal Zone."
+      },
+      "1802260": {
+        "NAME": "All Stats ↓ Immunity | P-Moves & S-Moves Crit",
+        "ABBR": "All Stats ↓ Immunity | P-Moves & S-Moves Crit",
+        "DESC": "The user’s stats cannot be lowered. Except in certain circumstances, successful hits with the user’s following attacks become critical hits: Pokémon’s moves or sync move."
       },
       "1803010": {
         "NAME": "Pass It On",
@@ -18819,6 +19036,21 @@
         "ABBR": "Rainy Hit: Stat ↓2 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of lowering one of the target’s following stats by 2 stat ranks at random when the user’s attack move is successful while the weather is rainy: Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness."
       },
+      "1812430": {
+        "NAME": "1st Time User Sets Rock DF: Attack ↑ {{value}}",
+        "ABBR": "1st Time User Sets Rock DF: Atk. ↑ {{value}}",
+        "DESC": "Raises the user’s Attack by {{value}} stat rank the first time it applies Rock Damage Field to the opponent's field of play each battle."
+      },
+      "1812440": {
+        "NAME": "1st Time User Sets Rock DF: Crit Rate ↑ {{value}}",
+        "ABBR": "1st Time User Sets Rock DF: Crit Rate ↑ {{value}}",
+        "DESC": "Raises the user’s critical-hit rate by {{value}} stat rank the first time it applies Rock Damage Field to the opponent's field of play each battle."
+      },
+      "1812450": {
+        "NAME": "Rock DF on Opp & Hit: Stat ↓2 {{value}}",
+        "ABBR": "Rock DF Opp & Hit: Stat ↓2 {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of lowering one of the target’s following stats by 2 stat ranks at random when the user’s attack move is successful while Rock Damage Field applies to the opponent’s field of play: Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness."
+      },
       "1812460": {
         "NAME": "Move: Team Attack ↑ & Speed ↑ {{value}}",
         "ABBR": "Move: Team Atk. ↑ & Spd. ↑ {{value}}",
@@ -18843,6 +19075,41 @@
         "NAME": "Hit: Sp. Def ↓6 {{value}}",
         "ABBR": "Hit: S.Def ↓6 {{value}}",
         "DESC": "Has a chance ({{chance}}%) of lowering the target’s Sp. Def by 6 stat ranks when the user’s attack move against it is successful."
+      },
+      "1812510": {
+        "NAME": "Ally Sets Circle: Team Speed ↑2 {{value}}",
+        "ABBR": "Ally Sets Circle: Team Spd. ↑2 {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of raising the Speed of all allied sync pairs by 2 stat ranks when an ally applies a circle to the allied field of play."
+      },
+      "1812540": {
+        "NAME": "Phys Hit: Physical Boost ↑3 {{value}}",
+        "ABBR": "Phys Hit: PM⇑3 {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of increasing the user’s Physical Moves ↑ Next effect by 3 ranks when its physical attack move is successful."
+      },
+      "1812550": {
+        "NAME": "Spec Hit: Special Boost ↑3 {{value}}",
+        "ABBR": "Spec Hit: SM⇑3 {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of increasing the user’s Special Moves ↑ Next effect by 3 ranks when its special attack move is successful."
+      },
+      "1812560": {
+        "NAME": "Debut: Team Attack & Sp. Atk ↓ {{value}}",
+        "ABBR": "Debut: Team Atk. & S.Atk ↓ {{value}}",
+        "DESC": "Lowers the Attack and Sp. Atk of all opposing sync pairs by {{value}} stat rank the first time the user enters a battle each battle."
+      },
+      "1812570": {
+        "NAME": "Hit: Sp. Atk ↓2 {{value}}",
+        "ABBR": "Hit: S.Atk ↓2 {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of lowering the target’s Sp. Atk by 2 stat ranks when the user’s attack move against it is successful."
+      },
+      "1812580": {
+        "NAME": "Hit: Defense & Speed ↓ {{value}}",
+        "ABBR": "Hit: Def. & Spd. ↓ {{value}}",
+        "DESC": "Has a chance ({{chance}}%) of lowering the target’s Defense and Speed by 1 stat rank when the user’s attack move against it is successful."
+      },
+      "1812610": {
+        "NAME": "Debut: Crit Rate ↑ {{value}}",
+        "ABBR": "Debut: Crit Rate ↑ {{value}}",
+        "DESC": "Raises the user’s critical-hit rate by {{value}} stat rank the first time it enters a battle each battle."
       },
       "1901010": {
         "NAME": "Unhindered",
@@ -19869,6 +20136,16 @@
         "ABBR": "Debut: Hoenn C (Def) on Field",
         "DESC": "Applies Hoenn Circle (Defensive) to the allied field of play the first time the user enters a battle each battle."
       },
+      "1905950": {
+        "NAME": "Rock DF Extension {{value}}",
+        "ABBR": "Rock DF Ext. {{value}}",
+        "DESC": "Extends the duration of Rock Damage Field when Rock Damage Field is applied to the opponent’s field of play."
+      },
+      "1905960": {
+        "NAME": "S-Tera: Dark Zone",
+        "ABBR": "S-Tera: Dark-Z",
+        "DESC": "Turns the field of play’s zone into a Dark Zone when the user Sync Terastallizes. (A Dark Zone powers up Dark-type attacks.)"
+      },
       "1905970": {
         "NAME": "Unova C (Spec) Extension {{value}}",
         "ABBR": "Unova C (Spec) Ext. {{value}}",
@@ -19913,6 +20190,16 @@
         "NAME": "1st Hit: Psychic Terrain & Extension {{value}}",
         "ABBR": "1st Hit: Psychic-T & Ext. {{value}}",
         "DESC": "Turns the field of play’s terrain into Psychic Terrain the first time the user’s attack move is successful each battle. Extends the duration of Psychic Terrain when the terrain turns into Psychic Terrain while the user is on the field."
+      },
+      "1906090": {
+        "NAME": "1st S-Move: Unova C (Phys) on Field",
+        "ABBR": "1st S-Move: Unova C (Phys) on Field",
+        "DESC": "Applies Unova Circle (Physical) to the allied field of play the first time the user’s sync move is used each battle."
+      },
+      "1906120": {
+        "NAME": "Debut: Pasio C (Def) on Field",
+        "ABBR": "Debut: Pasio C (Def) on Field",
+        "DESC": "Applies Pasio Circle (Defensive) to the allied field of play the first time the user enters a battle each battle."
       },
       "2001010": {
         "NAME": "Sand Shelter",
@@ -19973,6 +20260,16 @@
         "NAME": "Rock Zone: Team Crit Immunity",
         "ABBR": "Rock-Z: Team Crit Immunity",
         "DESC": "Protects all allied sync pairs against critical hits when the zone is a Rock Zone."
+      },
+      "2101120": {
+        "NAME": "Circle: Team Crit Immunity",
+        "ABBR": "Circle: Team Crit Immunity",
+        "DESC": "Protects all allied sync pairs against critical hits when a circle applies to the allied field of play."
+      },
+      "2101130": {
+        "NAME": "Normal Zone: Team Crit Immunity",
+        "ABBR": "Normal-Z: Team Crit Immunity",
+        "DESC": "Protects all allied sync pairs against critical hits when the zone is a Normal Zone."
       },
       "2201010": {
         "NAME": "Hostile Environment {{value}}",
@@ -20524,6 +20821,16 @@
         "ABBR": "Sky Judgment",
         "DESC": "Raises the Flying Type Rebuff of all allied sync pairs by 1 rank the first time the user enters a battle each battle. Lowers the Flying Type Rebuff of all opposing sync pairs by 1 rank the first time the user enters a battle each battle."
       },
+      "2903040": {
+        "NAME": "Sinnoh Rush",
+        "ABBR": "Sinnoh Rush",
+        "DESC": "Reduces the user’s sync move countdown by 1 the first time it enters a battle each battle. When used in a co-op battle, reduces the user’s sync move countdown by 1 the first time your team enters a battle each battle instead. The more allied sync pairs with the Sinnoh theme you have on your team, the greater the reduction is. (Each additional sync pair increases the reduction by one, and the maximum reduction is three.) The effects do not stack if you have more than one sync pair on your team with passive skills of the same name."
+      },
+      "2903090": {
+        "NAME": "Paldea Rush",
+        "ABBR": "Paldea Rush",
+        "DESC": "Reduces the user’s sync move countdown by 1 the first time it enters a battle each battle. When used in a co-op battle, reduces the user’s sync move countdown by 1 the first time your team enters a battle each battle instead. The more allied sync pairs with the Paldea theme you have on your team, the greater the reduction is. (Each additional sync pair increases the reduction by one, and the maximum reduction is three.) The effects do not stack if you have more than one sync pair on your team with passive skills of the same name."
+      },
       "3201010": {
         "NAME": "Soothing Sounds in the Woods",
         "ABBR": "Soothing Sounds in the Woods",
@@ -21064,6 +21371,21 @@
         "ABBR": "Team Bonder",
         "DESC": "Reduces the user’s sync move countdown by 1 the first time it enters a battle each battle. Reduces the user’s sync move countdown by 1 the first time its Trainer uses a move each battle. Reduces the sync move countdown by 1 the first time the user’s sync move is used each battle."
       },
+      "3202100": {
+        "NAME": "Traveler with a Thing for Photography",
+        "ABBR": "Traveler with a Thing for Photography",
+        "DESC": "Reduces the user’s sync move countdown by 1 the first time its sync move is used each battle. Powers up the sync moves of all allied sync pairs when Rock Damage Field applies to the opponent’s field of play. Extends the duration of the Rock Zone when the zone turns into a Rock Zone while the user is on the field."
+      },
+      "3202110": {
+        "NAME": "Bold and Stylish Hairdresser",
+        "ABBR": "Bold and Stylish Hairdresser",
+        "DESC": "Reduces the user’s sync move countdown by 1 the first time it enters a battle each battle. Applies Sinnoh Circle (Defensive) to the allied field of play the first time the user enters a battle each battle. Extends the duration of Sinnoh Circle (Defensive) when Sinnoh Circle (Defensive) is applied to the allied field of play."
+      },
+      "3202120": {
+        "NAME": "Warden of the Obsidian Fieldlands",
+        "ABBR": "Warden of the Obsidian Fieldlands",
+        "DESC": "Reduces the user’s sync move countdown by 1 the first time it enters a battle each battle. Reduces the sync move countdown by 1 the first time the user’s sync move is used each battle. Increases the Physical Moves ↑ Next effect and Special Moves ↑ Next effect of all allied sync pairs by 1 rank after your team’s sync pair uses their sync move."
+      },
       "3301050": {
         "NAME": "Debut: Grass S-Tera",
         "ABBR": "Debut: Grass S-Tera",
@@ -21088,6 +21410,11 @@
         "NAME": "Debut: Dragon S-Tera",
         "ABBR": "Debut: Dragon S-Tera",
         "DESC": "The user Sync Terastallizes into Dragon type the first time it enters a battle each battle."
+      },
+      "3301160": {
+        "NAME": "Debut: Dark S-Tera",
+        "ABBR": "Debut: Dark S-Tera",
+        "DESC": "The user Sync Terastallizes into Dark type the first time it enters a battle each battle."
       },
       "5130206": {
         "NAME": "Acute Senses {{value}}",
@@ -22284,6 +22611,41 @@
         "ABBR": "Memories of Route 120",
         "DESC": "Makes the weather rainy the first time the user enters a battle each battle. Applies Hoenn Circle (Defensive) to the allied field of play the first time the user enters a battle each battle."
       },
+      "9903360": {
+        "NAME": "Blessings of the Fieldlands",
+        "ABBR": "Blessings of the Fieldlands",
+        "DESC": "Restores the HP of all allied sync pairs when the user is hit by an attack move while the zone is a Normal Zone. Restores the user’s HP by approximately 20% of its maximum HP when it is hit by a sync move while the zone is a Normal Zone."
+      },
+      "9903370": {
+        "NAME": "Great Photo Op!",
+        "ABBR": "Great Photo Op!",
+        "DESC": "Raises the user’s Attack by 6 stat ranks the first time it applies Rock Damage Field to the opponent's field of play each battle. Raises the user’s critical-hit rate by 3 stat ranks the first time it applies Rock Damage Field to the opponent’s field of play each battle."
+      },
+      "9903380": {
+        "NAME": "Keep It Going!",
+        "ABBR": "Keep It Going!",
+        "DESC": "Lowers one of the target’s following stats by 2 stat ranks at random when the user’s attack move is successful while Rock Damage Field applies to the opponent’s field of play: Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness. Applies the Free Move Next effect to the user when its attack move is successful while Rock Damage Field applies to the opponent’s field of play."
+      },
+      "9903390": {
+        "NAME": "Let’s Be Cute AND Bad!",
+        "ABBR": "Let’s Be Cute AND Bad!",
+        "DESC": "Reduces the user’s sync move countdown by 1 when it Sync Terastallizes. Turns the field of play’s zone into a Dark Zone when the user Sync Terastallizes. (A Dark Zone powers up Dark-type attacks.)"
+      },
+      "9903400": {
+        "NAME": "Tricks Galore!",
+        "ABBR": "Tricks Galore!",
+        "DESC": "Has a chance (30% each) of granting the following effects when the user’s attack move is successful: Makes the target flinch. Leaves the target confused. Leaves the target trapped."
+      },
+      "9903410": {
+        "NAME": "Dance of Yellow Tones",
+        "ABBR": "Dance of Yellow Tones",
+        "DESC": "Applies the Physical Move Break effect to the target when the user’s physical attack move against it is successful. Applies the Special Move Break effect to the target when the user’s special attack move against it is successful. Only one of these effects can activate once per battle."
+      },
+      "9903420": {
+        "NAME": "Dance of Green Tones",
+        "ABBR": "Dance of Green Tones",
+        "DESC": "Lowers the target’s Defense by 2 stat ranks when the user’s physical attack move against it is successful. Increases the user’s Physical Moves ↑ Next effect by 3 ranks when its physical attack move is successful. Lowers the target’s Sp. Def by 2 stat ranks when the user’s special attack move against it is successful. Increases the user’s Special Moves ↑ Next effect by 3 ranks when its special attack move is successful."
+      },
       "9903430": {
         "NAME": "Quell the Frenzy Once More",
         "ABBR": "Quell the Frenzy Once More",
@@ -22294,10 +22656,40 @@
         "ABBR": "Deep Shadow",
         "DESC": "Extends the duration of the Ghost Zone when the zone turns into a Ghost Zone while the user is on the field. Increases the user’s Physical Moves ↑ Next effect and Special Moves ↑ Next effect by 1 rank when its attack move is successful while the zone is a Ghost Zone."
       },
+      "9903450": {
+        "NAME": "The Perfect Temperature",
+        "ABBR": "The Perfect Temperature",
+        "DESC": "Grants all of the following effects the first time the user uses Unova Passion each battle: Raises the user’s Attack by 4 stat ranks. Raises the user’s critical-hit rate by 3 stat ranks. Applies the Supereffective ↑ Next effect to the user."
+      },
+      "9903460": {
+        "NAME": "The Best Tea Leaves",
+        "ABBR": "The Best Tea Leaves",
+        "DESC": "Increases the Physical Moves ↑ Next effect and Special Moves ↑ Next effect of all allied sync pairs by 1 rank when an ally applies a circle to the allied field of play."
+      },
+      "9903470": {
+        "NAME": "Burning Up!",
+        "ABBR": "Burning Up!",
+        "DESC": "Increases the user’s Physical Moves ↑ Next effect by 2 ranks when an ally applies a circle to the allied field of play."
+      },
+      "9903480": {
+        "NAME": "The Purest Water",
+        "ABBR": "The Purest Water",
+        "DESC": "Raises the Speed of all allied sync pairs by 2 stat ranks when an ally applies a circle to the allied field of play. Applies the Free Move Next effect to all allied sync pairs when an ally applies a circle to the allied field of play."
+      },
       "9903570": {
         "NAME": "A Place Where Two Worlds Overlap",
         "ABBR": "A Place Where Two Worlds Overlap",
         "DESC": "Turns the field of play’s zone into a Ghost Zone the first time the user’s attack move is successful each battle. Turns the field of play’s zone into a Ghost Zone the first time the user’s sync move is used each battle. (A Ghost Zone powers up Ghost-type attacks.) Extends the duration of the Ghost Zone when the zone turns into a Ghost Zone while the user is on the field."
+      },
+      "9903670": {
+        "NAME": "Leading a Fighting Spirit",
+        "ABBR": "Leading a Fighting Spirit",
+        "DESC": "Powers up the sync moves of all allied sync pairs when the zone is a Fighting Zone. Extends the duration of the Fighting Zone when the zone turns into a Fighting Zone while the user is on the field."
+      },
+      "9903680": {
+        "NAME": "Lightning-Fast Kick",
+        "ABBR": "Lightning-Fast Kick",
+        "DESC": "Grants all of the following effects the first time the user enters a battle each battle: Reduces the user’s sync move countdown by 2. Turns the field of play’s zone into a Fighting Zone. (A Fighting Zone powers up Fighting-type attacks.) Raises the user’s critical-hit rate by 3 stat ranks."
       }
     },
     "THEMES": {
@@ -22848,7 +23240,12 @@
       "20000426": "Ogre Oustin’",
       "20000427": "Mossui Town",
       "20000428": "The Crystal Pool",
-      "20000429": "Masks"
+      "20000429": "Masks",
+      "20000430": "Dark types",
+      "20000431": "Dusk Balls",
+      "20000432": "Concerts",
+      "20000433": "Songs",
+      "20000434": "Encores"
     },
     "TOPIC_GROUP": {
       "1": "Pokémon",

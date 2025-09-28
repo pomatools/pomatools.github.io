@@ -651,6 +651,7 @@
       "005600": "Mankey",
       "005700": "Primeape",
       "005800": "Growlithe",
+      "005801": "Growlithe de Hisui",
       "005900": "Arcanine",
       "005901": "Arcanine de Hisui",
       "006000": "Poliwag",
@@ -1268,8 +1269,10 @@
       "054500": "Scolipede",
       "054600": "Cottonee",
       "054700": "Whimsicott",
+      "054766": "Whimsicott Teratipo Siniestro",
       "054800": "Petilil",
       "054900": "Lilligant",
+      "054901": "Lilligant de Hisui",
       "055000": "Basculin Raya Roja",
       "055001": "Basculine Raya Azul",
       "055100": "Sandile",
@@ -2278,6 +2281,8 @@
       "030301": "Pola (Temporada 25)",
       "030400": "Laureano",
       "030401": "Laureano (Especial)",
+      "031100": "Lina",
+      "031200": "Sera",
       "031700": "Damián",
       "031800": "Clavel",
       "031801": "Clavel (Academia Uva)",
@@ -2286,8 +2291,10 @@
       "032800": "Henzo",
       "032900": "Gus",
       "033000": "Erin",
+      "033800": "Gama",
       "035100": "Janelle (Jovencita con Kimono)",
       "035200": "Aroa",
+      "035201": "Aroa (Temporada 25)",
       "035600": "Corin",
       "035700": "Cass",
       "035800": "Cael",
@@ -4087,6 +4094,11 @@
         "ABBR": "Conjuro Funesto",
         "DESC": "Sin efectos secundarios."
       },
+      "837": {
+        "NAME": "Danza Triunfal",
+        "ABBR": "Danza Triunfal",
+        "DESC": "Aumenta el Ataque, la Defensa y la Velocidad del usuario en 1 nivel."
+      },
       "838": {
         "NAME": "Arremetida",
         "ABBR": "Arremetida",
@@ -4216,6 +4228,11 @@
         "NAME": "Teraexplosión Amatista",
         "ABBR": "Tera Amatista",
         "DESC": "Reduce la Defensa y la Defensa Especial del objetivo en 1 nivel. Envenena gravemente al objetivo. La potencia de este movimiento no se reduce incluso si hay varios objetivos."
+      },
+      "4046": {
+        "NAME": "Teraexplosión Espinela",
+        "ABBR": "Tera Espinela",
+        "DESC": "Aumenta la Defensa y la Defensa Especial del usuario en 1 nivel."
       },
       "5000": {
         "NAME": "Rayo",
@@ -4982,6 +4999,36 @@
         "ABBR": "Golpe Roca F",
         "DESC": "Cuándo se activa: Cuando se crea una Zona Lucha.\nCuándo se desactiva: Cuando ya no esté activa la Zona Lucha.\n\nAcierta siempre. Reduce la Defensa del objetivo en 4 niveles. Reduce la Resiliencia Lucha del objetivo en 1 nivel la primera vez que este movimiento de ataque acierta en cada combate."
       },
+      "6152": {
+        "NAME": "Avalancha Pedregosa",
+        "ABBR": "Avalancha P",
+        "DESC": "Cuándo se activa: Cuando el Campo Daño Roca se aplica al bando rival.\nCuándo se desactiva: Cuando ya no esté activo el Campo Daño Roca del bando rival.\n\nReduce la Defensa del objetivo en 2 niveles. Hace retroceder al objetivo. La potencia de este movimiento no se reduce incluso si hay varios objetivos. Crea una Zona Roca EX la primera vez que este movimiento de ataque acierta en cada combate. (Una Zona Roca EX potencia los ataques de tipo Roca)."
+      },
+      "6153": {
+        "NAME": "Danza Triunfal Floreciente",
+        "ABBR": "Danza Triunfal Floreciente",
+        "DESC": "Cuándo se activa: Cuando la determinación del bando del usuario es 0.\nCuándo se desactiva: Cuando la determinación del bando del usuario es 1 o más.\n\nAumenta el Ataque, la Defensa, el Ataque Especial y la Velocidad del usuario en 6 niveles."
+      },
+      "6154": {
+        "NAME": "Protección de Pelaje Peludo",
+        "ABBR": "Protección PP",
+        "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: No se puede desactivar.\n\nAplica el efecto Regeneración de PS al usuario. Aplica el efecto Siguiente mitiga daño al usuario. Aplica el efecto Absorbe daño sig. mov. a todos al usuario."
+      },
+      "6155": {
+        "NAME": "Llanto Falso Adorable y Maléfico",
+        "ABBR": "Llanto Falso AyM",
+        "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: No se puede desactivar.\n\nAcierta siempre. Reduce la Defensa Especial de todos los compis rivales en 3 niveles. Crea una Zona Siniestra. (Una Zona Siniestra potencia los ataques de tipo Siniestro). Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
+      },
+      "6156": {
+        "NAME": "Envite Ígneo de Llamas Titilantes",
+        "ABBR": "Envite Ígneo LT",
+        "DESC": "Cuándo se activa: Cuando se le aplica un círculo al bando aliado.\nCuándo se desactiva: No se puede desactivar.\n\nDescongela al usuario. Acierta siempre. Reduce la Defensa del objetivo en 1 nivel. Hay una probabilidad del 10% de quemar al objetivo. La potencia y la probabilidad de aplicar efectos secundarios de este movimiento no se reducen incluso si hay varios objetivos."
+      },
+      "6157": {
+        "NAME": "Acua Cola a Presión",
+        "ABBR": "Acua Cola P",
+        "DESC": "Cuándo se activa: Cuando el usuario usa algún movimiento una vez.\nCuándo se desactiva: No se puede desactivar.\n\nAcierta siempre. Reduce la Defensa y la Velocidad del objetivo en 2 niveles. Aplica el efecto Vulnerabilidad a físicos al objetivo la primera vez que este movimiento de ataque acierta en cada combate."
+      },
       "7000": {
         "NAME": "Gigarreciclaje",
         "ABBR": "Gigarreciclaje",
@@ -5335,7 +5382,7 @@
       "10008": {
         "NAME": "¡Estrategia para la victoria!",
         "ABBR": "¡Estrategia para la victoria!",
-        "DESC": "Se reduce en 1 el contador de movimientos compi de una pareja de compis aliada. Aumenta la probabilidad de un aliado de asestar golpes críticos en 2 niveles. Aplica el efecto Siguiente Supereficaz ↑ a un aliado."
+        "DESC": "Se reduce en 1 el contador de movimientos compi de un aliado. Aumenta la probabilidad de un aliado de asestar golpes críticos en 2 niveles. Aplica el efecto Siguiente Supereficaz ↑ a un aliado."
       },
       "10009": {
         "NAME": "¡Con gloria hacia la victoria!",
@@ -5700,7 +5747,7 @@
       "10215": {
         "NAME": "¡No me podéis tomar el pelo!",
         "ABBR": "¡No me podéis tomar el pelo!",
-        "DESC": "Se reduce en 1 el contador de movimientos compi de una pareja de compis aliada. Aumenta el Ataque de un aliado en 4 niveles. Aplica el efecto Siguiente Supereficaz ↑ a un aliado."
+        "DESC": "Se reduce en 1 el contador de movimientos compi de un aliado. Aumenta el Ataque de un aliado en 4 niveles. Aplica el efecto Siguiente Supereficaz ↑ a un aliado."
       },
       "10216": {
         "NAME": "¡Os guiaré a la gloria!",
@@ -6430,12 +6477,12 @@
       "11061": {
         "NAME": "¡Menudo estilazo!",
         "ABBR": "¡Menudo estilazo!",
-        "DESC": "Se reduce en 2 el contador de movimientos compi de una pareja de compis aliada. Aumenta la Precisión y la probabilidad de asestar golpes críticos de una pareja de compis aliada en 1 nivel. Cuando el bando del usuario está lleno de determinación, en su lugar las aumenta en 2 niveles."
+        "DESC": "Se reduce en 2 el contador de movimientos compi de un aliado. Aumenta la Precisión y la probabilidad de asestar golpes críticos de una pareja de compis aliada en 1 nivel. Cuando el bando del usuario está lleno de determinación, en su lugar las aumenta en 2 niveles."
       },
       "11062": {
         "NAME": "¡Un combate Poké... yo lo valgo!",
         "ABBR": "¡Un combate Poké... yo lo valgo!",
-        "DESC": "Se reduce en 1 el contador de movimientos compi de una pareja de compis aliada. Aumenta el Ataque Especial de un aliado en 4 niveles. Aumenta la probabilidad de asestar golpes críticos de un aliado en 3 niveles."
+        "DESC": "Se reduce en 1 el contador de movimientos compi de un aliado. Aumenta el Ataque Especial de un aliado en 4 niveles. Aumenta la probabilidad de asestar golpes críticos de un aliado en 3 niveles."
       },
       "11064": {
         "NAME": "¡Entrega de felicidad!",
@@ -6451,6 +6498,11 @@
         "NAME": "¡Sin competencia no hay mejora!",
         "ABBR": "¡Sin competencia no hay mejora!",
         "DESC": "Aumenta la Precisión de todos los compis aliados en 1 nivel. Aumenta la probabilidad de asestar golpes críticos de todos los compis aliados en 2 niveles."
+      },
+      "11070": {
+        "NAME": "¡Disfruta el aroma!",
+        "ABBR": "¡Disfruta el aroma!",
+        "DESC": "Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 2 niveles. Aplica Círculo de Teselia (Defensivo) al bando aliado. Círculo de Teselia (Defensivo) otorga todos los efectos siguientes: Aumenta la potencia de los movimientos y los movimientos compi de todos los compis aliados en un 5%. Mitiga el daño por movimientos de ataque y movimientos compi que reciben todos los compis aliados en un 10%. Cuantos más compis con el distintivo \"Teselia\" estén en el bando aliado, más efectiva será esta habilidad. Cada pareja de compis aumenta la potencia de los movimientos y los movimientos compi en un 5% adicional (hasta un total máximo del 20%), y mitiga el daño recibido en un 5% adicional (hasta un total máximo del 25%)."
       },
       "11080": {
         "NAME": "¡Pasajeros al tren!",
@@ -7047,6 +7099,16 @@
         "ABBR": "¡Prepárate para conocer mi ira!",
         "DESC": "Aumenta la Velocidad, la Precisión y la probabilidad de asestar golpes críticos de todos los compis aliados en 1 nivel. Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
+      "11450": {
+        "NAME": "¡A calcinarse toca!",
+        "ABBR": "¡A calcinarse toca!",
+        "DESC": "Aplica el efecto Siguiente Supereficaz ↑ al usuario. Aplica el efecto Siguiente sin coste al usuario. Aumenta el efecto Siguiente Movimiento Compi ↑ del usuario en 4 niveles."
+      },
+      "11460": {
+        "NAME": "Claro como el agua...",
+        "ABBR": "Claro como el agua...",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario. Aumenta el Ataque del usuario en 4 niveles. Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles."
+      },
       "11470": {
         "NAME": "¡Os tumbaré!",
         "ABBR": "¡Os tumbaré!",
@@ -7490,7 +7552,7 @@
       "12447": {
         "NAME": "¡Que no decaiga la cosa!",
         "ABBR": "¡Que no decaiga la cosa!",
-        "DESC": "Se reduce en 1 el contador de movimientos compi de una pareja de compis aliada. Aplica el efecto Siguiente Supereficaz ↑ a un aliado. Aumenta el efecto Siguiente Físico ↑ de un aliado en 3 niveles."
+        "DESC": "Se reduce en 1 el contador de movimientos compi de un aliado. Aplica el efecto Siguiente Supereficaz ↑ a un aliado. Aumenta el efecto Siguiente Físico ↑ de un aliado en 3 niveles."
       },
       "12448": {
         "NAME": "¡Estamos en nuestra salsa!",
@@ -7525,7 +7587,7 @@
       "12455": {
         "NAME": "¡No te achantes y tira p'alante!",
         "ABBR": "¡No te achantes y tira p'alante!",
-        "DESC": "Se reduce en 1 el contador de movimientos compi de una pareja de compis aliada. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de un aliado en 2 niveles."
+        "DESC": "Se reduce en 1 el contador de movimientos compi de un aliado. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de un aliado en 2 niveles."
       },
       "12456": {
         "NAME": "¿Perder yo? ¡Ni de coña!",
@@ -7565,7 +7627,7 @@
       "12468": {
         "NAME": "¡Pues vale, qué remedio!",
         "ABBR": "¡Pues vale, qué remedio!",
-        "DESC": "Se reduce en 1 el contador de movimientos compi de una pareja de compis aliada. Aplica el efecto Siguiente Supereficaz ↑ a un aliado. Aumenta el efecto Siguiente Especial ↑ de un aliado en 3 niveles."
+        "DESC": "Se reduce en 1 el contador de movimientos compi de un aliado. Aplica el efecto Siguiente Supereficaz ↑ a un aliado. Aumenta el efecto Siguiente Especial ↑ de un aliado en 3 niveles."
       },
       "12469": {
         "NAME": "¡La gloria es la única opción!",
@@ -7686,6 +7748,11 @@
         "NAME": "¡Aquí va mi último temazo!",
         "ABBR": "¡Aquí va mi último temazo!",
         "DESC": "Crea una Zona Veneno. (Una Zona Veneno potencia los ataques de tipo Veneno). Aumenta el Ataque Especial y la probabilidad del usuario de asestar golpes críticos en 2 niveles."
+      },
+      "12569": {
+        "NAME": "¡He compuesto un temilla y todo!",
+        "ABBR": "¡He compuesto un temilla y todo!",
+        "DESC": "Aumenta la Defensa Especial de todos los compis aliados en 4 niveles. Aumenta la Precisión de todos los compis aliados en 1 nivel."
       },
       "12570": {
         "NAME": "¡No queda otra que ganar!",
@@ -7825,7 +7892,7 @@
       "12890": {
         "NAME": "¡A combatir en serio!",
         "ABBR": "¡A combatir en serio!",
-        "DESC": "Se reduce en 2 el contador de movimientos compi de una pareja de compis aliada. Aumenta el Ataque de un aliado en 2 niveles. Aplica el efecto Regeneración de PS a un aliado. Aplica el efecto Siguiente mitiga daño a un aliado. Aplica el efecto Aguante a un aliado."
+        "DESC": "Se reduce en 2 el contador de movimientos compi de un aliado. Aumenta el Ataque de un aliado en 2 niveles. Aplica el efecto Regeneración de PS a un aliado. Aplica el efecto Siguiente mitiga daño a un aliado. Aplica el efecto Aguante a un aliado."
       },
       "12891": {
         "NAME": "¡Un combate que pasará a la historia!",
@@ -7885,7 +7952,7 @@
       "12966": {
         "NAME": "¡Se me acaba de encender la bombillita!",
         "ABBR": "¡Se me acaba de encender la bombillita!",
-        "DESC": "Se reduce en 1 el contador de movimientos compi de una pareja de compis aliada. Aumenta el Ataque Especial de un aliado en 4 niveles. Aumenta la probabilidad de asestar golpes críticos de un aliado en 3 niveles."
+        "DESC": "Se reduce en 1 el contador de movimientos compi de un aliado. Aumenta el Ataque Especial de un aliado en 4 niveles. Aumenta la probabilidad de asestar golpes críticos de un aliado en 3 niveles."
       },
       "12967": {
         "NAME": "¡La cosa pinta un poco chunguilla!",
@@ -7962,6 +8029,16 @@
         "ABBR": "Habrá que darles lo que piden",
         "DESC": "Aumenta el Ataque, el Ataque Especial y la probabilidad de asestar golpes críticos de todos los compis aliados en 2 niveles."
       },
+      "13110": {
+        "NAME": "¡Cuenta con nuestra ayuda!",
+        "ABBR": "¡Cuenta con nuestra ayuda!",
+        "DESC": "Aumenta la Defensa y la Defensa Especial de todos los compis aliados en 3 niveles. Estas características aumentan en 6 niveles en su lugar cuando la zona es una Zona Normal."
+      },
+      "13120": {
+        "NAME": "¡Mi musa ha vuelto!",
+        "ABBR": "¡Mi musa ha vuelto!",
+        "DESC": "Se reduce en 2 el contador de movimientos compi del usuario. Aumenta el efecto Siguiente Físico ↑ del usuario en 10 niveles cuando su efecto Siguiente Físico ↑ ha aumentado. Aumenta el efecto Siguiente Especial ↑ del usuario en 10 niveles cuando su efecto Siguiente Especial ↑ ha aumentado."
+      },
       "13170": {
         "NAME": "¡Aquí tienes!",
         "ABBR": "¡Aquí tienes!",
@@ -8007,6 +8084,11 @@
         "ABBR": "¡Se acabó el esconderse!",
         "DESC": "Aumenta la probabilidad de asestar golpes críticos de todos los compis aliados en 3 niveles. Aplica el efecto Regeneración de PS a todos los compis aliados. Aumenta el efecto Siguiente Físico ↑ de todos los compis aliados en 2 niveles."
       },
+      "13380": {
+        "NAME": "Muéstrame tu mejor perfil...",
+        "ABBR": "Muéstrame tu mejor perfil...",
+        "DESC": "Se reduce en 1 el contador de movimientos compi de un aliado. Aplica el efecto Siguiente Supereficaz ↑ a un aliado. Aplica el efecto Aguante a un aliado."
+      },
       "13510": {
         "NAME": "¡Te queda de maravilla!",
         "ABBR": "¡Te queda de maravilla!",
@@ -8016,6 +8098,11 @@
         "NAME": "¡Compartamos nuestra monería!",
         "ABBR": "¡Compartamos nuestra monería!",
         "DESC": "Aplica el efecto Barra mov. acelerada al bando aliado. Aumenta el Ataque Especial de un aliado en 4 niveles. Aumenta la probabilidad de asestar golpes críticos de un aliado en 3 niveles."
+      },
+      "13524": {
+        "NAME": "¡Muéstranos lo adorable que eres!",
+        "ABBR": "¡Muéstranos lo adorable que eres!",
+        "DESC": "Aumenta el Ataque Especial de todos los compis aliados en 4 niveles. Aumenta la probabilidad de asestar golpes críticos de todos los compis aliados en 3 niveles. Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel."
       },
       "13529": {
         "NAME": "¡Me gusta!",
@@ -11302,6 +11389,21 @@
         "ABBR": "Impacto Acero de Cuerpo Metálico Robusto",
         "DESC": "Sin efectos secundarios."
       },
+      "116800": {
+        "NAME": "Avalancha de la Viajera Enamorada de la Fotografía",
+        "ABBR": "Avalancha de la Viajera Enamorada de la Fotografía",
+        "DESC": "Sin efectos secundarios."
+      },
+      "116900": {
+        "NAME": "Danza Pétalo de la Peluquera sin Rival",
+        "ABBR": "Danza Pétalo de la Peluquera sin Rival",
+        "DESC": "Cuanto más haya aumentado la Velocidad del usuario, más aumenta la potencia de este ataque."
+      },
+      "117000": {
+        "NAME": "Giga Impacto de la Guardiana como una Hermana",
+        "ABBR": "Giga Impacto de la Guardiana como una Hermana",
+        "DESC": "Sin efectos secundarios."
+      },
       "117100": {
         "NAME": "Golpe Umbrío del Sueño de Crear un Mundo Mejor",
         "ABBR": "Golpe Umbrío del Sueño de Crear un Mundo Mejor",
@@ -11512,6 +11614,26 @@
         "ABBR": "Impacto Agua de Divertirse Después de Clase",
         "DESC": "Sin efectos secundarios."
       },
+      "122400": {
+        "NAME": "Impacto Planta del Desafío Verde Aromático",
+        "ABBR": "Impacto Planta del Desafío Verde Aromático",
+        "DESC": "Sin efectos secundarios."
+      },
+      "122500": {
+        "NAME": "Impacto Fuego del Desafío al Rojo Vivo",
+        "ABBR": "Impacto Fuego del Desafío al Rojo Vivo",
+        "DESC": "Sin efectos secundarios."
+      },
+      "122600": {
+        "NAME": "Impacto Agua del Desafío Azul Fluido",
+        "ABBR": "Impacto Agua del Desafío Azul Fluido",
+        "DESC": "Cuanto más haya aumentado la Velocidad del usuario, más aumenta la potencia de este ataque."
+      },
+      "122700": {
+        "NAME": "Impacto Siniestro de Pasar Olímpicamente de los Bises",
+        "ABBR": "Impacto Siniestro de Pasar Olímpicamente de los Bises",
+        "DESC": "Sin efectos secundarios."
+      },
       "122800": {
         "NAME": "Impacto Normal de Aprender de las Derrotas",
         "ABBR": "Impacto Normal de Aprender de las Derrotas",
@@ -11565,6 +11687,11 @@
       "201501": {
         "NAME": "Teraexplosión que Brilla desde la Cima",
         "ABBR": "Teraexplosión que Brilla desde la Cima",
+        "DESC": "Sin efectos secundarios."
+      },
+      "201601": {
+        "NAME": "Teraexplosión de Hacer el Mal por Un Día",
+        "ABBR": "Teraexplosión de Hacer el Mal por Un Día",
         "DESC": "Sin efectos secundarios."
       }
     },
@@ -11843,6 +11970,21 @@
         "NAME": "Fatiga PM Recuperación ↓ y Curativa +5",
         "ABBR": "Fatiga PM Recuperación ↓ y Curativa +5",
         "DESC": "Reduce los PM de Recuperación del usuario en 1 y recupera aproximadamente un 50% de sus PS máximos cuando sus PS bajan a la mitad o menos."
+      },
+      "1101570": {
+        "NAME": "Zona Normal Daño Curativo M +{{value}}",
+        "ABBR": "Z.Normal Daño Cura M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de hacer que todos los compis aliados recuperen los PS cuando golpean al usuario con un movimiento de ataque mientras la zona es Zona Normal."
+      },
+      "1101580": {
+        "NAME": "Zona Normal Daño Mov. Compi Curativo +{{value}}",
+        "ABBR": "Z.Normal Daño M-Compi Cura {{value}}",
+        "DESC": "Recupera aproximadamente un {{heal}}% de los PS máximos del usuario cuando le golpean con un movimiento compi mientras la zona es Zona Normal."
+      },
+      "1101590": {
+        "NAME": "Superdaño Fatiga Consume Baya y Curativo +{{value}}",
+        "ABBR": "Superdaño Fatiga Consume Baya y Cura {{value}}",
+        "DESC": "Reduce en {{value}} los PM de los movimientos del usuario que tienen el efecto Baya y recupera aproximadamente un {{value}}0% de sus PS máximos cuando sus PS se quedan a la mitad o menos tras ser golpeado con un movimiento de ataque o movimiento compi."
       },
       "1201010": {
         "NAME": "Velocidad Pluvial +{{value}}",
@@ -12829,6 +12971,11 @@
         "ABBR": "Hiperrayo Certero",
         "DESC": "El movimiento Hiperrayo del usuario acierta siempre."
       },
+      "1303070": {
+        "NAME": "Efecto Certero e Inmunidad Secuelas",
+        "ABBR": "Efecto Certero e Inmunidad Secuelas",
+        "DESC": "Hace que los movimientos del usuario acierten siempre. Anula el daño recibido por el usuario al emplear movimientos que tengan el efecto de secuela."
+      },
       "1305010": {
         "NAME": "Cambio Hada",
         "ABBR": "Cambio Hada",
@@ -12920,8 +13067,8 @@
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM del movimiento que se acaba de usar cuando dicho movimiento acierta."
       },
       "1306030": {
-        "NAME": "Ataque Recupera PM +{{value}}",
-        "ABBR": "At. Rápido: PM+1 {{value}}",
+        "NAME": "Ataque Recupera PM Ataques Rápidos +{{value}}",
+        "ABBR": "At.: At. Rápidos PM+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario que tengan el efecto de ataque rápido cuando su movimiento de ataque acierta."
       },
       "1306040": {
@@ -12935,8 +13082,8 @@
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario tras asestar un golpe crítico."
       },
       "1306060": {
-        "NAME": "Ataque Rival Quemado Recupera PM +{{value}}",
-        "ABBR": "At. Riv. Que.: PM+1 {{value}}",
+        "NAME": "Ataque Rival Quemado Recupera PM At. Rápidos +{{value}}",
+        "ABBR": "At. Riv. Que.: At. Rápidos PM+1 {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de recuperar 1 PM de los movimientos del usuario que tengan el efecto de ataque rápido cuando su movimiento de ataque acierta mientras el objetivo está quemado."
       },
       "1306070": {
@@ -13279,6 +13426,11 @@
         "ABBR": "Z.Dragón Superimp. {{value}}",
         "DESC": "Aumenta la potencia de los movimientos y del movimiento compi del usuario cuando la zona es Zona Dragón."
       },
+      "1308450": {
+        "NAME": "Campo Daño Roca Rival Impulsor M +{{value}}",
+        "ABBR": "C.D. Roca Riv. Imp. M {{value}}",
+        "DESC": "Aumenta la potencia de los movimientos de todos los compis aliados cuando se aplica Campo Daño Roca al bando rival."
+      },
       "1401010": {
         "NAME": "Regalo Final",
         "ABBR": "Regalo Final",
@@ -13533,6 +13685,16 @@
         "NAME": "Voluntad Lucha Furor +{{value}}",
         "ABBR": "Voluntad Lucha Furor {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de reducir en 1 el contador de movimientos compi del usuario cuando usa Voluntad Lucha."
+      },
+      "1501480": {
+        "NAME": "Teracristalización Compi Furor +{{value}}",
+        "ABBR": "Teracristalización Furor {{value}}",
+        "DESC": "Se reduce en {{value}} el contador de movimientos compi del usuario cuando teracristaliza."
+      },
+      "1501490": {
+        "NAME": "Pasión de Teselia Furor +{{value}}",
+        "ABBR": "Pasión de Teselia Furor {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir en 1 el contador de movimientos compi del usuario cuando usa Pasión de Teselia."
       },
       "1502010": {
         "NAME": "Euforia +{{value}}",
@@ -14108,6 +14270,16 @@
         "NAME": "Zona Lucha Compimpulsora +{{value}}",
         "ABBR": "Z.Lucha Compimp. {{value}}",
         "DESC": "Aumenta la potencia del movimiento compi del usuario cuando la zona es Zona Lucha."
+      },
+      "1603100": {
+        "NAME": "Campo Daño Roca Rival Compimpulsor M +{{value}}",
+        "ABBR": "C.D. Roca Riv. Compimp. M {{value}}",
+        "DESC": "Aumenta la potencia de los movimientos compi de todos los compis aliados cuando se aplica Campo Daño Roca al bando rival."
+      },
+      "1603120": {
+        "NAME": "Zona Lucha Compimpulsora M +{{value}}",
+        "ABBR": "Z.Lucha Compimp. M {{value}}",
+        "DESC": "Aumenta la potencia de los movimientos compi de todos los compis aliados cuando la zona es Zona Lucha."
       },
       "1701010": {
         "NAME": "Inmunidad Veneno",
@@ -15247,7 +15419,7 @@
       "1706520": {
         "NAME": "At. Determinación Sig. Fís. ↑ Triple +{{value}}",
         "ABBR": "At. Det. Sig.Fís. ↑+3 {{value}}",
-        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ del usuario en 3 niveles cuando su movimiento de ataque acierta mientras su equipo está lleno de determinación."
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ del usuario en 3 niveles cuando su movimiento de ataque acierta mientras su bando está lleno de determinación."
       },
       "1706530": {
         "NAME": "Mov. Compi D Sig. Sin Coste",
@@ -16349,6 +16521,16 @@
         "ABBR": "Mov. Efi. Monosabotaje {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de hacer retroceder, confundir o dejar bajo ataduras al objetivo cuando el movimiento del usuario contra el objetivo resulta supereficaz."
       },
+      "1708780": {
+        "NAME": "Activa Zona Siniestra Sig. Esp. ↑ Simple M +{{value}}",
+        "ABBR": "Activa Z.Siniestra Sig.Esp. ↑+1 M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel cuando el usuario crea una Zona Siniestra."
+      },
+      "1708790": {
+        "NAME": "At. Riv. Campo Daño Roca Sig. Sin Coste +{{value}}",
+        "ABBR": "At. Riv. C.D. Roca Sig. 0 Coste {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aplicar el efecto Siguiente sin coste al usuario cuando su movimiento de ataque acierta mientras se aplica Campo Daño Roca al bando rival."
+      },
       "1708800": {
         "NAME": "Orden Siguiente Especial ↑ Doble +{{value}}",
         "ABBR": "Ord. Sig.Esp. ↑+2 {{value}}",
@@ -16393,6 +16575,31 @@
         "NAME": "Mov. Sig. Físico Especial ↑ Simple M +{{value}}",
         "ABBR": "Mov. Sig.Fís.Esp. ↑+1 M {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel cuando el movimiento del usuario acierta."
+      },
+      "1708920": {
+        "NAME": "Círculo Aliado Siguiente Sin Coste M +{{value}}",
+        "ABBR": "Círculo Aliado Sig. 0 Coste M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aplicar el efecto Siguiente sin coste a todos los compis aliados cuando un aliado aplica un círculo al bando aliado."
+      },
+      "1708930": {
+        "NAME": "Ataque Sig. Físico Especial ↑ Simple +{{value}}",
+        "ABBR": "Ataque Sig.Fís.Esp. ↑+1 {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ del usuario en 1 nivel cuando su movimiento de ataque acierta."
+      },
+      "1708940": {
+        "NAME": "1.ª Acción de Estado Sig. Sin Coste M",
+        "ABBR": "1.ª Acc. Est. Sig. 0 Coste M",
+        "DESC": "Aplica el efecto Siguiente sin coste a todos los compis aliados la primera vez que el Pokémon del usuario usa un movimiento de estado en cada combate."
+      },
+      "1708980": {
+        "NAME": "Entrada Siguiente Físico Especial ↑ M +{{value}}",
+        "ABBR": "Entrada Sig.Fís.Esp. M ↑+{{value}}",
+        "DESC": "Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel cuando el usuario entra en combate."
+      },
+      "1708990": {
+        "NAME": "Activa Círculo de Passio (Defensivo) Sig. Esp. ↑ M +{{value}}",
+        "ABBR": "Activa C.Passio (Def) Sig.Esp. M ↑+{{value}}",
+        "DESC": "Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel cuando el usuario aplica Círculo de Passio (Defensivo) al bando aliado."
       },
       "1801010": {
         "NAME": "Resistencia Ataque ↓ +{{value}}",
@@ -16553,6 +16760,16 @@
         "NAME": "Zona Siniestra Inmunidad Características ↓",
         "ABBR": "Z.Siniestra Inm. Caract. ↓",
         "DESC": "Impide que el usuario sufra reducciones en las características cuando la zona es Zona Siniestra."
+      },
+      "1802250": {
+        "NAME": "Zona Normal Inmun. Características ↓ M",
+        "ABBR": "Z.Normal Inmun. Caract. ↓ M",
+        "DESC": "Impide que todos los compis aliados sufran reducciones en las características cuando la zona es Zona Normal."
+      },
+      "1802260": {
+        "NAME": "Inmun. Caract. ↓ y Superacción Crítica",
+        "ABBR": "Inmun. Caract. ↓ y Superacción Crítica",
+        "DESC": "Impide que el usuario sufra reducciones en las características. Salvo en ciertas circunstancias, los ataques con éxito con los siguientes ataques del usuario se convierten en golpes críticos: movimientos de los Pokémon o movimientos compi."
       },
       "1803010": {
         "NAME": "Pase de Testigo",
@@ -18819,6 +19036,21 @@
         "ABBR": "Ataque Caract. ↓↓ Pluvial {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de reducir en 2 niveles una de estas características del objetivo al azar cuando el movimiento de ataque del usuario acierta mientras llueve: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión."
       },
+      "1812430": {
+        "NAME": "1.ª vez Activa Campo Daño Roca Ataque ↑ +{{value}}",
+        "ABBR": "1.ª vez Activa C.D. Roca Atq. ↑ {{value}}",
+        "DESC": "Aumenta el Ataque del usuario en {{value}} nivel la primera vez que aplica Campo Daño Roca al bando rival en cada combate."
+      },
+      "1812440": {
+        "NAME": "1.ª vez Activa Campo Daño Roca Críticos ↑ +{{value}}",
+        "ABBR": "1.ª vez Activa C.D. Roca Críticos ↑ {{value}}",
+        "DESC": "Aumenta la probabilidad de asestar golpes críticos del usuario en {{value}} nivel la primera vez que aplica Campo Daño Roca al bando rival en cada combate."
+      },
+      "1812450": {
+        "NAME": "Ataque Rival Campo Daño Roca Caract. ↓↓ +{{value}}",
+        "ABBR": "At. Riv. C.D. Roca Caract. ↓↓ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir en 2 niveles una de estas características del objetivo al azar cuando el movimiento de ataque del usuario acierta mientras se aplica Campo Daño Roca al bando rival: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión."
+      },
       "1812460": {
         "NAME": "Movimiento Ataque y Velocidad ↑ M +{{value}}",
         "ABBR": "Mov. Atq. y Vel. ↑ M {{value}}",
@@ -18843,6 +19075,41 @@
         "NAME": "Ataque Defensa Especial ↓↓↓↓↓↓ +{{value}}",
         "ABBR": "At. D.Esp. ↓↓↓↓↓↓ {{value}}",
         "DESC": "Hay una probabilidad del {{chance}}% de reducir la Defensa Especial del objetivo en 6 niveles cuando el movimiento de ataque del usuario contra el objetivo acierta."
+      },
+      "1812510": {
+        "NAME": "Círculo Aliado Velocidad ↑↑ M +{{value}}",
+        "ABBR": "Círculo Aliado Vel. ↑↑ M {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar la Velocidad de todos los compis aliados en 2 niveles cuando un aliado aplica un círculo al bando aliado."
+      },
+      "1812540": {
+        "NAME": "Ataque Físico Siguiente Físico ↑ Triple +{{value}}",
+        "ABBR": "At. Fís. Sig.Fís. ↑+3 {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Físico ↑ del usuario en 3 niveles cuando su movimiento de ataque físico acierta."
+      },
+      "1812550": {
+        "NAME": "Ataque Especial Sig. Especial ↑ Triple +{{value}}",
+        "ABBR": "At. Esp. Sig.Espe. ↑+3 {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de aumentar el efecto Siguiente Especial ↑ del usuario en 3 niveles cuando su movimiento de ataque especial acierta."
+      },
+      "1812560": {
+        "NAME": "1.ª Entrada Ofensiva Rival M ↓ +{{value}}",
+        "ABBR": "1.ª Entrada Ofensiva Riv. M ↓ {{value}}",
+        "DESC": "Reduce el Ataque y el Ataque Especial de todos los compis rivales en {{value}} nivel cuando el usuario entra en combate por primera vez en cada combate."
+      },
+      "1812570": {
+        "NAME": "Ataque Ataque Especial ↓↓ +{{value}}",
+        "ABBR": "At. A.Esp ↓↓ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir el Ataque Especial del objetivo en 2 niveles cuando el movimiento de ataque del usuario contra el objetivo acierta."
+      },
+      "1812580": {
+        "NAME": "Ataque Defensa y Velocidad ↓ +{{value}}",
+        "ABBR": "At. Def. y Vel. ↓ {{value}}",
+        "DESC": "Hay una probabilidad del {{chance}}% de reducir la Defensa y la Velocidad del objetivo en 1 nivel cuando el movimiento de ataque del usuario contra el objetivo acierta."
+      },
+      "1812610": {
+        "NAME": "1.ª Entrada Críticos ↑ +{{value}}",
+        "ABBR": "1.ª Entrada Críticos ↑ {{value}}",
+        "DESC": "Aumenta la probabilidad de asestar golpes críticos del usuario en {{value}} nivel al entrar en combate por primera vez en cada combate."
       },
       "1901010": {
         "NAME": "Ataque Penetrante",
@@ -19869,6 +20136,16 @@
         "ABBR": "1.ª Entrada C.Hoenn (Def)",
         "DESC": "Aplica Círculo de Hoenn (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate."
       },
+      "1905950": {
+        "NAME": "Campo Daño Roca Duradero +{{value}}",
+        "ABBR": "C.D. Roca Duradero {{value}}",
+        "DESC": "Aumenta la duración de Campo Daño Roca cuando se le aplica Campo Daño Roca al bando rival."
+      },
+      "1905960": {
+        "NAME": "Teracristalización Compi Zona Siniestra",
+        "ABBR": "Teracristalización Z.Siniestra",
+        "DESC": "Crea una Zona Siniestra cuando el usuario teracristaliza. (Una Zona Siniestra potencia los ataques de tipo Siniestro)."
+      },
       "1905970": {
         "NAME": "Círculo de Teselia (Especial) Duradero +{{value}}",
         "ABBR": "C.Teselia (Esp) Duradero {{value}}",
@@ -19913,6 +20190,16 @@
         "NAME": "1.er Ataque Campo Psíquico y Duradero +{{value}}",
         "ABBR": "1.er At. C.Psí. y Duradero {{value}}",
         "DESC": "Crea un campo psíquico la primera vez que el movimiento de ataque del usuario acierta en cada combate. Aumenta la duración del campo psíquico cuando el terreno cambia a campo psíquico mientras el usuario está en el campo de batalla."
+      },
+      "1906090": {
+        "NAME": "1.er Mov. Compi Círculo de Teselia (Físico)",
+        "ABBR": "1.er M-Compi C.Teselia (Fís)",
+        "DESC": "Aplica Círculo de Teselia (Físico) al bando aliado la primera vez que el usuario usa un movimiento compi en cada combate."
+      },
+      "1906120": {
+        "NAME": "1.ª Entrada Círculo de Passio (Defensivo)",
+        "ABBR": "1.ª Entrada C.Passio (Def)",
+        "DESC": "Aplica Círculo de Passio (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate."
       },
       "2001010": {
         "NAME": "Inmunidad Arena",
@@ -19973,6 +20260,16 @@
         "NAME": "Zona Roca Inmunidad Críticos M",
         "ABBR": "Z.Roca Inmunidad Críticos M",
         "DESC": "Impide que todos los compis aliados reciban golpes críticos cuando la zona es Zona Roca."
+      },
+      "2101120": {
+        "NAME": "Círculo Inmunidad Críticos M",
+        "ABBR": "Círculo Inmunidad Críticos M",
+        "DESC": "Impide que todos los compis aliados reciban golpes críticos cuando se aplica un círculo al bando aliado."
+      },
+      "2101130": {
+        "NAME": "Zona Normal Inmunidad Críticos M",
+        "ABBR": "Z.Normal Inmunidad Críticos M",
+        "DESC": "Impide que todos los compis aliados reciban golpes críticos cuando la zona es Zona Normal."
       },
       "2201010": {
         "NAME": "Aire Nocivo +{{value}}",
@@ -20524,6 +20821,16 @@
         "ABBR": "Sentencia Cielo",
         "DESC": "Aumenta la Resiliencia Volador de todos los compis aliados en 1 nivel cuando el usuario entra en combate por primera vez en cada combate. Reduce la Resiliencia Volador de todos los compis rivales en 1 nivel cuando el usuario entra en combate por primera vez en cada combate."
       },
+      "2903040": {
+        "NAME": "Ataque Veloz de Sinnoh",
+        "ABBR": "Ataque Veloz de Sinnoh",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. En combates cooperativos, en su lugar se reduce en 1 el contador de movimientos compi del usuario cuando el bando del usuario entra en combate por primera vez en cada combate. Cuantos más compis aliados con habilidades de equipo con el distintivo \"Sinnoh\" tenga el bando del usuario, mayor será la reducción. Cada pareja de compis adicional aumenta la reducción en 1, con una reducción máxima de 3. Los efectos no se acumulan si en el bando del usuario hay más de una pareja de compis con habilidades pasivas con el mismo nombre."
+      },
+      "2903090": {
+        "NAME": "Ataque Veloz de Paldea",
+        "ABBR": "Ataque Veloz de Paldea",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. En combates cooperativos, en su lugar se reduce en 1 el contador de movimientos compi del usuario cuando el bando del usuario entra en combate por primera vez en cada combate. Cuantos más compis aliados con habilidades de equipo con el distintivo \"Paldea\" tenga el bando del usuario, mayor será la reducción. Cada pareja de compis adicional aumenta la reducción en 1, con una reducción máxima de 3. Los efectos no se acumulan si en el bando del usuario hay más de una pareja de compis con habilidades pasivas con el mismo nombre."
+      },
       "3201010": {
         "NAME": "Mecer de las Hojas al Viento",
         "ABBR": "Mecer de las Hojas al Viento",
@@ -21064,6 +21371,21 @@
         "ABBR": "Corazón del Equipo",
         "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Se reduce en 1 el contador de movimientos compi del usuario la primera vez que su Entrenador usa un movimiento en cada combate. Se reduce en 1 el contador de movimientos compi la primera vez que el usuario usa un movimiento compi en cada combate."
       },
+      "3202100": {
+        "NAME": "Viajera a la que le Gusta la Fotografía",
+        "ABBR": "Viajera a la que le Gusta la Fotografía",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario la primera vez que usa su movimiento compi en cada combate. Aumenta la potencia de los movimientos compi de todos los compis aliados cuando se aplica Campo Daño Roca al bando rival. Aumenta la duración de la Zona Roca cuando la zona cambia a Zona Roca mientras el usuario está en el campo de batalla."
+      },
+      "3202110": {
+        "NAME": "Peinados que no Tienen Rival",
+        "ABBR": "Peinados que no Tienen Rival",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Aplica Círculo de Sinnoh (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate. Aumenta la duración de Círculo de Sinnoh (Defensivo) cuando se le aplica Círculo de Sinnoh (Defensivo) al bando aliado."
+      },
+      "3202120": {
+        "NAME": "Guardiana de la Pradera Obsidiana",
+        "ABBR": "Guardiana de la Pradera Obsidiana",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Se reduce en 1 el contador de movimientos compi la primera vez que el usuario usa un movimiento compi en cada combate. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel después de que los compis de tu equipo usen su movimiento compi."
+      },
       "3301050": {
         "NAME": "1.ª Entrada Teracrist. Compi Planta",
         "ABBR": "1.ª Entrada Teracrist. Compi Planta",
@@ -21088,6 +21410,11 @@
         "NAME": "1.ª Entrada Teracrist. Compi Dragón",
         "ABBR": "1.ª Entrada Teracrist. Compi Dragón",
         "DESC": "Teracristaliza a tipo Dragón al usuario al entrar en combate por primera vez en cada combate."
+      },
+      "3301160": {
+        "NAME": "1.ª Entrada Teracrist. Compi Siniestro",
+        "ABBR": "1.ª Entrada Teracrist. Compi Siniestro",
+        "DESC": "Teracristaliza a tipo Siniestro al usuario al entrar en combate por primera vez en cada combate."
       },
       "5130206": {
         "NAME": "Ausencia Cambios Aplacadora +{{value}}",
@@ -21302,7 +21629,7 @@
       "9901370": {
         "NAME": "Guía de la División de Investigación",
         "ABBR": "Guía de la División de Investigación",
-        "DESC": "Otorga los efectos siguientes cuando el usuario entra en combate por primera vez en cada combate: Se reduce en 1 el contador de movimientos compi del usuario. Aumenta el Ataque del usuario en 4 niveles. Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles."
+        "DESC": "Otorga todos los efectos siguientes cuando el usuario entra en combate por primera vez en cada combate: Se reduce en 1 el contador de movimientos compi del usuario. Aumenta el Ataque del usuario en 4 niveles. Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles."
       },
       "9901380": {
         "NAME": "Berrido de la Estrella",
@@ -22284,6 +22611,41 @@
         "ABBR": "Recuerdos de la Ruta 120",
         "DESC": "El tiempo cambia a lluvia cuando el usuario entra en combate por primera vez en cada combate. Aplica Círculo de Hoenn (Defensivo) al bando aliado cuando el usuario entra en combate por primera vez en cada combate."
       },
+      "9903360": {
+        "NAME": "Bendición de la Pradera Obsidiana",
+        "ABBR": "Bendición de la Pradera Obsidiana",
+        "DESC": "Recupera los PS de todos los compis aliados cuando golpean al usuario con un movimiento de ataque mientras la zona es Zona Normal. Recupera aproximadamente un 20% de los PS máximos del usuario cuando le golpean con un movimiento compi mientras la zona es Zona Normal."
+      },
+      "9903370": {
+        "NAME": "El Momento Perfecto para Sacar una Foto",
+        "ABBR": "El Momento Perfecto para Sacar una Foto",
+        "DESC": "Aumenta el Ataque del usuario en 6 niveles la primera vez que aplica Campo Daño Roca al bando rival en cada combate. Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles la primera vez que aplica Campo Daño Roca al bando rival en cada combate."
+      },
+      "9903380": {
+        "NAME": "Sigue Así, ¡que no Decaiga la Cosa!",
+        "ABBR": "Sigue Así, ¡que no Decaiga la Cosa!",
+        "DESC": "Reduce en 2 niveles una de estas características del objetivo al azar cuando el movimiento de ataque del usuario acierta mientras se aplica Campo Daño Roca al bando rival: Ataque, Defensa, Ataque Especial, Defensa Especial, Velocidad, Precisión o Evasión. Aplica el efecto Siguiente sin coste al usuario cuando su movimiento de ataque acierta mientras se aplica Campo Daño Roca al bando rival."
+      },
+      "9903390": {
+        "NAME": "Facetas Cuqui y Malvada",
+        "ABBR": "Facetas Cuqui y Malvada",
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario cuando teracristaliza. Crea una Zona Siniestra cuando el usuario teracristaliza. (Una Zona Siniestra potencia los ataques de tipo Siniestro)."
+      },
+      "9903400": {
+        "NAME": "Amor por las Travesuras",
+        "ABBR": "Amor por las Travesuras",
+        "DESC": "Hay una probabilidad del 30% de otorgar cada uno de los efectos siguientes cuando el movimiento de ataque del usuario acierta: Hace retroceder al objetivo. Confunde al objetivo. Deja bajo ataduras al objetivo."
+      },
+      "9903410": {
+        "NAME": "Danza de Tono Amarillo",
+        "ABBR": "Danza de Tono Amarillo",
+        "DESC": "Aplica el efecto Vulnerabilidad a físicos al objetivo cuando el movimiento de ataque físico del usuario contra el objetivo acierta. Aplica el efecto Vulnerabilidad a especiales al objetivo cuando el movimiento de ataque especial del usuario contra el objetivo acierta. Solo se puede activar uno de estos efectos por combate."
+      },
+      "9903420": {
+        "NAME": "Danza de Tono Verde",
+        "ABBR": "Danza de Tono Verde",
+        "DESC": "Reduce la Defensa del objetivo en 2 niveles cuando el movimiento de ataque físico del usuario contra el objetivo acierta. Aumenta el efecto Siguiente Físico ↑ del usuario en 3 niveles cuando su movimiento de ataque físico acierta. Reduce la Defensa Especial del objetivo en 2 niveles cuando el movimiento de ataque especial del usuario contra el objetivo acierta. Aumenta el efecto Siguiente Especial ↑ del usuario en 3 niveles cuando su movimiento de ataque especial acierta."
+      },
       "9903430": {
         "NAME": "Poder Apaciguador Reduplicado",
         "ABBR": "Poder Apaciguador Reduplicado",
@@ -22294,10 +22656,40 @@
         "ABBR": "Una Enorme Sombra",
         "DESC": "Aumenta la duración de la Zona Fantasma cuando la zona cambia a Zona Fantasma mientras el usuario está en el campo de batalla. Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ del usuario en 1 nivel cuando su movimiento de ataque acierta mientras la zona es Zona Fantasma."
       },
+      "9903450": {
+        "NAME": "La Temperatura Idónea",
+        "ABBR": "La Temperatura Idónea",
+        "DESC": "Otorga todos los efectos siguientes la primera vez que el usuario usa Pasión de Teselia en cada combate: Aumenta el Ataque del usuario en 4 niveles. Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles. Aplica el efecto Siguiente Supereficaz ↑ al usuario."
+      },
+      "9903460": {
+        "NAME": "Las Hojas de Té más Selectas",
+        "ABBR": "Las Hojas de Té más Selectas",
+        "DESC": "Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en 1 nivel cuando un aliado aplica un círculo al bando aliado."
+      },
+      "9903470": {
+        "NAME": "¡Os Voy a Bajar los Humos de Mala Manera!",
+        "ABBR": "¡Os Voy a Bajar los Humos de Mala Manera!",
+        "DESC": "Aumenta el efecto Siguiente Físico ↑ del usuario en 2 niveles cuando un aliado aplica un círculo al bando aliado."
+      },
+      "9903480": {
+        "NAME": "La Mejor Agua",
+        "ABBR": "La Mejor Agua",
+        "DESC": "Aumenta la Velocidad de todos los compis aliados en 2 niveles cuando un aliado aplica un círculo al bando aliado. Aplica el efecto Siguiente sin coste a todos los compis aliados cuando un aliado aplica un círculo al bando aliado."
+      },
       "9903570": {
         "NAME": "Un Lugar Donde Dos Mundos se Unen",
         "ABBR": "Un Lugar Donde Dos Mundos se Unen",
         "DESC": "Crea una Zona Fantasma la primera vez que el movimiento de ataque del usuario acierta en cada combate. Crea una Zona Fantasma la primera vez que el usuario usa un movimiento compi en cada combate. (Una Zona Fantasma potencia los ataques de tipo Fantasma). Aumenta la duración de la Zona Fantasma cuando la zona cambia a Zona Fantasma mientras el usuario está en el campo de batalla."
+      },
+      "9903670": {
+        "NAME": "Espíritu de Lucha que Conduce al Poder",
+        "ABBR": "Espíritu de Lucha que Conduce al Poder",
+        "DESC": "Aumenta la potencia de los movimientos compi de todos los compis aliados cuando la zona es Zona Lucha. Aumenta la duración de la Zona Lucha cuando la zona cambia a Zona Lucha mientras el usuario está en el campo de batalla."
+      },
+      "9903680": {
+        "NAME": "Patada Rápida como el Rayo",
+        "ABBR": "Patada Rápida como el Rayo",
+        "DESC": "Otorga todos los efectos siguientes cuando el usuario entra en combate por primera vez en cada combate: Se reduce en 2 el contador de movimientos compi del usuario. Crea una Zona Lucha. (Una Zona Lucha potencia los ataques de tipo Lucha). Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles."
       }
     },
     "THEMES": {
@@ -22848,7 +23240,12 @@
       "20000426": "El Juego del Cazaogros",
       "20000427": "Villa Versui",
       "20000428": "El Lago Cristalino",
-      "20000429": "Las máscaras"
+      "20000429": "Las máscaras",
+      "20000430": "El tipo Siniestro",
+      "20000431": "Las Ocaso Balls",
+      "20000432": "Los conciertos",
+      "20000433": "Las canciones",
+      "20000434": "Los bises"
     },
     "TOPIC_GROUP": {
       "1": "Pokémon",

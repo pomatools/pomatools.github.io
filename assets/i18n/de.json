@@ -651,6 +651,7 @@
       "005600": "Menki",
       "005700": "Rasaff",
       "005800": "Fukano",
+      "005801": "Fukano Hisui-Form",
       "005900": "Arkani",
       "005901": "Arkani Hisui-Form",
       "006000": "Quapsel",
@@ -1268,8 +1269,10 @@
       "054500": "Cerapendra",
       "054600": "Waumboll",
       "054700": "Elfun",
+      "054766": "Elfun Tera-Typ Unlicht",
       "054800": "Lilminip",
       "054900": "Dressella",
+      "054901": "Dressella Hisui-Form",
       "055000": "Barschuft Rotlinig",
       "055001": "Barschuft Blaulinig",
       "055100": "Ganovil",
@@ -2278,6 +2281,8 @@
       "030301": "Poppy (Saison 2025)",
       "030400": "Aoki",
       "030401": "Aoki (Kostüm)",
+      "031100": "Yona",
+      "031200": "Hinatsu",
       "031700": "Pepper",
       "031800": "Clavel",
       "031801": "Clavel (Variante)",
@@ -2286,8 +2291,10 @@
       "032800": "Shugi",
       "032900": "Otis",
       "033000": "Rioba",
+      "033800": "Gemma",
       "035100": "Ganoe (Kimono-Trägerin)",
       "035200": "Tara",
+      "035201": "Tara (Saison 2025)",
       "035600": "Hana",
       "035700": "Jo",
       "035800": "Leval",
@@ -4087,6 +4094,11 @@
         "ABBR": "Schauderspr.",
         "DESC": "Hat keinen Zusatzeffekt."
       },
+      "837": {
+        "NAME": "Siegestanz",
+        "ABBR": "Siegestanz",
+        "DESC": "Erhöht den Angriff, die Verteidigung und die Initiative des Anwenders um 1."
+      },
       "838": {
         "NAME": "Schmetterramme",
         "ABBR": "Schmetterr.",
@@ -4216,6 +4228,11 @@
         "NAME": "Tera-Ausbruch des prächtigen Amethysts",
         "ABBR": "TA Amethysts",
         "DESC": "Senkt die Verteidigung und Spezial-Verteidigung des Zieles um 1. Vergiftet das Ziel schwer. Die Stärke dieser Attacke wird nicht gesenkt, selbst wenn mehrere Ziele vorhanden sind."
+      },
+      "4046": {
+        "NAME": "Tera-Ausbruch des bunten Spinells",
+        "ABBR": "TA Spinells",
+        "DESC": "Erhöht die Verteidigung und Spezial-Verteidigung des Anwenders um 1."
       },
       "5000": {
         "NAME": "Donnerblitz",
@@ -4982,6 +4999,36 @@
         "ABBR": "Zertrümmer. S",
         "DESC": "Aktivierungsvoraussetzung: Wenn ein Kampf-Fokus erzeugt wird.\nDeaktivierungsvoraussetzung: Wenn kein Kampf-Fokus mehr aktiv ist.\n\nTrifft garantiert. Senkt die Verteidigung des Zieles um 4. Senkt ein Mal pro Kampf den Kampfwiderstand des Zieles um 1, wenn dieser Angriff mit einer Attacke erstmals Erfolg hat."
       },
+      "6152": {
+        "NAME": "Steinhagel der Schotterpiste",
+        "ABBR": "Steinhagel S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn das Gesteinsschadenfeld auf der Gegner-Seite aktiv ist.\nDeaktivierungsvoraussetzung: Wenn kein Gesteinsschadenfeld mehr auf der Gegner-Seite aktiv ist.\n\nSenkt die Verteidigung des Zieles um 2. Lässt das Ziel zurückschrecken. Die Stärke dieser Attacke wird nicht gesenkt, selbst wenn mehrere Ziele vorhanden sind. Erzeugt ein Mal pro Kampf einen Gesteins-Fokus EX, wenn dieser Angriff mit einer Attacke erstmals Erfolg hat. (Ein Gesteins-Fokus EX verstärkt Angriffe vom Typ Gestein.)"
+      },
+      "6153": {
+        "NAME": "Siegestanz der Pracht",
+        "ABBR": "Siegestanz S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn die Spannung des Anwenders 0 beträgt.\nDeaktivierungsvoraussetzung: Wenn die Spannung des Anwenders 1 oder mehr beträgt.\n\nErhöht den Angriff, die Verteidigung, den Spezial-Angriff und die Initiative des Anwenders um 6."
+      },
+      "6154": {
+        "NAME": "Schutzschild des struppigen Fells",
+        "ABBR": "Schutzsch. S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn der Anwender eine beliebige Attacke einmal einsetzt.\nDeaktivierungsvoraussetzung: Kann nicht deaktiviert werden.\n\nVerursacht beim Anwender den Effekt KP-Regenerierung. Verursacht beim Anwender den Effekt Folge-Schadensschutz. Verursacht beim Anwender den Effekt F.-Att.-Schadensabsorp.-v.-Mitstr.."
+      },
+      "6155": {
+        "NAME": "Trugträne der süßen Heimtücke",
+        "ABBR": "Trugträne S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn der Anwender eine beliebige Attacke einmal einsetzt.\nDeaktivierungsvoraussetzung: Kann nicht deaktiviert werden.\n\nTrifft garantiert. Senkt die Spezial-Verteidigung aller gegnerischen Gefährten um 3. Erzeugt einen Unlicht-Fokus. (Ein Unlicht-Fokus verstärkt Angriffe vom Typ Unlicht.) Erhöht den Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1."
+      },
+      "6156": {
+        "NAME": "Flammenblitz des tanzenden Feuers",
+        "ABBR": "Flammenbl. S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn ein Freundeskreis auf der Anwender-Seite verursacht wird.\nDeaktivierungsvoraussetzung: Kann nicht deaktiviert werden.\n\nIst der Anwender gefroren, wird er von dem Statusproblem befreit. Trifft garantiert. Senkt die Verteidigung des Zieles um 1. Hat eine 10 %-Chance dem Ziel Verbrennungen zuzufügen. Die Stärke und die Chance auf Anwendung zusätzlicher Effekte dieser Attacke werden nicht gesenkt, selbst wenn mehrere Ziele vorhanden sind."
+      },
+      "6157": {
+        "NAME": "Nassschweif des enormen Wasserdrucks",
+        "ABBR": "Nassschweif S",
+        "DESC": "Aktivierungsvoraussetzung: Wenn der Anwender eine beliebige Attacke einmal einsetzt.\nDeaktivierungsvoraussetzung: Kann nicht deaktiviert werden.\n\nTrifft garantiert. Senkt die Verteidigung und Initiative des Zieles um 2. Verursacht ein Mal pro Kampf beim Ziel den Effekt Phys.-Att.-Anfälligkeit, wenn dieser Angriff mit einer Attacke erstmals Erfolg hat."
+      },
       "7000": {
         "NAME": "Giga-Recycling",
         "ABBR": "Giga Recycling",
@@ -5335,7 +5382,7 @@
       "10008": {
         "NAME": "Siegesstrategie",
         "ABBR": "Siegesstrategie",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines verbündeten Gefährten um 1. Erhöht die Volltrefferquote eines Verbündeten um 2. Verursacht bei einem Verbündeten den Effekt Folge-Effektiv.-Stärke↑."
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines Verbündeten um 1. Erhöht die Volltrefferquote eines Verbündeten um 2. Verursacht bei einem Verbündeten den Effekt Folge-Effektiv.-Stärke↑."
       },
       "10009": {
         "NAME": "Der ruhmreiche Weg zum Sieg!",
@@ -5605,7 +5652,7 @@
       "10171": {
         "NAME": "Ich beschütze euch!",
         "ABBR": "Ich beschütze euch!",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 1. Wenn das Bisaflor des Anwenders die Mega-Entwicklung erreicht hat, wird der Wert des Gefährtenattacken- Countdowns des Anwenders um 2 reduziert. Im Multiteamkampf wird stattdessen der Gefährtenattacken- Countdown aller verbündeten Spieler reduziert. Verursacht bei allen verbündeten Gefährten den Effekt KP-Regenerierung."
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 1. Wenn das Bisaflor des Anwenders die Mega-Entwicklung erreicht hat, wird der Wert des Gefährtenattacken- Countdowns des Anwenders um 2 reduziert. Im Multiteamkampf wird stattdessen der Wert des Gefährtenattacken- Countdowns aller verbündeten Spieler reduziert. Verursacht bei allen verbündeten Gefährten den Effekt KP-Regenerierung."
       },
       "10177": {
         "NAME": "Aaah, ich hab euch sooo lieb!",
@@ -5700,7 +5747,7 @@
       "10215": {
         "NAME": "Mich täuschst du damit nicht!",
         "ABBR": "Mich täuschst du damit nicht!",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines verbündeten Gefährten um 1. Erhöht den Angriff eines Verbündeten um 4. Verursacht bei einem Verbündeten den Effekt Folge-Effektiv.-Stärke↑."
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines Verbündeten um 1. Erhöht den Angriff eines Verbündeten um 4. Verursacht bei einem Verbündeten den Effekt Folge-Effektiv.-Stärke↑."
       },
       "10216": {
         "NAME": "Ruhm des Anführers",
@@ -6430,12 +6477,12 @@
       "11061": {
         "NAME": "Wir werden euch verzaubern!",
         "ABBR": "Wir werden euch verzaubern!",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines verbündeten Gefährten um 2. Erhöht die Genauigkeit und Volltrefferquote eines verbündeten Gefährten um 1. Wenn die Spannung des Anwenders gesteigert ist, werden Genauigkeit und Volltrefferquote eines verbündeten Gefährten stattdessen um 2 erhöht."
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines Verbündeten um 2. Erhöht die Genauigkeit und Volltrefferquote eines Verbündeten um 1. Wenn die Spannung des Anwenders gesteigert ist, werden Genauigkeit und Volltrefferquote eines Verbündeten stattdessen um 2 erhöht."
       },
       "11062": {
         "NAME": "Klar wie Kloakensoße!",
         "ABBR": "Klar wie Kloakensoße!",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines verbündeten Gefährten um 1. Erhöht den Spezial-Angriff eines Verbündeten um 4. Erhöht die Volltrefferquote eines Verbündeten um 3."
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines Verbündeten um 1. Erhöht den Spezial-Angriff eines Verbündeten um 4. Erhöht die Volltrefferquote eines Verbündeten um 3."
       },
       "11064": {
         "NAME": "Glückslieferung",
@@ -6451,6 +6498,11 @@
         "NAME": "Lasst uns besser werden!",
         "ABBR": "Lasst uns besser werden!",
         "DESC": "Erhöht die Genauigkeit aller verbündeten Gefährten um 1. Erhöht die Volltrefferquote aller verbündeten Gefährten um 2."
+      },
+      "11070": {
+        "NAME": "Genieß das Aroma!",
+        "ABBR": "Genieß das Aroma!",
+        "DESC": "Erhöht die Verteidigung und die Spezial-Verteidigung aller verbündeten Gefährten um 2. Verursacht auf der Anwender-Seite Einalls Freundeskreis (Verteidigung). Einalls Freundeskreis (Verteidigung) löst alle folgenden Effekte aus: Erhöht die Stärke der Attacken und Gefährtenattacken aller verbündeten Gefährten um 5 %. Verringert den durch Angriffe mit Attacken und Gefährtenattacken erlittenen Schaden aller verbündeten Gefährten um 10 %. Je mehr Gefährten auf der Anwender-Seite das Einall-Attribut haben, desto mehr steigt die Effektivität. (Jedes zusätzliche Gefährtengespann steigert die Stärke der Attacken und Gefährtenattacken um 5 % und verringert den erlittenen Schaden um 5 %. Die Stärke der Attacken und Gefährtenattacken kann um maximal 20 % erhöht und der Schaden um maximal 25 % verringert werden.)"
       },
       "11080": {
         "NAME": "Vorsicht auf dem Bahnsteig!",
@@ -7047,6 +7099,16 @@
         "ABBR": "Spüre unseren Zorn!",
         "DESC": "Erhöht die Initiative, die Genauigkeit und die Volltrefferquote aller verbündeten Gefährten um 1. Erhöht den Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1."
       },
+      "11450": {
+        "NAME": "Ich brühe alles optimal auf!",
+        "ABBR": "Ich brühe alles optimal auf!",
+        "DESC": "Verursacht beim Anwender den Effekt Folge-Effektiv.-Stärke↑. Verursacht beim Anwender den Effekt Folge-Leistenverbr. 0. Erhöht den Effekt Folge-GA-Stärke↑ des Anwenders um 4."
+      },
+      "11460": {
+        "NAME": "Wie ein klares Bächlein...",
+        "ABBR": "Wie ein klares Bächlein...",
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 1. Erhöht den Angriff des Anwenders um 4. Erhöht die Volltrefferquote des Anwenders um 3."
+      },
       "11470": {
         "NAME": "Ich nehm’s mit dir auf!",
         "ABBR": "Ich nehm’s mit dir auf!",
@@ -7490,7 +7552,7 @@
       "12447": {
         "NAME": "Offenbaren wir unser Wissen!",
         "ABBR": "Offenbaren wir unser Wissen!",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines verbündeten Gefährten um 1. Verursacht bei einem Verbündeten den Effekt Folge-Effektiv.-Stärke↑. Erhöht den Effekt Folge-Phys.-Attacke↑ eines Verbündeten um 3."
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines Verbündeten um 1. Verursacht bei einem Verbündeten den Effekt Folge-Effektiv.-Stärke↑. Erhöht den Effekt Folge-Phys.-Attacke↑ eines Verbündeten um 3."
       },
       "12448": {
         "NAME": "Mal schauen, wozu wir fähig sind!",
@@ -7525,7 +7587,7 @@
       "12455": {
         "NAME": "Wir dürfen nicht nachlassen!",
         "ABBR": "Wir dürfen nicht nachlassen!",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines verbündeten Gefährten um 1. Erhöht die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ eines Verbündeten um 2."
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines Verbündeten um 1. Erhöht die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ eines Verbündeten um 2."
       },
       "12456": {
         "NAME": "Ich darf nicht verlieren!",
@@ -7565,7 +7627,7 @@
       "12468": {
         "NAME": "Wenn es denn sein muss!",
         "ABBR": "Wenn es denn sein muss!",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines verbündeten Gefährten um 1. Verursacht bei einem Verbündeten den Effekt Folge-Effektiv.-Stärke↑. Erhöht den Effekt Folge-Sp.-Attacke↑ eines Verbündeten um 3."
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines Verbündeten um 1. Verursacht bei einem Verbündeten den Effekt Folge-Effektiv.-Stärke↑. Erhöht den Effekt Folge-Sp.-Attacke↑ eines Verbündeten um 3."
       },
       "12469": {
         "NAME": "Unnachgiebige Ausdauer",
@@ -7686,6 +7748,11 @@
         "NAME": "Die Show fängt an!",
         "ABBR": "Die Show fängt an!",
         "DESC": "Erzeugt einen Gift-Fokus. (Ein Gift-Fokus verstärkt Angriffe vom Typ Gift.) Erhöht den Spezial-Angriff und die Volltrefferquote des Anwenders um 2."
+      },
+      "12569": {
+        "NAME": "Zum Dank ein Song!",
+        "ABBR": "Zum Dank ein Song!",
+        "DESC": "Erhöht die Spezial-Verteidigung aller verbündeten Gefährten um 4. Erhöht die Genauigkeit aller verbündeten Gefährten um 1."
       },
       "12570": {
         "NAME": "Zum Gewinnen reicht’s!",
@@ -7825,7 +7892,7 @@
       "12890": {
         "NAME": "Ein Kampf! Hier und jetzt!",
         "ABBR": "Ein Kampf! Hier und jetzt!",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines verbündeten Gefährten um 2. Erhöht den Angriff eines Verbündeten um 2. Verursacht bei einem Verbündeten den Effekt KP-Regenerierung. Verursacht bei einem Verbündeten den Effekt Folge-Schadensschutz. Verursacht bei einem Verbündeten den Effekt Überstehen."
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines Verbündeten um 2. Erhöht den Angriff eines Verbündeten um 2. Verursacht bei einem Verbündeten den Effekt KP-Regenerierung. Verursacht bei einem Verbündeten den Effekt Folge-Schadensschutz. Verursacht bei einem Verbündeten den Effekt Überstehen."
       },
       "12891": {
         "NAME": "Unser größter Kampf beginnt!",
@@ -7885,7 +7952,7 @@
       "12966": {
         "NAME": "Komm raus, mein Glühbirnchen!",
         "ABBR": "Komm raus, mein Glühbirnchen!",
-        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines verbündeten Gefährten um 1. Erhöht den Spezial-Angriff eines Verbündeten um 4. Erhöht die Volltrefferquote eines Verbündeten um 3."
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines Verbündeten um 1. Erhöht den Spezial-Angriff eines Verbündeten um 4. Erhöht die Volltrefferquote eines Verbündeten um 3."
       },
       "12967": {
         "NAME": "Ich will eure Likes spüren!",
@@ -7962,6 +8029,16 @@
         "ABBR": "Geben wir ihnen, was sie wollen!",
         "DESC": "Erhöht den Angriff, den Spezial-Angriff und die Volltrefferquote aller verbündeten Gefährten um 2."
       },
+      "13110": {
+        "NAME": "Vereinen wir unsere Kräfte!",
+        "ABBR": "Vereinen wir unsere Kräfte!",
+        "DESC": "Erhöht die Verteidigung und die Spezial-Verteidigung aller verbündeten Gefährten um 3. Diese Statuswerte steigen stattdessen um 6, wenn ein Normal-Fokus aktiv ist."
+      },
+      "13120": {
+        "NAME": "Ich habe eine großartige Idee!",
+        "ABBR": "Ich habe eine großartige Idee!",
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns des Anwenders um 2. Erhöht den Effekt Folge-Phys.-Attacke↑ des Anwenders um 10, wenn sein Effekt Folge-Phys.-Attacke↑ erhöht ist. Erhöht den Effekt Folge-Sp.-Attacke↑ des Anwenders um 10, wenn sein Effekt Folge-Sp.-Attacke↑ erhöht ist."
+      },
       "13170": {
         "NAME": "Hier, etwas Würze!",
         "ABBR": "Hier, etwas Würze!",
@@ -8007,6 +8084,11 @@
         "ABBR": "Dieses Mal laufe ich nicht davon!",
         "DESC": "Erhöht die Volltrefferquote aller verbündeten Gefährten um 3. Verursacht bei allen verbündeten Gefährten den Effekt KP-Regenerierung. Erhöht den Effekt Folge-Phys.-Attacke↑ aller verbündeten Gefährten um 2."
       },
+      "13380": {
+        "NAME": "Zeig mir deine Schokoladenseite!",
+        "ABBR": "Zeig mir deine Schokoladenseite!",
+        "DESC": "Reduziert den Wert des Gefährtenattacken- Countdowns eines Verbündeten um 1. Verursacht bei einem Verbündeten den Effekt Folge-Effektiv.-Stärke↑. Verursacht bei einem Verbündeten den Effekt Überstehen."
+      },
       "13510": {
         "NAME": "Steht dir ausgezeichnet!",
         "ABBR": "Steht dir ausgezeichnet!",
@@ -8016,6 +8098,11 @@
         "NAME": "Geballte Ladung Niedlichkeit!",
         "ABBR": "Geballte Ladung Niedlichkeit!",
         "DESC": "Verursacht auf der Anwender-Seite den Effekt Attackenleiste↑. Erhöht den Spezial-Angriff eines Verbündeten um 4. Erhöht die Volltrefferquote eines Verbündeten um 3."
+      },
+      "13524": {
+        "NAME": "Unermessliche Niedlichkeit!",
+        "ABBR": "Unermessliche Niedlichkeit!",
+        "DESC": "Erhöht den Spezial-Angriff aller verbündeten Gefährten um 4. Erhöht die Volltrefferquote aller verbündeten Gefährten um 3. Erhöht den Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1."
       },
       "13529": {
         "NAME": "Das klingt toll!",
@@ -11302,6 +11389,21 @@
         "ABBR": "Stahlstoß des eisenharten Panzers",
         "DESC": "Hat keinen Zusatzeffekt."
       },
+      "116800": {
+        "NAME": "Steinhagel der reisenden Fotografin",
+        "ABBR": "Steinhagel der reisenden Fotografin",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
+      "116900": {
+        "NAME": "Blättertanz der wetterfesten Friseurin",
+        "ABBR": "Blättertanz der wetterfesten Friseurin",
+        "DESC": "Je stärker die Initiative des Anwenders erhöht wurde, desto mehr wird die Stärke dieses Angriffs erhöht."
+      },
+      "117000": {
+        "NAME": "Gigastoß der schwesterlichen Wächterin",
+        "ABBR": "Gigastoß der schwesterlichen Wächterin",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
       "117100": {
         "NAME": "Schemenkraft der besseren Welt",
         "ABBR": "Schemenkraft der besseren Welt",
@@ -11512,6 +11614,26 @@
         "ABBR": "Wasserstoß der euphorischen Schulzeit",
         "DESC": "Hat keinen Zusatzeffekt."
       },
+      "122400": {
+        "NAME": "Pflanzenstoß des aromatischen Trubels",
+        "ABBR": "Pflanzenstoß des aromatischen Trubels",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
+      "122500": {
+        "NAME": "Feuerstoß des brühenden Trubels",
+        "ABBR": "Feuerstoß des brühenden Trubels",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
+      "122600": {
+        "NAME": "Wasserstoß des erquickenden Trubels",
+        "ABBR": "Wasserstoß des erquickenden Trubels",
+        "DESC": "Je stärker die Initiative des Anwenders erhöht wurde, desto mehr wird die Stärke dieses Angriffs erhöht."
+      },
+      "122700": {
+        "NAME": "Unlichtstoß der ausbleibenden Zugabe",
+        "ABBR": "Unlichtstoß der ausbleibenden Zugabe",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
       "122800": {
         "NAME": "Normalstoß der erprobten Kampferfahrung",
         "ABBR": "Normalstoß der erprobten Kampferfahrung",
@@ -11565,6 +11687,11 @@
       "201501": {
         "NAME": "Tera-Ausbruch des leuchtenden Gipfels",
         "ABBR": "Tera-Ausbruch des leuchtenden Gipfels",
+        "DESC": "Hat keinen Zusatzeffekt."
+      },
+      "201601": {
+        "NAME": "Tera-Ausbruch der Eintagsschurkin",
+        "ABBR": "Tera-Ausbruch der Eintagsschurkin",
         "DESC": "Hat keinen Zusatzeffekt."
       }
     },
@@ -11843,6 +11970,21 @@
         "NAME": "Halb-KP-Genesung-AEP↓+Heilung 5",
         "ABBR": "Halb KP Genesung AEP↓+Heilung 5",
         "DESC": "Reduziert die Attackeneinsatzpunkte (AEP) für Genesung des Anwenders um 1 und stellt seine KP um etwa 50 % seiner maximalen KP wieder her, wenn seine KP auf oder unter die Hälfte fallen."
+      },
+      "1101570": {
+        "NAME": "Normal-Fokus-Gegentr.-Heilung T {{value}}",
+        "ABBR": "Normal Fokus Gegentr. Heilung T {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die KP aller verbündeten Gefährten wiederherzustellen, wenn der Anwender von einem Angriff mit einer Attacke getroffen wird, während ein Normal-Fokus aktiv ist."
+      },
+      "1101580": {
+        "NAME": "Normal-Fokus-GA-Gegentr.-Heilung {{value}}",
+        "ABBR": "Normal Fokus GA Gegentr. Heilung {{value}}",
+        "DESC": "Stellt die KP des Anwenders um etwa {{heal}} % seiner maximalen KP wieder her, wenn er von einer Gefährtenattacke getroffen wird, während ein Normal-Fokus aktiv ist."
+      },
+      "1101590": {
+        "NAME": "P-Att./GA-Gegentr.-Halb-KP-Beere-AEP↓+Heilung {{value}}",
+        "ABBR": "P Att./GA Gegentr. Halb KP Beere AEP↓+Heilung {{value}}",
+        "DESC": "Reduziert die Attackeneinsatzpunkte (AEP) der Attacken des Anwenders, die über den Zusatzeffekt Beere verfügen, um {{value}} und stellt seine KP um etwa {{value}}0 % seiner maximalen KP wieder her, wenn seine KP auf oder unter der Hälfte liegen, nachdem er von einem Angriff mit einer Attacke oder Gefährtenattacke getroffen wurde."
       },
       "1201010": {
         "NAME": "Regen-Leiste↑ {{value}}",
@@ -12829,6 +12971,11 @@
         "ABBR": "Hyperstrahl Treffergarantie",
         "DESC": "Hyperstrahl des Anwenders trifft garantiert."
       },
+      "1303070": {
+        "NAME": "Treffergarantie+Rückstoßschadensschutz",
+        "ABBR": "Treffergarantie+Rückstoßschadensschutz",
+        "DESC": "Die Attacken des Anwenders treffen garantiert. Schützt nach Einsatz von Attacken, die über den Zusatzeffekt Rückstoß verfügen, vor dem Rückstoßschaden."
+      },
       "1305010": {
         "NAME": "Feen-Wechsel",
         "ABBR": "Feen Wechsel",
@@ -13279,6 +13426,11 @@
         "ABBR": "Drachen Fokus P Att.+GA Stärke↑ {{value}}",
         "DESC": "Erhöht die Stärke der Attacken und der Gefährtenattacke des Anwenders, wenn ein Drachen-Fokus aktiv ist."
       },
+      "1308450": {
+        "NAME": "Geg.-Gesteinsschadenf.-Stärke↑ T {{value}}",
+        "ABBR": "Geg. Gesteinsschadenf. Stärke↑ T {{value}}",
+        "DESC": "Erhöht die Stärke der Attacken aller verbündeten Gefährten, wenn das Gesteinsschadenfeld auf der Gegner-Seite aktiv ist."
+      },
       "1401010": {
         "NAME": "K.O.-Explosion",
         "ABBR": "K.O. Explosion",
@@ -13533,6 +13685,16 @@
         "NAME": "Kampfstärke-GA-Countdown↓ {{value}}",
         "ABBR": "Kampfstärke GA Countdown↓ {{value}}",
         "DESC": "Hat eine {{chance}} %-Chance den Wert des Gefährtenattacken-Countdowns des Anwenders um 1 zu reduzieren, wenn er Kampfstärke einsetzt."
+      },
+      "1501480": {
+        "NAME": "Gef.-Terakristall.-GA-Countdown↓ {{value}}",
+        "ABBR": "Gef. Terakristall. GA Countdown↓ {{value}}",
+        "DESC": "Reduziert durch Gefährten-Terakristallisierung den Wert des Gefährtenattacken-Countdowns des Anwenders um {{value}}."
+      },
+      "1501490": {
+        "NAME": "Einalls Leidenschaft: GA-Countdown↓ {{value}}",
+        "ABBR": "Einalls Leidenschaft: GA Countdown↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Wert des Gefährtenattacken-Countdowns des Anwenders um 1 zu reduzieren, wenn er Einalls Leidenschaft einsetzt."
       },
       "1502010": {
         "NAME": "MAX-GA-Countdown↓ {{value}}",
@@ -14108,6 +14270,16 @@
         "NAME": "Kampf-Fokus-GA-Stärke↑ {{value}}",
         "ABBR": "Kampf Fokus GA Stärke↑ {{value}}",
         "DESC": "Erhöht die Stärke der Gefährtenattacke des Anwenders, wenn ein Kampf-Fokus aktiv ist."
+      },
+      "1603100": {
+        "NAME": "Geg.-Gesteinsschadenf.-GA-Stärke↑ T {{value}}",
+        "ABBR": "Geg. Gesteinsschadenf. GA Stärke↑ T {{value}}",
+        "DESC": "Erhöht die Stärke der Gefährtenattacken aller verbündeten Gefährten, wenn das Gesteinsschadenfeld auf der Gegner-Seite aktiv ist."
+      },
+      "1603120": {
+        "NAME": "Kampf-Fokus-GA-Stärke↑ T {{value}}",
+        "ABBR": "Kampf Fokus GA Stärke↑ T {{value}}",
+        "DESC": "Erhöht die Stärke der Gefährtenattacken aller verbündeten Gefährten, wenn ein Kampf-Fokus aktiv ist."
       },
       "1701010": {
         "NAME": "Giftschutz",
@@ -16349,6 +16521,16 @@
         "ABBR": "Effektivität Gegner 1 Störungsart {{value}}",
         "DESC": "Hat eine {{chance}} %-Chance das Ziel entweder zurückschrecken zu lassen, zu verwirren oder in einer Umschlingung zu fangen, wenn die Attacke des Anwenders gegen es sehr effektiv ist."
       },
+      "1708780": {
+        "NAME": "Unlicht-Fokus-1×-Spezial-Boost T {{value}}",
+        "ABBR": "Unlicht Fokus 1× Spezial Boost T {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1 zu erhöhen, wenn der Anwender einen Unlicht-Fokus erzeugt."
+      },
+      "1708790": {
+        "NAME": "G.-Gesteinsschadenf.-Ang.-F.-Leistenv. 0 {{value}}",
+        "ABBR": "G. Gesteinsschadenf. Ang. F. Leistenv. 0 {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance beim Anwender den Effekt Folge-Leistenverbr. 0 zu verursachen, wenn sein Angriff mit einer Attacke Erfolg hat, während das Gesteinsschadenfeld auf der Gegner-Seite aktiv ist."
+      },
       "1708800": {
         "NAME": "T-Attacke-2×-Spezial-Boost {{value}}",
         "ABBR": "T Attacke 2× Spezial Boost {{value}}",
@@ -16393,6 +16575,31 @@
         "NAME": "Attacke-1×-Phys.+Sp.-Boost T {{value}}",
         "ABBR": "Attacke 1× Phys.+Sp. Boost T {{value}}",
         "DESC": "Hat eine {{chance}} %-Chance die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1 zu erhöhen, wenn die Attacke des Anwenders Erfolg hat."
+      },
+      "1708920": {
+        "NAME": "Mitstr.-Freundeskr.-Folge-Leistenv. 0 T {{value}}",
+        "ABBR": "Mitstr. Freundeskr. Folge Leistenv. 0 T {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Leistenverbr. 0 bei allen verbündeten Gefährten zu verursachen, wenn ein Verbündeter einen Freundeskreis auf der Anwender-Seite verursacht."
+      },
+      "1708930": {
+        "NAME": "Angriff-1×-Phys.+Sp.-Boost {{value}}",
+        "ABBR": "Angriff 1× Phys.+Sp. Boost {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ des Anwenders um 1 zu erhöhen, wenn sein Angriff mit einer Attacke Erfolg hat."
+      },
+      "1708940": {
+        "NAME": "Erst-P-Status-Att.-F.-Leistenv. 0 T",
+        "ABBR": "Erst P Status Att. F. Leistenv. 0 T",
+        "DESC": "Verursacht ein Mal pro Kampf den Effekt Folge-Leistenverbr. 0 bei allen verbündeten Gefährten, wenn das Pokémon des Anwenders erstmals eine Status-Attacke einsetzt."
+      },
+      "1708980": {
+        "NAME": "Erstantritt-Phys.+Spez.-Boost T {{value}}",
+        "ABBR": "Erstantritt Phys.+Spez. Boost T {{value}}",
+        "DESC": "Erhöht die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ aller verbündeten Gefährten um {{value}}, wenn der Anwender den Kampf antritt."
+      },
+      "1708990": {
+        "NAME": "Passios Freundeskr. (Vert.): Spez.-Boost T {{value}}",
+        "ABBR": "Passios Freundeskr. (Vert.): Spez. Boost T {{value}}",
+        "DESC": "Erhöht den Effekt Folge-Sp.-Attacke↑ aller verbündeten Gefährten um {{value}}, wenn der Anwender Passios Freundeskreis (Verteidigung) auf der Anwender-Seite verursacht."
       },
       "1801010": {
         "NAME": "Angriff↓-Resistenz {{value}}",
@@ -16553,6 +16760,16 @@
         "NAME": "Unlicht-Fokus-Werte↓-Schutz",
         "ABBR": "Unlicht Fokus Werte↓ Schutz",
         "DESC": "Die Statuswerte des Anwenders können nicht gesenkt werden, wenn ein Unlicht-Fokus aktiv ist."
+      },
+      "1802250": {
+        "NAME": "Normal-Fokus-Werte↓-Schutz T",
+        "ABBR": "Normal Fokus Werte↓ Schutz T",
+        "DESC": "Die Statuswerte aller verbündeten Gefährten können nicht gesenkt werden, wenn ein Normal-Fokus aktiv ist."
+      },
+      "1802260": {
+        "NAME": "Werte↓-Schutz+P-Att.+GA-Volltreffer",
+        "ABBR": "Werte↓ Schutz+P Att.+GA Volltreffer",
+        "DESC": "Die Statuswerte des Anwenders können nicht gesenkt werden. Außer unter besonderen Umständen werden die folgenden Angriffe des Anwenders garantiert Volltreffer, sofern sie treffen: Pokémon-Attacken oder Gefährtenattacke."
       },
       "1803010": {
         "NAME": "K.O.-Werteübergabe",
@@ -18819,6 +19036,21 @@
         "ABBR": "Regen Angriff Werte 2↓ {{value}}",
         "DESC": "Hat eine {{chance}} %-Chance zufällig einen der folgenden Statuswerte des Zieles um 2 zu senken, wenn der Angriff des Anwenders mit einer Attacke bei Regen Erfolg hat: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert."
       },
+      "1812430": {
+        "NAME": "Erst-Gesteinsschadenfeld-Angriff↑ {{value}}",
+        "ABBR": "Erst Gesteinsschadenfeld Angriff↑ {{value}}",
+        "DESC": "Erhöht ein Mal pro Kampf den Angriff des Anwenders um {{value}}, wenn er erstmals ein Gesteinsschadenfeld auf der Gegner-Seite verursacht."
+      },
+      "1812440": {
+        "NAME": "Erst-Gesteinsschadenf.-Volltr.-Chance↑ {{value}}",
+        "ABBR": "Erst Gesteinsschadenf. Volltr. Chance↑ {{value}}",
+        "DESC": "Erhöht ein Mal pro Kampf die Volltrefferquote des Anwenders um {{value}}, wenn er erstmals ein Gesteinsschadenfeld auf der Gegner-Seite verursacht."
+      },
+      "1812450": {
+        "NAME": "Geg.-Gesteinsschadenf.-Ang.-Werte 2↓ {{value}}",
+        "ABBR": "Geg. Gesteinsschadenf. Ang. Werte 2↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance zufällig einen der folgenden Statuswerte des Zieles um 2 zu senken, wenn der Angriff des Anwenders mit einer Attacke Erfolg hat, während das Gesteinsschadenfeld auf der Gegner-Seite aktiv ist: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert."
+      },
       "1812460": {
         "NAME": "Attacke-Angriff+Initiative↑ T {{value}}",
         "ABBR": "Attacke Angriff+Initiative↑ T {{value}}",
@@ -18843,6 +19075,41 @@
         "NAME": "Angriff-Spezial-Verteidigung 6↓ {{value}}",
         "ABBR": "Angriff Spezial Verteidigung 6↓ {{value}}",
         "DESC": "Hat eine {{chance}} %-Chance die Spezial-Verteidigung des Zieles um 6 zu senken, wenn der Angriff des Anwenders mit einer Attacke gegen es Erfolg hat."
+      },
+      "1812510": {
+        "NAME": "Mitstr.-Freundeskreis-Initiative 2↑ T {{value}}",
+        "ABBR": "Mitstr. Freundeskreis Initiative 2↑ T {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die Initiative aller verbündeten Gefährten um 2 zu erhöhen, wenn ein Verbündeter einen Freundeskreis auf der Anwender-Seite verursacht."
+      },
+      "1812540": {
+        "NAME": "Phys.-Angriff-3×-Phys.-Boost {{value}}",
+        "ABBR": "Phys. Angriff 3× Phys. Boost {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Phys.-Attacke↑ des Anwenders um 3 zu erhöhen, wenn sein Angriff mit einer physischen Attacke Erfolg hat."
+      },
+      "1812550": {
+        "NAME": "Spez.-Angriff-3×-Spez.-Boost {{value}}",
+        "ABBR": "Spez. Angriff 3× Spez. Boost {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Effekt Folge-Sp.-Attacke↑ des Anwenders um 3 zu erhöhen, wenn sein Angriff mit einer Spezial-Attacke Erfolg hat."
+      },
+      "1812560": {
+        "NAME": "Erstantr.-Ang.+Sp.-Ang.↓ T {{value}}",
+        "ABBR": "Erstantr. Ang.+Sp. Ang.↓ T {{value}}",
+        "DESC": "Senkt ein Mal pro Kampf den Angriff und Spezial-Angriff aller gegnerischen Gefährten um {{value}}, wenn der Anwender erstmals den Kampf antritt."
+      },
+      "1812570": {
+        "NAME": "Angriff-Sp.-Ang. 2↓ {{value}}",
+        "ABBR": "Angriff Sp. Ang. 2↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance den Spezial-Angriff des Zieles um 2 zu senken, wenn der Angriff des Anwenders mit einer Attacke gegen es Erfolg hat."
+      },
+      "1812580": {
+        "NAME": "Angriff-Verteidigung+Initiative↓ {{value}}",
+        "ABBR": "Angriff Verteidigung+Initiative↓ {{value}}",
+        "DESC": "Hat eine {{chance}} %-Chance die Verteidigung und Initiative des Zieles um 1 zu senken, wenn der Angriff des Anwenders mit einer Attacke gegen es Erfolg hat."
+      },
+      "1812610": {
+        "NAME": "Erstantritt-Volltreffer-Chance↑ {{value}}",
+        "ABBR": "Erstantritt Volltreffer Chance↑ {{value}}",
+        "DESC": "Erhöht ein Mal pro Kampf die Volltrefferquote des Anwenders um {{value}}, wenn er erstmals den Kampf antritt."
       },
       "1901010": {
         "NAME": "Effektüberwindung",
@@ -19869,6 +20136,16 @@
         "ABBR": "Erstantritt: Hoenns Freundeskr. (Vert.)",
         "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Hoenns Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt."
       },
+      "1905950": {
+        "NAME": "Geg.-Gesteinsschadenf.-Dauer↑ {{value}}",
+        "ABBR": "Geg. Gesteinsschadenf. Dauer↑ {{value}}",
+        "DESC": "Verlängert die Dauer vom Gesteinsschadenfeld, wenn das Gesteinsschadenfeld auf der Gegner-Seite verursacht wird."
+      },
+      "1905960": {
+        "NAME": "Gef.-Terakristall.-Unlicht-Fokus",
+        "ABBR": "Gef. Terakristall. Unlicht Fokus",
+        "DESC": "Erzeugt durch Gefährten-Terakristallisierung des Anwenders einen Unlicht-Fokus. (Ein Unlicht-Fokus verstärkt Angriffe vom Typ Unlicht.)"
+      },
       "1905970": {
         "NAME": "Einalls Freundeskreis (Spezial): Dauer↑ {{value}}",
         "ABBR": "Einalls Freundeskreis (Spezial): Dauer↑ {{value}}",
@@ -19913,6 +20190,16 @@
         "NAME": "Erst-Ang.-Psychofeld+Psychofeld-Dauer↑ {{value}}",
         "ABBR": "Erst Ang. Psychofeld+Psychofeld Dauer↑ {{value}}",
         "DESC": "Erzeugt ein Mal pro Kampf ein Psychofeld, wenn der Angriff des Anwenders mit einer Attacke erstmals Erfolg hat. Verlängert die Dauer vom Psychofeld, wenn ein Psychofeld erzeugt wird, während der Anwender auf dem Feld ist."
+      },
+      "1906090": {
+        "NAME": "Erst-GA: Einalls Freundeskreis (Phys.)",
+        "ABBR": "Erst GA: Einalls Freundeskreis (Phys.)",
+        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Einalls Freundeskreis (Physisch), wenn der Anwender erstmals seine Gefährtenattacke einsetzt."
+      },
+      "1906120": {
+        "NAME": "Erstantritt: Passios Freundeskr. (Vert.)",
+        "ABBR": "Erstantritt: Passios Freundeskr. (Vert.)",
+        "DESC": "Verursacht ein Mal pro Kampf auf der Anwender-Seite Passios Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt."
       },
       "2001010": {
         "NAME": "Sandsturmschutz",
@@ -19973,6 +20260,16 @@
         "NAME": "Gesteins-Fokus-Volltr.-Schutz T",
         "ABBR": "Gesteins Fokus Volltr. Schutz T",
         "DESC": "Schützt alle verbündeten Gefährten vor gegnerischen Volltreffern, wenn ein Gesteins-Fokus aktiv ist."
+      },
+      "2101120": {
+        "NAME": "Freundeskreis-Volltr.-Schutz T",
+        "ABBR": "Freundeskreis Volltr. Schutz T",
+        "DESC": "Schützt alle verbündeten Gefährten vor gegnerischen Volltreffern, wenn ein Freundeskreis auf der Anwender-Seite aktiv ist."
+      },
+      "2101130": {
+        "NAME": "Normal-Fokus-Volltr.-Schutz T",
+        "ABBR": "Normal Fokus Volltr. Schutz T",
+        "DESC": "Schützt alle verbündeten Gefährten vor gegnerischen Volltreffern, wenn ein Normal-Fokus aktiv ist."
       },
       "2201010": {
         "NAME": "Zusatzproblemchance↑ {{value}}",
@@ -20524,6 +20821,16 @@
         "ABBR": "Wolken Urteil",
         "DESC": "Erhöht ein Mal pro Kampf den Flugwiderstand aller verbündeten Gefährten um 1, wenn der Anwender erstmals den Kampf antritt. Senkt ein Mal pro Kampf den Flugwiderstand aller gegnerischen Gefährten um 1, wenn der Anwender erstmals den Kampf antritt."
       },
+      "2903040": {
+        "NAME": "Sinnohs Flinkangriff",
+        "ABBR": "Sinnohs Flinkangriff",
+        "DESC": "Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns des Anwenders um 1, wenn er erstmals den Kampf antritt. Im Multiteamkampf wird stattdessen ein Mal pro Kampf der Wert des Gefährtenattacken-Countdowns des Anwenders um 1 reduziert, wenn dein Team erstmals den Kampf antritt. Je mehr verbündete Gefährten das Sinnoh-Attribut haben, desto größer ist die Reduzierung. (Jedes zusätzliche Gefährtengespann erhöht die Reduzierung um 1 und die maximale Reduzierung beträgt 3.) Die Effekte werden nicht addiert, wenn du mehr als ein Gefährtengespann mit Passivfähigkeiten desselben Namens in deinem Team hast."
+      },
+      "2903090": {
+        "NAME": "Paldeas Flinkangriff",
+        "ABBR": "Paldeas Flinkangriff",
+        "DESC": "Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns des Anwenders um 1, wenn er erstmals den Kampf antritt. Im Multiteamkampf wird stattdessen ein Mal pro Kampf der Wert des Gefährtenattacken-Countdowns des Anwenders um 1 reduziert, wenn dein Team erstmals den Kampf antritt. Je mehr verbündete Gefährten das Paldea-Attribut haben, desto größer ist die Reduzierung. (Jedes zusätzliche Gefährtengespann erhöht die Reduzierung um 1 und die maximale Reduzierung beträgt 3.) Die Effekte werden nicht addiert, wenn du mehr als ein Gefährtengespann mit Passivfähigkeiten desselben Namens in deinem Team hast."
+      },
       "3201010": {
         "NAME": "Die innere Ruhe des Waldes",
         "ABBR": "Die innere Ruhe des Waldes",
@@ -21064,6 +21371,21 @@
         "ABBR": "Der gemeinsame Nenner",
         "DESC": "Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns des Anwenders um 1, wenn er erstmals den Kampf antritt. Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns des Anwenders um 1, wenn sein Trainer erstmals eine Attacke einsetzt. Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns um 1, wenn der Anwender erstmals seine Gefährtenattacke einsetzt."
       },
+      "3202100": {
+        "NAME": "Reisende mit einem Faible für Kameras",
+        "ABBR": "Reisende mit einem Faible für Kameras",
+        "DESC": "Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns des Anwenders um 1, wenn er erstmals seine Gefährtenattacke einsetzt. Erhöht die Stärke der Gefährtenattacken aller verbündeten Gefährten, wenn das Gesteinsschadenfeld auf der Gegner-Seite aktiv ist. Verlängert die Dauer vom Gesteins-Fokus, wenn ein Gesteins-Fokus erzeugt wird, während der Anwender auf dem Feld ist."
+      },
+      "3202110": {
+        "NAME": "Wetterfeste und wunderschöne Friseurin",
+        "ABBR": "Wetterfeste und wunderschöne Friseurin",
+        "DESC": "Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns des Anwenders um 1, wenn er erstmals den Kampf antritt. Verursacht ein Mal pro Kampf auf der Anwender-Seite Sinnohs Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt. Verlängert die Dauer vom Sinnohs Freundeskreis (Verteidigung), wenn Sinnohs Freundeskreis (Verteidigung) auf der Anwender-Seite verursacht wird."
+      },
+      "3202120": {
+        "NAME": "Wächterin des Obsidian-Graslands",
+        "ABBR": "Wächterin des Obsidian Graslands",
+        "DESC": "Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns des Anwenders um 1, wenn er erstmals den Kampf antritt. Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns um 1, wenn der Anwender erstmals seine Gefährtenattacke einsetzt. Erhöht die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1, nachdem die Gefährten deines Teams ihre Gefährtenattacke eingesetzt haben."
+      },
       "3301050": {
         "NAME": "Erstantritt: Gef.-Terakristall. (Pflanze)",
         "ABBR": "Erstantritt: Gef. Terakristall. (Pflanze)",
@@ -21088,6 +21410,11 @@
         "NAME": "Erstantritt: Gef.-Terakristall. (Drache)",
         "ABBR": "Erstantritt: Gef. Terakristall. (Drache)",
         "DESC": "Der Anwender nimmt ein Mal pro Kampf durch Gefährten-Terakristallisierung den Typ Drache an, wenn er erstmals den Kampf antritt."
+      },
+      "3301160": {
+        "NAME": "Erstantr.: Gef.-Terakristall. (Unlicht)",
+        "ABBR": "Erstantr.: Gef. Terakristall. (Unlicht)",
+        "DESC": "Der Anwender nimmt ein Mal pro Kampf durch Gefährten-Terakristallisierung den Typ Unlicht an, wenn er erstmals den Kampf antritt."
       },
       "5130206": {
         "NAME": "Änderungsfrei-P-Att.-GA-Sch.↓ {{value}}",
@@ -22284,6 +22611,41 @@
         "ABBR": "Erinnerungen an Route 120",
         "DESC": "Erzeugt ein Mal pro Kampf Regen, wenn der Anwender erstmals den Kampf antritt. Verursacht ein Mal pro Kampf auf der Anwender-Seite Hoenns Freundeskreis (Verteidigung), wenn der Anwender erstmals den Kampf antritt."
       },
+      "9903360": {
+        "NAME": "Gaben des Graslandes",
+        "ABBR": "Gaben des Graslandes",
+        "DESC": "Stellt bei allen verbündeten Gefährten die KP wieder her, wenn der Anwender von einem Angriff mit einer Attacke getroffen wird, während ein Normal-Fokus aktiv ist. Stellt die KP des Anwenders um etwa 20 % seiner maximalen KP wieder her, wenn er von einer Gefährtenattacke getroffen wird, während ein Normal-Fokus aktiv ist."
+      },
+      "9903370": {
+        "NAME": "Zeit für ein Foto!",
+        "ABBR": "Zeit für ein Foto!",
+        "DESC": "Erhöht ein Mal pro Kampf den Angriff des Anwenders um 6, wenn er erstmals ein Gesteinsschadenfeld auf der Gegner-Seite verursacht. Erhöht ein Mal pro Kampf die Volltrefferquote des Anwenders um 3, wenn er erstmals das Gesteinsschadenfeld auf der Gegner-Seite verursacht."
+      },
+      "9903380": {
+        "NAME": "Immer weiter so!",
+        "ABBR": "Immer weiter so!",
+        "DESC": "Senkt zufällig einen der folgenden Statuswerte des Zieles um 2, wenn der Angriff des Anwenders mit einer Attacke Erfolg hat, während das Gesteinsschadenfeld auf der Gegner-Seite aktiv ist: Angriff, Verteidigung, Spezial-Angriff, Spezial-Verteidigung, Initiative, Genauigkeit oder Fluchtwert. Verursacht beim Anwender den Effekt Folge-Leistenverbr. 0, wenn sein Angriff mit einer Attacke Erfolg hat, während das Gesteinsschadenfeld auf der Gegner-Seite aktiv ist."
+      },
+      "9903390": {
+        "NAME": "Niedlich mit einer Prise Heimtücke",
+        "ABBR": "Niedlich mit einer Prise Heimtücke",
+        "DESC": "Reduziert durch Gefährten-Terakristallisierung den Wert des Gefährtenattacken-Countdowns des Anwenders um 1. Erzeugt durch Gefährten-Terakristallisierung des Anwenders einen Unlicht-Fokus. (Ein Unlicht-Fokus verstärkt Angriffe vom Typ Unlicht.)"
+      },
+      "9903400": {
+        "NAME": "Jetzt ziehe ich andere Saiten auf!",
+        "ABBR": "Jetzt ziehe ich andere Saiten auf!",
+        "DESC": "Hat eine Chance (jeweils 30 %) die folgenden Effekte auszulösen, wenn der Angriff des Anwenders mit einer Attacke Erfolg hat: Lässt das Ziel zurückschrecken. Verwirrt das Ziel. Fängt das Ziel in einer Umschlingung."
+      },
+      "9903410": {
+        "NAME": "Tanz in Gelb",
+        "ABBR": "Tanz in Gelb",
+        "DESC": "Verursacht beim Ziel den Effekt Phys.-Att.-Anfälligkeit, wenn der Angriff des Anwenders mit einer physischen Attacke gegen es Erfolg hat. Verursacht beim Ziel den Effekt Spez.-Att.-Anfälligkeit, wenn der Angriff des Anwenders mit einer Spezial-Attacke gegen es Erfolg hat. Nur einer dieser Effekte kann ein Mal pro Kampf aktiviert werden."
+      },
+      "9903420": {
+        "NAME": "Tanz in Grün",
+        "ABBR": "Tanz in Grün",
+        "DESC": "Senkt die Verteidigung des Zieles um 2, wenn der Angriff des Anwenders mit einer physischen Attacke gegen es Erfolg hat. Erhöht den Effekt Folge-Phys.-Attacke↑ des Anwenders um 3, wenn sein Angriff mit einer physischen Attacke Erfolg hat. Senkt die Spezial-Verteidigung des Zieles um 2, wenn der Angriff des Anwenders mit einer Spezial-Attacke gegen es Erfolg hat. Erhöht den Effekt Folge-Sp.-Attacke↑ des Anwenders um 3, wenn sein Angriff mit einer Spezial-Attacke Erfolg hat."
+      },
       "9903430": {
         "NAME": "Die Kraft der Besänftigung",
         "ABBR": "Die Kraft der Besänftigung",
@@ -22294,10 +22656,40 @@
         "ABBR": "Tiefer Schatten",
         "DESC": "Verlängert die Dauer vom Geister-Fokus, wenn ein Geister-Fokus erzeugt wird, während der Anwender auf dem Feld ist. Erhöht die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ des Anwenders um 1, wenn sein Angriff mit einer Attacke Erfolg hat, während ein Geister-Fokus aktiv ist."
       },
+      "9903450": {
+        "NAME": "Die optimale Temperatur",
+        "ABBR": "Die optimale Temperatur",
+        "DESC": "Löst ein Mal pro Kampf alle folgenden Effekte aus, wenn der Anwender erstmals Einalls Leidenschaft einsetzt: Erhöht den Angriff des Anwenders um 4. Erhöht die Volltrefferquote des Anwenders um 3. Verursacht beim Anwender den Effekt Folge-Effektiv.-Stärke↑."
+      },
+      "9903460": {
+        "NAME": "Die besten Teeblätter",
+        "ABBR": "Die besten Teeblätter",
+        "DESC": "Erhöht die Effekte Folge-Phys.-Attacke↑ und Folge-Sp.-Attacke↑ aller verbündeten Gefährten um 1, wenn ein Verbündeter einen Freundeskreis auf der Anwender-Seite verursacht."
+      },
+      "9903470": {
+        "NAME": "Meine Emotionen kochen hoch!",
+        "ABBR": "Meine Emotionen kochen hoch!",
+        "DESC": "Erhöht den Effekt Folge-Phys.-Attacke↑ des Anwenders um 2, wenn ein Verbündeter einen Freundeskreis auf der Anwender-Seite verursacht."
+      },
+      "9903480": {
+        "NAME": "Das klarste Teewasser",
+        "ABBR": "Das klarste Teewasser",
+        "DESC": "Erhöht die Initiative aller verbündeten Gefährten um 2, wenn ein Verbündeter einen Freundeskreis auf der Anwender-Seite verursacht. Verursacht den Effekt Folge-Leistenverbr. 0 bei allen verbündeten Gefährten, wenn ein Verbündeter einen Freundeskreis auf der Anwender-Seite verursacht."
+      },
       "9903570": {
         "NAME": "Ein Ort, an dem Welten überlappen",
         "ABBR": "Ein Ort, an dem Welten überlappen",
         "DESC": "Erzeugt ein Mal pro Kampf einen Geister-Fokus, wenn der Angriff des Anwenders mit einer Attacke erstmals Erfolg hat. Erzeugt ein Mal pro Kampf einen Geister-Fokus, wenn der Anwender erstmals seine Gefährtenattacke einsetzt. (Ein Geister-Fokus verstärkt Angriffe vom Typ Geist.) Verlängert die Dauer vom Geister-Fokus, wenn ein Geister-Fokus erzeugt wird, während der Anwender auf dem Feld ist."
+      },
+      "9903670": {
+        "NAME": "Beispielhafter Kampfgeist",
+        "ABBR": "Beispielhafter Kampfgeist",
+        "DESC": "Erhöht die Stärke der Gefährtenattacken aller verbündeten Gefährten, wenn ein Kampf-Fokus aktiv ist. Verlängert die Dauer vom Kampf-Fokus, wenn ein Kampf-Fokus erzeugt wird, während der Anwender auf dem Feld ist."
+      },
+      "9903680": {
+        "NAME": "Blitzschneller Tritt",
+        "ABBR": "Blitzschneller Tritt",
+        "DESC": "Löst ein Mal pro Kampf alle folgenden Effekte aus, wenn der Anwender erstmals den Kampf antritt: Reduziert den Wert des Gefährtenattacken-Countdowns des Anwenders um 2. Erzeugt einen Kampf-Fokus. (Ein Kampf-Fokus verstärkt Angriffe vom Typ Kampf.) Erhöht die Volltrefferquote des Anwenders um 3."
       }
     },
     "THEMES": {
@@ -22848,7 +23240,12 @@
       "20000426": "Oni-Austreibungsspiel",
       "20000427": "Midoriya",
       "20000428": "Kristallsee",
-      "20000429": "Masken"
+      "20000429": "Masken",
+      "20000430": "Unlicht-Pokémon",
+      "20000431": "Finsterbälle",
+      "20000432": "Konzerte",
+      "20000433": "Lieder",
+      "20000434": "Zugaben"
     },
     "TOPIC_GROUP": {
       "1": "Pokémon",
