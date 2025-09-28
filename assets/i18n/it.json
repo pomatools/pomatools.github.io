@@ -11978,13 +11978,13 @@
       },
       "1101580": {
         "NAME": "Zona Normale Unireazione curativa {{value}}",
-        "ABBR": "Zona Normale Unireazione curativa {{value}}",
+        "ABBR": "Zona Normale Unireaz. curativa {{value}}",
         "DESC": "Chi la usa recupera PS per una certa percentuale ({{heal}}% circa) dei suoi PS massimi quando subisce un attacco con un'Unimossa in presenza di una Zona Normale."
       },
       "1101590": {
         "NAME": "Fatica reazione tecniche bacconsumo e curativa {{value}}",
-        "ABBR": "Fatica reazione tecniche bacconsumo e curativa {{value}}",
-        "DESC": "Riduce di {{value}} gli utilizzi delle mosse definite \"Bacca\" alla voce \"Effetti\" per chi la usa e recupera i suoi PS per una certa percentuale ({{value}}0% circa) dei suoi PS massimi quando i suoi PS scendono a metà o meno dopo aver subito un attacco semplice o un'Unimossa."
+        "ABBR": "Fatica reazione tecniche baccons. e curativa {{value}}",
+        "DESC": "Riduce di 1 gli utilizzi delle mosse definite \"Bacca\" alla voce \"Effetti\" per chi la usa e recupera i suoi PS per una certa percentuale ({{heal}}% circa) dei suoi PS massimi quando i suoi PS scendono a metà o meno dopo aver subito un attacco semplice o un'Unimossa."
       },
       "1201010": {
         "NAME": "Colmapioggia {{value}}",
@@ -13428,7 +13428,7 @@
       },
       "1308450": {
         "NAME": "Campodanno Roccia nemico rafforzante-G {{value}}",
-        "ABBR": "Campodanno Roccia nemico rafforzante-G {{value}}",
+        "ABBR": "Campod. Roccia nemico raff.-G {{value}}",
         "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo avversario è applicato Campodanno Roccia."
       },
       "1401010": {
@@ -13688,7 +13688,7 @@
       },
       "1501480": {
         "NAME": "UniTeracristal sprint {{value}}",
-        "ABBR": "UniTeracristal sprint {{value}}",
+        "ABBR": "UniTera. sprint {{value}}",
         "DESC": "Abbassa di {{value}} il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando si Uniteracristallizza."
       },
       "1501490": {
@@ -14273,7 +14273,7 @@
       },
       "1603100": {
         "NAME": "Campodanno Roccia nemico unipotente-G {{value}}",
-        "ABBR": "Campodanno Roccia nemico unipotente-G {{value}}",
+        "ABBR": "Campod. Roccia nemico unipot.-G {{value}}",
         "DESC": "Aumenta la potenza delle Unimosse di tutte le Unità alleate quando al campo avversario è applicato Campodanno Roccia."
       },
       "1603120": {
@@ -16523,12 +16523,12 @@
       },
       "1708780": {
         "NAME": "Autozona Buio iperspeciale singola-G {{value}}",
-        "ABBR": "Autozona Buio iperspeciale singola-G {{value}}",
+        "ABBR": "Autozona Buio iperspe. singola-G {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado quando chi la usa trasforma la zona in una Zona Buio."
       },
       "1708790": {
         "NAME": "Campodanno Roccia nemico attaccazzera {{value}}",
-        "ABBR": "Campodanno Roccia nemico attaccazzera {{value}}",
+        "ABBR": "Campod. Roccia nemico attacc. {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di applicare l'effetto \"Prossimo a costo zero\" a chi la usa quando il suo attacco semplice va a segno mentre al campo avversario è applicato Campodanno Roccia."
       },
       "1708800": {
@@ -16578,7 +16578,7 @@
       },
       "1708920": {
         "NAME": "Alleacerchia azzeracosto-G {{value}}",
-        "ABBR": "Alleacerchia azzeracosto-G {{value}}",
+        "ABBR": "Alleacerc. azzeracosto-G {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di applicare l'effetto \"Prossimo a costo zero\" a tutte le Unità alleate quando un alleato applica una Cerchia al campo alleato."
       },
       "1708930": {
@@ -16588,18 +16588,18 @@
       },
       "1708940": {
         "NAME": "Uso prima statomossa azzeracosto-G",
-        "ABBR": "Uso prima statomossa azzeracosto-G",
+        "ABBR": "Uso prima statom. azzeracosto-G",
         "DESC": "Applica l'effetto \"Prossimo a costo zero\" a tutte le Unità alleate la prima volta che il Pokémon di chi la usa sferra una mossa di stato in ogni lotta."
       },
       "1708980": {
         "NAME": "Entrata iper-G {{value}}",
         "ABBR": "Entrata iper-G {{value}}",
-        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di {{value}} grado quando chi la usa entra in campo."
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di {{value}} gradi quando chi la usa entra in campo."
       },
       "1708990": {
         "NAME": "Autocerchia di Pasio (difensiva) iperspeciale-G {{value}}",
-        "ABBR": "Autocerchia di Pasio (difensiva) iperspeciale-G {{value}}",
-        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di {{value}} grado quando chi la usa applica una Cerchia di Pasio (difensiva) al campo alleato."
+        "ABBR": "Autocerchia di Pasio (difensiva) ipersp.-G {{value}}",
+        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di {{value}} gradi quando chi la usa applica una Cerchia di Pasio (difensiva) al campo alleato."
       },
       "1801010": {
         "NAME": "Cocciutaggine {{value}}",
@@ -19038,17 +19038,17 @@
       },
       "1812430": {
         "NAME": "Primo autocampodanno Roccia offensivo {{value}}",
-        "ABBR": "Primo autocampodanno Roccia offensivo {{value}}",
-        "DESC": "Aumenta l'Attacco di chi la usa di {{value}} grado la prima volta che applica Campodanno Roccia al campo avversario in ogni lotta."
+        "ABBR": "Primo autocam. Roccia offensivo {{value}}",
+        "DESC": "Aumenta l'Attacco di chi la usa di {{value}} gradi la prima volta che applica Campodanno Roccia al campo avversario in ogni lotta."
       },
       "1812440": {
         "NAME": "Primo autocampodanno Roccia colprobabile {{value}}",
-        "ABBR": "Primo autocampodanno Roccia colprobabile {{value}}",
-        "DESC": "Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di {{value}} grado la prima volta che applica Campodanno Roccia al campo avversario in ogni lotta."
+        "ABBR": "Primo autocam. Roccia colprob. {{value}}",
+        "DESC": "Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di {{value}} gradi la prima volta che applica Campodanno Roccia al campo avversario in ogni lotta."
       },
       "1812450": {
         "NAME": "Campodanno Roccia nemico malus doppiogrado {{value}}",
-        "ABBR": "Campodanno Roccia nemico malus doppiogrado {{value}}",
+        "ABBR": "Campod. Roccia nemico malus doppiogr. {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre una statistica a caso del bersaglio di 2 gradi tra le seguenti quando l'attacco semplice di chi la usa va a segno mentre al campo avversario è applicato Campodanno Roccia: Attacco, Difesa, Attacco Speciale, Difesa Speciale, Velocità, precisione o elusione."
       },
       "1812460": {
@@ -19078,7 +19078,7 @@
       },
       "1812510": {
         "NAME": "Alleacerchia turbo doppiogrado-G {{value}}",
-        "ABBR": "Alleacerchia turbo doppiogrado-G {{value}}",
+        "ABBR": "Alleacerchia turbo doppiogr.-G {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare la Velocità di tutte le Unità alleate di 2 gradi quando un alleato applica una Cerchia al campo alleato."
       },
       "1812540": {
@@ -19088,17 +19088,17 @@
       },
       "1812550": {
         "NAME": "Attacco speciale iperspeciale triplo {{value}}",
-        "ABBR": "Attacco speciale iperspeciale triplo {{value}}",
+        "ABBR": "Attacco speciale ipersp. triplo {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 3 gradi quando il suo attacco semplice speciale va a segno."
       },
       "1812560": {
         "NAME": "Primentrata disorientante-G {{value}}",
-        "ABBR": "Primentrata disorientante-G {{value}}",
-        "DESC": "Riduce l'Attacco e l'Attacco Speciale di tutte le Unità avversarie di {{value}} grado la prima volta che chi la usa entra in campo in ogni lotta."
+        "ABBR": "Primentr. disorient.-G {{value}}",
+        "DESC": "Riduce l'Attacco e l'Attacco Speciale di tutte le Unità avversarie di {{value}} gradi la prima volta che chi la usa entra in campo in ogni lotta."
       },
       "1812570": {
         "NAME": "Attacco frastornante doppiogrado {{value}}",
-        "ABBR": "Attacco frastornante doppiogrado {{value}}",
+        "ABBR": "Attacco frastorn. doppiogr. {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre l'Attacco Speciale del bersaglio di 2 gradi quando l'attacco semplice di chi la usa contro di esso va a segno."
       },
       "1812580": {
@@ -19108,8 +19108,8 @@
       },
       "1812610": {
         "NAME": "Primentrata colprobabile {{value}}",
-        "ABBR": "Primentrata colprobabile {{value}}",
-        "DESC": "Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di {{value}} grado la prima volta che entra in campo in ogni lotta."
+        "ABBR": "Primentr. colprob. {{value}}",
+        "DESC": "Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di {{value}} gradi la prima volta che entra in campo in ogni lotta."
       },
       "1901010": {
         "NAME": "Ignoracampo",
@@ -20138,7 +20138,7 @@
       },
       "1905950": {
         "NAME": "Campodanno Roccia nemico duraturo {{value}}",
-        "ABBR": "Campodanno Roccia nemico duraturo {{value}}",
+        "ABBR": "Campod. Roccia nemico duraturo {{value}}",
         "DESC": "Aumenta la durata di Campodanno Roccia quando al campo avversario viene applicato Campodanno Roccia."
       },
       "1905960": {
@@ -20198,7 +20198,7 @@
       },
       "1906120": {
         "NAME": "Primentrata Cerchia di Pasio (difensiva)",
-        "ABBR": "Primentrata Cerchia di Pasio (difensiva)",
+        "ABBR": "Primentr. Cerchia di Pasio (difensiva)",
         "DESC": "Applica una Cerchia di Pasio (difensiva) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta."
       },
       "2001010": {

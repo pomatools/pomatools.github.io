@@ -11984,7 +11984,7 @@
       "1101590": {
         "NAME": "Take P/S-Move Hit & Half HP: Use Berry & HP Recovery {{value}}",
         "ABBR": "Take P/S-Move Hit & Half HP: Use Berry & HP Recovery {{value}}",
-        "DESC": "Reduces MP by {{value}} for the user’s moves that have the Berry effect tag and restores its HP by approximately {{value}}0% of its maximum HP when its HP is left at half or below after it is hit by an attack move or sync move."
+        "DESC": "Reduces MP by 1 for the user’s moves that have the Berry effect tag and restores its HP by approximately {{heal}}% of its maximum HP when its HP is left at half or below after it is hit by an attack move or sync move."
       },
       "1201010": {
         "NAME": "Racing Rain {{value}}",
@@ -16594,12 +16594,12 @@
       "1708980": {
         "NAME": "Entry: Team Physical & Special Boost {{value}}",
         "ABBR": "Entry: Team P&SM⇑{{value}}",
-        "DESC": "Increases the Physical Moves ↑ Next effect and Special Moves ↑ Next effect of all allied sync pairs by {{value}} rank when the user enters a battle."
+        "DESC": "Increases the Physical Moves ↑ Next effect and Special Moves ↑ Next effect of all allied sync pairs by {{value}} rank(s) when the user enters a battle."
       },
       "1708990": {
         "NAME": "User Sets Pasio C (Def): Team Special Boost {{value}}",
         "ABBR": "User Sets Pasio C (Def): Team SM⇑{{value}}",
-        "DESC": "Increases the Special Moves ↑ Next effect of all allied sync pairs by {{value}} rank when the user applies Pasio Circle (Defensive) to the allied field of play."
+        "DESC": "Increases the Special Moves ↑ Next effect of all allied sync pairs by {{value}} rank(s) when the user applies Pasio Circle (Defensive) to the allied field of play."
       },
       "1801010": {
         "NAME": "Stout Heart {{value}}",
@@ -19039,12 +19039,12 @@
       "1812430": {
         "NAME": "1st Time User Sets Rock DF: Attack ↑ {{value}}",
         "ABBR": "1st Time User Sets Rock DF: Atk. ↑ {{value}}",
-        "DESC": "Raises the user’s Attack by {{value}} stat rank the first time it applies Rock Damage Field to the opponent's field of play each battle."
+        "DESC": "Raises the user’s Attack by {{value}} stat rank(s) the first time it applies Rock Damage Field to the opponent's field of play each battle."
       },
       "1812440": {
         "NAME": "1st Time User Sets Rock DF: Crit Rate ↑ {{value}}",
         "ABBR": "1st Time User Sets Rock DF: Crit Rate ↑ {{value}}",
-        "DESC": "Raises the user’s critical-hit rate by {{value}} stat rank the first time it applies Rock Damage Field to the opponent's field of play each battle."
+        "DESC": "Raises the user’s critical-hit rate by {{value}} stat rank(s) the first time it applies Rock Damage Field to the opponent's field of play each battle."
       },
       "1812450": {
         "NAME": "Rock DF on Opp & Hit: Stat ↓2 {{value}}",
@@ -19094,7 +19094,7 @@
       "1812560": {
         "NAME": "Debut: Team Attack & Sp. Atk ↓ {{value}}",
         "ABBR": "Debut: Team Atk. & S.Atk ↓ {{value}}",
-        "DESC": "Lowers the Attack and Sp. Atk of all opposing sync pairs by {{value}} stat rank the first time the user enters a battle each battle."
+        "DESC": "Lowers the Attack and Sp. Atk of all opposing sync pairs by {{value}} stat rank(s) the first time the user enters a battle each battle."
       },
       "1812570": {
         "NAME": "Hit: Sp. Atk ↓2 {{value}}",
@@ -19109,7 +19109,7 @@
       "1812610": {
         "NAME": "Debut: Crit Rate ↑ {{value}}",
         "ABBR": "Debut: Crit Rate ↑ {{value}}",
-        "DESC": "Raises the user’s critical-hit rate by {{value}} stat rank the first time it enters a battle each battle."
+        "DESC": "Raises the user’s critical-hit rate by {{value}} stat rank(s) the first time it enters a battle each battle."
       },
       "1901010": {
         "NAME": "Unhindered",

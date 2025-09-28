@@ -11973,18 +11973,18 @@
       },
       "1101570": {
         "NAME": "Zone Normal Réflexe Coach Soin {{value}}",
-        "ABBR": "Zone Normal Réflexe Coach Soin {{value}}",
+        "ABBR": "Z. Normal Réf. Coa. Soin {{value}}",
         "DESC": "{{chance}} % de chances de restaurer les PV de tous les Duos alliés quand le lanceur subit une capacité offensive et que la zone est une Zone Normal."
       },
       "1101580": {
         "NAME": "Zone Normal Réflexe Capacité Duo Coach Soin {{value}}",
-        "ABBR": "Zone Normal Réflexe Capacité Duo Coach Soin {{value}}",
+        "ABBR": "Z. Normal Réf. C.D. Coa. Soin {{value}}",
         "DESC": "Le lanceur regagne environ {{heal}} % de ses PV maximums quand il subit une capacité Duo et que la zone est une Zone Normal."
       },
       "1101590": {
         "NAME": "Réf. Action C. D. Fatigue Conso. PPC Baie Soin {{value}}",
-        "ABBR": "Réf. Action C. D. Fatigue Conso. PPC Baie Soin {{value}}",
-        "DESC": "Réduit les PPC de {{value}} pour les capacités du lanceur qui ont l'effet Baie et restaure environ {{value}}0 % de ses PV maximums quand ses PV sont laissés à la moitié ou moins après avoir subi une capacité offensive ou une capacité Duo."
+        "ABBR": "Réf. Act. C.D. Fat. Conso. Baie Soin {{value}}",
+        "DESC": "Réduit les PPC de 1 pour les capacités du lanceur qui ont l'effet Baie et restaure environ {{heal}} % de ses PV maximums quand ses PV sont laissés à la moitié ou moins après avoir subi une capacité offensive ou une capacité Duo."
       },
       "1201010": {
         "NAME": "Turbo Pluie {{value}}",
@@ -13428,7 +13428,7 @@
       },
       "1308450": {
         "NAME": "Ennemi Aire Dégâts Roche Coach Puissance {{value}}",
-        "ABBR": "Ennemi Aire Dégâts Roche Coach Puissance {{value}}",
+        "ABBR": "Ennemi A.D. Roche Coa. Pui. {{value}}",
         "DESC": "Augmente la puissance des capacités de tous les Duos alliés quand l'Aire Dégâts Roche s'applique au côté ennemi."
       },
       "1401010": {
@@ -13688,12 +13688,12 @@
       },
       "1501480": {
         "NAME": "Duo-Téracristallisation Compteur ↓ {{value}}",
-        "ABBR": "Duo-Téracristallisation Compteur ↓ {{value}}",
+        "ABBR": "Duo-Téra. Compteur ↓ {{value}}",
         "DESC": "Réduit de {{value}} le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur quand il bascule en Duo-Téracristal."
       },
       "1501490": {
         "NAME": "Passion pour Unys Util. Compteur ↓ {{value}}",
-        "ABBR": "Passion pour Unys Util. Compteur ↓ {{value}}",
+        "ABBR": "Passion pour Unys Util. Compt. ↓ {{value}}",
         "DESC": "{{chance}} % de chances de réduire de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur quand il utilise Passion pour Unys."
       },
       "1502010": {
@@ -14273,12 +14273,12 @@
       },
       "1603100": {
         "NAME": "Enn. Aire Dégâts Roche Coach Capa. Duo {{value}}",
-        "ABBR": "Enn. Aire Dégâts Roche Coach Capa. Duo {{value}}",
+        "ABBR": "Enn. A.D. Roche Coa. C. Duo {{value}}",
         "DESC": "Augmente la puissance des capacités Duo de tous les Duos alliés quand l'Aire Dégâts Roche s'applique au côté ennemi."
       },
       "1603120": {
         "NAME": "Zone Combat Coach Capacité Duo {{value}}",
-        "ABBR": "Zone Combat Coach Capacité Duo {{value}}",
+        "ABBR": "Z. Combat Coach Capa. Duo {{value}}",
         "DESC": "Augmente la puissance des capacités Duo de tous les Duos alliés quand la zone est une Zone Combat."
       },
       "1701010": {
@@ -16523,12 +16523,12 @@
       },
       "1708780": {
         "NAME": "Auto-Décl. Zone Ténèbres Coach Boost Spé. +1 {{value}}",
-        "ABBR": "Auto-Décl. Zone Ténèbres Coach Boost Spé. +1 {{value}}",
+        "ABBR": "A.-Décl. Z.Ténèbres Coa. B.Spé. +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale de tous les Duos alliés de 1 rang quand le lanceur transforme la zone en une Zone Ténèbres."
       },
       "1708790": {
         "NAME": "Enn. Aire Dég. Roche Capa. Off. Conso. 0 {{value}}",
-        "ABBR": "Enn. Aire Dég. Roche Capa. Off. Conso. 0 {{value}}",
+        "ABBR": "Enn. A.D. Roche C.Off. Conso. 0 {{value}}",
         "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée au lanceur quand il utilise avec succès sa capacité offensive alors que l'Aire Dégâts Roche s'applique au côté ennemi."
       },
       "1708800": {
@@ -16578,27 +16578,27 @@
       },
       "1708920": {
         "NAME": "Allié Déclenchement Cercle Coach Conso. 0 {{value}}",
-        "ABBR": "Allié Déclenchement Cercle Coach Conso. 0 {{value}}",
+        "ABBR": "Allié Décl. Cercle Coa. Conso. 0 {{value}}",
         "DESC": "{{chance}} % de chances d'appliquer l'effet Conso. 0 assurée à tous les Duos alliés quand un allié applique un cercle au côté allié."
       },
       "1708930": {
         "NAME": "Capacité Offensive Boost Phy. Spé. +1 {{value}}",
-        "ABBR": "Capacité Offensive Boost Phy. Spé. +1 {{value}}",
+        "ABBR": "Capa. Off. Boost Phy. Spé. +1 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale du lanceur de 1 rang quand il utilise avec succès sa capacité offensive."
       },
       "1708940": {
         "NAME": "Prem. Action Statut Util. Coach Conso. 0",
-        "ABBR": "Prem. Action Statut Util. Coach Conso. 0",
+        "ABBR": "Prem. A. Sta. Util. Coa. Conso. 0",
         "DESC": "Applique l'effet Conso. 0 assurée à tous les Duos alliés la première fois que le Pokémon du lanceur utilise une capacité de statut à chaque combat."
       },
       "1708980": {
         "NAME": "Arrivée Coach Boost Physique Spécial {{value}}",
-        "ABBR": "Arrivée Coach Boost Physique Spécial {{value}}",
+        "ABBR": "Arrivée Coa. Boost Phy. Spé. {{value}}",
         "DESC": "Augmente l'effet Prochain boost capacité physique et l'effet Prochain boost capacité spéciale de tous les Duos alliés de {{value}} rang quand le lanceur arrive au combat."
       },
       "1708990": {
         "NAME": "Auto-Décl. Cercle de Passio Déf. Coach Boost Spé. {{value}}",
-        "ABBR": "Auto-Décl. Cercle de Passio Déf. Coach Boost Spé. {{value}}",
+        "ABBR": "A.-Décl. C.Passio Déf. Coa. B.Spé. {{value}}",
         "DESC": "Augmente l'effet Prochain boost capacité spéciale de tous les Duos alliés de {{value}} rang quand le lanceur applique Cercle de Passio Défensif au côté allié."
       },
       "1801010": {
@@ -16768,7 +16768,7 @@
       },
       "1802260": {
         "NAME": "Immunité ↓Stats Action Capacité Duo Critique",
-        "ABBR": "Immunité ↓Stats Action Capacité Duo Critique",
+        "ABBR": "Immu. ↓Stats Action C.Duo Critique",
         "DESC": "Les stats du lanceur ne peuvent pas être baissées. Inflige un coup critique si les attaques suivantes du lanceur atteignent leur cible (sauf dans certains cas) : capacités du Pokémon ou capacité Duo."
       },
       "1803010": {
@@ -19038,17 +19038,17 @@
       },
       "1812430": {
         "NAME": "Prem. Auto-Décl. Aire Dégâts Roche Atq. ↑ {{value}}",
-        "ABBR": "Prem. Auto-Décl. Aire Dégâts Roche Atq. ↑ {{value}}",
+        "ABBR": "Prem. A.-Décl. A.D. Roche Atq. ↑ {{value}}",
         "DESC": "Augmente l'Attaque du lanceur de {{value}} rang la première fois qu'il applique l'Aire Dégâts Roche au côté ennemi à chaque combat."
       },
       "1812440": {
         "NAME": "Prem. Auto-Décl. Aire Dégâts Roche Critiques ↑ {{value}}",
-        "ABBR": "Prem. Auto-Décl. Aire Dégâts Roche Critiques ↑ {{value}}",
+        "ABBR": "Prem. A.-Décl. A.D. Roche Crit. ↑ {{value}}",
         "DESC": "Augmente le taux de critiques du lanceur de {{value}} rang la première fois qu'il applique l'Aire Dégâts Roche au côté ennemi à chaque combat."
       },
       "1812450": {
         "NAME": "Enn. Aire Dég. Roche Capa. Off. Stat 2↓ {{value}}",
-        "ABBR": "Enn. Aire Dég. Roche Capa. Off. Stat 2↓ {{value}}",
+        "ABBR": "Enn. A.D. Roche C.Off. Stat 2↓ {{value}}",
         "DESC": "{{chance}} % de chances de baisser aléatoirement une des stats suivantes de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive alors que l'Aire Dégâts Roche s'applique au côté ennemi : Attaque, Défense, Atq. Spé., Déf. Spé., Vitesse, Précision ou Esquive."
       },
       "1812460": {
@@ -19078,32 +19078,32 @@
       },
       "1812510": {
         "NAME": "Allié Déclenchement Cercle Coach Vitesse 2 {{value}}",
-        "ABBR": "Allié Déclenchement Cercle Coach Vitesse 2 {{value}}",
+        "ABBR": "Allié Décl. Cercle Coach Vit. 2 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter la Vitesse de tous les Duos alliés de 2 rangs quand un allié applique un cercle au côté allié."
       },
       "1812540": {
         "NAME": "Capacité Offensive Phys. Boost Phys. +3 {{value}}",
-        "ABBR": "Capacité Offensive Phys. Boost Phys. +3 {{value}}",
+        "ABBR": "Capa. Off. Phys. Boost Phys. +3 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité physique du lanceur de 3 rangs quand il utilise avec succès sa capacité physique."
       },
       "1812550": {
         "NAME": "Capacité Offensive Spé. Boost Spé. +3 {{value}}",
-        "ABBR": "Capacité Offensive Spé. Boost Spé. +3 {{value}}",
+        "ABBR": "Capa. Off. Spé. Boost Spé. +3 {{value}}",
         "DESC": "{{chance}} % de chances d'augmenter l'effet Prochain boost capacité spéciale du lanceur de 3 rangs quand il utilise avec succès sa capacité spéciale."
       },
       "1812560": {
         "NAME": "Intro Tyran Attaque Attaque Spéciale {{value}}",
-        "ABBR": "Intro Tyran Attaque Attaque Spéciale {{value}}",
+        "ABBR": "Intro Tyran Atq. Atq. Spé. {{value}}",
         "DESC": "Baisse l'Attaque et l'Atq. Spé. de tous les Duos ennemis de {{value}} rang la première fois que le lanceur arrive au combat à chaque combat."
       },
       "1812570": {
         "NAME": "Capacité Offensive Attaque Spéciale 2↓ {{value}}",
-        "ABBR": "Capacité Offensive Attaque Spéciale 2↓ {{value}}",
+        "ABBR": "Capa. Off. Attaque Spéciale 2↓ {{value}}",
         "DESC": "{{chance}} % de chances de baisser l'Atq. Spé. de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive contre elle."
       },
       "1812580": {
         "NAME": "Capacité Offensive Défense Vitesse ↓ {{value}}",
-        "ABBR": "Capacité Offensive Défense Vitesse ↓ {{value}}",
+        "ABBR": "Capa. Off. Défense Vitesse ↓ {{value}}",
         "DESC": "{{chance}} % de chances de baisser la Défense et la Vitesse de la cible de 1 rang quand le lanceur utilise avec succès une capacité offensive contre elle."
       },
       "1812610": {
@@ -20138,7 +20138,7 @@
       },
       "1905950": {
         "NAME": "Ennemi Aire Dégâts Roche Prolongée {{value}}",
-        "ABBR": "Ennemi Aire Dégâts Roche Prolongée {{value}}",
+        "ABBR": "Ennemi Aire Dég. Roche Prolongée {{value}}",
         "DESC": "L'Aire Dégâts Roche dure plus longtemps quand l'Aire Dégâts Roche est appliquée au côté ennemi."
       },
       "1905960": {

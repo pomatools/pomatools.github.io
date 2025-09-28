@@ -11984,7 +11984,7 @@
       "1101590": {
         "NAME": "Superdaño Fatiga Consume Baya y Curativo +{{value}}",
         "ABBR": "Superdaño Fatiga Consume Baya y Cura {{value}}",
-        "DESC": "Reduce en {{value}} los PM de los movimientos del usuario que tienen el efecto Baya y recupera aproximadamente un {{value}}0% de sus PS máximos cuando sus PS se quedan a la mitad o menos tras ser golpeado con un movimiento de ataque o movimiento compi."
+        "DESC": "Reduce en 1 los PM de los movimientos del usuario que tienen el efecto Baya y recupera aproximadamente un {{heal}}% de sus PS máximos cuando sus PS se quedan a la mitad o menos tras ser golpeado con un movimiento de ataque o movimiento compi."
       },
       "1201010": {
         "NAME": "Velocidad Pluvial +{{value}}",
@@ -16594,12 +16594,12 @@
       "1708980": {
         "NAME": "Entrada Siguiente Físico Especial ↑ M +{{value}}",
         "ABBR": "Entrada Sig.Fís.Esp. M ↑+{{value}}",
-        "DESC": "Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel cuando el usuario entra en combate."
+        "DESC": "Aumenta el efecto Siguiente Físico ↑ y el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel(es) cuando el usuario entra en combate."
       },
       "1708990": {
         "NAME": "Activa Círculo de Passio (Defensivo) Sig. Esp. ↑ M +{{value}}",
         "ABBR": "Activa C.Passio (Def) Sig.Esp. M ↑+{{value}}",
-        "DESC": "Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel cuando el usuario aplica Círculo de Passio (Defensivo) al bando aliado."
+        "DESC": "Aumenta el efecto Siguiente Especial ↑ de todos los compis aliados en {{value}} nivel(es) cuando el usuario aplica Círculo de Passio (Defensivo) al bando aliado."
       },
       "1801010": {
         "NAME": "Resistencia Ataque ↓ +{{value}}",
@@ -19039,12 +19039,12 @@
       "1812430": {
         "NAME": "1.ª vez Activa Campo Daño Roca Ataque ↑ +{{value}}",
         "ABBR": "1.ª vez Activa C.D. Roca Atq. ↑ {{value}}",
-        "DESC": "Aumenta el Ataque del usuario en {{value}} nivel la primera vez que aplica Campo Daño Roca al bando rival en cada combate."
+        "DESC": "Aumenta el Ataque del usuario en {{value}} nivel(es) la primera vez que aplica Campo Daño Roca al bando rival en cada combate."
       },
       "1812440": {
         "NAME": "1.ª vez Activa Campo Daño Roca Críticos ↑ +{{value}}",
         "ABBR": "1.ª vez Activa C.D. Roca Críticos ↑ {{value}}",
-        "DESC": "Aumenta la probabilidad de asestar golpes críticos del usuario en {{value}} nivel la primera vez que aplica Campo Daño Roca al bando rival en cada combate."
+        "DESC": "Aumenta la probabilidad de asestar golpes críticos del usuario en {{value}} nivel(es) la primera vez que aplica Campo Daño Roca al bando rival en cada combate."
       },
       "1812450": {
         "NAME": "Ataque Rival Campo Daño Roca Caract. ↓↓ +{{value}}",
@@ -19094,7 +19094,7 @@
       "1812560": {
         "NAME": "1.ª Entrada Ofensiva Rival M ↓ +{{value}}",
         "ABBR": "1.ª Entrada Ofensiva Riv. M ↓ {{value}}",
-        "DESC": "Reduce el Ataque y el Ataque Especial de todos los compis rivales en {{value}} nivel cuando el usuario entra en combate por primera vez en cada combate."
+        "DESC": "Reduce el Ataque y el Ataque Especial de todos los compis rivales en {{value}} nivel(es) cuando el usuario entra en combate por primera vez en cada combate."
       },
       "1812570": {
         "NAME": "Ataque Ataque Especial ↓↓ +{{value}}",
@@ -19109,7 +19109,7 @@
       "1812610": {
         "NAME": "1.ª Entrada Críticos ↑ +{{value}}",
         "ABBR": "1.ª Entrada Críticos ↑ {{value}}",
-        "DESC": "Aumenta la probabilidad de asestar golpes críticos del usuario en {{value}} nivel al entrar en combate por primera vez en cada combate."
+        "DESC": "Aumenta la probabilidad de asestar golpes críticos del usuario en {{value}} nivel(es) al entrar en combate por primera vez en cada combate."
       },
       "1901010": {
         "NAME": "Ataque Penetrante",

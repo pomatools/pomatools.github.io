@@ -11984,7 +11984,7 @@
       "1101590": {
         "NAME": "P-Att./GA-Gegentr.-Halb-KP-Beere-AEP↓+Heilung {{value}}",
         "ABBR": "P Att./GA Gegentr. Halb KP Beere AEP↓+Heilung {{value}}",
-        "DESC": "Reduziert die Attackeneinsatzpunkte (AEP) der Attacken des Anwenders, die über den Zusatzeffekt Beere verfügen, um {{value}} und stellt seine KP um etwa {{value}}0 % seiner maximalen KP wieder her, wenn seine KP auf oder unter der Hälfte liegen, nachdem er von einem Angriff mit einer Attacke oder Gefährtenattacke getroffen wurde."
+        "DESC": "Reduziert die Attackeneinsatzpunkte (AEP) der Attacken des Anwenders, die über den Zusatzeffekt Beere verfügen, um 1 und stellt seine KP um etwa {{value}}0 % seiner maximalen KP wieder her, wenn seine KP auf oder unter der Hälfte liegen, nachdem er von einem Angriff mit einer Attacke oder Gefährtenattacke getroffen wurde."
       },
       "1201010": {
         "NAME": "Regen-Leiste↑ {{value}}",
