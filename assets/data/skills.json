@@ -11753,12 +11753,12 @@
         "trigger": "SYNC",
         "times": "",
         "conditions": [],
-        "type": "",
+        "type": "BUFF",
         "applies": "SYNC",
         "effect": "",
         "affects": "",
         "attribute": "",
-        "spec": ""
+        "spec": "SIMPLE"
     },
     "1708320": {
         "trigger": "",

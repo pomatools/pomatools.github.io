@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1759468362649,
+  "timestamp": 1759770755969,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/154.bbb71aca10513f85.js",
         "/168.90a3e570e9b82d77.js",
-        "/201.19d71222a3043d17.js",
+        "/201.da60cfcbfbb07378.js",
         "/205.7afcd7d49edaec29.js",
         "/247.ec130dcaa4ba55a4.js",
         "/253.d6b792ae6577bc48.js",
@@ -27,15 +27,15 @@
         "/766.b427c214b8d4c6b6.js",
         "/793.a3dd609a2883287a.js",
         "/804.09123a0cb4fdc1e3.js",
-        "/815.a301bd56b59a241e.js",
+        "/815.d593de72ea90eb3d.js",
         "/845.ffd241feccdef441.js",
         "/939.95bc531595fe49f0.js",
         "/favicon.ico",
         "/index.html",
-        "/main.8a13732fbe6f6ba0.js",
+        "/main.146a28297c3832e7.js",
         "/manifest.webmanifest",
         "/polyfills.a402040b2e0938e4.js",
-        "/runtime.764c7d48cfecdf07.js",
+        "/runtime.e4d45f061fefbbb8.js",
         "/styles.18ea283000b0c22d.css"
       ],
       "patterns": []
@@ -2405,7 +2405,7 @@
   "hashTable": {
     "/154.bbb71aca10513f85.js": "d6f9a89ebc1e78c1a2db9a52b9527c7c06f3510b",
     "/168.90a3e570e9b82d77.js": "64bd8e159b789cdb9fe1994ab1ae4e69cd19923d",
-    "/201.19d71222a3043d17.js": "66e54aae691f29a7f9bfecbf3e3c7f3694872313",
+    "/201.da60cfcbfbb07378.js": "f42ce9072e65c51a23eb6f6d35762e3bf8f4402d",
     "/205.7afcd7d49edaec29.js": "223642f789448a5eeb9e30b61bbda5e8050f2c8e",
     "/247.ec130dcaa4ba55a4.js": "a3ae989119f28af8e7dd701e1737e4f19827f713",
     "/253.d6b792ae6577bc48.js": "3699201f70b610d896e31e28fd518a7643cab2a5",
@@ -2419,7 +2419,7 @@
     "/766.b427c214b8d4c6b6.js": "43ab34a1b3a6db4830043abbd286cdbe28687470",
     "/793.a3dd609a2883287a.js": "b3e5e2bb8b14fcac138f946d17b7d39ba835c583",
     "/804.09123a0cb4fdc1e3.js": "994a6b417c2982dcb45b744fc037c729cd9b1077",
-    "/815.a301bd56b59a241e.js": "c45ad42cef7cdcf7a67ff785629a34bd8f0a4897",
+    "/815.d593de72ea90eb3d.js": "64d3f8247efc2bdd2f0a9b30bc1f948c09070567",
     "/845.ffd241feccdef441.js": "a46d6657fc830e74467d5a5559e5cfe966c07cd6",
     "/939.95bc531595fe49f0.js": "a3f3754d8fa420549e853b7937f3102fa2834c67",
     "/assets/data/battlerally.json": "67fc030bf04ad2a4281b630f9ae821153fcc8359",
@@ -2427,11 +2427,11 @@
     "/assets/data/customlucky.json": "c215a0da67b470af7f78b7d884a9c508abf333e8",
     "/assets/data/eggs.json": "5cd61927bd0336534f85a879fea6c21f750321e2",
     "/assets/data/lucky.json": "9d45a3d7ffa57737f258328b6758cae27824d507",
-    "/assets/data/moves.json": "9591c55fda7b5c902e1719dc889a1bf96db05949",
+    "/assets/data/moves.json": "4098a01e8e6fb0b7bfb16e8237c68fd336e887d6",
     "/assets/data/moveskills.json": "2470c1b74af2c7c0e7a9d0d2afbf1a0c4071bae3",
     "/assets/data/pairgrids.json": "47fb880431384d408c671dfe0df47e35598e7fca",
     "/assets/data/pairs.json": "2779f0fe068e7729900867a9d72136789934c1d7",
-    "/assets/data/skills.json": "acdf4e36a42e7b2de3da9c489cc4dee1c8b2dc9d",
+    "/assets/data/skills.json": "7f18cd53978da16cc1f12a1d63774bc8a2492401",
     "/assets/data/trainerslodge.json": "6910a2686010d887dd278b8e54496feca2c3e71f",
     "/assets/fonts/SourceHanSansTC-Bold.otf": "0ea6fc3f603b7e4bd6c20c35d7b6b72cbb51353f",
     "/assets/fonts/SourceHanSansTC-Medium.otf": "c6ce9a93b60d155438d1b4555899133eeb1760fe",
@@ -4772,11 +4772,11 @@
     "/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
     "/fa-solid-900.40ddefd79fe7af45.woff2": "2717f3f58271f2f2e6120d9937c7227002656d34",
     "/favicon.ico": "bde24ab5ee5a7b66902f6b8aadac944671cea10a",
-    "/index.html": "79a4b815bfa71a21241add6ff382fb73d40f7dd1",
-    "/main.8a13732fbe6f6ba0.js": "87fcac66fc6e22165a635ab89f88b7e0336fdcd2",
+    "/index.html": "c0fa50164524c66127bd2a80a01d29adb86a9c43",
+    "/main.146a28297c3832e7.js": "e7db67c00196b11e26fe505f99a0615effe6c14b",
     "/manifest.webmanifest": "feeb74972c76d307fa17102d69de773d03f2e2be",
     "/polyfills.a402040b2e0938e4.js": "9b26c1d105f9ffe8cc6b64216eb7657ac83b7292",
-    "/runtime.764c7d48cfecdf07.js": "e60326d117024ec4ae4530770f067b595ec4e68d",
+    "/runtime.e4d45f061fefbbb8.js": "388b25f83d354253633120f413818fb442aee1ea",
     "/styles.18ea283000b0c22d.css": "5ee731b37c72db8054101ca8dafb014303109206"
   },
   "navigationUrls": [

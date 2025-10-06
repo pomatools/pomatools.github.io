@@ -7772,7 +7772,7 @@
         "accuracy": 100,
         "target": "TARG_036",
         "powerup": [],
-        "tags": ""
+        "tags": "NO_AOE"
     },
     "6153": {
         "type": "TYPE_007",
