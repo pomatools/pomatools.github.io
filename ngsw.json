@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1762825854586,
+  "timestamp": 1762984937941,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -19,7 +19,7 @@
         "/253.bd5ba1fab3c01833.js",
         "/268.a024632683c94e60.js",
         "/293.fa2884e1be03557c.js",
-        "/301.a53b004bcebab90f.js",
+        "/301.89820e295e07746c.js",
         "/42.f03102cb7b326b0d.js",
         "/463.caf38cdb11c261d3.js",
         "/502.9c377325220e1efb.js",
@@ -35,7 +35,7 @@
         "/main.fd555ef6cd6d65d7.js",
         "/manifest.webmanifest",
         "/polyfills.a402040b2e0938e4.js",
-        "/runtime.3d5281a17acec543.js",
+        "/runtime.11de5f3683f78a6c.js",
         "/styles.18ea283000b0c22d.css"
       ],
       "patterns": []
@@ -2428,7 +2428,7 @@
     "/253.bd5ba1fab3c01833.js": "7ecccd73f4539198a16cc6fcbe4b14a97f07221a",
     "/268.a024632683c94e60.js": "a39b264fdfc59b5391c34677296a0d99d9aed277",
     "/293.fa2884e1be03557c.js": "e93a835b4983ced2ac584d53e9ae2ed8424147b6",
-    "/301.a53b004bcebab90f.js": "5fefd28b4809d6b3b15453927d7831e995bf4c3c",
+    "/301.89820e295e07746c.js": "ccce21b856099b7d574d2453e102a63fbbc7ce0c",
     "/42.f03102cb7b326b0d.js": "652c7d4aae553ac8390c4cf5212347a2eaa18f0c",
     "/463.caf38cdb11c261d3.js": "fecf47647c841e3fe958b55866898d5df5574636",
     "/502.9c377325220e1efb.js": "4475977e52d7a61cce1b4f0a76742cba06b8bf8c",
@@ -2446,7 +2446,7 @@
     "/assets/data/lucky.json": "9d45a3d7ffa57737f258328b6758cae27824d507",
     "/assets/data/moves.json": "46de48d8248dd3fa455457f5157845d414449999",
     "/assets/data/moveskills.json": "bd54fa340e63a70a0e923d83e73bdd9c0a7de85d",
-    "/assets/data/pairgrids.json": "29ffea537b8e296700906684c57b70c5793143d5",
+    "/assets/data/pairgrids.json": "78593ec31bfe19d54e60a4fc8c6810bd89885938",
     "/assets/data/pairs.json": "bbcdbb1a5811691a6e7030a44d5a684fa3f08405",
     "/assets/data/skills.json": "3e43d620820254597e0ceda7853421ebe99f2d88",
     "/assets/data/trainerslodge.json": "1f06c1d2853b5c07d54bf1d5284bc10b8cdaaa43",
@@ -4806,11 +4806,11 @@
     "/fa-solid-900.3a463ec33b4fe9f7.ttf": "9225d6cb428fce41704cab29b8bb43b76c67f8b4",
     "/fa-solid-900.40ddefd79fe7af45.woff2": "2717f3f58271f2f2e6120d9937c7227002656d34",
     "/favicon.ico": "bde24ab5ee5a7b66902f6b8aadac944671cea10a",
-    "/index.html": "41f1cb150220160a0c4c541f2df8d389d188bbef",
+    "/index.html": "313e6fbfd271aa336c313b797a95eb7e35bfc635",
     "/main.fd555ef6cd6d65d7.js": "52a5af86ee8946321f5cffc5d406884a0c27a2c2",
     "/manifest.webmanifest": "feeb74972c76d307fa17102d69de773d03f2e2be",
     "/polyfills.a402040b2e0938e4.js": "9b26c1d105f9ffe8cc6b64216eb7657ac83b7292",
-    "/runtime.3d5281a17acec543.js": "bc49ed7efcb780a81d958e0ac96de6b529db2630",
+    "/runtime.11de5f3683f78a6c.js": "0be4fe688f92dd8bdbafb566fc83bfd815548d07",
     "/styles.18ea283000b0c22d.css": "5ee731b37c72db8054101ca8dafb014303109206"
   },
   "navigationUrls": [
