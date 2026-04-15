@@ -181,6 +181,7 @@
       "PIROUETTE": "Forma Canto",
       "ZEN": "Stato Zen",
       "PRML": "Archeorisveglio",
+      "TERA": "Teracristal",
       "TERA_01": "Teratipo Normale",
       "TERA_02": "Teratipo Fuoco",
       "TERA_03": "Teratipo Acqua",
@@ -198,7 +199,10 @@
       "TERA_15": "Teratipo Drago",
       "TERA_16": "Teratipo Buio",
       "TERA_17": "Teratipo Acciaio",
-      "TERA_18": "Teratipo Folletto"
+      "TERA_18": "Teratipo Folletto",
+      "TERA_99": "Teratipo Astrale",
+      "PRETHUNDER": "Prima di Tuono originale",
+      "POSTHUNDER": "Dopo Tuono originale"
     },
     "TYPES": {
       "TYPE_001": "Normale",
@@ -220,7 +224,8 @@
       "TYPE_017": "Acciaio",
       "TYPE_018": "Folletto",
       "TYPE_019": "Oggetti",
-      "TYPE_000": "Allenatore"
+      "TYPE_000": "Allenatore",
+      "TYPE_099": "Astrale"
     },
     "BOOSTS": {
       "1": "Zona Normale",
@@ -711,7 +716,9 @@
       "009800": "Krabby",
       "009900": "Kingler",
       "010000": "Voltorb",
+      "010001": "Voltorb di Hisui",
       "010100": "Electrode",
+      "010101": "Electrode di Hisui",
       "010200": "Exeggcute",
       "010300": "Exeggutor",
       "010301": "Exeggutor di Alola",
@@ -815,6 +822,7 @@
       "018300": "Marill",
       "018400": "Azumarill",
       "018500": "Sudowoodo",
+      "018555": "Sudowoodo",
       "018600": "Politoed",
       "018700": "Hoppip",
       "018800": "Skiploom",
@@ -825,6 +833,7 @@
       "019300": "Yanma",
       "019400": "Wooper",
       "019500": "Quagsire",
+      "019501": "Quagsire ★",
       "019600": "Espeon",
       "019700": "Umbreon",
       "019800": "Murkrow",
@@ -845,12 +854,14 @@
       "020900": "Snubbull",
       "021000": "Granbull",
       "021100": "Qwilfish",
+      "021101": "Qwilfish di Hisui",
       "021200": "Scizor",
       "021201": "Mega Scizor",
       "021300": "Shuckle",
       "021400": "Heracross",
       "021401": "Mega Heracross",
       "021500": "Sneasel",
+      "021501": "Sneasel di Hisui",
       "021600": "Teddiursa",
       "021700": "Ursaring",
       "021800": "Slugma",
@@ -1394,6 +1405,9 @@
       "064600": "Kyurem",
       "064601": "Kyurem Bianco",
       "064602": "Kyurem Nero",
+      "064603": "Kyurem ★",
+      "064604": "Kyurem Bianco ★",
+      "064605": "Kyurem Nero ★",
       "064700": "Keldeo",
       "064701": "Keldeo Forma Risoluta",
       "064800": "Meloetta Forma Canto",
@@ -1471,12 +1485,15 @@
       "069800": "Amaura",
       "069900": "Aurorus",
       "070000": "Sylveon",
+      "070001": "Sylveon ★",
       "070100": "Hawlucha",
       "070200": "Dedenne",
       "070300": "Carbink",
       "070400": "Goomy",
       "070500": "Sliggoo",
+      "070501": "Sliggoo di Hisui",
       "070600": "Goodra",
+      "070601": "Goodra di Hisui",
       "070700": "Klefki",
       "070800": "Phantump",
       "070900": "Trevenant",
@@ -1484,6 +1501,7 @@
       "071100": "Gourgeist",
       "071200": "Bergmite",
       "071300": "Avalugg",
+      "071301": "Avalugg di Hisui",
       "071400": "Noibat",
       "071500": "Noivern",
       "071600": "Xerneas",
@@ -1826,6 +1844,8 @@
       "094000": "Wattrel",
       "094100": "Kilowattrel",
       "094300": "Mabosstiff",
+      "095100": "Capsakid",
+      "095200": "Scovillain",
       "095300": "Rellor",
       "095301": "Rellor ★",
       "095900": "Tinkaton",
@@ -1834,6 +1854,9 @@
       "097000": "Glimmora",
       "097300": "Flamigo",
       "097500": "Cetitan",
+      "097700": "Dondozo",
+      "097701": "Dondozo ★",
+      "097783": "Dondozo ★ Teratipo Drago",
       "097900": "Annihilape",
       "098000": "Clodsire",
       "098100": "Farigiraf",
@@ -1841,17 +1864,28 @@
       "098300": "Kingambit",
       "098500": "Codaurlante",
       "098700": "Crinealato",
+      "099800": "Baxcalibur",
       "099900": "Gimmighoul Forma Scrigno",
       "099901": "Gimmighoul Forma Ambulante",
       "100000": "Gholdengo",
       "100600": "Eroeferreo",
       "100700": "Koraidon",
       "100800": "Miraidon",
+      "101000": "Fogliaferrea",
       "101300": "Sinistcha",
       "101354": "Sinistcha (teratipo Erba)",
+      "101700": "Ogerpon",
+      "101701": "Ogerpon Maschera Turchese",
+      "101702": "Ogerpon Maschera Pozzo",
+      "101703": "Ogerpon Maschera Focolare",
+      "101704": "Ogerpon Maschera Fondamenta",
       "101900": "Hydrapple",
       "101957": "Hydrapple Teratipo Lotta",
-      "102100": "Furiatonante"
+      "102100": "Furiatonante",
+      "102400": "Terapagos",
+      "102401": "Terapagos Forma Teracristal",
+      "102402": "Terapagos Forma Astrale",
+      "102500": "Pecharunt"
     },
     "CHAR": {
       "000000": "Rosso",
@@ -1870,6 +1904,7 @@
       "000401": "Anita (speciale)",
       "000402": "Anita (feste 2022)",
       "000403": "Anita Costumax",
+      "000404": "Anita (Campionessa)",
       "000500": "Lorelei",
       "000600": "Vulcano",
       "000700": "Malpi",
@@ -1886,11 +1921,13 @@
       "001101": "Velia Costumax",
       "001200": "Ornella",
       "001201": "Ornella Costumax",
+      "001202": "Ornella Arcicostume",
       "001300": "Hapi",
       "001400": "Komor",
       "001401": "Komor (Campione)",
       "001500": "Brock",
       "001501": "Brock Costumax",
+      "001502": "Brock Arcicostume",
       "001600": "Anemone",
       "001601": "Anemone (feste 2020)",
       "001602": "Anemone (2,5 anni)",
@@ -1900,6 +1937,7 @@
       "001701": "Leaf (Campionessa)",
       "001800": "Kristy",
       "001801": "Kristy Costumax",
+      "001802": "Kristy (accademia)",
       "001900": "Brendon",
       "001901": "Brendon Costumax",
       "001902": "Brendon (Campione)",
@@ -1907,6 +1945,7 @@
       "002000": "Alcide",
       "002040": "Alcide (feste 2020)",
       "002001": "Alcide Costumax",
+      "002002": "Alcide (Campione)",
       "002100": "Blu",
       "002101": "Blu Costumax",
       "002102": "Blu (classico)",
@@ -2052,6 +2091,7 @@
       "011000": "Misty",
       "011001": "Misty (costume)",
       "011002": "Misty Costumax",
+      "011003": "Misty Arcicostume",
       "011100": "Lance",
       "011101": "Lance (feste 2021)",
       "011102": "Lance Arcicostume",
@@ -2064,6 +2104,7 @@
       "011303": "Jasmine (accademia)",
       "011400": "Sabrina",
       "011401": "Sabrina (feste 2022)",
+      "011402": "Sabrina Arcicostume",
       "011500": "Corrado",
       "011501": "Corrado (feste 2022)",
       "011600": "Lucinda",
@@ -2159,6 +2200,7 @@
       "015900": "Paride",
       "016000": "Suiren",
       "016001": "Suiren Costumax",
+      "016002": "Suiren (feste 2026)",
       "016100": "Hala",
       "016200": "Lucas",
       "016900": "Aloé",
@@ -2225,9 +2267,11 @@
       "024502": "Mary (feste 2022)",
       "024503": "Mary (Campionessa)",
       "024504": "Mary (accademia)",
+      "024505": "Mary (alternativo)",
       "024600": "Beet",
       "024601": "Beet (Campione)",
       "024602": "Beet Costumax",
+      "024603": "Beet (alternativo)",
       "024700": "Dandel",
       "024701": "Dandel Costumax",
       "024702": "Dandel (feste 2021)",
@@ -2251,6 +2295,7 @@
       "025702": "Laburno (feste 2025)",
       "025900": "Sonia",
       "025901": "Sonia (speciale)",
+      "025902": "Sonia (accademia)",
       "026200": "Rose",
       "026300": "Olive",
       "026400": "Ash",
@@ -2259,13 +2304,17 @@
       "027300": "Savory",
       "027900": "Chase",
       "028200": "Ballino",
+      "028201": "Ballino Costumax",
       "028400": "Damon",
       "028401": "Damon (speciale)",
+      "028402": "Damon (feste 2026)",
       "028500": "Perula",
       "028501": "Perula (speciale)",
       "028502": "Perula (anniversario 2025)",
       "028600": "Florian",
+      "028601": "Florian (anniversario 2026)",
       "028700": "Juliana",
+      "028701": "Juliana (anniversario 2026)",
       "028900": "Nemi",
       "028901": "Nemi Costumax",
       "029000": "Luca",
@@ -2282,6 +2331,7 @@
       "030000": "Malicia",
       "030100": "Fantasilvestro",
       "030200": "Capsi",
+      "030201": "Capsi (feste 2026)",
       "030300": "Verina",
       "030301": "Verina (feste 2025)",
       "030400": "Ubaldo",
@@ -2289,6 +2339,7 @@
       "031100": "Riza",
       "031200": "Maru",
       "031700": "Pepe",
+      "031701": "Pepe (feste 2025)",
       "031800": "Clavel",
       "031801": "Clavel (alternativo)",
       "032000": "Pruna",
@@ -2296,16 +2347,23 @@
       "032800": "Henzo",
       "032900": "Ortiz",
       "033000": "Nespera",
+      "033200": "Aceria",
+      "033500": "Oranzio",
       "033600": "Mimosa",
+      "033700": "Brassius",
       "033800": "Litha",
+      "033801": "Litha (accademia)",
       "035100": "Selene (Ragazza in kimono)",
       "035200": "Rupi",
       "035201": "Rupi (feste 2025)",
       "035600": "Rubra",
+      "035601": "Rubra Costumax",
       "035700": "Riben",
       "035800": "Garoff",
       "035900": "Ethelo (alternativo)",
+      "036300": "Asami (Ragazza in kimono)",
       "036400": "Oreste (Montanaro)",
+      "036500": "Rosso (1996)",
       "050200": "Recluta del Team Idro",
       "050300": "Recluta del Team Idro",
       "051600": "Fondazione Æther",
@@ -3650,6 +3708,11 @@
         "ABBR": "Elettrogelo",
         "DESC": "Chi la usa entra in uno stato di attesa per potere attaccare. Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Ha una certa probabilità (30%) di paralizzare il bersaglio. Mentre lo stato di attesa per potere attaccare è attivo, chi la usa non può fare altre azioni."
       },
+      "554": {
+        "NAME": "Vampagelida",
+        "ABBR": "Vampagelida",
+        "DESC": "Chi la usa entra in uno stato di attesa per potere attaccare. Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Ha una certa probabilità (30%) di scottare il bersaglio. Mentre lo stato di attesa per potere attaccare è attivo, chi la usa non può fare altre azioni."
+      },
       "555": {
         "NAME": "Urlorabbia",
         "ABBR": "Urlorabbia",
@@ -3968,7 +4031,7 @@
       "720": {
         "NAME": "Sbalorditesta",
         "ABBR": "Sbalorditesta",
-        "DESC": "Chi la usa subisce una quantità di danni pari al 50% dei suoi PS massimi. I danni vengono subiti anche quando l'attacco fallisce."
+        "DESC": "Chi la usa subisce una quantità di danni pari a una certa percentuale (50%) dei suoi PS massimi. I danni vengono subiti anche quando l'attacco fallisce."
       },
       "744": {
         "NAME": "Cannone Dynamax",
@@ -4045,6 +4108,11 @@
         "ABBR": "Sbarram.",
         "DESC": "Chi la usa entra in uno stato di difesa. Se questa mossa viene usata di nuovo, lo stato di difesa di chi la usa termina. Finché chi la usa è in stato di difesa, non può fare altre azioni. L'attacco semplice che bersaglia chi la usa mentre è in uno stato di difesa viene neutralizzato. Poi, lo stato di difesa si interrompe. Se subisce un attacco semplice fisico, la Difesa del bersaglio che l'ha sferrato viene ridotta di 2 gradi."
       },
+      "793": {
+        "NAME": "Supplicolpo",
+        "ABBR": "Supplicolpo",
+        "DESC": "Va sempre a segno."
+      },
       "794": {
         "NAME": "Sfolgorassalto",
         "ABBR": "Sfolgor.",
@@ -4053,7 +4121,7 @@
       "796": {
         "NAME": "Raggio d'Acciaio",
         "ABBR": "Raggio d'Acciaio",
-        "DESC": "Chi la usa subisce una quantità di danni pari al 50% dei suoi PS massimi. I danni vengono subiti anche quando l'attacco fallisce."
+        "DESC": "Chi la usa subisce una quantità di danni pari a una certa percentuale (50%) dei suoi PS massimi. I danni vengono subiti anche quando l'attacco fallisce."
       },
       "799": {
         "NAME": "Squamacolpo",
@@ -4105,6 +4173,11 @@
         "ABBR": "Inquietant.",
         "DESC": "Non ha effetti aggiuntivi."
       },
+      "835": {
+        "NAME": "Clorofillaser",
+        "ABBR": "Clorofillaser",
+        "DESC": "Chi la usa subisce una quantità di danni pari a una certa percentuale (50%) dei suoi PS massimi."
+      },
       "837": {
         "NAME": "Danzavittoria",
         "ABBR": "Danzavittoria",
@@ -4155,6 +4228,16 @@
         "ABBR": "Tempesta Ardente",
         "DESC": "Va sempre a segno quando piove. Ha una certa probabilità (20%) di scottare il bersaglio."
       },
+      "856": {
+        "NAME": "Alta Cucina",
+        "ABBR": "Alta Cucina",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "862": {
+        "NAME": "Spadoncarica",
+        "ABBR": "Spadoncarica",
+        "DESC": "Applica l'effetto \"Aumento danni fisici\" e l'effetto \"Aumento danni speciali\" a chi la usa."
+      },
       "866": {
         "NAME": "Glitturbine",
         "ABBR": "Glitturbine",
@@ -4174,6 +4257,11 @@
         "NAME": "Corsa all'Oro",
         "ABBR": "Corsa all'Oro",
         "DESC": "Riduce l'Attacco Speciale di chi la usa di 1 grado."
+      },
+      "875": {
+        "NAME": "Psicolama",
+        "ABBR": "Psicolama",
+        "DESC": "Questo attacco aumenta di potenza del 50% quando il campo di lotta è un Campo Elettrico."
       },
       "878": {
         "NAME": "Turboschianto",
@@ -4210,10 +4298,25 @@
         "ABBR": "Spruzzatè",
         "DESC": "Chi la usa guarisce dal congelamento. Ha una certa probabilità (20%) di scottare il bersaglio. Aumenta il recupero di PS di chi la usa in proporzione al danno inferto al bersaglio."
       },
+      "904": {
+        "NAME": "Clava di Liane",
+        "ABBR": "Clava di Liane",
+        "DESC": "Probabile brutto colpo."
+      },
+      "906": {
+        "NAME": "Teracluster",
+        "ABBR": "Teracluster",
+        "DESC": "Gli effetti delle mosse di chi la usa cambiano con quelli di seguito quando è in Forma Astrale. Questa mossa diventa di tipo Astrale. La potenza di questo attacco diventa il doppio di quando chi la usa è in Forma Normale o Forma Teracristal. Tutte le Unità avversarie diventano il bersaglio."
+      },
       "909": {
         "NAME": "Saetta",
         "ABBR": "Saetta",
         "DESC": "Non ha effetti aggiuntivi."
+      },
+      "919": {
+        "NAME": "Intossicatena",
+        "ABBR": "Intossicatena",
+        "DESC": "Ha una certa probabilità (50%) di iperavvelenare il bersaglio."
       },
       "4041": {
         "NAME": "Terascoppio: topazio",
@@ -4250,10 +4353,40 @@
         "ABBR": "Teras: ametrino",
         "DESC": "Brutto colpo quando l'attacco va a segno, salvo casi particolari. Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 3 gradi."
       },
+      "4048": {
+        "NAME": "Terascoppio: dioptasio",
+        "ABBR": "Teras: dioptasio",
+        "DESC": "Va sempre a segno. Brutto colpo quando l'attacco va a segno, salvo casi particolari. Riduce la Difesa del bersaglio di 1 grado. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli."
+      },
+      "4049": {
+        "NAME": "Terascoppio: lazurite",
+        "ABBR": "Teras: lazurite",
+        "DESC": "Va sempre a segno. Conferisce l'effetto seguente 5 volte: Aumenta a caso di 1 grado una delle seguenti statistiche di tutte le Unità alleate: Attacco, Difesa, Attacco Speciale, Difesa Speciale, Velocità, precisione o elusione. Trasforma la zona in una Zona Drago la prima volta che questo attacco semplice va a segno in ogni lotta. (Una Zona Drago aumenta la potenza degli attacchi di tipo Drago.)"
+      },
+      "4050": {
+        "NAME": "Terascoppio: astrogemma",
+        "ABBR": "Teras: astrogemma",
+        "DESC": "Va sempre a segno. Fa tentennare il bersaglio. Applica l'effetto \"Aumento danni speciali\" sul bersaglio la prima volta che questo attacco semplice va a segno in ogni lotta. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa."
+      },
+      "4051": {
+        "NAME": "Terascoppio: diaspro verde",
+        "ABBR": "Teras: diaspro verde",
+        "DESC": "Va sempre a segno. Riduce la Difesa del bersaglio di 6 gradi. Applica l'effetto \"Aumento danni fisici\" sul bersaglio la prima volta che questo attacco semplice va a segno in ogni lotta. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli."
+      },
       "5000": {
         "NAME": "Fulmine",
         "ABBR": "Fulmine",
         "DESC": "Ha una certa probabilità (10%) di paralizzare il bersaglio."
+      },
+      "5001": {
+        "NAME": "Fulmine",
+        "ABBR": "Fulmine",
+        "DESC": "Ha una certa probabilità (10%) di paralizzare il bersaglio."
+      },
+      "5002": {
+        "NAME": "Tuono",
+        "ABBR": "Tuono",
+        "DESC": "Va sempre a segno quando piove. Ha una certa probabilità (30%) di paralizzare il bersaglio."
       },
       "6000": {
         "NAME": "Locomovolt originario",
@@ -5065,6 +5198,151 @@
         "ABBR": "Forza Equina infervorata",
         "DESC": "Condizione di attivazione: Quando l'Attacco di chi la usa viene aumentato.\nCondizione di disattivazione: Quando l'Attacco di chi la usa non viene aumentato.\n\nVa sempre a segno. Brutto colpo quando l'attacco va a segno, salvo casi particolari. Se gli utilizzi residui di Giornodisole di chi la usa sono pari o superiori a 1 quando si attacca con questa mossa, riduce tali utilizzi di 1 e conferisce tutti gli effetti seguenti: Intensifica i raggi solari. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 2 gradi."
       },
+      "6162": {
+        "NAME": "Vampagelida: zero assoluto",
+        "ABBR": "Vampagelida S",
+        "DESC": "Condizione di attivazione: Quando l'Unità nella tua squadra sferra un'Unimossa una volta.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nChi la usa entra in uno stato di attesa per potere attaccare. Se questa mossa viene usata di nuovo, lo stato di attesa termina e chi la usa attacca. Mentre lo stato di attesa per potere attaccare è attivo, chi la usa non può fare altre azioni. Quando l'effetto \"Prossima mossa speciale ↑\" di chi la usa viene aumentato, chi la usa non entra in uno stato di attesa ma attacca direttamente. Va sempre a segno. Scotta il bersaglio."
+      },
+      "6163": {
+        "NAME": "Psicolama smagliante",
+        "ABBR": "Psicolama S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Fa tentennare il bersaglio. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Questo attacco aumenta di potenza del 50% quando è applicato un Campo. Trasforma il campo di lotta in un Campo Elettrico quando il campo di lotta è un Campo Elettrico. Trasforma il campo di lotta in un Campo Erboso quando il campo di lotta è un Campo Erboso. Trasforma il campo di lotta in un Campo Psichico quando il campo di lotta è un Campo Psichico."
+      },
+      "6164": {
+        "NAME": "Intossicatena logorante",
+        "ABBR": "Intossicatena S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Iperavvelena il bersaglio. Confonde il bersaglio. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli."
+      },
+      "6165": {
+        "NAME": "Vampata superpiccante",
+        "ABBR": "Vampata S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nVa sempre a segno. Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate da 1 a 4 gradi in modo casuale. (L'aumento è lo stesso per tutte le Unità alleate.)"
+      },
+      "6166": {
+        "NAME": "Mazzuolegno duro",
+        "ABBR": "Mazzuolegno S",
+        "DESC": "Condizione di attivazione: Quando c'è almeno 1 Pokémon con una protezione dal tipo ridotta nel campo avversario.\nCondizione di disattivazione: Quando non ci sono più Pokémon con una protezione dal tipo ridotta nel campo avversario.\n\nVa sempre a segno. Applica l'effetto \"Aumento danni fisici\" sul bersaglio. Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 3 gradi."
+      },
+      "6167": {
+        "NAME": "Spadoncarica sul trono",
+        "ABBR": "Spadoncarica S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Applica l'effetto \"Resistenza a colpo micidiale\" a chi la usa. Applica l'effetto \"Aumento danni fisici\" e l'effetto \"Aumento danni speciali\" a chi la usa. Abbassa il numero di azioni necessarie a chi la usa per sferrare l'Unimossa in proporzione alla riduzione delle statistiche del bersaglio avversario attuale (da 0 a 4) la prima volta che questo attacco semplice va a segno in ogni lotta."
+      },
+      "6168": {
+        "NAME": "Clorofillaser sincronizzato",
+        "ABBR": "Clorofillaser S",
+        "DESC": "Condizione di attivazione: Quando la Velocità di chi la usa viene aumentata.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Brutto colpo quando l'attacco va a segno, salvo casi particolari. Riduce la Difesa Speciale del bersaglio di 2 gradi. Trasforma il campo di lotta in un Campo Erboso EX la prima volta che questo attacco semplice va a segno in ogni lotta."
+      },
+      "6169": {
+        "NAME": "Alta Cucina: via al cenone",
+        "ABBR": "Alta Cucina S",
+        "DESC": "Condizione di attivazione: Quando chi la usa non è in difficoltà.\nCondizione di disattivazione: Quando chi la usa è in difficoltà.\n\nSe le statistiche di qualsiasi Unità alleata sono aumentate, quell'aumento viene raddoppiato. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi. Trasforma la zona in una Zona Drago la prima volta che questo attacco semplice va a segno in ogni lotta. (Una Zona Drago aumenta la potenza degli attacchi di tipo Drago.)"
+      },
+      "6170": {
+        "NAME": "Cucitura d'Ombra cauta e spettrale",
+        "ABBR": "Cucitura d'Ombra S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco di chi la usa viene aumentato.\nCondizione di disattivazione: Non si può disattivare.\n\nRiduce la Difesa del bersaglio di 1 grado. Applica l'effetto \"Sostituzione vietata\" sul bersaglio. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Se gli utilizzi residui di Volontà Spettro di chi la usa sono pari o superiori a 1 quando si attacca con questa mossa, riduce tali utilizzi di 1 e conferisce tutti gli effetti seguenti: Trasforma la zona in una Zona Spettro. (Una Zona Spettro aumenta la potenza degli attacchi di tipo Spettro.) Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi."
+      },
+      "6171": {
+        "NAME": "Lacerazione del re dei draghi",
+        "ABBR": "Lacerazione S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nProbabile brutto colpo. Riduce la Difesa del bersaglio di 2 gradi. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Se Charizard di chi la usa si megaevolve, aumenta anche l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi."
+      },
+      "6172": {
+        "NAME": "Frana dai cieli",
+        "ABBR": "Frana S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco di chi la usa viene aumentato.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Riduce la Difesa del bersaglio di 2 gradi. Ha una certa probabilità (30%) di far tentennare il bersaglio. La potenza e la probabilità di applicare effetti aggiuntivi di questa mossa non vengono ridotte anche se sono presenti molteplici bersagli. Aumenta la Difesa di chi la usa di 2 gradi."
+      },
+      "6173": {
+        "NAME": "Pietrataglio che sfonda i cieli",
+        "ABBR": "Pietrataglio S",
+        "DESC": "Condizione di attivazione: Quando la Difesa di chi la usa viene aumentata.\nCondizione di disattivazione: Quando la Difesa di chi la usa non viene aumentata.\n\nVa sempre a segno. Brutto colpo quando l'attacco va a segno, salvo casi particolari. Aumenta la potenza di questo attacco in proporzione all'aumento della Difesa di chi la usa. Riduce il numero di azioni necessarie a chi la usa per sferrare la sua Unimossa in proporzione all'aumento della Difesa di chi la usa, fino a un massimo di 3. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa in proporzione all'aumento della Difesa (l'aumento massimo è di 3 gradi). Rimuove tutti gli aumenti della Difesa di chi la usa."
+      },
+      "6174": {
+        "NAME": "Bollaraggio sublime",
+        "ABBR": "Bollaraggio S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Riduce la Difesa Speciale e la Velocità del bersaglio di 2 gradi."
+      },
+      "6175": {
+        "NAME": "Idropompa del flusso celeste",
+        "ABBR": "Idropompa S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Confonde il bersaglio. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli."
+      },
+      "6176": {
+        "NAME": "Carineria turchina",
+        "ABBR": "Carineria S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Quando questa mossa viene usata.\n\nVa sempre a segno. Ha una certa probabilità (10%) di ridurre l'Attacco del bersaglio di 1 grado. La potenza e la probabilità di applicare effetti aggiuntivi di questa mossa non vengono ridotte anche se sono presenti molteplici bersagli. Se gli utilizzi residui di Baccaprugna di chi la usa sono pari o superiori a 1 quando si attacca con questa mossa, riduce tali utilizzi di 1 e conferisce tutti gli effetti seguenti: Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi. Applica una Cerchia di Sinnoh (danni fisici) al campo alleato. Cerchia di Sinnoh (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Sinnoh\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
+      },
+      "6177": {
+        "NAME": "Geoforza dei dirupi",
+        "ABBR": "Geoforza S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Quando l'Attacco Speciale di chi la usa non aumenta.\n\nVa sempre a segno. Riduce la Difesa Speciale del bersaglio di 2 gradi. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa da 1 a 4 gradi in modo casuale. Inoltre, aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando il bersaglio è avvelenato o iperavvelenato."
+      },
+      "6178": {
+        "NAME": "Fulmine eterno",
+        "ABBR": "Fulmine S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Riduce la Velocità del bersaglio di 2 gradi. Ha una certa probabilità (30%) di far tentennare il bersaglio. Paralizza il bersaglio."
+      },
+      "6179": {
+        "NAME": "Tuono originale",
+        "ABBR": "Tuono S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Riduce la Difesa Speciale del bersaglio di 6 gradi. Paralizza il bersaglio. Trasforma il campo di lotta in un Campo Elettrico la prima volta che questo attacco semplice va a segno in ogni lotta. Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che questo attacco semplice va a segno in ogni lotta. Questa mossa cambia e diventa Tuono glorioso."
+      },
+      "6180": {
+        "NAME": "Tuono glorioso",
+        "ABBR": "Tuono G",
+        "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Paralizza il bersaglio."
+      },
+      "6181": {
+        "NAME": "Supplicolpo dispettoso",
+        "ABBR": "Supplicolpo S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Riduce la Difesa e la Difesa Speciale del bersaglio di 2 gradi. Se gli utilizzi residui di Superpiù di chi la usa sono pari o superiori a 1 quando si attacca con questa mossa, riduce tali utilizzi di 1 e conferisce tutti gli effetti seguenti: Applica l'effetto \"Prossimo superefficace ↑\" a tutte le Unità alleate. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi."
+      },
+      "6182": {
+        "NAME": "Calmamente idilliaco",
+        "ABBR": "Calmamente S",
+        "DESC": "Condizione di attivazione: Quando chi la usa non è in difficoltà.\nCondizione di disattivazione: Quando chi la usa è in difficoltà.\n\nTrasforma la zona in una Zona Folletto la prima volta che questa mossa viene utilizzata in ogni lotta. (Una Zona Folletto aumenta la potenza degli attacchi di tipo Folletto.) Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'Attacco, la Difesa, l'Attacco Speciale e la Difesa Speciale di tutte le Unità alleate di 2 gradi. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado."
+      },
+      "6183": {
+        "NAME": "Clava di Liane verdeggiante",
+        "ABBR": "Clava di Liane S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Brutto colpo quando l'attacco va a segno, salvo casi particolari. La potenza di questa mossa non viene ridotta anche se sono presenti molteplici bersagli. Aumenta la potenza di questo attacco in proporzione all'aumento della Protezione Erba di chi la usa. Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che questo attacco semplice va a segno in ogni lotta. Aumenta la Protezione Erba di chi la usa di 1 grado."
+      },
+      "6184": {
+        "NAME": "Teracluster multicolore",
+        "ABBR": "Teracluster S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Riduce la Protezione Normale del bersaglio di 3 gradi. Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Gli effetti delle mosse di chi la usa cambiano con quelli di seguito quando è in Forma Astrale. Questa mossa diventa di tipo Astrale. La potenza di questo attacco diventa il doppio di quando chi la usa è in Forma Normale o Forma Teracristal. Tutte le Unità avversarie diventano il bersaglio. Va sempre a segno. Riduce la Protezione Astrale del bersaglio di 3 gradi."
+      },
+      "6185": {
+        "NAME": "Sferapulsar onnipotente",
+        "ABBR": "Sferapulsar S",
+        "DESC": "Condizione di attivazione: Quando chi la usa non è in difficoltà.\nCondizione di disattivazione: Quando chi la usa è in difficoltà.\n\nVa sempre a segno. Riduce la Difesa Speciale del bersaglio di 2 gradi. Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi. Applica una Cerchia di Kalos (danni speciali) al campo alleato la prima volta che questo attacco semplice va a segno in ogni lotta. Cerchia di Kalos (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Kalos\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
+      },
+      "6186": {
+        "NAME": "Spaccaroccia: cieli sfondati",
+        "ABBR": "Spaccaroccia S",
+        "DESC": "Condizione di attivazione: Quando chi la usa non è in difficoltà.\nCondizione di disattivazione: Quando chi la usa è in difficoltà.\n\nRiduce la Difesa del bersaglio di 2 gradi. Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 2 gradi. Applica una Cerchia di Kalos (danni fisici) al campo alleato la prima volta che questo attacco semplice va a segno in ogni lotta. Cerchia di Kalos (danni fisici) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici fisici e delle Unimosse fisiche di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici fisici e Unimosse fisiche per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Kalos\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
+      },
+      "6187": {
+        "NAME": "Psicoraggio telepatico",
+        "ABBR": "Psicoraggio S",
+        "DESC": "Condizione di attivazione: Quando l'Attacco Speciale di chi la usa aumenta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Confonde il bersaglio. Riduce una statistica a caso del bersaglio (Attacco, Difesa, Attacco Speciale, Difesa Speciale, Velocità, precisione o elusione) di 1 grado per il seguente numero di volte: 2 volte a prescindere dallo stato del campo alleato, 4 volte in più quando al campo alleato viene applicato l'effetto \"Riduzione danni fisici\", 4 volte in più quando al campo alleato viene applicato l'effetto \"Riduzione danni speciali\"."
+      },
+      "6188": {
+        "NAME": "Psichico affine",
+        "ABBR": "Psichico S",
+        "DESC": "Condizione di attivazione: Quando l'Unità nella tua squadra sferra un'Unimossa una volta.\nCondizione di disattivazione: Non si può disattivare.\n\nVa sempre a segno. Aumenta la potenza di questo attacco in proporzione alla riduzione delle statistiche del bersaglio. Ha una certa probabilità (10%) di ridurre la Difesa Speciale del bersaglio di 1 grado. La potenza e la probabilità di applicare effetti aggiuntivi di questa mossa non vengono ridotte anche se sono presenti molteplici bersagli. Trasforma il campo di lotta in un Campo Psichico la prima volta che questo attacco semplice va a segno in ogni lotta."
+      },
+      "6189": {
+        "NAME": "Cozzata Zen sguardovigile",
+        "ABBR": "Cozzata Zen S",
+        "DESC": "Condizione di attivazione: Quando al campo alleato viene applicata una Cerchia.\nCondizione di disattivazione: Quando al campo alleato non è più applicata una Cerchia.\n\nVa sempre a segno. Fa tentennare il bersaglio. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 5 gradi."
+      },
+      "6190": {
+        "NAME": "Alacciaio plumbea",
+        "ABBR": "Alacciaio S",
+        "DESC": "Condizione di attivazione: Quando chi la usa sferra qualsiasi mossa una volta.\nCondizione di disattivazione: Non si può disattivare.\n\nTrasforma la zona in una Zona Acciaio. (Una Zona Acciaio aumenta la potenza degli attacchi di tipo Acciaio.) Aumenta la Difesa e la Difesa Speciale di tutte le Unità alleate di 2 gradi."
+      },
       "7000": {
         "NAME": "Gigarinnovamento",
         "ABBR": "Gigarinn.",
@@ -5190,6 +5468,11 @@
         "ABBR": "Dynadragone",
         "DESC": "Riduce l'Attacco di tutte le Unità avversarie di 2 gradi."
       },
+      "7038": {
+        "NAME": "Dynafata",
+        "ABBR": "Dynafata",
+        "DESC": "Trasforma la zona in una Zona Folletto. (Una Zona Folletto aumenta la potenza degli attacchi di tipo Folletto.)"
+      },
       "7039": {
         "NAME": "Dynabarriera",
         "ABBR": "Dynabarr.",
@@ -5264,6 +5547,11 @@
         "NAME": "Gigamillefiamme",
         "ABBR": "Gigamillefiamme",
         "DESC": "Imprigiona tutte le Unità avversarie."
+      },
+      "7054": {
+        "NAME": "Gigatorpore",
+        "ABBR": "Gigatorpore",
+        "DESC": "Addormenta il bersaglio."
       },
       "8011": {
         "NAME": "Introforza",
@@ -5490,6 +5778,16 @@
         "ABBR": "Guardate che splendore!",
         "DESC": "Aumenta la Velocità e la precisione di chi la usa di 2 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi."
       },
+      "10045": {
+        "NAME": "Riscaldiamoci per bene!",
+        "ABBR": "Riscaldiamoci per bene!",
+        "DESC": "Aumenta la Difesa e la Difesa Speciale di tutte le Unità alleate di 2 gradi."
+      },
+      "10046": {
+        "NAME": "Gloria dell'ardente spirito battagliero",
+        "ABBR": "Gloria dell'ardente spirito battagliero",
+        "DESC": "Trasforma il campo di lotta in un Campo Elettrico. Aumenta l'Attacco di chi la usa di 6 gradi. Applica l'effetto \"Prossimo a costo zero\" a chi la usa. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi."
+      },
       "10047": {
         "NAME": "La sfida si fa rovente!",
         "ABBR": "La sfida si fa rovente!",
@@ -5610,6 +5908,11 @@
         "ABBR": "Puntiamo sempre più in alto!",
         "DESC": "Aumenta l'Attacco di chi la usa di 4 gradi. Aumenta la Velocità e l'elusione di chi la usa di 3 gradi."
       },
+      "10128": {
+        "NAME": "La chiuderemo qui!",
+        "ABBR": "La chiuderemo qui!",
+        "DESC": "Fa recuperare PS a tutte le Unità alleate per una certa percentuale (40% circa) dei loro PS massimi. Applica l'effetto \"Recupero costante PS\" a tutte le Unità alleate. Se Lucario di chi la usa si megaevolve, applica a chi la usa anche l'effetto \"Protezione prossimo danno\"."
+      },
       "10129": {
         "NAME": "Pronta a entrare in azione!",
         "ABBR": "Pronta a entrare in azione!",
@@ -5654,6 +5957,11 @@
         "NAME": "Volete ancora sfidarmi?",
         "ABBR": "Volete ancora sfidarmi?",
         "DESC": "Aumenta la Difesa di tutte le Unità alleate di 2 gradi. Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 3 gradi. Applica l'effetto \"Recupero costante PS\" a tutte le Unità alleate."
+      },
+      "10159": {
+        "NAME": "Legami granitici!",
+        "ABBR": "Legami granitici!",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Applica l'effetto \"Prossimo a costo zero\" a chi la usa. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 4 gradi."
       },
       "10160": {
         "NAME": "Battibaleno",
@@ -5759,6 +6067,11 @@
         "NAME": "Ora sì che ci divertiamo!",
         "ABBR": "Ora sì che ci divertiamo!",
         "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta la Difesa Speciale di chi la usa di 4 gradi. Aumenta l'Attacco Speciale di tutte le Unità alleate di 4 gradi. Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi. Riduce la Velocità di chi la usa di 2 gradi."
+      },
+      "10208": {
+        "NAME": "Gloria di un eroe in bianco",
+        "ABBR": "Gloria di un eroe in bianco",
+        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'effetto \"Prossima mossa speciale ↑\" di un alleato di 3 gradi. Aumenta l'effetto \"Prossima Unimossa ↑\" di un alleato di 5 gradi."
       },
       "10209": {
         "NAME": "Ho la strategia vincente!",
@@ -6064,6 +6377,11 @@
         "NAME": "Vediamo se avrete fortuna!",
         "ABBR": "Vediamo se avrete fortuna!",
         "DESC": "Chi la usa guarisce dai problemi di stato. Aumenta l'elusione e la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Chi la usa subisce una quantità di danni pari al 90% dei suoi PS residui. Se Sharpedo di chi la usa si megaevolve, aumenta anche l'Attacco di chi la usa di 6 gradi."
+      },
+      "10482": {
+        "NAME": "Siete in gamba!",
+        "ABBR": "Siete in gamba!",
+        "DESC": "Aumenta l'Attacco di chi la usa di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi."
       },
       "10487": {
         "NAME": "La fortuna mi può ancora arridere!",
@@ -6518,7 +6836,7 @@
       "11061": {
         "NAME": "Superlativo!",
         "ABBR": "Superlativo!",
-        "DESC": "Abbassa di 2 il numero di azioni necessarie per sferrare l'Unimossa a un alleato. Aumenta la precisione e la probabilità di mandare a segno brutti colpi di un'Unità alleata di 1 grado. Quando la tensione di chi la usa è stata aumentata, aumenta invece la precisione e la probabilità di mandare a segno brutti colpi di un'Unità alleata di 2 gradi."
+        "DESC": "Abbassa di 2 il numero di azioni necessarie per sferrare l'Unimossa a un alleato. Aumenta la precisione e la probabilità di mandare a segno brutti colpi di un alleato di 1 grado. Quando la tensione della squadra di chi la usa è stata aumentata, aumenta invece la precisione e la probabilità di mandare a segno brutti colpi di un alleato di 2 gradi."
       },
       "11062": {
         "NAME": "Sfida oggi o diffida domani!",
@@ -6555,6 +6873,11 @@
         "ABBR": "Il treno sta per partire!",
         "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta la Velocità di tutte le Unità alleate di 4 gradi. Aumenta l'elusione di tutte le Unità alleate di 2 gradi."
       },
+      "11082": {
+        "NAME": "Liberate il passaggio!",
+        "ABBR": "Liberate il passaggio!",
+        "DESC": "Aumenta la Difesa di tutte le Unità alleate di 4 gradi. Aumenta la precisione di tutte le Unità alleate di 1 grado."
+      },
       "11084": {
         "NAME": "Non ci farete deragliare!",
         "ABBR": "Non ci farete deragliare!",
@@ -6585,6 +6908,16 @@
         "ABBR": "Vi difendete bene!",
         "DESC": "Aumenta la Difesa di chi la usa di 2 gradi. Aumenta la Difesa Speciale di tutte le Unità alleate di 2 gradi."
       },
+      "11103": {
+        "NAME": "Resistiamo e attacchiamo!",
+        "ABBR": "Resistiamo e attacchiamo!",
+        "DESC": "Applica l'effetto \"Protezione prossimo danno\" a chi la usa. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 5 gradi. Applica l'effetto \"Resistenza a colpo micidiale\" a chi la usa."
+      },
+      "11108": {
+        "NAME": "Attacco, attacco e di nuovo attacco!",
+        "ABBR": "Attacco, attacco e di nuovo attacco!",
+        "DESC": "Aumenta l'Attacco Speciale di chi la usa di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi."
+      },
       "11109": {
         "NAME": "Terremo duro fino alla fine!",
         "ABBR": "Terremo duro fino alla fine!",
@@ -6598,7 +6931,12 @@
       "11114": {
         "NAME": "La nostra forza non ha paragoni!",
         "ABBR": "La nostra forza non ha paragoni!",
-        "DESC": "Aggiunge 3 barrette alla barra mosse di chi la usa. Aumenta l'Attacco, l'Attacco Speciale e la precisione di chi la usa di 1 grado. Chi la usa subisce una quantità di danni pari al 33% dei suoi PS residui."
+        "DESC": "Aggiunge 3 barrette alla barra mosse di chi la usa. Aumenta l'Attacco, l'Attacco Speciale e la precisione di chi la usa di 1 grado. Chi la usa subisce una quantità di danni pari a una certa percentuale (33%) dei suoi PS residui."
+      },
+      "11116": {
+        "NAME": "Che capacità eccezionali!",
+        "ABBR": "Che capacità eccezionali!",
+        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 3 gradi. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 5 gradi. Chi la usa subisce una quantità di danni pari a una certa percentuale (20%) dei suoi PS residui."
       },
       "11117": {
         "NAME": "Veniamo al dunque!",
@@ -6669,6 +7007,11 @@
         "NAME": "Schiariamoci la mente!",
         "ABBR": "Schiariamoci la mente!",
         "DESC": "Fa recuperare PS a un alleato per una certa percentuale (40% circa) dei suoi PS massimi. Applica l'effetto \"Resistenza a colpo micidiale\" a un alleato."
+      },
+      "11149": {
+        "NAME": "Per noi siete un libro aperto!",
+        "ABBR": "Per noi siete un libro aperto!",
+        "DESC": "Trasforma il campo di lotta in un Campo Psichico EX. Applica l'effetto \"Protezione prossimo danno\" a chi la usa. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 5 gradi."
       },
       "11150": {
         "NAME": "Facciamo volare le scintille!",
@@ -6814,6 +7157,11 @@
         "NAME": "Diamo spettacolo!",
         "ABBR": "Diamo spettacolo!",
         "DESC": "Aumenta la Velocità di tutte le Unità alleate di 1 grado. Consuma fino a 3 barrette della barra mosse di chi la usa. Aumenta l'Attacco e l'Attacco Speciale di tutte le Unità alleate, fino a un massimo di 4 gradi, in base al numero di barrette consumate."
+      },
+      "11226": {
+        "NAME": "Non mancheremo il bersaglio!",
+        "ABBR": "Non mancheremo il bersaglio!",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie per sferrare l'Unimossa a un alleato. Applica l'effetto \"Prossimo a costo zero\" a un alleato. Aumenta l'effetto \"Prossima mossa fisica ↑\" di un alleato di 2 gradi."
       },
       "11227": {
         "NAME": "Gloria che tocca il sole",
@@ -7300,6 +7648,11 @@
         "ABBR": "È ora di fare pesca grande!",
         "DESC": "Aumenta l'Attacco e l'Attacco Speciale di chi la usa di 6 gradi. Applica l'effetto \"Prossimo superefficace ↑\" a chi la usa quando il campo di lotta è un Campo Psichico."
       },
+      "11602": {
+        "NAME": "Il luccichio della pesca grossa!",
+        "ABBR": "Il luccichio della pesca grossa!",
+        "DESC": "Trasforma la zona in una Zona Drago. (Una Zona Drago aumenta la potenza degli attacchi di tipo Drago.) Abbassa di 1 il numero di azioni necessarie per sferrare l'Unimossa a un alleato. Applica l'effetto \"Recupero costante PS\" a un alleato. Applica l'effetto \"Protezione prossimo danno\" a un alleato."
+      },
       "11608": {
         "NAME": "Giorno perfetto per pescare",
         "ABBR": "Giorno perfetto per pescare",
@@ -7503,7 +7856,7 @@
       "12154": {
         "NAME": "Una lotta live!",
         "ABBR": "Una lotta live!",
-        "DESC": "Aumenta l'Attacco e la Velocità di chi la usa di 4 gradi. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa da 0 a 3 gradi a caso."
+        "DESC": "Aumenta l'Attacco e la Velocità di chi la usa di 4 gradi. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa da 0 a 3 gradi in modo casuale."
       },
       "12160": {
         "NAME": "Non mi rassegnerò!",
@@ -7615,6 +7968,11 @@
         "ABBR": "Seguiamo il ritmo!",
         "DESC": "Aumenta l'Attacco di chi la usa di 1 grado. Quando la Velocità di chi la usa viene aumentata, applica al suo Attacco lo stesso aumento. Quando chi la usa ha il Motivo Panciapiena attivo, applica l'effetto \"Recupero costante PS\". Quando è attivo il Motivo Panciavuota, aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 1 grado."
       },
+      "12451": {
+        "NAME": "Contano tutti su di noi!",
+        "ABBR": "Contano tutti su di noi!",
+        "DESC": "Trasforma la zona in una Zona Buio EX. (Una Zona Buio EX aumenta la potenza degli attacchi di tipo Buio.) Applica l'effetto \"Prossimo superefficace ↑\" a un alleato. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di un alleato di 1 grado."
+      },
       "12452": {
         "NAME": "A tutto gas!",
         "ABBR": "A tutto gas!",
@@ -7659,6 +8017,11 @@
         "NAME": "Adesso mi sono fatto un'idea...",
         "ABBR": "Adesso mi sono fatto un'idea...",
         "DESC": "Applica l'effetto \"Riflette problemi di stato\" sul campo alleato. Aumenta l'Attacco Speciale e la probabilità di mandare a segno brutti colpi di chi la usa di 2 gradi. Riduce la Difesa di chi la usa di 1 grado."
+      },
+      "12465": {
+        "NAME": "Magnificenza del rosa!",
+        "ABBR": "Magnificenza del rosa!",
+        "DESC": "Trasforma la zona in una Zona Folletto. (Una Zona Folletto aumenta la potenza degli attacchi di tipo Folletto.) Applica l'effetto \"Resistenza a colpo micidiale\" a tutte le Unità alleate."
       },
       "12466": {
         "NAME": "Che scocciatura...",
@@ -7835,6 +8198,11 @@
         "ABBR": "Oooh oh oh oh!",
         "DESC": "Aumenta la precisione di chi la usa di 2 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 1 grado."
       },
+      "12595": {
+        "NAME": "Sono ancora giovane!",
+        "ABBR": "Sono ancora giovane!",
+        "DESC": "Aumenta l'Attacco e l'Attacco Speciale di tutte le Unità alleate di 4 gradi. Aumenta la precisione di tutte le Unità alleate di 1 grado. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado."
+      },
       "12620": {
         "NAME": "Più fatti e meno parole!",
         "ABBR": "Più fatti e meno parole!",
@@ -7890,10 +8258,25 @@
         "ABBR": "Farò il tifo per tutti!",
         "DESC": "Attiva un effetto aggiuntivo a caso tra vari. Chi la usa recupera PS per una certa percentuale (10% circa) dei suoi PS massimi. I problemi di stato di tutte le Unità alleate guariscono. Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 1 grado."
       },
+      "12821": {
+        "NAME": "Rotolamento pirotecnico!",
+        "ABBR": "Rotolamento pirotecnico!",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie per sferrare l'Unimossa a un alleato. Aumenta l'Attacco Speciale di un alleato di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di un alleato di 3 gradi."
+      },
+      "12829": {
+        "NAME": "Colgo al balzo la sorpresa!",
+        "ABBR": "Colgo al balzo la sorpresa!",
+        "DESC": "Aumenta l'Attacco Speciale di chi la usa di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi."
+      },
       "12840": {
         "NAME": "Forza, il tempo passa!",
         "ABBR": "Forza, il tempo passa!",
         "DESC": "Aumenta l'Attacco di chi la usa di 6 gradi. Aumenta la Difesa di chi la usa di 4 gradi. Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare un'Unimossa quando la luce del sole è intensa."
+      },
+      "12841": {
+        "NAME": "Accorrete, presto!",
+        "ABBR": "Accorrete, presto!",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'Attacco di chi la usa di 4 gradi. Aumenta la precisione di chi la usa di 1 grado. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi."
       },
       "12844": {
         "NAME": "I tempi stanno cambiando!",
@@ -7935,6 +8318,11 @@
         "ABBR": "Ardiamo di potenza!",
         "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'Attacco Speciale di chi la usa di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi."
       },
+      "12864": {
+        "NAME": "Risplendi di luce, Maschera Turchese!",
+        "ABBR": "Risplendi di luce, Maschera Turchese!",
+        "DESC": "Trasforma il campo di lotta in un Campo Erboso. Aumenta l'Attacco di chi la usa di 6 gradi. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi."
+      },
       "12870": {
         "NAME": "Splendidi ricordi!",
         "ABBR": "Splendidi ricordi!",
@@ -7944,6 +8332,11 @@
         "NAME": "Cresciamo grandi e forti!",
         "ABBR": "Cresciamo grandi e forti!",
         "DESC": "Aumenta l'Attacco Speciale e la precisione di tutte le Unità alleate di 2 gradi. Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 3 gradi. Applica l'effetto \"Recupero costante PS\" a tutte le Unità alleate."
+      },
+      "12874": {
+        "NAME": "Risplendi come un astro!",
+        "ABBR": "Risplendi come un astro!",
+        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 3 gradi. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 5 gradi. Applica l'effetto \"Resistenza a colpo micidiale\" a chi la usa. Se chi la usa è nella Forma Astrale, conferisce anche tutti gli effetti seguenti: Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 2 gradi. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 5 gradi."
       },
       "12890": {
         "NAME": "Con tutte le mie forze!",
@@ -8060,6 +8453,11 @@
         "ABBR": "Damoce 'na svejata!",
         "DESC": "Applica l'effetto \"Accelerazione barra mosse\" al campo alleato. Aumenta l'Attacco e l'Attacco Speciale di tutte le Unità alleate di 2 gradi."
       },
+      "13024": {
+        "NAME": "Ma quanto sò bella?",
+        "ABBR": "Ma quanto sò bella?",
+        "DESC": "Trasforma la zona in una Zona Terra. (Una Zona Terra aumenta la potenza degli attacchi di tipo Terra.) Applica l'effetto \"Recupero costante PS\" a chi la usa. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa da 3 a 5 gradi in modo casuale."
+      },
       "13029": {
         "NAME": "Areggeteve forte!",
         "ABBR": "Areggeteve forte!",
@@ -8105,6 +8503,11 @@
         "ABBR": "È pronto! Ecco a voi!",
         "DESC": "Aumenta l'Attacco e la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 2 gradi. Inoltre, aumenta l'Attacco e la Difesa di tutte le Unità alleate di 2 gradi quando chi la usa è affetto da \"Sostituzione vietata\"."
       },
+      "13174": {
+        "NAME": "Vedrete, vi stupiremo!",
+        "ABBR": "Vedrete, vi stupiremo!",
+        "DESC": "Aumenta l'Attacco Speciale di chi la usa di 4 gradi. Aumenta la precisione di chi la usa di 1 grado. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado."
+      },
       "13179": {
         "NAME": "Assaggiate questa!",
         "ABBR": "Assaggiate questa!",
@@ -8145,15 +8548,30 @@
         "ABBR": "Non mi vedrete scappare...",
         "DESC": "Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 3 gradi. Applica l'effetto \"Recupero costante PS\" a tutte le Unità alleate. Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 2 gradi."
       },
+      "13350": {
+        "NAME": "Il vero potere dei draghi!",
+        "ABBR": "Il vero potere dei draghi!",
+        "DESC": "Trasforma la zona in una Zona Drago EX. (Una Zona Drago EX aumenta la potenza degli attacchi di tipo Drago.) Applica l'effetto \"Prossimo a costo zero\" a un alleato. Aumenta l'effetto \"Prossima mossa fisica ↑\" di un alleato di 3 gradi."
+      },
       "13360": {
         "NAME": "Il riposo è importante!",
         "ABBR": "Il riposo è importante!",
         "DESC": "Aumenta la Difesa e la Difesa Speciale di tutte le Unità alleate di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di tutte le Unità alleate di 2 gradi."
       },
+      "13370": {
+        "NAME": "L'ispirazione chiama!",
+        "ABBR": "L'ispirazione chiama!",
+        "DESC": "Aumenta l'Attacco di chi la usa di 4 gradi. Aumenta la precisione di chi la usa di 1 grado. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Aumenta l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado."
+      },
       "13380": {
         "NAME": "Mostrate il vostro profilo migliore!",
         "ABBR": "Mostrate il vostro profilo migliore!",
         "DESC": "Abbassa di 1 il numero di azioni necessarie per sferrare l'Unimossa a un alleato. Applica l'effetto \"Prossimo superefficace ↑\" a un alleato. Applica l'effetto \"Resistenza a colpo micidiale\" a un alleato."
+      },
+      "13384": {
+        "NAME": "Incredibile, vero?",
+        "ABBR": "Incredibile, vero?",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'Attacco di chi la usa di 3 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 2 gradi."
       },
       "13510": {
         "NAME": "Calza a pennello!",
@@ -8185,6 +8603,11 @@
         "ABBR": "Ve la vedrete con noi!",
         "DESC": "Aumenta l'Attacco, la Difesa, l'Attacco Speciale e la Difesa Speciale di tutte le Unità alleate di 2 gradi."
       },
+      "13562": {
+        "NAME": "Adesso vi disfiamo!",
+        "ABBR": "Adesso vi disfiamo!",
+        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'Attacco Speciale di chi la usa di 6 gradi. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 2 gradi."
+      },
       "13570": {
         "NAME": "Non saremo da meno!",
         "ABBR": "Non saremo da meno!",
@@ -8200,10 +8623,25 @@
         "ABBR": "Distruggiamo tutto!",
         "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'Attacco e l'Attacco Speciale di chi la usa di 6 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 3 gradi. Applica l'effetto \"Aumento danni fisici\" e l'effetto \"Aumento danni speciali\" a chi la usa."
       },
+      "13630": {
+        "NAME": "Mi impegnerò tantissimo!",
+        "ABBR": "Mi impegnerò tantissimo!",
+        "DESC": "Aumenta l'Attacco Speciale e la Velocità di chi la usa di 4 gradi."
+      },
       "13640": {
         "NAME": "La montagna è fantastica!",
         "ABBR": "La montagna è fantastica!",
         "DESC": "Aumenta l'Attacco e l'Attacco Speciale di tutte le Unità alleate di 2 gradi."
+      },
+      "13650": {
+        "NAME": "...!",
+        "ABBR": "...!",
+        "DESC": "Chi la usa recupera tutti i PS. Guarisce chi la usa dai problemi di stato, dal tentennamento, dalla confusione e dall'imprigionamento."
+      },
+      "13659": {
+        "NAME": "È meglio che vada!",
+        "ABBR": "È meglio che vada!",
+        "DESC": "Applica una Cerchia di Kanto (danni fisici), Cerchia di Kanto (danni speciali) e Cerchia di Kanto (difensiva) al campo alleato."
       },
       "14999": {
         "NAME": "Bene! Andiamo!",
@@ -8364,6 +8802,16 @@
         "NAME": "Pratica: Attacco Speciale",
         "ABBR": "Pratica: Attacco Speciale",
         "DESC": "Aumenta l'Attacco Speciale di tutte le Unità alleate di 3 gradi."
+      },
+      "17507": {
+        "NAME": "Pratica: supporto",
+        "ABBR": "Pratica: supporto",
+        "DESC": "Aumenta l'Attacco Speciale di tutte le Unità alleate di 2 gradi. Aumenta la Velocità di tutte le Unità alleate di 1 grado."
+      },
+      "17508": {
+        "NAME": "Preparazione: supporto",
+        "ABBR": "Preparazione: supporto",
+        "DESC": "Aumenta la Difesa Speciale di tutte le Unità alleate di 2 gradi. Aumenta la Velocità di tutte le Unità alleate di 1 grado."
       },
       "18500": {
         "NAME": "Baccacedro",
@@ -9294,6 +9742,21 @@
         "NAME": "Impatto Buio per predire la sorte",
         "ABBR": "Impatto Buio per predire la sorte",
         "DESC": "Permette ad Absol di megaevolversi. L'effetto svanisce al termine della lotta. Aumenta la potenza di questo attacco in proporzione all'aumento dell'Attacco di chi la usa."
+      },
+      "64900": {
+        "NAME": "Crescipugno supremo di chi ce la mette tutta",
+        "ABBR": "Crescipugno supremo di chi ce la mette tutta",
+        "DESC": "Permette a Lucario di megaevolversi. L'effetto svanisce al termine della lotta. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "65000": {
+        "NAME": "Psiconda suprema della chiaroveggente",
+        "ABBR": "Psiconda suprema della chiaroveggente",
+        "DESC": "Permette ad Alakazam di megaevolversi. L'effetto svanisce al termine della lotta. Applica una Cerchia di Kanto (danni speciali) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Cerchia di Kanto (danni speciali) conferisce tutti gli effetti seguenti: Aumenta la potenza degli attacchi semplici speciali e delle Unimosse speciali di tutte le Unità alleate di una certa percentuale (10%). Riduce i danni subiti da attacchi semplici speciali e Unimosse speciali per tutte le Unità alleate di una certa percentuale (5%). Le percentuali aumentano in base al numero di Unità del gruppo \"Kanto\" sul campo alleato. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (40%) e di una certa percentuale (14%) per la riduzione dei danni."
+      },
+      "65200": {
+        "NAME": "Impatto Volante: strada lunga e tortuosa",
+        "ABBR": "Impatto Volante: strada lunga e tortuosa",
+        "DESC": "Permette a Charizard di megaevolversi. L'effetto svanisce al termine della lotta."
       },
       "70000": {
         "NAME": "Verdebufera delle infinite possibilità",
@@ -10633,17 +11096,17 @@
       "98800": {
         "NAME": "Impatto Fuoco da asso della squadra",
         "ABBR": "Impatto Fuoco da asso della squadra",
-        "DESC": "Questo attacco aumenta di potenza quando la Protezione dal tipo del bersaglio viene ridotta."
+        "DESC": "Questo attacco aumenta di potenza quando la protezione dal tipo del bersaglio viene ridotta."
       },
       "98900": {
         "NAME": "Impatto Volante del tiro a cucchiaio",
         "ABBR": "Impatto Volante del tiro a cucchiaio",
-        "DESC": "Questo attacco aumenta di potenza quando la Protezione dal tipo del bersaglio viene ridotta."
+        "DESC": "Questo attacco aumenta di potenza quando la protezione dal tipo del bersaglio viene ridotta."
       },
       "99000": {
         "NAME": "Impatto Lotta decisivo",
         "ABBR": "Impatto Lotta decisivo",
-        "DESC": "Questo attacco aumenta di potenza quando la Protezione dal tipo del bersaglio viene ridotta."
+        "DESC": "Questo attacco aumenta di potenza quando la protezione dal tipo del bersaglio viene ridotta."
       },
       "99100": {
         "NAME": "Raggio Acciaio per sempre insieme",
@@ -10868,7 +11331,7 @@
       "104200": {
         "NAME": "Tempesta Boreale del muro da abbattere",
         "ABBR": "Tempesta Boreale del muro da abbattere",
-        "DESC": "Questo attacco aumenta di potenza quando la Protezione dal tipo del bersaglio viene ridotta."
+        "DESC": "Questo attacco aumenta di potenza quando la protezione dal tipo del bersaglio viene ridotta."
       },
       "104300": {
         "NAME": "Spadasolenne verso nuove avventure",
@@ -10913,7 +11376,7 @@
       "105100": {
         "NAME": "Ipertrapano dell'impiegato stra-ordinario",
         "ABBR": "Ipertrapano dell'impiegato stra-ordinario",
-        "DESC": "Questo attacco aumenta di potenza quando la Protezione dal tipo del bersaglio viene ridotta."
+        "DESC": "Questo attacco aumenta di potenza quando la protezione dal tipo del bersaglio viene ridotta."
       },
       "105200": {
         "NAME": "Impatto Normale: lezioni di cucina",
@@ -11525,6 +11988,21 @@
         "ABBR": "Raggio Fuoco: lezione pratica",
         "DESC": "Questo attacco aumenta di potenza quando il bersaglio è imprigionato."
       },
+      "118100": {
+        "NAME": "Vampagelida: avvento di un mondo di verità",
+        "ABBR": "Vampagelida: avvento di un mondo di verità",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "118200": {
+        "NAME": "Psicolama verso un futuro solidale",
+        "ABBR": "Psicolama verso un futuro solidale",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "118300": {
+        "NAME": "Intossicatena che rimette in riga",
+        "ABBR": "Intossicatena che rimette in riga",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
       "118400": {
         "NAME": "Raggio Coleottero per dimostrarsi all'altezza",
         "ABBR": "Raggio Coleottero per dimostrarsi all'altezza",
@@ -11599,6 +12077,21 @@
         "NAME": "Raggio Folletto con spirito indomito",
         "ABBR": "Raggio Folletto con spirito indomito",
         "DESC": "Non ha effetti aggiuntivi."
+      },
+      "119900": {
+        "NAME": "Spadoncarica del drago ruggente",
+        "ABBR": "Spadoncarica del drago ruggente",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "120000": {
+        "NAME": "Bollaraggio supremo: costanza che erode",
+        "ABBR": "Bollaraggio supremo: costanza che erode",
+        "DESC": "Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 2 gradi."
+      },
+      "120100": {
+        "NAME": "Frana suprema con lealtà incrollabile",
+        "ABBR": "Frana suprema con lealtà incrollabile",
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi."
       },
       "120200": {
         "NAME": "Raggio Acqua della bellezza marina",
@@ -11760,6 +12253,21 @@
         "ABBR": "Impatto Normale della reeveencita",
         "DESC": "Non ha effetti aggiuntivi."
       },
+      "123700": {
+        "NAME": "Fulmine che è cresciuto grande e forte",
+        "ABBR": "Fulmine che è cresciuto grande e forte",
+        "DESC": "Aumenta la potenza di questo attacco in proporzione all'aumento dell'Attacco Speciale di chi la usa."
+      },
+      "123800": {
+        "NAME": "Raggio Fuoco bello pepato",
+        "ABBR": "Raggio Fuoco bello pepato",
+        "DESC": "Aumenta la potenza di questo attacco in proporzione all'aumento dell'Attacco Speciale di chi la usa."
+      },
+      "123900": {
+        "NAME": "Impatto Lotta con spirito battagliero",
+        "ABBR": "Impatto Lotta con spirito battagliero",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
       "124100": {
         "NAME": "Impatto Fuoco: da adesso si impara",
         "ABBR": "Impatto Fuoco: da adesso si impara",
@@ -11770,9 +12278,99 @@
         "ABBR": "Impatto Normale all'inseguimento di varie possibilità",
         "DESC": "Aumenta la potenza di questo attacco in proporzione alla riduzione della Difesa del bersaglio."
       },
+      "124300": {
+        "NAME": "Raggio Erba: festeggiamenti pirotecnici",
+        "ABBR": "Raggio Erba: festeggiamenti pirotecnici",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "124400": {
+        "NAME": "Raggio Elettro di chi non è una vera Poké Ball",
+        "ABBR": "Raggio Elettro di chi non è una vera Poké Ball",
+        "DESC": "Aumenta la potenza di questo attacco in proporzione alla riduzione della Difesa Speciale del bersaglio."
+      },
+      "124500": {
+        "NAME": "Impatto Spettro preciso e infallibile",
+        "ABBR": "Impatto Spettro preciso e infallibile",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "124600": {
+        "NAME": "Raggio Folletto dell'allieva che si impegna tantissimo",
+        "ABBR": "Raggio Folletto dell'allieva che si impegna tantissimo",
+        "DESC": "Aumenta la potenza di questo attacco in proporzione alla riduzione della Difesa Speciale del bersaglio."
+      },
+      "125100": {
+        "NAME": "Impatto Folletto: ringraziamenti diretti",
+        "ABBR": "Impatto Folletto: ringraziamenti diretti",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "125200": {
+        "NAME": "Raggio Terra: 'na tranvata che taa ricordi",
+        "ABBR": "Raggio Terra: 'na tranvata che taa ricordi",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "125300": {
+        "NAME": "Impatto Volante che si prende tutto",
+        "ABBR": "Impatto Volante che si prende tutto",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "125400": {
+        "NAME": "Impatto Buio: vincere per i fan",
+        "ABBR": "Impatto Buio: vincere per i fan",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "125500": {
+        "NAME": "Raggio Folletto dalle rosee intenzioni",
+        "ABBR": "Raggio Folletto dalle rosee intenzioni",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "125600": {
+        "NAME": "Raggio Acqua: immersioni in alto mare",
+        "ABBR": "Raggio Acqua: immersioni in alto mare",
+        "DESC": "Aumenta la potenza di questo attacco in proporzione alla riduzione della precisione del bersaglio."
+      },
+      "125700": {
+        "NAME": "Raggio Folletto dell'attenta osservatrice",
+        "ABBR": "Raggio Folletto dell'attenta osservatrice",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "125800": {
+        "NAME": "Impatto Volante per immortalare l'attimo",
+        "ABBR": "Impatto Volante per immortalare l'attimo",
+        "DESC": "Aumenta la potenza di questo attacco in proporzione all'aumento dell'Attacco di chi la usa."
+      },
+      "125900": {
+        "NAME": "Impatto Acciaio della Professoressa che torna tra i banchi",
+        "ABBR": "Impatto Acciaio della Professoressa che torna tra i banchi",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "126000": {
+        "NAME": "Impatto Roccia fantastico che punta sempre più in alto",
+        "ABBR": "Impatto Roccia fantastico che punta sempre più in alto",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "127000": {
+        "NAME": "Impatto Normale per non andarsene a bocca asciutta",
+        "ABBR": "Impatto Normale per non andarsene a bocca asciutta",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "200101": {
+        "NAME": "Terascoppio del Disco indaco: ricordi dei popoli antichi",
+        "ABBR": "Terascoppio del Disco indaco: ricordi dei popoli antichi",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
       "200501": {
         "NAME": "Terascoppio: occhio agli spruzzi",
         "ABBR": "Terascoppio: occhio agli spruzzi",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
+      "200502": {
+        "NAME": "Terascoppio dell'artista di natura",
+        "ABBR": "Terascoppio dell'artista di natura",
+        "DESC": "Questo attacco aumenta di potenza quando la protezione dal tipo del bersaglio viene ridotta."
+      },
+      "200503": {
+        "NAME": "Terascoppio della Maschera Turchese: tradizioni del villaggio",
+        "ABBR": "Terascoppio della Maschera Turchese: tradizioni del villaggio",
         "DESC": "Non ha effetti aggiuntivi."
       },
       "200701": {
@@ -11800,10 +12398,20 @@
         "ABBR": "Terascoppio: apice dello splendore",
         "DESC": "Non ha effetti aggiuntivi."
       },
+      "201502": {
+        "NAME": "Terascoppio della lotta dorata",
+        "ABBR": "Terascoppio della lotta dorata",
+        "DESC": "Non ha effetti aggiuntivi."
+      },
       "201601": {
         "NAME": "Terascoppio: monelli per un giorno",
         "ABBR": "Terascoppio: monelli per un giorno",
         "DESC": "Non ha effetti aggiuntivi."
+      },
+      "201901": {
+        "NAME": "Terascoppio del Disco indaco: ricordi dei popoli antichi",
+        "ABBR": "Terascoppio del Disco indaco: ricordi dei popoli antichi",
+        "DESC": "Permette di assumere la Forma Astrale. L'effetto svanisce al termine della lotta."
       }
     },
     "SKILLS": {
@@ -12107,6 +12715,21 @@
         "ABBR": "Attività curativa-G {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di far recuperare PS a tutte le Unità alleate quando il Pokémon di chi la usa sferra una mossa."
       },
+      "1101620": {
+        "NAME": "Zona Ghiaccio curativa {{value}}",
+        "ABBR": "Zona Ghiaccio curativa {{value}}",
+        "DESC": "Chi la usa recupera PS dopo ogni azione del Pokémon in presenza di una Zona Ghiaccio."
+      },
+      "1101630": {
+        "NAME": "Zona Drago curativa {{value}}",
+        "ABBR": "Zona Drago curativa {{value}}",
+        "DESC": "Chi la usa recupera PS dopo ogni azione del suo Pokémon in presenza di una Zona Drago."
+      },
+      "1101640": {
+        "NAME": "Curazero",
+        "ABBR": "Curazero",
+        "DESC": "La quantità di PS recuperati diventa 0."
+      },
       "1201010": {
         "NAME": "Colmapioggia {{value}}",
         "ABBR": "Colmapiog.{{value}}",
@@ -12135,7 +12758,7 @@
       "1201060": {
         "NAME": "Campo Elettricolma {{value}}",
         "ABBR": "Campo El.colma {{value}}",
-        "DESC": "In presenza di un Campo Elettrico, la barra mosse si riempie più velocemente."
+        "DESC": "La barra mosse si riempie più velocemente quando il campo di lotta è un Campo Elettrico."
       },
       "1201070": {
         "NAME": "Campo Psichicolma {{value}}",
@@ -12361,6 +12984,16 @@
         "NAME": "Confusattacco alleato riempibarra {{value}}",
         "ABBR": "Confusatt. alleato riempib. {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di aggiungere 1 barretta alla barra mosse di un alleato quando il suo attacco semplice va a segno contro un avversario confuso."
+      },
+      "1202280": {
+        "NAME": "Confusattacco riempibarra {{value}}",
+        "ABBR": "Confusattacco riempibarra {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aggiungere 1 barretta alla barra mosse di chi la usa quando il suo attacco semplice va a segno contro un avversario confuso."
+      },
+      "1202290": {
+        "NAME": "Avvelenattacco riempibarra {{value}}",
+        "ABBR": "Avvelenattacco riempibarra {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aggiungere 1 barretta alla barra mosse di chi la usa quando il suo attacco semplice va a segno contro un avversario avvelenato o iperavvelenato."
       },
       "1301010": {
         "NAME": "Emergrinta {{value}}",
@@ -13062,6 +13695,11 @@
         "ABBR": "Smorzad. solare-G {{value}}",
         "DESC": "Riduce i danni subiti da attacchi semplici per gli alleati quando la luce del sole è intensa."
       },
+      "1302460": {
+        "NAME": "Zona Folletto smorzadanno {{value}}",
+        "ABBR": "Zona Folletto smorzadanno {{value}}",
+        "DESC": "Riduce i danni subiti da chi la usa da un attacco semplice in presenza di una Zona Folletto."
+      },
       "1303010": {
         "NAME": "Diecidecimi",
         "ABBR": "Diecidecimi",
@@ -13322,6 +13960,26 @@
         "ABBR": "Uso prima statomossa sincrom. {{value}}",
         "DESC": "Ripristina {{value}} utilizzo della sincromossa di chi la usa la prima volta che il suo Pokémon sferra una mossa di stato in ogni lotta."
       },
+      "1306300": {
+        "NAME": "Prima Analisi di Kanto zero attaccomaggio {{value}}",
+        "ABBR": "Prima Analisi di Kanto zero attaccomaggio {{value}}",
+        "DESC": "Ripristina {{value}} utilizzo di Analisi di Kanto di chi la usa la prima volta che gli utilizzi residui di quella mossa sono pari a 0 in ogni lotta."
+      },
+      "1306310": {
+        "NAME": "Vera forza della sirena maschiaccio",
+        "ABBR": "Vera forza della sirena maschiaccio",
+        "DESC": "Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che gli utilizzi residui della sua mossa Analisi di Kanto sono pari a 0 in ogni lotta. Ripristina 1 utilizzo di Analisi di Kanto di chi la usa la prima volta che gli utilizzi residui di quella mossa sono pari a 0 in ogni lotta."
+      },
+      "1306320": {
+        "NAME": "Prima Uniricarica Superpiù {{value}}",
+        "ABBR": "Prima Uniricarica Superpiù {{value}}",
+        "DESC": "Ripristina {{value}} utilizzo di Superpiù di chi la usa la prima volta che la sua Unimossa viene utilizzata in ogni lotta."
+      },
+      "1306330": {
+        "NAME": "Prima Minipozione-G zero attaccomaggio {{value}}",
+        "ABBR": "Prima Minipozione-G zero attaccomaggio {{value}}",
+        "DESC": "Ripristina {{value}} utilizzo di Minipozione-G di chi la usa la prima volta che gli utilizzi residui di quella mossa sono pari a 0 in ogni lotta."
+      },
       "1307010": {
         "NAME": "Corposaldo 9",
         "ABBR": "Corposaldo 9",
@@ -13425,7 +14083,7 @@
       "1308180": {
         "NAME": "Cerchia di Paldea (difensiva) rafforzante-G {{value}}",
         "ABBR": "Cerchia di Paldea (difensiva) raff.-G {{value}}",
-        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo alleato è applicata Cerchia di Paldea (difensiva)."
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo alleato è applicata una Cerchia di Paldea (difensiva)."
       },
       "1308190": {
         "NAME": "Accaniforza-G {{value}}",
@@ -13435,7 +14093,7 @@
       "1308200": {
         "NAME": "Cerchia di Unima (difensiva) rafforzante-G {{value}}",
         "ABBR": "Cerchia di Unima (difensiva) raff.-G {{value}}",
-        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo alleato è applicata Cerchia di Unima (difensiva)."
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo alleato è applicata una Cerchia di Unima (difensiva)."
       },
       "1308210": {
         "NAME": "Campodanno Veleno nemico rafforzante-G {{value}}",
@@ -13540,7 +14198,7 @@
       "1308420": {
         "NAME": "Cerchia di Unima (danni speciali) rafforzante-G {{value}}",
         "ABBR": "Cerchia di Unima (danni speciali) raff.-G {{value}}",
-        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo alleato è applicata Cerchia di Unima (danni speciali)."
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo alleato è applicata una Cerchia di Unima (danni speciali)."
       },
       "1308430": {
         "NAME": "Zona Drago potenziatecniche {{value}}",
@@ -13557,10 +14215,75 @@
         "ABBR": "Campod. Roccia nemico raff.-G {{value}}",
         "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo avversario è applicato Campodanno Roccia."
       },
+      "1308460": {
+        "NAME": "Geloraggio potenza ×2",
+        "ABBR": "Geloraggio potenza ×2",
+        "DESC": "Raddoppia la potenza di Geloraggio di chi la usa."
+      },
       "1308470": {
         "NAME": "Zona Veleno rafforzante-G {{value}}",
         "ABBR": "Zona Veleno rafforzante-G {{value}}",
         "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate in presenza di una Zona Veleno."
+      },
+      "1308480": {
+        "NAME": "Campo potenziatecniche {{value}}",
+        "ABBR": "Campo potenziatecniche {{value}}",
+        "DESC": "Aumenta la potenza delle mosse e dell'Unimossa di chi la usa quando è applicato un Campo."
+      },
+      "1308490": {
+        "NAME": "Cerchia di Johto (difensiva) rafforzante-G {{value}}",
+        "ABBR": "Cerchia di Johto (difensiva) rafforzante-G {{value}}",
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo alleato è applicata una Cerchia di Johto (difensiva)."
+      },
+      "1308500": {
+        "NAME": "Aumentoforza-G",
+        "ABBR": "Aumentoforza-G",
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate in proporzione all'aumento delle statistiche di chi la usa. L'aumento massimo è di una certa percentuale (30%)."
+      },
+      "1308510": {
+        "NAME": "Zona Roccia potenziatecniche {{value}}",
+        "ABBR": "Zona Roccia potenziatecniche {{value}}",
+        "DESC": "Aumenta la potenza delle mosse e dell'Unimossa di chi la usa in presenza di una Zona Roccia."
+      },
+      "1308520": {
+        "NAME": "Zona Terra potenziatecniche {{value}}",
+        "ABBR": "Zona Terra potenziatecniche {{value}}",
+        "DESC": "Aumenta la potenza delle mosse e dell'Unimossa di chi la usa in presenza di una Zona Terra."
+      },
+      "1308530": {
+        "NAME": "Uso prima Unimossa ×{{plus}}",
+        "ABBR": "Uso prima Unimossa ×{{plus}}",
+        "DESC": "Moltiplica per {{plus}} la potenza dell'Unimossa di chi la usa la prima volta che la sua Unimossa viene utilizzata in ogni lotta."
+      },
+      "1308540": {
+        "NAME": "Tipoforza Erba-G {{value}}",
+        "ABBR": "Tipoforza Erba-G {{value}}",
+        "DESC": "Aumenta la potenza delle mosse di tipo Erba di tutte le Unità alleate."
+      },
+      "1308550": {
+        "NAME": "Tipoforza Drago-G {{value}}",
+        "ABBR": "Tipoforza Drago-G {{value}}",
+        "DESC": "Aumenta la potenza delle mosse di tipo Drago di tutte le Unità alleate."
+      },
+      "1308560": {
+        "NAME": "Zona Normale rafforzante-G {{value}}",
+        "ABBR": "Zona Normale rafforzante-G {{value}}",
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate in presenza di una Zona Normale."
+      },
+      "1308580": {
+        "NAME": "Zona Normale rafforzante {{value}}",
+        "ABBR": "Zona Normale rafforzante {{value}}",
+        "DESC": "La potenza delle mosse di chi la usa aumenta in presenza di una Zona Normale."
+      },
+      "1308590": {
+        "NAME": "Fragilità nemica rafforzante {{value}}",
+        "ABBR": "Fragilità nemica rafforzante {{value}}",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa quando la Difesa del bersaglio subisce una riduzione."
+      },
+      "1308600": {
+        "NAME": "Tensoforza",
+        "ABBR": "Tensoforza",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa in proporzione all'aumento della sua tensione. L'aumento massimo è di una certa percentuale (50%)."
       },
       "1401010": {
         "NAME": "Ultimodono",
@@ -13827,6 +14550,61 @@
         "ABBR": "Uso Fervore di Unima sprint {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di abbassare di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando utilizza Fervore di Unima."
       },
+      "1501500": {
+        "NAME": "Ultimo sprint {{value}}",
+        "ABBR": "Ultimo sprint {{value}}",
+        "DESC": "Abbassa di {{value}} il numero di azioni necessarie a chi la usa per sferrare l'Unimossa subito prima che vada KO. In modalità multigiocatore, abbassa invece di {{value}} il numero di azioni necessarie per sferrare un'Unimossa a un giocatore tranne a chi la usa."
+      },
+      "1501510": {
+        "NAME": "Autocerchia di Kanto (danni speciali) sprint {{value}}",
+        "ABBR": "Autocerchia di Kanto (danni speciali) sprint {{value}}",
+        "DESC": "Abbassa di {{value}} il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando applica una Cerchia di Kanto (danni speciali) al campo alleato."
+      },
+      "1501520": {
+        "NAME": "Discesa in lampo {{value}}",
+        "ABBR": "Discesa in lampo {{value}}",
+        "DESC": "Abbassa di {{value}} il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando entra in campo."
+      },
+      "1501530": {
+        "NAME": "Primentrata sprint e arguta monogrado",
+        "ABBR": "Primentrata sprint e arguta monogrado",
+        "DESC": "Abbassa di {{value}} il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Aumenta l'Attacco Speciale di chi la usa di {{value}} grado la prima volta che entra in campo in ogni lotta."
+      },
+      "1501540": {
+        "NAME": "Primentrata doppiosprint e colprobabile monogrado",
+        "ABBR": "Primentrata doppiosprint e colprobabile monogrado",
+        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di {{value}} grado la prima volta che entra in campo in ogni lotta."
+      },
+      "1501550": {
+        "NAME": "Primentrata triplosprint e Zona Normale",
+        "ABBR": "Primentrata triplosprint e Zona Normale",
+        "DESC": "Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Trasforma la zona in una Zona Normale la prima volta che chi la usa entra in campo in ogni lotta. (Una Zona Normale aumenta la potenza degli attacchi di tipo Normale.)"
+      },
+      "1501560": {
+        "NAME": "Energia Teracristal oltremisura",
+        "ABBR": "Energia Teracristal oltremisura",
+        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando chi la usa assume la Forma Teracristal. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi quando chi la usa assume la Forma Teracristal."
+      },
+      "1501570": {
+        "NAME": "Prima Volontà Spettro zero sprint {{value}}",
+        "ABBR": "Prima Volontà Spettro zero sprint {{value}}",
+        "DESC": "Abbassa di {{value}} il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che gli utilizzi residui della sua mossa Volontà Spettro sono pari a 0 in ogni lotta."
+      },
+      "1501580": {
+        "NAME": "Prima Analisi di Kanto zero sprint {{value}}",
+        "ABBR": "Prima Analisi di Kanto zero sprint {{value}}",
+        "DESC": "Abbassa di {{value}} il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che gli utilizzi residui della sua mossa Analisi di Kanto sono pari a 0 in ogni lotta."
+      },
+      "1501590": {
+        "NAME": "Autocerchia sprint {{value}}",
+        "ABBR": "Autocerchia sprint {{value}}",
+        "DESC": "Abbassa di {{value}} il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando applica una Cerchia al campo alleato."
+      },
+      "1501600": {
+        "NAME": "Autozona Acciaio sprint {{value}}",
+        "ABBR": "Autozona Acciaio sprint {{value}}",
+        "DESC": "Abbassa di {{value}} il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando trasforma la zona in una Zona Acciaio."
+      },
       "1502010": {
         "NAME": "Smania {{value}}",
         "ABBR": "Smania {{value}}",
@@ -13940,7 +14718,7 @@
       "1601230": {
         "NAME": "Unipotenza Campo Elettrico {{value}}",
         "ABBR": "Unipotenza Campo Elettrico {{value}}",
-        "DESC": "In presenza di un Campo Elettrico, la potenza dell'Unimossa aumenta."
+        "DESC": "Aumenta la potenza dell'Unimossa di chi la usa quando il campo di lotta è un Campo Elettrico."
       },
       "1601240": {
         "NAME": "Aumentoforza Unimossa",
@@ -14387,6 +15165,11 @@
         "ABBR": "Uso prima statomossa ricarica Fortino {{value}}",
         "DESC": "Ripristina {{value}} utilizzo di Fortino di chi la usa la prima volta che il suo Pokémon sferra una mossa di stato in ogni lotta."
       },
+      "1602150": {
+        "NAME": "UniDynamax ricarica Superpiù {{value}}",
+        "ABBR": "UniDynamax ricarica Superpiù {{value}}",
+        "DESC": "Ripristina {{value}} utilizzo di Superpiù di chi la usa dopo aver sferrato la sua mossa UniDynamax."
+      },
       "1603010": {
         "NAME": "Pioggia UniDynapotente {{value}}",
         "ABBR": "Pioggia UniDynapot. {{value}}",
@@ -14437,6 +15220,11 @@
         "ABBR": "Campod. Roccia nemico unipot.-G {{value}}",
         "DESC": "Aumenta la potenza delle Unimosse di tutte le Unità alleate quando al campo avversario è applicato Campodanno Roccia."
       },
+      "1603110": {
+        "NAME": "Campo unipotente {{value}}",
+        "ABBR": "Campo unipotente {{value}}",
+        "DESC": "Aumenta la potenza dell'Unimossa di chi la usa quando è applicato un Campo."
+      },
       "1603120": {
         "NAME": "Unipotenza Zona Lotta-G {{value}}",
         "ABBR": "Unipotenza Zona Lotta-G {{value}}",
@@ -14446,6 +15234,26 @@
         "NAME": "Cerchia di Johto (danni speciali) unipotente-G {{value}}",
         "ABBR": "Cerchia di Johto (danni speciali) unipotente-G {{value}}",
         "DESC": "Aumenta la potenza delle Unimosse di tutte le Unità alleate quando al campo alleato è applicata una Cerchia di Johto (danni speciali)."
+      },
+      "1603140": {
+        "NAME": "Frangiprotezione unipotente-G {{value}}",
+        "ABBR": "Frangiprotezione unipotente-G {{value}}",
+        "DESC": "Aumenta la potenza delle Unimosse di tutte le Unità alleate quando attaccano un bersaglio con una protezione dal tipo ridotta."
+      },
+      "1603150": {
+        "NAME": "Campo Erboso UniDynapotente {{value}}",
+        "ABBR": "Campo Erboso UniDynapotente {{value}}",
+        "DESC": "Aumenta la potenza della mossa UniDynamax di chi la usa quando il campo di lotta è un Campo Erboso."
+      },
+      "1603160": {
+        "NAME": "Unipotenza Zona Buio-G {{value}}",
+        "ABBR": "Unipotenza Zona Buio-G {{value}}",
+        "DESC": "Aumenta la potenza delle Unimosse di tutte le Unità alleate in presenza di una Zona Buio."
+      },
+      "1603180": {
+        "NAME": "Cerchia di Paldea (danni fisici) rafforzante-G {{value}}",
+        "ABBR": "Cerchia di Paldea (danni fisici) rafforzante-G {{value}}",
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo alleato è applicata una Cerchia di Paldea (danni fisici)."
       },
       "1701010": {
         "NAME": "Antitossine",
@@ -14691,6 +15499,16 @@
         "NAME": "Zona Coleottero immunistato",
         "ABBR": "Zona Coleottero immunistato",
         "DESC": "Non è possibile causare problemi di stato a chi la usa in presenza di una Zona Coleottero."
+      },
+      "1701500": {
+        "NAME": "Estintore-G",
+        "ABBR": "Estintore-G",
+        "DESC": "Impedisce a tutte le Unità alleate di venire scottate."
+      },
+      "1701510": {
+        "NAME": "Zona Folletto bloccafflizioni-G",
+        "ABBR": "Zona Folletto bloccafflizioni-G",
+        "DESC": "Impedisce a tutte le Unità alleate di subire problemi di stato, tentennare, venire confuse o venire imprigionate in presenza di una Zona Folletto."
       },
       "1702010": {
         "NAME": "Avvelenameno {{value}}",
@@ -15700,7 +16518,7 @@
       "1706760": {
         "NAME": "Avvelenattacco iperspeciale singolo {{value}}",
         "ABBR": "Avvelenatt. iperspeciale singolo {{value}}",
-        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando il suo attacco semplice va a segno contro un bersaglio avvelenato o iperavvelenato."
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando il suo attacco semplice va a segno contro un avversario avvelenato o iperavvelenato."
       },
       "1706770": {
         "NAME": "Alleambiente iperspeciale singolo {{value}}",
@@ -16740,7 +17558,7 @@
       "1708880": {
         "NAME": "Primattacco vulnerabilità speciale",
         "ABBR": "Primatt. vulnerabilità speciale",
-        "DESC": "Applica l'effetto \"Aumento danni speciali\" sul bersaglio la prima volta che l'attacco semplice di chi la usa contro di esso va a segno in ogni lotta."
+        "DESC": "Applica l'effetto \"Aumento danni speciali\" sul bersaglio la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta."
       },
       "1708890": {
         "NAME": "Cerchia di Johto (danni speciali) mossa azzeracosto {{value}}",
@@ -16771,6 +17589,21 @@
         "NAME": "Uso prima statomossa azzeracosto-G",
         "ABBR": "Uso prima statom. azzeracosto-G",
         "DESC": "Applica l'effetto \"Prossimo a costo zero\" a tutte le Unità alleate la prima volta che il Pokémon di chi la usa sferra una mossa di stato in ogni lotta."
+      },
+      "1708950": {
+        "NAME": "Avvelenattacco Unibonus doppio {{value}}",
+        "ABBR": "Avvelenattacco Unibonus doppio {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima Unimossa ↑\" di chi la usa di 2 gradi quando il suo attacco semplice va a segno contro un avversario avvelenato o iperavvelenato."
+      },
+      "1708960": {
+        "NAME": "Attacco iperspeciale triplo {{value}}",
+        "ABBR": "Attacco iperspeciale triplo {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 3 gradi quando il suo attacco semplice va a segno."
+      },
+      "1708970": {
+        "NAME": "Unimossa affilacolpo-G",
+        "ABBR": "Unimossa affilacolpo-G",
+        "DESC": "Applica l'effetto \"Prossimo brutto colpo\" a tutte le Unità alleate dopo aver sferrato l'Unimossa di chi la usa."
       },
       "1708980": {
         "NAME": "Entrata iper-G {{value}}",
@@ -16841,6 +17674,166 @@
         "NAME": "Prima Unimossa frangiprotezione Folletto-G {{value}}",
         "ABBR": "Prima Unimossa frangiprotezione Folletto-G {{value}}",
         "DESC": "Riduce la Protezione Folletto di tutte le Unità avversarie di {{value}} grado la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "1709120": {
+        "NAME": "Primattacco Erba Campo Erboso e frangiprotezione Erba",
+        "ABBR": "Primattacco Erba Campo Erboso e frangiprotezione Erba",
+        "DESC": "Trasforma il campo di lotta in un Campo Erboso la prima volta che l'attacco semplice di tipo Erba di chi la usa va a segno in ogni lotta. Riduce la Protezione Erba del bersaglio di 1 grado la prima volta che l'attacco semplice di tipo Erba di chi la usa va a segno in ogni lotta."
+      },
+      "1709130": {
+        "NAME": "Primattacco Roccia Zona Roccia e frangiprotezione Roccia",
+        "ABBR": "Primattacco Roccia Zona Roccia e frangiprotezione Roccia",
+        "DESC": "Trasforma la zona in una Zona Roccia la prima volta che l'attacco semplice di tipo Roccia di chi la usa va a segno in ogni lotta. (Una Zona Roccia aumenta la potenza degli attacchi di tipo Roccia.) Riduce la Protezione Roccia del bersaglio di 1 grado la prima volta che l'attacco semplice di tipo Roccia di chi la usa va a segno in ogni lotta."
+      },
+      "1709140": {
+        "NAME": "Prima Unimossa frangiprotezione Roccia-G {{value}}",
+        "ABBR": "Prima Unimossa frangiprotezione Roccia-G {{value}}",
+        "DESC": "Riduce la Protezione Roccia di tutte le Unità avversarie di {{value}} grado la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "1709150": {
+        "NAME": "Prima Volontà Spettro zero iperfisica {{value}}",
+        "ABBR": "Prima Volontà Spettro zero iperfisica {{value}}",
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di {{value}} grado la prima volta che gli utilizzi residui della sua mossa Volontà Spettro sono pari a 0 in ogni lotta."
+      },
+      "1709160": {
+        "NAME": "Voce iperfisica doppia {{value}}",
+        "ABBR": "Voce iperfisica doppia {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi quando il suo Allenatore sferra una mossa."
+      },
+      "1709170": {
+        "NAME": "Attacco accanito Unibonus triplo {{value}}",
+        "ABBR": "Attacco accanito Unibonus triplo {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima Unimossa ↑\" di chi la usa di 3 gradi quando il suo attacco semplice va a segno contro un avversario affetto da problemi di stato."
+      },
+      "1709180": {
+        "NAME": "Unimossa iperspeciale da 1 a 4-G {{value}}",
+        "ABBR": "Unimossa iperspeciale da 1 a 4-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate da 1 a 4 gradi in modo casuale dopo aver sferrato l'Unimossa di chi la usa. (L'aumento è lo stesso per tutte le Unità alleate.)"
+      },
+      "1709190": {
+        "NAME": "Autocerchia di Kanto (danni speciali) iperspeciale singola {{value}}",
+        "ABBR": "Autocerchia di Kanto (danni speciali) iperspeciale singola {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando applica una Cerchia di Kanto (danni speciali) al campo alleato."
+      },
+      "1709200": {
+        "NAME": "Tentennattacco solare {{value}}",
+        "ABBR": "Tentennattacco solare {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di far tentennare il bersaglio quando l'attacco semplice di chi la usa contro di esso va a segno mentre la luce del sole è intensa."
+      },
+      "1709210": {
+        "NAME": "Alleattacco auto iperfisico singolo Unibonus doppio",
+        "ABBR": "Alleattacco auto iperfisico singolo Unibonus doppio",
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di {{value}} grado quando l'attacco semplice di un alleato va a segno. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 2 gradi quando l'attacco semplice di un alleato va a segno."
+      },
+      "1709220": {
+        "NAME": "Unimossa squadra iperfisica doppia {{value}}",
+        "ABBR": "Unimossa squadra iperfisica doppia {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi dopo che l'Unità nella tua squadra sferra l'Unimossa."
+      },
+      "1709230": {
+        "NAME": "Primo Gigaimpatto vulnerabilità fisica",
+        "ABBR": "Primo Gigaimpatto vulnerabilità fisica",
+        "DESC": "Applica l'effetto \"Aumento danni fisici\" sul bersaglio la prima volta che Gigaimpatto di chi la usa va a segno in ogni lotta."
+      },
+      "1709240": {
+        "NAME": "Alleamossa azzeracosto {{value}}",
+        "ABBR": "Alleamossa azzeracosto {{value}}",
+        "DESC": "Quando la mossa di chi la usa (esclusi gli effetti attivi sul campo) che ha come bersaglio un'Unità alleata va a segno, ha una certa probabilità ({{chance}}%) di applicare l'effetto \"Prossimo a costo zero\" all'Unità alleata su cui si attivano gli effetti della mossa."
+      },
+      "1709250": {
+        "NAME": "Alleambiente iperfisico singolo-G {{value}}",
+        "ABBR": "Alleambiente iperfisico singolo-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado quando un alleato attiva cambiamenti atmosferici o trasformazioni del campo di lotta o della zona."
+      },
+      "1709260": {
+        "NAME": "Alleamossa protettiva {{value}}",
+        "ABBR": "Alleamossa protettiva {{value}}",
+        "DESC": "Quando la mossa di chi la usa (esclusi gli effetti attivi sul campo) che ha come bersaglio un'Unità alleata va a segno, ha una certa probabilità ({{chance}}%) di applicare l'effetto \"Protezione prossimo danno\" all'Unità alleata su cui si attivano gli effetti della mossa."
+      },
+      "1709270": {
+        "NAME": "Ultimo Unibonus-G 10",
+        "ABBR": "Ultimo Unibonus-G 10",
+        "DESC": "Aumenta l'effetto \"Prossima Unimossa ↑\" di tutte le Unità alleate di 10 gradi subito prima che chi la usa vada KO."
+      },
+      "1709280": {
+        "NAME": "Ottimosse iperspeciali doppie-G {{value}}",
+        "ABBR": "Ottimosse iperspeciali doppie-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi dopo aver sferrato l'Unimossa o la mossa UniDynamax di chi la usa."
+      },
+      "1709290": {
+        "NAME": "Unimossa squadra iperspeciale doppia {{value}}",
+        "ABBR": "Unimossa squadra iperspeciale doppia {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 2 gradi dopo che l'Unità nella tua squadra sferra l'Unimossa."
+      },
+      "1709300": {
+        "NAME": "Mossa iperfisica doppia Unibonus quadruplo",
+        "ABBR": "Mossa iperfisica doppia Unibonus quadruplo",
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi quando la sua mossa va a segno. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 4 gradi quando la sua mossa va a segno."
+      },
+      "1709310": {
+        "NAME": "Autozona Acciaio iper singola-G {{value}}",
+        "ABBR": "Autozona Acciaio iper singola-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado quando chi la usa trasforma la zona in una Zona Acciaio."
+      },
+      "1709370": {
+        "NAME": "Attaccampo Erboso azzeracosto e avvelenante",
+        "ABBR": "Attaccampo Erboso azzeracosto e avvelenante",
+        "DESC": "Applica l'effetto \"Prossimo a costo zero\" a chi la usa quando il suo attacco semplice va a segno mentre il campo di lotta è un Campo Erboso. Avvelena il bersaglio quando l'attacco semplice di chi la usa va a segno mentre il campo di lotta è un Campo Erboso."
+      },
+      "1709380": {
+        "NAME": "Zona Spettro attacco azzeracosto e scottante",
+        "ABBR": "Zona Spettro attacco azzeracosto e scottante",
+        "DESC": "Applica l'effetto \"Prossimo a costo zero\" a chi la usa quando il suo attacco semplice va a segno in presenza di una Zona Spettro. Scotta il bersaglio quando l'attacco semplice di chi la usa contro di esso va a segno in presenza di una Zona Spettro."
+      },
+      "1709390": {
+        "NAME": "Zona Drago attacco azzeracosto e paralizzante",
+        "ABBR": "Zona Drago attacco azzeracosto e paralizzante",
+        "DESC": "Applica l'effetto \"Prossimo a costo zero\" a chi la usa quando il suo attacco semplice va a segno in presenza di una Zona Drago. Paralizza il bersaglio quando l'attacco semplice di chi la usa contro di esso va a segno in presenza di una Zona Drago."
+      },
+      "1709400": {
+        "NAME": "UniTeracristal attacco azzeracosto {{value}}",
+        "ABBR": "UniTeracristal attacco azzeracosto {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di applicare l'effetto \"Prossimo a costo zero\" a chi la usa quando il suo attacco semplice va a segno mentre è Uniteracristallizzato."
+      },
+      "1709410": {
+        "NAME": "Autocampo Erboso iperefficace",
+        "ABBR": "Autocampo Erboso iperefficace",
+        "DESC": "Applica l'effetto \"Prossimo superefficace ↑\" a chi la usa quando trasforma il campo di lotta in un Campo Erboso."
+      },
+      "1709420": {
+        "NAME": "Unimossa squadra iperfisica singola {{value}}",
+        "ABBR": "Unimossa squadra iperfisica singola {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 1 grado dopo che l'Unità nella tua squadra sferra l'Unimossa."
+      },
+      "1709430": {
+        "NAME": "Ottimosse iper singole-G {{value}}",
+        "ABBR": "Ottimosse iper singole-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado dopo aver sferrato l'Unimossa o la mossa UniDynamax di chi la usa."
+      },
+      "1709440": {
+        "NAME": "Entrata iper {{value}}",
+        "ABBR": "Entrata iper {{value}}",
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di {{value}} grado quando entra in campo."
+      },
+      "1709470": {
+        "NAME": "Unimpatto scottante",
+        "ABBR": "Unimpatto scottante",
+        "DESC": "Scotta il bersaglio quando l'Unimossa di chi la usa che ha come bersaglio quell'avversario va a segno."
+      },
+      "1709490": {
+        "NAME": "Prima Unimossa iper {{value}}",
+        "ABBR": "Prima Unimossa iper {{value}}",
+        "DESC": "Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di chi la usa di {{value}} grado la prima volta che la sua Unimossa viene utilizzata in ogni lotta."
+      },
+      "1709540": {
+        "NAME": "Attaccampo Erboso iperfisico singolo-G {{value}}",
+        "ABBR": "Attaccampo Erboso iperfisico singolo-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado quando l'attacco semplice di chi la usa va a segno mentre il campo di lotta è un Campo Erboso."
+      },
+      "1709550": {
+        "NAME": "Cerchiattacco iperfisico singolo-G {{value}}",
+        "ABBR": "Cerchiattacco iperfisico singolo-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'effetto \"Prossima mossa fisica ↑\" di tutte le Unità alleate di 1 grado quando l'attacco semplice di chi la usa va a segno mentre al campo alleato è applicata una Cerchia."
       },
       "1801010": {
         "NAME": "Cocciutaggine {{value}}",
@@ -17011,6 +18004,11 @@
         "NAME": "Status quo & Tecniche che fanno colpo",
         "ABBR": "Status quo & Tecniche che fanno colpo",
         "DESC": "Rende chi la usa immune dalle riduzioni delle statistiche. Salvo casi particolari, quando i seguenti attacchi di chi la usa vanno a segno diventano brutti colpi: mosse del Pokémon o Unimossa."
+      },
+      "1802270": {
+        "NAME": "Zona Drago status quo-G",
+        "ABBR": "Zona Drago status quo-G",
+        "DESC": "Rende tutte le Unità alleate immuni alle riduzioni delle statistiche in presenza di una Zona Drago."
       },
       "1803010": {
         "NAME": "Passamano",
@@ -17660,7 +18658,7 @@
       "1809120": {
         "NAME": "Unidifesa {{value}}",
         "ABBR": "Unidifesa {{value}}",
-        "DESC": "Aumenta la Difesa di chi la usa di {{value}} gradi dopo aver sferrato un'Unimossa."
+        "DESC": "Aumenta la Difesa di chi la usa di {{value}} grado dopo aver sferrato la sua Unimossa."
       },
       "1809130": {
         "NAME": "Uniprecisione {{value}}",
@@ -19357,6 +20355,16 @@
         "ABBR": "Attacco spossante {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre la Difesa e la Velocità del bersaglio di 1 grado quando l'attacco semplice di chi la usa contro di esso va a segno."
       },
+      "1812590": {
+        "NAME": "Confusattacco sconfortante doppiogrado {{value}}",
+        "ABBR": "Confusattacco sconfortante doppiogrado {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre la Difesa Speciale del bersaglio di 2 gradi quando l'attacco semplice di chi la usa va a segno contro un avversario confuso."
+      },
+      "1812600": {
+        "NAME": "Attacco rompidifesa triplogrado {{value}}",
+        "ABBR": "Attacco rompidifesa triplogrado {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre la Difesa del bersaglio di 3 gradi quando l'attacco semplice di chi la usa contro di esso va a segno."
+      },
       "1812610": {
         "NAME": "Primentrata colprobabile {{value}}",
         "ABBR": "Primentr. colprob. {{value}}",
@@ -19376,6 +20384,106 @@
         "NAME": "Tecniche d'impatto sconfortanti doppiogrado  {{value}}",
         "ABBR": "Tecniche d'impatto sconfortanti doppiogrado  {{value}}",
         "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre la Difesa e la Difesa Speciale del bersaglio di 2 gradi quando il Pokémon di chi la usa sferra una mossa contro quell'avversario. Ha una certa probabilità ({{chance}}%) di ridurre la Difesa e la Difesa Speciale del bersaglio di 2 gradi dopo aver sferrato l'Unimossa di chi la usa contro quell'avversario."
+      },
+      "1812650": {
+        "NAME": "Impatto peggiorandom unico doppiogrado {{value}}",
+        "ABBR": "Impatto peggiorandom unico doppiogrado {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre una statistica a caso del bersaglio di 2 gradi tra le seguenti quando la mossa di chi la usa che ha come bersaglio quell'avversario va a segno: Attacco, Difesa, Attacco Speciale, Difesa Speciale, Velocità, precisione o elusione. (Viene ridotta la stessa statistica per tutti gli avversari, quando la mossa va a segno contro molteplici bersagli.)"
+      },
+      "1812660": {
+        "NAME": "Peggiorandom unico doppio {{value}}",
+        "ABBR": "Peggiorandom unico doppio {{value}}",
+        "DESC": "Conferisce l'effetto seguente 2 volte quando l'attacco semplice di chi la usa va a segno: Ha una certa probabilità ({{chance}}%) di ridurre una statistica a caso del bersaglio di 1 grado tra le seguenti: Attacco, Difesa, Attacco Speciale, Difesa Speciale, Velocità, precisione o elusione. (Viene ridotta la stessa statistica per tutti gli avversari.)"
+      },
+      "1812670": {
+        "NAME": "Primentrata iperdifensiva-G {{value}}",
+        "ABBR": "Primentrata iperdifensiva-G {{value}}",
+        "DESC": "Aumenta la Difesa e la Difesa Speciale di tutte le Unità alleate di {{value}} grado la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "1812680": {
+        "NAME": "Entrata offensiva sestuplogrado colprobabile monogrado",
+        "ABBR": "Entrata offensiva sestuplogrado colprobabile monogrado",
+        "DESC": "Aumenta l'Attacco di chi la usa di 6 gradi quando entra in campo. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 1 grado quando entra in campo."
+      },
+      "1812690": {
+        "NAME": "Impatto imponente doppiogrado {{value}}",
+        "ABBR": "Impatto imponente doppiogrado {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre l'Attacco del bersaglio di 2 gradi quando la mossa di chi la usa che ha come bersaglio quell'avversario va a segno."
+      },
+      "1812700": {
+        "NAME": "Impatto frastornante doppiogrado {{value}}",
+        "ABBR": "Impatto frastornante doppiogrado {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre l'Attacco Speciale del bersaglio di 2 gradi quando la mossa di chi la usa che ha come bersaglio quell'avversario va a segno."
+      },
+      "1812710": {
+        "NAME": "Attacco disarmante doppiogrado {{value}}",
+        "ABBR": "Attacco disarmante doppiogrado {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre l'Attacco e la Difesa del bersaglio di 2 gradi quando l'attacco semplice di chi la usa contro di esso va a segno."
+      },
+      "1812720": {
+        "NAME": "Primentrata arguta monogrado colprobabile triplogrado",
+        "ABBR": "Primentrata arguta monogrado colprobabile triplogrado",
+        "DESC": "Aumenta l'Attacco Speciale di chi la usa di 1 grado la prima volta che entra in campo in ogni lotta. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi la prima volta che entra in campo in ogni lotta."
+      },
+      "1812730": {
+        "NAME": "Uso statomossa d'impatto disorientante {{value}}",
+        "ABBR": "Uso statomossa d'impatto disorientante {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre l'Attacco e l'Attacco Speciale del bersaglio di 1 grado quando il Pokémon di chi la usa sferra una mossa di stato contro quell'avversario."
+      },
+      "1812740": {
+        "NAME": "Attaccampo Erboso rompidifesa doppiogrado {{value}}",
+        "ABBR": "Attaccampo Erboso rompidifesa doppiogrado {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre la Difesa del bersaglio di 2 gradi quando l'attacco semplice di chi la usa va a segno mentre il campo di lotta è un Campo Erboso."
+      },
+      "1812750": {
+        "NAME": "Zona Roccia attacco imponente doppiogrado {{value}}",
+        "ABBR": "Zona Roccia attacco imponente doppiogrado {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre l'Attacco del bersaglio di 2 gradi quando l'attacco semplice di chi la usa va a segno in presenza di una Zona Roccia."
+      },
+      "1812760": {
+        "NAME": "Confusattacco malus doppiogrado {{value}}",
+        "ABBR": "Confusattacco malus doppiogrado {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre una statistica a caso del bersaglio di 2 gradi tra le seguenti quando l'attacco semplice di chi la usa va a segno contro un avversario confuso: Attacco, Difesa, Attacco Speciale, Difesa Speciale, Velocità, precisione o elusione."
+      },
+      "1812770": {
+        "NAME": "Attacco disarmante {{value}}",
+        "ABBR": "Attacco disarmante {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre l'Attacco e la Difesa del bersaglio di 1 grado quando l'attacco semplice di chi la usa contro di esso va a segno."
+      },
+      "1812780": {
+        "NAME": "Fiacchezza riflessa",
+        "ABBR": "Fiacchezza riflessa",
+        "DESC": "Quando la statistica di chi la usa viene ridotta da un avversario, la quantità ridotta viene invece riflessa sull'avversario."
+      },
+      "1812790": {
+        "NAME": "Autocerchia turbo doppiogrado-G {{value}}",
+        "ABBR": "Autocerchia turbo doppiogrado-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare la Velocità di tutte le Unità alleate di 2 gradi quando chi la usa applica una Cerchia al campo alleato."
+      },
+      "1812810": {
+        "NAME": "Attaccampo Elettrico fiaccante {{value}}",
+        "ABBR": "Attaccampo Elettrico fiaccante {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di ridurre una statistica a caso del bersaglio di 1 grado tra le seguenti quando l'attacco semplice di chi la usa va a segno mentre il campo di lotta è un Campo Elettrico: Attacco, Difesa, Attacco Speciale, Difesa Speciale, Velocità, precisione o elusione."
+      },
+      "1812820": {
+        "NAME": "Primentrata sprint e colprobabile triplogrado",
+        "ABBR": "Primentrata sprint e colprobabile triplogrado",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi la prima volta che entra in campo in ogni lotta."
+      },
+      "1812840": {
+        "NAME": "Attacco offensivo doppiogrado-G {{value}}",
+        "ABBR": "Attacco offensivo doppiogrado-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'Attacco di tutte le Unità alleate di 2 gradi quando l'attacco semplice di chi la usa va a segno."
+      },
+      "1812850": {
+        "NAME": "Attacco arguto doppiogrado-G {{value}}",
+        "ABBR": "Attacco arguto doppiogrado-G {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di aumentare l'Attacco Speciale di tutte le Unità alleate di 2 gradi quando l'attacco semplice di chi la usa va a segno."
+      },
+      "1812860": {
+        "NAME": "Prima Unimossa peggiorandom decuplo-G",
+        "ABBR": "Prima Unimossa peggiorandom decuplo-G",
+        "DESC": "Conferisce l'effetto seguente 10 volte la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta: Riduce a caso una delle seguenti statistiche di tutte le Unità avversarie di 1 grado: Attacco, Difesa, Attacco Speciale, Difesa Speciale, Velocità, precisione o elusione."
       },
       "1901010": {
         "NAME": "Ignoracampo",
@@ -19820,7 +20928,7 @@
       "1902880": {
         "NAME": "Cerchia di Galar (danni speciali) duratura {{value}}",
         "ABBR": "Cerchia Galar (spe) duratura {{value}}",
-        "DESC": "Aumenta la durata di Cerchia di Galar (danni speciali) quando al campo alleato viene applicata Cerchia di Galar (danni speciali)."
+        "DESC": "Aumenta la durata di Cerchia di Galar (danni speciali) quando al campo alleato viene applicata una Cerchia di Galar (danni speciali)."
       },
       "1902890": {
         "NAME": "Primafatica grandinante",
@@ -19860,7 +20968,7 @@
       "1902960": {
         "NAME": "Cerchia di Pasio (difensiva) duratura {{value}}",
         "ABBR": "Cerchia Pasio (dif) duratura {{value}}",
-        "DESC": "Aumenta la durata di Cerchia di Pasio (difensiva) quando al campo alleato viene applicata Cerchia di Pasio (difensiva)."
+        "DESC": "Aumenta la durata di Cerchia di Pasio (difensiva) quando al campo alleato viene applicata una Cerchia di Pasio (difensiva)."
       },
       "1902970": {
         "NAME": "Unimossa Zona Ghiaccio",
@@ -20275,12 +21383,12 @@
       "1905690": {
         "NAME": "Cerchia di Kalos (difensiva) duratura {{value}}",
         "ABBR": "Cerchia di Kalos (difensiva) duratura {{value}}",
-        "DESC": "Aumenta la durata di Cerchia di Kalos (difensiva) quando al campo alleato viene applicata Cerchia di Kalos (difensiva)."
+        "DESC": "Aumenta la durata di Cerchia di Kalos (difensiva) quando al campo alleato viene applicata una Cerchia di Kalos (difensiva)."
       },
       "1905700": {
         "NAME": "Cerchia di Galar (difensiva) duratura {{value}}",
         "ABBR": "Cerchia di Galar (difensiva) duratura {{value}}",
-        "DESC": "Aumenta la durata di Cerchia di Galar (difensiva) quando al campo alleato viene applicata Cerchia di Galar (difensiva)."
+        "DESC": "Aumenta la durata di Cerchia di Galar (difensiva) quando al campo alleato viene applicata una Cerchia di Galar (difensiva)."
       },
       "1905710": {
         "NAME": "Primentrata Cerchia di Sinnoh (difensiva)",
@@ -20430,7 +21538,7 @@
       "1906000": {
         "NAME": "Cerchia di Galar (difensiva) primentrata e duratura {{value}}",
         "ABBR": "Cerchia di Galar (dif.) primentr. e duratura {{value}}",
-        "DESC": "Applica una Cerchia di Galar (difensiva) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta. Aumenta la durata di Cerchia di Galar (difensiva) quando al campo alleato viene applicata Cerchia di Galar (difensiva)."
+        "DESC": "Applica una Cerchia di Galar (difensiva) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta. Aumenta la durata di Cerchia di Galar (difensiva) quando al campo alleato viene applicata una Cerchia di Galar (difensiva)."
       },
       "1906010": {
         "NAME": "Primentrata Cerchia di Sinnoh (danni speciali)",
@@ -20476,6 +21584,16 @@
         "NAME": "Prima Unimossa Cerchia di Unima (danni fisici)",
         "ABBR": "Prima Unimossa Cerchia di Unima (danni fisici)",
         "DESC": "Applica una Cerchia di Unima (danni fisici) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "1906100": {
+        "NAME": "Cerchia di Paldea (danni speciali) duratura {{value}}",
+        "ABBR": "Cerchia di Paldea (danni speciali) duratura {{value}}",
+        "DESC": "Aumenta la durata di Cerchia di Paldea (danni speciali) quando al campo alleato viene applicata una Cerchia di Paldea (danni speciali)."
+      },
+      "1906110": {
+        "NAME": "Uso prima statomossa Zona Ghiaccio EX",
+        "ABBR": "Uso prima statomossa Zona Ghiaccio EX",
+        "DESC": "Trasforma la zona in una Zona Ghiaccio EX la prima volta che il Pokémon di chi la usa sferra una mossa di stato in ogni lotta. (Una Zona Ghiaccio EX aumenta la potenza degli attacchi di tipo Ghiaccio.)"
       },
       "1906120": {
         "NAME": "Primentrata Cerchia di Pasio (difensiva)",
@@ -20527,10 +21645,290 @@
         "ABBR": "Campo Erboso sincromossa e duraturo",
         "DESC": "Trasforma il campo di lotta in un Campo Erboso quando chi la usa manda a segno la sua sincromossa. Aumenta la durata del Campo Erboso quando il campo di lotta si trasforma in un Campo Erboso mentre chi la usa è in campo."
       },
+      "1906220": {
+        "NAME": "Uso prima statomossa Zona Folletto",
+        "ABBR": "Uso prima statomossa Zona Folletto",
+        "DESC": "Trasforma la zona in una Zona Folletto la prima volta che il Pokémon di chi la usa sferra una mossa di stato in ogni lotta. (Una Zona Folletto aumenta la potenza degli attacchi di tipo Folletto.)"
+      },
       "1906230": {
         "NAME": "Primattacco Zona Coleottero",
         "ABBR": "Primatt. Zona Coleottero",
         "DESC": "Trasforma la zona in una Zona Coleottero la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Coleottero aumenta la potenza degli attacchi di tipo Coleottero.)"
+      },
+      "1906240": {
+        "NAME": "Primo Unicampo Psichico",
+        "ABBR": "Primo Unicampo Psichico",
+        "DESC": "Trasforma il campo di lotta in un Campo Psichico la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "1906250": {
+        "NAME": "Primentrata portasabbia perenne",
+        "ABBR": "Primentrata portasabbia perenne",
+        "DESC": "Causa una tempesta di sabbia la prima volta che chi la usa entra in campo in ogni lotta. Rende permanente la durata solo della tempesta di sabbia attivata in questo momento."
+      },
+      "1906260": {
+        "NAME": "Primentrata schiarita perenne",
+        "ABBR": "Primentrata schiarita perenne",
+        "DESC": "Intensifica i raggi solari la prima volta che chi la usa entra in campo in ogni lotta. Rende permanente la durata solo della luce solare intensa attivata in questo momento."
+      },
+      "1906270": {
+        "NAME": "Primentrata Zona Volante perenne",
+        "ABBR": "Primentrata Zona Volante perenne",
+        "DESC": "Trasforma la zona in una Zona Volante la prima volta che chi la usa entra in campo in ogni lotta. (Una Zona Volante aumenta la potenza degli attacchi di tipo Volante.) Rende permanente la durata solo della Zona Volante attivata in questo momento."
+      },
+      "1906280": {
+        "NAME": "Entrata campo smorzadanno fisico",
+        "ABBR": "Entrata campo smorzadanno fisico",
+        "DESC": "Applica l'effetto \"Riduzione danni fisici\" al campo alleato quando chi la usa entra in campo."
+      },
+      "1906290": {
+        "NAME": "Entrata campo smorzadanno speciale",
+        "ABBR": "Entrata campo smorzadanno speciale",
+        "DESC": "Applica l'effetto \"Riduzione danni speciali\" al campo alleato quando chi la usa entra in campo."
+      },
+      "1906300": {
+        "NAME": "Primentrata Cerchia di Kanto (danni speciali)",
+        "ABBR": "Primentrata Cerchia di Kanto (danni speciali)",
+        "DESC": "Applica una Cerchia di Kanto (danni speciali) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "1906310": {
+        "NAME": "Primattacco Zona Ghiaccio",
+        "ABBR": "Primattacco Zona Ghiaccio",
+        "DESC": "Trasforma la zona in una Zona Ghiaccio la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Ghiaccio aumenta la potenza degli attacchi di tipo Ghiaccio.)"
+      },
+      "1906320": {
+        "NAME": "Uso prima statomossa Zona Terra",
+        "ABBR": "Uso prima statomossa Zona Terra",
+        "DESC": "Trasforma la zona in una Zona Terra la prima volta che il Pokémon di chi la usa sferra una mossa di stato in ogni lotta. (Una Zona Terra aumenta la potenza degli attacchi di tipo Terra.)"
+      },
+      "1906330": {
+        "NAME": "Primavoce Zona Volante",
+        "ABBR": "Primavoce Zona Volante",
+        "DESC": "Trasforma la zona in una Zona Volante la prima volta che l'Allenatore di chi la usa sferra una mossa in ogni lotta. (Una Zona Volante aumenta la potenza degli attacchi di tipo Volante.)"
+      },
+      "1906340": {
+        "NAME": "Zona Veleno prima Unimossa e duratura {{value}}",
+        "ABBR": "Zona Veleno prima Unimossa e duratura {{value}}",
+        "DESC": "Trasforma la zona in una Zona Veleno la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. (Una Zona Veleno aumenta la potenza degli attacchi di tipo Veleno.) Aumenta la durata della Zona Veleno quando la zona si trasforma in una Zona Veleno mentre chi la usa è in campo."
+      },
+      "1906360": {
+        "NAME": "UniDynamax Zona Buio",
+        "ABBR": "UniDynamax Zona Buio",
+        "DESC": "Trasforma la zona in una Zona Buio dopo aver sferrato la mossa UniDynamax di chi la usa. (Una Zona Buio aumenta la potenza degli attacchi di tipo Buio.)"
+      },
+      "1906370": {
+        "NAME": "Primattacco Zona Folletto",
+        "ABBR": "Primattacco Zona Folletto",
+        "DESC": "Trasforma la zona in una Zona Folletto la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Folletto aumenta la potenza degli attacchi di tipo Folletto.)"
+      },
+      "1906380": {
+        "NAME": "Primattacco Cerchia di Johto (difensiva)",
+        "ABBR": "Primattacco Cerchia di Johto (difensiva)",
+        "DESC": "Applica una Cerchia di Johto (difensiva) al campo alleato la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta."
+      },
+      "1906390": {
+        "NAME": "Campo Erboso e Zona Roccia duraturi {{value}}",
+        "ABBR": "Campo Erboso e Zona Roccia duraturi {{value}}",
+        "DESC": "Aumenta la durata del Campo Erboso quando il campo di lotta si trasforma in un Campo Erboso mentre chi la usa è in campo. Aumenta la durata della Zona Roccia quando la zona si trasforma in una Zona Roccia mentre chi la usa è in campo."
+      },
+      "1906400": {
+        "NAME": "Mossa burrascosa",
+        "ABBR": "Mossa burrascosa",
+        "DESC": "Causa la pioggia quando la mossa di chi la usa va a segno."
+      },
+      "1906410": {
+        "NAME": "Mossa Zona Buio",
+        "ABBR": "Mossa Zona Buio",
+        "DESC": "Trasforma la zona in una Zona Buio quando la mossa di chi la usa va a segno. (Una Zona Buio aumenta la potenza degli attacchi di tipo Buio.)"
+      },
+      "1906420": {
+        "NAME": "Mossa burrascosa e Zona Buio",
+        "ABBR": "Mossa burrascosa e Zona Buio",
+        "DESC": "Causa la pioggia quando la mossa di chi la usa va a segno. Trasforma la zona in una Zona Buio quando la mossa di chi la usa va a segno. (Una Zona Buio aumenta la potenza degli attacchi di tipo Buio.)"
+      },
+      "1906430": {
+        "NAME": "Pioggia e Zona Buio durature {{value}}",
+        "ABBR": "Pioggia e Zona Buio durature {{value}}",
+        "DESC": "Quando piove mentre chi la usa è in campo, aumenta la durata della pioggia. Aumenta la durata della Zona Buio quando la zona si trasforma in una Zona Buio mentre chi la usa è in campo."
+      },
+      "1906440": {
+        "NAME": "Prima Uniburrasca & Piove sul bagnato {{value}}",
+        "ABBR": "Prima Uniburrasca & Piove sul bagnato {{value}}",
+        "DESC": "Causa la pioggia la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Quando piove mentre chi la usa è in campo, aumenta la durata della pioggia."
+      },
+      "1906450": {
+        "NAME": "Cerchia di Sinnoh (danni fisici) duratura {{value}}",
+        "ABBR": "Cerchia di Sinnoh (danni fisici) duratura {{value}}",
+        "DESC": "Aumenta la durata di Cerchia di Sinnoh (danni fisici) quando al campo alleato viene applicata una Cerchia di Sinnoh (danni fisici)."
+      },
+      "1906460": {
+        "NAME": "Zona Roccia primattacco e duratura {{value}}",
+        "ABBR": "Zona Roccia primattacco e duratura {{value}}",
+        "DESC": "Trasforma la zona in una Zona Roccia la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Roccia aumenta la potenza degli attacchi di tipo Roccia.) Aumenta la durata della Zona Roccia quando la zona si trasforma in una Zona Roccia mentre chi la usa è in campo."
+      },
+      "1906470": {
+        "NAME": "Prima sincromossa Zona Lotta EX",
+        "ABBR": "Prima sincromossa Zona Lotta EX",
+        "DESC": "Trasforma la zona in una Zona Lotta EX la prima volta che chi la usa manda a segno la sua sincromossa in ogni lotta. (Una Zona Lotta EX aumenta la potenza degli attacchi di tipo Lotta.)"
+      },
+      "1906480": {
+        "NAME": "Tripla Cerchia di Kalos duratura {{value}}",
+        "ABBR": "Tripla Cerchia di Kalos duratura {{value}}",
+        "DESC": "Aumenta la durata dei seguenti effetti sul campo quando vengono applicati al campo alleato: - Cerchia di Kalos (danni fisici) - Cerchia di Kalos (danni speciali) - Cerchia di Kalos (difensiva)"
+      },
+      "1906490": {
+        "NAME": "Cerchia di Paldea (danni fisici) duratura {{value}}",
+        "ABBR": "Cerchia di Paldea (danni fisici) duratura {{value}}",
+        "DESC": "Aumenta la durata di Cerchia di Paldea (danni fisici) quando al campo alleato viene applicata una Cerchia di Paldea (danni fisici)."
+      },
+      "1906500": {
+        "NAME": "Autozona Acciaio Cerchia di Galar (difensiva)",
+        "ABBR": "Autozona Acciaio Cerchia di Galar (difensiva)",
+        "DESC": "Applica una Cerchia di Galar (difensiva) al campo alleato quando chi la usa trasforma la zona in una Zona Acciaio."
+      },
+      "1906510": {
+        "NAME": "Primentrata campo smorzadanno fisico perenne",
+        "ABBR": "Primentrata campo smorzadanno fisico perenne",
+        "DESC": "Applica l'effetto \"Riduzione danni fisici\" al campo alleato la prima volta che chi la usa entra in campo in ogni lotta. Rende permanente la durata solo dell'effetto \"Riduzione danni fisici\" attivato in questo momento."
+      },
+      "1906520": {
+        "NAME": "Primentrata campo smorzadanno speciale perenne",
+        "ABBR": "Primentrata campo smorzadanno speciale perenne",
+        "DESC": "Applica l'effetto \"Riduzione danni speciali\" al campo alleato la prima volta che chi la usa entra in campo in ogni lotta. Rende permanente la durata solo dell'effetto \"Riduzione danni speciali\" attivato in questo momento."
+      },
+      "1906560": {
+        "NAME": "Cerchia di Kanto (danni fisici) duratura {{value}}",
+        "ABBR": "Cerchia di Kanto (danni fisici) duratura {{value}}",
+        "DESC": "Aumenta la durata di Cerchia di Kanto (danni fisici) quando al campo alleato viene applicata una Cerchia di Kanto (danni fisici)."
+      },
+      "1906570": {
+        "NAME": "Cerchia di Galar (danni fisici) duratura {{value}}",
+        "ABBR": "Cerchia di Galar (danni fisici) duratura {{value}}",
+        "DESC": "Aumenta la durata di Cerchia di Galar (danni fisici) quando al campo alleato viene applicata una Cerchia di Galar (danni fisici)."
+      },
+      "1906580": {
+        "NAME": "Primo Unicampo Cerchia di Johto (danni fisici)",
+        "ABBR": "Primo Unicampo Cerchia di Johto (danni fisici)",
+        "DESC": "Applica una Cerchia di Johto (danni fisici) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "1906590": {
+        "NAME": "Primo Unicampo Cerchia di Johto (danni speciali)",
+        "ABBR": "Primo Unicampo Cerchia di Johto (danni speciali)",
+        "DESC": "Applica una Cerchia di Johto (danni speciali) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "1906600": {
+        "NAME": "Primo Unicampo Cerchia di Galar (danni fisici)",
+        "ABBR": "Primo Unicampo Cerchia di Galar (danni fisici)",
+        "DESC": "Applica una Cerchia di Galar (danni fisici) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "1906610": {
+        "NAME": "Primo Unicampo Cerchia di Galar (danni speciali)",
+        "ABBR": "Primo Unicampo Cerchia di Galar (danni speciali)",
+        "DESC": "Applica una Cerchia di Galar (danni speciali) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "1906620": {
+        "NAME": "Primo Terascoppio: astrogemma Zona Normale",
+        "ABBR": "Primo Terascoppio: astrogemma Zona Normale",
+        "DESC": "Trasforma la zona in una Zona Normale la prima volta che Terascoppio: astrogemma di chi la usa va a segno in ogni lotta. (Una Zona Normale aumenta la potenza degli attacchi di tipo Normale.)"
+      },
+      "1906630": {
+        "NAME": "Tripla Cerchia di Kanto prima Unimossa e duratura {{value}}",
+        "ABBR": "Tripla Cerchia di Kanto prima Unimossa e duratura {{value}}",
+        "DESC": "Applica una Cerchia di Kanto (danni fisici), Cerchia di Kanto (danni speciali) e Cerchia di Kanto (difensiva) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Aumenta la durata dei seguenti effetti sul campo quando vengono applicati al campo alleato: - Cerchia di Kanto (danni fisici) - Cerchia di Kanto (danni speciali) - Cerchia di Kanto (difensiva)"
+      },
+      "1906640": {
+        "NAME": "Primattacco Campo Elettrico",
+        "ABBR": "Primattacco Campo Elettrico",
+        "DESC": "Trasforma il campo di lotta in un Campo Elettrico la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta."
+      },
+      "1906650": {
+        "NAME": "Primentrata Cerchia di Kanto (danni fisici)",
+        "ABBR": "Primentrata Cerchia di Kanto (danni fisici)",
+        "DESC": "Applica una Cerchia di Kanto (danni fisici) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "1906660": {
+        "NAME": "Primentrata Cerchia di Kanto (difensiva)",
+        "ABBR": "Primentrata Cerchia di Kanto (difensiva)",
+        "DESC": "Applica una Cerchia di Kanto (difensiva) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "1906670": {
+        "NAME": "Zona Buio primattacco e duratura {{value}}",
+        "ABBR": "Zona Buio primattacco e duratura {{value}}",
+        "DESC": "Trasforma la zona in una Zona Buio la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Buio aumenta la potenza degli attacchi di tipo Buio.) Aumenta la durata della Zona Buio quando la zona si trasforma in una Zona Buio mentre chi la usa è in campo."
+      },
+      "1906680": {
+        "NAME": "Primentrata Zona Folletto perenne",
+        "ABBR": "Primentrata Zona Folletto perenne",
+        "DESC": "Trasforma la zona in una Zona Folletto la prima volta che chi la usa entra in campo in ogni lotta. (Una Zona Folletto aumenta la potenza degli attacchi di tipo Folletto.) Rende permanente la durata solo della Zona Folletto attivata in questo momento."
+      },
+      "1906710": {
+        "NAME": "Primentrata Zona Buio perenne",
+        "ABBR": "Primentrata Zona Buio perenne",
+        "DESC": "Trasforma la zona in una Zona Buio la prima volta che chi la usa entra in campo in ogni lotta. (Una Zona Buio aumenta la potenza degli attacchi di tipo Buio.) Rende permanente la durata solo della Zona Buio attivata in questo momento."
+      },
+      "1906720": {
+        "NAME": "Zona Lotta prima Unimossa e barriercolpo-G",
+        "ABBR": "Zona Lotta prima Unimossa e barriercolpo-G",
+        "DESC": "Trasforma la zona in una Zona Lotta la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. (Una Zona Lotta aumenta la potenza degli attacchi di tipo Lotta.) Protegge tutte le Unità alleate dai brutti colpi in presenza di una Zona Lotta."
+      },
+      "1906730": {
+        "NAME": "Prima Sferapulsar onnipotente zero Cerchia di Kalos (danni speciali)",
+        "ABBR": "Prima Sferapulsar S 0 Cerchia di Kalos (speciali)",
+        "DESC": "Applica una Cerchia di Kalos (danni speciali) al campo alleato la prima volta che gli utilizzi residui di Sferapulsar onnipotente di chi la usa sono pari a 0 in ogni lotta."
+      },
+      "1906740": {
+        "NAME": "Cerchia di Kalos (danni speciali) duratura {{value}}",
+        "ABBR": "Cerchia di Kalos (danni speciali) duratura {{value}}",
+        "DESC": "Aumenta la durata di Cerchia di Kalos (danni speciali) quando al campo alleato viene applicata una Cerchia di Kalos (danni speciali)."
+      },
+      "1906750": {
+        "NAME": "Primo Spaccaroccia: cieli sfondati zero Cerchia di Kalos (danni fisici)",
+        "ABBR": "Primo Spaccaroccia S 0 Cerchia di Kalos (fisici)",
+        "DESC": "Applica una Cerchia di Kalos (danni fisici) al campo alleato la prima volta che gli utilizzi residui di Spaccaroccia: cieli sfondati di chi la usa sono pari a 0 in ogni lotta."
+      },
+      "1906760": {
+        "NAME": "Cerchia di Kalos (danni fisici) duratura {{value}}",
+        "ABBR": "Cerchia di Kalos (danni fisici) duratura {{value}}",
+        "DESC": "Aumenta la durata di Cerchia di Kalos (danni fisici) quando al campo alleato viene applicata una Cerchia di Kalos (danni fisici)."
+      },
+      "1906770": {
+        "NAME": "Smorzadanno duraturo {{value}}",
+        "ABBR": "Smorzadanno duraturo {{value}}",
+        "DESC": "Aumenta la durata dell'effetto \"Riduzione danni fisici\" quando al campo alleato viene applicato l'effetto \"Riduzione danni fisici\". Aumenta la durata dell'effetto \"Riduzione danni speciali\" quando al campo alleato viene applicato l'effetto \"Riduzione danni speciali\"."
+      },
+      "1906780": {
+        "NAME": "Mossacampo smorzadanno {{value}}",
+        "ABBR": "Mossacampo smorzadanno {{value}}",
+        "DESC": "Ha una certa probabilità ({{chance}}%) di applicare gli effetti \"Riduzione danni fisici\" e \"Riduzione danni speciali\" al campo alleato quando la mossa di chi la usa va a segno."
+      },
+      "1906790": {
+        "NAME": "Primattacco Zona Volante",
+        "ABBR": "Primattacco Zona Volante",
+        "DESC": "Trasforma la zona in una Zona Volante la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Volante aumenta la potenza degli attacchi di tipo Volante.)"
+      },
+      "1906830": {
+        "NAME": "Zona Normale prima Unimossa e duratura {{value}}",
+        "ABBR": "Zona Normale prima Unimossa e duratura {{value}}",
+        "DESC": "Trasforma la zona in una Zona Normale la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. (Una Zona Normale aumenta la potenza degli attacchi di tipo Normale.) Aumenta la durata della Zona Normale quando la zona si trasforma in una Zona Normale mentre chi la usa è in campo."
+      },
+      "1906840": {
+        "NAME": "Entrata Campo Psichico",
+        "ABBR": "Entrata Campo Psichico",
+        "DESC": "Trasforma il campo di lotta in un Campo Psichico quando chi la usa entra in campo."
+      },
+      "1906850": {
+        "NAME": "Primattacco Campo Erboso",
+        "ABBR": "Primattacco Campo Erboso",
+        "DESC": "Trasforma il campo di lotta in un Campo Erboso la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta."
+      },
+      "1906860": {
+        "NAME": "Campo Erboso primattacco e duraturo {{value}}",
+        "ABBR": "Campo Erboso primattacco e duraturo {{value}}",
+        "DESC": "Trasforma il campo di lotta in un Campo Erboso la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. Aumenta la durata del Campo Erboso quando il campo di lotta si trasforma in un Campo Erboso mentre chi la usa è in campo."
+      },
+      "1906880": {
+        "NAME": "Primattacco Zona Lotta",
+        "ABBR": "Primattacco Zona Lotta",
+        "DESC": "Trasforma la zona in una Zona Lotta la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Lotta aumenta la potenza degli attacchi di tipo Lotta.)"
       },
       "2001010": {
         "NAME": "Schivasabbia",
@@ -20601,6 +21999,21 @@
         "NAME": "Zona Normale barriercolpo-G",
         "ABBR": "Zona Normale barriercolpo-G",
         "DESC": "Protegge tutte le Unità alleate dai brutti colpi in presenza di una Zona Normale."
+      },
+      "2101140": {
+        "NAME": "Campo barriercolpo",
+        "ABBR": "Campo barriercolpo",
+        "DESC": "Protegge chi la usa dai brutti colpi quando è applicato un Campo."
+      },
+      "2101150": {
+        "NAME": "Zona Volante barriercolpo",
+        "ABBR": "Zona Volante barriercolpo",
+        "DESC": "Protegge chi la usa dai brutti colpi in presenza di una Zona Volante."
+      },
+      "2101160": {
+        "NAME": "Zona Drago barriercolpo-G",
+        "ABBR": "Zona Drago barriercolpo-G",
+        "DESC": "Protegge tutte le Unità alleate dai brutti colpi in presenza di una Zona Drago."
       },
       "2201010": {
         "NAME": "Atmoscura {{value}}",
@@ -20742,6 +22155,11 @@
         "ABBR": "Tecniche d'attacco diffuse",
         "DESC": "Quando il Pokémon di chi la usa sferra un attacco semplice che bersaglia se stesso o un alleato e va a segno, tutte le Unità alleate diventano il bersaglio di quell'attacco. Quando il Pokémon di chi la usa sferra un attacco semplice che bersaglia un avversario e va a segno, tutte le Unità avversarie diventano il bersaglio di quell'attacco. Quando chi la usa attacca un avversario con la sua Unimossa, tutte le Unità avversarie diventano il bersaglio. La potenza e la probabilità di applicare effetti aggiuntivi delle mosse e delle Unimosse influenzate da questa abilità passiva non vengono ridotte anche se sono presenti molteplici bersagli."
       },
+      "2301230": {
+        "NAME": "UniTeracristal pentaumento {{value}}",
+        "ABBR": "UniTeracristal pentaumento {{value}}",
+        "DESC": "Mentre è Uniteracristallizzato, l'Attacco, la Difesa, l'Attacco Speciale, la Difesa Speciale e la Velocità di chi la usa aumentano del {{value}}0%."
+      },
       "2401010": {
         "NAME": "Fendinormale",
         "ABBR": "Fendinormale",
@@ -20866,6 +22284,11 @@
         "NAME": "Rombo di tuono antico",
         "ABBR": "Rombo di tuono antico",
         "DESC": "Ripristina 1 utilizzo delle mosse definite \"Attacco veloce\" alla voce \"Effetti\" per chi la usa quando usa Capsula energetica o quando un alleato intensifica i raggi solari."
+      },
+      "2501040": {
+        "NAME": "Spade luminose del futuro",
+        "ABBR": "Spade luminose del futuro",
+        "DESC": "Conferisce tutti gli effetti seguenti quando chi la usa sferra Capsula energetica o quando un alleato trasforma il campo di lotta in un Campo Elettrico: Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi."
       },
       "2801010": {
         "NAME": "Spirito di Galar",
@@ -21082,6 +22505,36 @@
         "ABBR": "Esperto di Pokémon di Hisui",
         "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (20%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (25%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Sinnoh\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (15%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (50%) e di una certa percentuale (31%) per la riduzione dei danni. Riduce la Protezione Spettro di tutte le Unità avversarie di 1 grado la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
       },
+      "2804050": {
+        "NAME": "Donna di classe da Nordivia",
+        "ABBR": "Donna di classe da Nordivia",
+        "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (20%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (25%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Paldea\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (15%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (50%) e di una certa percentuale (31%) per la riduzione dei danni. Aumenta la durata di Cerchia di Paldea (danni speciali) quando al campo alleato viene applicata una Cerchia di Paldea (danni speciali)."
+      },
+      "2804060": {
+        "NAME": "L'eroe gentile di Unima",
+        "ABBR": "L'eroe gentile di Unima",
+        "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (20%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (25%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Unima\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (15%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (50%) e di una certa percentuale (31%) per la riduzione dei danni. Aumenta l'Attacco Speciale di chi la usa di 6 gradi quando entra in campo."
+      },
+      "2804070": {
+        "NAME": "La ragazza energica di Unima",
+        "ABBR": "La ragazza energica di Unima",
+        "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (20%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (25%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Unima\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (15%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (50%) e di una certa percentuale (31%) per la riduzione dei danni. Salvo casi particolari, quando i seguenti attacchi di chi la usa vanno a segno diventano brutti colpi: mosse del Pokémon o Unimossa."
+      },
+      "2804080": {
+        "NAME": "Un altro inizio da Kanto",
+        "ABBR": "Un altro inizio da Kanto",
+        "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (20%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (25%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Kanto\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (15%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (50%) e di una certa percentuale (31%) per la riduzione dei danni. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 2 gradi dopo aver sferrato la sua Unimossa."
+      },
+      "2804090": {
+        "NAME": "Curiosità birbona di Paldea",
+        "ABBR": "Curiosità birbona di Paldea",
+        "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (20%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (25%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Paldea\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (15%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (50%) e di una certa percentuale (31%) per la riduzione dei danni. Salvo casi particolari, quando i seguenti attacchi di chi la usa vanno a segno diventano brutti colpi: mosse del Pokémon o Unimossa."
+      },
+      "2804100": {
+        "NAME": "Grande mistero di Paldea",
+        "ABBR": "Grande mistero di Paldea",
+        "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate di una certa percentuale (20%). Riduce i danni subiti da attacchi semplici e Unimosse per tutte le Unità alleate di una certa percentuale (25%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Paldea\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse e delle Unimosse di una certa percentuale (15%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (50%) e di una certa percentuale (31%) per la riduzione dei danni. Riduce i danni subiti da chi la usa da un attacco semplice o un'Unimossa quando ha tutti i PS."
+      },
       "2901010": {
         "NAME": "Mitoferro",
         "ABBR": "Mitoferro",
@@ -21116,6 +22569,26 @@
         "NAME": "Mitocielo",
         "ABBR": "Mitocielo",
         "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate del 10% e riduce i danni subiti da attacchi semplici per tutte le Unità alleate del 20%. Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Volante\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse del 10% e la riduzione dei danni del 3%. L'aumento massimo è del 30% e del 26% per la riduzione dei danni."
+      },
+      "2901080": {
+        "NAME": "Mitoidro",
+        "ABBR": "Mitoidro",
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate di una certa percentuale (10%) e riduce i danni subiti da attacchi semplici per tutte le Unità alleate di una certa percentuale (20%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Acqua\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (30%) e di una certa percentuale (26%) per la riduzione dei danni."
+      },
+      "2901090": {
+        "NAME": "Mitopietra",
+        "ABBR": "Mitopietra",
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate di una certa percentuale (10%) e riduce i danni subiti da attacchi semplici per tutte le Unità alleate di una certa percentuale (20%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Roccia\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (30%) e di una certa percentuale (26%) per la riduzione dei danni."
+      },
+      "2901100": {
+        "NAME": "Mitomente",
+        "ABBR": "Mitomente",
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate di una certa percentuale (10%) e riduce i danni subiti da attacchi semplici per tutte le Unità alleate di una certa percentuale (20%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Psico\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (30%) e di una certa percentuale (26%) per la riduzione dei danni."
+      },
+      "2901110": {
+        "NAME": "Mitopugno",
+        "ABBR": "Mitopugno",
+        "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate di una certa percentuale (10%) e riduce i danni subiti da attacchi semplici per tutte le Unità alleate di una certa percentuale (20%). Le percentuali aumentano in base al numero di Unità alleate del gruppo \"Lotta\" nella tua squadra. Ogni Unità in più aumenta la potenza delle mosse di una certa percentuale (10%) e la riduzione dei danni di una certa percentuale (3%). L'aumento massimo è di una certa percentuale (30%) e di una certa percentuale (26%) per la riduzione dei danni."
       },
       "2902010": {
         "NAME": "Giudizioferro",
@@ -21152,10 +22625,35 @@
         "ABBR": "Giudiziocielo",
         "DESC": "Aumenta la Protezione Volante di tutte le Unità alleate di 1 grado la prima volta che chi la usa entra in campo in ogni lotta. Riduce la Protezione Volante di tutte le Unità avversarie di 1 grado la prima volta che chi la usa entra in campo in ogni lotta."
       },
+      "2902080": {
+        "NAME": "Giudizioidro",
+        "ABBR": "Giudizioidro",
+        "DESC": "Aumenta la Protezione Acqua di tutte le Unità alleate di 1 grado la prima volta che chi la usa entra in campo in ogni lotta. Riduce la Protezione Acqua di tutte le Unità avversarie di 1 grado la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "2902090": {
+        "NAME": "Giudiziopietra",
+        "ABBR": "Giudiziopietra",
+        "DESC": "Aumenta la Protezione Roccia di tutte le Unità alleate di 1 grado la prima volta che chi la usa entra in campo in ogni lotta. Riduce la Protezione Roccia di tutte le Unità avversarie di 1 grado la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "2902100": {
+        "NAME": "Giudiziomente",
+        "ABBR": "Giudiziomente",
+        "DESC": "Aumenta la Protezione Psico di tutte le Unità alleate di 1 grado la prima volta che chi la usa entra in campo in ogni lotta. Riduce la Protezione Psico di tutte le Unità avversarie di 1 grado la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "2902110": {
+        "NAME": "Giudiziopugno",
+        "ABBR": "Giudiziopugno",
+        "DESC": "Aumenta la Protezione Lotta di tutte le Unità alleate di 1 grado la prima volta che chi la usa entra in campo in ogni lotta. Riduce la Protezione Lotta di tutte le Unità avversarie di 1 grado la prima volta che chi la usa entra in campo in ogni lotta."
+      },
       "2903040": {
         "NAME": "Sprint di Sinnoh",
         "ABBR": "Sprint di Sinnoh",
         "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. In modalità multigiocatore, invece, abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che la tua squadra entra in campo in ogni lotta. La riduzione aumenta in base al numero di Unità alleate del gruppo \"Sinnoh\" nella tua squadra. (Ogni Unità in più aumenta la riduzione di 1 e la riduzione massima è 3.) Gli effetti non si accumulano se hai più di un'Unità nella tua squadra con abilità passive che hanno lo stesso nome."
+      },
+      "2903080": {
+        "NAME": "Sprint di Galar",
+        "ABBR": "Sprint di Galar",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. In modalità multigiocatore, invece, abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che la tua squadra entra in campo in ogni lotta. La riduzione aumenta in base al numero di Unità alleate del gruppo \"Galar\" nella tua squadra. (Ogni Unità in più aumenta la riduzione di 1 e la riduzione massima è 3.) Gli effetti non si accumulano se hai più di un'Unità nella tua squadra con abilità passive che hanno lo stesso nome."
       },
       "2903090": {
         "NAME": "Sprint di Paldea",
@@ -21450,7 +22948,7 @@
       "3201580": {
         "NAME": "Uoooooh! Uoooooh!!!",
         "ABBR": "Uoooooh! Uoooooh!!!",
-        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo alleato è applicata Cerchia di Paldea (difensiva). Chi la usa recupera PS per una certa percentuale (60% circa) dei suoi PS massimi la prima volta che è in difficoltà in ogni lotta."
+        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Aumenta la potenza delle mosse di tutte le Unità alleate quando al campo alleato è applicata una Cerchia di Paldea (difensiva). Chi la usa recupera PS per una certa percentuale (60% circa) dei suoi PS massimi la prima volta che è in difficoltà in ogni lotta."
       },
       "3201590": {
         "NAME": "Fermi dove siete!",
@@ -21660,12 +23158,12 @@
       "3202010": {
         "NAME": "Lottatrice evoluzionaria",
         "ABBR": "Lottatrice evoluzionaria",
-        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Applica una Cerchia di Kalos (difensiva) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Aumenta la durata di Cerchia di Kalos (difensiva) quando al campo alleato viene applicata Cerchia di Kalos (difensiva)."
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Applica una Cerchia di Kalos (difensiva) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Aumenta la durata di Cerchia di Kalos (difensiva) quando al campo alleato viene applicata una Cerchia di Kalos (difensiva)."
       },
       "3202020": {
         "NAME": "Fuoco che divampa",
         "ABBR": "Fuoco che divampa",
-        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Applica una Cerchia di Galar (difensiva) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Aumenta la durata di Cerchia di Galar (difensiva) quando al campo alleato viene applicata Cerchia di Galar (difensiva)."
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Applica una Cerchia di Galar (difensiva) al campo alleato la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Aumenta la durata di Cerchia di Galar (difensiva) quando al campo alleato viene applicata una Cerchia di Galar (difensiva)."
       },
       "3202030": {
         "NAME": "Screenshot mentali",
@@ -21722,6 +23220,31 @@
         "ABBR": "Angelica infermiera scolastica",
         "DESC": "Aumenta la potenza delle mosse di tutte le Unità alleate in presenza di una Zona Veleno. Trasforma la zona in una Zona Veleno la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Veleno aumenta la potenza degli attacchi di tipo Veleno.) Aumenta la durata della Zona Veleno quando la zona si trasforma in una Zona Veleno mentre chi la usa è in campo."
       },
+      "3202140": {
+        "NAME": "Artista di natura",
+        "ABBR": "Artista di natura",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Aumenta la potenza delle Unimosse di tutte le Unità alleate quando attaccano un bersaglio con una protezione dal tipo ridotta. Ripristina 1 utilizzo della sincromossa di chi la usa la prima volta che la sua Unimossa viene utilizzata in ogni lotta."
+      },
+      "3202150": {
+        "NAME": "Drago ruggente",
+        "ABBR": "Drago ruggente",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che il suo Allenatore sferra una mossa in ogni lotta. Aumenta la potenza delle mosse di tutte le Unità alleate in presenza di una Zona Drago. Riduce la Difesa di tutte le Unità avversarie di 3 gradi quando chi la usa entra in campo."
+      },
+      "3202160": {
+        "NAME": "Tepore di una Poké Ball fatta a mano",
+        "ABBR": "Tepore di una Poké Ball fatta a mano",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che la sua Unimossa viene utilizzata in ogni lotta. Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi dopo aver sferrato l'Unimossa o la mossa UniDynamax di chi la usa."
+      },
+      "3202200": {
+        "NAME": "Tensione dei tempi d'oro",
+        "ABBR": "Tensione dei tempi d'oro",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie per sferrare l'Unimossa la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa dopo aver sferrato la sua mossa UniDynamax. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado dopo che l'Unità nella tua squadra sferra l'Unimossa."
+      },
+      "3202210": {
+        "NAME": "Retto e contorto",
+        "ABBR": "Retto e contorto",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che il suo Allenatore sferra una mossa in ogni lotta. Aumenta la potenza delle mosse di tutte le Unità alleate in presenza di una Zona Folletto. Rende tutte le Unità alleate immuni alle riduzioni delle statistiche in presenza di una Zona Folletto."
+      },
       "3301050": {
         "NAME": "Primentrata UniTeracristal Erba",
         "ABBR": "Primentrata UniTeracristal Erba",
@@ -21751,6 +23274,16 @@
         "NAME": "Primentrata UniTeracristal Buio",
         "ABBR": "Primentrata UniTeracristal Buio",
         "DESC": "Chi la usa si Uniteracristallizza nel tipo Buio la prima volta che entra in campo in ogni lotta."
+      },
+      "3301190": {
+        "NAME": "Prima Unimossa UniTeracristal Erba",
+        "ABBR": "Prima Unimossa UniTeracristal Erba",
+        "DESC": "Chi la usa si Uniteracristallizza nel tipo Erba la prima volta che la sua Unimossa viene utilizzata in ogni lotta."
+      },
+      "3301200": {
+        "NAME": "Prima Unimossa UniTeracristal Astrale",
+        "ABBR": "Prima Unimossa UniTeracristal Astrale",
+        "DESC": "Chi la usa si Uniteracristallizza nel tipo Astrale la prima volta che la sua Unimossa viene utilizzata in ogni lotta."
       },
       "5130206": {
         "NAME": "Scudo invariato {{value}}",
@@ -21965,7 +23498,7 @@
       "9901370": {
         "NAME": "Norme della Squadra di ricerca",
         "ABBR": "Norme della Squadra di ricerca",
-        "DESC": "Conferisce tutti gli effetti seguenti la prima volta che chi la usa entra in campo in ogni lotta: Abbassa il numero di azioni necessarie di chi la usa per sferrare l'Unimossa di 1. Aumenta l'Attacco di chi la usa di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi."
+        "DESC": "Conferisce tutti gli effetti seguenti la prima volta che chi la usa entra in campo in ogni lotta: Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Aumenta l'Attacco di chi la usa di 4 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi."
       },
       "9901380": {
         "NAME": "Voce esplosiva della star",
@@ -22065,7 +23598,7 @@
       "9901570": {
         "NAME": "Lasciate perdere",
         "ABBR": "Lasciate perdere",
-        "DESC": "Rende chi la usa immune dalle riduzioni delle statistiche. Riduce l'Attacco Speciale del bersaglio di 2 gradi quando chi la usa manda a segno Cannonfiore. Quando la statistica di chi la usa viene ridotta da un avversario, la quantità ridotta viene riflessa sull'avversario."
+        "DESC": "Rende chi la usa immune dalle riduzioni delle statistiche. Riduce l'Attacco Speciale del bersaglio di 2 gradi quando chi la usa manda a segno Cannonfiore. Quando la statistica di chi la usa viene ridotta da un avversario, la quantità ridotta viene invece riflessa sull'avversario."
       },
       "9901580": {
         "NAME": "Avete ordinato questo?",
@@ -22400,7 +23933,7 @@
       "9902250": {
         "NAME": "Terra estrema delle leggende",
         "ABBR": "Terra estrema delle leggende",
-        "DESC": "Conferisce tutti gli effetti seguenti quando il Groudon di chi la usa diventa ArcheoGroudon: Abbassa il numero di azioni necessarie di chi la usa per sferrare l'Unimossa di 3. Causa la luce solare intensa EX. Aumenta l'Attacco di chi la usa di 6 gradi."
+        "DESC": "Conferisce tutti gli effetti seguenti quando il Groudon di chi la usa diventa ArcheoGroudon: Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Causa la luce solare intensa EX. Aumenta l'Attacco di chi la usa di 6 gradi."
       },
       "9902260": {
         "NAME": "Ardore di Hoenn",
@@ -22415,7 +23948,7 @@
       "9902280": {
         "NAME": "Mare primordiale delle leggende",
         "ABBR": "Mare primordiale delle leggende",
-        "DESC": "Conferisce tutti gli effetti seguenti quando il Kyogre di chi la usa diventa ArcheoKyogre: Abbassa il numero di azioni necessarie di chi la usa per sferrare l'Unimossa di 3. Provoca una pioggia EX. Aumenta l'Attacco Speciale di chi la usa di 6 gradi."
+        "DESC": "Conferisce tutti gli effetti seguenti quando il Kyogre di chi la usa diventa ArcheoKyogre: Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Provoca una pioggia EX. Aumenta l'Attacco Speciale di chi la usa di 6 gradi."
       },
       "9902290": {
         "NAME": "Benedizione di Hoenn",
@@ -23030,7 +24563,7 @@
       "9903520": {
         "NAME": "Un cuore d'acciaio non si arrende mai!",
         "ABBR": "Un cuore d'acciaio non si arrende mai!",
-        "DESC": "Riduce la Difesa Speciale del bersaglio di 2 gradi quando l'attacco semplice di chi la usa contro di esso va a segno. Applica l'effetto \"Aumento danni speciali\" sul bersaglio la prima volta che l'attacco semplice di chi la usa contro di esso va a segno in ogni lotta."
+        "DESC": "Applica l'effetto \"Aumento danni speciali\" sul bersaglio la prima volta che l'attacco semplice di chi la usa contro quel bersaglio va a segno in ogni lotta. Riduce la Difesa Speciale del bersaglio di 2 gradi quando l'attacco semplice di chi la usa contro di esso va a segno."
       },
       "9903530": {
         "NAME": "Tentacoli velenosi sul palco",
@@ -23057,6 +24590,51 @@
         "ABBR": "Luogo in cui si sovrappongono due mondi",
         "DESC": "Trasforma la zona in una Zona Spettro la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. Trasforma la zona in una Zona Spettro la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. (Una Zona Spettro aumenta la potenza degli attacchi di tipo Spettro.) Aumenta la durata della Zona Spettro quando la zona si trasforma in una Zona Spettro mentre chi la usa è in campo."
       },
+      "9903580": {
+        "NAME": "Forza, non facciamogli riprendere fiato!",
+        "ABBR": "Forza, non facciamogli riprendere fiato!",
+        "DESC": "Riduce di 1 gli utilizzi di Riempibarra di chi la usa e conferisce tutti gli effetti seguenti dopo che l'Unità nella tua squadra sferra l'Unimossa: Applica una Cerchia di Paldea (danni speciali) al campo alleato. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 3 gradi. Aggiunge 6 barrette alla barra mosse di chi la usa."
+      },
+      "9903590": {
+        "NAME": "Ve lo faccio vedere io un brutto colpo!",
+        "ABBR": "Ve lo faccio vedere io un brutto colpo!",
+        "DESC": "Salvo casi particolari, quando i seguenti attacchi di chi la usa vanno a segno diventano brutti colpi: mosse del Pokémon o Unimossa. Ripristina 1 utilizzo della sincromossa di chi la usa dopo che l'Unità nella tua squadra sferra l'Unimossa."
+      },
+      "9903600": {
+        "NAME": "Avete mangiato qualcosa di strano?",
+        "ABBR": "Avete mangiato qualcosa di strano?",
+        "DESC": "Riduce la Difesa Speciale del bersaglio di 2 gradi quando l'attacco semplice di chi la usa va a segno contro un avversario confuso. Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 2 gradi quando il suo attacco semplice va a segno contro un avversario avvelenato o iperavvelenato."
+      },
+      "9903610": {
+        "NAME": "Cucina piccantissima e appetitosa",
+        "ABBR": "Cucina piccantissima e appetitosa",
+        "DESC": "Riduce di 1 gli utilizzi delle mosse definite \"Bacca\" alla voce \"Effetti\" per chi la usa e abbassa di 1 il numero di azioni necessarie per sferrare la sua Unimossa dopo che l'Unità nella tua squadra sferra l'Unimossa."
+      },
+      "9903620": {
+        "NAME": "Salsa piccante speciale di Pepe",
+        "ABBR": "Salsa piccante speciale di Pepe",
+        "DESC": "Abbassa di 2 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa dopo aver sferrato la sua Unimossa mentre gli utilizzi residui delle sue mosse definite \"Bacca\" alla voce \"Effetti\" sono pari o superiori a 1."
+      },
+      "9903630": {
+        "NAME": "Neve improvvisa",
+        "ABBR": "Neve improvvisa",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che il suo Pokémon sferra una mossa di stato in ogni lotta. Trasforma la zona in una Zona Ghiaccio EX la prima volta che il Pokémon di chi la usa sferra una mossa di stato in ogni lotta. (Una Zona Ghiaccio EX aumenta la potenza degli attacchi di tipo Ghiaccio.) Salvo casi particolari, quando i seguenti attacchi di chi la usa vanno a segno diventano brutti colpi: mosse del Pokémon o Unimossa. Conferisce tutti gli effetti seguenti quando chi la usa attacca: Ignora le abilità passive del bersaglio che riducono i danni di ogni attacco. Ignora le abilità passive del bersaglio che proteggono il bersaglio dai brutti colpi. Ignora l'effetto \"Resistenza a colpo micidiale\" del bersaglio."
+      },
+      "9903640": {
+        "NAME": "Freddo glaciale",
+        "ABBR": "Freddo glaciale",
+        "DESC": "Raddoppia la potenza di Geloraggio di chi la usa. Riduce la Difesa Speciale del bersaglio di 3 gradi quando l'attacco semplice di chi la usa contro di esso va a segno. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 3 gradi quando il suo attacco semplice va a segno."
+      },
+      "9903650": {
+        "NAME": "Colpo perfezionato nel futuro",
+        "ABBR": "Colpo perfezionato nel futuro",
+        "DESC": "Le mosse di tipo Normale diventano di tipo Psico. La mossa Gigaimpatto consuma 1 barretta della barra mosse in meno. Riduce la Difesa del bersaglio di 3 gradi quando l'attacco semplice di chi la usa contro di esso va a segno."
+      },
+      "9903660": {
+        "NAME": "Salda giustizia ferrea",
+        "ABBR": "Salda giustizia ferrea",
+        "DESC": "Aumenta la potenza dell'Unimossa di chi la usa quando è applicato un Campo. Protegge chi la usa dai brutti colpi quando è applicato un Campo."
+      },
       "9903670": {
         "NAME": "Condottiera degli animi battaglieri",
         "ABBR": "Condottiera degli animi battaglieri",
@@ -23081,6 +24659,251 @@
         "NAME": "Potenziamento Eevolutipo",
         "ABBR": "Potenziamento Eevolutipo",
         "DESC": "Riduce di 1 grado tutte le seguenti protezioni dal tipo di tutte le Unità avversarie la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta: - Normale - Fuoco - Acqua - Elettro - Erba - Ghiaccio - Psico - Buio - Folletto"
+      },
+      "9903720": {
+        "NAME": "Drago custode dell'ultima roccaforte",
+        "ABBR": "Drago custode dell'ultima roccaforte",
+        "DESC": "Impedisce a tutte le Unità alleate di venire scottate. Aumenta l'Attacco di chi la usa di 4 gradi quando entra in campo. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi quando entra in campo."
+      },
+      "9903730": {
+        "NAME": "Sballo pirotecnico!",
+        "ABBR": "Sballo pirotecnico!",
+        "DESC": "Innesca automaticamente Esplosione subito prima del KO. Abbassa di 9 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa subito prima che vada KO. In modalità multigiocatore, abbassa invece di 9 il numero di azioni necessarie per sferrare un'Unimossa a un giocatore tranne a chi la usa."
+      },
+      "9903740": {
+        "NAME": "Iniziamo subito a dipingere!",
+        "ABBR": "Iniziamo subito a dipingere!",
+        "DESC": "Trasforma il campo di lotta in un Campo Erboso la prima volta che l'attacco semplice di tipo Erba di chi la usa va a segno in ogni lotta. Riduce la Protezione Erba del bersaglio di 1 grado la prima volta che l'attacco semplice di tipo Erba di chi la usa va a segno in ogni lotta. Trasforma la zona in una Zona Roccia la prima volta che l'attacco semplice di tipo Roccia di chi la usa va a segno in ogni lotta. (Una Zona Roccia aumenta la potenza degli attacchi di tipo Roccia.) Riduce la Protezione Roccia del bersaglio di 1 grado la prima volta che l'attacco semplice di tipo Roccia di chi la usa va a segno in ogni lotta."
+      },
+      "9903750": {
+        "NAME": "Soddisfate i miei desideri!",
+        "ABBR": "Soddisfate i miei desideri!",
+        "DESC": "Riduce la Protezione Erba di tutte le Unità avversarie di 1 grado la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta. Riduce la Protezione Roccia di tutte le Unità avversarie di 1 grado la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta."
+      },
+      "9903760": {
+        "NAME": "Una pescata indimenticabile",
+        "ABBR": "Una pescata indimenticabile",
+        "DESC": "Riduce i danni subiti da chi la usa da un attacco semplice in proporzione all'aumento delle statistiche di chi la usa."
+      },
+      "9903780": {
+        "NAME": "Esalazioni di energia potente e gelida",
+        "ABBR": "Esalazioni di energia potente e gelida",
+        "DESC": "Aumenta la potenza dell'Unimossa di chi la usa in presenza di una Zona Ghiaccio. Aumenta la durata della Zona Ghiaccio quando la zona si trasforma in una Zona Ghiaccio mentre chi la usa è in campo."
+      },
+      "9903790": {
+        "NAME": "Ci metterete anni luce!",
+        "ABBR": "Ci metterete anni luce!",
+        "DESC": "Aumenta l'Attacco di chi la usa di 6 gradi la prima volta che entra in campo in ogni lotta. Applica l'effetto \"Resistenza a colpo micidiale\" a chi la usa quando entra in campo con tutti i PS. Salvo casi particolari, quando i seguenti attacchi di chi la usa vanno a segno diventano brutti colpi: mosse del Pokémon o Unimossa."
+      },
+      "9903800": {
+        "NAME": "Determinazione e legami granitici",
+        "ABBR": "Determinazione e legami granitici",
+        "DESC": "Riduce di 1 gli utilizzi di Pozione di chi la usa e conferisce tutti gli effetti seguenti quando i suoi PS scendono a metà o meno: Chi la usa recupera PS per una certa percentuale (50% circa) dei suoi PS massimi. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 2 gradi."
+      },
+      "9903810": {
+        "NAME": "Una strategia molto semplice...",
+        "ABBR": "Una strategia molto semplice...",
+        "DESC": "Conferisce tutti gli effetti seguenti la prima volta che chi la usa entra in campo in ogni lotta: Applica una Cerchia di Kanto (danni speciali) al campo alleato. Aumenta l'Attacco Speciale di chi la usa di 6 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi."
+      },
+      "9903820": {
+        "NAME": "I miei adorabili Pokémon di tipo Acqua!",
+        "ABBR": "I miei adorabili Pokémon di tipo Acqua!",
+        "DESC": "Ripristina 1 utilizzo della sincromossa di chi la usa dopo che l'Unità nella tua squadra sferra l'Unimossa. Riduce di 1 gli utilizzi di Analisi di Kanto di chi la usa e conferisce tutti gli effetti seguenti dopo che l'Unità nella tua squadra sferra l'Unimossa: Applica una Cerchia di Kanto (danni speciali) al campo alleato. Aumenta l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 2 gradi."
+      },
+      "9903830": {
+        "NAME": "Attacco, attacco e di nuovo attacco!",
+        "ABBR": "Attacco, attacco e di nuovo attacco!",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando applica una Cerchia di Kanto (danni speciali) al campo alleato. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando applica una Cerchia di Kanto (danni speciali) al campo alleato."
+      },
+      "9903840": {
+        "NAME": "Cambio di stile!",
+        "ABBR": "Cambio di stile!",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Trasforma la zona in una Zona Folletto la prima volta che chi la usa entra in campo in ogni lotta. (Una Zona Folletto aumenta la potenza degli attacchi di tipo Folletto.) Le mosse di tipo Normale diventano di tipo Folletto."
+      },
+      "9903850": {
+        "NAME": "Risolutezza del Campione col mantello",
+        "ABBR": "Risolutezza del Campione col mantello",
+        "DESC": "Conferisce tutti gli effetti seguenti quando chi la usa entra in campo: Aumenta l'Attacco di chi la usa di 6 gradi. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi. Aumenta l'effetto \"Prossima mossa fisica ↑\" di chi la usa di 3 gradi."
+      },
+      "9903860": {
+        "NAME": "Drago in volo",
+        "ABBR": "Drago in volo",
+        "DESC": "Le mosse di tipo Normale diventano di tipo Volante. Le mosse di chi la usa vanno sempre a segno. Protegge chi la usa dai brutti colpi."
+      },
+      "9903870": {
+        "NAME": "Scenario idilliaco delle Isole Spumarine",
+        "ABBR": "Scenario idilliaco delle Isole Spumarine",
+        "DESC": "Trasforma la zona in una Zona Ghiaccio la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Ghiaccio aumenta la potenza degli attacchi di tipo Ghiaccio.) Aumenta la durata della Zona Ghiaccio quando la zona si trasforma in una Zona Ghiaccio mentre chi la usa è in campo."
+      },
+      "9903880": {
+        "NAME": "Scenario idilliaco del Monte Brace",
+        "ABBR": "Scenario idilliaco del Monte Brace",
+        "DESC": "Aumenta la potenza delle mosse e delle Unimosse di tutte le Unità alleate quando la luce del sole è intensa. Fa tentennare il bersaglio quando l'attacco semplice di chi la usa contro di esso va a segno mentre la luce del sole è intensa."
+      },
+      "9903890": {
+        "NAME": "State in campana!",
+        "ABBR": "State in campana!",
+        "DESC": "Trasforma la zona in una Zona Terra la prima volta che il Pokémon di chi la usa sferra una mossa di stato in ogni lotta. (Una Zona Terra aumenta la potenza degli attacchi di tipo Terra.) Aumenta la durata della Zona Terra quando la zona si trasforma in una Zona Terra mentre chi la usa è in campo. Quando chi la usa sferra una mossa di stato e causa un problema di stato a un avversario, causa lo stesso problema di stato a tutte le Unità avversarie."
+      },
+      "9903900": {
+        "NAME": "Guance elettriche",
+        "ABBR": "Guance elettriche",
+        "DESC": "Aumenta la potenza dell'Unimossa di chi la usa in proporzione all'aumento del suo Attacco Speciale. Quando il Pokémon di chi la usa sferra una mossa che bersaglia se stesso o un alleato e va a segno, l'effetto si applica a tutte le Unità alleate. Quando il Pokémon di chi la usa sferra una mossa che bersaglia un avversario e va a segno, l'effetto si applica a tutte le Unità avversarie. Quando chi la usa attacca un avversario con la sua Unimossa, tutte le Unità avversarie diventano il bersaglio. La potenza e la probabilità di applicare effetti aggiuntivi delle mosse e delle Unimosse influenzate da questa abilità passiva non vengono ridotte anche se sono presenti molteplici bersagli. Conferisce tutti gli effetti seguenti la prima volta che l'Unimossa di chi la usa viene utilizzata in ogni lotta: Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Trasforma il campo di lotta in un Campo Elettrico. Aumenta la tensione della squadra di chi la usa di 1 grado."
+      },
+      "9903910": {
+        "NAME": "Il giovane di Biancavilla",
+        "ABBR": "Il giovane di Biancavilla",
+        "DESC": "Aumenta l'Attacco Speciale di chi la usa di 6 gradi la prima volta che entra in campo in ogni lotta. Salvo casi particolari, quando i seguenti attacchi di chi la usa vanno a segno diventano brutti colpi: mosse del Pokémon o Unimossa."
+      },
+      "9903920": {
+        "NAME": "L'Allenatore taciturno",
+        "ABBR": "L'Allenatore taciturno",
+        "DESC": "Protegge chi la usa dai brutti colpi. Rende chi la usa immune dalle riduzioni delle statistiche."
+      },
+      "9903930": {
+        "NAME": "Che la festa abbia inizio!",
+        "ABBR": "Che la festa abbia inizio!",
+        "DESC": "Ripristina 1 utilizzo della sincromossa di chi la usa dopo che l'Unità nella tua squadra sferra l'Unimossa. Riduce di 1 gli utilizzi di Campo Erboso di chi la usa e conferisce tutti gli effetti seguenti dopo che l'Unità nella tua squadra sferra l'Unimossa: Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Trasforma il campo di lotta in un Campo Erboso."
+      },
+      "9903940": {
+        "NAME": "Tifoseria della mia città",
+        "ABBR": "Tifoseria della mia città",
+        "DESC": "Aumenta l'Attacco di chi la usa di 4 gradi la prima volta che trasforma la zona in una Zona Buio EX in ogni lotta. Aumenta la probabilità di mandare a segno brutti colpi di chi la usa di 3 gradi la prima volta che trasforma la zona in una Zona Buio EX in ogni lotta."
+      },
+      "9903950": {
+        "NAME": "Sorriso che ripaga i fan",
+        "ABBR": "Sorriso che ripaga i fan",
+        "DESC": "Conferisce tutti gli effetti seguenti dopo che chi la usa sferra la sua mossa UniDynamax. Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Trasforma la zona in una Zona Buio. (Una Zona Buio aumenta la potenza degli attacchi di tipo Buio.) Ripristina 1 utilizzo di Superpiù di chi la usa."
+      },
+      "9903960": {
+        "NAME": "Non vi voglio screditare",
+        "ABBR": "Non vi voglio screditare",
+        "DESC": "Riduce di 1 gli utilizzi di Minipozione-G di chi la usa e fa recuperare PS a tutte le Unità alleate per una certa percentuale (40% circa) dei loro PS massimi quando un alleato è in difficoltà. (Questo effetto si attiva una volta sola anche se la condizione è soddisfatta più volte contemporaneamente.)"
+      },
+      "9903970": {
+        "NAME": "Un grazie gigantesco!",
+        "ABBR": "Un grazie gigantesco!",
+        "DESC": "Applica l'effetto \"Aumento danni fisici\" sul bersaglio la prima volta che Gigaimpatto di chi la usa va a segno in ogni lotta. Conferisce tutti gli effetti seguenti quando chi la usa attacca: Ignora le abilità passive del bersaglio che riducono i danni di ogni attacco. Ignora le abilità passive del bersaglio che proteggono il bersaglio dai brutti colpi. Ignora l'effetto \"Resistenza a colpo micidiale\" del bersaglio."
+      },
+      "9903980": {
+        "NAME": "Osservazioni sul tipo Folletto",
+        "ABBR": "Osservazioni sul tipo Folletto",
+        "DESC": "Trasforma la zona in una Zona Folletto la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Folletto aumenta la potenza degli attacchi di tipo Folletto.) Applica una Cerchia di Johto (difensiva) al campo alleato la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta."
+      },
+      "9903990": {
+        "NAME": "Preparativi per la lotta",
+        "ABBR": "Preparativi per la lotta",
+        "DESC": "Chi la usa assume la Forma Teracristal la prima volta che entra in campo in ogni lotta."
+      },
+      "9904000": {
+        "NAME": "Bagliore che riporta allo zero",
+        "ABBR": "Bagliore che riporta allo zero",
+        "DESC": "Rimuove tutte le condizioni atmosferiche e campi la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "9904010": {
+        "NAME": "Teracarapace",
+        "ABBR": "Teracarapace",
+        "DESC": "Riduce di 1 gli utilizzi di Pozione di chi la usa e conferisce tutti gli effetti seguenti quando i suoi PS scendono a metà o meno: Chi la usa recupera PS per una certa percentuale (60% circa) dei suoi PS massimi. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 3 gradi."
+      },
+      "9904030": {
+        "NAME": "Poteri divinatori",
+        "ABBR": "Poteri divinatori",
+        "DESC": "Conferisce tutti gli effetti seguenti quando chi la usa entra in campo: Applica l'effetto \"Riduzione danni fisici\" al campo alleato. Applica l'effetto \"Riduzione danni speciali\" al campo alleato. Aumenta l'Attacco Speciale di chi la usa di 6 gradi."
+      },
+      "9904040": {
+        "NAME": "Previsioni di vittorie future",
+        "ABBR": "Previsioni di vittorie future",
+        "DESC": "Abbassa di 3 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta. Applica una Cerchia di Kanto (danni speciali) al campo alleato la prima volta che chi la usa entra in campo in ogni lotta."
+      },
+      "9904050": {
+        "NAME": "Acciaio nero nei cieli di Galar",
+        "ABBR": "Acciaio nero nei cieli di Galar",
+        "DESC": "Conferisce tutti gli effetti seguenti quando chi la usa trasforma la zona in una Zona Acciaio: Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa. Applica una Cerchia di Galar (difensiva) al campo alleato. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado."
+      },
+      "9904060": {
+        "NAME": "Ali intimidatorie",
+        "ABBR": "Ali intimidatorie",
+        "DESC": "Aumenta la durata della Zona Acciaio quando la zona si trasforma in una Zona Acciaio mentre chi la usa è in campo. Aumenta la durata di Cerchia di Galar (difensiva) quando al campo alleato viene applicata una Cerchia di Galar (difensiva)."
+      },
+      "9904070": {
+        "NAME": "Erede del segreto della megaevoluzione",
+        "ABBR": "Erede del segreto della megaevoluzione",
+        "DESC": "Trasforma la zona in una Zona Lotta EX la prima volta che chi la usa manda a segno la sua sincromossa in ogni lotta. (Una Zona Lotta EX aumenta la potenza degli attacchi di tipo Lotta.) Aumenta la durata della Zona Lotta quando la zona si trasforma in una Zona Lotta mentre chi la usa è in campo. Aumenta la durata dei seguenti effetti sul campo quando vengono applicati al campo alleato: - Cerchia di Kalos (danni fisici) - Cerchia di Kalos (danni speciali) - Cerchia di Kalos (difensiva)"
+      },
+      "9904080": {
+        "NAME": "Aura di vittoria",
+        "ABBR": "Aura di vittoria",
+        "DESC": "Aumenta la Difesa e la Difesa Speciale di tutte le Unità alleate di 2 gradi quando l'attacco semplice di chi la usa va a segno. Applica l'effetto \"Prossimo a costo zero\" a chi la usa quando il suo attacco semplice va a segno."
+      },
+      "9904090": {
+        "NAME": "Mi è partito il flash...!",
+        "ABBR": "Mi è partito il flash...!",
+        "DESC": "Riduce la Difesa e la Velocità del bersaglio di 2 gradi quando l'attacco semplice di chi la usa contro di esso va a segno. Ha una certa probabilità (30%) di far tentennare il bersaglio quando l'attacco semplice di chi la usa contro di esso va a segno."
+      },
+      "9904100": {
+        "NAME": "Otturatore a velocità massima!",
+        "ABBR": "Otturatore a velocità massima!",
+        "DESC": "Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa quando chi la usa applica una Cerchia al campo alleato. Aumenta la durata di Cerchia di Paldea (danni fisici) quando al campo alleato viene applicata una Cerchia di Paldea (danni fisici). Aumenta la Velocità di tutte le Unità alleate di 2 gradi quando chi la usa applica una Cerchia al campo alleato."
+      },
+      "9904200": {
+        "NAME": "La luce del tesoro dell'Area Zero",
+        "ABBR": "La luce del tesoro dell'Area Zero",
+        "DESC": "Trasforma la zona in una Zona Normale la prima volta che chi la usa entra in campo in ogni lotta. Trasforma la zona in una Zona Normale la prima volta che Terascoppio: astrogemma di chi la usa va a segno in ogni lotta. (Una Zona Normale aumenta la potenza degli attacchi di tipo Normale.) Aumenta la durata della Zona Normale quando la zona si trasforma in una Zona Normale mentre chi la usa è in campo."
+      },
+      "9904210": {
+        "NAME": "Il potere occulto della Maschera Turchese",
+        "ABBR": "Il potere occulto della Maschera Turchese",
+        "DESC": "Aumenta l'effetto \"Prossima Unimossa ↑\" di chi la usa di 5 gradi la prima volta che entra in campo in ogni lotta. Aumenta la Protezione Erba di chi la usa di 1 grado la prima volta che entra in campo in ogni lotta."
+      },
+      "9904300": {
+        "NAME": "Il giorno del pisolino di Erika",
+        "ABBR": "Il giorno del pisolino di Erika",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa in proporzione all'aumento della sua tensione. L'aumento massimo è di una certa percentuale (50%). Aumenta la potenza degli attacchi di chi la usa quando sono brutti colpi. Quando la luce solare diventa intensa mentre chi la usa è in campo, aumenta la durata della luce solare intensa."
+      },
+      "9904310": {
+        "NAME": "Scatto di Chase",
+        "ABBR": "Scatto di Chase",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa in proporzione all'aumento della sua tensione. L'aumento massimo è di una certa percentuale (50%). Protegge chi la usa dai brutti colpi. Applica l'effetto \"Recupero costante PS\" a chi la usa quando entra in campo con tutti i PS."
+      },
+      "9904320": {
+        "NAME": "Insegnamenti di Blu",
+        "ABBR": "Insegnamenti di Blu",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa in proporzione all'aumento della sua tensione. L'aumento massimo è di una certa percentuale (50%). Aumenta la potenza degli attacchi di chi la usa quando sono brutti colpi. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 1 grado quando entra in campo."
+      },
+      "9904330": {
+        "NAME": "Silente animo battagliero di Rosso",
+        "ABBR": "Silente animo battagliero di Rosso",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa in proporzione all'aumento della sua tensione. L'aumento massimo è di una certa percentuale (50%). Aumenta la potenza degli attacchi di chi la usa quando sono brutti colpi. Abbassa di 1 il numero di azioni necessarie a chi la usa per sferrare l'Unimossa la prima volta che entra in campo in ogni lotta."
+      },
+      "9904340": {
+        "NAME": "Vaste ambizioni di Giovanni",
+        "ABBR": "Vaste ambizioni di Giovanni",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa in proporzione all'aumento della sua tensione. L'aumento massimo è di una certa percentuale (50%). Aumenta la potenza degli attacchi di chi la usa quando sono brutti colpi. Trasforma il campo di lotta in un Campo Psichico quando chi la usa entra in campo."
+      },
+      "9904350": {
+        "NAME": "Nutrimento per lo spirito di Fabia",
+        "ABBR": "Nutrimento per lo spirito di Fabia",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa in proporzione all'aumento della sua tensione. L'aumento massimo è di una certa percentuale (50%). Aumenta la potenza degli attacchi di chi la usa quando sono brutti colpi. Trasforma la zona in una Zona Lotta la prima volta che l'attacco semplice di chi la usa va a segno in ogni lotta. (Una Zona Lotta aumenta la potenza degli attacchi di tipo Lotta.)"
+      },
+      "9904360": {
+        "NAME": "Vera forza di Hop",
+        "ABBR": "Vera forza di Hop",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa in proporzione all'aumento della sua tensione. L'aumento massimo è di una certa percentuale (50%). Protegge chi la usa dai brutti colpi. Applica l'effetto \"Resistenza a colpo micidiale\" a chi la usa quando entra in campo con tutti i PS."
+      },
+      "9904370": {
+        "NAME": "Spada tratta di Gloria",
+        "ABBR": "Spada tratta di Gloria",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa in proporzione all'aumento della sua tensione. L'aumento massimo è di una certa percentuale (50%). Aumenta la potenza degli attacchi di chi la usa quando sono brutti colpi. Aumenta la potenza dell'Unimossa di chi la usa quando il suo Attacco aumenta."
+      },
+      "9904380": {
+        "NAME": "Aura ardente di Mary",
+        "ABBR": "Aura ardente di Mary",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa in proporzione all'aumento della sua tensione. L'aumento massimo è di una certa percentuale (50%). Aumenta la potenza degli attacchi di chi la usa quando sono brutti colpi. Aumenta l'effetto \"Prossima mossa speciale ↑\" di chi la usa di 2 gradi dopo aver sferrato la sua Unimossa."
+      },
+      "9904390": {
+        "NAME": "Talento indomito di Beet",
+        "ABBR": "Talento indomito di Beet",
+        "DESC": "Aumenta la potenza delle mosse di chi la usa in proporzione all'aumento della sua tensione. L'aumento massimo è di una certa percentuale (50%). Protegge chi la usa dai brutti colpi. Aumenta l'effetto \"Prossima mossa fisica ↑\" e l'effetto \"Prossima mossa speciale ↑\" di tutte le Unità alleate di 1 grado la prima volta che chi la usa entra in campo in ogni lotta."
       }
     },
     "THEMES": {
@@ -23169,7 +24992,8 @@
       "29990070": "In giro per Alola",
       "29990071": "In giro per Galar",
       "29990072": "Uova",
-      "29990073": "In giro per Hisui"
+      "29990073": "In giro per Hisui",
+      "29990074": "Accademia di Pasio"
     },
     "THEME_GROUPS": {
       "2001": "Tipo",
@@ -23643,7 +25467,30 @@
       "20000438": "Henzo",
       "20000439": "Nespera",
       "20000440": "Ortiz",
-      "20000441": "Team Star"
+      "20000441": "Team Star",
+      "20000442": "Komor",
+      "20000443": "N",
+      "20000444": "Musical",
+      "20000445": "Catturare Pokémon",
+      "20000446": "Friend Ball",
+      "20000447": "Pepite",
+      "20000448": "Fare il tifo",
+      "20000449": "Sfere",
+      "20000450": "Ballo",
+      "20000451": "Antemia",
+      "20000452": "Bijou",
+      "20000453": "Competizioni",
+      "20000454": "Tentare la fortuna",
+      "20000455": "Abiti formali",
+      "20000456": "Monete",
+      "20000457": "Brock",
+      "20000458": "Lorelei",
+      "20000459": "Medaglia Cascata",
+      "20000460": "Nuoto",
+      "20000461": "Torn",
+      "20000462": "Registradati",
+      "20000463": "Lotte in coppia",
+      "20000464": "Lotte in Singolo"
     },
     "TOPIC_GROUP": {
       "1": "Pokémon",
