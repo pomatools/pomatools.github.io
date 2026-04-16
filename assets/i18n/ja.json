@@ -132,7 +132,8 @@
       "SUPERAWAKENING": "超覚醒",
       "BERRY": "きのみ",
       "MP": "わざの回数",
-      "BREAK": "ブレイク"
+      "BREAK": "ブレイク",
+      "CHEER": "応援"
     },
     "KINDS": {
       "BASE": "通常フォルム",
