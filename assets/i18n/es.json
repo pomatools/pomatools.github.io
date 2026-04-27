@@ -14569,7 +14569,7 @@
       "1501530": {
         "NAME": "1.ª Entrada Furor y Ataque Esp. ↑",
         "ABBR": "1.ª Entrada Furor y A-Esp. ↑",
-        "DESC": "Se reduce en {{value}} el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Aumenta el Ataque Especial del usuario en {{value}} nivel al entrar en combate por primera vez en cada combate."
+        "DESC": "Se reduce en 1 el contador de movimientos compi del usuario al entrar en combate por primera vez en cada combate. Aumenta el Ataque Especial del usuario en {{value}} nivel al entrar en combate por primera vez en cada combate."
       },
       "1501540": {
         "NAME": "1.ª Entrada Furor Doble y Críticos ↑",
@@ -19967,9 +19967,9 @@
         "DESC": "Aumenta el Ataque Especial y la Evasión del usuario en {{value}} nivel(es) al entrar en combate."
       },
       "1811780": {
-        "NAME": "Entrada At. Esp. ↑↑↑↑ Críticos ↑",
-        "ABBR": "Entrada A.Esp. ↑↑↑↑ Críticos ↑",
-        "DESC": "Aumenta el Ataque Especial del usuario en 4 niveles al entrar en combate. Aumenta la probabilidad de asestar golpes críticos del usuario en 1 nivel al entrar en combate."
+        "NAME": "Entrada At. Esp. ↑↑↑↑ Críticos ↑{{value}}",
+        "ABBR": "Entrada A.Esp. ↑↑↑↑ Críticos ↑{{value}}",
+        "DESC": "Aumenta el Ataque Especial del usuario en 4 niveles al entrar en combate. Aumenta la probabilidad de asestar golpes críticos del usuario en {{value}} nivel(es) al entrar en combate."
       },
       "1811790": {
         "NAME": "Superreductor Defensa +{{value}}",
@@ -20402,9 +20402,9 @@
         "DESC": "Aumenta la Defensa y la Defensa Especial de todos los compis aliados en {{value}} nivel cuando el usuario entra en combate por primera vez en cada combate."
       },
       "1812680": {
-        "NAME": "Entrada Ataque ↑↑↑↑↑↑ Críticos ↑",
-        "ABBR": "Entrada Ataque ↑↑↑↑↑↑ Críticos ↑",
-        "DESC": "Aumenta el Ataque del usuario en 6 niveles al entrar en combate. Aumenta la probabilidad de asestar golpes críticos del usuario en 1 nivel al entrar en combate."
+        "NAME": "Entrada Ataque ↑↑↑↑↑↑ Críticos ↑{{value}}",
+        "ABBR": "Entrada Ataque ↑↑↑↑↑↑ Críticos ↑{{value}}",
+        "DESC": "Aumenta el Ataque del usuario en 6 niveles al entrar en combate. Aumenta la probabilidad de asestar golpes críticos del usuario en {{value}} nivel(es) al entrar en combate."
       },
       "1812690": {
         "NAME": "Movimiento Ataque ↓↓ +{{value}}",
@@ -20422,9 +20422,9 @@
         "DESC": "Hay una probabilidad del {{chance}}% de reducir el Ataque y la Defensa del objetivo en 2 niveles cuando el movimiento de ataque del usuario contra el objetivo acierta."
       },
       "1812720": {
-        "NAME": "1.ª Entrada At. Esp. ↑ Críticos ↑↑↑",
-        "ABBR": "1.ª Entrada A.Esp. ↑ Críticos ↑↑↑",
-        "DESC": "Aumenta el Ataque Especial del usuario en 1 nivel al entrar en combate por primera vez en cada combate. Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles al entrar en combate por primera vez en cada combate."
+        "NAME": "1.ª Entrada At. Esp. ↑{{value}} Críticos ↑↑↑",
+        "ABBR": "1.ª Entrada A.Esp. ↑{{value}} Críticos ↑↑↑",
+        "DESC": "Aumenta el Ataque Especial del usuario en {{value}} nivel(es) al entrar en combate por primera vez en cada combate. Aumenta la probabilidad de asestar golpes críticos del usuario en 3 niveles al entrar en combate por primera vez en cada combate."
       },
       "1812730": {
         "NAME": "Acción de Estado Ofensiva ↓ +{{value}}",

@@ -14569,7 +14569,7 @@
       "1501530": {
         "NAME": "Intro Compteur ↓ Attaque Spéciale 1↑",
         "ABBR": "Intro Compteur ↓ Attaque Spéciale 1↑",
-        "DESC": "Réduit de {{value}} le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Augmente l'Atq. Spé. du lanceur de {{value}} rang la première fois qu'il arrive au combat à chaque combat."
+        "DESC": "Réduit de 1 le nombre d'actions nécessaires pour lancer une capacité Duo pour le lanceur la première fois qu'il arrive au combat à chaque combat. Augmente l'Atq. Spé. du lanceur de {{value}} rang la première fois qu'il arrive au combat à chaque combat."
       },
       "1501540": {
         "NAME": "Intro Compteur 2↓ Critiques 1↑",
@@ -19967,9 +19967,9 @@
         "DESC": "Augmente l'Atq. Spé. et l'Esquive du lanceur de {{value}} rang quand il arrive au combat."
       },
       "1811780": {
-        "NAME": "Arrivée Attaque Spéciale 4↑ Critiques 1↑",
-        "ABBR": "Arrivée Atq. Spé. 4↑ Crit. 1↑",
-        "DESC": "Augmente l'Atq. Spé. du lanceur de 4 rangs quand il arrive au combat. Augmente le taux de critiques du lanceur de 1 rang quand il arrive au combat."
+        "NAME": "Arrivée Attaque Spéciale 4↑ Critiques {{value}}↑",
+        "ABBR": "Arrivée Atq. Spé. 4↑ Crit. {{value}}↑",
+        "DESC": "Augmente l'Atq. Spé. du lanceur de 4 rangs quand il arrive au combat. Augmente le taux de critiques du lanceur de {{value}} rang(s) quand il arrive au combat."
       },
       "1811790": {
         "NAME": "Action Capa. Duo Enn. Déf. ↓ {{value}}",
@@ -20402,9 +20402,9 @@
         "DESC": "Augmente la Défense et la Déf. Spé. de tous les Duos alliés de {{value}} rang la première fois que le lanceur arrive au combat à chaque combat."
       },
       "1812680": {
-        "NAME": "Arrivée Attaque 6↑ Critiques 1↑",
-        "ABBR": "Arrivée Attaque 6↑ Critiques 1↑",
-        "DESC": "Augmente l'Attaque du lanceur de 6 rangs quand il arrive au combat. Augmente le taux de critiques du lanceur de 1 rang quand il arrive au combat."
+        "NAME": "Arrivée Attaque 6↑ Critiques {{value}}↑",
+        "ABBR": "Arrivée Attaque 6↑ Critiques {{value}}↑",
+        "DESC": "Augmente l'Attaque du lanceur de 6 rangs quand il arrive au combat. Augmente le taux de critiques du lanceur de {{value}} rang(s) quand il arrive au combat."
       },
       "1812690": {
         "NAME": "Capacité Ennemi Attaque 2↓ {{value}}",
@@ -20422,9 +20422,9 @@
         "DESC": "{{chance}} % de chances de baisser l'Attaque et la Défense de la cible de 2 rangs quand le lanceur utilise avec succès une capacité offensive contre elle."
       },
       "1812720": {
-        "NAME": "Intro Attaque Spéciale 1↑ Critiques 3↑",
-        "ABBR": "Intro Attaque Spéciale 1↑ Critiques 3↑",
-        "DESC": "Augmente l'Atq. Spé. du lanceur de 1 rang la première fois qu'il arrive au combat à chaque combat. Augmente le taux de critiques du lanceur de 3 rangs la première fois qu'il arrive au combat à chaque combat."
+        "NAME": "Intro Attaque Spéciale {{value}}↑ Critiques 3↑",
+        "ABBR": "Intro Attaque Spéciale {{value}}↑ Critiques 3↑",
+        "DESC": "Augmente l'Atq. Spé. du lanceur de {{value}} rang(s) la première fois qu'il arrive au combat à chaque combat. Augmente le taux de critiques du lanceur de 3 rangs la première fois qu'il arrive au combat à chaque combat."
       },
       "1812730": {
         "NAME": "Action Statut Enn. Util. Atq. Atq. Spé. ↓ {{value}}",

@@ -14569,7 +14569,7 @@
       "1501530": {
         "NAME": "Debut: Sync CD ↓ & Sp. Atk ↑{{value}}",
         "ABBR": "Debut: Sync CD ↓ & S.Atk ↑{{value}}",
-        "DESC": "Reduces the user’s sync move countdown by {{value}} the first time it enters a battle each battle. Raises the user’s Sp. Atk by {{value}} stat rank the first time it enters a battle each battle."
+        "DESC": "Reduces the user’s sync move countdown by 1 the first time it enters a battle each battle. Raises the user’s Sp. Atk by {{value}} stat rank the first time it enters a battle each battle."
       },
       "1501540": {
         "NAME": "Debut: Sync CD ↓2 & Crit Rate ↑{{value}}",
@@ -19967,9 +19967,9 @@
         "DESC": "Raises the user’s Sp. Atk and evasiveness by {{value}} stat rank(s) when it enters a battle."
       },
       "1811780": {
-        "NAME": "Entry: Sp. Atk ↑4 & Crit Rate ↑",
-        "ABBR": "Entry: S.Atk ↑4 & Crit Rate ↑",
-        "DESC": "Raises the user’s Sp. Atk by 4 stat ranks when it enters a battle. Raises the user’s critical-hit rate by 1 stat rank when it enters a battle."
+        "NAME": "Entry: Sp. Atk ↑4 & Crit Rate {{value}}↑",
+        "ABBR": "Entry: S.Atk ↑4 & Crit Rate {{value}}↑",
+        "DESC": "Raises the user’s Sp. Atk by 4 stat ranks when it enters a battle. Raises the user’s critical-hit rate by {{value}} stat rank(s) when it enters a battle."
       },
       "1811790": {
         "NAME": "P-Move/S-Move on Opp: Defense ↓ {{value}}",
@@ -20402,9 +20402,9 @@
         "DESC": "Raises the Defense and Sp. Def of all allied sync pairs by {{value}} stat rank the first time the user enters a battle each battle."
       },
       "1812680": {
-        "NAME": "Entry: Attack ↑6 & Crit Rate ↑1",
-        "ABBR": "Entry: Atk. ↑6 & Crit ↑1",
-        "DESC": "Raises the user’s Attack by 6 stat ranks when it enters a battle. Raises the user’s critical-hit rate by 1 stat rank when it enters a battle."
+        "NAME": "Entry: Attack ↑6 & Crit Rate ↑{{value}}",
+        "ABBR": "Entry: Atk. ↑6 & Crit ↑{{value}}",
+        "DESC": "Raises the user’s Attack by 6 stat ranks when it enters a battle. Raises the user’s critical-hit rate by {{value}} stat rank(s) when it enters a battle."
       },
       "1812690": {
         "NAME": "Move on Opp: Attack ↓2 {{value}}",
@@ -20422,9 +20422,9 @@
         "DESC": "Has a chance ({{chance}}%) of lowering the target’s Attack and Defense by 2 stat ranks when the user’s attack move against it is successful."
       },
       "1812720": {
-        "NAME": "Debut: Sp. Atk ↑1 & Crit Rate ↑3",
-        "ABBR": "Debut: S.Atk ↑1 & Crit ↑3",
-        "DESC": "Raises the user’s Sp. Atk by 1 stat rank the first time it enters a battle each battle. Raises the user’s critical-hit rate by 3 stat ranks the first time it enters a battle each battle."
+        "NAME": "Debut: Sp. Atk ↑{{value}} & Crit Rate ↑3",
+        "ABBR": "Debut: S.Atk ↑{{value}} & Crit ↑3",
+        "DESC": "Raises the user’s Sp. Atk by {{value}} stat rank the first time it enters a battle each battle. Raises the user’s critical-hit rate by 3 stat ranks the first time it enters a battle each battle."
       },
       "1812730": {
         "NAME": "Use Status P-Move on Opp: Attack ↓ & Sp. Atk ↓ {{value}}",

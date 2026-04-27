@@ -14569,7 +14569,7 @@
       "1501530": {
         "NAME": "Erstantr.-GA-Countd.↓+Sp.-Ang. 1↑",
         "ABBR": "Erstantr. GA Countd.↓+Sp. Ang. 1↑",
-        "DESC": "Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns des Anwenders um {{value}}, wenn er erstmals den Kampf antritt. Erhöht ein Mal pro Kampf den Spezial-Angriff des Anwenders um {{value}}, wenn er erstmals den Kampf antritt."
+        "DESC": "Reduziert ein Mal pro Kampf den Wert des Gefährtenattacken-Countdowns des Anwenders um 1, wenn er erstmals den Kampf antritt. Erhöht ein Mal pro Kampf den Spezial-Angriff des Anwenders um {{value}}, wenn er erstmals den Kampf antritt."
       },
       "1501540": {
         "NAME": "Erstantr.-GA-Countd. 2↓+Volltr.-Ch. 1↑",
@@ -19967,8 +19967,8 @@
         "DESC": "Erhöht den Spezial-Angriff und den Fluchtwert des Anwenders um {{value}}, wenn er den Kampf antritt."
       },
       "1811780": {
-        "NAME": "Antritt-Sp.-Ang. 4↑+Volltr.-Ch. 1↑",
-        "ABBR": "Antr. Sp. Ang. 4↑ +Volltr. Ch. 1↑",
+        "NAME": "Antritt-Sp.-Ang. 4↑+Volltr.-Ch. {{value}}↑",
+        "ABBR": "Antr. Sp. Ang. 4↑ +Volltr. Ch. {{value}}↑",
         "DESC": "Erhöht den Spezial-Angriff des Anwenders um 4, wenn er den Kampf antritt. Erhöht die Volltrefferquote des Anwenders um {{value}}, wenn er den Kampf antritt."
       },
       "1811790": {
@@ -20402,9 +20402,9 @@
         "DESC": "Erhöht ein Mal pro Kampf die Verteidigung und Spezial-Verteidigung aller verbündeten Gefährten um {{value}}, wenn der Anwender erstmals den Kampf antritt."
       },
       "1812680": {
-        "NAME": "Antritt-Ang. 6↑+Volltr.-Ch. 1↑",
-        "ABBR": "Antritt Ang. 6↑+Volltr. Ch. 1↑",
-        "DESC": "Erhöht den Angriff des Anwenders um 6, wenn er den Kampf antritt. Erhöht die Volltrefferquote des Anwenders um 1, wenn er den Kampf antritt."
+        "NAME": "Antritt-Ang. 6↑+Volltr.-Ch. {{value}}↑",
+        "ABBR": "Antritt Ang. 6↑+Volltr. Ch. {{value}}↑",
+        "DESC": "Erhöht den Angriff des Anwenders um 6, wenn er den Kampf antritt. Erhöht die Volltrefferquote des Anwenders um {{value}}, wenn er den Kampf antritt."
       },
       "1812690": {
         "NAME": "Attacke-Gegner-Angriff 2↓ {{value}}",
@@ -20422,9 +20422,9 @@
         "DESC": "Hat eine {{chance}} %-Chance den Angriff und die Verteidigung des Zieles um 2 zu senken, wenn der Angriff des Anwenders mit einer Attacke gegen es Erfolg hat."
       },
       "1812720": {
-        "NAME": "Erstantritt-Sp.-Ang. 1↑+Volltr. 3↑",
-        "ABBR": "Erstantritt Sp. Ang. 1↑+Volltr. 3↑",
-        "DESC": "Erhöht ein Mal pro Kampf den Spezial-Angriff des Anwenders um 1, wenn er erstmals den Kampf antritt. Erhöht ein Mal pro Kampf die Volltrefferquote des Anwenders um 3, wenn er erstmals den Kampf antritt."
+        "NAME": "Erstantritt-Sp.-Ang. {{value}}↑+Volltr. 3↑",
+        "ABBR": "Erstantritt Sp. Ang. {{value}}↑+Volltr. 3↑",
+        "DESC": "Erhöht ein Mal pro Kampf den Spezial-Angriff des Anwenders um {{value}}, wenn er erstmals den Kampf antritt. Erhöht ein Mal pro Kampf die Volltrefferquote des Anwenders um 3, wenn er erstmals den Kampf antritt."
       },
       "1812730": {
         "NAME": "P-Status-Att.-Geg.-Ang.+Sp.-Ang.↓ {{value}}",
